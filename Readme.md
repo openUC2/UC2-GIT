@@ -92,6 +92,8 @@ We encourage everyone who is using our Toolbox to share their results and ideas,
 You're free to fork the project and enhance it. If you have any suggestions to improve it or add any additional functions make a pull-request or file an issue. 
 
 
+
+
 ## Printing it yourself
 All the CAD-Parts can be printed using an off-the-shef 3D printer (or 3D printing service). Currently we use majorly PLA and ABS coming from an ULTIMAKER 2+/3 (Netherlands) or DeeGreen (Czech Republic). 
 
