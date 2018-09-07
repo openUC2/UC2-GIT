@@ -85,6 +85,14 @@ This project is open so that anyone can get involved. Ways you can contribute in
 * Things in need of attention are currently described in issues so have a look there if you'd like to work on something but aren't sure what.
 
 
+REMARK: All files have been designed using Autodesk Inventor 2019 (EDUCATION)
+### Start Designing individual parts 
+We compiled a quick tutorial where you find a guide on how an inlet could look like. The base-cubes can hold any function you want. The fastes way is to rely on Thorlabs parts, but basically any other part can fit in it too. Have a look here:
+[Guide to design a customized function](./DOCUMENTS/Basic_Design_Cube_Inlet_Function_v0.pdf)
+
+## Raspberry Pi Quick-Start 
+Please find a manual here
+
 ## Kits, License and Collaboration
 This project is open-source and is released under the CERN open hardware license. Our aim is to make the kits commercially available. 
 We encourage everyone who is using our Toolbox to share their results and ideas, so that the Toolbox keeps improving. It should serve as a easy-to-use and easy-to-access general purpose building block solution for the area of STEAM education. All the design files are general for free, but we would like to hear how it is going. 
