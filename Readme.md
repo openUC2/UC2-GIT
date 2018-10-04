@@ -25,7 +25,7 @@ People are also encouraged to share their work. We are curious what the communit
 
 ## List of available Setups
 
-Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks!
+Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please go to the [CAD](./CAD/Readme.md)-folder to have a glimpse of what'S possible
 
 * Light-sheet Microscope
 * In-Incubator Microscope with X/Y/Z-control and adaptive illumination 
