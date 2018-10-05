@@ -10,7 +10,7 @@ It is equipped with two bipolar stepper motors for X and Y direction. The wiring
 	3 -- A-	
 	4 -- B-
 	
-![xypins](./images/xypins.png)
+![xypins](./images/XYpins.png)
 
 It can be controlled with an ESP32 or Arduino for example. Code is very easy as it relies on the $stepper.h$ library in Arduion IDE. We tested seveal H-Bridges to amplify the current coming from the Arduino GPIOs. The L293m works fine, but the DRV8833 is also good and even much smaller. The complete tutorial for can also be found at [Adafruit](https://learn.adafruit.com/adafruit-drv8833-dc-stepper-motor-driver-breakout-board/stepper-motor-usage). 
 
