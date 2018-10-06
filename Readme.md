@@ -99,7 +99,7 @@ We encourage everyone who is using our Toolbox to share their results and ideas,
 
 You're free to fork the project and enhance it. If you have any suggestions to improve it or add any additional functions make a pull-request or file an issue. 
 
-
+Please find the type of licenses [here](./
 
 
 ## Printing it yourself
