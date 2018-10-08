@@ -1,6 +1,6 @@
 # UC2
 
-![UC2 logo](./IMAGES/UC2_Logo.png)
+![UC2 logo](https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Logo.png | width=200)
 
 This is the online repository for the open-source hardware project ''UC2'' [YouSeeToo]. 
 
