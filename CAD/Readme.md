@@ -9,7 +9,9 @@ The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGr
 ## List of available setups:
 - [IN-INCUBATOR_MICROSCOPE](./IN-INCUBATOR_MICROSCOPE/Readme.md)
 - [INLINE_HOLOGRAM](./INLINE_HOLOGRAM/Readme.md)
-- [LIGHTSHEET-Scanning](./INLINE_HOLOGRAM/Readme.md)
+- [LIGHTSHEET-Scanning](./LIGHTSHEET-Scanning/Readme.md)
+
+
 
 More are coming soon! 
 
