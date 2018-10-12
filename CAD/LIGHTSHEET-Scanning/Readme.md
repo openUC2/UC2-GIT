@@ -1,4 +1,5 @@
-## In-Incubator Microscope
+## Lightsheet Microscope
+
 This is the repository for the inline hographical microscope. This will be part of the workshop which can be found in WORKSHOP.
 
 It acquires the interference of the spherial wave coming from a pinhole, illuminated by an LED, and the scattered wave from a transparent (phase) sample. 
