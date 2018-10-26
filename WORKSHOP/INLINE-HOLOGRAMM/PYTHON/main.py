@@ -41,7 +41,7 @@ class IndexTracker(object):
 
 
 # define some experimental parameters
-my_holo_file = 'beads_holo_3.jpg'
+my_holo_file = 'test_microplastic.jpg'
 my_background_file = 'test2bg.jpg'
 mychannel = 2 # select the color channel 0,1,2
 mysize = 1024 # region of interest around the center coordinate 
@@ -51,7 +51,7 @@ pixelsize = 1.4e-6; #0.6e-6#.2e-6#3.000e-6;
 lambda0 = 440e-9; # in nanometer #530e-9;
 
 # start and stop z-focus measure
-stepsize = 0.0001;
+stepsize = 0.001;
 
 # read the raw-hologram
 myholo = 1.*plt.imread(my_holo_file);
@@ -85,7 +85,7 @@ j = 0;
 # Fresnel Propagation - test out a range of z-values to find the one that
 # brings the bug into focus
 myholo_rec = [];
-for i in range(0,100):
+for i in range(0,20):
     #     [Ef, H] = fresnelprop(hologram,lambda,i,ps);
     zpos = i*stepsize;
     Ef = FP.FresnelPropagator(myholo, pixelsize, lambda0, zpos)
