@@ -32,4 +32,28 @@ myftholo = np.fft.fftshift(np.fft.fft2(myholo))
 plt.imshow(np.log(1+np.abs(myftholo)), cmap='gray')
 
 # creating phase mask
-myramp = np.linspace(0, myftholo.shape[1])/myftholo.shape[1]-.5
+myramp = np.linspace(-.5, .5, myftholo.shape[1])
+plt.plot(myramp)
+myramp = np.tile(myramp, (mysize, 1))
+
+# lets now shift our image in fourier space 
+shiftamount = 100
+myshift = myftholo*np.exp(1j*myramp*2*np.pi*shiftamount)
+plt.imshow(np.angle(np.exp(1j*myramp*2*np.pi*10)))
+myshift = np.fft.ifft2(np.fft.ifftshift(myshift))
+plt.imshow(np.abs(myshift))
+
+# circ puil
+x = np.linspace(-.5, .5, myftholo.shape[1])
+y = np.linspace(-.5, .5, myftholo.shape[1])
+xx,yy = np.meshgrid(x, y)
+plt.imshow(xx)
+plt.imshow(yy)
+
+
+
+# filter our object spectrum 
+mycirc = (xx**2 + yy**2)<.1;
+myfiltered = myftholo*mycirc
+myfiltered  = np.fft.ifft2(np.fft.ifftshift(myfiltered ))
+plt.imshow(np.abs(myfiltered ))
