@@ -524,7 +524,7 @@ if $(todo); then
   echo "${info} No entry by UC2 found in $auto_file"
  fi
  echo "${info} INSTALLATION COMPLETE."
- echo 'PLEASE RUN "SUDO RASPI-CONFIG" AND ENABLE INTERFACES SSH, PICAMERA AND I2C!'
+ echo 'PLEASE RUN "SUDO RASPI-CONFIG" AND ENABLE INTERFACES SSH, CAMERA AND I2C!'
  update_state $state
  datetime=$(date)
  echo "FINISH: ${datetime}" | sudo tee --append "${WORKING_DIR}/status" > /dev/null
