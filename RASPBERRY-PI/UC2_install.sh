@@ -26,7 +26,7 @@ AUTOSTART_FILE="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
 #AUTORUN_FILE="${WORKING_DIR}/autorun.sh"
 DIR_NICs="/sys/class/net/"
 IP_INFO=$(curl -s ipinfo.io)
-COUNTRY=$(echo $IP_INFO | awk '{print $11}' | cut -d ',' -f1 | tr -d \")
+COUNTRY=$(echo $IP_INFO | awk '{print $8}' | cut -d ',' -f1 | tr -d \")
 
 ICON_URL='https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY-PI/images/uc2_logo.ico'
 STATUS_URL='https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY-PI/status'
