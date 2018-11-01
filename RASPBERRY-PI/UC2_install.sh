@@ -194,7 +194,7 @@ if $(todo); then
  echo "${info} Updating and upgrading installed packages."
  apt-get -y update
  apt-get -y dist-upgrade
- echo "${info} Installing Cython... (takes approx. 30min on RaspberryPi 3B+)"
+ echo "${info} Installing Cython... (approx. 30min on RaspberryPi 3B+)"
  pip install -U Cython==0.28.2
  echo "${info} Forcing pip, virtualenv and setuptools update in pip"
  pip install --upgrade pip
@@ -236,7 +236,7 @@ fi
 #Installation of Kivy
 state="5"
 if $(todo); then
- echo "${info} Installing Kivy... (takes approx. 30min on RaspberryPi 3B+)"
+ echo "${info} Installing Kivy... (approx. 30min on RaspberryPi 3B+)"
  sleep 5s
  pip install Kivy==1.10.1
  update_state $state
@@ -524,6 +524,8 @@ if $(todo); then
   echo "${info} No entry by UC2 found in $auto_file"
  fi
  echo "${info} INSTALLATION COMPLETE."
- echo "$(info} PLEASE RUN \"SUDO RASPI-CONFIG\" AND ENABLE INTERFACES SSH, PICAMERA AND I2C (IF NOT DONE YET)"
+ echo 'PLEASE RUN "SUDO RASPI-CONFIG" AND ENABLE INTERFACES SSH, PICAMERA AND I2C!'
  update_state $state
+ datetime=$(date)
+ echo "FINISH: ${datetime}" | sudo tee --append "${WORKING_DIR}/status" > /dev/null
 fi
