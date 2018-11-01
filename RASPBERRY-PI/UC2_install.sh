@@ -119,41 +119,12 @@ todo(){
  if [ $diff -lt 0 ]; then echo true; else echo false; fi
 }
 
-#Preparation of WiFi-setup related variables 
-echo "${info} Scanning for WiFi-interfaces..."
-interface="wlan"
-interface_state="down"
-
- for path in "${DIR_NICs}"*; do
-  folder=$(basename "${path}")
-  case "${folder}" in "${interface}"*) iface="${folder}" break;; *) iface="none";; esac
- done
-
- if [ "${iface}" = "none" ]; then
-  echo "${info} No active physical interface with name \"${interface}*\" in ${DIR_NICs} found."
-  echo "${info} Virtual access point will not be created."
- else
-  interface_state=$(cat "${DIR_NICs}/${iface}/operstate")
-  interface_state=$(echo "${interface_state}"|tr '/a-z/' '/A-Z/')
-  
-  echo "Found active WiFi interface ${iface}. Virtual access point will be created upon ${iface}." 
-  IFACE="${iface}"
-  IFACE_IP=$(ip -o -f inet addr show "${IFACE}" | awk '/scope global/ {print $4}')
-  MACADDR=$(cat "${DIR_NICs}/${IFACE}/address")
-  IFACE_CHANNEL=$(iwlist "${IFACE}" channel)
-  IFACE_CHANNEL=$(echo "${IFACE_CHANNEL#*\(}" | sed 's/[^0-9]*//g')
-  NETMASK=$(echo "${IFACE_IP}" | tail -c 3)
-  AP_IP="192.168.50.1"
-  AP_BROADCAST=${AP_IP%.*}
-fi
-
-
+# get current installation progress
 current_state=$(head -n 1 "${WORKING_DIR}/status")
 current_state=${current_state##*:}
 echo "${info} current_state: ${current_state}"
 
 state="0"
-echo $(todo)
 #updates
 if $(todo); then
  datetime=$(date)
@@ -166,7 +137,6 @@ fi
 
 #check python version
 state="1"
-echo $(todo)
 if $(todo); then
  user=$(echo $SUDO_USER)
  target_version="2.7"
@@ -187,7 +157,6 @@ fi
 
 #install Kivy dependencies
 state="2"
-echo $(todo)
 if $(todo); then
  sleep 5s
  echo "${info} Installing Kivy dependencies."
@@ -219,14 +188,13 @@ fi
 
 #install Cython
 state="3"
-echo $(todo)
 if $(todo); then
  sleep 5s
  apt autoremove -y
  echo "${info} Updating and upgrading installed packages."
  apt-get -y update
  apt-get -y dist-upgrade
- echo "${info} Installing Cython..."
+ echo "${info} Installing Cython... (takes approx. 30min on RaspberryPi 3B+)"
  pip install -U Cython==0.28.2
  echo "${info} Forcing pip, virtualenv and setuptools update in pip"
  pip install --upgrade pip
@@ -243,7 +211,6 @@ fi
 
 #Preparation of Kivy installation
 state="4"
-echo $(todo)
 if $(todo); then
  sleep 15s
  echo "${info} Updating /boot/config.txt (required by Kivy/SDL2)"
@@ -269,7 +236,7 @@ fi
 #Installation of Kivy
 state="5"
 if $(todo); then
- echo "${info} Installing Kivy..."
+ echo "${info} Installing Kivy... (takes approx. 30min on RaspberryPi 3B+)"
  sleep 5s
  pip install Kivy==1.10.1
  update_state $state
@@ -280,7 +247,6 @@ fi
 
 #check kivy is correctly installed and callable for user
 state="6"
-echo $(todo)
 if $(todo); then
  sleep 15s
  apt -y autoremove
@@ -289,7 +255,6 @@ if $(todo); then
 fi
 
 state="7"
-echo $(todo)
 if $(todo); then
  echo "${info} Adding touchscreen provider to Kivy config-file"
  kivy_config="${USER_HOME_DIR}/.kivy/config.ini"
@@ -304,7 +269,6 @@ if $(todo); then
 fi
 
 state="8"
-echo $(todo)
 if $(todo); then
  echo "${info} Fetching PPS-app specific dependencies from apt-get and pip..."
  apt-get -y install libffi-dev
@@ -322,7 +286,6 @@ fi
 
 #install opencv
 state="9"
-echo $(todo)
 if $(todo); then
  echo "${info} Installing OpenCV and its dependencies..."
  apt autoremove -y
@@ -347,7 +310,6 @@ if $(todo); then
 fi
 
 state="10"
-echo $(todo)
 if $(todo); then
 
  echo "${info} Scanning for WiFi-interfaces..."
@@ -535,23 +497,22 @@ EOF
 fi
 
 state="11"
-echo $(todo)
 if $(todo); then
+ echo "${info} Rebooting again..."
  update_state $state
  sleep 5s
  reboot
 fi
 
 state="12"
-echo $(todo)
 if $(todo); then
+ echo "${info} Rebooting once again..."
  update_state $state
  sleep 5s
  reboot
 fi
 
 state="13"
-echo $(todo)
 if $(todo); then
  auto_file="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
  check_is_present "run_install" $auto_file
@@ -562,62 +523,7 @@ if $(todo); then
  else
   echo "${info} No entry by UC2 found in $auto_file"
  fi
+ echo "${info} INSTALLATION COMPLETE."
+ echo "$(info} PLEASE RUN \"SUDO RASPI-CONFIG\" AND ENABLE INTERFACES SSH, PICAMERA AND I2C (IF NOT DONE YET)"
  update_state $state
- echo "Rebooting..."
- sleep 5s
- reboot
 fi
-
-#state="14"
-#echo $(todo)
-#if $(todo); then
-# echo "${info} Fetching PPS-App from Github..."
-# wget -q $PPS_APP_URL
-# sleep 1s
-# mv 'PPS-app.zip?dl=1' 'PPS-app.zip'
-# echo "${info} Extracting PPS-App archive"
-# unzip -o -q PPS-app.zip
-# echo "${info} Creating Directory: ${PPS_APP_DIR}"
-# mkdir -p $PPS_APP_DIR
-# echo "${info} Moving PPS-App to ${PPS_APP_DIR}"
-# mv PPS-app/ $PPS_APP_DIR
-# echo "${info} Adding executable rights to PPS-app main program"
-# chmod +x "${PPS_APP_DIR}/PPS-app/code/main.py"
-# chmod +x "$AUTORUN_FILE"
-# cp -r $AUTORUN_FILE "${PPS_APP_DIR}/PPS-app/"
-# update_state $state
-#fi
-
-#state="15"
-#echo $(todo)
-#if $(todo); then
-# apt autoremove -y
-# echo "${info} Adding UC2-app to application launcher... "
-# #collect icon
-# echo "${info} Fetching data from UC2 server..."
-# wget -N $ICON_URL -P "${WORKING_DIR}/Images/" -q
- 
-# #add UC2-shortcut to known applications
-# cp -r "${WORKING_DIR}/uc2.desktop" $APPS_PATH
-
-# #add UC2-shortcut to applauncher
-# search_string="id=uc2.desktop"
-# target_file="$APPLAUNCHER_FILE"
-# make_backup $target_file "lxde"
-# check_is_present $search_string $target_file
-
-# if [ ! $is_present ]; then
-#  search_string="type=launchbar"
-#  find_line_no $search_string $target_file
-#  search_after_line "$target_file" "$line_no" "Config"
-#  line_no=$((line_no + offset))
-#  insert_text $INSERTS_FILE 2 4 $target_file $line_no
-#  echo "${info} Added UC2-App to app launcher."
-# else
-#  echo "${info} UC2-App is already present in app launcher."
-# fi
-# datetime=$(date)
-# echo "FINISH: ${datetime}" | sudo tee --append "${WORKING_DIR}/status" > /dev/null
-# sleep 5s
-# update_state $state
-#fi
