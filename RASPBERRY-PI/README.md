@@ -30,12 +30,12 @@ That says, setting up the image on a 3B+ with this script and then use the very 
 $ sudo raspi-config
 ```
 * In the interactive menu browse to **Interfacing Options**
- * enable SSH
- * enable I2C
- * enable Camera
+	* enable SSH
+	* enable I2C
+	* enable Camera
 
  
-* create UC2 folder in home directory
+* Create UC2 folder in home directory
 ```
 $ mkdir -p ~/UC2
 ```
