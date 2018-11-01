@@ -1,0 +1,28 @@
+#app_launcher
+    Button {
+      id=fluid.desktop
+    }
+
+#netstat
+Plugin {
+  type=netstat
+  Config {
+  }
+}
+
+#wifi persistent rules
+SUBSYSTEM=="ieee80211", ACTION=="add|change", ATTR{macaddress}=="b8:27:eb:a8:03:fa", KERNEL="phy0", \
+  RUN+="/sbin/iw phy phy0 interface add ap0 type __ap", \
+  RUN+="/sbin/ip link set ap0 address b8:27:eb:a8:03:fb"
+
+#kivy config
+mouse = mouse
+mtdev_%(name)s = probesysfs,provider=mtdev
+hid_%(name)s = probesysfs,provider=hidinput
+
+#boot config
+dtparam=i2c_arm_on
+dtparam=audio=on
+enable_uart=1
+start_x=1
+gpu_mem=128
