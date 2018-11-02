@@ -83,7 +83,8 @@ this internet connection while actually connected to the RaspberryPi's network. 
 * PWD: UCInsecurity2
 * Server-IP: 192.168.50.1
 * Server-Broadcast: 192.168.50.*
-a
+
+
 These credentials may be adjusted in the file **/etc/hostapd/hostapd.conf** or in **/etc/systemd/network/12-ap0.network** respectively 
 and should take effect after a reboot. If you need to add a new SSID after the install script was run, you will have to add it to 
 **/etc/wpa_supplicant/wpa_supplicant<span>@</span>wlan0.conf**. The ability to access the internet over the RaspberryPi's network may be restricted 
