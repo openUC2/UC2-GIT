@@ -57,7 +57,7 @@ $ sudo date -s "Tue Oct 30 16:07:41 CET 2018"
 ```
 $ sudo sh ~/UC2/UC2_install.sh
 ```
-* Installation will take approx. 100min (on model 3B+)
+* Installation will take approx. 90min (on model 3B+)
 
 ### Details
 The script will fetch other installation files by itself and manage necessary reboots on its own continuing installation 
@@ -97,4 +97,3 @@ Your resulting final screen should look like this:
 ### Acknowledgements
 
 Credits go to [Ingo](https://raspberrypi.stackexchange.com/users/79866/ingo) for providing a neat tutorial for [establishing the access point](https://raspberrypi.stackexchange.com/questions/89803/access-point-as-wifi-repeater-optional-with-bridge)
-
