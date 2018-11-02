@@ -24,6 +24,8 @@ That says, setting up the image on a 3B+ with this script and then use the very 
 ## Installing
 
 * Flash one of the above mentioned Stretch releases onto the SD-Card (e.g. with Etcher on Windows)
+* Put the just flashed SD-card into the RaspberryPi, connect the RaspberryPi to a display and power it up
+* Connect a keyboard and/or mouse to the USB-connectors in order to be able to insert instructions below
 * Set up your internet connection and locale settings right after booting
 * Open Terminal and enable future-needed interfaces by typing
 ```
@@ -74,7 +76,7 @@ However in the following is a short summary of the major packages installed to t
 
 Beside that, the RaspberryPi will be turned into an access point, i.e. the RaspberryPi will create an own network with dedicated SSID where the
 RaspberryPi is the server. This allows the user to establish a direct SSH connection to the Pi, even when there is no other network 
-(e.g. no internet connection) taking care of the routing. In addition, if the Pi *has* an internet connection it allows you to access 
+(e.g. no internet connection) taking care of the routing. In addition, if the Pi has an internet connection it allows you to access 
 this internet connection while actually connected to the RaspberryPi's network. The credentials of the RaspberryPi's own network default to:
 
 * SSID: UC2_RaspberryPi_APxxxxx
@@ -85,9 +87,11 @@ this internet connection while actually connected to the RaspberryPi's network. 
 These credentials may be adjusted in the file **/etc/hostapd/hostapd.conf** or in **/etc/systemd/network/12-ap0.network** respectively 
 and should take effect after a reboot. If you need to add a new SSID after the install script was run, you will have to add it to 
 **/etc/wpa_supplicant/wpa_supplicant<span>@</span>wlan0.conf**. The ability to access the internet over the Raspberry Pi's network may be restricted 
-by the internet providing networks firewall (e.g. eduroam). On a regular home router with WPA2 it should work though. 
+by the internet providing networks firewall (e.g. eduroam). On a regular home router with WPA2 it should work though.
 
-
+If you encounter problems with your prior-to-install working internet connection, please check the entries in /etc/hostapd/hostapd.conf 
+- especially the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)! - and replace by something appropriate if they 
+oviously appear to be rubbish. Changes take effect after a reboot.
 
 ### Acknowledgements
 
