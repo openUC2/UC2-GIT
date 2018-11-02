@@ -89,7 +89,7 @@ and should take effect after a reboot. If you need to add a new SSID after the i
 **/etc/wpa_supplicant/wpa_supplicant<span>@</span>wlan0.conf**. The ability to access the internet over the Raspberry Pi's network may be restricted 
 by the internet providing networks firewall (e.g. eduroam). On a regular home router with WPA2 it should work though.
 
-If you encounter problems with your prior-to-install working internet connection, please check the entries in /etc/hostapd/hostapd.conf (especially the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) and replace by something appropriate if something obviously appears to be rubbish. Changes take effect after a reboot.
+If you encounter problems with your prior-to-install working internet connection, please check the entries in /etc/hostapd/hostapd.conf (especially the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) and replace by something appropriate if something is obviously rubbish. Changes take effect after a reboot.
 
 ### Acknowledgements
 
