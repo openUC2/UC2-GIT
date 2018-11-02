@@ -83,13 +83,16 @@ this internet connection while actually connected to the RaspberryPi's network. 
 * PWD: UCInsecurity2
 * Server-IP: 192.168.50.1
 * Server-Broadcast: 192.168.50.*
-
+a
 These credentials may be adjusted in the file **/etc/hostapd/hostapd.conf** or in **/etc/systemd/network/12-ap0.network** respectively 
 and should take effect after a reboot. If you need to add a new SSID after the install script was run, you will have to add it to 
 **/etc/wpa_supplicant/wpa_supplicant<span>@</span>wlan0.conf**. The ability to access the internet over the RaspberryPi's network may be restricted 
 by the internet providing networks firewall (e.g. eduroam). On a regular home router with WPA2 it should work though.
 
 If you encounter problems with your prior-to-install working internet connection, please check the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in /etc/hostapd/hostapd.conf and replace by something appropriate if obviously rubbish. Changes take effect after a reboot.
+Your resulting final screen should look like this:
+
+![Network once finished](https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY-PI/images/finish_network.png)
 
 ### Acknowledgements
 
