@@ -10,7 +10,7 @@ taking care of this in order to get you started right at the imaging part.
 
 * RaspberryPi 3B+
 * Micro-SD-Card with at least 8GB
-* Image of [**Rasbian Stretch Desktop**](https://www.raspberrypi.org/downloads/raspbian/) (at least version of 2018-06-27)
+* Image of [**Raspbian Stretch Desktop**](https://www.raspberrypi.org/downloads/raspbian/) (at least version of 2018-06-27)
 * Ready set internet connection on the image
 * Making sure the Pi's time and date is correct (SSL-Handshake)
 
@@ -86,7 +86,7 @@ this internet connection while actually connected to the RaspberryPi's network. 
 
 These credentials may be adjusted in the file **/etc/hostapd/hostapd.conf** or in **/etc/systemd/network/12-ap0.network** respectively 
 and should take effect after a reboot. If you need to add a new SSID after the install script was run, you will have to add it to 
-**/etc/wpa_supplicant/wpa_supplicant<span>@</span>wlan0.conf**. The ability to access the internet over the Raspberry Pi's network may be restricted 
+**/etc/wpa_supplicant/wpa_supplicant<span>@</span>wlan0.conf**. The ability to access the internet over the RaspberryPi's network may be restricted 
 by the internet providing networks firewall (e.g. eduroam). On a regular home router with WPA2 it should work though.
 
 If you encounter problems with your prior-to-install working internet connection, please check the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in /etc/hostapd/hostapd.conf and replace by something appropriate if obviously rubbish. Changes take effect after a reboot.
