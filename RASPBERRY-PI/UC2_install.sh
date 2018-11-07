@@ -26,7 +26,6 @@ AUTOSTART_FILE="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
 #AUTORUN_FILE="${WORKING_DIR}/autorun.sh"
 DIR_NICs="/sys/class/net/"
 IP_INFO=$(curl -s ipinfo.io)
-COUNTRY=$(echo $IP_INFO | awk '{print $8}' | cut -d ',' -f1 | tr -d \")
 
 ICON_URL='https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY-PI/images/uc2_logo.ico'
 STATUS_URL='https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY-PI/status'
@@ -78,6 +77,15 @@ fi
 
 
 # Declare additional functions
+get_country(){
+ IP_INFO=$(curl -s ipinfo.io)
+ sleep 3s
+ COUNTRY=${IP_INFO##*country}
+ COUNTRY=${COUNTRY%%loc*}
+ COUNTRY=$(echo $COUNTRY | sed "s/[^a-zA-Z]//g")
+ COUNTRY=$(echo $COUNTRY | tr -d ' ')
+}
+
 update_state(){
  sed -i "1s/.*/state: $1/" "${WORKING_DIR}/status"
  current_state="$1"
@@ -125,8 +133,60 @@ current_state=${current_state##*:}
 echo "${info} current_state: ${current_state}"
 
 state="0"
-#updates
+#Check for most recently created new user
 if $(todo); then
+
+ echo "${info} Checking for most recently created new user..."
+ target_file="/var/log/auth.log"
+ search_string=': new user: name='
+ check_is_present "$search_string" $target_file
+ if [ $is_present ]; then
+  newusername=$(tac $target_file | sed -n "/${search_string}/{p;q}")
+  newusername=${newusername##*$search_string}
+  newusername=${newusername%%, *}
+  newusername=$(echo $newusername | tr -d ' ')
+  echo "${info} Found user: ${newusername}"
+  echo "${info} Preparing installation for ${newusername}..."
+  usermod $newusername -a -G pi,adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio
+  target_file="/etc/sudoers"
+  make_backup $target_file "etc"
+  check_is_present "${newusername} ALL=(ALL) NOPASSWD:ALL" $target_file
+  if [ ! $is_present ]; then
+   echo "${newusername} ALL=(ALL) NOPASSWD:ALL" | sudo EDITOR='tee -a' visudo >/dev/null
+  fi
+  target_file="/etc/lightdm/lightdm.conf"
+  find_line_no 'autologin-user=pi' $target_file
+  if [ $line_no -gt 0 ]; then
+   sed -i "${line_no}s/.*/autologin-user=${newusername}/" $target_file
+  fi
+
+  target_file='/etc/systemd/system/autologin@.service'
+  find_line_no 'ExecStart=-/sbin/agetty' $target_file
+  if [ $line_no -gt 0 ]; then
+   sed -i -e "${line_no}s/pi/${newusername}/g" $target_file
+  fi
+
+  source_file="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
+  USER_HOME_DIR="/home/${newusername}"
+  cp -r ${WORKING_DIR} $USER_HOME_DIR
+  WORKING_DIR="${USER_HOME_DIR}/UC2"
+  AUTOSTART_FILE="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
+  AUTOSTART_DIR=$(dirname "${AUTOSTART_FILE}")
+  mkdir -p $AUTOSTART_DIR
+  chown -R $newusername $USER_HOME_DIR
+  cp -r $source_file $AUTOSTART_FILE
+ else
+  echo "${info} No newly created user found. Proceeding with currently logged in user ${OS_USER} after reboot..."
+ fi
+ add_to_autostart
+ update_state $state
+ sleep 5s
+ reboot
+fi
+
+state="1"
+if $(todo); then
+ sleep 5s
  datetime=$(date)
  echo "${info} Updating and upgrading installed packages."
  echo "START: ${datetime}" | sudo tee --append "${WORKING_DIR}/status" > /dev/null
@@ -136,7 +196,7 @@ if $(todo); then
 fi
 
 #check python version
-state="1"
+state="2"
 if $(todo); then
  user=$(echo $SUDO_USER)
  target_version="2.7"
@@ -145,10 +205,9 @@ if $(todo); then
  case $python_version in
   *"$target_version"*)  echo "${info} Python 2.7 is already default" ;;
   *)                    echo "${info} Changing default Python version to Python 2.7"
-			make_backup "/home/${OS_USER}/.bashrc"
+			make_backup "${WORKING_DIR}/.bashrc" "home"
                         echo "${info} alias python=\"/usr/bin/python\"" >> "/home/${OS_USER}/.bashrc" ;;
  esac
- add_to_autostart
  update_state $state
  echo "${info} Rebooting..."
  sleep 5s
@@ -156,7 +215,7 @@ if $(todo); then
 fi
 
 #install Kivy dependencies
-state="2"
+state="3"
 if $(todo); then
  sleep 5s
  echo "${info} Installing Kivy dependencies."
@@ -187,7 +246,7 @@ if $(todo); then
 fi
 
 #install Cython
-state="3"
+state="4"
 if $(todo); then
  sleep 5s
  apt autoremove -y
@@ -210,7 +269,7 @@ if $(todo); then
 fi
 
 #Preparation of Kivy installation
-state="4"
+state="5"
 if $(todo); then
  sleep 15s
  echo "${info} Updating /boot/config.txt (required by Kivy/SDL2)"
@@ -234,7 +293,7 @@ if $(todo); then
 fi
 
 #Installation of Kivy
-state="5"
+state="6"
 if $(todo); then
  echo "${info} Installing Kivy... (approx. 30min on RaspberryPi 3B+)"
  sleep 5s
@@ -246,7 +305,7 @@ if $(todo); then
 fi
 
 #check kivy is correctly installed and callable for user
-state="6"
+state="7"
 if $(todo); then
  sleep 15s
  apt -y autoremove
@@ -254,7 +313,7 @@ if $(todo); then
  update_state $state
 fi
 
-state="7"
+state="8"
 if $(todo); then
  echo "${info} Adding touchscreen provider to Kivy config-file"
  kivy_config="${USER_HOME_DIR}/.kivy/config.ini"
@@ -268,7 +327,7 @@ if $(todo); then
  update_state $state
 fi
 
-state="8"
+state="9"
 if $(todo); then
  echo "${info} Fetching PPS-app specific dependencies from apt-get and pip..."
  apt-get -y install libffi-dev
@@ -285,7 +344,7 @@ if $(todo); then
 fi
 
 #install opencv
-state="9"
+state="10"
 if $(todo); then
  echo "${info} Installing OpenCV and its dependencies..."
  apt autoremove -y
@@ -309,9 +368,9 @@ if $(todo); then
  reboot
 fi
 
-state="10"
+state="11"
 if $(todo); then
-
+ sleep 10s
  echo "${info} Scanning for WiFi-interfaces..."
  interface="wlan"
  interface_state="down"
@@ -335,20 +394,20 @@ if $(todo); then
   IFACE="${iface}"
   IFACE_IP=$(ip -o -f inet addr show "${IFACE}" | awk '/scope global/ {print $4}')
   MACADDR=$(cat "${DIR_NICs}/${IFACE}/address")
-  IFACE_CHANNEL=$(iwlist "${IFACE}" channel)
-  IFACE_CHANNEL=$(echo "${IFACE_CHANNEL#*\(}" | sed 's/[^0-9]*//g')
+  #IFACE_CHANNEL=$(iwlist "${IFACE}" channel)
+  #IFACE_CHANNEL=$(echo "${IFACE_CHANNEL#*\(}" | sed 's/[^0-9]*//g')
   NETMASK=$(echo "${IFACE_IP}" | tail -c 3)
   AP="ap${i}"
   AP_IP="192.168.50.1"
   AP_BROADCAST=${AP_IP%.*}
- 
+
   echo "${info} Setting up virtual access point..."
   target_file="/etc/udev/rules.d/70-persistent-net.rules"
 
   if [ ! -f $target_file ]; then
-  touch $target_file
-  printf "ACTION==\"add\", SUBSYSTEM==\"ieee80211\", KERNEL=\"phy0\", \\ \n" >> $target_file
-  printf "RUN+=\"/sbin/iw phy %%k interface add ${AP} type __ap\", \\ \n" >> $target_file
+   touch $target_file
+   printf "ACTION==\"add\", SUBSYSTEM==\"ieee80211\", KERNEL=\"phy0\", \\ \n" >> $target_file
+   printf "RUN+=\"/sbin/iw phy %%k interface add ${AP} type __ap\", \\ \n" >> $target_file
   fi
 
   mkdir -p /var/log/journal
@@ -357,10 +416,18 @@ if $(todo); then
   apt -y install hostapd
   systemctl stop hostapd
 
+  systemctl stop networking.service
+  systemctl stop dhcpcd.service
   systemctl mask networking.service
   systemctl mask dhcpcd.service
-  mv /etc/network/interfaces /etc/network/interfaces~
-  sed -i '1i resolvconf=NO' /etc/resolvconf.conf
+
+  target_file="/etc/network/interfaces"
+  make_backup $target_file "etc_net"
+  mv $target_file "${target_file}~"
+
+  target_file="/etc/resolvconf.conf"
+  make_backup $target_file "etc"
+  sed -i '1i resolvconf=NO' $target_file
 
   systemctl enable systemd-networkd.service
   systemctl enable systemd-resolved.service
@@ -430,6 +497,7 @@ EOF
   search_string="type=dhcpcdui"
   check_is_present $search_string $target_file
   if [ $is_present ]; then
+   make_backup $target_file "lxde"
    find_line_no $search_string $target_file
    del_strt=$((line_no - 1))
    del_stop=$((line_no + 3))
@@ -446,6 +514,8 @@ EOF
   rnd=$(shuf -i 0-100000 -n 1)
   AP_network="UC2_RaspberryPi_AP${rnd}"
   AP_pass="UCInsecurity2"
+  get_country
+  sleep 1s
 
 cat > "/etc/hostapd/hostapd.conf" <<EOF
 interface=${AP}
@@ -496,23 +566,7 @@ EOF
  fi
 fi
 
-state="11"
-if $(todo); then
- echo "${info} Rebooting again..."
- update_state $state
- sleep 5s
- reboot
-fi
-
 state="12"
-if $(todo); then
- echo "${info} Rebooting once again..."
- update_state $state
- sleep 5s
- reboot
-fi
-
-state="13"
 if $(todo); then
  auto_file="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
  check_is_present "run_install" $auto_file
@@ -523,6 +577,7 @@ if $(todo); then
  else
   echo "${info} No entry by UC2 found in $auto_file"
  fi
+ chown -R $OS_USER $AUTOSTART_FILE
  echo "${info} INSTALLATION COMPLETE."
  echo 'PLEASE RUN "SUDO RASPI-CONFIG" AND ENABLE INTERFACES SSH, CAMERA AND I2C!'
  update_state $state
