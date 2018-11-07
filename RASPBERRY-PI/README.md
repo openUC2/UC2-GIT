@@ -21,23 +21,31 @@ That says, setting up the image on a 3B+ with this script and then use the very 
 
 **The shell script UC2_install.sh assumes running on a fresh Rasbian Stretch Desktop image. We take no responsibility for any damage or loss introduced by this script.**
 
+## Security
+
+Raspbian ships with a commonly well-known default username and password. Although you was prompted to change the password for the default user pi,
+immediately after first boot, the commonly known user name keeps being quite a security issue (attack-vector) in combination with active SSH. Remember,
+intruders to your RaspberryPi are at this point intruders to your whole local network probably trusting the RaspberryPi. 
+
+**For security reasons we therefore highly recommend to create a new user with a new password prior to running this script!** 
+
+* Open a terminal window and create a new user with a name of your choice with: (replace without brackets; non-caps)
+```
+$ sudo adduser <yournewusername> --gecos ""
+```
+* You will be prompted to choose a new password for the newly created user
+* Please reboot when done. Re-login to user pi is no problem and expected by the script
+* Installation will switch to the newly created user's profile by itself
+* FYI: The install script itself does *never* know your or any logged-in user's password!
+
 ## Installing
 
 * Flash one of the above mentioned Stretch releases onto the SD-Card (e.g. with Etcher on Windows)
 * Put the just flashed SD-card into the RaspberryPi, connect the RaspberryPi to a display and power it up
 * Connect a keyboard and/or mouse to the USB-connectors in order to be able to insert instructions below
+* Change password for the default user pi to a secure one on OS prompt
 * Set up your internet connection and locale settings right after booting
-* Open Terminal and enable future-needed interfaces by typing
-```
-$ sudo raspi-config
-```
-* In the interactive menu browse to **Interfacing Options**
-	* enable SSH
-	* enable I2C
-	* enable Camera
-
- 
-* Create UC2 folder in home directory
+* Open a terminal and create UC2 folder in home directory
 ```
 $ mkdir -p ~/UC2
 ```
@@ -49,7 +57,7 @@ $ wget https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY
 ```
 $ sudo chmod a+x ~/UC2/UC2_install.sh
 ```
-* Make sure time and date of the RaspberryPi are correctly set (replace date, time and timezone appropriately)
+* Make sure time and date of the RaspberryPi are correctly set if out of sync. (replace date, time and timezone appropriately)
 ```
 $ sudo date -s "Tue Oct 30 16:07:41 CET 2018"
 ```
@@ -58,13 +66,27 @@ $ sudo date -s "Tue Oct 30 16:07:41 CET 2018"
 $ sudo sh ~/UC2/UC2_install.sh
 ```
 * Installation will take approx. 90min (on model 3B+)
+* Once the installation has finished you will be notified by the the Terminal window given in the screenshots below
+* ***Please close this notifying window immediately once you become aware the installation completed successfully!***
+
+* Now open a regular terminal and enable future-needed interfaces by typing
+```
+$ sudo raspi-config
+```
+* In the interactive menu browse to **Interfacing Options**
+	* enable SSH
+	* enable I2C
+	* enable Camera
 
 ### Details
-The script will fetch other installation files by itself and manage necessary reboots on its own continuing installation 
-with sudo rights afterwards. Although it is generally possible to stop and resume installation at a given point it is recommended to not interrupt 
-the installation or do anything else on the RaspberryPi in parallel. Once running, the setup script does not need any other user 
-intervention and will notify you when it is done. Insight on what operations the script performs is given by the script itself. 
-However in the following is a short summary of the major packages installed to the system:
+If you created a new user as recommended this new user will be equipped with sudo rights by the script and the installation will switch 
+to the new user's profile automatically. In case no new user was created it will run on the currently logged-in user's profile. 
+
+The script will fetch other installation files by itself and manage necessary reboots on its own continuing installation with sudo rights 
+afterwards. Although it is generally possible to stop and resume installation at a given point it is recommended to not interrupt the 
+installation or do anything else on the RaspberryPi in parallel. Once running, the setup script does not need any other user intervention 
+and will notify you when it is done. Insight on what operations the script performs is given by the script itself. However, in the following 
+is a short summary of the major packages installed to the system:
 
 * OpenCV 2.4.9.1 (Image-processing Library)
 * kivy 1.10.1 (UI-Provider)
@@ -77,23 +99,38 @@ However in the following is a short summary of the major packages installed to t
 Beside that, the RaspberryPi will be turned into an access point, i.e. the RaspberryPi will create an own network with dedicated SSID where the
 RaspberryPi is the server. This allows the user to establish a direct SSH connection to the Pi, even when there is no other network 
 (e.g. no internet connection) taking care of the routing. In addition, if the Pi has an internet connection it allows you to access 
-this internet connection while actually connected to the RaspberryPi's network. The credentials of the RaspberryPi's own network default to:
+this internet connection while actually being connected to the RaspberryPi's network. The credentials of the RaspberryPi's own network default to:
 
 * SSID: UC2_RaspberryPi_APxxxxx
 * PWD: UCInsecurity2
 * Server-IP: 192.168.50.1
 * Server-Broadcast: 192.168.50.*
 
-
-These credentials may be adjusted in the file **/etc/hostapd/hostapd.conf** or in **/etc/systemd/network/12-ap0.network** respectively 
+These credentials may be adjusted in the file **/etc/hostapd/hostapd.conf** (SSID-Password) or in **/etc/systemd/network/12-ap0.network** respectively 
 and should take effect after a reboot. If you need to add a new SSID after the install script was run, you will have to add it to 
-**/etc/wpa_supplicant/wpa_supplicant<span>@</span>wlan0.conf**. The ability to access the internet over the RaspberryPi's network may be restricted 
+**/etc/wpa_supplicant/wpa_supplicant-wlan0.conf**. The ability to access the internet over the RaspberryPi's network may be restricted 
 by the internet providing networks firewall (e.g. eduroam). On a regular home router with WPA2 it should work though.
 
-If you encounter problems with your prior-to-install working internet connection, please check the [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) in /etc/hostapd/hostapd.conf and replace by something appropriate if obviously rubbish. Changes take effect after a reboot.
-Your final Terminal screen should look like this:
+If you encounter problems with your prior-to-install working internet connection, please check the files mentioned in the preceding paragraph in 
+and replace obvious nonsense entries by something appropriate (e.g. [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)). 
+Changes will take effect after a reboot. If your problem persists please open an issue. Your final terminal screen should look like this:
 
 ![Network once finished](https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY-PI/images/finish_network.png)
+
+### Backups
+
+System-relevant files touched by this script are backed-up prior to modification under ~/UC2/backups with an identifying prefix (e.g. "boot" or "lxde")
+Following files might be recovered after a successful run:
+
+* /etc/sudoers (etc_sudoers.bak)
+* /boot/config.txt (boot_config.bak)
+* /etc/network/interfaces (etc_net_interfaces.bak)
+* /etc/resolvconf.conf (etc_resolvconf.bak)
+* ~/.config/lxpanel/LXDE-pi/panels/panel (lxde_panel.bak)
+* ~/.config/lxsession/LXDE-pi/autostart (lxde_autostart.bak)
+* ~/.kivy/config.txt (kivy_config.bak)
+
+In case it turns out to be highly demanded we will consider providing script reverting system-relevant changes.
 
 ### Acknowledgements
 
