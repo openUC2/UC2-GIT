@@ -63,6 +63,7 @@ fi
 target_file="${WORKING_DIR}/bring_kivy_up.py"
 if [ ! -f $target_file ]; then
  wget -N -q --no-check-certificate --content-disposition ${KIVY_UP_URL}
+ sleep 3s
  chmod a+x $target_file
 fi
 
@@ -105,7 +106,7 @@ cat > $runfile  << EOF
 
 lxterminal --command="sudo /bin/sh -c '${WORKING_DIR}/UC2_install.sh; /bin/bash'"
 EOF
-
+sleep 3s
 chmod a+x $runfile
  
 check_is_present "run_install" $AUTOSTART_FILE
@@ -487,6 +488,7 @@ EOF
 #EOF
 
   cp -r /etc/wpa_supplicant/wpa_supplicant.conf "/etc/wpa_supplicant/wpa_supplicant-${IFACE}.conf"
+  sleep 1s
   chmod 600 "/etc/wpa_supplicant/wpa_supplicant-${IFACE}.conf"
   systemctl disable wpa_supplicant.service
   systemctl enable "wpa_supplicant@${IFACE}.service"
@@ -531,7 +533,7 @@ wpa_key_mgmt=WPA-PSK
 wpa_pairwise=TKIP
 rsn_pairwise=CCMP
 EOF
-
+  sleep 3s
   chmod 600 /etc/hostapd/hostapd.conf
   sed -i 's/^#DAEMON_CONF=.*$/DAEMON_CONF="\/etc\/hostapd\/hostapd.conf"/' /etc/default/hostapd
   sed -i 's/^\(# Should-Start:\s*$network\)$/#\1/' /etc/init.d/hostapd
@@ -577,6 +579,7 @@ if $(todo); then
  else
   echo "${info} No entry by UC2 found in $auto_file"
  fi
+ sleep 1s
  chown -R $OS_USER $AUTOSTART_FILE
  echo "${info} INSTALLATION COMPLETE."
  echo 'PLEASE RUN "SUDO RASPI-CONFIG" AND ENABLE INTERFACES SSH, CAMERA AND I2C!'
