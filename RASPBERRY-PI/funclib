@@ -1,0 +1,108 @@
+#!/bin/sh
+#set -x
+#function library for fluiiscope setup
+check_is_present(){
+ search_str="$1"
+ file="$2"
+ is_present=$(grep -q "${search_str}" $file && echo $?)
+}
+
+find_line_no(){
+ local search_str="$1"
+ local file="$2"
+ check_is_present $search_str $file
+ if [ $is_present ]; then
+  line_no=$(grep -n "$search_str" "$file")
+  line_no=${line_no%%:*}
+  next_line_no=$((line_no + 1))
+ else
+  line_no=-1
+  next_line_no=-1
+ fi
+}
+
+count_preceding_whitespaces(){
+ local line_no="$1"
+ local file="$2"
+ input_str=$(sed "${line_no}q;d" $file)
+ n_chars1=${#input_str}
+ input_str=$(echo ${input_str##+([[:space:]])})
+ n_chars2=${#input_str}
+ n_whitespaces=$((n_chars1 - n_chars2))
+}
+
+search_after_line(){
+ local file="$1"
+ local line="$2"
+ local str="$3"
+ offset=$((line + 10))
+ crop=$(sed -n "${line},${offset}p" ${file})
+ offset=$(echo "$crop" | grep -n "$str")
+ offset=${offset%:*}
+ offset=$((offset - 1))
+}
+
+insert_line(){
+ local file="$1"
+ local line="$2"
+ local text="$3"
+ sed -i "${line}i ${text}" $file
+}
+
+delete_line(){
+ local file="$1"
+ local line="$2"
+ sed -i "${line}d" $file
+}
+
+insert_text(){
+ local in_file="$1"
+ local in_strt="$2"
+ local in_stop="$3"
+ local out_file="$4"
+ local out_strt="$5"
+ sed -n "${in_strt},${in_stop}p" $in_file>patch
+ if [ $out_strt -eq 0 ]; then
+  cat patch > $target_file 
+ else
+  sed -i "${out_strt}r"patch $out_file
+ fi
+ rm patch
+}
+
+delete_text(){
+ strt_line="$1"
+ stop_line="$2"
+ file="$3"
+ sed -i "${strt_line},${stop_line}d" $file
+}
+
+make_backup(){
+ local file="$1"
+ local prefix="$2"
+ local dir=$(dirname "${file}")
+ local base=$(basename "${file}" | cut -d. -f1)
+ local bakfile="${BACKUP_DIR}/${prefix}_${base}.bak"
+ if [ ! -f $bakfile ]; then
+  cp -r $file $bakfile
+ fi
+}
+
+restart_lxpanel(){
+ echo "${info} Restarting lxpanel... (has to be run on machine, will not work via SSH)"
+ lxpanelctl restart
+}
+
+search_and_delete(){
+local count=0
+while true;
+ do
+  find_line_no "$1" "$2"
+  if [ $line_no -gt 0 -a $count -lt 5 ]; then
+   delete_line "$2" "$line_no"
+   count=$((count+1))
+  else
+   break 
+  fi
+ done
+}

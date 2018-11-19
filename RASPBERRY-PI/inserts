@@ -1,0 +1,23 @@
+#app_launcher
+    Button {
+      id=fluid.desktop
+    }
+
+#netstat
+Plugin {
+  type=netstat
+  Config {
+  }
+}
+
+#kivy config
+mouse = mouse
+mtdev_%(name)s = probesysfs,provider=mtdev
+hid_%(name)s = probesysfs,provider=hidinput
+
+#boot config
+dtparam=i2c_arm_on
+dtparam=audio=on
+enable_uart=1
+start_x=1
+gpu_mem=128
