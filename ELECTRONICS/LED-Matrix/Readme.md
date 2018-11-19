@@ -9,6 +9,11 @@ It can be controlled with an ESP32 or Arduino for example. Code is very easy as 
 
 ![xypins](./images/LED_Matrix_v0_Schaltplan.png)
 
+## Schematics
+
+![xypins](./images/LED_Matrix_v0_Schaltplan2.png)
+
+
 ## Wiring 
 This is how it could look like in a cube
 ![Wiring1](./images/Wiring1.jpg)
