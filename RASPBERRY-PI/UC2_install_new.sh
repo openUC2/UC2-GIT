@@ -413,9 +413,6 @@ if $(todo); then
   # printf "ACTION==\"add\", SUBSYSTEM==\"ieee80211\", KERNEL=\"phy0\", \\ \n" >> $target_file
   # printf "RUN+=\"/sbin/iw phy %%k interface add ${AP} type __ap\", \\ \n" >> $target_file
 
-  
-  fi
-
   mkdir -p /var/log/journal
   systemd-tmpfiles --create --prefix /var/log/journal
   apt -y install rng-tools
@@ -581,18 +578,16 @@ sudo systemctl start hostapd
 EOF
 
   chmod a+x $target_file
-  crontab -u ${OS_USER} -l > mycron
-  echo "@reboot sh ${WORKING_DIR}/reload_hostapd.sh > ${WORKING_DIR}/reload_hostapd.log 2>&1"
-  crontab mycron
-  rm mycron
+  { crontab -l -u ${OS_USER}; echo "@reboot sh ${target_file} > ${target_file%.*}.log"; } | crontab -u ${OS_USER} -
 
   update_state $state
   echo "${info} Rebooting..."
   sleep 5s
-  reboot
+  #reboot
  fi
 fi
 
+exit 0
 state="12"
 if $(todo); then
  sleep 45s
