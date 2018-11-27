@@ -76,17 +76,7 @@ fi
 # import function library
 . ${WORKING_DIR}/funclib
 
-
-# Declare additional functions
-get_country(){
- IP_INFO=$(curl -s ipinfo.io)
- sleep 10s
- COUNTRY=${IP_INFO##*country}
- COUNTRY=${COUNTRY%%loc*}
- COUNTRY=$(echo $COUNTRY | sed "s/[^a-zA-Z]//g")
- COUNTRY=$(echo $COUNTRY | tr -d ' ')
-}
-
+#Declare additional functions
 update_state(){
  sed -i "1s/.*/state: $1/" "${WORKING_DIR}/status"
  current_state="$1"
@@ -377,7 +367,15 @@ state="11"
 if $(todo); then
  echo "${info} Scanning for WiFi-interfaces..."
  sleep 45s
+
  IP_INFO=$(curl -s ipinfo.io)
+ sleep 15s
+ COUNTRY=${IP_INFO##*country}
+ COUNTRY=${COUNTRY%%loc*}
+ COUNTRY=$(echo $COUNTRY | sed "s/[^a-zA-Z]//g")
+ COUNTRY=$(echo $COUNTRY | tr -d ' ') 
+
+ echo "${info} Identified country code is: ${COUNTRY}"
  interface="wlan"
  interface_state="down"
 
@@ -523,7 +521,7 @@ EOF
   rnd=$(shuf -i 0-100000 -n 1)
   AP_network="UC2_RaspberryPi_AP${rnd}"
   AP_pass="UCInsecurity2"
-  get_country
+  
   sleep 5s
 
 cat > $target_file <<EOF
@@ -583,7 +581,7 @@ sudo systemctl start hostapd
 EOF
 
   chmod a+x $target_file
-  crontab -l > mycron
+  crontab -u ${OS_USER} -l > mycron
   echo "@reboot sh ${WORKING_DIR}/reload_hostapd.sh > ${WORKING_DIR}/reload_hostapd.log 2>&1"
   crontab mycron
   rm mycron
