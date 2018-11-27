@@ -80,7 +80,7 @@ fi
 # Declare additional functions
 get_country(){
  IP_INFO=$(curl -s ipinfo.io)
- sleep 30s
+ sleep 10s
  COUNTRY=${IP_INFO##*country}
  COUNTRY=${COUNTRY%%loc*}
  COUNTRY=$(echo $COUNTRY | sed "s/[^a-zA-Z]//g")
@@ -126,7 +126,6 @@ remove_from_autostart(){
 todo(){
  local diff=$(($current_state-$state))
  if [ $diff -lt 0 ]; then echo true; else echo false; fi
- sleep 45s
 }
 
 # get current installation progress
@@ -137,7 +136,6 @@ echo "${info} current_state: ${current_state}"
 state="0"
 #Check for most recently created new user
 if $(todo); then
-
  echo "${info} Checking for most recently created new user..."
  target_file="/var/log/auth.log"
  search_string=': new user: name='
@@ -190,6 +188,7 @@ state="1"
 if $(todo); then
  datetime=$(date)
  echo "${info} Updating and upgrading installed packages."
+ sleep 45s
  echo "START: ${datetime}" | sudo tee --append "${WORKING_DIR}/status" > /dev/null
  apt-get -y update
  apt-get -y dist-upgrade
@@ -199,10 +198,11 @@ fi
 #check python version
 state="2"
 if $(todo); then
+ echo "${info} Checking default Python version."
+ sleep 45s
  user=$(echo $SUDO_USER)
  target_version="2.7"
  python_version=$(python --version 2>&1)
- echo "${info} Checking default Python version."
  case $python_version in
   *"$target_version"*)  echo "${info} Python 2.7 is already default" ;;
   *)                    echo "${info} Changing default Python version to Python 2.7"
@@ -219,6 +219,7 @@ fi
 state="3"
 if $(todo); then
  echo "${info} Installing Kivy dependencies."
+ sleep 45s
  apt-get -y install libsdl2-dev
  apt-get -y install libsdl2-image-dev
  apt-get -y install libsdl2-mixer-dev
@@ -248,8 +249,9 @@ fi
 #install Cython
 state="4"
 if $(todo); then
- apt autoremove -y
  echo "${info} Updating and upgrading installed packages."
+ sleep 45s
+ apt autoremove -y
  apt-get -y update
  apt-get -y dist-upgrade
  echo "${info} Installing Cython... (approx. 30min on RaspberryPi 3B+)"
@@ -271,6 +273,7 @@ fi
 state="5"
 if $(todo); then
  echo "${info} Updating /boot/config.txt (required by Kivy/SDL2)"
+ sleep 45s
  boot_config="/boot/config.txt"
  make_backup $boot_config "boot"
 
@@ -294,6 +297,7 @@ fi
 state="6"
 if $(todo); then
  echo "${info} Installing Kivy... (approx. 30min on RaspberryPi 3B+)"
+ sleep 45s
  pip install Kivy==1.10.1
  update_state $state
  echo "${info} Rebooting..."
@@ -304,6 +308,8 @@ fi
 #check kivy is correctly installed and callable for user
 state="7"
 if $(todo); then
+ echo "${info} Bringing Kivy up... (testing)"
+ sleep 45s
  apt -y autoremove
  sudo -H -u "${OS_USER}" python "${WORKING_DIR}/bring_kivy_up.py"
  update_state $state
@@ -312,6 +318,7 @@ fi
 state="8"
 if $(todo); then
  echo "${info} Adding touchscreen provider to Kivy config-file"
+ sleep 45s
  kivy_config="${USER_HOME_DIR}/.kivy/config.ini"
  make_backup $kivy_config "kivy"
  search_string="\[input\]"
@@ -326,6 +333,7 @@ fi
 state="9"
 if $(todo); then
  echo "${info} Fetching PPS-app specific dependencies from apt-get and pip..."
+ sleep 45s
  apt-get -y install libffi-dev
  #python -m pip install cffi
  python -m pip install smbus-cffi
@@ -343,6 +351,7 @@ fi
 state="10"
 if $(todo); then
  echo "${info} Installing OpenCV and its dependencies..."
+ sleep 45s
  apt autoremove -y
  apt-get -y install libtiff5-dev
  apt-get -y install libjasper-dev
@@ -367,6 +376,8 @@ fi
 state="11"
 if $(todo); then
  echo "${info} Scanning for WiFi-interfaces..."
+ sleep 45s
+ IP_INFO=$(curl -s ipinfo.io)
  interface="wlan"
  interface_state="down"
 
@@ -542,6 +553,7 @@ cat > $target_file <<EOF
 [Unit]
 Wants=wpa_supplicant@${IFACE}.service
 
+[Service]
 ExecStartPre=/sbin/iw dev ${IFACE} interface add ap0 type __ap
 ExecStopPost=-/sbin/iw dev ${AP} del
 EOF
@@ -560,21 +572,21 @@ ExecStartPost=/sbin/iptables -t nat -A POSTROUTING -o ${IFACE} -j MASQUERADE
 ExecStopPost=-/sbin/iptables -t nat -D POSTROUTING -o ${IFACE} -j MASQUERADE
 EOF
 
-  target_file="/etc/systemd/system/reload_hostapd.service"
+  target_file="${WORKING_DIR}/reload_hostapd.sh"
 
 cat > $target_file <<EOF
-[Unit]
-Description=reload hostapd
-
-[Service]
-ExecStartPre=/bin/systemctl stop wpa_supplicant@${IFACE}.service
-ExecStart=/bin/systemctl start hostapd.service
-
-[Install]
-WantedBy=multi-user.target
+#!/bin/sh
+sleep 45s
+sudo systemctl stop hostapd
+sleep 5s
+sudo systemctl start hostapd
 EOF
 
-systemctl enable reload_hostapd.service
+  chmod a+x $target_file
+  crontab -l > mycron
+  echo "@reboot sh ${WORKING_DIR}/reload_hostapd.sh > ${WORKING_DIR}/reload_hostapd.log 2>&1"
+  crontab mycron
+  rm mycron
 
   update_state $state
   echo "${info} Rebooting..."
@@ -585,6 +597,7 @@ fi
 
 state="12"
 if $(todo); then
+ sleep 45s
  auto_file="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
  check_is_present "run_install" $auto_file
  if [ $is_present ]; then
