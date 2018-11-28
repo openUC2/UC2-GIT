@@ -583,14 +583,12 @@ EOF
   update_state $state
   echo "${info} Rebooting..."
   sleep 5s
-  #reboot
+  reboot
  fi
 fi
 
 state="12"
 if $(todo); then
- { crontab -l -u ${OS_USER} 2>/dev/null; echo "@reboot sh ${target_file} > ${target_file%.*}.log"; } | crontab -u ${OS_USER} -
- exit 0
  sleep 45s
  auto_file="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
  check_is_present "run_install" $auto_file
