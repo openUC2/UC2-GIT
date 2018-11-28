@@ -194,7 +194,7 @@ if $(todo); then
  add_to_autostart
  update_state $state
  sleep 5s
- #reboot
+ reboot
 fi
 
 
@@ -607,7 +607,7 @@ EOF
   update_state $state
   echo "${info} Rebooting..."
   sleep 5s
-  #reboot
+  reboot
  fi
 fi
 
