@@ -126,10 +126,27 @@ echo "${info} current_state: ${current_state}"
 state="0"
 #Check for most recently created new user
 if $(todo); then
+ 
+ template_autostart="/etc/xdg/lxsession/LXDE-pi/autostart"
+ template_panel="/etc/xdg/lxpanel/LXDE-pi/panels/panel"
+
+ if [ ! -f $APPLAUNCHER_FILE ]; then
+  parent_dir="$(dirname "$APPLAUNCHER_FILE")"
+  mkdir -p $parent_dir
+  cp -r $template_panel $APPLAUNCHER_FILE
+ fi
+
+ if [ ! -f $AUTOSTART_FILE ]; then
+  parent_dir="$(dirname "$AUTOSTART_FILE")"
+  mkdir -p $parent_dir
+  cp -r $template_autostart $AUTOSTART_FILE
+ fi
+
  echo "${info} Checking for most recently created new user..."
  target_file="/var/log/auth.log"
  search_string=': new user: name='
  check_is_present "$search_string" $target_file
+
  if [ $is_present ]; then
   newusername=$(tac $target_file | sed -n "/${search_string}/{p;q}")
   newusername=${newusername##*$search_string}
@@ -156,7 +173,7 @@ if $(todo); then
    sed -i -e "${line_no}s/pi/${newusername}/g" $target_file
   fi
 
-  source_file="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
+  source_file="${AUTOSTART_FILE}"
   USER_HOME_DIR="/home/${newusername}"
   cp -r ${WORKING_DIR} $USER_HOME_DIR
   WORKING_DIR="${USER_HOME_DIR}/UC2"
@@ -165,15 +182,22 @@ if $(todo); then
   mkdir -p $AUTOSTART_DIR
   chown -R $newusername $USER_HOME_DIR
   cp -r $source_file $AUTOSTART_FILE
+
+  source_file="${APPLAUNCHER_FILE}"
+  APPLAUNCHER_FILE="${USER_HOME_DIR}/.config/lxpanel/LXDE-pi/panels/panel"
+  APPLAUNCHER_DIR=$(dirname "${APPLAUNCHER_FILE}")
+  mkdir -p $APPLAUNCHER_DIR
+  cp -r $source_file $APPLAUNCHER_FILE
  else
   echo "${info} No newly created user found. Proceeding with currently logged in user ${OS_USER} after reboot..."
  fi
  add_to_autostart
  update_state $state
  sleep 5s
- reboot
+ #reboot
 fi
 
+exit 0
 state="1"
 if $(todo); then
  datetime=$(date)
