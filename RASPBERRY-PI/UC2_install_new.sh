@@ -197,7 +197,7 @@ if $(todo); then
  #reboot
 fi
 
-exit 0
+
 state="1"
 if $(todo); then
  datetime=$(date)
@@ -607,7 +607,7 @@ EOF
   update_state $state
   echo "${info} Rebooting..."
   sleep 5s
-  reboot
+  #reboot
  fi
 fi
 
