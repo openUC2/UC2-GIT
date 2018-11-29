@@ -32,6 +32,12 @@ This is a cube from the back side
 |5V - Clk - Data - Gnd|
 -----------------------
 ```
+
+## Soldering
+The soldering is quiet easy. Simply put some wires to the end of the Pogo-Pin connectors like that:
+
+![Schematics](./images/PogoPins_2.png)
+
 ## Properties
 	- 4 pins
 	- magnetic (600g)
