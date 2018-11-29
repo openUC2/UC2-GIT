@@ -63,7 +63,7 @@ fi
 target_file="${WORKING_DIR}/bring_kivy_up.py"
 if [ ! -f $target_file ]; then
  wget -N -q --no-check-certificate --content-disposition ${KIVY_UP_URL}
- sleep 3s
+ sleep 5s
  chmod a+x $target_file
 fi
 
@@ -76,17 +76,7 @@ fi
 # import function library
 . ${WORKING_DIR}/funclib
 
-
-# Declare additional functions
-get_country(){
- IP_INFO=$(curl -s ipinfo.io)
- sleep 3s
- COUNTRY=${IP_INFO##*country}
- COUNTRY=${COUNTRY%%loc*}
- COUNTRY=$(echo $COUNTRY | sed "s/[^a-zA-Z]//g")
- COUNTRY=$(echo $COUNTRY | tr -d ' ')
-}
-
+#Declare additional functions
 update_state(){
  sed -i "1s/.*/state: $1/" "${WORKING_DIR}/status"
  current_state="$1"
@@ -106,7 +96,7 @@ cat > $runfile  << EOF
 
 lxterminal --command="sudo /bin/sh -c '${WORKING_DIR}/UC2_install.sh; /bin/bash'"
 EOF
-sleep 3s
+sleep 5s
 chmod a+x $runfile
  
 check_is_present "run_install" $AUTOSTART_FILE
@@ -136,11 +126,27 @@ echo "${info} current_state: ${current_state}"
 state="0"
 #Check for most recently created new user
 if $(todo); then
+ 
+ template_autostart="/etc/xdg/lxsession/LXDE-pi/autostart"
+ template_panel="/etc/xdg/lxpanel/LXDE-pi/panels/panel"
+
+ if [ ! -f $APPLAUNCHER_FILE ]; then
+  parent_dir="$(dirname "$APPLAUNCHER_FILE")"
+  mkdir -p $parent_dir
+  cp -r $template_panel $APPLAUNCHER_FILE
+ fi
+
+ if [ ! -f $AUTOSTART_FILE ]; then
+  parent_dir="$(dirname "$AUTOSTART_FILE")"
+  mkdir -p $parent_dir
+  cp -r $template_autostart $AUTOSTART_FILE
+ fi
 
  echo "${info} Checking for most recently created new user..."
  target_file="/var/log/auth.log"
  search_string=': new user: name='
  check_is_present "$search_string" $target_file
+
  if [ $is_present ]; then
   newusername=$(tac $target_file | sed -n "/${search_string}/{p;q}")
   newusername=${newusername##*$search_string}
@@ -167,7 +173,7 @@ if $(todo); then
    sed -i -e "${line_no}s/pi/${newusername}/g" $target_file
   fi
 
-  source_file="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
+  source_file="${AUTOSTART_FILE}"
   USER_HOME_DIR="/home/${newusername}"
   cp -r ${WORKING_DIR} $USER_HOME_DIR
   WORKING_DIR="${USER_HOME_DIR}/UC2"
@@ -176,6 +182,12 @@ if $(todo); then
   mkdir -p $AUTOSTART_DIR
   chown -R $newusername $USER_HOME_DIR
   cp -r $source_file $AUTOSTART_FILE
+
+  source_file="${APPLAUNCHER_FILE}"
+  APPLAUNCHER_FILE="${USER_HOME_DIR}/.config/lxpanel/LXDE-pi/panels/panel"
+  APPLAUNCHER_DIR=$(dirname "${APPLAUNCHER_FILE}")
+  mkdir -p $APPLAUNCHER_DIR
+  cp -r $source_file $APPLAUNCHER_FILE
  else
   echo "${info} No newly created user found. Proceeding with currently logged in user ${OS_USER} after reboot..."
  fi
@@ -185,11 +197,12 @@ if $(todo); then
  reboot
 fi
 
+
 state="1"
 if $(todo); then
- sleep 5s
  datetime=$(date)
  echo "${info} Updating and upgrading installed packages."
+ sleep 45s
  echo "START: ${datetime}" | sudo tee --append "${WORKING_DIR}/status" > /dev/null
  apt-get -y update
  apt-get -y dist-upgrade
@@ -199,10 +212,11 @@ fi
 #check python version
 state="2"
 if $(todo); then
+ echo "${info} Checking default Python version."
+ sleep 45s
  user=$(echo $SUDO_USER)
  target_version="2.7"
  python_version=$(python --version 2>&1)
- echo "${info} Checking default Python version."
  case $python_version in
   *"$target_version"*)  echo "${info} Python 2.7 is already default" ;;
   *)                    echo "${info} Changing default Python version to Python 2.7"
@@ -218,8 +232,8 @@ fi
 #install Kivy dependencies
 state="3"
 if $(todo); then
- sleep 5s
  echo "${info} Installing Kivy dependencies."
+ sleep 45s
  apt-get -y install libsdl2-dev
  apt-get -y install libsdl2-image-dev
  apt-get -y install libsdl2-mixer-dev
@@ -249,9 +263,9 @@ fi
 #install Cython
 state="4"
 if $(todo); then
- sleep 5s
- apt autoremove -y
  echo "${info} Updating and upgrading installed packages."
+ sleep 45s
+ apt autoremove -y
  apt-get -y update
  apt-get -y dist-upgrade
  echo "${info} Installing Cython... (approx. 30min on RaspberryPi 3B+)"
@@ -272,8 +286,8 @@ fi
 #Preparation of Kivy installation
 state="5"
 if $(todo); then
- sleep 15s
  echo "${info} Updating /boot/config.txt (required by Kivy/SDL2)"
+ sleep 45s
  boot_config="/boot/config.txt"
  make_backup $boot_config "boot"
 
@@ -297,7 +311,7 @@ fi
 state="6"
 if $(todo); then
  echo "${info} Installing Kivy... (approx. 30min on RaspberryPi 3B+)"
- sleep 5s
+ sleep 45s
  pip install Kivy==1.10.1
  update_state $state
  echo "${info} Rebooting..."
@@ -308,7 +322,8 @@ fi
 #check kivy is correctly installed and callable for user
 state="7"
 if $(todo); then
- sleep 15s
+ echo "${info} Bringing Kivy up... (testing)"
+ sleep 45s
  apt -y autoremove
  sudo -H -u "${OS_USER}" python "${WORKING_DIR}/bring_kivy_up.py"
  update_state $state
@@ -317,6 +332,7 @@ fi
 state="8"
 if $(todo); then
  echo "${info} Adding touchscreen provider to Kivy config-file"
+ sleep 45s
  kivy_config="${USER_HOME_DIR}/.kivy/config.ini"
  make_backup $kivy_config "kivy"
  search_string="\[input\]"
@@ -331,6 +347,7 @@ fi
 state="9"
 if $(todo); then
  echo "${info} Fetching PPS-app specific dependencies from apt-get and pip..."
+ sleep 45s
  apt-get -y install libffi-dev
  #python -m pip install cffi
  python -m pip install smbus-cffi
@@ -348,6 +365,7 @@ fi
 state="10"
 if $(todo); then
  echo "${info} Installing OpenCV and its dependencies..."
+ sleep 45s
  apt autoremove -y
  apt-get -y install libtiff5-dev
  apt-get -y install libjasper-dev
@@ -371,8 +389,17 @@ fi
 
 state="11"
 if $(todo); then
- sleep 10s
  echo "${info} Scanning for WiFi-interfaces..."
+ sleep 45s
+
+ IP_INFO=$(curl -s ipinfo.io)
+ sleep 15s
+ COUNTRY=${IP_INFO##*country}
+ COUNTRY=${COUNTRY%%loc*}
+ COUNTRY=$(echo $COUNTRY | sed "s/[^a-zA-Z]//g")
+ COUNTRY=$(echo $COUNTRY | tr -d ' ') 
+
+ echo "${info} Identified country code is: ${COUNTRY}"
  interface="wlan"
  interface_state="down"
 
@@ -402,14 +429,13 @@ if $(todo); then
   AP_IP="192.168.50.1"
   AP_BROADCAST=${AP_IP%.*}
 
-  echo "${info} Setting up virtual access point..."
-  target_file="/etc/udev/rules.d/70-persistent-net.rules"
-
-  if [ ! -f $target_file ]; then
-   touch $target_file
-   printf "ACTION==\"add\", SUBSYSTEM==\"ieee80211\", KERNEL=\"phy0\", \\ \n" >> $target_file
-   printf "RUN+=\"/sbin/iw phy %%k interface add ${AP} type __ap\", \\ \n" >> $target_file
-  fi
+  #echo "${info} Setting up virtual access point..."
+  #target_file="/etc/udev/rules.d/70-persistent-net.rules"
+  #
+  #if [ ! -f $target_file ]; then
+  # touch $target_file
+  # printf "ACTION==\"add\", SUBSYSTEM==\"ieee80211\", KERNEL=\"phy0\", \\ \n" >> $target_file
+  # printf "RUN+=\"/sbin/iw phy %%k interface add ${AP} type __ap\", \\ \n" >> $target_file
 
   mkdir -p /var/log/journal
   systemd-tmpfiles --create --prefix /var/log/journal
@@ -488,7 +514,7 @@ EOF
 #EOF
 
   cp -r /etc/wpa_supplicant/wpa_supplicant.conf "/etc/wpa_supplicant/wpa_supplicant-${IFACE}.conf"
-  sleep 1s
+  sleep 5s
   chmod 600 "/etc/wpa_supplicant/wpa_supplicant-${IFACE}.conf"
   systemctl disable wpa_supplicant.service
   systemctl enable "wpa_supplicant@${IFACE}.service"
@@ -516,10 +542,10 @@ EOF
   rnd=$(shuf -i 0-100000 -n 1)
   AP_network="UC2_RaspberryPi_AP${rnd}"
   AP_pass="UCInsecurity2"
-  get_country
-  sleep 1s
+  
+  sleep 5s
 
-cat > "/etc/hostapd/hostapd.conf" <<EOF
+cat > $target_file <<EOF
 interface=${AP}
 driver=nl80211
 ssid=${AP_network}
@@ -533,7 +559,7 @@ wpa_key_mgmt=WPA-PSK
 wpa_pairwise=TKIP
 rsn_pairwise=CCMP
 EOF
-  sleep 3s
+  sleep 5s
   chmod 600 /etc/hostapd/hostapd.conf
   sed -i 's/^#DAEMON_CONF=.*$/DAEMON_CONF="\/etc\/hostapd\/hostapd.conf"/' /etc/default/hostapd
   sed -i 's/^\(# Should-Start:\s*$network\)$/#\1/' /etc/init.d/hostapd
@@ -545,6 +571,10 @@ EOF
 cat > $target_file <<EOF
 [Unit]
 Wants=wpa_supplicant@${IFACE}.service
+
+[Service]
+ExecStartPre=/sbin/iw dev ${IFACE} interface add ap0 type __ap
+ExecStopPost=-/sbin/iw dev ${AP} del
 EOF
 
   target_file="/etc/systemd/system/wpa_supplicant@wlan0.service.d/override.conf"
@@ -561,6 +591,19 @@ ExecStartPost=/sbin/iptables -t nat -A POSTROUTING -o ${IFACE} -j MASQUERADE
 ExecStopPost=-/sbin/iptables -t nat -D POSTROUTING -o ${IFACE} -j MASQUERADE
 EOF
 
+  target_file="${WORKING_DIR}/reload_hostapd.sh"
+
+cat > $target_file <<EOF
+#!/bin/sh
+sleep 45s
+sudo systemctl stop hostapd
+sleep 5s
+sudo systemctl start hostapd
+EOF
+
+  chmod a+x $target_file
+  { crontab -l -u ${OS_USER} 2>/dev/null; echo "@reboot sh ${target_file} > ${target_file%.*}.log"; } | crontab -u ${OS_USER} -
+
   update_state $state
   echo "${info} Rebooting..."
   sleep 5s
@@ -570,6 +613,7 @@ fi
 
 state="12"
 if $(todo); then
+ sleep 45s
  auto_file="${USER_HOME_DIR}/.config/lxsession/LXDE-pi/autostart"
  check_is_present "run_install" $auto_file
  if [ $is_present ]; then
@@ -579,7 +623,7 @@ if $(todo); then
  else
   echo "${info} No entry by UC2 found in $auto_file"
  fi
- sleep 1s
+ sleep 5s
  chown -R $OS_USER $AUTOSTART_FILE
  echo "${info} INSTALLATION COMPLETE."
  echo 'PLEASE RUN "SUDO RASPI-CONFIG" AND ENABLE INTERFACES SSH, CAMERA AND I2C!'
