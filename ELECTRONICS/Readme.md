@@ -10,3 +10,4 @@ Most connections can be established with pin-connection (male/female). For durab
 - [XY-Stage](./XY-Stage/Readme.md)
 - [LED-Matrix](./LED-Matrix/Readme.md)
 - [FLUO-LED](./FLUO-LED/Readme.md)
+- [Magnetic Connectors](./Magnetic-Connectors/Readme.md)
