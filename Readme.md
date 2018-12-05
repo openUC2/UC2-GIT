@@ -100,7 +100,7 @@ We encourage everyone who is using our Toolbox to share their results and ideas,
 
 You're free to fork the project and enhance it. If you have any suggestions to improve it or add any additional functions make a pull-request or file an issue. 
 
-Please find the type of licenses [here](./
+Please find the type of licenses [here](./License.md)
 
 
 ## Printing it yourself
@@ -109,4 +109,8 @@ All the CAD-Parts can be printed using an off-the-shef 3D printer (or 3D printin
 Each project has a specific sub-folder in the CAD-section where all necessary .stl files are lying ready for printing. Instructions will be added soon. 
 
 Don't just print everything from the STL folder, as currently it contains some parts that must be printed multiple times, and other parts that are redundant. 
+
+## Showcase
+This is one of the very first prototypes we had in 2017. It has evovled a lot.
+![UC2 Holography](./IMAGES/UC2_firststep.jpg)
 
