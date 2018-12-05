@@ -112,5 +112,5 @@ Don't just print everything from the STL folder, as currently it contains some p
 
 ## Showcase
 This is one of the very first prototypes we had in 2017. It has evovled a lot.
-![UC2 Holography](./IMAGES/UC2_firststep.jpg)
+![UC2 Holography](./IMAGES/UC2_firststep.JPG)
 
