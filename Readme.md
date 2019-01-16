@@ -43,6 +43,12 @@ All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to 
 
 ## Getting Started
 
+### WORKSHOP
+We started a Digital In-Line Holographical Microscope Workshop together with the Lichtwerkstatt in November 2018. You can find the guid with an in-detail explanation [here](./WORKSHOP/INLINE-HOLOGRAMM) with a [German](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP.pdf) PDF and a translated [English Version](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP_english.pdf).
+
+### Telescope 
+We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation will be published soon. 
+
 ## Structure of Repository
 **HARDWARE**
 	
