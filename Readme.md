@@ -1,7 +1,7 @@
 # UC2
-
+<p align="center">
 <img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Logo.png" width="200">
-
+</p>
 
 This is the online repository for the open-source hardware project ''UC2'' [YouSeeToo]. 
 
@@ -13,7 +13,10 @@ Therefore the simplest microscope could be realized using only 2 lenses. Their a
 
 $M_4f=  f_obj/f_tube 	(1)$.<!---->
 
-![UC2 logo](./IMAGES/UC2_simplemicroscope.png)
+<p align="center">
+<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_simplemicroscope.png" width="600">
+</p>
+
 
 **U2C** not only modularizes the optical components in a setup, but allows to make each individual block, represented by a specifc function (i.e. lens, mirror, xy-stage, etc.), ''smart''. Therefore a small microcontroller (i.e. Arduino Nano) connects to a **I^2** BUS, making it possible to communicate with a Master-device (i.e. Raspberry Pi). Illumination sources like LED-Matrices, Motors, etc. can be controlled, sensors like light- or humidity sensors can be readout. 
 
@@ -23,15 +26,21 @@ It aims to bring 21st-century concepts of clean abstraction and modularity to ha
 
 People are also encouraged to share their work. We are curious what the community is doing with our little blocks. All necessary details to modify the design of the blocks are given in the sub-folders of the specific folders. 
 
+A full cube + base-plate looks like that:
+<p align="center">
+<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Explosion.png" width="200">
+</p>
+
 
 ## List of available Setups
 
 Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please go to the [CAD](./CAD/Readme.md)-folder to have a glimpse of what'S possible
 
-* Light-sheet Microscope
-* In-Incubator Microscope with X/Y/Z-control and adaptive illumination 
-* Telescope
+* [Light-sheet Microscope](./CAD/LIGHTSHEET-Scanning)
+* [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./CAD/IN-INCUBATOR_MICROSCOPE) 
+* [Telescope](./CAD/IN-INCUBATOR_MICROSCOPE)
 * Smartphone Microscope
+* [In-Line Holographical Microscope](./CAD/INLINE_HOLOGRAM)
 * Abbe Experiment (Diffraction-effect of light)
 * Michelson interferometer (Interference-effect of light)
 
@@ -39,12 +48,16 @@ Our goal is to make as many setups as possible available, so that people can pla
 
 ## Bill of Material
 
-All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefitting from the wide variety and availability of components brought up by the open-source community 
+All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefitting from the wide variety and availability of components brought up by the open-source community. A reference document can be found in the [Documents-folder](./DOCUMENTS/BillOfMaterials).lich
 
-## Getting Started
+# Getting Started
 
-### WORKSHOP
-We started a Digital In-Line Holographical Microscope Workshop together with the Lichtwerkstatt in November 2018. You can find the guid with an in-detail explanation [here](./WORKSHOP/INLINE-HOLOGRAMM) with a [German](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP.pdf) PDF and a translated [English Version](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP_english.pdf).
+## Quick-Start WORKSHOP
+We started a Digital In-Line Holographical Microscope Workshop together with the [Lichtwerkstatt](https://lichtwerkstatt-jena.de/) in November 2018. You can find the guid with an in-detail explanation [here](./WORKSHOP/INLINE-HOLOGRAMM) with a [German](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP.pdf) PDF and a translated [English Version](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP_english.pdf).
+
+This should give a first-start blueprint to develop any optical design idea into our system. We also provide how-to's to create [customized parts](./DOCUMENTS/TUTORIALS/TUT_Basic_Design_Cube_Inlet_Function_v0.pdf) to use it with UC2. You can find them [here](./DOCUMENTS/TUTORIALS/).
+
+Assemlby-guides can be found [here](./DOCUMENTS/TUTORIALS_SETUP).
 
 ### Telescope 
 We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation will be published soon. 
@@ -98,7 +111,7 @@ We compiled a quick tutorial where you find a guide on how an inlet could look l
 [Guide to design a customized function](./DOCUMENTS/Basic_Design_Cube_Inlet_Function_v0.pdf)
 
 ## Raspberry Pi Quick-Start 
-Please find a manual here
+Please find a manual [here](./DOCUMENTS/RaspberryPi/Raspberry_Pi_v0.docx) and [here](./RASPBERRY-PI).
 
 ## Kits, License and Collaboration
 This project is open-source and is released under the CERN open hardware license. Our aim is to make the kits commercially available. 
@@ -121,4 +134,4 @@ This is one of the very first prototypes we had in 2017. It has evovled a lot.
 ![UC2 Holography](./IMAGES/UC2_firststep.JPG)
 
 ## Credits
-R. Bowman, R. Heintzmann, X. Uwurukundo, B. Marsikova, R. Richter, Lichtwerkstatt, IPHT Jena
+R. Heintzmann, X. Uwurukundo, H. Wang, B. Marsikova, R. Richter, Lichtwerkstatt, IPHT Jena
