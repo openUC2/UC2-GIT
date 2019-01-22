@@ -14,7 +14,7 @@ Therefore the simplest microscope could be realized using only 2 lenses. Their a
 $M_4f=  f_obj/f_tube 	(1)$.<!---->
 
 <p align="center">
-<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_simplemicroscope.png" width="600">
+<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_simplemicroscope.png" width="800">
 </p>
 
 
@@ -44,11 +44,13 @@ Our goal is to make as many setups as possible available, so that people can pla
 * Abbe Experiment (Diffraction-effect of light)
 * Michelson interferometer (Interference-effect of light)
 
-![UC2 Holography](./IMAGES/UC2_Holography.png)
+<p align="center">
+<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Holography.png" width="800">
+</p>
 
 ## Bill of Material
 
-All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefitting from the wide variety and availability of components brought up by the open-source community. A reference document can be found in the [Documents-folder](./DOCUMENTS/BillOfMaterials).lich
+All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefitting from the wide variety and availability of components brought up by the open-source community. A reference document can be found in the [Documents-folder](./DOCUMENTS/BillOfMaterials).
 
 # Getting Started
 
