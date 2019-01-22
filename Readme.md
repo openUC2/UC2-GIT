@@ -28,7 +28,7 @@ People are also encouraged to share their work. We are curious what the communit
 
 A full cube + base-plate looks like that:
 <p align="center">
-<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Explosion.png" width="200">
+<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Explosion.png" width="350">
 </p>
 
 
@@ -45,7 +45,7 @@ Our goal is to make as many setups as possible available, so that people can pla
 * Michelson interferometer (Interference-effect of light)
 
 <p align="center">
-<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Holography.png" width="800">
+<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Holography.png" width="600">
 </p>
 
 ## Bill of Material
