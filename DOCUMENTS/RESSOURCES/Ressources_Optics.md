@@ -1,4 +1,4 @@
-## Ressources: Optics
+## Resources: Optics
 
 We cannot guarrantee the availability of the components. If you know other components, please let us know by filing an issue. Thank you :-) 
 
@@ -69,5 +69,14 @@ We highly recommond you to check the marketin with known retaillers (e.g. eBay, 
 | Long-/Band-pass filters  |  Various |  10-30 € | [Comar Filters](https://www.comaroptics.com/components/filters/)  |
 | Rosco Gel Filters |   Various |  10-30 € | [RoscoLux Filters](http://www.rosco.com/filters/roscolux.cfm)  |
 
+A set of excellent resources for proper low-cost filter selection can be found here:
 
+Gel-Filters (mostly from Roscolux):
+[Kurt Thorn' Blog](http://nic.ucsf.edu/blog/2013/10/theatrical-gels-as-color-filters/)
+
+Gel-Filters Case scenario [Wormlab](http://post.queensu.ca/~chinsang/lab-protocols/gfp-stereoscope.html)
+
+[GFP (with # for ordering the parts):](https://makezine.com/2011/03/04/cheap-diy-gfp-green-fluorescent-protein-illuminator/)
+
+[Comar Interference Filters:](https://github.com/OpenLabTools/Imaging_RPi_Fluorescence/blob/master/content.md)
 
