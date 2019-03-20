@@ -18,7 +18,7 @@ $M_4f=  f_obj/f_tube 	(1)$.<!---->
 </p>
 
 
-**U2C** not only modularizes the optical components in a setup, but allows to make each individual block, represented by a specifc function (i.e. lens, mirror, xy-stage, etc.), ''smart''. Therefore a small microcontroller (i.e. Arduino Nano) connects to a **I^2** BUS, making it possible to communicate with a Master-device (i.e. Raspberry Pi). Illumination sources like LED-Matrices, Motors, etc. can be controlled, sensors like light- or humidity sensors can be readout. 
+**UC2** not only modularizes the optical components in a setup, but allows to make each individual block, represented by a specifc function (i.e. lens, mirror, xy-stage, etc.), ''smart''. Therefore a small microcontroller (i.e. Arduino Nano) connects to a **I^2** BUS, making it possible to communicate with a Master-device (i.e. Raspberry Pi). Illumination sources like LED-Matrices, Motors, etc. can be controlled, sensors like light- or humidity sensors can be readout. 
 
 It aims to bring 21st-century concepts of clean abstraction and modularity to hardware design.
 
@@ -55,6 +55,7 @@ All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to 
 # Getting Started
 
 ## Quick-Start WORKSHOP
+### Inline Holographical Microscope (lensless)
 We started a Digital In-Line Holographical Microscope Workshop together with the [Lichtwerkstatt](https://lichtwerkstatt-jena.de/) in November 2018. You can find the guid with an in-detail explanation [here](./WORKSHOP/INLINE-HOLOGRAMM) with a [German](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP.pdf) PDF and a translated [English Version](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP_english.pdf).
 
 This should give a first-start blueprint to develop any optical design idea into our system. We also provide how-to's to create [customized parts](./DOCUMENTS/TUTORIALS/TUT_Basic_Design_Cube_Inlet_Function_v0.pdf) to use it with UC2. You can find them [here](./DOCUMENTS/TUTORIALS/).
@@ -62,7 +63,7 @@ This should give a first-start blueprint to develop any optical design idea into
 Assemlby-guides can be found [here](./DOCUMENTS/TUTORIALS_SETUP).
 
 ### Telescope 
-We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation will be published soon. 
+We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation can be found [here](./WORKSHOP/TELESCOPE).
 
 ## Structure of Repository
 **HARDWARE**

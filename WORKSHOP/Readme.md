@@ -5,4 +5,6 @@ The first we offer is the Inline Holographical Microscope. The document is avail
 
 ## List of available workshops
  - [Inline Holographical Microscope](./INLINE-HOLOGRAMM/Readme.md)
+ - [Simple Telescope](./TELESCOPE/Readme.md)
+
 

@@ -10,14 +10,14 @@ We want to make our system accessable and easy to use. Therefore we have made a 
 * [Design Guide for new customized UC2 inlets](./TUTORIALS/TUT_Basic_Design_Cube_Inlet_Function_v0.pdf)
 
 
-### Ressources
+### Resources
 We compiled some lists with available low-cost components (e.g. lenses, filters, etc.) to make the setup affordable. 
 You can find them here:
 
-1. [Ressources: Optics, Objective lenses, Filters](./RESSOURCES/Ressources_Optics.md)
-2. [Ressources: Light Sources, Lasers](./RESSOURCES/Ressources_Lightsources.md)
-2. [Ressources: Electronic Parts, Controlers](./RESSOURCES/Ressources_Electronics.md)
-2. [Ressources: Electromechanics, Motors](./RESSOURCES/Ressources_Mechanics.md)
+1. [Resources: Optics, Objective lenses, Filters](./RESOURCES/Resources_Optics.md)
+2. [Resources: Light Sources, Lasers](./RESOURCES/Resources_Lightsources.md)
+2. [Resources: Electronic Parts, Controlers](./RESOURCES/Resources_Electronics.md)
+2. [Resources: Electromechanics, Motors](./RESOURCES/Resources_Mechanics.md)
 
 ### A list of links
 Here you'll find a growing list of other projects, tutorials and inspirations:
