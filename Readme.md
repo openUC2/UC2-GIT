@@ -54,7 +54,6 @@ All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to 
 
 # Getting Started
 
-## Quick-Start WORKSHOP
 ### Inline Holographical Microscope (lensless)
 We started a Digital In-Line Holographical Microscope Workshop together with the [Lichtwerkstatt](https://lichtwerkstatt-jena.de/) in November 2018. You can find the guid with an in-detail explanation [here](./WORKSHOP/INLINE-HOLOGRAMM) with a [German](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP.pdf) PDF and a translated [English Version](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP_english.pdf).
 
