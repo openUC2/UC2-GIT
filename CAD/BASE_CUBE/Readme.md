@@ -1,5 +1,5 @@
 ## BASE CUBE 
-This is the repository for the base-cube design. 
+This is the repository for the base-cube design. The design-files can be found in the folder [INVENTOR](./INVENTOR).
 
 The Base-Cube consists of only 3 components. 
 
