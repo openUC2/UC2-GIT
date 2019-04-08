@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Fatigue
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="asset_information"
+              label="Information"
+              orientation="Vertical"
+              expanded="false">
+      <AssetName id="asset_name"
+                 label="Name"/>
+      <AssetDescription id="asset_description"
+                        label="Description"/>
+      <AssetKeywords id="asset_keywords"
+                     label="Keywords"/>
+      <AssetType id="asset_type"
+                 label="Type"/>
+
+      <String id="structural_subclass"
+              label="Subclass" />
+      <String id="structural_source"
+              label="Source" />
+      <String id="structural_sourceURL"
+              label="Source URL" />
+    </StackPanel>
+
+    
+    <StackPanel id="fatigue_props1"
+                label="Strain-Fatigue Life"
+                orientation="Vertical"
+                expanded="true">
+      <!--Fatigue strength coefficient-->
+      <Float id="structural_Fatigue_strength_coefficient"
+             forcenumeric="spinbox"
+             label="Fatigue Strength Coefficient"
+             min="0.01"
+             max="1.3e+9" />
+     
+      <!--Fatigue strength exponent-->
+      <Float id="structural_Fatigue_strength_exponent"
+             forcenumeric="spinbox"
+             label="Fatigue Strength Exponent"
+             min="-100.0"
+             max="0.0" 
+	     precision="3"/>
+
+      <!--Fatigue ductility coefficient-->
+      <Float id="structural_Fatigue_ductility_coefficient"
+             forcenumeric="spinbox"
+             label="Fatigue Ductility Coefficient"
+             min="0.0"
+             max="100.0" />
+      
+      <!--Fatigue ductility exponent-->
+      <Float id="structural_Fatigue_ductility_exponent"
+             forcenumeric="spinbox"
+             label="Fatigue Ductility Exponent"
+             min="-100.0"
+             max="0.0" />
+
+      <!--Cyclic strain hardening coefficient-->
+      <Float id="structural_Cyclic_strain_hardening_coefficient"
+             forcenumeric="spinbox"
+             label="Cyclic Strain Hardening Coefficient"
+             min="0.01"
+             max="1.3e+9" 
+	     precision="3"/>
+
+      <!--Cyclic strain hardening exponent-->
+      <Float id="structural_Cyclic_strain_hardening_exponent"
+             forcenumeric="spinbox"
+             label="Cyclic Strain Hardening Exponent"
+             min="0.0"
+             max="100.0" />
+      
+    </StackPanel>
+
+    <StackPanel id="fatigue_props2"
+                label="Stress-Fatigue Life"
+                orientation="Vertical"
+                expanded="true">
+	  <ChooseList id="fatigue_SN_Behavior"
+			  label="Behavior"
+			  tooltip="Chooses between Constant or Curved S-N behavior.">
+	    <Choice id="sn_Constant" label="Constant"/>
+	    <Choice id="sn_Curve" label="S-N Curve"/>
+	  </ChooseList>		
+      <!--Endurance limit stress-->
+      <Float id="structural_Endurance_limit_stress"
+             forcenumeric="spinbox"
+             label="Endurance Limit Stress"
+             min="0.01"
+             max="1.3e+9" >
+		<Dependency id="dep27"
+	            on="fatigue_SN_Behavior"
+	            requires="sn_Constant"
+		    else="hidden"/>
+	  </Float>
+
+      <!--Endurance limit cycles-->
+      <Float id="structural_Endurance_limit_cycles"
+             forcenumeric="spinbox"
+             label="Endurance Limit Number of Cycles"
+             min="1.0e+5"
+             max="1.0e+12" >
+		<Dependency id="dep28"
+	            on="fatigue_SN_Behavior"
+	            requires="sn_Constant"
+		    else="hidden"/>
+	  </Float>
+	  <CustomControl id="fatigue_SN_Graph" 
+			 label="S-N Curve" >
+		<Dependency id="dep29"
+	            on="fatigue_SN_Behavior"
+	            requires="sn_Curve"
+		    else="hidden"/>
+	  </CustomControl>
+
+    </StackPanel>
+	<StackPanel id="fatigue_props3"
+                label="Compressive Strength"
+                orientation="Vertical"
+                expanded="false">
+      <!--Yield Compressive Strength-->
+      <Float id="compressive_stress_yield"
+             forcenumeric="spinbox"
+             label="Yield"
+             min="0"
+             max="1e+8" />
+     
+      <!--Ultimate Compressive Strength-->
+      <Float id="compressive_strength_ultimate"
+             forcenumeric="spinbox"
+             label="Ultimate"
+             min="0"
+             max="1e+8" />     
+    </StackPanel>
+
+  </Fields>
+
+</adsui>

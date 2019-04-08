@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!DOCTYPE AssetSchema SYSTEM "../../ADSKAssetSchema.dtd">
+
+<AssetSchema>
+
+  <Base val="CommonSchema"
+        file="../../Common/CommonSchema.xml" />
+
+  <UID  val="PhysMatSchema"/>
+
+  <Integer id="SchemaVersion"
+           val="4"
+           public="false"
+           readonly="true" />
+
+  <type val="physicalmaterial" />
+  <localtype val="Material" />
+  <localname val="Physical Material" />
+
+  <!-- This property points to all the aspects that the material wraps -->
+  <Reference id="physmat_aspects"
+             allowconnectedassets="multiple"
+             label="Physical Aspects" />
+
+  <!-- Meta-data -->
+  <String id="physmat_Comments"
+          metadata="true"
+          label="Comments"
+          val="" />
+  <String id="physmat_Manufacturer"
+          metadata="true"
+          label="Manufacturer"
+          val="" />
+  <String id="physmat_Model"
+          metadata="true"
+          label="Model"
+          val="" />
+  <String id="physmat_Cost"
+          metadata="true"
+          label="Cost"
+          val="" />
+  <String id="physmat_URL"
+          metadata="true"
+          label="URL"
+          val="" />
+  <String id="physmat_Label"
+          metadata="true"
+          label="Label"
+          val="" />
+  <String id="physmat_Keynote"
+          metadata="true"
+          label="Keynote"
+          val="" />
+  <String id="physmat_Mark"
+          metadata="true"
+          label="Mark"
+          val="" />
+  <String id="physmat_Keywords"
+          metadata="true"
+          label="Keywords"
+          val="" />
+
+
+  <Choice id="physmat_Type"
+          val="physmat_generic"
+          label="Type" >
+    <ChoiceValue id="physmat_plastic"
+                 val="0"
+                 label="Plastic" />
+    <ChoiceValue id="physmat_metal"
+                 val="1"
+                 label="Metal" />
+    <ChoiceValue id="physmat_wood"
+                 val="2"
+                 label="Wood" />
+    <ChoiceValue id="physmat_glass"
+                 val="3"
+                 label="Glass" />
+    <ChoiceValue id="physmat_ceramic"
+                 val="4"
+                 label="Ceramic" />
+    <ChoiceValue id="physmat_stone"
+                 val="5"
+                 label="Stone" />
+    <ChoiceValue id="physmat_liquid"
+                 val="6"
+                 label="Liquid" />
+    <ChoiceValue id="physmat_gas"
+                 val="7"
+                 label="Gas" />
+    <ChoiceValue id="physmat_masonry"
+                 val="8"
+                 label="Masonry" />
+    <ChoiceValue id="physmat_textile"
+                 val="9"
+                 label="Textile" />
+    <ChoiceValue id="physmat_paint"
+                 val="10"
+                 label="Paint/Coating" />
+    <ChoiceValue id="physmat_earth"
+                 val="11"
+                 label="Earth" />
+    <ChoiceValue id="physmat_generic"
+                 val="12"
+                 label="Generic" />
+    <ChoiceValue id="physmat_concrete"
+                 val="13"
+                 label="Concrete" />
+  </Choice>
+
+  <String id="physmat_class"
+          label="Class"
+          val="" />
+
+  <String id="physmat_classification"
+          val="" />
+
+
+  <!-- Constant values for CommonSchema properties -->
+  <ui id="UIDefinition"
+      val="PhysicalMat/PhysMatUI.xml"/>
+
+</AssetSchema>
+
+

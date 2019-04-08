@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE AssetSchema SYSTEM "../../ADSKAssetSchema.dtd">
+
+<AssetSchema>
+
+  <Base val="ThermalCommonSchema"
+        file="../Common/ThermalCommonSchema.xml" />
+
+  <UID  val="ThermalGasSchema"/>
+
+  <Integer id="SchemaVersion"
+           val="5"
+           public="false"
+           readonly="true" />
+
+  <type val="Thermal" />
+
+  <localtype val="Thermal" />
+  <localname val="Gas" />
+
+  <!--Gas Viscosity-->
+  <Float id="thermal_Gas_viscosity" 
+         val="0.1"
+         unit="Centipoise"
+         label="Gas Viscosity"  >
+    <Bounds minimum="0"
+            maximum="100000" />
+  </Float>
+
+  <!--Compressibility-->
+  <Float id="thermal_Compressibility" 
+         val="0"
+         unit="Unitless"
+         label="Compressibility"  >
+    <Bounds minimum="0"
+            maximum="3" />
+  </Float>
+
+  <!-- Constant values for CommonSchema properties-->
+  <ui id="UIDefinition"
+      val="Thermal/Gas/GasThermalUI.xml"/>
+
+</AssetSchema>
+
+

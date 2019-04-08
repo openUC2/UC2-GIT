@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Graphics
+    </Title>
+  </PageInfo>
+  <Fields>
+   <StackPanel id="graphics_shading" 
+                label="Shading" 
+                labelid="graphics_shading_label" 
+                orientation="Vertical" 
+                expanded="true">
+        <Boolean id="graphics_use_appearance"
+                 label="Use Render Appearance" />
+        <Color id="graphics_shading_color"
+               label="Color" >
+        <Dependency id="graphics_shading_dep1"
+                    on="graphics_use_appearance"
+                    requires="false" not="false" else="disable"/>
+        </Color>
+	<Integer id="graphics_shading_transparency"
+		 min="0" max="100"
+                 label="Transparency" >
+        <Dependency id="graphics_shading_dep2"
+                    on="graphics_use_appearance"
+                    requires="false" not="false" else="disable"/>        
+        </Integer>
+    </StackPanel>
+
+   <StackPanel id="graphics_surface_pattern" 
+                label="Surface Pattern" 
+                labelid="graphics_surface_pattern_label" 
+                orientation="Vertical" 
+                expanded="true">
+      <CustomControl id="graphics_surface_pattern" label="Pattern" />
+      <Color id="graphics_surface_pattern_color"
+             label="Color" />
+      <CustomControl id="graphics_surface_pattern_alignment" label="Alignment" />
+    </StackPanel>
+
+   <StackPanel id="graphics_cut_pattern" 
+                label="Cut Pattern" 
+                labelid="graphics_cut_pattern_label" 
+                orientation="Vertical" 
+                expanded="true">
+      <CustomControl id="graphics_cut_pattern" label="Pattern" />
+      <Color id="graphics_cut_pattern_color"
+             label="Color" />
+    </StackPanel>
+
+
+  </Fields>
+</adsui>

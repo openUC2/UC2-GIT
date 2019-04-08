@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE AssetSchema SYSTEM "../../ADSKAssetSchema.dtd">
+
+<AssetSchema>
+
+  <Base val="StructuralAdvancedSchema"
+        file="../Advanced/StructuralAdvancedSchema.xml" />
+
+  <UID  val="StructuralConcreteSchema"/>
+
+  <Integer id="SchemaVersion"
+           val="6"
+           public="false"
+           readonly="true" />
+
+  <type val="Structural" />
+
+  <localtype val="Physical" />
+  <localname val="Concrete" />
+
+  <!--Concrete Compression-->
+  <Float id="structural_concrete_compression" 
+         val="100"
+         unit="Kilopascal"
+         label="Concrete Compression"  >
+    <Bounds minimum="100"
+            maximum="8e+5" />
+  </Float>
+
+  <!--Lightweight-->
+  <Boolean id="structural_lightweight"
+           val="false"
+           label="Lightweight" />
+
+  <!--Shear Strength Modification-->
+  <Float id="structural_Shear_strength_modification" 
+         val="0.01"
+         unit="Unitless"
+         label="Shear Strength Modification"  >
+  </Float>
+
+  <!-- Constant values for CommonSchema properties -->
+  <ui id="UIDefinition"
+      val="Structural/Concrete/ConcreteStructuralUI.xml"/>
+
+</AssetSchema>
+
+
