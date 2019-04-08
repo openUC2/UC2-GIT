@@ -1,9 +1,11 @@
 # UC2
 <p align="center">
-<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Logo.png" width="200">
+<img src="./IMAGES/UC2_Logo.png" width="200">
 </p>
 
 This is the online repository for the open-source hardware project ''UC2'' [YouSeeToo]. 
+
+[3D printing files](./CAD/STL) | [Design-Files](./CAD/BASE_CUBE) | [Project Page](http://useetoo.org) | [UC2 Paper](https://www.google.com/search?q=comming+soon&oq=comming+soon&aqs=chrome..69i57j0j69i59j0l3.1495j0j4&sourceid=chrome&ie=UTF-8)   
 
 ## Introduction
 
@@ -14,7 +16,7 @@ Therefore the simplest microscope could be realized using only 2 lenses. Their a
 $M_4f=  f_obj/f_tube 	(1)$.<!---->
 
 <p align="center">
-<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_simplemicroscope.png" width="800">
+<img src="./IMAGES/UC2_simplemicroscope.png" width="800">
 </p>
 
 
@@ -28,7 +30,7 @@ People are also encouraged to share their work. We are curious what the communit
 
 A full cube + base-plate looks like that:
 <p align="center">
-<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Explosion.png" width="350">
+<img src="./IMAGES/UC2_Explosion.png" width="350">
 </p>
 
 
@@ -45,7 +47,7 @@ Our goal is to make as many setups as possible available, so that people can pla
 * Michelson interferometer (Interference-effect of light)
 
 <p align="center">
-<img src="https://github.com/bionanoimaging/UC2-GIT/blob/master/IMAGES/UC2_Holography.png" width="600">
+<img src="./IMAGES/UC2_Holography.png" width="600">
 </p>
 
 ## Bill of Material

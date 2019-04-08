@@ -21,5 +21,5 @@ Alternatively the cube can also be used in the free (educational purposes) CAD s
 
 and then opening the `.iam`-file:
 <p align="center">
-<img src="./IMAGES/Fusion_2" width="600">
+<img src="./IMAGES/Fusion_2.png" width="600">
 </p>
