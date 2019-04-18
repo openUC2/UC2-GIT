@@ -11,7 +11,9 @@ The function which fits into the cube is not necessarily bound to optics. It can
 An example of a mirror or raspi-cam adapter can be found in the In-Incubator Folder.
 ![](BASE_CUBE_v0_2.png)
 
-Devices features:
+### 3D Printing:
+
+### Devices features:
 
 	* Click-Mount via Ball-Magnets/Screws 
 	* Possible electic connection

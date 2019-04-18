@@ -5,7 +5,7 @@
 
 This is the online repository for the open-source hardware project ''UC2'' [YouSeeToo]. 
 
-[3D printing files](./CAD/STL) | [Design-Files](./CAD/BASE_CUBE) | [Project Page](http://useetoo.org) | [UC2 Paper](https://www.google.com/search?q=comming+soon&oq=comming+soon&aqs=chrome..69i57j0j69i59j0l3.1495j0j4&sourceid=chrome&ie=UTF-8)   
+[Quickstart 3D printing files](./CAD/BASE_CUBE) | [Design-Files](./CAD/BASE_CUBE/STL) | [Project Page](http://useetoo.org) | [UC2 Paper](https://www.google.com/search?q=comming+soon&oq=comming+soon&aqs=chrome..69i57j0j69i59j0l3.1495j0j4&sourceid=chrome&ie=UTF-8)   
 
 ## Introduction
 
