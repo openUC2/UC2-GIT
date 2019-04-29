@@ -15,6 +15,8 @@ We cannot guarrantee the availability of the components. If you know other compo
 |  Motic | Motic Objektiv CCIS plan achromat. EC-H PL 4x/0.1 (AA=15.9mm)  | 101€  | [Astro Media](https://www.astroshop.de/fuer-mikroskope/motic-objektiv-ccis-plan-achromat-ec-h-pl-4x-0-1-aa-15-9mm-/p,45939)  | No |
 |  Motic |Motic Achromat. Klapp-Kondensor N.A. 0,90/0.13 mit irisblende  | 150€  | [Astro Media](https://www.astroshop.de/kondensoren/motic-achromat-klapp-kondensor-n-a-0-90-0-13-mit-irisblende/p,51901)  | No |
 |  Various | Various | n.a. €  | [Microscopy.com](https://www.microscope.com/accessories/objective-lenses)  | No |
+|  Comar | Various | n.a. €  | [comar optics](https://www.comaroptics.com/components/lenses/mounted-lenses/microscope-objectives)  | No |
+
 
 
 Most Objectives come with an RMS thread. 
@@ -34,16 +36,7 @@ We highly recommond you to check the marketin with known retaillers (e.g. eBay, 
 | Generic  |  Concave (Examplary) |  5 € | [Amazon](https://www.amazon.de/Blesiya-Physisches-Laborbedarf-Wissenschaft-Experiment/dp/B07GJW6J83/ref=sr_1_6?ie=UTF8&qid=1548691473&sr=8-6&keywords=Konkave+Linsen)
 | Generic  |  Achromatic (Examplary) |  20 € | [Amazon](https://www.amazon.de/Durchmesser-Brennweite-95-K9-plano-concave-Objektiv-konkaver/dp/B013SN312E/ref=sr_1_17_sspa?ie=UTF8&qid=1548691550&sr=8-17-spons&keywords=Konkave+Linsen&psc=1)
 | Generic  |  Various (Examplary) |  20 € | [Amazon - Ajax Scientific Shop](https://www.amazon.de/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=Ajax+Scientific)
-
-
-
-
-
-
-
-
-
-
+| Generic  |  Cylindrical, Plano-optics (Examplary) |  20 € | [Comar Optics](https://www.comaroptics.com/components/lenses/cylindrical-lenses/quality-planoconvex-cylindrical-lenses-visibleuv)
 
 
 
@@ -56,7 +49,8 @@ We highly recommond you to check the marketin with known retaillers (e.g. eBay, 
 | Grating (Tranmission) |  1000 l/mm |  5 € | [Astro Media](https://experimentis-shop.de/beugungsgitter-fuer-optische-versuche-detail-441.html)  |
 | Prism |  Generic |  10 € | [Amazon](https://www.amazon.de/dp/B0716T8KS4/ref=sspa_dk_detail_2?psc=1&pd_rd_i=B0716T8KS4&pd_rd_w=LKu5R&pf_rd_p=00903874-3af0-47e0-8622-ee58087f71cf&pd_rd_wg=SNXHK&pf_rd_r=WXGT2NAAVMTR9QDASTY2&pd_rd_r=8b223bf8-2316-11e9-bb57-2164ec7a06dc)  |
 | Dichroic Prism/BS |  Generic |  10 € | [Amazon](https://www.amazon.de/Askliy-Physik-Pr%C3%A4zision-optisch-Prisma/dp/B01LSATQI2/ref=pd_bxgy_328_img_2?_encoding=UTF8&pd_rd_i=B01LSATQI2&pd_rd_r=eadee6fe-2316-11e9-9f91-fdda01699348&pd_rd_w=4rz9k&pd_rd_wg=wDsca&pf_rd_p=c63cca93-7a15-40dd-b68a-47167d2b2080&pf_rd_r=RMDXQTSY6WHWMVE03SGS&psc=1&refRID=RMDXQTSY6WHWMVE03SGS)  |
-
+| Silver Mirror |  Generic |  45 € | [Eksma](http://eksmaoptics.com/femtoline-components/femtoline-mirrors/enhanced-silver-mirrors/?listtype=search&searchparam=mirror)  |
+| Microlens Arrays |  Generic |  450 € | [RPC Photonics](https://www.rpcphotonics.com/product-category/microlens-arrays/) |
 
 
 
