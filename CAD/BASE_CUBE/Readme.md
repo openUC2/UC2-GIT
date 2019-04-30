@@ -1,16 +1,16 @@
 ## BASE CUBE 
 This is the repository for the base-cube design. The design-files can be found in the folder [INVENTOR](./INVENTOR).
 
-A 3D-printing quick-start-guide can be found [here](./CAD/BASE_CUBE/STL)
+A 3D-printing quick-start-guide can be found [here](./STL)
 The Base-Cube consists of only 3 components. 
 
 1. **The Base** where the ball magnets will be fed in
 2. **The Lid** where the Arduino + Electronics finds its place
 3. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
-![](BASE_CUBE_v0_1.png)
+![](./IMAGES/BASE_CUBE_v0_1.png)
 The function which fits into the cube is not necessarily bound to optics. It can be everything! 
 An example of a mirror or raspi-cam adapter can be found in the In-Incubator Folder.
-![](BASE_CUBE_v0_2.png)
+![](./IMAGES/BASE_CUBE_v0_2.png)
 
 ### 3D Printing:
 
