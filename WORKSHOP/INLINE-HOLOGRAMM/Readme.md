@@ -11,5 +11,10 @@ The document which explains the steps to prepare the setup and how to use it is 
 - [PYTHON-Files for Processing the Holograms](./PYTHON)
 - [Fiji-Plugin to reconstruct the Holograms](./FIJI)
 
+## Software files 
+The workshop goes along with a very brief Python tutorial. This can be downloaded as a ZIP-file using [this link](./PYTHON/PYTHON.zip). 
+
+The Python and iPython-Notebook files can be found in the folder [PYTHON](./PYTHON).
+
 ## Suggestions
 If you have any problems or suggestions, please file an issue. Thank you! 
