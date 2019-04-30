@@ -1,6 +1,7 @@
 ## BASE CUBE 
 This is the repository for the base-cube design. The design-files can be found in the folder [INVENTOR](./INVENTOR).
 
+A 3D-printing quick-start-guide can be found [here](./CAD/BASE_CUBE/STL)
 The Base-Cube consists of only 3 components. 
 
 1. **The Base** where the ball magnets will be fed in
