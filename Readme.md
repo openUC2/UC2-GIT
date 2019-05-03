@@ -40,7 +40,7 @@ Our goal is to make as many setups as possible available, so that people can pla
 
 * [Light-sheet Microscope](./CAD/LIGHTSHEET-Scanning)
 * [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./CAD/IN-INCUBATOR_MICROSCOPE) 
-* [Telescope](./CAD/IN-INCUBATOR_MICROSCOPE)
+* [Telescope](./WORKSHOP/TELESCOPE)
 * Smartphone Microscope
 * [In-Line Holographical Microscope](./CAD/INLINE_HOLOGRAM)
 * Abbe Experiment (Diffraction-effect of light)
