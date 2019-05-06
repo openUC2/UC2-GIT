@@ -14,6 +14,10 @@ An example of a mirror or raspi-cam adapter can be found in the In-Incubator Fol
 
 ### 3D Printing:
 
+A quick printing tutorial can be found here:
+[![[UC2] YouSeeToo - How to print the base-cube?](.\IMAGES/UC2_TutorialPrintYoutube.png)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
+
+
 ### Devices features:
 
 	* Click-Mount via Ball-Magnets/Screws 

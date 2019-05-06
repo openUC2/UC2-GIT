@@ -65,6 +65,12 @@ This should give a first-start blueprint to develop any optical design idea into
 
 Assemlby-guides can be found [here](./DOCUMENTS/TUTORIALS_SETUP).
 
+A quick printing tutorial can be found here:
+[![[UC2] YouSeeToo - How to print the base-cube?](.\IMAGES/UC2_TutorialPrintYoutube.png)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
+
+
+
+
 ### Telescope 
 We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation can be found [here](./WORKSHOP/TELESCOPE).
 
