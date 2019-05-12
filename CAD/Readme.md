@@ -6,7 +6,12 @@ This should serve as a growing list of available optical setups. The most import
 ## Printing
 The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGreen which is precise enough. Note, that not all parts might be necessary to print. A detailed description or compiled list of necessary parts will follow soon. 
 
-## List of available setups:
+## List of available Modules (CUBEs):
+- [IN-INCUBATOR_MICROSCOPE](./IN-INCUBATOR_MICROSCOPE/Readme.md)
+- [INLINE_HOLOGRAM](./INLINE_HOLOGRAM/Readme.md)
+- [LIGHTSHEET-Scanning](./LIGHTSHEET-Scanning/Readme.md)
+- 
+## List of available Applications (APPs):
 - [IN-INCUBATOR_MICROSCOPE](./IN-INCUBATOR_MICROSCOPE/Readme.md)
 - [INLINE_HOLOGRAM](./INLINE_HOLOGRAM/Readme.md)
 - [LIGHTSHEET-Scanning](./LIGHTSHEET-Scanning/Readme.md)
