@@ -17,6 +17,9 @@ An example of a mirror or raspi-cam adapter can be found in the In-Incubator Fol
 A quick printing tutorial can be found here:
 [![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.PNG)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
 
+### Electronics
+The Arduino can be introduced with hot-glue or some screws.
+![](./IMAGES/Assembly_Cube_Electric_Adpater.png)
 
 ### Devices features:
 

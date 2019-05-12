@@ -5,7 +5,7 @@
 
 This is the online repository for the open-source hardware project ''UC2'' [YouSeeToo]. 
 
-[Quickstart 3D printing files](./CAD/BASE_CUBE) | [Design-Files](./CAD/BASE_CUBE/STL) | [Project Page](http://useetoo.org) | [UC2 Paper](https://www.google.com/search?q=comming+soon&oq=comming+soon&aqs=chrome..69i57j0j69i59j0l3.1495j0j4&sourceid=chrome&ie=UTF-8)   
+[Quickstart 3D printing files](./CAD/CUBE_Base) | [Design-Files](./CAD/CUBE_Base/STL) | [Project Page](http://useetoo.org) | [UC2 Paper](https://www.google.com/search?q=comming+soon&oq=comming+soon&aqs=chrome..69i57j0j69i59j0l3.1495j0j4&sourceid=chrome&ie=UTF-8)   
 
 ## Introduction
 
@@ -56,8 +56,8 @@ All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to 
 
 # Getting Started
 
-### Base-Cube 
-The basic cube can directly be printed using the [STL](./CAD/BASE_CUBE/STL)-files or imported in Autodesks Inventor/Fusion360. Therefor we wrote a little tutorial which can be found [here](./CAD/BASE_CUBE).
+### Base Cube 
+The basic cube can directly be printed using the [STL](./CAD/CUBE_Base/STL)-files or imported in Autodesks Inventor/Fusion360. Therefor we wrote a little tutorial which can be found [here](./CAD/CUBE_Base).
 
 A quick printing tutorial can be found here:
 [![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.png)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
