@@ -1,71 +1,65 @@
 # Z-Stage (Objective) Cube
-This is the repository for the Z-Stage (Sample) Cube. 
+This is the repository for the Z-Stage (Objective) Cube. 
 
 The stl-files can be found in the folder [STL](./STL).
 
+
 ### Purpose
-The stage 
+In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample. 
+In order to automate this, we designed a very simple z-stage itself reyling on flexure bearings also knwon from Bowman's flexurescope. The main difference here is, that we rely on a spiral-design which avoids the parallel-shift of the objective lens and makes the entire design very robust. 
 
 ![](./IMAGES/Assembly_Z_Focus_Spiralbearing_v3.png)
 
-Due to limited space, we need to fold the beam using a mirror. This is done by reflecting the incoming light under an angle of 45°. It follows in a change of the optical axis by 90° 
+***The mechanism is as follows***: A stepper motor (28-BYJ) drives a small gearbox which rotates a screw. On the screw, there is a nut which acts as a worm-drive. The conversion of the rotational into linear movement pushes/pulls a small level-arm which is connected to the spiral spring-like linear actuator. It can thus move up-and down around the resting position. 
+Another spiral-like spring can hold an objective lens with varying sizes. It also allows coarse z-focussing.  
+
+![](./IMAGES/Assembly_Z_Focus_Spiralbearing_v3_2.png)
 
 
 ## Properties
-* design is derived from the base-cube
-* the adapter holds a 1 inch circular mirror (e.g. Thorlabs part) at 45 degrees in a UC2 base cube 
-* the angle of the mirror can be varied in a limited range (e.g. +/- 5°-10°) using a flexure bearing driven by a screw and nut + spring to aply pre-force
-* the here used mirror has the following parameters:
-	* Diameter: 25,4mm
-	* Reflectance 
-	* Surface Flatness: (Peak to Valley) λ/10 @ 633 nm
-	* Substrate Fused: Silica
-	* Thickness: 6.0 mm (0.24")
-
-
-
+* theoretically no play due to the use of flexure berings
+* moving range
+	* fine: around +/- 8mm
+	* coarse: around +/- 20 mm (shifting the objective lens inside the spiral-like spring
+* very low cost by relying on off-the-shelf components 
 
 ## Parts
 
 ### 3D printing parts 
 The Part consists of the following components. 
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/Assembly_Cube_Mirror_Tilt_10_Lid_el_v0_1.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/Assembly_Cube_Mirror_Tilt_10_Cube_v0_2.stl))
-* **The Adjustable Mirror Holder** which holds a 1 inch Mirror and adapts it to the base cube ([LENSHOLDER](./STL/Assembly_Cube_Mirror_Tilt_01_Cube_Inlet_Mirrir_Tilt_12.stl))
+* **The Lid (2x1)** where the Arduino + Electronics finds its place ([LID](./STL/Assembly_Z_Focus_Spiralbearing_v3_10_Lid_2x_v0_non-el_2.stl))
+* **The Cube (2x1)** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/Assembly_Z_Focus_Spiralbearing_v3_10_Cube_2x_v0_no-rods_1.stl))
+* **The Z-Stage and Motor Holder** which moves the objective and holds the stepper motor ([Z-Stage](./STL/Assembly_Z_Focus_Spiralbearing_v3_00_focus_inlet_triangle_spiral_v5_3.stl)
+* **The Gear (large)** which drives the wormdrive - borrowed from BOWMAN'S flexurescope ([gear (large)](./STL/Assembly_Z_Focus_Spiralbearing_v3_00_large_gear_4.stl))
+* **The Gear (small)** which drives the wormdrive - borrowed from BOWMAN'S flexurescope ([gear (small)](./STL/Assembly_Z_Focus_Spiralbearing_v3_00_small_gear_5.stl))
 
 ### Additional parts 
-* 5x DIN912 M3*12 screws (non stainless steel)
-* 1x M3 Nut 
-* 1x Thorlabs PF10-03-P01 - Protected Silver Mirror
+* 8x DIN912 M3*12 screws (non stainless steel)
+* 3x M3 Nut 
+* 1x M3 Screw, 26 mm
+* 1x M4 Screw, 16 mm + M4 Nut
+* 1x 28-BYJ stepper motor
+* 1x Driving electronic
+* 1x ESP32 for controlling the motor
+* 1x USB Micro Cable 
 
 
 
 ## Remarks and Tips 
 ### 3D Printing:
-* No support required in all designs 
+* No support required in all designs except the sprial focussing mechanism (use sparse support!) 
 * Carefully remove all support structures (if applicable)
 
 ## Assembly
-* Insert the screw and nut in the appropriate place
-* Add a spring between the part which gets bended and the back (non-moving part). 
-* Remove any support and clean the part
-* Insert the mirror in the appropriate hole
-* Slide in the assembled Mirror part into the Cube-Base
-* Add the lid and fix it using a set of M3 screws
+* Detailed description coming soon
+* Add motor and small gear, fix it with M4 screw
+* Add the M3 nut in the dedicted hole close to the moving stage
+* Add M3x26mm screw with mounted large gear at one end and insert it into the hole. 
+* rotate the M3x26 screw so that it pushes the moving z-stage
+* Wire the motor, test it
 * Done!
 
 
 ## Safety
-Don't touch the silver surface! 
-
-Attention, don't cut your fingers while removing the lens from the iPhone sensor! 
-
-Never (!) look into the laser pointer! It will damage your eye immediately!
-
-
-* ATTENTION: NEVER WATCH DIRECTLY INTO THE LASER! EYE WILL BE DAMAGED DIRECTLY
-* NEVER SWITCH ON THE LASER WITHOUT INTEDED USE 
-* BEAM HAS TO GO AWAY FROM ONESELF - ALWAYS!
-
-
+Be careful!
