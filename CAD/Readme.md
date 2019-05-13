@@ -10,7 +10,7 @@ The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGr
 * [CUBE Base](./CUBE_Base)
 * [CUBE Cameracube](./CUBE_Cameracube)
 * [CUBE EmptyTemplate](./CUBE_EmptyTemplate)
-* [CUBE Filter](./CUBE_Filter)
+* [CUBE Beamsplitter](./CUBE_Beamsplitter)
 * [CUBE Lasermodule](./CUBE_Lasermodule)
 * [CUBE Lensholder](./CUBE_Lensholder)
 * [CUBE Mirror](./CUBE_Mirror)
