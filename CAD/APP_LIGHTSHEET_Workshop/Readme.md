@@ -92,7 +92,7 @@ Here we try to form the compound microscope.
 * Once you see the pattern of the paper, align the lightsheet again
 * Take a screwdriver and turn the screw of the tiltable/movable mirror - this mirror varies the angle of the lightsheet and the position where it hits the back focal plane of the 4x objective lens respectively 
 <p align="center">
-<img src="./IMAGES/Assembly_simple_Lightsheet_v3.JPG" width="400">
+<img src="./IMAGES/Assembly_simple_Lightsheet_v3.jpg" width="400">
 </p>
 
 * Move it so that you see the lightsheet in-focus with the bright-field image
@@ -109,14 +109,14 @@ The result could look like this:
 
 ##### Fluorescent Image (*Pollengrain in Agarose*)
 <p align="center">
-<img src="./IMAGES/Assembly_simple_Lightsheet_v4.tif" width="400">
+<img src="./IMAGES/Assembly_simple_Lightsheet_v4.png" width="400">
 </p>
 
 
 
 ##### Brightfield Image (*Pollengrain in Agarose*)
 <p align="center">
-<img src="./IMAGES/Assembly_simple_Lightsheet_v5.tif" width="400">
+<img src="./IMAGES/Assembly_simple_Lightsheet_v5.png" width="400">
 </p>
 
 
