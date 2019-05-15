@@ -12,8 +12,6 @@ To keep the setup as simple as possible we decided to mount the sample (e.g. bea
 
 ![](./IMAGES/Assembly_XY_Translator_Lightsheet_v2.png)
 
-A nice video on the working-principle of the stage-mechanism can be found [here](https://www.youtube.com/watch?v=PaypcVFPs48&feature=youtu.be&t=412).
-
 ## Properties
 * theoretically no play due to the use of flexure berings
 * moving range around +/- 10mm
@@ -58,6 +56,69 @@ The Part consists of the following components.
 * rotate the M3x26 screw so that it pushes the moving z-stage
 * Wire the motor, test it
 * Done!
+
+
+###Tutorial with images
+Don't insert batteries in the laser yet!!
+
+
+
+1. All parts for the module
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample7.jpg" width="300">
+</p>
+
+1. Add the nut to the z-stage and the couple to the motor
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample8.jpg" width="300">
+</p>
+
+1. Add the prepared M3 screw as a wormdrive <p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample9.jpg" width="300">
+</p>
+
+1. Fasten the screw and move it freely along Z (take care, don't break it!
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample10.jpg" width="300">
+</p>
+
+1. Add the motor (28BYJ) to the assembly using M3+nute
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample11.jpg" width="300">
+</p>
+
+1. Glue a metallic plate to the moving part of the z-stag
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample12.jpg" width="300">
+</p>
+
+1. Add 5mm ball-magnets to the sample holder 
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample13.jpg" width="300">
+</p>
+
+1. Check assembly:
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample14.jpg" width="300">
+</p>
+
+1. Add the thin baseplate using M3 screws
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample15.jpg" width="300">
+</p>
+
+1. Fix the screws 
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample16.jpg" width="300">
+</p>
+
+1. Done!
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstagesample17.jpg" width="300">
+</p>
+
+
+
 
 
 ## Safety

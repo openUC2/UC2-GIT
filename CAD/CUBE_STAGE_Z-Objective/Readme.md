@@ -61,5 +61,74 @@ The Part consists of the following components.
 * Done!
 
 
+###Tutorial with images
+Don't insert batteries in the laser yet!!
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage1.jpg" width="300">
+</p>
+
+1. Add the M3 screw and the spring right here. Use some (hot) glue, so that the screw cannot rotate anymore.
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage2.jpg" width="300">
+</p>
+
+1. Add a M3 Washer
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage3.jpg" width="300">
+</p>
+
+1. Mount the large Gear using a M3 nut
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage4.jpg" width="300">
+</p>
+
+1. Add the small gear
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage5.jpg" width="300">
+</p>
+
+1. Attach the stepper Motor (28BYJ)
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage6.jpg" width="300">
+</p>
+
+1. Fix the stepper motor with some screws
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage8.jpg" width="300">
+</p>
+
+1. Mount the focus inlet to the 2x1 Base cube using a M3 screw
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage9.jpg" width="300">
+</p>
+
+1. Fasten the screw
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage10.jpg" width="300">
+</p>
+
+1. Do the same thing on the other side
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage11.jpg" width="300">
+</p>
+
+1. Fix all screws 
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage12.jpg" width="300">
+</p>
+
+1. Add the objective lens
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage14.jpg" width="300">
+</p>
+
+1. Put the objective lens in the correct position - Done! 
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Zstage15.jpg" width="300">
+</p>
+
+
 ## Safety
 Be careful!

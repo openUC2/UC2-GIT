@@ -44,5 +44,37 @@ The Part consists of the following components.
 * Take the cube lid and mount it using the 4 hex screws
 * Done! 
 
+###Tutorial with images
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Cameracube1.jpg" width="300">
+</p>
+
+1. Mount the camera inside the cube (don't hit the PCB with the metallic screw!)
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Cameracube2.jpg" width="300">
+</p>
+
+1. Insert the camera into the cube 
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Cameracube3.jpg" width="300">
+</p>
+
+1. Add screws to the cube
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Cameracube4.jpg" width="300">
+</p>
+
+1. Fix the screws
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Cameracube5.jpg" width="300">
+</p>
+
+1. Center the camera - done!
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Cameracube6.jpg" width="300">
+</p>
+
 ## Safety
 Be carefule with the camera's PCB. It's sensible to electronic static discharge! 

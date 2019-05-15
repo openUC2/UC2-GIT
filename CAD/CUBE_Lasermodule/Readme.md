@@ -57,6 +57,66 @@ The Part consists of the following components.
 * Add the lid to the cube and fix it with the 4 M3 screws
 * Done! 
 
+###Tutorial with images
+Don't insert batteries in the laser yet!!
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube1.jpg" width="300">
+</p>
+
+1. Mount the clamp (do not switch on the laser!)
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube2.jpg" width="300">
+</p>
+
+1. Mount Laser inside the cube - adjust screws to center the laser
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube3.jpg" width="300">
+</p>
+
+1. Fix the laser inside the mount
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube4.jpg" width="300">
+</p>
+
+1. Widen the holes to <~5.9mm with a drillin-tool
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube5.jpg" width="300">
+</p>
+
+1. Insert rods inside the cube
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube6.jpg" width="300">
+</p>
+
+1. Widen the holes to <~5.9mm with a drillin-tool
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube7.jpg" width="300">
+</p>
+
+1. Mount the laser on the rods
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube8.jpg" width="300">
+</p>
+
+1. Fasten the rods
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube9.jpg" width="300">
+</p>
+
+1. Add the lid to the cube and screw it
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube10.jpg" width="300">
+</p>
+
+1. Check if it's tilting - if so: Align screws!
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lasercube11.jpg" width="300">
+</p>
+
+
+
 ## Safety
 Never (!) look into the laser pointer! It will damage your eye immediately!
 

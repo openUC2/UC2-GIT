@@ -63,6 +63,118 @@ The Part consists of the following components.
 
 ![](./IMAGES/Assembly_Cube_Objectiveholder_v2.png)
 
+###Tutorial with images (LENSHOLDER)
+Don't insert batteries in the laser yet!!
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount1.jpg" width="300">
+</p>
+
+1. Widen the holes to <~5.9mm with a drillin-tool
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount2.jpg" width="300">
+</p>
+
+1. Insert the lens inside the part (don't touch it!)
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount3.jpg" width="300">
+</p>
+
+1. Add the fixation ring
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount5.jpg" width="300">
+</p>
+
+1. Fix the ring so that the lens is not loose - don't touch the lens!
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount6.jpg" width="300">
+</p>
+
+1. Insert rods inside the cube<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount8.jpg" width="300">
+</p>
+
+1. Mount the lens on the rods
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount9.jpg" width="300">
+</p>
+
+1. Fasten the rods
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount10.jpg" width="300">
+</p>
+
+1. Add the lid to the cube and screw it
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount11.jpg" width="300">
+</p>
+
+1. Check if it's tilting - if so: Align screws!
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount12.jpg" width="300">
+</p>
+
+1. Done!
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Lensmount13.jpg" width="300">
+</p>
+
+
+###Tutorial with images (OBJECTIVE HOLDER)
+Don't insert batteries in the laser yet!!
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder1.jpg" width="300">
+</p>
+
+1. Remove the metal cap
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder2.jpg" width="300">
+</p>
+
+1. Remove the metal cap II
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder3.jpg" width="300">
+</p>
+
+1. Widen the holes to <~5.9mm with a drillin-tool
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder4.jpg" width="300">
+</p>
+
+1. Insert the objective into the spiral thread
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder5.jpg" width="300">
+</p>
+
+1. Widen the holes to <~5.9mm with a drillin-tool
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder6.jpg" width="300">
+</p>
+
+1. Insert the rods into the cube
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder7.jpg" width="300">
+</p>
+
+1. Mount the objectiveholder on the rods and fasten it
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder8.jpg" width="300">
+</p>
+
+1. Add the screws and fix it
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder9.jpg" width="300">
+</p>
+
+1. Done!
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Objectiveholder10.jpg" width="300">
+</p>
+
+
 
 
 ## Safety

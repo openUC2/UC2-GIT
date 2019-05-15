@@ -57,6 +57,89 @@ The Part consists of the following components.
 
 ![](./IMAGES/Beamexpander_Assembly_3.png)
 
+###Tutorial with images
+Don't insert batteries in the laser yet!!
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube1.jpg" width="300">
+</p>
+
+1. Mount the first lens
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube2.jpg" width="300">
+</p>
+
+1. Mount the cellphone lens
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube3.jpg" width="300">
+</p>
+
+1. Fix the cellphone lens with blutek
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube4.jpg" width="300">
+</p>
+
+1. Insert the telescope into the cube
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube7.jpg" width="300">
+</p>
+
+1. Insert the telescope into the cube II
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube8.jpg" width="300">
+</p>
+
+1. Assemble the cube with screws
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube9.jpg" width="300">
+</p>
+
+1. Assembled:
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube10.jpg" width="300">
+</p>
+
+#### Finetune the lens-distance (collimate the beam)
+
+1. Add the centered laser to the grid like so:
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube5.jpg" width="300">
+</p>
+
+1. Turn on the laser:
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube6.jpg" width="300">
+</p>
+
+1. Optional: Align the laser (center with the screws) 
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube11.jpg" width="300">
+</p>
+
+1. Check the beam on a white piece of paper
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube12.jpg" width="300">
+</p>
+
+1. Mark the position and diamter of the beam on the white piece of paper
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube14.jpg" width="300">
+</p>
+
+1. Compare distance and diameter of laser spot at a distance far away
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube15.jpg" width="300">
+</p>
+
+1. Adjust the position of the cellphone lens in the rail so that both spots have the same position and diameter (iterate - start at step 5 - until you're satisfied)
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Beamexpandercube13.jpg" width="300">
+</p>
+
+
+
+
 
 ## Safety
 Attention, don't cut your fingers while removing the lens from the iPhone sensor! 

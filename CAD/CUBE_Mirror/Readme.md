@@ -56,6 +56,46 @@ The Part consists of the following components.
 * Done!
 
 
+###Tutorial with images
+Don't insert batteries in the laser yet!!
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Mirror1.jpg" width="300">
+</p>
+
+1. Add the spring between the mirror holder and the back-plate
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Mirror2.jpg" width="300">
+</p>
+
+1. Add the M3+Nut, Add the mirror
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Mirror3.jpg" width="300">
+</p>
+
+1. Insert the mirror-mount into the cube
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Mirror4.jpg" width="300">
+</p>
+
+1. Make it parallel to the ground
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Mirror5.jpg" width="300">
+</p>
+
+1. Add the screws and fix them
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Mirror7.jpg" width="300">
+</p>
+
+1. Done!
+<p align="center">
+<img src="./IMAGES/UC2_Tut_Mirror8.jpg" width="300">
+</p>
+
+
+
 ## Safety
 Don't touch the silver surface! 
 
