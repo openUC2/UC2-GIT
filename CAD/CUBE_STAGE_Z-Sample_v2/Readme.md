@@ -3,6 +3,8 @@ This is the repository for the Z-Stage (Sample) Cube.
 
 The stl-files can be found in the folder [STL](./STL).
 
+Wiring and coding examples can be found in the folder [ELECTRONICS](./ELECTRONICS).
+
 ### Purpose
 In light-sheet microscopy one often needs the ability to move the sample trought the illuminating light-sheet in order to capture the 3D information from the sample. This can either be done by scanning the light-sheet and focussing the objective lens simultaneously or by simply moving the sample along the optical axis w.r.t. the detection objective lens. 
 
@@ -119,7 +121,8 @@ Don't insert batteries in the laser yet!!
 
 
 
-
+## Electronics
+Please find a dedicated tutorial and working example in the folder [ELECTRONICS](./ELECTRONICS).
 
 ## Safety
 Be careful!

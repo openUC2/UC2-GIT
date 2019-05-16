@@ -35,7 +35,7 @@ The Part consists of the following components.
 * 3x M3 Nut 
 * 1x M3 Screw, 26 mm
 * 1x M4 Screw, 16 mm + M4 Nut
-* 1x ferro-magnetic plate ~ 15x15 mm, 1mm thickness
+* 1x ferro-magnetic plate ~ 30x40 mm, 1mm thickness
 * 1x 28-BYJ stepper motor
 * 1x Driving electronic
 * 1x ESP32 for controlling the motor
@@ -45,7 +45,7 @@ The Part consists of the following components.
 
 ## Remarks and Tips 
 ### 3D Printing:
-* No support required in all designs 
+* The Z-Stage and Motor Holder is printed with support, so is the Syringe holder
 * Carefully remove all support structures (if applicable)
 
 ## Assembly
