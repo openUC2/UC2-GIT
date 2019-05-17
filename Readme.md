@@ -17,7 +17,7 @@ Making **open-science** great again!
 
 Therefore the simplest microscope could be realized using only 2 lenses. Their angular magnification is characterized by the ratio of the objective f_obj and tube lens f_tube
 
-$M_4f=  f_obj/f_tube 	(1)$.<!---->
+***M_4f=  f_obj/f_tube***
 
 <p align="center">
 <img src="./IMAGES/UC2_simplemicroscope.png" width="800">
@@ -76,7 +76,8 @@ Assemlby-guides can be found [here](./DOCUMENTS/TUTORIALS_SETUP).
 
 
 
-
+### Light-sheet Workshop
+Have a look at the documentation of the workshop we did at the day of light [here](./WORKSHOP/LIGHTSHEET).
 
 ### Telescope 
 We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation can be found [here](./WORKSHOP/TELESCOPE).

@@ -17,6 +17,7 @@ void setup() {
   pinMode(motorPin_X[1], OUTPUT);
   pinMode(motorPin_X[2], OUTPUT);
   pinMode(motorPin_X[3], OUTPUT);
+  
   pinMode(motorPin_Y[0], OUTPUT);
   pinMode(motorPin_Y[1], OUTPUT);
   pinMode(motorPin_Y[2], OUTPUT);
@@ -180,7 +181,13 @@ void drive_left(unsigned int motorSpeed, int motorPin[], int steps)
 
 
 void stop()
-{ digitalWrite(motorPin4, LOW);
+{ 
+    int motorPin1 = motorPin[0];
+  int motorPin2 = motorPin[1];
+  int motorPin3 = motorPin[2];
+  int motorPin4 = motorPin[3];
+
+digitalWrite(motorPin4, LOW);
   digitalWrite(motorPin3, LOW);
   digitalWrite(motorPin2, LOW);
   digitalWrite(motorPin1, LOW);
