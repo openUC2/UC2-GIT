@@ -42,11 +42,11 @@ A full cube + base-plate looks like that:
 
 Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please go to the [CAD](./CAD/Readme.md)-folder to have a glimpse of what'S possible
 
-* [Light-sheet Microscope](./CAD/LIGHTSHEET-Scanning)
-* [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./CAD/IN-INCUBATOR_MICROSCOPE) 
-* [Telescope](./WORKSHOP/TELESCOPE)
+* [Light-sheet Microscope](./CAD/OLD/APP_LIGHTSHEET-Scanning)
+* [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./CAD/APP_Incubator_Microscope) 
+* [Telescope](./CAD/APP_SIMPLE-Telescope)
 * Smartphone Microscope
-* [In-Line Holographical Microscope](./CAD/INLINE_HOLOGRAM)
+* [In-Line Holographical Microscope](./CAD/APP_INLINE_HOLOGRAM)
 * Abbe Experiment (Diffraction-effect of light)
 * Michelson interferometer (Interference-effect of light)
 
