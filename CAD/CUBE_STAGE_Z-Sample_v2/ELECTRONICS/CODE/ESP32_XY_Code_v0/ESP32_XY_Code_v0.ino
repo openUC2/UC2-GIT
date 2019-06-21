@@ -1,11 +1,11 @@
-// Copyright UC2 
+// Copyright UC2
 // this drives 2 Stepper-Motors (28BYJ) over an ESP32
 // It is a test for the later MQTT software
 
 
-// Pins for the Motor X and Y 
-int motorPin_X[] = {13,12,14,27};
-int motorPin_Y[] = {26,25,23,32};
+// Pins for the Motor X and Y
+int motorPin_X[] = {13, 12, 14, 27};
+int motorPin_Y[] = {26, 25, 23, 32};
 
 // Define speeds
 unsigned int lowSpeed  = 10000; // Notabene: nicht über 16000
@@ -17,7 +17,7 @@ void setup() {
   pinMode(motorPin_X[1], OUTPUT);
   pinMode(motorPin_X[2], OUTPUT);
   pinMode(motorPin_X[3], OUTPUT);
-  
+
   pinMode(motorPin_Y[0], OUTPUT);
   pinMode(motorPin_Y[1], OUTPUT);
   pinMode(motorPin_Y[2], OUTPUT);
@@ -28,20 +28,14 @@ void loop()
 {
 
   // Drive motor X in positive direction
-  drive_right(highSpeed, motorPin_X, 1000);
-  stop();
+  drive_right(highSpeed, motorPin_X, 5000);
+  stop(motorPin_X);
 
   // Drive motor X in negative direction
-  drive_left(highSpeed, motorPin_X, 1000);
-  stop();
+  drive_left(highSpeed, motorPin_X, 5000);
+  stop(motorPin_X);
 
-  // Drive motor Y in positive direction
-  drive_right(highSpeed, motorPin_Y, 1000);
-  stop();
 
-  // Drive motor Y in negative direction  
-  drive_left(highSpeed, motorPin_Y, 1000);
-  stop();
 }
 
 void drive_right(unsigned int motorSpeed, int motorPin[], int steps)
@@ -121,73 +115,73 @@ void drive_left(unsigned int motorSpeed, int motorPin[], int steps)
 
   for (int i = 0; i < steps; i++)
   {
-// 1
-  digitalWrite(motorPin1, HIGH);
-  digitalWrite(motorPin2, LOW);
-  digitalWrite(motorPin3, LOW);
-  digitalWrite(motorPin4, LOW);
-  delayMicroseconds(motorSpeed);
+    // 1
+    digitalWrite(motorPin1, HIGH);
+    digitalWrite(motorPin2, LOW);
+    digitalWrite(motorPin3, LOW);
+    digitalWrite(motorPin4, LOW);
+    delayMicroseconds(motorSpeed);
 
-  // 2
-  digitalWrite(motorPin1, HIGH);
-  digitalWrite(motorPin2, HIGH);
-  digitalWrite(motorPin3, LOW);
-  digitalWrite(motorPin4, LOW);
-  delayMicroseconds(motorSpeed);
+    // 2
+    digitalWrite(motorPin1, HIGH);
+    digitalWrite(motorPin2, HIGH);
+    digitalWrite(motorPin3, LOW);
+    digitalWrite(motorPin4, LOW);
+    delayMicroseconds(motorSpeed);
 
-  // 3
-  digitalWrite(motorPin1, LOW);
-  digitalWrite(motorPin2, HIGH);
-  digitalWrite(motorPin3, LOW);
-  digitalWrite(motorPin4, LOW);
-  delayMicroseconds(motorSpeed);
+    // 3
+    digitalWrite(motorPin1, LOW);
+    digitalWrite(motorPin2, HIGH);
+    digitalWrite(motorPin3, LOW);
+    digitalWrite(motorPin4, LOW);
+    delayMicroseconds(motorSpeed);
 
-  // 4
-  digitalWrite(motorPin1, LOW);
-  digitalWrite(motorPin2, HIGH);
-  digitalWrite(motorPin3, HIGH);
-  digitalWrite(motorPin4, LOW);
-  delayMicroseconds(motorSpeed);
+    // 4
+    digitalWrite(motorPin1, LOW);
+    digitalWrite(motorPin2, HIGH);
+    digitalWrite(motorPin3, HIGH);
+    digitalWrite(motorPin4, LOW);
+    delayMicroseconds(motorSpeed);
 
-  // 5
-  digitalWrite(motorPin1, LOW);
-  digitalWrite(motorPin2, LOW);
-  digitalWrite(motorPin3, HIGH);
-  digitalWrite(motorPin4, LOW);
-  delayMicroseconds(motorSpeed);
+    // 5
+    digitalWrite(motorPin1, LOW);
+    digitalWrite(motorPin2, LOW);
+    digitalWrite(motorPin3, HIGH);
+    digitalWrite(motorPin4, LOW);
+    delayMicroseconds(motorSpeed);
 
-  // 6
-  digitalWrite(motorPin1, LOW);
-  digitalWrite(motorPin2, LOW);
-  digitalWrite(motorPin3, HIGH);
-  digitalWrite(motorPin4, HIGH);
-  delayMicroseconds(motorSpeed);
+    // 6
+    digitalWrite(motorPin1, LOW);
+    digitalWrite(motorPin2, LOW);
+    digitalWrite(motorPin3, HIGH);
+    digitalWrite(motorPin4, HIGH);
+    delayMicroseconds(motorSpeed);
 
-  // 7
-  digitalWrite(motorPin1, LOW);
-  digitalWrite(motorPin2, LOW);
-  digitalWrite(motorPin3, LOW);
-  digitalWrite(motorPin4, HIGH);
-  delayMicroseconds(motorSpeed);
+    // 7
+    digitalWrite(motorPin1, LOW);
+    digitalWrite(motorPin2, LOW);
+    digitalWrite(motorPin3, LOW);
+    digitalWrite(motorPin4, HIGH);
+    delayMicroseconds(motorSpeed);
 
-  // 8
-  digitalWrite(motorPin1, HIGH);
-  digitalWrite(motorPin2, LOW);
-  digitalWrite(motorPin3, LOW);
-  digitalWrite(motorPin4, HIGH);
-  delayMicroseconds(motorSpeed);
+    // 8
+    digitalWrite(motorPin1, HIGH);
+    digitalWrite(motorPin2, LOW);
+    digitalWrite(motorPin3, LOW);
+    digitalWrite(motorPin4, HIGH);
+    delayMicroseconds(motorSpeed);
   }
 }
 
 
-void stop()
-{ 
-    int motorPin1 = motorPin[0];
+void stop( int motorPin[])
+{
+  int motorPin1 = motorPin[0];
   int motorPin2 = motorPin[1];
   int motorPin3 = motorPin[2];
   int motorPin4 = motorPin[3];
 
-digitalWrite(motorPin4, LOW);
+  digitalWrite(motorPin4, LOW);
   digitalWrite(motorPin3, LOW);
   digitalWrite(motorPin2, LOW);
   digitalWrite(motorPin1, LOW);
