@@ -46,7 +46,7 @@ Our goal is to make as many setups as possible available, so that people can pla
 * [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./CAD/IN-INCUBATOR_MICROSCOPE) 
 * [Telescope](./WORKSHOP/TELESCOPE)
 * Smartphone Microscope
-* [In-Line Holographical Microscope](./CAD/INLINE_HOLOGRAM)
+* [In-Line Holographical Microscope](./WORKSHOP/INLINE-HOLOGRAMM)
 * Abbe Experiment (Diffraction-effect of light)
 * Michelson interferometer (Interference-effect of light)
 

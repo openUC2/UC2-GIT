@@ -4,7 +4,7 @@ The document which explains the steps to prepare the setup and how to use it is 
 
 ## Table of content 
 - [Brief Setup Description](../../CAD/INLINE_HOLOGRAM/Readme.md)
-- [CAD files](../../CAD/INLINE_HOLOGRAM/STL)
+- [CAD files](../../CAD/APP_INLINE_HOLOGRAM/STL)
 - [Tutorial file (GERMAN)](WORKSHOP.pdf)
 - [Tutorial file (ENGLISH)](WORKSHOP_english.pdf)
 - [MATLAB-Files for Processing the Holograms](./MATLAB)

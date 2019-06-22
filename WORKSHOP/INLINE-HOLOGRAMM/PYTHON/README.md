@@ -1,10 +1,16 @@
 
-Install Anaconda 3.6 (latest version for windows)
+# Tutorial for installing the Inline-Hologram Reconstruction software 
 
-1. Copy Image in the same folder as the .iypnb-file
-2. Windows+R => "Run prompt" 
-3. enter "CMD" and hit enter
-4. Terminal opens 
+Install Anaconda 3.6 (latest version for windows).
+Therefore follow the tutorial in this link: [Anaconda Installation](https://docs.anaconda.com/anaconda/install/) (external). 
+
+After you've installed Anacoda, download the ipython notebook file: ```Listings_1_ReconHoloInline.ipynb``` by clicking this [link](./Listings_1_ReconHoloInline.ipynb) and type control+s for saving it somewhere on the computer
+
+
+1. Copy Image in the same folder as the ```.iypnb```-file
+2. ```Windows+R``` => Run prompt
+3. enter ```CMD``` and hit enter
+4. The Terminal opens 
 5. Copy the path where you have the image and script file (e.g. C:\Users\diederichbenedict\Downloads\HOLOGRAM)
 6. Enter: cd "C:\Users\diederichbenedict\Downloads\HOLOGRAM" (or whatever path; right click is paste in the terminal)
 7. Type "ipython notebook" -> enter
