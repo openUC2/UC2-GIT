@@ -37,6 +37,9 @@ We highly recommond you to check the marketin with known retaillers (e.g. eBay, 
 | Generic  |  Achromatic (Examplary) |  20 € | [Amazon](https://www.amazon.de/Durchmesser-Brennweite-95-K9-plano-concave-Objektiv-konkaver/dp/B013SN312E/ref=sr_1_17_sspa?ie=UTF8&qid=1548691550&sr=8-17-spons&keywords=Konkave+Linsen&psc=1)
 | Generic  |  Various (Examplary) |  20 € | [Amazon - Ajax Scientific Shop](https://www.amazon.de/s/ref=bl_dp_s_web_0?ie=UTF8&search-alias=aps&field-keywords=Ajax+Scientific)
 | Generic  |  Cylindrical, Plano-optics (Examplary) |  20 € | [Comar Optics](https://www.comaroptics.com/components/lenses/cylindrical-lenses/quality-planoconvex-cylindrical-lenses-visibleuv)
+| Positive/Negative  |  Plastic and Glass lenses |  5-10 € | [Astromedia](https://www.pgi-versand.de/?id=47&mode=artlist&kat=69)
+
+
 
 
 

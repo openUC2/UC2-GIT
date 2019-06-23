@@ -25,6 +25,8 @@ Rerun the programm by hitting "run all"
 If you want to process a bigger field of view or ROI change the variable "mysize" to a bigger number, but take into account, that the processing time increasing!
 
 If you think, that the refocussing range is either too small or too large (i.e. too close or too far away), than change the parameters:
+
+```
 # Creating costume widget
 FocusSlider = widgets.FloatSlider(
     min = 0,
@@ -34,5 +36,7 @@ FocusSlider = widgets.FloatSlider(
     description = 'ZPos',
     continuous_update = True
 )
+```
+
 
 min, max and step which describe the minimal/maximal focal distance between the sensor and the sample as well as the stepsize where the algorithm calculates the refocussed hologram.
