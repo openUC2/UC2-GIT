@@ -33,7 +33,7 @@ and can thus also contain more complex data which can not be send by the plugin 
   "flags": [],
   "icon": "swap_horiz",
   "env": null,
-  "requirements": ["numpy", "matplotlib"],
+  "requirements": ["numpy", "matplotlib", "pillow", "scikit-image"],
   "dependencies": []
 }
 </config>
@@ -51,7 +51,8 @@ import base64
 import asyncio
 import os
 import time
-import FresnelPropagator as FP
+from skimage import io
+
 
 
 class ImJoyPlugin():
@@ -60,14 +61,14 @@ class ImJoyPlugin():
     
     async def run(self, my):
 
-        api.showStatus('[DEMO] Python worker to plot charts')
+        api.showStatus('[UC2] Python worker to reconstruct a hologram')
         print(my.config.chart_type)
         
         
         ''' start plugin here '''
         
         # define some experimental parameters
-        my_holo_file = 'test_microplastic.jpg'
+        my_holo_file = 'https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/WORKSHOP/INLINE-HOLOGRAMM/PYTHON/hologram_mouse.jpg'
         my_background_file = 'test2bg.jpg'
         mychannel = 2 # select the color channel 0,1,2
         mysize = 1024 # region of interest around the center coordinate 
@@ -80,7 +81,8 @@ class ImJoyPlugin():
         stepsize = 0.001;
         
         # read the raw-hologram
-        myholo = 1.*plt.imread(my_holo_file);
+
+        myholo = 1.*io.imread(my_holo_file)
                               
         # select only the blue channel (because we used the blue LED)                     
         myholo = myholo[:,:,mychannel ]
@@ -104,7 +106,7 @@ class ImJoyPlugin():
         ## Backpropagate the Hologram
         # Fresnel Propagation - test out a range of z-values to find the one that
         # brings the bug into focus
-        Ef = FP.FresnelPropagator(myholo, pixelsize, lambda0, zpos)
+        Ef = FresnelPropagator(myholo, pixelsize, lambda0, my.config.n_points)
         
         # Plot curve and save as png
         fig1, ax = plt.subplots(num='RECONSTRUCTED HOLOGRAM')
@@ -138,5 +140,52 @@ class ImJoyPlugin():
                 print(f'Could not print to old window. New window created.')
 
 api.export(ImJoyPlugin())
+
+
+def abssqr(x):
+    # this is what a detector sees (only intensities)
+    return np.real(x*np.conj(x))
+
+def FT(x):
+    # this only defines the correct fwd fourier transform including proper shift of the frequencies
+    return np.fft.fftshift(np.fft.fft2(x)) # Fourier transform and shift
+
+def iFT(x):
+    # this only defines the correct inverse fourier transform including proper shift of the frequencies
+    return np.fft.ifft2(np.fft.ifftshift(x)) # inverse Fourier transform and shift
+    
+def FresnelPropagator(E0, ps, lambda0, z):
+    # Parameters: E0 - initial complex field in x-y source plane
+    #             ps - pixel size in microns
+    #             lambda0 - wavelength in nm
+    #             z - z-value (distance from sensor to object)
+    #             background - optional background image to divide out from
+    #                
+    
+    upsample_scale = 1;                 # Scale by which to upsample image
+    n = upsample_scale * E0.shape[1] # Image width in pixels (same as height)
+    grid_size = ps * n;                 # Grid size in x-direction
+    
+
+    # Inverse space
+    fx = np.linspace(-(n-1)/2*(1/grid_size), (n-1)/2*(1/grid_size), n)
+    fy = np.linspace(-(n-1)/2*(1/grid_size), (n-1)/2*(1/grid_size), n)
+    Fx, Fy = np.meshgrid(fx, fy)
+    
+    # Fresnel kernel / point spread function h = H(kx, ky)
+    # from Fourier Optics, chapter 4
+    # H = sqrt(z*lambda0)*exp(1i*pi*lambda0*z*(Fx.^2+Fy.^2));
+    # sphere=exp(i*k/2/zc*(xx.^2+yy.^2));
+    H = np.exp(1j*(2 * np.pi / lambda0) * z) * np.exp(1j * np.pi * lambda0 * z * (Fx**2 + Fy**2))
+    #H= cos(pi*lambda0*z*(Fx.^2+Fy.^2)+(2*pi*z)/lambda0)+1i.*sin(pi*lambda0*z*(Fx.^2+Fy.^2)+(2*pi*z)/lambda0);
+    
+    # Compute FFT centered about 0
+    E0fft = FT((E0));     # Centered about 0 since fx and fy centered about 0
+    
+    # Multiply spectrum with fresnel phase-factor
+    G = H * E0fft
+    Ef = iFT(G) # Output after deshifting Fourier transform
+    
+    return Ef
 
 </script>
