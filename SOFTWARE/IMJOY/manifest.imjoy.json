@@ -1,0 +1,28 @@
+{
+ "name": "Project Template",
+ "description": "ImJoy plugin repository.",
+ "version": "0.2.0",
+ "uri_root": "",
+ "plugins": [
+  {
+   "name": "Template plugin",
+   "type": "native-python",
+   "version": "0.1.1",
+   "api_version": "0.1.2",
+   "description": "describe your plugin here.",
+   "tags": [],
+   "ui": "UI for this plugin",
+   "inputs": null,
+   "outputs": null,
+   "flags": [],
+   "icon": null,
+   "env": null,
+   "requirements": [
+    "numpy"
+   ],
+   "dependencies": [],
+   "uri": "imjoy-plugins/templatePlugin.imjoy.html"
+  }
+ ],
+ "collections": []
+}
