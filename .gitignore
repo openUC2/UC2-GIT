@@ -1,3 +1,13 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.DS_Store*
 *.DS_Store
 *.dropbox
 ~$*
@@ -7,10 +17,13 @@
 
 # Word temporary
 ~$*.doc*
+~$*
+
 
 # Word Auto Backup File
 Backup of *.doc*
-
+~$*.doc*
+~$*.docx*
 # Excel temporary
 ~$*.xls*
 

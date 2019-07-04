@@ -5,8 +5,8 @@ The document which explains the steps to prepare the setup and how to use it is 
 ## Table of content 
 - [Brief Setup Description](../../CAD/INLINE_HOLOGRAM/Readme.md)
 - [CAD files](../../CAD/APP_INLINE_HOLOGRAM/STL)
-- [Tutorial file (GERMAN)](WORKSHOP.pdf)
-- [Tutorial file (ENGLISH)](WORKSHOP_english.pdf)
+- [Tutorial file (GERMAN)](./DOCUMENTATION/WORKSHOP.pdf)
+- [Tutorial file (ENGLISH)](./DOCUMENTATION/WORKSHOP_english.pdf)
 - [MATLAB-Files for Processing the Holograms](./MATLAB)
 - [PYTHON-Files for Processing the Holograms](./PYTHON)
 - [Fiji-Plugin to reconstruct the Holograms](./FIJI)
