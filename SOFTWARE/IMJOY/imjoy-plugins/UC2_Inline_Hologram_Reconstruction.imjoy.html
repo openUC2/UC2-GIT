@@ -34,167 +34,82 @@ and can thus also contain more complex data which can not be send by the plugin 
   "icon": "swap_horiz",
   "env": null,
   "requirements": ["numpy", "matplotlib", "pillow", "scikit-image"],
-  "dependencies": []
+  "dependencies": [UC2 Holorecon]
 }
 </config>
 
+<script lang="javascript">
+class ImJoyPlugin {
+  async setup() {
+
+    // bind predict() to the button
+    const processBtn = document.getElementById('process-btn');
+    processBtn.onclick = ()=>{
+      const pluginHolorecon = api.getPlugin('UC2 Holorecon')
+      pluginHolorecon.process_hologram(base64_url)
+    }
+
+    // Display image when a file is selected.
+    const fileInput = document.getElementById("file-input");
+    const canvas = document.getElementById("input-canvas");
+    const drawImage = (url, callback)=>{
+        var img = new Image()
+        img.crossOrigin = "anonymous"
+        img.onload = function(){
+            const ctx = canvas.getContext("2d");
+            canvas.width = Math.min(this.width, 512);
+            canvas.height= Math.min(this.height, parseInt(512*this.height/this.width), 1024);
+            // draw the img into canvas
+            ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
+            if(callback) callback();
+        }
+        img.src = url;
+    }
+
+    //load a preset image
+
+    drawImage('https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/WORKSHOP/INLINE-HOLOGRAMM/PYTHON/hologram_mouse.jpg')
+
+    const readImageFile = ()=>{
+        return new Promise((resolve, reject)=>{
+            const U = window.URL || window.webkitURL;
+            // this works for safari
+            if(U.createObjectURL){
+                drawImage(U.createObjectURL(fileInput.files[0]), resolve)
+            }
+            // fallback
+            else{
+                var fr = new FileReader();
+                // when image is loaded, set the src of the image where you want to display it
+                fr.onload = function(e) {
+                    drawImage(e.target.result, resolve)
+                };
+                fr.onerror = reject
+                // fill fr with image data
+                fr.readAsDataURL(fileInput.files[0]);
+            }
+        })
+    }
+
+    // If user selected a new file or take a new photo, load it and do prediction.
+    fileInput.addEventListener("change", ()=>{
+      readImageFile().then((base64_url)=>{
+          const pluginHolorecon = api.getPlugin('UC2 Holorecon')
+          pluginHolorecon.process_hologram(base64_url)
+      })
+    }, true);
+
+
+
+    document.getElementById("hero_title").innerHTML = 'Model loaded'
+    statusElement.innerHTML = '1. Open image (.png/.jpg) or use pre-loaded image. <br> 2. Click `Compute` to refocus the image!';
+
+    // Display the predict button and file selection
+    processBtn.style.display = "inline";
+    fileInput.style.display = "inline";
+  }
+}
+
 <script lang="python">
-
-# manage the imports
-import matplotlib as mpl
-mpl.use('Agg')
-
-import matplotlib.pyplot as plt
-plt.ioff()
-import numpy as np
-import base64
-import asyncio
-import os
-import time
-from skimage import io
-import matplotlib.pyplot as plt
-
-
-
-class ImJoyPlugin():
-    def setup(self):
-        self.window = None
-
-    async def run(self, my):
-
-        api.showStatus('[UC2] Python worker to reconstruct a hologram')
-        print(my.config.chart_type)
-
-
-        ''' start plugin here '''
-
-        # define some experimental parameters
-        my_holo_file = 'https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/WORKSHOP/INLINE-HOLOGRAMM/PYTHON/hologram_mouse.jpg'
-        my_background_file = 'test2bg.jpg'
-        mychannel = 2 # select the color channel 0,1,2
-        mysize = 1024 # region of interest around the center coordinate
-
-        # define acquisition parameters
-        pixelsize = 1.4e-6; #0.6e-6#.2e-6#3.000e-6;
-        lambda0 = 440e-9; # in nanometer #530e-9;
-
-        # start and stop z-focus measure
-        stepsize = 0.001;
-
-        # read the raw-hologram
-
-        myholo = 1.*io.imread(my_holo_file)
-
-        # select only the blue channel (because we used the blue LED)
-        myholo = myholo[:,:,mychannel ]
-
-        # crop out the ROI around the center to speed up computation (RADIX 2 please!)
-        holosize = myholo.shape
-        myholo =  myholo[int(holosize[0]/2-mysize/2):int(holosize[0]/2+mysize/2), int(holosize[0]/2-mysize/2):int(holosize[0]/2+mysize/2)]
-
-        if(0):
-            # display intermediate result
-            plt.imshow(myholo)
-            plt.colorbar()
-            plt.show()
-
-        # normalize hologram
-        myholo = myholo/np.max(myholo);
-
-        # estimate hologram's amplitude
-        myamplitude = np.sqrt(myholo);
-
-        ## Backpropagate the Hologram
-        # Fresnel Propagation - test out a range of z-values to find the one that
-        # brings the bug into focus
-        Ef = FresnelPropagator(myholo, pixelsize, lambda0, my.config.z_dist)
-
-        # Plot curve and save as png
-        fig1, ax = plt.subplots(num='RECONSTRUCTED HOLOGRAM')
-        plt.imshow(abssqr(Ef),cmap='gray')
-        name_plot = 'HOLOGRAM.png'
-        plt.savefig(name_plot,dpi=300)
-
-        with open(name_plot, 'rb') as f:
-            data = f.read()
-            result = base64.b64encode(data).decode('ascii')
-            imgurl = 'data:image/png;base64,' + result
-            data = {"src": imgurl}
-
-            data_plot = {
-                'name':'Plot charts: show png',
-                'type':'imjoy/image',
-                'w':12, 'h':15,
-                'data':data}
-
-        ## Check if window was defined
-        if self.window is None:
-            self.window = await api.createWindow(data_plot)
-            print(f'Window created')
-
-        else:
-            print(f'Update window.')
-            try:
-                await self.window.run(data=data)
-            except:
-                self.window = await api.createWindow(data_plot)
-                print(f'Could not print to old window. New window created.')
-
-api.export(ImJoyPlugin())
-
-
-def abssqr(x):
-    # this is what a detector sees (only intensities)
-    return np.real(x*np.conj(x))
-
-def FT(x):
-    # this only defines the correct fwd fourier transform including proper shift of the frequencies
-    return np.fft.fftshift(np.fft.fft2(x)) # Fourier transform and shift
-
-def iFT(x):
-    # this only defines the correct inverse fourier transform including proper shift of the frequencies
-    return np.fft.ifft2(np.fft.ifftshift(x)) # inverse Fourier transform and shift
-
-def FresnelPropagator(E0, ps, lambda0, z):
-    # Parameters: E0 - initial complex field in x-y source plane
-    #             ps - pixel size in microns
-    #             lambda0 - wavelength in nm
-    #             z - z-value (distance from sensor to object)
-    #             background - optional background image to divide out from
-    #
-    print('Entering Fresnelpropagator')
-    upsample_scale = 1;                 # Scale by which to upsample image
-    n = upsample_scale * E0.shape[1] # Image width in pixels (same as height)
-    grid_size = ps * n;                 # Grid size in x-direction
-
-
-    # Inverse space
-    fx = np.linspace(-(n-1)/2*(1/grid_size), (n-1)/2*(1/grid_size), n)
-    fy = np.linspace(-(n-1)/2*(1/grid_size), (n-1)/2*(1/grid_size), n)
-    Fx, Fy = np.meshgrid(fx, fy)
-
-    # Fresnel kernel / point spread function h = H(kx, ky)
-    # from Fourier Optics, chapter 4
-    # H = sqrt(z*lambda0)*exp(1i*pi*lambda0*z*(Fx.^2+Fy.^2));
-    # sphere=exp(i*k/2/zc*(xx.^2+yy.^2));
-    print('Generate Propagator.')
-    print(str(Fx))
-    print(str(Fy))
-    print(str(lambda0))
-    print(str(z))
-    H = np.exp(1j*(2 * np.pi / lambda0) * z) * np.exp(1j * np.pi * lambda0 * z * (Fx**2 + Fy**2))
-    #H= cos(pi*lambda0*z*(Fx.^2+Fy.^2)+(2*pi*z)/lambda0)+1i.*sin(pi*lambda0*z*(Fx.^2+Fy.^2)+(2*pi*z)/lambda0);
-
-    # Compute FFT centered about 0
-    print('Perform Fouriertransform.')
-    E0fft = FT((E0));     # Centered about 0 since fx and fy centered about 0
-
-    # Multiply spectrum with fresnel phase-factor
-    print('Propagate.')
-    G = H * E0fft
-    print('Perform inverse Fouriertransform.')
-    Ef = iFT(G) # Output after deshifting Fourier transform
-
-    return Ef
 
 </script>
