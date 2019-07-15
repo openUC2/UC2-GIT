@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun 30 14:38:38 2019
-
-@author: bene
-"""
-
 <docs lang="markdown">
 Demo plugin to demonstrate how to plot charts in ImJoy. For this, some data is generated
 in a Pythons plugin andd displayed in a separate window.
@@ -20,8 +12,8 @@ and can thus also contain more complex data which can not be send by the plugin 
 <config lang="json">
 {
   "name": "Process Inline Hologram",
-  "type": "native-python",
-  "version": "0.0.1",
+  "type": "window",
+  "version": "0.0.2",
   "api_version": "0.1.2",
   "description": "Sending Image to the IMJOY plugin to backpropagate it into the sample plane.",
   "tags": [],
@@ -33,8 +25,12 @@ and can thus also contain more complex data which can not be send by the plugin 
   "flags": [],
   "icon": "swap_horiz",
   "env": null,
-  "requirements": ["numpy", "matplotlib", "pillow", "scikit-image"],
-  "dependencies": [UC2 Holorecon]
+  "requirements": [
+    "https://unpkg.com/spectre.css/dist/spectre.min.css",
+    "https://unpkg.com/spectre.css/dist/spectre-exp.min.css",
+    "https://unpkg.com/spectre.css/dist/spectre-icons.min.css"
+  ],
+  "dependencies": []
 }
 </config>
 
@@ -44,14 +40,23 @@ class ImJoyPlugin {
 
     // bind predict() to the button
     const processBtn = document.getElementById('process-btn');
-    processBtn.onclick = ()=>{
-      const pluginHolorecon = api.getPlugin('UC2 Holorecon')
-      pluginHolorecon.process_hologram(base64_url)
-    }
-
-    // Display image when a file is selected.
     const fileInput = document.getElementById("file-input");
     const canvas = document.getElementById("input-canvas");
+
+    processBtn.onclick = async ()=>{
+      try{
+        const base64_url = canvas.toDataURL()
+        const pluginHolorecon = await api.getPlugin('UC2 Holorecon')
+        await pluginHolorecon.process_hologram(base64_url)
+        await api.alert('Process done!')
+      }
+      catch(e){
+        console.error(e)
+        await api.alert('Failed to process, error: ' + e)
+      }
+    } 
+
+    // Display image when a file is selected.
     const drawImage = (url, callback)=>{
         var img = new Image()
         img.crossOrigin = "anonymous"
@@ -61,7 +66,7 @@ class ImJoyPlugin {
             canvas.height= Math.min(this.height, parseInt(512*this.height/this.width), 1024);
             // draw the img into canvas
             ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
-            if(callback) callback();
+            if(callback) callback(canvas.toDataURL());
         }
         img.src = url;
     }
@@ -92,22 +97,71 @@ class ImJoyPlugin {
     }
 
     // If user selected a new file or take a new photo, load it and do prediction.
-    fileInput.addEventListener("change", ()=>{
-      readImageFile().then((base64_url)=>{
-          const pluginHolorecon = api.getPlugin('UC2 Holorecon')
-          pluginHolorecon.process_hologram(base64_url)
-      })
+    fileInput.addEventListener("change", async ()=>{
+      try{
+        const base64_url = await readImageFile()
+        const pluginHolorecon = await api.getPlugin('UC2 Holorecon')
+        await pluginHolorecon.process_hologram(base64_url)
+        await api.alert('Process done!')
+      }
+      catch(e){
+        console.error(e)
+        await api.alert('Failed to process, error: ' + e)
+      }
+      
     }, true);
 
 
-
-    document.getElementById("hero_title").innerHTML = 'Model loaded'
+    const statusElement = document.getElementById("status");
+    //document.getElementById("hero_title").innerHTML = 'Model loaded'
     statusElement.innerHTML = '1. Open image (.png/.jpg) or use pre-loaded image. <br> 2. Click `Compute` to refocus the image!';
 
     // Display the predict button and file selection
     processBtn.style.display = "inline";
     fileInput.style.display = "inline";
   }
-}
+  run(){
 
+  }
+}
+api.export(new ImJoyPlugin())
 </script>
+
+
+<window lang="html">
+  <div>
+    <!–– Header bar ––>
+    <div class="hero hero-sm bg-secondary">
+        <div class="mx-2">
+            <!-- <h3 id="hero_title"></h3> -->
+            <p id="status"></p>
+        </div>
+    </div>
+
+   <!–– Buttons ––>
+   <div class="p-1">
+        <input  style="display: none;" id="file-input" accept="image/*" capture="camera" type="file"/>
+        <br>
+        <button class="btn btn-primary" style="display: none;" id="process-btn">Compute</button>
+    </div>
+
+    <!–– canvas ––>
+    <div class="p-1">
+        <canvas id="input-canvas" style="width: 100%; object-fit: cover;"></canvas>
+    </div>
+  </div>
+</window>
+
+<style lang="css">
+.p-1 {
+    text-align: center;
+}
+.p-1 input{
+    width:90%;
+    margin:10px;
+}
+.p-1 button{
+    width:90%;
+    margin:10px;
+}
+</style>
