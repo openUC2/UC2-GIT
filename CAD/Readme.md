@@ -29,6 +29,7 @@ The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGr
 
 ## List of available Applications (APPs):
 - [Incubator Microscope (Old)](./IN-APP_Incubator_Microscope/Readme.md)
+- [Smartphone Microscope](./IN-APP_SMARTPHONE_MICROSCOPE/Readme.md)-
 - [Inline Holographical Microscope](./INLINE_HOLOGRAM/Readme.md)
 - [LIGHTSHEET-Scanning (Old)](./APP_LIGHTSHEET-Scanning)
 - [Simple Telescope](./APP_SIMPLE-Telescope)
