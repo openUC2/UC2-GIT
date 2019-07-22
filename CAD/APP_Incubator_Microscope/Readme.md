@@ -1,7 +1,8 @@
 ## In-Incubator Microscope
 This is the repository for the in-incubator microscope. It is capable to acquire Time-Lapse videos from living cells inside an incubator. 
 
-The current version is derived from Bowman's stage design, but will be replaced by the low-cost x/y-stage design in the future.
+The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org).
+
 
 <p align="center">
 <img src="./IMAGES/Assembly_UKJ_Microscope_v4.png" width="500">
