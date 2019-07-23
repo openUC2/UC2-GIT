@@ -17,6 +17,7 @@ An example of a mirror or raspi-cam adapter can be found in the In-Incubator Fol
 A quick printing tutorial can be found here:
 [![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.PNG)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
 
+
 ##Assembly-Tutorial with images (Cube)
 
 1. All parts for this model
@@ -44,7 +45,8 @@ A quick printing tutorial can be found here:
 <img src="./IMAGES/UC2_Tut_Lensmount6.jpg" width="300">
 </p>
 
-6. Insert rods inside the cube<p align="center">
+6. Insert rods inside the cube
+<p align="center">
 <img src="./IMAGES/UC2_Tut_Lensmount8.jpg" width="300">
 </p>
 

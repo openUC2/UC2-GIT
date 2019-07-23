@@ -87,7 +87,7 @@ It can be observed in the [MDK](./MDK)-folder.
 If you have a new part, we are eager to see it. Please feel free to share it on available resources like Twitter, Thingiverse, Github or any other platform of choice! :-)
 
 ## CAD Design Tutorial 
-We provide a brief tutorial on how to design an insert which adapts any part to the UC2 system. Please find it [here](./CAD/CUBE_Base/README.MD#Tutorial on how to design an insert in Inventor).
+We provide a brief tutorial on how to design an insert which adapts any part to the UC2 system. Please find it [here](./CAD/CUBE_Base#tutorial-on-how-to-design-an-insert-in-inventor) on how to design an insert in Inventor).
 
 ## Brief overview of documented setups
 
