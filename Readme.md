@@ -18,14 +18,6 @@ Making **open-science** great again!
 [Bill of Material](#bill)  
 [Getting Started](#getting)  
 [Module Developer Kit (NEW)](#module)  
-[Code and Syntax Highlighting](#code)  
-[Tables](#tables)  
-[Blockquotes](#blockquotes)  
-[Inline HTML](#html)  
-[Horizontal Rule](#hr)  
-[Line Breaks](#lines)  
-[YouTube Videos](#videos)  
-
 
 
 
@@ -114,7 +106,12 @@ Have a look at the documentation of the workshop we did at the day of light [her
 ### Telescope 
 We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation can be found [here](./WORKSHOP/TELESCOPE).
 
-## Structure of Repository
+
+# 3D Printing 
+
+A detailed description of how-to-print the ```UC2```-parts with a ***Prusa i3*** can be found in the folder [Printer](./PRINTER).
+
+# Structure of Repository
 ----- THIS SECTION NEEDS REVISION -------
 
 **HARDWARE**
