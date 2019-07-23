@@ -11,7 +11,25 @@ This is the online repository for the open-source hardware project ''UC2'' [YouS
 
 Making **open-science** great again! 
 
-## Introduction
+# Table of Content 
+
+[Introduction](#introdution)  
+[List of available Setups](#list)  
+[Bill of Material](#bill)  
+[Getting Started](#getting)  
+[Module Developer Kit (NEW)](#module)  
+[Code and Syntax Highlighting](#code)  
+[Tables](#tables)  
+[Blockquotes](#blockquotes)  
+[Inline HTML](#html)  
+[Horizontal Rule](#hr)  
+[Line Breaks](#lines)  
+[YouTube Videos](#videos)  
+
+
+
+
+# Introduction
 
 **UC2** is a general-purpose modular framework for making interactive (electro)-optical projects. Most optical systems out there follow a simple so called **4f** setup, where optical lenses are aligned such that focal-planes of adjacent components overlap to limit the amount of aberrations as much as possible and to be able to predict the system-behavior easily using e.g. Fourier-imaging theory. 
 
@@ -38,7 +56,9 @@ A full cube + base-plate looks like that:
 </p>
 
 
-## List of available Setups
+
+
+# List of available Setups
 
 Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please go to the [CAD](./CAD/Readme.md)-folder to have a glimpse of what'S possible
 
@@ -60,11 +80,23 @@ All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to 
 
 # Getting Started
 
+## Module Developer Kit (MDK)
+To allow easy adaption to the UC2 system we will provide a so called module developer kit ([MDK](./MDK)) also known from the Google Ara system. Here we define the industrial design guidlines so that any inlet can be designed to make it work with our UC2 system. 
+It can be observed in the [MDK](./MDK)-folder. 
+
+If you have a new part, we are eager to see it. Please feel free to share it on available resources like Twitter, Thingiverse, Github or any other platform of choice! :-)
+
+## CAD Design Tutorial 
+We provide a brief tutorial on how to design an insert which adapts any part to the UC2 system. Please find it [here](./CAD/CUBE_Base/README.MD#Tutorial on how to design an insert in Inventor).
+
+## Brief overview of documented setups
+
 ### Base Cube 
 The basic cube can directly be printed using the [STL](./CAD/CUBE_Base/STL)-files or imported in Autodesks Inventor/Fusion360. Therefor we wrote a little tutorial which can be found [here](./CAD/CUBE_Base).
 
 A quick printing tutorial can be found here:
 [![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.png)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
+
 
 
 ### Inline Holographical Microscope (lensless)
@@ -83,6 +115,8 @@ Have a look at the documentation of the workshop we did at the day of light [her
 We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation can be found [here](./WORKSHOP/TELESCOPE).
 
 ## Structure of Repository
+----- THIS SECTION NEEDS REVISION -------
+
 **HARDWARE**
 	
 	* ARDUINO
@@ -114,6 +148,8 @@ We also provide a simple setup relying on not more than 2 lenses to build a tele
 		* PLEASE READ!
 
 ## Get Involved!
+----- THIS SECTION NEEDS REVISION -------
+
 This project is open so that anyone can get involved. Ways you can contribute include (see also: https://github.com/rwb27/openflexure_microscope):
 
 * Get involved in discussions in the ISSUE-section
@@ -126,14 +162,21 @@ This project is open so that anyone can get involved. Ways you can contribute in
 
 
 REMARK: All files have been designed using Autodesk Inventor 2019 (EDUCATION)
+
 ### Start Designing individual parts 
+----- THIS SECTION NEEDS REVISION -------
+
 We compiled a quick tutorial where you find a guide on how an inlet could look like. The base-cubes can hold any function you want. The fastes way is to rely on Thorlabs parts, but basically any other part can fit in it too. Have a look here:
 [Guide to design a customized function](./DOCUMENTS/TUTORIALS/TUT_Basic_Design_Cube_Inlet_Function_v0.pdf)
 
+
 ## Raspberry Pi Quick-Start 
+----- THIS SECTION NEEDS REVISION -------
+
 Please find a manual [here](./DOCUMENTS/RaspberryPi/Raspberry_Pi_v0.docx) and [here](./RASPBERRY-PI).
 
 ## Kits, License and Collaboration
+----- THIS SECTION NEEDS REVISION -------
 This project is open-source and is released under the CERN open hardware license. Our aim is to make the kits commercially available. 
 We encourage everyone who is using our Toolbox to share their results and ideas, so that the Toolbox keeps improving. It should serve as a easy-to-use and easy-to-access general purpose building block solution for the area of STEAM education. All the design files are general for free, but we would like to hear how it is going. 
 

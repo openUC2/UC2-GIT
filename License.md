@@ -216,5 +216,7 @@
 	Licence. Section 5 shall continue to apply.
 	
 ## Documents 
-Property by the UC2-Team
-(C) Benedict Diederich, René Richter, Barbora Marsikova, Xavier Uwurukundo, Rainer Heintzmann, Haoran Wang
+Property of the UC2-Team
+(C) Benedict Diederich, René Richter, Barbora Marsikova, Xavier Uwurukundo, Rainer Heintzmann, Haoran Wang.
+
+Licensed under ```CC-BY```if not otherwise noted. 
