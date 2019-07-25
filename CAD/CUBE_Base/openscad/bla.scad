@@ -10,24 +10,49 @@ scoff=.66; // Screw offset from outside
 scr=1.3; // Screw radius
 sch=7;
 
-basecube();
+//basecube();
+
+lid();
 //corner();
 
 //strebenz();
 
 module basecube() {
-    tripod();
-translate([a+2*b,0,0])rotate([0,0,90])tripod();
-translate([a+2*b,a+2*b,0])rotate([0,0,180])tripod();
-translate([0,a+2*b,0])rotate([0,0,270])tripod();
+    union() {
+        tripod();
+        translate([a+2*b,0,0])rotate([0,0,90])tripod();
+        translate([a+2*b,a+2*b,0])rotate([0,0,180])tripod();
+        translate([0,a+2*b,0])rotate([0,0,270])tripod();
+    }
+}
+
+module lid() {
+    translate([0,0,b])mirror([0,0,1]) {
+        union() {
+            corner();
+            translate([0,b,0])strebeny();
+            translate([b,0,0])strebenx();
+            translate([a+2*b,0,0])rotate([0,0,90]) {
+                corner();
+                translate([b,0,0])strebenx();
+            }
+            translate([a+2*b,a+2*b,0])rotate([0,0,180]) {
+                corner();
+                translate([b,0,0])strebenx();
+            }
+            translate([0,a+2*b,0])rotate([0,0,270])corner();
+        }
+    }
 }
 
 module tripod() {
-    corner();
-    translate([0,0,b])strebenz();
-    translate([0,b,0])strebeny();
-    translate([b,0,0])strebenx();
-    //translate([a+2*b,0,0])rotate([0,0,90])corner();
+    union() {
+        corner();
+        translate([0,0,b])strebenz();
+        translate([0,b,0])strebeny();
+        translate([b,0,0])strebenx();
+        //translate([a+2*b,0,0])rotate([0,0,90])corner();
+    }
 }
 
 // Streben
