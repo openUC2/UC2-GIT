@@ -10,9 +10,10 @@ scoff=.66; // Screw offset from outside
 scr=1.3; // Screw radius
 sch=7;
 
-//basecube();
+basecube();
+//corner();
 
-strebenz();
+//strebenz();
 
 module basecube() {
     tripod();
@@ -59,15 +60,22 @@ module strebeny() {
 // Ecke
 module corner() {
     tmp=b*crv;
-    union() {
-        translate([tmp,tmp,tmp])sphere(r=b*crv);
+    difference() {
+        union() {
+            translate([tmp,tmp,tmp])sphere(r=b*crv);
+            
+            translate([tmp,tmp,tmp])cylinder(r=tmp,h=b-tmp);
+            translate([tmp,0,tmp])cube([b-tmp,b,b-tmp]);
+            translate([0,tmp,tmp])cube([b,b-tmp,b-tmp]);
+            
+            translate([tmp,tmp,tmp])rotate([0,90,0])cylinder(r=tmp,h=b-tmp);
+            translate([tmp,tmp,tmp])rotate([-90,0,0])cylinder(r=tmp,h=b-tmp);
+            translate([tmp,tmp,0])cube([b-tmp,b-tmp,b]);
+        }
         
-        translate([tmp,tmp,tmp])cylinder(r=tmp,h=b-tmp);
-        translate([tmp,0,tmp])cube([b-tmp,b,b-tmp]);
-        translate([0,tmp,tmp])cube([b,b-tmp,b-tmp]);
-        
-        translate([tmp,tmp,tmp])rotate([0,90,0])cylinder(r=tmp,h=b-tmp);
-        translate([tmp,tmp,tmp])rotate([-90,0,0])cylinder(r=tmp,h=b-tmp);
-        translate([tmp,tmp,0])cube([b-tmp,b-tmp,b]);
+        // Schraubenlöcher
+        translate([scoff*b,scoff*b,-eps])cylinder(r=scr,h=b+2*eps);
+        rotate([90,0,0])translate([scoff*b,scoff*b,-b-eps])cylinder(r=scr,h=b+2*eps);
+        rotate([0,90,0])translate([-scoff*b,scoff*b,-eps])cylinder(r=scr,h=b+2*eps);
     }
 }
