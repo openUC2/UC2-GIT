@@ -2,17 +2,17 @@ $fn=50;
 eps=.001;
 
 a=40; // Strebenlänge
-b=5; // Strebenbreite
-c=3; // Gerade Strecke Streben
+b=7.9; // Strebenbreite
+c=3.5; // Gerade Strecke Streben
 
 crv=1/3; // Curvature
-scoff=.66; // Screw offset from outside
+scoff=.65; // Screw offset from outside
 scr=1.3; // Screw radius
-sch=7;
+sch=7; // Screw length (height)
 
-//basecube();
+basecube();
 
-lid();
+//lid();
 //corner();
 
 //strebenz();
