@@ -1,14 +1,18 @@
 $fn=50;
 eps=.001;
 
-a=40;
-b=5;
+a=40; // Strebenlänge
+b=5; // Strebenbreite
+c=3; // Gerade Strecke Streben
 
-crv=1/3;
+crv=1/3; // Curvature
+scoff=.66; // Screw offset from outside
+scr=1.3; // Screw radius
+sch=7;
 
-basecube();
+//basecube();
 
-//strebenz();
+strebenz();
 
 module basecube() {
     tripod();
@@ -28,10 +32,19 @@ module tripod() {
 // Streben
 module strebenz() {
     tmp=b*crv;
-    union() {
-        translate([tmp,tmp,0])cylinder(r=tmp,h=a);
-        translate([tmp,0,0])cube([b-tmp,b,a]);
-        translate([0,tmp,0])cube([b,b-tmp,a]);
+    difference() {
+        union() {
+            translate([tmp,tmp,0])cylinder(r=tmp,h=a);
+            translate([tmp,0,0])cube([b-tmp,b,a]);
+            translate([0,tmp,0])cube([b,b-tmp,a]);
+        }
+        
+        // Schräge im Innern
+        translate([b,c,-eps])rotate([0,0,45])cube([1.5*b,1.5*b,a+2*eps]);
+        
+        // Schraubenlöcher
+        translate([scoff*b,scoff*b,-eps])cylinder(r=scr,h=sch);
+        translate([scoff*b,scoff*b,a-sch+eps])cylinder(r=scr,h=sch);
     }
 }
 
