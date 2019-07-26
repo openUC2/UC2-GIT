@@ -9,6 +9,8 @@ crv=1/3; // Curvature
 scoff=.65; // Screw offset from outside
 scr=1.43; // Screw radius
 sch=7; // Screw length (height)
+schr=2.8; // Screw head radius
+schl=3; // Screw head length
 
 basecube();
 
@@ -102,5 +104,8 @@ module corner() {
         translate([scoff*b,scoff*b,-eps])cylinder(r=scr,h=b+2*eps);
         rotate([90,0,0])translate([scoff*b,scoff*b,-b-eps])cylinder(r=scr,h=b+2*eps);
         rotate([0,90,0])translate([-scoff*b,scoff*b,-eps])cylinder(r=scr,h=b+2*eps);
+        
+        // screw heads
+        translate([scoff*b,scoff*b,-eps])cylinder(r=schr,h=schl);
     }
 }
