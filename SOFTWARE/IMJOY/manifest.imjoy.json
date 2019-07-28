@@ -11,7 +11,7 @@
    "api_version": "0.1.2",
    "description": "Should backpropagate a Hologram numerically",
    "tags": [],
-   "ui": "UI for this plugin",
+   "ui": "",
    "inputs": null,
    "outputs": null,
    "flags": [],
@@ -20,7 +20,7 @@
    "requirements": [
     "numpy"
    ],
-   "dependencies": [],
+   "dependencies": ["bionanoimaging/UC2-GIT/tree/master/SOFTWARE/IMJOY/imjoy-plugins:UC2 Holorecon"],
    "uri": "imjoy-plugins/UC2_Inline_Hologram_Reconstruction.imjoy.html"
   }
  ],
