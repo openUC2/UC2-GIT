@@ -34,11 +34,11 @@ Therefore the simplest microscope could be realized using only 2 lenses. Their a
 </p>
 
 
-**UC2** not only modularizes the optical components in a setup, but allows to make each individual block, represented by a specifc function (i.e. lens, mirror, xy-stage, etc.), ''smart''. Therefore a small microcontroller (i.e. Arduino Nano) connects to a **I^2** BUS, making it possible to communicate with a Master-device (i.e. Raspberry Pi). Illumination sources like LED-Matrices, Motors, etc. can be controlled, sensors like light- or humidity sensors can be readout. 
+**UC2** not only modularizes the optical components in a setup, but allows to make each individual block, represented by a specific function (i.e. lens, mirror, xy-stage, etc.), ''smart''. Therefore a small microcontroller (i.e. Arduino Nano) connects to a **I^2** BUS, making it possible to communicate with a Master-device (i.e. Raspberry Pi). Illumination sources like LED-Matrices, Motors, etc. can be controlled, sensors like light- or humidity sensors can be readout. 
 
 It aims to bring 21st-century concepts of clean abstraction and modularity to hardware design.
 
-**UC2** is in active development. It is ment to be used not only by beginners, but also for professionals dealing with optical setups on a daily basis. Its click-and-go concept simplifies the process of aligning and adjusting the parts giving new tools acting as rapid-prototyping devices. It also comes with a series of open-source workshops (in the future) explaining the theory behind optics. 
+**UC2** is in active development. It is meant to be used not only by beginners, but also for professionals dealing with optical setups on a daily basis. Its click-and-go concept simplifies the process of aligning and adjusting the parts giving new tools acting as rapid-prototyping devices. It also comes with a series of open-source workshops (in the future) explaining the theory behind optics. 
 
 People are also encouraged to share their work. We are curious what the community is doing with our little blocks. All necessary details to modify the design of the blocks are given in the sub-folders of the specific folders. 
 
@@ -52,7 +52,7 @@ A full cube + base-plate looks like that:
 
 # List of available Setups
 
-Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please go to the [CAD](./CAD/Readme.md)-folder to have a glimpse of what'S possible
+Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please go to the [CAD](./CAD/Readme.md)-folder to have a glimpse of what's possible
 
 * [Light-sheet Microscope](./CAD/LIGHTSHEET-Scanning)
 * [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./CAD/IN-INCUBATOR_MICROSCOPE) 
@@ -68,12 +68,12 @@ Our goal is to make as many setups as possible available, so that people can pla
 
 ## Bill of Material
 
-All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefitting from the wide variety and availability of components brought up by the open-source community. A reference document can be found in the [Documents-folder](./DOCUMENTS/BillOfMaterials).
+All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefiting from the wide variety and availability of components brought up by the open-source community. A reference document can be found in the [Documents-folder](./DOCUMENTS/BillOfMaterials).
 
 # Getting Started
 
 ## Module Developer Kit (MDK)
-To allow easy adaption to the UC2 system we will provide a so called module developer kit ([MDK](./MDK)) also known from the Google Ara system. Here we define the industrial design guidlines so that any inlet can be designed to make it work with our UC2 system. 
+To allow easy adaption to the UC2 system we will provide a so called module developer kit ([MDK](./MDK)) also known from the Google Ara system. Here we define the industrial design guidelines so that any inlet can be designed to make it work with our UC2 system. 
 It can be observed in the [MDK](./MDK)-folder. 
 
 If you have a new part, we are eager to see it. Please feel free to share it on available resources like Twitter, Thingiverse, Github or any other platform of choice! :-)
@@ -84,7 +84,7 @@ We provide a brief tutorial on how to design an insert which adapts any part to 
 ## Brief overview of documented setups
 
 ### Base Cube 
-The basic cube can directly be printed using the [STL](./CAD/CUBE_Base/STL)-files or imported in Autodesks Inventor/Fusion360. Therefor we wrote a little tutorial which can be found [here](./CAD/CUBE_Base).
+The basic cube can directly be printed using the [STL](./CAD/CUBE_Base/STL)-files or imported in Autodesk's Inventor/Fusion360. Therefor we wrote a little tutorial which can be found [here](./CAD/CUBE_Base).
 
 A quick printing tutorial can be found here:
 [![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.png)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
@@ -92,11 +92,11 @@ A quick printing tutorial can be found here:
 
 
 ### Inline Holographical Microscope (lensless)
-We started a Digital In-Line Holographical Microscope Workshop together with the [Lichtwerkstatt](https://lichtwerkstatt-jena.de/) in November 2018. You can find the guid with an in-detail explanation [here](./WORKSHOP/INLINE-HOLOGRAMM) with a [German](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP.pdf) PDF and a translated [English Version](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP_english.pdf).
+We started a Digital In-Line Holographical Microscope Workshop together with the [Lichtwerkstatt](https://lichtwerkstatt-jena.de/) in November 2018. You can find the guide with an in-detail explanation [here](./WORKSHOP/INLINE-HOLOGRAMM) with a [German](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP.pdf) PDF and a translated [English Version](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP_english.pdf).
 
 This should give a first-start blueprint to develop any optical design idea into our system. We also provide how-to's to create [customized parts](./DOCUMENTS/TUTORIALS/TUT_Basic_Design_Cube_Inlet_Function_v0.pdf) to use it with UC2. You can find them [here](./DOCUMENTS/TUTORIALS/).
 
-Assemlby-guides can be found [here](./DOCUMENTS/TUTORIALS_SETUP).
+Assembly-guides can be found [here](./DOCUMENTS/TUTORIALS_SETUP).
 
 
 
@@ -109,7 +109,7 @@ We also provide a simple setup relying on not more than 2 lenses to build a tele
 
 # 3D Printing 
 
-All the CAD-Parts can be printed using an off-the-shef 3D printer (or 3D printing service). Currently we use majorly PLA and ABS coming from an ULTIMAKER 2+/3 (Netherlands), Be3D DeeGreen (Czech Republic) and Prusa i3 Mk3. 
+All the CAD-Parts can be printed using an off-the-shelf 3D printer (or 3D printing service). Currently we use majorly PLA and ABS coming from an ULTIMAKER 2+/3 (Netherlands), Be3D DeeGreen (Czech Republic) and Prusa i3 Mk3. 
 
 Each Application (e.g. Incubator Microscope) has a specific sub-folder in the [CAD](./CAD)-section where all necessary ```.stl``` files are lying ready for printing.
 
