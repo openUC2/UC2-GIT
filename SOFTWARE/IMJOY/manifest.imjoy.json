@@ -1,17 +1,17 @@
 {
- "name": "Project Template",
- "description": "ImJoy plugin repository.",
+ "name": "UC2 Projects",
+ "description": "UC2 - ImJoy plugin repository.",
  "version": "0.2.0",
  "uri_root": "",
  "plugins": [
   {
-   "name": "Template plugin",
+   "name": "Inline Hologram Reconstruction",
    "type": "native-python",
    "version": "0.1.1",
    "api_version": "0.1.2",
-   "description": "describe your plugin here.",
+   "description": "Should backpropagate a Hologram numerically",
    "tags": [],
-   "ui": "UI for this plugin",
+   "ui": "",
    "inputs": null,
    "outputs": null,
    "flags": [],
@@ -20,8 +20,8 @@
    "requirements": [
     "numpy"
    ],
-   "dependencies": [],
-   "uri": "imjoy-plugins/templatePlugin.imjoy.html"
+   "dependencies": ["bionanoimaging/UC2-GIT/tree/master/SOFTWARE/IMJOY/imjoy-plugins:UC2 Holorecon"],
+   "uri": "imjoy-plugins/UC2_Inline_Hologram_Reconstruction.imjoy.html"
   }
  ],
  "collections": []

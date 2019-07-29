@@ -109,6 +109,13 @@ We also provide a simple setup relying on not more than 2 lenses to build a tele
 
 # 3D Printing 
 
+All the CAD-Parts can be printed using an off-the-shef 3D printer (or 3D printing service). Currently we use majorly PLA and ABS coming from an ULTIMAKER 2+/3 (Netherlands), Be3D DeeGreen (Czech Republic) and Prusa i3 Mk3. 
+
+Each Application (e.g. Incubator Microscope) has a specific sub-folder in the [CAD](./CAD)-section where all necessary ```.stl``` files are lying ready for printing.
+
+Don't just print everything from the STL folder, as currently it contains some parts that must be printed multiple times, and other parts that are redundant. 
+
+## Printing Tutorial 
 A detailed description of how-to-print the ```UC2```-parts with a ***Prusa i3*** can be found in the folder [Printer](./PRINTER).
 
 # Structure of Repository
@@ -182,16 +189,10 @@ You're free to fork the project and enhance it. If you have any suggestions to i
 Please find the type of licenses [here](./License.md)
 
 
-## Printing it yourself
-All the CAD-Parts can be printed using an off-the-shef 3D printer (or 3D printing service). Currently we use majorly PLA and ABS coming from an ULTIMAKER 2+/3 (Netherlands) or DeeGreen (Czech Republic). 
-
-Each project has a specific sub-folder in the CAD-section where all necessary .stl files are lying ready for printing. Instructions will be added soon. 
-
-Don't just print everything from the STL folder, as currently it contains some parts that must be printed multiple times, and other parts that are redundant. 
-
 ## Showcase
 This is one of the very first prototypes we had in 2017. It has evovled a lot.
 ![UC2 Holography](./IMAGES/UC2_firststep.JPG)
 
 ## Credits
+If you find this project useful, please like this repository and cite the webpage! :-)
 R. Heintzmann, X. Uwurukundo, H. Wang, B. Marsikova, R. Richter, Lichtwerkstatt, IPHT Jena
