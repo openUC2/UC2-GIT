@@ -5,23 +5,38 @@ This will be a growing list of available optical setups coming along with tutori
 
 We have Tutorials with images now! :-)
 
+## General Naming Convetion and Structure of UC2 
+
+![](./IMAGES/UC2_Structure.png)
+
+
+## Ready-to-use box
+
+![](./IMAGES/UC2_Box_Structure.png)
+
+
+
+## Confusion about version 1.0 vs. Version 2.0
+
+We made a change in the CAD-design of the cube in order to be more generic (e.g. point symmetry around the centre). We're trying hard to update the APPlications so that everything is based on the new desing. If you want to print something, have a look on the date when it was last updated. The newer it is, the more likely it is that the cube's have been updated. 
+
+The overall dimensions stay the same, but the inserts change! 
+
 ## Printing
 The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGreen which is precise enough. Note, that not all parts might be necessary to print. A detailed description or compiled list of necessary parts will follow soon. 
 
 ## List of available Modules (CUBEs):
-* [CUBE Base](./CUBE_Base)
-* [CUBE Cameracube](./CUBE_Cameracube)
+* [CUBE Base](./ASSEMLBY_CUBE_Base)
+* [CUBE Cameracube](./ASSEMBLY_CUBE_Raspicam)
 * [CUBE EmptyTemplate (only for documentation)](./CUBE_EmptyTemplate)
-* [CUBE Beamsplitter](./CUBE_Beamsplitter)
-* [CUBE Lasermodule](./CUBE_Lasermodule)
-* [CUBE Lensholder+Objectiveholder](./CUBE_Lensholder)
-* [CUBE Mirror](./CUBE_Mirror)
-* [CUBE Objectiveholder](./CUBE_Objectiveholder)
-* [CUBE Pretty-Beamexpander](./CUBE_Pretty-Beamexpander)
-* [CUBE Pretty-Telescope](./CUBE_Pretty-Telescope)
-* [CUBE STAGE_Z-Objective](./CUBE_STAGE_Z-Objective)
-* [CUBE STAGE_Z-Sample](./CUBE_STAGE_Z-Sample)
-* [CUBE STAGE_Z-Sample v2](./CUBE_STAGE_Z-Sample_v2)
+* [CUBE Beamsplitter](./ASSEMLBY_CUBE_Beamsplitter)
+* [CUBE Lasermodule](./ASSEMLBY_CUBE_Laser)
+* [CUBE Lensholder+Objectiveholder](./ASSEMLBY_CUBE_Lens)
+* [CUBE Mirror and Objective Holder](./ASSEMLBY_CUBE_Mirror_45)
+* [CUBE Pretty-Beamexpander](./ASSEMLBY_CUBE_Beamexpander)
+* [CUBE STAGE_Z-Objective](./ASSEMLBY_CUBE_Z-Stage)
+* [CUBE STAGE_Z-Sample](./ASSEMLBY_CUBE_Z-Symple)
+
 
 ## List of available Supplements:
 * [ELECTONICS-RaspiTFT-Case](./ELECTONICS-RaspiTFT-Case)
