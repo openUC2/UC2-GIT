@@ -39,8 +39,8 @@ The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGr
 
 
 ## List of available Supplements:
-* [ELECTONICS-RaspiTFT-Case](./ELECTONICS-RaspiTFT-Case)
-* [ELECTRONICS-Mount](./ELECTRONICS-Mount)
+* [ELECTONICS-RaspiTFT-Case](./EXT_ELECTONICS-RaspiTFT-Case)
+* [ELECTRONICS-Mount](./EXT_ELECTRONICS-Mount)
 
 ## List of available Applications (APPs):
 - [Incubator Microscope (Old)](./IN-APP_Incubator_Microscope/Readme.md)
