@@ -1,6 +1,18 @@
 # The BOX
 Very soon we would like to ofer a ready-to-use box being able to make a growing number of different optical experiments possible. 
 
+
+<p align="center">
+<img src="./IMAGES/UC2_thebox_photo_2.jpg" 
+width="450">
+</p>
+
+<p align="center">
+<img src="./IMAGES/UC2_thebox_photo_1.jpg" 
+width="450">
+</p>
+
+
 Useful for Workshops. Get back to use if you want to organize one together with us!
 
 ## Necessary Parts 
