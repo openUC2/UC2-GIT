@@ -5,7 +5,7 @@
 
 This is the online repository for the open-source hardware project ''UC2'' [YouSeeToo]. 
 
-[Quickstart 3D printing files](./CAD/CUBE_Base) | [Design-Files](./CAD/CUBE_Base/STL) | [Project Page](http://useetoo.org) | [UC2 Paper](https://www.google.com/search?q=comming+soon&oq=comming+soon&aqs=chrome..69i57j0j69i59j0l3.1495j0j4&sourceid=chrome&ie=UTF-8)
+[Quickstart 3D printing files](./CAD/CUBE_Base) | [Design-Files](./CAD/CUBE_Base/STL) | [Project Page](http://useetoo.org) | [UC2 White-Paper](./Documents/UC2_Whitepaper.pdf)
 
 **NEW:** We have assembly tutorials with images for each module in the [CAD](./CAD)-folder! :-)
 
@@ -54,11 +54,11 @@ A full cube + base-plate looks like that:
 
 Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please go to the [CAD](./CAD/Readme.md)-folder to have a glimpse of what's possible
 
-* [Light-sheet Microscope](./CAD/LIGHTSHEET-Scanning)
-* [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./CAD/IN-INCUBATOR_MICROSCOPE) 
-* [Telescope](./WORKSHOP/TELESCOPE)
-* Smartphone Microscope
-* [In-Line Holographical Microscope](./WORKSHOP/INLINE-HOLOGRAMM)
+* [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./CAD/APP_Incubator_Microscope) 
+* [Light-Sheet Microscope](./CAD/APP_LIGHTSHEET_Workshop)
+* [Smartphone Microscope](./CAD/APP_SMARTPHONE_MICROSCOPE)
+* [In-Line Holographical Microscope](./CAD/APP_INLINE_HOLOGRAM)
+* [Telescope](./CAD/APP_SIMPLE-Telescope)
 * Abbe Experiment (Diffraction-effect of light)
 * Michelson interferometer (Interference-effect of light)
 
@@ -68,7 +68,8 @@ Our goal is to make as many setups as possible available, so that people can pla
 
 ## Bill of Material
 
-All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefiting from the wide variety and availability of components brought up by the open-source community. A reference document can be found in the [Documents-folder](./DOCUMENTS/BillOfMaterials).
+All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefiting from the wide variety and availability of components brought up by the open-source community. 
+
 
 # Getting Started
 
@@ -78,12 +79,13 @@ It can be observed in the [MDK](./MDK)-folder.
 
 If you have a new part, we are eager to see it. Please feel free to share it on available resources like Twitter, Thingiverse, Github or any other platform of choice! :-)
 
+
 ## CAD Design Tutorial 
 We provide a brief tutorial on how to design an insert which adapts any part to the UC2 system. Please find it [here](./CAD/CUBE_Base#tutorial-on-how-to-design-an-insert-in-inventor) on how to design an insert in Inventor).
 
-## Brief overview of documented setups
+# Brief overview of documented setups
 
-### Base Cube 
+## Base Cube 
 The basic cube can directly be printed using the [STL](./CAD/CUBE_Base/STL)-files or imported in Autodesk's Inventor/Fusion360. Therefor we wrote a little tutorial which can be found [here](./CAD/CUBE_Base).
 
 A quick printing tutorial can be found here:
@@ -91,20 +93,18 @@ A quick printing tutorial can be found here:
 
 
 
-### Inline Holographical Microscope (lensless)
+## Inline Holographical Microscope (lensless)
 We started a Digital In-Line Holographical Microscope Workshop together with the [Lichtwerkstatt](https://lichtwerkstatt-jena.de/) in November 2018. You can find the guide with an in-detail explanation [here](./WORKSHOP/INLINE-HOLOGRAMM) with a [German](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP.pdf) PDF and a translated [English Version](./WORKSHOP/INLINE-HOLOGRAMM/WORKSHOP_english.pdf).
 
 This should give a first-start blueprint to develop any optical design idea into our system. We also provide how-to's to create [customized parts](./DOCUMENTS/TUTORIALS/TUT_Basic_Design_Cube_Inlet_Function_v0.pdf) to use it with UC2. You can find them [here](./DOCUMENTS/TUTORIALS/).
 
 Assembly-guides can be found [here](./DOCUMENTS/TUTORIALS_SETUP).
 
-
-
-### Light-sheet Workshop
+## Light-sheet Workshop
 Have a look at the documentation of the workshop we did at the day of light [here](./WORKSHOP/LIGHTSHEET).
 
-### Telescope 
-We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation can be found [here](./WORKSHOP/TELESCOPE).
+## Telescope 
+We also provide a simple setup relying on not more than 2 lenses to build a telescope. The documentation can be found [here](./CAD/APP_SIMPLE-Telescope).
 
 
 # 3D Printing 

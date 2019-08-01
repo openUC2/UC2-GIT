@@ -1,5 +1,18 @@
 ## Magnetic Connectors 
 
+Do the following simple trick:
+
+<p align="center">
+<img src="./IMAGES/UC2_Electronics_Backplate.jpg" width="400">
+</p>
+
+Simply connect two wires where you remove the isolution from about 10mm of the plastic and press-fit it into the holes for the ball-magnets and screw it into the holes of the Lids of the cube. 
+
+The impedance is low enough to conduct the current. Make sure you're not swapping ```+/-```. Data channels are provided by ESP32 and MQTT. 
+
+
+#OBSOLOTE:
+
 The following part is only for the pupose of convenience. A few components, such as the xyz stage or the illumination have inbuilt electronics. Control is achieved through a 4-wired IC2 BUS. In order to make it work, the electronical components have to be connected to 5V, Gnd, CLK and DATA. 
 
 This can be done be a simple wired connection or alternatively with a set of magnetic connectors to be in-line with the general system design. The CAD files are based on parts which can - so far - only be ordered overseas. 
@@ -10,7 +23,7 @@ They come in pairs.
 
 ## POGO Pins (male/female)
 Some images from their website:
-![Schematics](./images/PogoPins_1.png)
+![Schematics](./IMAGES/PogoPins_1.png)
 
 ## Setup
 The Pogo pins go inside the 3D printed parts. One for the back-plate, one for the cube's lid. There are dedicated holes which makes the process of assembly quiet easy (No possibility to put it in the wrong place). 
@@ -36,7 +49,7 @@ This is a cube from the back side
 ## Soldering
 The soldering is quiet easy. Simply put some wires to the end of the Pogo-Pin connectors like that:
 
-![Schematics](./images/PogoPins_2.png)
+![Schematics](./IMAGES/PogoPins_2.png)
 
 ## Properties
 	- 4 pins

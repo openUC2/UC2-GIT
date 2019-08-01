@@ -5,7 +5,15 @@ Here you can find the necessary .stl-parts for the XYZ-Stage.
 <img src="./IMAGES/Assembly_cube_double_Zfocus.png" width="400">
 </p>
 
-A detailed description of the assembly process can be found [here](/DOCUMENTS/TUTORIALS_SETUP/TUT_Assembly_XYZ_Stage.pdf)
+A detailed description of the assembly process can be found ***[here](./DOCUMENTS/TUT_Assembly_XYZ_Stage.pdf)***
+
+## Electronics and wiring
+A detailed explanation about the ***Z-Stage*** can be found [here](/ELECTRONICS/Z-Stage).
+
+
+A detailed explanation about the XY-Stage can be found [here](/ELECTRONICS/XY-Stage).
+
+
 
 ## 3D printing files 
 All files can be found in the folder [STL](./STL).

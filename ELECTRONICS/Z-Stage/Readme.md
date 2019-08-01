@@ -48,3 +48,4 @@ The code need to flashed using the Arduino IDE using the ESP32 library. Further 
 ## NOTES
 Make sure you're releasing the Motor after usage, otherwise it can get quiet hot!
 
+ 
