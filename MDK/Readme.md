@@ -2,6 +2,9 @@
 
 V1 – 31.08.2019, Benedict Diederich, Barbora Marsikova
 
+If you want to adapt your ideas to the ***UC2*** framework this document gives you the necessary steps in order to do so. We provide a detailed description of the definitions, intentions and files to do so. Once you have created your idea with this system, please share it so that others can benefit from it! 
+
+The CAD templates can be found in the [CAD](./CAD)-folder.
 
 ### Definitions
 
@@ -10,7 +13,6 @@ The UC2 framework requires the introduction of several new concepts. These terms
 The Names can be found in the chart below (Fig 1). The chart also represents the logical structure of building a setup using UC2 elements. 
 
 		
-
 
 <table>
   <tr>
@@ -104,7 +106,7 @@ Fully independent, but follows the optical path (e.g. SIM-module, ISM-module, pr
 
 <p align="center">
 <img src="./IMAGES/UC2-Module-Developer-Kit0.png"
-width="450">
+width="750">
 </p>
 
 Figure 1: The chart showing logical structure of building a UC2 setup. 
@@ -160,7 +162,10 @@ Figure 3: Basic empty cube 2x1
 
 The Baseplate is the “skeleton” of the UC2 framework and holds the different modules into place.So far it’s designed the way, that ball-magnets are pressed fit into the 3D printed baseplate which interact with the 3D printed cubes. Knowing that it’s mechanically overdefined, the 4-point interface with screws and magnets gives the degree of freedom to level out mechanical imprecisions e.g. due to 3D printing etc. by adjusting the positions of the screws. The baseplate also offers the ability to connect the cubes to a electronic power-grid by adding wires to the chromium ball-magnets which conduct current when connected to the screws in the cubes.
 
-![alt_text](./IMAGES/UC2-Module-Developer-Kit3.png "image_tooltip")
+<p align="center">
+<img src="./IMAGES/UC2-Module-Developer-Kit3.png"
+width="750">
+</p>
 
 
 Figure 4: Baseplate 4x4
@@ -208,6 +213,8 @@ The cube inserts can be fully customized to adapt any optical element to the cub
 
 Since the cube is point symmetric around the origin, the inserts can be rotated in all directions and bridges external components to the modules by acting as an open-standard.
 
+The CAD templates for Autodesk Inventor 2019 (```.ipt```) and ```STL/STEP```-standard can be found in the [CAD](./CAD)-folder.
+
 
 ##### Cube Insert (Horizontal)
 
@@ -220,6 +227,7 @@ Since the cube is point symmetric around the origin, the inserts can be rotated 
     *   the thickness of the inner edge of the cube is 6.28 mm
 *   The insert is gripped by a form-fit mechanism – eventually adjust the size when printing the insert so that it fits smoothly
 *   Example for an insert which adapts a Thorlabs Cage Components (CP02) 
+*   An Example is given [here](./CAD)
 
 
 ##### Cube Insert (Vertical)
@@ -233,6 +241,7 @@ Since the cube is point symmetric around the origin, the inserts can be rotated 
     *   the thickness of the inner edge of the cube is 6.28 mm
 *   The insert is gripped by a form-fit mechanism – eventually adjust the size when printing the insert so that it fits smoothly
 *   Example for an insert which adapts a Thorlabs Cage Components (CP02) 
+*   An Example is given [here](./CAD)
 
 
 
@@ -274,6 +283,6 @@ width="450">
 ##### Cube Insert (Diagonal)
 
 <p align="center">
-<img src="./IMAGES/UC2-Module-Developer-Kit4.png"
+<img src="./IMAGES/UC2-Module-Developer-Kit9.png"
 width="450">
 </p>
