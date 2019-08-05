@@ -14,7 +14,7 @@ We have Tutorials with images now! :-)
 
 ![](./IMAGES/UC2_Box_Structure.png)
 
-
+The detailed up-to-date list of all components can be found in this [google-spreadsheet](https://drive.google.com/file/d/1Vh9hyDPg2nbcnaBAXX8jAnEIwKx_D-sa/view?usp=sharing).
 
 ## Confusion about version 1.0 vs. Version 2.0
 

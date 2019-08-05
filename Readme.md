@@ -66,6 +66,10 @@ Our goal is to make as many setups as possible available, so that people can pla
 <img src="./IMAGES/UC2_Holography.png" width="600">
 </p>
 
+## SOFTWARE
+
+There is a new Software repository dedicated for the UC2 stuff. It can be found [here](https://github.com/bionanoimaging/UC2-Software-GIT).
+
 ## Bill of Material
 
 All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefiting from the wide variety and availability of components brought up by the open-source community. 

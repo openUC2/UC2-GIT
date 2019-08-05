@@ -1,5 +1,5 @@
 # The BOX
-Very soon we would like to ofer a ready-to-use box being able to make a growing number of different optical experiments possible. 
+Very soon we would like to offer a ready-to-use box being able to make a growing number of different optical experiments possible. 
 
 That's how it could look like:
 
@@ -18,7 +18,7 @@ width="450">
 Useful for Workshops. Get back to use if you want to organize one together with us!
 
 ## Necessary Parts 
-A file which lists all modules and components necessary to build one of those boxes can be found [here](./DOCUMENTS/Bill_of_Materials_In-Incubator-Microscope_v0.xlsx).
+The detailed up-to-date list of all components can be found in this [google-spreadsheet](https://drive.google.com/file/d/1Vh9hyDPg2nbcnaBAXX8jAnEIwKx_D-sa/view?usp=sharing).
 
 The overall price-tag is around 600€ including the Raspberry Pi, Camera, Optics, 3D printed parts and all additional components. 
 
