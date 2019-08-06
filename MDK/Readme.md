@@ -13,7 +13,6 @@ The UC2 framework requires the introduction of several new concepts. These terms
 The Names can be found in the chart below (Fig 1). The chart also represents the logical structure of building a setup using UC2 elements.
 
 
-
 <table>
   <tr>
    <td>Name
@@ -26,7 +25,7 @@ The Names can be found in the chart below (Fig 1). The chart also represents the
    </td>
    <td>Complete microscopes and other optical  setups.
 <p>
-They are composed of one or more baseplates and modules with different functions. The list of available applications and modules that are necessary for building them can be found in this [google-spreadsheet](https://drive.google.com/file/d/1Vh9hyDPg2nbcnaBAXX8jAnEIwKx_D-sa/view?usp=sharing).
+They are composed of one or more baseplates and modules with different functions. The list of available applications and modules that are necessary for building them can be found in TheBOX.
    </td>
   </tr>
   <tr>
