@@ -46,7 +46,7 @@ They are assemblies of empty cubes and inserts and external parts. The functiona
   <tr>
    <td>ASSEMBLY CUBE Empty
    </td>
-   <td>Raw cube/basic building block, varying in size (1x1, 2x1, etc.).
+   <td>Raw cube/basic building block, varying in size (1×1, 2×1, etc.).
 <p>
 Note that the MDK only details the specification of the Cube and Base to the extent that it is necessary for module developers to develop modules.
    </td>
@@ -107,9 +107,9 @@ Fully independent, but follows the optical path (e.g. SIM-module, ISM-module, pr
 <p align="center">
 <img src="./IMAGES/UC2-Module-Developer-Kit0.png"
 width="750">
+<br><br>
+    <em>Figure 1: The chart showing logical structure of building a UC2 setup.</em>
 </p>
-
-Figure 1: The chart showing logical structure of building a UC2 setup.
 
 
 
@@ -129,10 +129,10 @@ The cube is the cornerstone of UC2 framework. Its purpose is to create a bridge 
 *   Screws in the cube fit on Ballmagnets of the Baseplate
 *   Compatible with Thorlabs 1" Cage System
 *   Electric connection through baseplate (wires connected to magnets, rectifier)
-*   Integer of 1x1; Design allows easy adaption to 2x1 modules
+*   Integer of 1x1; Design allows easy adaption to 2×1 modules
 *   Magnetic plates can close the open faces (shading)
-*   Flat-head screws (DIN ISO 912, M3x18mm) connect lid + cube; also at the bottom of the Cube Body
-*   Worm screws (DIN ISO906, M3x5mm) are put in all other holes for magnetic connection
+*   Flat-head screws (DIN ISO 912, M3×18mm) connect lid + cube; also at the bottom of the Cube Body
+*   Worm screws (DIN ISO906, M3×5mm) are put in all other holes for magnetic connection
 *   Function can be put into the cube by a special insert
 *   Electronics
     *   The Lid can carry electronics (e.g. ESP32)
@@ -143,19 +143,20 @@ The cube is the cornerstone of UC2 framework. Its purpose is to create a bridge 
 <p align="center">
 <img src="./IMAGES/UC2-Module-Developer-Kit1.png"
 width="450">
+<br>
+    <em>Figure 2: Basic empty cube 1×1</em>
 </p>
 
-Figure 2: Basic empty cube 1x1
 
 <p align="center">
 <img src="./IMAGES/UC2-Module-Developer-Kit2.png"
 width="450">
+<br><br>
+    <em>Figure 3: Basic empty cube 2×1</em>
 </p>
 
-Figure 3: Basic empty cube 2x1
 
 
-###
 
 
 ### Concept of the Baseplate
@@ -165,17 +166,18 @@ The Baseplate is the “skeleton” of the UC2 framework and holds the different
 <p align="center">
 <img src="./IMAGES/UC2-Module-Developer-Kit3.png"
 width="750">
+<br>
+    <em>Figure 4: Baseplate 4×4</em>
 </p>
 
 
-Figure 4: Baseplate 4x4
 
 
 
 *   5mm Ballmagnets (Neodym) are press fit into the holes
 *   Cables can be attached to the magnets before they are pressfit into the holes
 *   Dimensions:
-    *   Base-plate unit: 50x50mm
+    *   Base-plate unit: 50×50mm
     *   Distance: Magnet-Magnet: 40 mm
 *   Modules are attached to the base-plate by the magnetic fit mechanism
 *   Additional holes for M6 screws to adapt to e.g. metallic (bread) boards (e.g. Thorlabs grid). Distance is 50-50mm
@@ -190,7 +192,7 @@ Figure 4: Baseplate 4x4
 
 
 *   Fourier optics is happy if the focal lengthes of adjacent lenses follow each other (minimizing vignetting, telecentric systems, etc.)
-*   Lenses should be chosen as integer 50.\mm of their focal lengthes (ideal lens, real lens => subtract thickness of the lens itself=> focal-focal length 100mm)
+*   Lenses should be chosen as integer 50 mm of their focal lengthes (ideal lens, real lens => subtract thickness of the lens itself=> focal-focal length 100mm)
 *   Think in modules and blocks
 *   Divide functions in submodules
 *   Concatenate submodules to functions
@@ -201,9 +203,11 @@ Figure 4: Baseplate 4x4
 <p align="center">
 <img src="./IMAGES/UC2-Module-Developer-Kit4.png"
 width="450">
+<br><br>
+    <em>Figure 5: Scheme of two of the possible modular setups: Top: Keplerian telescope; bottom: Smartphone microscope.</em>
 </p>
 
-Figure 5:Scheme of two of the possible modular setups: Top: Keplerian telescope; bottom: Smartphone microscope
+
 
 
 ### Cube Inserts
