@@ -32,7 +32,7 @@ They are composed of one or more baseplates and modules with different functions
   <tr>
    <td>ASSEMBLY BASE
    </td>
-   <td>The Assembly Base plate (“Skeleton”) is the frame and backplane of the UC2 project, determining the size and layout of the optical system. UC2 modules attach to the baseplate positions, which have a backplane to electrically and logically connect modules together.
+   <td>The Assembly Base plate (“Skeleton” of the setups) is the frame and backplane of the UC2 project, determining the size and layout of the optical system. UC2 modules attach to the baseplate positions, which have a backplane to electrically and logically connect modules together.
    </td>
   </tr>
   <tr>
@@ -46,7 +46,7 @@ They are assemblies of empty cubes and inserts and external parts. The functiona
   <tr>
    <td>ASSEMBLY CUBE Empty
    </td>
-   <td>Raw cube/basic building block, varying in size (1x1, 2x1).
+   <td>Raw cube/basic building block, varying in size (1x1, 2x1, etc.).
 <p>
 Note that the MDK only details the specification of the Cube and Base to the extent that it is necessary for module developers to develop modules.
    </td>
@@ -121,17 +121,17 @@ The cube is the cornerstone of UC2 framework. Its purpose is to create a bridge 
 
 
 *   Interface to bridge UC2 to any external component
-*   Sidelength ("50 mm" cube)
-    *   Distance from hole to hole 40mm
-    *   Distance from face to face is 49,8mm – to incorporate inprecision of the printer
+*   Dimensions of the "50 mm" Cube unit  
+    *   Distance from hole to hole 40 mm
+    *   Distance from face to face is 49,8 mm – to incorporate inprecision of the printer
 *   Beam-path goes perpendicular and through center of the cubes’ faces
 *   Centrosymmetric
-*   Screws + Ballmagnets
-*   Interfacing with Thorlabs part out of the box
-*   Electric connection through baseplate (magnets, rectifier)
+*   Screws in the cube fit on Ballmagnets of the Baseplate
+*   Compatible with Thorlabs 1" Cage System
+*   Electric connection through baseplate (wires connected to magnets, rectifier)
 *   Integer of 1x1; Design allows easy adaption to 2x1 modules
 *   Magnetic plates can close the open faces (shading)
-*   Flat-head screws (DIN ISO 912, M3x18mm) connect lid + cube; also at the opposite side
+*   Flat-head screws (DIN ISO 912, M3x18mm) connect lid + cube; also at the bottom of the Cube Body
 *   Worm screws (DIN ISO906, M3x5mm) are put in all other holes for magnetic connection
 *   Function can be put into the cube by a special insert
 *   Electronics
@@ -160,7 +160,7 @@ Figure 3: Basic empty cube 2x1
 
 ### Concept of the Baseplate
 
-The Baseplate is the “skeleton” of the UC2 framework and holds the different modules into place.So far it’s designed the way, that ball-magnets are pressed fit into the 3D printed baseplate which interact with the 3D printed cubes. Knowing that it’s mechanically overdefined, the 4-point interface with screws and magnets gives the degree of freedom to level out mechanical imprecisions e.g. due to 3D printing etc. by adjusting the positions of the screws. The baseplate also offers the ability to connect the cubes to a electronic power-grid by adding wires to the chromium ball-magnets which conduct current when connected to the screws in the cubes.
+The Baseplate is the “skeleton” of the UC2 framework and holds the different modules in place.So far it’s designed the way, that ball-magnets are pressed fit into the 3D printed baseplate which interact with the 3D printed cubes. Knowing that it’s mechanically overdefined, the 4-point interface with screws and magnets gives the degree of freedom to level out mechanical imprecisions e.g. due to 3D printing etc. by adjusting the positions of the screws. The baseplate also offers the ability to connect the cubes to a electronic power-grid by adding wires to the chromium ball-magnets which conduct current when connected to the screws in the cubes.
 
 <p align="center">
 <img src="./IMAGES/UC2-Module-Developer-Kit3.png"
@@ -175,28 +175,27 @@ Figure 4: Baseplate 4x4
 *   5mm Ballmagnets (Neodym) are press fit into the holes
 *   Cables can be attached to the magnets before they are pressfit into the holes
 *   Dimensions:
-    *   Base-plate: 50x50mm
-    *   Distance: Magnet-Magnet: 40mm
+    *   Base-plate unit: 50x50mm
+    *   Distance: Magnet-Magnet: 40 mm
 *   Modules are attached to the base-plate by the magnetic fit mechanism
-*   Additional holes for M6 (?) screws to adapt to e.g. metallic (bread) boards (e.g. Thorlabs grid). Distance is 50-50mm
+*   Additional holes for M6 screws to adapt to e.g. metallic (bread) boards (e.g. Thorlabs grid). Distance is 50-50mm
 *   Modules can be mounted in 0°/90° orientation
-*   Modules finds its place on a grid
+*   Module finds its place on a grid
 *   The system can be built in the 3<sup>rd</sup> dimension by using 90° connectors
 *   Baseplates can be concatenated by using M3 Screws which find their place at the faces of the base-plate
-*   CAD Drawing:
 
 
 ### Good Practice to transfer an optical system to UC2
 
 
 
-*   Fourier optics is happy if the focal lengtheses of adjacent lenses follow each other (minimizing vignetting, telecentric systems, etc.)
-*   Lenses should be chosen as integer 50mm of their focal lengthes (ideal lens, real lens => subtract thickness of the lens itself=> focal-focal length 100mm)
+*   Fourier optics is happy if the focal lengthes of adjacent lenses follow each other (minimizing vignetting, telecentric systems, etc.)
+*   Lenses should be chosen as integer 50.\mm of their focal lengthes (ideal lens, real lens => subtract thickness of the lens itself=> focal-focal length 100mm)
 *   Think in modules and blocks
 *   Divide functions in submodules
 *   Concatenate submodules to functions
 *   A subunit can be extended in integer of 1x1 cubes in XYZ
-*   A simple telescope can be accomplished by concatenating two lenses (50mm, 100mm) with a distance of 150mm wrt. Their back-focal length (BFL) – see figure
+*   Example: A simple telescope can be accomplished by concatenating two lenses (50mm, 100mm) with a distance of 150mm wrt. Their back-focal length (BFL) – see figure 5
 *   If a function cannot be realized by concatenating cubes/submodules, a dedicated module can be developed which itself interfaces to an existing bigger setup (e.g. a module which holds a video-projector
 
 <p align="center">
@@ -204,33 +203,34 @@ Figure 4: Baseplate 4x4
 width="450">
 </p>
 
-Figure 5:
+Figure 5:Scheme of two of the possible modular setups: Top: Keplerian telescope; bottom: Smartphone microscope
 
 
 ### Cube Inserts
 
-The cube inserts can be fully customized to adapt any optical element to the cubes. So far a horizontal and vertical version exists. The design files for Autodesk Inventor and OpenSCAD are available. Once you have a customized version, please share them so that the open-aspect of the system reaches its full potential :)
+The cube inserts can be fully customized to adapt any optical element to the cubes. So far a perpendicular and diagonal version exists. The design files for Autodesk Inventor and OpenSCAD are available. Once you have a customized version, please share it so that the open-aspect of the system reaches its full potential :)
 
 Since the cube is point symmetric around the origin, the inserts can be rotated in all directions and bridges external components to the modules by acting as an open-standard.
 
 The CAD templates for Autodesk Inventor 2019 (```.ipt```) and ```STL/STEP```-standard can be found in the [CAD](./CAD)-folder.
 
 
-##### Cube Insert (Horizontal)
+##### Cube Insert (Perpendicular)
 
 
 
 *   This can be slided into the cube
-*   Allows variation in the position along the optical axis
+*   Allows variation in the position along the optical axis, three different orientations of the insert inside the cube are possible
 *   Important are the following Distances:
     *   from one inner edge of the cube to its opposite counterpart (53,8 mm)
-    *   the thickness of the inner edge of the cube is 6.28 mm
+    *   the thickness of the inner edge of the cube is 6,28 mm
+    *   plate thickness: 5,0 mm
 *   The insert is gripped by a form-fit mechanism – eventually adjust the size when printing the insert so that it fits smoothly
 *   Example for an insert which adapts a Thorlabs Cage Components (CP02)
 *   An Example is given [here](./CAD)
 
 
-##### Cube Insert (Vertical)
+##### Cube Insert (Diagonal)
 
 
 
@@ -238,9 +238,9 @@ The CAD templates for Autodesk Inventor 2019 (```.ipt```) and ```STL/STEP```-sta
 *   Allows variation in the position with an angle of 45° w.r.t. the optical axis
 *   Important are the following Distances:
     *   from one inner edge of the cube to its opposite counterpart (53,8 mm)
-    *   the thickness of the inner edge of the cube is 6.28 mm
+    *   the thickness of the inner edge of the cube is 6,28 mm
 *   The insert is gripped by a form-fit mechanism – eventually adjust the size when printing the insert so that it fits smoothly
-*   Example for an insert which adapts a Thorlabs Cage Components (CP02)
+*   Example for an insert which adapts a Thorlabs round mirror
 *   An Example is given [here](./CAD)
 
 
