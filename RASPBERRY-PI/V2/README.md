@@ -17,6 +17,6 @@ $ which conda
 ```
 $ source 02-UC2_Berryconda.sh
 ```
-* your final terminal output should look like this:
+* your final terminal output should look like this (last line):
 
 ![Berryconda done](https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY-PI/V2/2019-08-07-062835_1824x984_scrot.png)
