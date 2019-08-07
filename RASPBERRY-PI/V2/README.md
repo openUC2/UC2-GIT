@@ -18,3 +18,5 @@ $ which conda
 $ source 02-UC2_Berryconda.sh
 ```
 * your final terminal output should look like this:
+
+RASPBERRY-PI/V2/2019-08-07-062835_1824x984_scrot.png
