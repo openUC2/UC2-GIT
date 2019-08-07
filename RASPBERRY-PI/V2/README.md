@@ -15,6 +15,6 @@ $ which conda
 * if you get no output at all then something went wrong
 * if everything's fine proceed by typing
 ```
-$ **source** 02-UC2_Berryconda.sh
+$ __source__ 02-UC2_Berryconda.sh
 ```
 * your final terminal output should look like this:
