@@ -19,4 +19,4 @@ $ source 02-UC2_Berryconda.sh
 ```
 * your final terminal output should look like this:
 
-https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY-PI/V2/2019-08-07-062835_1824x984_scrot.png
+![Berryconda done](https://raw.githubusercontent.com/bionanoimaging/UC2-GIT/master/RASPBERRY-PI/V2/2019-08-07-062835_1824x984_scrot.png)
