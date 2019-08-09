@@ -18,7 +18,7 @@ width="450">
 Useful for Workshops. Get back to use if you want to organize one together with us!
 
 ## Necessary Parts 
-The detailed up-to-date list of all components can be found in this [google-spreadsheet](https://drive.google.com/file/d/1Vh9hyDPg2nbcnaBAXX8jAnEIwKx_D-sa/view?usp=sharing).
+The detailed up-to-date list of all components can be found in this [google-spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing).
 
 The overall price-tag is around 600€ including the Raspberry Pi, Camera, Optics, 3D printed parts and all additional components. 
 
