@@ -1,20 +1,20 @@
-## BASE CUBE 
+## BASE CUBE
 This is the repository for the base-cube design. The design-files can be found in the folder [INVENTOR](./INVENTOR).
 
-A 3D-printing quick-start-guide can be found [here](./STL). 
-The Base-Cube consists of only 3 components. 
+A 3D-printing quick-start-guide can be found [here](./STL).
+The Base-Cube consists of only 3 components.
 
 1. **The Base** where the ball magnets will be fed in
 2. **The Lid** where the Arduino + Electronics finds its place
 3. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
 <p align="center">
-<img src="./IMAGES/BASE_CUBE_v0_1.png" width="400">
+<img src="./IMAGES/BASE_CUBE_v2_1.png" width="400">
 </p>
 
-The function which fits into the cube is not necessarily bound to optics. It can be everything! 
+The function which fits into the cube is not necessarily bound to optics. It can be everything!
 An example of a mirror or raspi-cam adapter can be found in the In-Incubator Folder.
 <p align="center">
-<img src="./IMAGES/BASE_CUBE_v0_2.png" width="400">
+<img src="./IMAGES/BASE_CUBE_v2_2.png" width="400">
 </p>
 
 
@@ -89,7 +89,7 @@ A quick printing tutorial can be found here:
 <img src="./IMAGES/UC2_Tut_Base1.jpg" width="300">
 </p>
 
-2. Place the magnets on the screws and center the cube on the Base 
+2. Place the magnets on the screws and center the cube on the Base
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Base3.jpg" width="300">
 </p>
@@ -184,14 +184,14 @@ We want to design an insert which basically fits inside the cube. Thus, it has t
 <img src="./IMAGES/Cube_Tut_14.PNG" width="500">
 </p>
 
-#### 15. Create a rectangular sketch 
+#### 15. Create a rectangular sketch
 The dimensions are derived from the CAD-drawing in 13.
 <p align="center">
 <img src="./IMAGES/Cube_Tut_15.PNG" width="500">
 </p>
 
 #### 16. Add some support to make it 'slidable'
-This is examplary. You can add any shape you want as long as you can slide it inside the cube and keep dimensions in step 13 in your mind. 
+This is examplary. You can add any shape you want as long as you can slide it inside the cube and keep dimensions in step 13 in your mind.
 <p align="center">
 <img src="./IMAGES/Cube_Tut_16.PNG" width="500">
 </p>
@@ -213,21 +213,21 @@ Here we review a Thorlabs silver mirror with 1 inch in diameter and 6mm in thick
 <img src="./IMAGES/Cube_Tut_19.PNG" width="500">
 </p>
 
-#### 20. Extrude the hole so that a mirror fits in there 
+#### 20. Extrude the hole so that a mirror fits in there
 Add some inprecision boundary (e.g. .1-.2 mm)
 <p align="center">
 <img src="./IMAGES/Cube_Tut_20.PNG" width="500">
 </p>
 
-#### 21. Create a rectangular sketch 
+#### 21. Create a rectangular sketch
 <p align="center">
 <img src="./IMAGES/Cube_Tut_21.PNG" width="500">
 </p>
 
 #### 22. You'Re done! :)
-Add any modifications to your design to make it work and share it - please! :-) 
+Add any modifications to your design to make it work and share it - please! :-)
 [@openUC2 on Twitter](twitter.com/openUC2) and as a github pull request :-)
- 
+
 <p align="center">
 <img src="./IMAGES/Cube_Tut_22.PNG" width="500">
 </p>
@@ -238,11 +238,11 @@ The Arduino can be introduced with hot-glue or some screws.
 
 ### Devices features:
 
-	* Click-Mount via Ball-Magnets/Screws 
+	* Click-Mount via Ball-Magnets/Screws
 	* Possible electic connection
 	* Fill in whatever function you want
 	* modularized design
 	* Low-cost production
 	* Very precise
 	* Open-Source
-	* Mount it in all possible directions 
+	* Mount it in all possible directions
