@@ -5,7 +5,7 @@ This is the repository for the design of the LED Cube. The stl-files can be foun
 
 ## Purpose
 This cube holds a single LED. Optionally, A generic sample holder can be added to hold a pinhole directly in front of the LED.
-![](./IMAGES/Assembly_Cube_LED_holder_v2.png)
+
 <p align="center">
 <img src="./IMAGES/Assembly_Cube_LED_holder_v2.png"
 width="1000">
