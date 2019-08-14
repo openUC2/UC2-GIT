@@ -10,32 +10,32 @@ It adapts a very small beam-expander to the UC2 system.
 <img src="./IMAGES/Assembly_Cube_Beamexpander_v2.png" width="400">
 </p>
 
-Sometimes one need to increase the diameter of an illuminating beam. This is necessary for the Light-sheet microscopy setup for example. Here we have a laser-pointer which comes with a relatively small beam-diamter of about 2mm. By using a telescope, this can be magnified by a factor of e.g. 8 which results in a beam-dimater of 16 mm. This is necerssary to overfill the aperture of the following illumination objective lens.
+Sometimes one need to increase the diameter of an illuminating beam. This is necessary for the Light-sheet microscopy setup for example. Here we have a laser-pointer which comes with a relatively small beam-diameter of about 2mm. By using a telescope, this can be magnified by a factor of e.g. 8 which results in a beam-diameter of 16 mm. This is necessary to overfill the aperture of the following illumination objective lens.
 
 In order to achieve this, we first need to focus the beam with a low focal length lens (e.g. cellphone lens, f'=3mm) and then re-collimate the lens with a second lens with a larger focal length e.g. f'=25 mm.
 
-We designed a telescope where an iPhone 5 lens and an ordinary 25mm lens can be inserted in an adpater, which finds its place inside an ordinary UC2-cube as visualized in the image above.
+We designed a telescope where an iPhone 5 lens and an ordinary 25mm lens can be inserted in an adapter, which finds its place inside an ordinary UC2-cube as visualized in the image above.
 
 ## Properties
 * design is derived from the base-cube
 * the adapter for the telescope can be adjusted for different magnifications and lenses
 * the beam height can be adjusted by sliding the the telescope along the axis
-* the degree of collimation can be adjusted beforehand  * very cost-effecient beam-exander at a fairly good quality as the cellphone lens is diffraction limited (overall costs ~15€)
-* Magnification : m=f_tl/f_ep = 25/3 = 8.33
+* the degree of collimation can be adjusted beforehand  * very cost-efficient beam-expander at a fairly good quality as the cellphone lens is diffraction limited (overall costs ~15€)
+* Magnification : m=f<sub>tl</sub>/f<sub>ep</sub> = 25/3 = 8.33
 
 ## Parts
 
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/Assembly_Cube_prettytelescope_10_Lid_el_v0_1.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/Assembly_Cube_prettytelescope_10_Cube_v0_2.stl))
-* **The Telescope** which holds the two lenses  adapts it to the base cube ([TELESCOPE](./STL/Assembly_Cube_prettytelescope_01_pretty_telescope_iphone_12.stl))
+* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/Assembly_Cube_Beamexpander_10_Lid_1x1_v2.stl))
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/Assembly_Cube_Beamexpander_10_Cube_1x1_v2.stl))
+* **The Telescope** which holds the two lenses and  adapts them to the base cube ([TELESCOPE](./STL/Assembly_Cube_Beamexpander_20_Cube_Insert_Beamexpander.stl))
 
 ### Additional parts
 * 4x DIN912 M3*12 screws (non stainless steel)
-* iPhone 5 lens (serperated from an iPhone camera spare part), f'=3mm
-* biconved/plan-convex lens, f'=25mm, diameter=20mm, thickness=4mm
+* iPhone 5 lens (separated from an iPhone camera spare part), f'=3mm
+* biconvex/plan-convex lens, f'=25mm, diameter=20mm, thickness=4mm
 
 ## Remarks and Tips
 ### 3D Printing:
@@ -49,7 +49,7 @@ The Part consists of the following components.
 
 * Take the laser-pointer
 * Point the laser towards the iPhone Lens
-* Adjust the distance between the two lenses, so that the beam is collimated (=the beam diamter right after the telescope should not change over any distance)
+* Adjust the distance between the two lenses, so that the beam is collimated (=the beam diameter right after the telescope should not change over any distance)
 * Put the telescope inside the cube by sliding it along the slides
 
 ![](./IMAGES/Beamexpander_Assembly_2.png)
@@ -59,7 +59,7 @@ The Part consists of the following components.
 
 ![](./IMAGES/Beamexpander_Assembly_3.png)
 
-###Tutorial with images
+### Tutorial with images (for UC2 v0)
 Don't insert batteries in the laser yet!!
 
 1. All parts for this model
