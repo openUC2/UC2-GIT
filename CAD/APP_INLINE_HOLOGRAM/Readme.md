@@ -12,35 +12,44 @@ For reconstructing the Hologram, acquired on-chip (Raspi-Cam, left) one only nee
 
 A more in-detail documentation can be found [here](./../../WORKSHOP/INLINE-HOLOGRAMM)
 
-## 3D printing
-
-<p align="center">
-<img src="./IMAGES/Print_CURA_Capture.PNG" width="500">
-</p>
-
-Parts to printing 
-
-* 1x [Base-plate](./STL/INLINE_HOLOGRAM_00_Base_4x1_v0.stl)
-* 2x [Cube base](./STL/INLINE_HOLOGRAM_10_Cube_v0.stl)
-* 2x [Cube lid](./STL/INLINE_HOLOGRAM_10_Lid_el_v0.stl)
-* 1x [Cube Insert Camera](./STL/INLINE_HOLOGRAM_11_Mirror_Adapter_for_RaspiCam.stl)
-* 1x [Cube Insert for the LED+Aluminium foil](./STL/INLINE_HOLOGRAM_10_Inlet_LED_Reflector)
-
-
-
-## Additional components
-* 1x Raspberry Pi
-* 1x Raspberry Pi Camera v2 NoIR
-* 8x 5mm Ball magnets
-* 8x DIN 906 M3x18mm Screws 
-* 1x wired LED (blue) 
-* 1x button
-* 1x Power Supply for Raspberry Pi
-
-## Devices features:
+## Devices' features:
 
 	* Lensless
 	* Explain Interference
 	* Low-cost acquisition
 	* Open-Source
 	* Compatible with Educational purposes
+
+
+## 3D printing
+
+<p align="center">
+<img src="./IMAGES/Print_CURA_Capture.PNG" width="500">
+</p>
+
+### Parts to printing 
+
+|  Name | Properties  |  Price | Link  | # |
+|---|---|---|---|---|
+|  1x4 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_BASE/)  | 1|
+|  Module: Raspberry Pi Camera | -  | 20 €  | [Raspi Camera Cube](../ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
+|  Module: LED + Pinhole  | - | 10€  | [Raspi Camera Cube](../ASSEMBLY_CUBE_LED_v2)  | 1|
+
+
+
+### Additional components
+* 1x Raspberry Pi
+* 1x wired LED (blue) 
+* 1x button
+* 1x Power Supply for Raspberry Pi
+
+
+	
+## Software
+Please have a look at our **ImJoy** [Github-Repository](https://github.com/bionanoimaging/UC2-ImJoy-GIT) for this Application. 
+
+## Comments
+Nothing to say. 
+
+## Contribution
+If you find this piece usefull or you want to improve it, please feel free to file an issue or write us a message! 

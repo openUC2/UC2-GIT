@@ -60,5 +60,49 @@ The assembly of this part is straight forward. Just screw all the parts together
 
 The ```DIN```, ```5V``` and ```Gnd```-Pin have to be connected to the ESP32. The ESP32 connects to the supply voltage (5V).
 
+
+
+
+### Tutorial with images
+Don't insert batteries in the laser yet!!
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/CUBE_LED_MATRIX_1.jpg" width="300">
+</p>
+
+2. Solder the 3xpinhead to the LED-Matrix
+<p align="center">
+<img src="./IMAGES/CUBE_LED_MATRIX_2.jpg" width="300">
+</p>
+
+3. Add the pinheads to the ESP32
+<p align="center">
+<img src="./IMAGES/CUBE_LED_MATRIX_3.jpg" width="300">
+</p>
+
+4. Solder everything
+<p align="center">
+<img src="./IMAGES/CUBE_LED_MATRIX_4.jpg" width="300">
+</p>
+
+5. Connect 5V, GND and Data from ESP32 to Neopixel Array using Female-Female jumpers
+<p align="center">
+<img src="./IMAGES/CUBE_LED_MATRIX_5.jpg" width="300">
+</p>
+
+6. Add Lid and Screws - Done!
+<p align="center">
+<img src="./IMAGES/CUBE_LED_MATRIX_6.jpg" width="300">
+</p>
+
+6. Mount everything
+<p align="center">
+<img src="./IMAGES/CUBE_LED_MATRIX_7.jpg" width="300">
+</p>
+
+
 ## Safety
-Take care in case you're dealing with lasers. Don't burn yourself if you solder the part! 
+Take care in case you're dealing with lasers. Don't burn yourself if you solder the part!
+
+- Open Electronic Contacts can deduce a shortcut!

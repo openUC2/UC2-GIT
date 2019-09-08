@@ -21,24 +21,20 @@ Due to limited space, we sometimes need to fold the beam using a mirror. This is
 ## Properties
 * design is derived from the base-cube
 
-
-
-
-
 ## Parts
 
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/ASSEMBLY_CUBE_Mirror_45_v2_10_Cube_Lid.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/ASSEMBLY_CUBE_Mirror_45_v2_10_Cube_Base.stl))
-* **The Kinematic Mirror Holder** which holds a Mirror and adapts it to the base cube ([MIRROR HOLDER](./STL/ASSEMBLY_CUBE_Mirror_45_v2_20_Cube_Insert_Kinematic_Mirrormount_45_base.stl))
+* **The Lid** where the Arduino + Electronics finds its place
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
+* **The Kinematic Mirror Holder** which holds a Mirror and adapts it to the base cube
 
 ### Additional parts
 * 7× DIN912 M3*12 screws (non stainless steel)
 * 3× Ballmagnets, arbitrary diameter
-* Metalplate, 30×40 mm<sup>2</sup>, magnetic material
-* 1× Mirror
+* Metalplate, 30×40 mm<sup>2</sup>, magnetic material (e.g. Nickel)
+* 1× Mirror (e.g. Amazon 30x30mm with double-sided sticky tape )
 
 
 
@@ -55,6 +51,43 @@ The Part consists of the following components.
 * Glue your mirror to the metal Metalplate. Place the mirror roughly in the center of the plate
 * Attach the Metalplate, which carries the mirror, to the ends of the screws of the Mirror holder using the magnets
 * Done!
+
+### Tutorial with images
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_0.jpg" width="300">
+</p>
+
+2. Add M3 scews to the insert
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_1.jpg" width="300">
+</p>
+
+3. Add Ballmagnets to the screws
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_2.jpg" width="300">
+</p>
+
+4. Add the magnetic plate to the Ballmagnets
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_3.jpg" width="300">
+</p>
+
+5. Glue the mirror onto the magnetic plate
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_4.jpg" width="300">
+</p>
+
+6. Put the insert in the cube
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_5.jpg" width="300">
+</p>
+
+7. Add the M3 Screws - Done.
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_6.jpg" width="300">
+</p>
 
 
 
