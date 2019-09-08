@@ -1,9 +1,9 @@
 ## Smartphone Microscope
 This is the repository for the Smartphone Microscope. 
 
-It's based on a compound microscope which itself relies on finite corrected objective lenses. The Smartphone reimages the image of the ocular onto the camera sensor. This means, that the cellphone's camera lens acts like the eye. Proper imaging is achieved if the exit pupil of the eyepiece is matching well with the entrance pupil of the smartphone camera. 
+It's based on a compound microscope which itself relies on finite corrected objective lenses. The Smartphone reimages the image of the ocular onto the camera sensor. This means that the cellphone's camera lens acts like the eye. Proper imaging is achieved if the exit pupil of the eyepiece is matching well with the entrance pupil of the smartphone camera. 
 
-Further details can also be found in the ```cell-scope```puplication by Professor Fletcher at Berkeley. It can also be found on there website [https://cellscope.berkeley.edu/](https://cellscope.berkeley.edu/). 
+Further details can also be found in the ```cell-scope```publication by Professor Fletcher at Berkeley. It can also be found on their website [https://cellscope.berkeley.edu/](https://cellscope.berkeley.edu/). 
 
 
 <p align="center">
@@ -16,7 +16,7 @@ The optical path is relying on the finite corrected objective (MO) lens which pr
 <img src="./IMAGES/UC2_OpticalPath_Smartphonemicroscope.png" width="300">
 </p>
 
-The files are containing a fluorescent module which works in darkfield configuration.
+The files contain a fluorescent module which works in darkfield configuration.
 
 ## 3D printing
 
@@ -24,7 +24,7 @@ The files are containing a fluorescent module which works in darkfield configura
 <img src="./IMAGES/Assembly_smartphone_microscope_2.png" width="500">
 </p>
 
-Parts to printing (not up to date! - please check the STL folder directly for all parts!) 
+Parts to print (not up to date! - please check the STL folder directly for all parts!) 
 
 * 1x [Base-plate](./STL/INLINE_HOLOGRAM_00_Base_4x1_v0.stl)
 * 2x [Cube base](./STL/INLINE_HOLOGRAM_10_Cube_v0.stl)
