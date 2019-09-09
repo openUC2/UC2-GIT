@@ -26,28 +26,49 @@ The overall dimensions stay the same, but the inserts change!
 The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGreen which is precise enough. Note, that not all parts might be necessary to print. A detailed description or compiled list of necessary parts will follow soon. 
 
 ## List of available Modules (CUBEs):
-* [CUBE Base](./ASSEMLBY_CUBE_Base)
-* [CUBE Cameracube](./ASSEMBLY_CUBE_Raspicam)
-* [CUBE EmptyTemplate (only for documentation)](./CUBE_EmptyTemplate)
-* [CUBE Beamsplitter](./ASSEMLBY_CUBE_Beamsplitter)
-* [CUBE Lasermodule](./ASSEMLBY_CUBE_Laser)
-* [CUBE Lensholder+Objectiveholder](./ASSEMLBY_CUBE_Lens)
-* [CUBE Mirror and Objective Holder](./ASSEMLBY_CUBE_Mirror_45)
-* [CUBE Pretty-Beamexpander](./ASSEMLBY_CUBE_Beamexpander)
-* [CUBE STAGE_Z-Objective](./ASSEMLBY_CUBE_Z-Stage)
-* [CUBE STAGE_Z-Sample](./ASSEMLBY_CUBE_Z-Symple)
+Each folder contains a step-by-step tutorial which describes how the module has to be assembled.
+
+
+Link             |  Image of the part
+:-------------------------:|:-------------------------:
+[Base Plate (1x4,2x4,4x4)](./ASSEMBLY_BASE)  |  ![](./ASSEMBLY_BASE/IMAGES/Assembly_base_4x4.png)
+[CUBE Base](./ASSEMBLY_CUBE_Base_v2)  |  ![](./ASSEMBLY_CUBE_Base_v2/IMAGES/Assembly_Cube_Electric_Adpater.png)
+[Beam Expanxer](./ASSEMBLY_CUBE_Beamexpander_v2)  |  ![](./ASSEMBLY_CUBE_Beamexpander_v2/IMAGES/Assembly_Cube_Beamexpander_v2.png)
+[Beampslitter](./ASSEMBLY_CUBE_Beamsplitter_v2)  |  ![](./ASSEMBLY_CUBE_Beamsplitter_v2/IMAGES/Assembly_Cube_Beamsplitter_v2.png)
+[Base Plate (1x4,2x4,4x4)](./ASSEMBLY_BASE)  |  ![](./ASSEMBLY_BASE/IMAGES/Assembly_base_4x4.png)
+[CUBE Base](./ASSEMBLY_CUBE_Cellphonemount) | ![](./ASSEMBLY_CUBE_Cellphonemount/IMAGES/Assembly_Cube_Smartphone_Holder.png)
+[Dichroic Beamsplitter](./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2) | ![](./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2/IMAGES/Assembly_Cube_Dichroic_Beamsplitter.png)
+[Eyepiece ](./ASSEMBLY_CUBE_Eyepiece_v2) | ![](./ASSEMBLY_CUBE_Eyepiece_v2/IMAGES/Assembly_Cube_Eyepiece_v2.png)
+[LED Matrix](./ASSEMBLY_CUBE_LED_Matrix_v2) | ![](./ASSEMBLY_CUBE_LED_Matrix_v2/IMAGES/Assembly_Cube_LED_Matrix_v0.png)
+[LED Star](./ASSEMBLY_CUBE_LED_v2) | ![](./ASSEMBLY_CUBE_LED_v2/IMAGES/Assembly_Cube_LED_holder_v2.png)
+[Laser](./ASSEMBLY_CUBE_Laser_v2) | ![](./ASSEMBLY_CUBE_Laser_v2/IMAGES/Assembly_Cube_Lasermount.png)
+[Lens (cylindrical)](./ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2) | ![](./ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2/IMAGES/Assembly_Cube_Objectiveholder.png)
+[Lens (circular)](./ASSEMBLY_CUBE_Lens_v2) | ![](./ASSEMBLY_CUBE_Lens_v2/IMAGES/Assembly_Cube_Objectiveholder.png)
+[Mirror (45°)](./ASSEMBLY_CUBE_Mirror_45_v2) | ![](./ASSEMBLY_CUBE_Mirror_45_v2/IMAGES/Assembly_Cube_Mirror_Tilt.png)
+[Mirror, kinematic (45°)](./ASSEMBLY_CUBE_Mirror_Kinematic_45_v2) | ![](./ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/IMAGES/Assembly_Cube_Kinematic_Mirrormount_45_v2.png)
+[Mirriór, kinematic (0°)](./ASSEMBLY_CUBE_Mirror_Kinematic_v2) | ![](./ASSEMBLY_CUBE_Mirror_Kinematic_v2/IMAGES/Assembly_Cube_Kinematic_Mirrormount_v2.png)
+[Raspi Cam](./ASSEMBLY_CUBE_RaspiCam_v2) | ![](./ASSEMBLY_CUBE_RaspiCam_v2/IMAGES/Assembly_Cube_cameracube.png)
+[S-Stage](./ASSEMBLY_CUBE_S-STAGE_v2) | ![](./ASSEMBLY_CUBE_S-STAGE_v2/IMAGES/Assembly_XY_Translator_Lightsheet_v2.png)
+[Sample Holder](./ASSEMBLY_CUBE_Sample_Holder_v2) | ![](./ASSEMBLY_CUBE_Sample_Holder_v2/IMAGES/Assembly_Cube_Sample_holder_v2.png)
+[Z-Stage + Flomodle](./ASSEMBLY_CUBE_Z-STAGE_v2) | ![](./ASSEMBLY_CUBE_Z-STAGE_v2/IMAGES/Assembly_Z_Focus_Spiralbearing_v3.png)
+[XYZ-Stage](./ASSEMBLY_XYZ) | ![](./ASSEMBLY_XYZ-STAGE/IMAGES/Assembly_cube_double_Zfocus.png)
+[Thorlabs ADapter](./ASSEMBLY_CUBE_Thorlabs_v2) | ![](./ASSEMBLY_CUBE_Thorlabs_v2/IMAGES/CUBE_THORLABS_2.jpg)
 
 
 ## List of available Supplements:
 * [ELECTONICS-RaspiTFT-Case](./EXT_ELECTONICS-RaspiTFT-Case)
 * [ELECTRONICS-Mount](./EXT_ELECTRONICS-Mount)
+* [openSIM - Module](./ASSEMBLY_CUBE_openSIM)
 
 ## List of available Applications (APPs):
-- [Incubator Microscope (Old)](./IN-APP_Incubator_Microscope/Readme.md)
-- [Smartphone Microscope](./APP_SMARTPHONE_MICROSCOPE/Readme.md)-
-- [Inline Holographical Microscope](./INLINE_HOLOGRAM/Readme.md)
-- [LIGHTSHEET-Scanning (Old)](./APP_LIGHTSHEET-Scanning)
+- [Abbe Diffraction Experiment](./APP_Abbe_Setup)
+- [Incubator Microscope (Old)](./APP_Incubator_Microscope)
+- [Smartphone Microscope](./APP_SMARTPHONE_MICROSCOPE)
+- [Inline Holographical Microscope](./APP_INLINE_HOLOGRAM)
+- [Lightsheet Microscope](./APP_LIGHTSHEET_Workshop)
 - [Simple Telescope](./APP_SIMPLE-Telescope)
+- [Michelson Interferometer](APP_Michelson_Interferometer)
+- [Spectrometer](APP_Spectrometer)
 
 More setups are coming soon! 
 Inspire us with your ideas - we try to make it work! :-)
