@@ -13,6 +13,12 @@ width="450">
 width="450">
 </p>
 
+<p align="center">
+<img src="./IMAGES/UC2_thebox_photo_3.jpg"
+width="450">
+</p>
+
+
 
 
 Useful for Workshops. Get back to us if you want to organize one together with us!
@@ -24,61 +30,103 @@ A description on how to assemble the parts can be found in each Application-fold
 The detailed up-to-date list of all components can be found in this [google-spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing).
 
 The overall price-tag is around 600€ including the Raspberry Pi, Camera, Optics, 3D printed parts and all additional components.
+<<<<<<< HEAD
 
 
 ## Possible Setups
 What could be inside the box?
+=======
+
+
+
+
+## Possible Setups
+What's inside the box?
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 
 ### Image Scanning Microscopy (ISM)
 <p align="center">
 <img src=".\IMAGES\UC2_Setups_1_ISM.png" width="500">
 </p>
 
+
 ### Abbe Diffraction Experiment
 [LINK](../CAD/APP_Abbe_Setup)
+<<<<<<< HEAD
 Classical experiment for explaining Fourier transform done by a lens. CAM1 images the grating, CAM2 images the Back Focal Plane. Different filters can be inserted in the BFP.
+=======
+
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 <p align="center">
 <img src="./IMAGES/UC2_Setups_2_Abbe.png" width="666">
 </p>
 
+<<<<<<< HEAD
 ### Incubator Microscope
 [LINK](../CAD/APP_Incubator_Microscope)
 Trasmission microscope. LED array serves as light source - different illumination modes possible.
+=======
+
+### Incubator Microscope
+[LINK](../CAD/APP_Incubator_Microscope)
+
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 <p align="center">
 <img src="./IMAGES/UC2_Setups_3_incubator.png" height="333">
 </p>
 
+
 ### Incubator Microscope w/ Fluorescence
 [LINK](../CAD/APP_Incubator_Microscope)
+<<<<<<< HEAD
 Epi-Fluorescence microscope.
+=======
+
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 <p align="center">
 <img src="./IMAGES/UC2_Setups_4_fluorescence.png" height="333">
 </p>
 
 ### Light-sheet Microscope
 [LINK](../CAD/APP_LIGHTSHEET_Workshop)
+<<<<<<< HEAD
 Light-sheet combined with fluorescence. Simplified version: Microscope objective in illumination path in fixed position (without motor).
+=======
+
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 <p align="center">
 <img src="./IMAGES/UC2_Setups_5_lightsheet.png" width="400">
 </p>
 
 ### Telescope
 [LINK](../CAD/APP_SIMPLE-Telescope)
+<<<<<<< HEAD
 Three classical telescope principles. 2× magnification for *f(L1)* = +100 mm, *f(L2)* = +50 mm, *f(L3)* = -50 mm.
+=======
+
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 <p align="center">
 <img src="./IMAGES/UC2_Setups_6_telescopes.png" height="370">
 </p>
 
 ### In-Line Holographic Microscope
 [LINK](../CAD/APP_INLINE_HOLOGRAM)
+<<<<<<< HEAD
 Imaging without lenses. Blue LED as a light source. For weakly scattering samples.
+=======
+
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 <p align="center">
 <img src="./IMAGES/UC2_Setups_7_holography.png" width="333">
 </p>
 
 ### Michelson Interferometer
 [LINK](../CAD/APP_Michelson_Interferometer)
+<<<<<<< HEAD
 Reflection interferometry. Fine adjustment with kinematic mirror (perpendicular). One beamsplitter.
+=======
+
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 <p align="center">
 <img src="./IMAGES/UC2_Setups_8_michelson.png" width="400">
 </p>
@@ -91,13 +139,18 @@ Transmission interferometry. Fine adjustment with kinematic mirrors (diagonal). 
 
 ### Cellphone Microscope
 [LINK](../CAD/APP_SMARTPHONE_MICROSCOPE)
+<<<<<<< HEAD
 Trasmission microscope, uses smartphone for image acquisition. LED array serves as light source - different illumination modes possible.
+=======
+
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 <p align="center">
 <img src="./IMAGES/UC2_Setups_9_smartphone.png" height="400">
 </p>
 
 ### Spectrometer
 [LINK](../CAD/APP_Spectrometer)
+<<<<<<< HEAD
 <p align="center">
 <img src="./IMAGES/UC2_Setups_10_spectrometer.png" height="400">
 </p>
@@ -208,6 +261,9 @@ What is inside the Box?
   * Z-stage sample clamp for microscope slides
   * Z-stage spiral fixing clamp
   * SD card
+=======
+
+>>>>>>> 7bb6688d6039d8293b16428beaec2cfef9e8fe5e
 <p align="center">
 <img src=".\IMAGES\IMG_20190905_175241.png" height="400">
 </p>
