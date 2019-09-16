@@ -21,24 +21,25 @@ Here we list the 3D printed components from the ./STL folder
 
 The Part consists of the following components.
 
-
-1. **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/ASSEMBLY_CUBE_SMARTPHONE_HOLDER_v2_10_Cube_Lid.stl))
-2. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/ASSEMBLY_CUBE_SMARTPHONE_HOLDER_v2_10_Cube_Base.stl))
-3. **The Smartphone holder**, on which the phone will be placed ([Smartphone Holder](./STL/ASSEMBLY_CUBE_SMARTPHONE_HOLDER_30_Smartphone_Holder.stl))
+1. **The Base** where the ball magnets will be fed in
+2. **The Lid** where the Arduino + Electronics finds its place
+3. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
+4. **The Smartphone holder**, on which the phone will be placed
 
 
 
 ### Additional parts
-* 8× DIN912 M3*12 screws (non stainless steel)
+* 4x DIN912 M3*12 screws (non stainless steel)
 
 
 
 ## Remarks and Tips
 
 ### 3D Printing
-* No support required in all designs
-* Carefully remove all support structures (if applicable)
+Settins for cura? Support? Temperture?
 
+### Tricks
+Anything which need to get mentioned here?
 
 ## Assembly
 * Remove any support and clean the part
@@ -53,4 +54,4 @@ width="800">
 
 
 ## Safety
-Careful in case you're dealing with lasers!
+Take care in case you're dealing with lasers!

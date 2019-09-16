@@ -50,6 +50,34 @@ The Part consists of the following components.
 * Done!
 
 
+### Tutorial with images
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_0.jpg" width="300">
+</p>
+
+2. Add M3 screws and Ballmagnets to the insert
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_1.jpg" width="300">
+</p>
+
+3. Glue the Mirror to the Metalplate
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_3.jpg" width="300">
+</p>
+
+4. Add the magnetic mirrorplate to the 3 Ballmagents
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_4.jpg" width="300">
+</p>
+
+5. Put the insert inside the cube, add Screws - Done!
+<p align="center">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_5.jpg" width="300">
+</p>
+
+
 
 ## Safety
 Don't touch the mirror surface!

@@ -20,15 +20,15 @@ width="1000">
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/Assembly_Cube_Eyepiece_v2_10_Lid_1x1_v2_8.stl))
-* **The Half-Cube** which will be screwed to the Lid. The adapter plate will attach to it. Alternatively, use the standard 1×1 cube ([BASE](./STL/Assembly_Cube_Eyepiece_v2_10_Cube_v0_half_3.stl))
-* **The Eyepiece Adapterplate** which connects the objective to the Cube ([Adapterplate](./STL/Assembly_Cube_Eyepiece_v2_30_Adapterplate_Eyepiece_2.stl))
+* **The Lid** where the Arduino + Electronics finds its place
+* **The Half-Cube** which will be screwed to the Lid. The adapter plate will attach to it. Alternatively, use the standard 1×1 cube
+* **The Eyepiece Adapterplate** which connects the objective to the Cube
 
 ### Additional parts
 * 4× DIN912 M3*12 screws (non stainless steel)
 * 4× DIN912 M3*8 screws (non stainless steel)
 * 1× Eyepiece
-* 4× Ballmagnets, 5 mm diameter
+
 
 
 ## Remarks and Tips
@@ -36,7 +36,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## Assembly (Attention: Parts have been updated)
 * Remove any support and clean the part
 * Insert M3 screws (8 mm) into the Half-cube
 * Add the lid and fix it using a set of M3 screws (12 mm)
@@ -45,13 +45,17 @@ The Part consists of the following components.
 * Attach the eyepiece to the half-cube
 * Done!
 
+### Tutorial with images
+Don't insert batteries in the laser yet!!
+
+1. All parts for this model
 <p align="center">
-<img src="./IMAGES/DSC_1795.jpg"
-width="1000">
+<img src="./IMAGES/CUBE_EYEPIECE_0.jpg" width="300">
 </p>
+
+2. Add the eyepiece to the spiral holder which auto-centers the optics inside the cube. Put the Insert into the cube and add all screws before fixing them.
 <p align="center">
-<img src="./IMAGES/DSC_1796.jpg"
-width="1000">
+<img src="./IMAGES/CUBE_EYEPIECE_1.jpg" width="300">
 </p>
 
 ## Safety
