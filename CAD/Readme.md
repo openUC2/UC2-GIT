@@ -1,11 +1,11 @@
 ## CAD-Files
-Here you can find the necessary .stl-parts for the different modules (cubes) and setups (apps). 
+Here you can find the necessary .stl-parts for the different modules (cubes) and setups (apps).
 
-This will be a growing list of available optical setups coming along with tutorials and build instructions. The most important part is the core building block as you can also find it in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](./CUBE_BASE/Readme.md). 
+This will be a growing list of available optical setups coming along with tutorials and build instructions. The most important part is the core building block as you can also find it in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](./CUBE_BASE/Readme.md).
 
 We have Tutorials with images now! :-)
 
-## General Naming Convetion and Structure of UC2 
+## General Naming Convetion and Structure of UC2
 
 ![](./IMAGES/UC2_Structure.png)
 
@@ -18,12 +18,12 @@ The detailed up-to-date list of all components can be found in this [google-spre
 
 ## Confusion about version 1.0 vs. Version 2.0
 
-We made a change in the CAD-design of the cube in order to be more generic (e.g. point symmetry around the centre). We're trying hard to update the APPlications so that everything is based on the new desing. If you want to print something, have a look on the date when it was last updated. The newer it is, the more likely it is that the cube's have been updated. 
+We made a change in the CAD-design of the cube in order to be more generic (e.g. point symmetry around the centre). We're trying hard to update the APPlications so that everything is based on the new desing. If you want to print something, have a look on the date when it was last updated. The newer it is, the more likely it is that the cube's have been updated.
 
-The overall dimensions stay the same, but the inserts change! 
+The overall dimensions stay the same, but the inserts change!
 
 ## Printing
-The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGreen which is precise enough. Note, that not all parts might be necessary to print. A detailed description or compiled list of necessary parts will follow soon. 
+The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGreen which is precise enough. Note, that not all parts might be necessary to print. A detailed description or compiled list of necessary parts will follow soon.
 
 ## List of available Modules (CUBEs):
 Each folder contains a step-by-step tutorial which describes how the module has to be assembled.
@@ -35,7 +35,6 @@ Link             |  Image of the part
 [CUBE Base](./ASSEMBLY_CUBE_Base_v2)  |  ![](./ASSEMBLY_CUBE_Base_v2/IMAGES/Assembly_Cube_Electric_Adpater.png)
 [Beam Expanxer](./ASSEMBLY_CUBE_Beamexpander_v2)  |  ![](./ASSEMBLY_CUBE_Beamexpander_v2/IMAGES/Assembly_Cube_Beamexpander_v2.png)
 [Beampslitter](./ASSEMBLY_CUBE_Beamsplitter_v2)  |  ![](./ASSEMBLY_CUBE_Beamsplitter_v2/IMAGES/Assembly_Cube_Beamsplitter_v2.png)
-[Base Plate (1x4,2x4,4x4)](./ASSEMBLY_BASE)  |  ![](./ASSEMBLY_BASE/IMAGES/Assembly_base_4x4.png)
 [CUBE Base](./ASSEMBLY_CUBE_Cellphonemount) | ![](./ASSEMBLY_CUBE_Cellphonemount/IMAGES/Assembly_Cube_Smartphone_Holder.png)
 [Dichroic Beamsplitter](./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2) | ![](./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2/IMAGES/Assembly_Cube_Dichroic_Beamsplitter.png)
 [Eyepiece ](./ASSEMBLY_CUBE_Eyepiece_v2) | ![](./ASSEMBLY_CUBE_Eyepiece_v2/IMAGES/Assembly_Cube_Eyepiece_v2.png)
@@ -46,7 +45,7 @@ Link             |  Image of the part
 [Lens (circular)](./ASSEMBLY_CUBE_Lens_v2) | ![](./ASSEMBLY_CUBE_Lens_v2/IMAGES/Assembly_Cube_Objectiveholder.png)
 [Mirror (45°)](./ASSEMBLY_CUBE_Mirror_45_v2) | ![](./ASSEMBLY_CUBE_Mirror_45_v2/IMAGES/Assembly_Cube_Mirror_Tilt.png)
 [Mirror, kinematic (45°)](./ASSEMBLY_CUBE_Mirror_Kinematic_45_v2) | ![](./ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/IMAGES/Assembly_Cube_Kinematic_Mirrormount_45_v2.png)
-[Mirriór, kinematic (0°)](./ASSEMBLY_CUBE_Mirror_Kinematic_v2) | ![](./ASSEMBLY_CUBE_Mirror_Kinematic_v2/IMAGES/Assembly_Cube_Kinematic_Mirrormount_v2.png)
+[Mirror, kinematic (0°)](./ASSEMBLY_CUBE_Mirror_Kinematic_v2) | ![](./ASSEMBLY_CUBE_Mirror_Kinematic_v2/IMAGES/Assembly_Cube_Kinematic_Mirrormount_v2.png)
 [Raspi Cam](./ASSEMBLY_CUBE_RaspiCam_v2) | ![](./ASSEMBLY_CUBE_RaspiCam_v2/IMAGES/Assembly_Cube_cameracube.png)
 [S-Stage](./ASSEMBLY_CUBE_S-STAGE_v2) | ![](./ASSEMBLY_CUBE_S-STAGE_v2/IMAGES/Assembly_XY_Translator_Lightsheet_v2.png)
 [Sample Holder](./ASSEMBLY_CUBE_Sample_Holder_v2) | ![](./ASSEMBLY_CUBE_Sample_Holder_v2/IMAGES/Assembly_Cube_Sample_holder_v2.png)
@@ -70,8 +69,8 @@ Link             |  Image of the part
 - [Michelson Interferometer](APP_Michelson_Interferometer)
 - [Spectrometer](APP_Spectrometer)
 
-More setups are coming soon! 
+More setups are coming soon!
 Inspire us with your ideas - we try to make it work! :-)
 
 ## Participate
-If you have a cool idea, please don't hesitate to write us a line, we are happy to incorporate it in our design to make it even better. 
+If you have a cool idea, please don't hesitate to write us a line, we are happy to incorporate it in our design to make it even better.

@@ -21,7 +21,7 @@ We designed a telescope where an iPhone 5 lens and an ordinary 25mm lens can be 
 * the adapter for the telescope can be adjusted for different magnifications and lenses
 * the beam height can be adjusted by sliding the the telescope along the axis
 * the degree of collimation can be adjusted beforehand  * very cost-effecient beam-exander at a fairly good quality as the cellphone lens is diffraction limited (overall costs ~15€)
-* Magnification : m=f_tl/f_ep = 25/3 = 8.33
+* Magnification : m=f<sub>tl</sub>/f<sub>ep</sub> = 25/3 = 8.33
 
 ## Parts
 
