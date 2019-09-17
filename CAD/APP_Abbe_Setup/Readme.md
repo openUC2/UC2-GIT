@@ -1,30 +1,30 @@
-## Abbe Diffraction Experiment 
-This is the repository for the Abbe Diffraction Experiment. It has two cameras where one captures the fourier plane and the other acquieres the image plane. 
+## Abbe Diffraction Experiment
+This is the repository for the Abbe Diffraction Experiment. It has two cameras where one captures the fourier plane and the other acquieres the image plane.
 
 <p align="center">
 <img src="./IMAGES/Application_Abbe-Experiment_v2.png" width="500">
 </p>
 
 ## Setup
-This is based on old cubes, but the order is the same. All lenses have 50mm focal length. 
+This is based on old cubes, but the order is the same. All lenses have 50mm focal length.
 <p align="center">
 <img src="./IMAGES/Abbe_Experiment_3.jpg.png" width="500">
 </p>
 
 ## Devices' features:
 
-	* Capture Fourier Plane 
-	* Capture Image Plane
-	* Low-cost acquisition
-	* Open-Source
-	* Compatible with Educational purposes
+* Capture Fourier Plane
+* Capture Image Plane
+* Low-cost acquisition
+* Open-Source
+* Compatible with Educational purposes
 
 
 ## 3D printing
 
 Having two cameras is optional since one camera can be moved between two planes!
 
-### Parts to printing 
+### Parts to printing
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
@@ -41,18 +41,18 @@ Having two cameras is optional since one camera can be moved between two planes!
 
 * 1x Raspberry Pi
 * 1x camera splitter for Raspberry Pi
-* 1x wired LED (blue) 
+* 1x wired LED (blue)
 * Aluminium Foil for the apertures/pinhole
 * 1x Power Supply for Raspberry Pi
 * long camera cables
 
 
-	
+
 ## Software
-Please have a look at our **ImJoy** [Github-Repository](https://github.com/bionanoimaging/UC2-ImJoy-GIT) for this Application. 
+Please have a look at our **ImJoy** [Github-Repository](https://github.com/bionanoimaging/UC2-ImJoy-GIT) for this Application.
 
 ## Comments
-Nothing to say. 
+Nothing to say.
 
 ## Contribution
-If you find this piece usefull or you want to improve it, please feel free to file an issue or write us a message! 
+If you find this piece usefull or you want to improve it, please feel free to file an issue or write us a message!

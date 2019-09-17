@@ -32,15 +32,15 @@ Each folder contains a step-by-step tutorial which describes how the module has 
 Link             |  Image of the part
 :-------------------------:|:-------------------------:
 [Base Plate (1x4,2x4,4x4)](./ASSEMBLY_BASE)  |  ![](./ASSEMBLY_BASE/IMAGES/Assembly_base_4x4.png)
-[CUBE Base](./ASSEMBLY_CUBE_Base_v2)  |  ![](./ASSEMBLY_CUBE_Base_v2/IMAGES/Assembly_Cube_Electric_Adpater.png)
-[Beam Expanxer](./ASSEMBLY_CUBE_Beamexpander_v2)  |  ![](./ASSEMBLY_CUBE_Beamexpander_v2/IMAGES/Assembly_Cube_Beamexpander_v2.png)
-[Beampslitter](./ASSEMBLY_CUBE_Beamsplitter_v2)  |  ![](./ASSEMBLY_CUBE_Beamsplitter_v2/IMAGES/Assembly_Cube_Beamsplitter_v2.png)
+[CUBE Base](./ASSEMBLY_CUBE_Base_v2)  |  ![](./ASSEMBLY_CUBE_Base_v2/IMAGES/Assembly_Cube_Base_v2.png)
+[Beam Expander](./ASSEMBLY_CUBE_Beamexpander_v2)  |  ![](./ASSEMBLY_CUBE_Beamexpander_v2/IMAGES/Assembly_Cube_Beamexpander_v2.png)
+[Beamsplitter](./ASSEMBLY_CUBE_Beamsplitter_v2)  |  ![](./ASSEMBLY_CUBE_Beamsplitter_v2/IMAGES/Assembly_Cube_Beamsplitter_v2.png)
 [CUBE Base](./ASSEMBLY_CUBE_Cellphonemount) | ![](./ASSEMBLY_CUBE_Cellphonemount/IMAGES/Assembly_Cube_Smartphone_Holder.png)
 [Dichroic Beamsplitter](./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2) | ![](./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2/IMAGES/Assembly_Cube_Dichroic_Beamsplitter.png)
+[Laser](./ASSEMBLY_CUBE_Laser_v2) | ![](./ASSEMBLY_CUBE_Laser_v2/IMAGES/Assembly_Cube_Lasermount.png)
 [Eyepiece ](./ASSEMBLY_CUBE_Eyepiece_v2) | ![](./ASSEMBLY_CUBE_Eyepiece_v2/IMAGES/Assembly_Cube_Eyepiece_v2.png)
 [LED Matrix](./ASSEMBLY_CUBE_LED_Matrix_v2) | ![](./ASSEMBLY_CUBE_LED_Matrix_v2/IMAGES/Assembly_Cube_LED_Matrix_v0.png)
 [LED Star](./ASSEMBLY_CUBE_LED_v2) | ![](./ASSEMBLY_CUBE_LED_v2/IMAGES/Assembly_Cube_LED_holder_v2.png)
-[Laser](./ASSEMBLY_CUBE_Laser_v2) | ![](./ASSEMBLY_CUBE_Laser_v2/IMAGES/Assembly_Cube_Lasermount.png)
 [Lens (cylindrical)](./ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2) | ![](./ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2/IMAGES/Assembly_Cube_Objectiveholder.png)
 [Lens (circular)](./ASSEMBLY_CUBE_Lens_v2) | ![](./ASSEMBLY_CUBE_Lens_v2/IMAGES/Assembly_Cube_Objectiveholder.png)
 [Mirror (45°)](./ASSEMBLY_CUBE_Mirror_45_v2) | ![](./ASSEMBLY_CUBE_Mirror_45_v2/IMAGES/Assembly_Cube_Mirror_Tilt.png)
@@ -51,7 +51,7 @@ Link             |  Image of the part
 [Sample Holder](./ASSEMBLY_CUBE_Sample_Holder_v2) | ![](./ASSEMBLY_CUBE_Sample_Holder_v2/IMAGES/Assembly_Cube_Sample_holder_v2.png)
 [Z-Stage + Flomodle](./ASSEMBLY_CUBE_Z-STAGE_v2) | ![](./ASSEMBLY_CUBE_Z-STAGE_v2/IMAGES/Assembly_Z_Focus_Spiralbearing_v3.png)
 [XYZ-Stage](./ASSEMBLY_XYZ) | ![](./ASSEMBLY_XYZ-STAGE/IMAGES/Assembly_cube_double_Zfocus.png)
-[Thorlabs ADapter](./ASSEMBLY_CUBE_Thorlabs_v2) | ![](./ASSEMBLY_CUBE_Thorlabs_v2/IMAGES/CUBE_THORLABS_2.jpg)
+[Thorlabs ADapter](./ASSEMBLY_CUBE_Thorlabs_v2) | ![](./ASSEMBLY_CUBE_Thorlabs_v2/IMAGES/Assembly_Cube_Thorlabs_v2.png)
 
 
 ## List of available Supplements:

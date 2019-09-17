@@ -35,17 +35,18 @@ The overall price-tag is around 600€ including the Raspberry Pi, Camera, Optic
 ## Possible Setups
 What could be inside the box?
 
-### Image Scanning Microscopy (ISM)
+### Projector
+[LINK](../CAD/APP_SIMPLE-Projector)
+ Simple one lens projector. Direct illumination. 4× magnification for *f(L)* = +40 mm, object to lens 50 mm and lens to screen 200 mm.
 <p align="center">
-<img src=".\IMAGES\UC2_Setups_1_ISM.png" width="500">
+<img src="./IMAGES/UC2_Setups_12_Projector.png" width="640">
 </p>
 
-
-### Abbe Diffraction Experiment
-[LINK](../CAD/APP_Abbe_Setup)
-Classical experiment for explaining Fourier transform done by a lens. CAM1 images the grating, CAM2 images the Back Focal Plane. Different filters can be inserted in the BFP.
+### Telescope
+[LINK](../CAD/APP_SIMPLE-Telescope)
+Three classical telescope principles. 2× magnification for *f(L1)* = +100 mm, *f(L2)* = +50 mm, *f(L3)* = -50 mm.
 <p align="center">
-<img src="./IMAGES/UC2_Setups_2_Abbe.png" width="666">
+<img src="./IMAGES/UC2_Setups_6_telescopes.png" height="370">
 </p>
 
 ### Incubator Microscope
@@ -57,24 +58,38 @@ Trasmission microscope. LED array serves as light source - different illuminatio
 
 
 ### Incubator Microscope w/ Fluorescence
-[LINK](../CAD/APP_Incubator_Microscope)
+[LINK](../CAD/APP_Incubator_Microscope_fluorescence)
 Epi-Fluorescence microscope.
 <p align="center">
 <img src="./IMAGES/UC2_Setups_4_fluorescence.png" height="333">
 </p>
 
+### Cellphone Microscope
+[LINK](../CAD/APP_SMARTPHONE_MICROSCOPE)
+Trasmission microscope, uses smartphone for image acquisition. LED array serves as light source - different illumination modes possible.
+<p align="center">
+<img src="./IMAGES/UC2_Setups_9_smartphone.png" height="400">
+</p>
+
+### Abbe Diffraction Experiment
+[LINK](../CAD/APP_Abbe_Setup)
+Classical experiment for explaining Fourier transform done by a lens. CAM1 images the grating, CAM2 images the Back Focal Plane. Different filters can be inserted in the BFP.
+<p align="center">
+<img src="./IMAGES/UC2_Setups_2_Abbe.png" width="666">
+</p>
+
 ### Light-sheet Microscope
 [LINK](../CAD/APP_LIGHTSHEET_Workshop)
-Light-sheet combined with fluorescence. Simplified version: Microscope objective in illumination path in fixed position (without motor).
+Light-sheet combined with fluorescence. Low-magnification Microscope objective in illumination path for focusing the light-sheet. Sample stage for obtaining stacks of image slices.
 <p align="center">
 <img src="./IMAGES/UC2_Setups_5_lightsheet.png" width="400">
 </p>
 
-### Telescope
-[LINK](../CAD/APP_SIMPLE-Telescope)
-Three classical telescope principles. 2× magnification for *f(L1)* = +100 mm, *f(L2)* = +50 mm, *f(L3)* = -50 mm.
+### Double-Slit experiment
+[LINK](../CAD/APP_Double-slit_Experiment)
+Young's experiment.
 <p align="center">
-<img src="./IMAGES/UC2_Setups_6_telescopes.png" height="370">
+<img src="./IMAGES/UC2_Setups_13_Double-slit.png" width="333">
 </p>
 
 ### In-Line Holographic Microscope
@@ -92,16 +107,10 @@ Reflection interferometry. Fine adjustment with kinematic mirror (perpendicular)
 </p>
 
 ### Mach-Zehnder Interferometer
+[LINK](../CAD/APP_Mach-Zehnder_Interferometer)
 Transmission interferometry. Fine adjustment with kinematic mirrors (diagonal). Two beamsplitters.
 <p align="center">
 <img src="./IMAGES/UC2_Setups_11_mach-zehnder.png" height="400">
-</p>
-
-### Cellphone Microscope
-[LINK](../CAD/APP_SMARTPHONE_MICROSCOPE)
-Trasmission microscope, uses smartphone for image acquisition. LED array serves as light source - different illumination modes possible.
-<p align="center">
-<img src="./IMAGES/UC2_Setups_9_smartphone.png" height="400">
 </p>
 
 ### Spectrometer
@@ -114,22 +123,22 @@ Trasmission microscope, uses smartphone for image acquisition. LED array serves 
 What is inside the Box?
 
 <p align="center">
-<img src=".\IMAGES\IMG_20190905_174601.png" height="400">
+<img src=".\IMAGES\IMG_20190905_174601.jpg" height="400">
 </p>
 <p align="center">
-<img src=".\IMAGES\IMG_20190905_174642.png" height="400">
+<img src=".\IMAGES\IMG_20190905_174642.jpg" height="400">
 </p>
 <p align="center">
-<img src=".\IMAGES\UC2_Setups_theBOX.png" height="400">
+<img src=".\IMAGES\UC2_Setups_theBOX.jpg" height="400">
 </p>
 <p align="center">
-<img src=".\IMAGES\IMG_20190905_175948.png" height="400">
+<img src=".\IMAGES\IMG_20190905_175948.jpg" height="400">
 </p>
 
   * Baseplate  4×4 [🢂](../CAD/ASSEMBLY_BASE/STL/Assembly_base_4x4.stl)
 
   <p align="center">
-  <img src=".\IMAGES\IMG_20190905_180802.png" height="400">
+  <img src=".\IMAGES\IMG_20190905_180802.jpg" height="400">
   </p>
 
   * Baseplate 4×2 [🢂](../CAD/ASSEMBLY_BASE/STL/Assembly_base_4x2.stl)
@@ -137,7 +146,7 @@ What is inside the Box?
   * Raspberry Pi
 
   <p align="center">
-  <img src=".\IMAGES\IMG_20190905_175916.png" height="400">
+  <img src=".\IMAGES\IMG_20190905_175916.jpg" height="400">
   </p>
 
   * Cube 2×1: Z-stage with 10× objective and sample holder [🢂](../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)
@@ -220,7 +229,7 @@ What is inside the Box?
     <img src=".\IMAGES\IMG_20190905_180708.jpg" height="400">
     </p>
     <p align="center">
-    <img src=".\IMAGES\IMG_20190905_175426.png" height="400">
+    <img src=".\IMAGES\IMG_20190905_175426.jpg" height="400">
     </p>
 
   * Generic sample holder Cube and Sample chamber [🢂](../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)
@@ -236,7 +245,7 @@ What is inside the Box?
   * Blue laser pointer with switch
 
   <p align="center">
-  <img src=".\IMAGES\IMG_20190905_175722.png" height="400">
+  <img src=".\IMAGES\IMG_20190905_175722.jpg" height="400">
   </p>
 
   * Long an short micro-USB cable
@@ -250,7 +259,7 @@ What is inside the Box?
   * SD card
 
 <p align="center">
-<img src=".\IMAGES\IMG_20190905_175241.png" height="400">
+<img src=".\IMAGES\IMG_20190905_175241.jpg" height="400">
 </p>
 
 
