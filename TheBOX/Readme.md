@@ -26,6 +26,9 @@ Useful for Workshops. Get back to us if you want to organize one together with u
 ## Assembly
 A description on how to assemble the parts can be found in each Application-folder following the "LINK". It gives also a list of additional components to print/buy.
 
+## 3D printing
+A list of 3D-printed parts is found in [STL](./STL), together with some printing tiprs and tricks.
+
 ## Necessary Parts
 The detailed up-to-date list of all components can be found in this [google-spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing).
 

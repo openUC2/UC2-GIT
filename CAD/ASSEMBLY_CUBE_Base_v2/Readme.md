@@ -4,7 +4,7 @@ This is the repository for the base-cube design. The design-files can be found i
 A 3D-printing quick-start-guide can be found [here](./STL).
 The Base-Cube consists of only 3 components.
 
-1. **The Base** where the ball magnets will be fed in
+1. **The Base** where the ball magnets will be fed in. [More about baseplates.](../CAD/ASSEMBLY_Baseplate_v2)
 2. **The Lid** where the Arduino + Electronics finds its place
 3. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
 <p align="center">
@@ -82,33 +82,13 @@ A quick printing tutorial can be found here:
 </p>
 
 
-## Assembly-Tutorial with images (Base)
 
-1. All parts for this model
-<p align="center">
-<img src="./IMAGES/UC2_Tut_Base1.jpg" width="300">
-</p>
-
-2. Place the magnets on the screws and center the cube on the Base
-<p align="center">
-<img src="./IMAGES/UC2_Tut_Base3.jpg" width="300">
-</p>
-
-3. Apply some force to press-fit the magnets into their desired wholes
-<p align="center">
-<img src="./IMAGES/UC2_Tut_Base4.jpg" width="300">
-</p>
-
-4. Done!
-<p align="center">
-<img src="./IMAGES/UC2_Tut_Base5.jpg" width="300">
-</p>
 
 # CAD Design
 Please also see the Module developer kit ([MDK](./MDK)) for further design instructions on how you sould adapt to the UC2 cubes.
 
 ## OpenSCAD files
-Open-Souce also means, that one should be able to modify the files with open-source software. Therefore we provide the basic cube as an ```.scad```-file in the [OPENSCAD](./OPENSCAD)-folder.  The Inventor-files will follow soon! 
+Open-Souce also means, that one should be able to modify the files with open-source software. Therefore we provide the basic cube as an ```.scad```-file in the [OPENSCAD](./OPENSCAD)-folder.  The Inventor-files will follow soon!
 
 
 ## Tutorial on how to design an insert in Inventor
@@ -241,11 +221,11 @@ The Arduino can be introduced with hot-glue or some screws.
 
 ### Devices features:
 
-	* Click-Mount via Ball-Magnets/Screws
-	* Possible electic connection
-	* Fill in whatever function you want
-	* modularized design
-	* Low-cost production
-	* Very precise
-	* Open-Source
-	* Mount it in all possible directions
+* Click-Mount via Ball-Magnets/Screws
+* Possible electic connection
+* Fill in whatever function you want
+* modularized design
+* Low-cost production
+* Very precise
+* Open-Source
+* Mount it in all possible directions
