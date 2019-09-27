@@ -1,4 +1,4 @@
-# Generic Lensholder Cube
+# Generic Lens Holder Cube
 This is the repository for the Generic Lensholder Cube.
 
 The stl-files can be found in the folder [STL](./STL).
@@ -26,9 +26,9 @@ It adapts any circular symmetric lens with varying diameter to the UC2 system.
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
-* **The Objective/Lens Holder** which holds a lens with varying diamater and adapts it to the base cube
+* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+* **The Objective/Lens Holder** which holds a lens with varying diamater and adapts it to the base cube ([HOLDER](./STL/20_Cube_Insert_Objective_Holder.stl))
 
 ### Additional parts
 * 8x DIN912 M3*12 screws (non stainless steel)
@@ -46,7 +46,7 @@ The Part consists of the following components.
 * Add all screws to the Cube
 * Done!
 
-###Tutorial with images (LENSHOLDER)
+### Tutorial with images (LENSHOLDER)
 Don't insert batteries in the laser yet!!
 
 1. All parts for this model

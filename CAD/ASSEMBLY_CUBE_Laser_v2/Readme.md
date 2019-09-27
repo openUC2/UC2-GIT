@@ -6,7 +6,7 @@ The stl-files can be found in the folder [STL](./STL).
 ### Purpose
 It adapts a laser-pointer to the to the UC2 system.
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Lasermount.png" width="500">
+<img src="./IMAGES/Assembly_Cube_Lasermount.png" width="800">
 </p>
 
 The laser-pointer is permanently switched on/off using a 3D printed clamp. It is inserted in a Thorlabs-like adapter which centers the laser on the optical axis. Using a set of rods, this adapter can be mounted inside the base-cube. Having two of these adapters makes the design very robust!
@@ -33,10 +33,10 @@ We measured a mean power of ***0.546 mW*** in continous mode. We used new batter
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
-* **The Laser inserts** which holds the laser and adapts it to the base cube
-* **The Laser Clamp** allows switching the laser permanently
+* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+* **The Laser inserts** which holds the laser and adapts it to the base cube. For optimal performance use two inserts in one cube ([INSERT](./STL/20_Cube_Insert_Laser_Mount.stl))
+* **The Laser Clamp** allows switching the laser permanently ([SWITCH](./STL/00_Laser_Clamp_OnOffSwitch.stl))
 
 
 ### Additional parts
@@ -58,7 +58,7 @@ The Part consists of the following components.
 * Add the lid to the cube and fix it with the 4 M3 screws
 * Done!
 
-###Tutorial with images
+### Tutorial with images
 Don't insert batteries in the laser yet!!
 
 1. All parts for this model

@@ -31,9 +31,9 @@ A more in-detail documentation can be found [here](./../../WORKSHOP/INLINE-HOLOG
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  1x4 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_BASE/)  | 1|
+|  1x4 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_Baseplate_v2/)  | 1|
 |  Module: Raspberry Pi Camera | -  | 20 €  | [Raspi Camera Cube](../ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
-|  Module: LED + Pinhole  | - | 10€  | [Raspi Camera Cube](../ASSEMBLY_CUBE_LED_v2)  | 1|
+|  Module: LED + Pinhole  | - | 10€  | [LED + Pinhole](../ASSEMBLY_CUBE_LED_v2)  | 1|
 
 
 

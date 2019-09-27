@@ -21,11 +21,11 @@ width="400">
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
-* **The Dichroic Beamsplitter Insert** which holds the three different filters
-* 2x **The Retain Rings** which fixes the emission and excitation filters#
-* 1x **The Retain Plate** which holds the dichroic filter
+* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+* **The Dichroic Beamsplitter Insert** which holds the three different filters ([INSERT](./STL/20_Cube_Insert_Beamsplittercube_Base2.stl))
+* 2x **The Retain Rings** which fixes the emission and excitation filters ([RETAIN RING](./STL/20_Cube_Insert_Beamsplittercube_Dichroicmirror_Retainplate.stl))
+* 1x **The Retain Plate** which holds the dichroic filter ([RETAIN PLATE](./STL/20_Cube_Insert_Beamsplittercube_Retainring_25mm.stl))
 
 ### Additional parts
 * 10x DIN912 M3*12 screws (non stainless steel)
@@ -74,7 +74,7 @@ Don't insert batteries in the laser yet!!
 <img src="./IMAGES/CUBE_DICHROIC_3.jpg" width="300">
 </p>
 
-5. Place the Insert into the Cube and add all screws 
+5. Place the Insert into the Cube and add all screws
 <p align="center">
 <img src="./IMAGES/CUBE_DICHROIC_4.jpg" width="300">
 </p>

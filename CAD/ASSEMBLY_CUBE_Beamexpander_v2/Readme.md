@@ -28,9 +28,10 @@ We designed a telescope where an iPhone 5 lens and an ordinary 25mm lens can be 
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/Assembly_Cube_prettytelescope_10_Lid_el_v0_1.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/Assembly_Cube_prettytelescope_10_Cube_v0_2.stl))
-* **The Telescope** which holds the two lenses  adapts it to the base cube ([TELESCOPE](./STL/Assembly_Cube_prettytelescope_01_pretty_telescope_iphone_12.stl))
+* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+* **The Telescope** which holds the two lenses  adapts it to the base cube ([TELESCOPE](./STL/20_Cube_Insert_Beamexpander.stl))
+* **The Lens Adapter** which is suitable for a lens with 12,7 mm diameter. You might need a custom one or none at all, depending on the lens size. ([ADAPTER](./STL/30_Lens_Adapter_Beamexpander.stl))
 
 ### Additional parts
 * 4x DIN912 M3*12 screws (non stainless steel)
@@ -43,7 +44,7 @@ The Part consists of the following components.
 * Carefully remove all support structures (if applicable)
 
 ## Assembly
-* Remove the iPhone lens from the camera (a dedicated tutorial can be found in the [UC2 Tutorial-Section](/TUTORIAL).
+* Remove the iPhone lens from the camera (a dedicated tutorial can be found in the [UC2 Tutorial-Section](../../DOCUMETS/TUTORIAL).
 * Insert the lenses inside the telescope adapter (orientation of the iPhone has to be the way, that the small aperture - hole - has to face the other bigger lens as indicated by the photo)
 ![](./IMAGES/Beamexpander_Assembly_1.png)
 

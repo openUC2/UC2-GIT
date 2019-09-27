@@ -11,7 +11,7 @@ A discussion dedicated to this topic can be found [here](https://gitlab.com/open
 </p>
 
 ## Purpose
-The [OpenFlexure Stage](www.openflexure.org) can be downloaded from the official [GitLab](https://gitlab.com/openflexure/openflexure-microscope)-Repository. It's a monolithic XYZ-stage with tremendous precision.
+The [OpenFlexure Stage](https://www.openflexure.org) can be downloaded from the official [GitLab](https://gitlab.com/openflexure/openflexure-microscope)-Repository. It's a monolithic XYZ-stage with tremendous precision.
 
 
 ## Properties

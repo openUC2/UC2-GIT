@@ -28,10 +28,10 @@ Having two cameras is optional since one camera can be moved between two planes!
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  2x4 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_BASE/)  | 1|
-|  4x4 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_BASE/)  | 1|
+|  2x4 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_Baseplate_v2/)  | 1|
+|  4x4 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_Baseplate_v2/)  | 1|
 |  Module: Raspberry Pi Camera | -  | 20 €  | [Raspi Camera Cube](../ASSEMBLY_CUBE_RaspiCam_v2)  | 2|
-|  Module: LED + Pinhole  | white light LED, 1mm pinhole | 10€  | [LED + Pinhole Cube](../ASSEMBLY_CUBE_Lens_v2)  | 1|
+|  Module: LED + Pinhole  | white light LED, 1mm pinhole | 10€  | [LED + Pinhole Cube](../ASSEMBLY_CUBE_LED_v2)  | 1|
 |  Module: Lens | all 50mm lenses | 10€  | [Lens Cube](../ASSEMBLY_CUBE_Lens_v2)  | 4 |
 |  Module: Beamsplitter | - | 30€  | [Beamsplitter Cube](../ASSEMBLY_CUBE_Beamsplitter_v2)  | 1 |
 |  Module: Sampleholder | - | 30€  | [Sampleholder Cube](../ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |

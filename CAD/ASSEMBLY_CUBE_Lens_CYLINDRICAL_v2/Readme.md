@@ -8,7 +8,7 @@ It adapts the cylindrical lenses from COMAR optics to the UC2 system.
 
 Old image:
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Objectiveholder.jpg" width="300">
+<img src="./IMAGES/Assembly_Cube_Objectiveholder.png" width="600">
 </p>
 
 
@@ -17,7 +17,7 @@ Like any other lens, a cylindrical lens focuses the incoming light. In case of a
 
 More information:
 
-* [https://www.edmundoptics.com/resources/application-notes/optics/what-are-cylinder-lenses/](https://www.edmundoptics.com/resources/application-notes/optics/what-are-cylinder-lenses/)
+* [What are cylindrical lenses?](https://www.edmundoptics.com/resources/application-notes/optics/what-are-cylinder-lenses/)
 * Comar Optics, 63 YE 25, cylindrical lens 63, coated
 *
 
@@ -38,9 +38,9 @@ More information:
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
-* **The Lens Holder** which holds a rect. lens
+* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+* **The Lens Holder** which holds a rect. lens ([HOLDER](./STL/20_Cube_Insert_Lens_Cylindrical.stl))
 
 ### Additional parts
 * 8x DIN912 M3*12 screws (non stainless steel)

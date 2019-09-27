@@ -1,7 +1,7 @@
 ## CAD-Files
 Here you can find the necessary .stl-parts for the different modules (cubes) and setups (apps).
 
-This will be a growing list of available optical setups coming along with tutorials and build instructions. The most important part is the core building block as you can also find it in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](./CUBE_BASE/Readme.md).
+This will be a growing list of available optical setups coming along with tutorials and build instructions. The most important part is the core building block as you can also find it in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](./ASSEMBLY_CUBE_Base_v2/Readme.md).
 
 We have Tutorials with images now! :-)
 
@@ -31,7 +31,7 @@ Each folder contains a step-by-step tutorial which describes how the module has 
 
 Link             |  Image of the part
 :-------------------------:|:-------------------------:
-[Base Plate (1x4,2x4,4x4)](./ASSEMBLY_BASE)  |  ![](./ASSEMBLY_Baseplate_v2/IMAGES/Assembly_base_4x4.png)
+[Base Plate (1x4,2x4,4x4)](./ASSEMBLY_Baseplate_v2)  |  ![](./ASSEMBLY_Baseplate_v2/IMAGES/Assembly_base_4x4.png)
 [CUBE Base](./ASSEMBLY_CUBE_Base_v2)  |  ![](./ASSEMBLY_CUBE_Base_v2/IMAGES/Assembly_Cube_Base_v2.png)
 [Beam Expander](./ASSEMBLY_CUBE_Beamexpander_v2)  |  ![](./ASSEMBLY_CUBE_Beamexpander_v2/IMAGES/Assembly_Cube_Beamexpander_v2.png)
 [Beamsplitter](./ASSEMBLY_CUBE_Beamsplitter_v2)  |  ![](./ASSEMBLY_CUBE_Beamsplitter_v2/IMAGES/Assembly_Cube_Beamsplitter_v2.png)
@@ -51,8 +51,8 @@ Link             |  Image of the part
 [Sample Holder Cube](./ASSEMBLY_CUBE_Sample_Holder_v2) | ![](./ASSEMBLY_CUBE_Sample_Holder_v2/IMAGES/Assembly_Cube_Sample_holder_v2.png)
 [Sample Holder Comb](./ASSEMBLY_CUBE_Sample_Holder_v2) | ![](./ASSEMBLY_CUBE_Sample_Holder_v2/IMAGES/Assembly_Cube_sampleholder.png)
 [Z-Stage + Flomodle](./ASSEMBLY_CUBE_Z-STAGE_v2) | ![](./ASSEMBLY_CUBE_Z-STAGE_v2/IMAGES/Assembly_Z_Focus_Spiralbearing_v3.png)
-[Thorlabs ADapter](./ASSEMBLY_CUBE_Thorlabs_v2) | ![](./ASSEMBLY_CUBE_Thorlabs_v2/IMAGES/Assembly_Cube_Thorlabs_v2.png)
-[XYZ-Stage v0](./ASSEMBLY_XYZ) | ![](./ASSEMBLY_XYZ-STAGE/IMAGES/Assembly_cube_double_Zfocus.png)
+[Thorlabs Adapter](./ASSEMBLY_CUBE_Thorlabs_v2) | ![](./ASSEMBLY_CUBE_Thorlabs_v2/IMAGES/Assembly_Cube_Thorlabs_v2.png)
+[XYZ-Stage v0](./ASSEMBLY_XYZ-STAGE) | ![](./ASSEMBLY_XYZ-STAGE/IMAGES/Assembly_cube_double_Zfocus.png)
 
 
 ## List of available Supplements:

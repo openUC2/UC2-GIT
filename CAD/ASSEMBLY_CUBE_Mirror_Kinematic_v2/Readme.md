@@ -23,9 +23,9 @@ width="1000">
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/ASSEMBLY_CUBE_Mirror_Kinematic_v2_10_Lid_1x1_v2_2.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/ASSEMBLY_CUBE_Mirror_Kinematic_v2_10_Cube_1x1_v2_1.stl))
-* **The Kinematic Mirror Holder** which holds a Mirror and adapts it to the base cube ([MIRROR HOLDER](./STL/ASSEMBLY_CUBE_Mirror_Kinematic_v2_20_Cube_Insert_Kinematic_Mirrormount_base.stl))
+* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+* **The Kinematic Mirror Holder** which holds a Mirror and adapts it to the base cube ([MIRROR HOLDER](./STL/20_Cube_Insert_Kinematic_Mirrormount_base.stl))
 
 ### Additional parts
 * 7× DIN912 M3*12 screws (non stainless steel)

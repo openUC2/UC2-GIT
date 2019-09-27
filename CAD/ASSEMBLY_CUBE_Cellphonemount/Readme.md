@@ -21,10 +21,9 @@ Here we list the 3D printed components from the ./STL folder
 
 The Part consists of the following components.
 
-1. **The Base** where the ball magnets will be fed in
-2. **The Lid** where the Arduino + Electronics finds its place
-3. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
-4. **The Smartphone holder**, on which the phone will be placed
+1. **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+2. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+3. **The Smartphone holder**, on which the phone will be placed ([SMARTPHONE](./STL/30_Smartphone_Holder.stl))
 
 
 

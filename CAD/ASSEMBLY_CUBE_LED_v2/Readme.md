@@ -23,18 +23,18 @@ Here we list the 3D printed components from the [STL](./STL) folder
 
 The Part consists of the following components.
 
-1. **The Lid** where the Arduino + Electronics finds its place
-2. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
-3. **The LED holder Insert** that holds the LED
-4. **The Sample holder Insert** that can hold the pinhole in front of the LED
-5. **The Sample holder clamp** that fixes the pinhole in its position
+1. **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+2. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+3. **The LED holder Insert** that holds the LED ([LED HOLDER](./STL/ASSEMBLY_CUBE_LED_20_Cube_insert_LED_holder.stl))
+4. **The Sample holder Insert** that can hold the pinhole in front of the LED ([SAMPLE HOLDER](./STL/ASSEMBLY_CUBE_LED_20_Cube_insert_Sample_holder.stl))
+5. **The Sample holder clamp** that fixes the pinhole in its position ([SAMPLE CLAMP](./STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl))
 
 
 ### Additional parts
 * Hi-Power LED 1W/3W UV STAR Blue for the Holography experiment
 * Any LED STAR if you plan to use it for another application
 * Cables
-* Resistor to down-convert the 5V supply-voltage to 2.5V for the LED; e.g. 180R@0.5W
+* Resistor to down-convert the 5V supply-voltage to 2.5V for the LED; e.g. 180R @ 0.5W
 
 
 ## Remarks and Tips

@@ -11,14 +11,14 @@ Baseplates serve as a spine of any setup you build using the cubes. The basic un
 width="500">
 </p>
 
-Most useful baseplates are 4×1, 4×2 and 4×4. But any size or shape can be contancated. For better stability, the printed baseplate can be screwed to a Thorlabs breadboard, optical table or a wooden board.
+Most useful baseplates are 4×1, 4×2 and 4×4. But any size or shape can be concatenated. For better stability, the printed baseplate can be screwed to a Thorlabs breadboard, optical table or a wooden board.
 
 <p align="center">
 <img src="./IMAGES/Assembly_base_4x4.png"
 width="500">
 </p>
 
-The baseplates can be aslo contancated in 90° using the Baseplate Connector. This allows you to build setups in 3D!
+The baseplates can be aslo concatenated in 90° using the Baseplate Connector. This allows you to build setups in 3D!
 
 <p align="center">
 <img src="./IMAGES/Assembly_base_90degree.png"

@@ -36,16 +36,16 @@ Another major difference is, that the image is not flipped compared to the Keple
 
 
 ## Components
-The CAD parts can also be found [here](../../CAD/SIMPLE-Telescope).
+The CAD parts can also be found [here](./STL).
 
 In particular you need the following parts:
 
 ### 3D-printed components
-* 1x [Base Frame](INLINE_HOLOGRAM_00_Base_4x1_v0.stl)
-* 2x [Cube Lid](INLINE_HOLOGRAM_10_Lid_el_v0.stl)
-* 2x [Cube Lid](INLINE_HOLOGRAM_10_Cube_v0.stl)
-* 2x [Lens Holder](Assembly_Custom_Lens_Adapter_11_Lens_Thorlabs_Mount_Customized_B_1.stl)
-* 2x [Lens Holder Ring](Assembly_Custom_Lens_Adapter_11_Lens_Thorlabs_Mount_Ring_B_2.stl)
+* 1x [Base Frame](./STL/INLINE_HOLOGRAM_00_Base_4x1_v0.stl)
+* 2x [Cube Lid](./STL/INLINE_HOLOGRAM_10_Lid_el_v0.stl)
+* 2x [Cube Lid](./STL/INLINE_HOLOGRAM_10_Cube_v0.stl)
+* 2x [Lens Holder](./STL/Assembly_Custom_Lens_Adapter_11_Lens_Thorlabs_Mount_Customized_B_1.stl)
+* 2x [Lens Holder Ring](./STL/Assembly_Custom_Lens_Adapter_11_Lens_Thorlabs_Mount_Ring_B_2.stl)
 
 ### Lenses (Kepler+Galileo)
 * 1x biconvex lens, Diameter=20mm, 50mm

@@ -4,7 +4,7 @@ This is the repository for the base-cube design. The design-files can be found i
 A 3D-printing quick-start-guide can be found [here](./STL).
 The Base-Cube consists of only 3 components.
 
-1. **The Base** where the ball magnets will be fed in. [More about baseplates.](../CAD/ASSEMBLY_Baseplate_v2)
+1. **The Base** where the ball magnets will be fed in. [More about baseplates.](../ASSEMBLY_Baseplate_v2/)
 2. **The Lid** where the Arduino + Electronics finds its place
 3. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
 <p align="center">
@@ -85,14 +85,14 @@ A quick printing tutorial can be found here:
 
 
 # CAD Design
-Please also see the Module developer kit ([MDK](./MDK)) for further design instructions on how you sould adapt to the UC2 cubes.
+Please also see the Module developer kit ([MDK](../../MDK)) for further design instructions on how you sould adapt to the UC2 cubes.
 
 ## OpenSCAD files
 Open-Souce also means, that one should be able to modify the files with open-source software. Therefore we provide the basic cube as an ```.scad```-file in the [OPENSCAD](./OPENSCAD)-folder.  The Inventor-files will follow soon!
 
 
 ## Tutorial on how to design an insert in Inventor
-This should represent an examplary tutoria on how an insert for any function you like should look like. We are eager to see your results! Feel free to file a pull-request or share it via mail or [@openUC2 on Twitter](twitter.com/openUC2) .
+This should represent an examplary tutoria on how an insert for any function you like should look like. We are eager to see your results! Feel free to file a pull-request or share it via mail or [@openUC2 on Twitter](https://twitter.com/openUC2) .
 
 
 #### 1. Open Autodesk Inventor 2019 (Student) and open the UC2 project
@@ -209,7 +209,7 @@ Add some inprecision boundary (e.g. .1-.2 mm)
 
 #### 22. You'Re done! :)
 Add any modifications to your design to make it work and share it - please! :-)
-[@openUC2 on Twitter](twitter.com/openUC2) and as a github pull request :-)
+[@openUC2 on Twitter](https://twitter.com/openUC2) and as a github pull request :-)
 
 <p align="center">
 <img src="./IMAGES/Cube_Tut_22.PNG" width="500">

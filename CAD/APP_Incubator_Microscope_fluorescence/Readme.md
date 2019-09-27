@@ -1,4 +1,4 @@
-## In-Incubator Microscope
+## In-Incubator Microscope with fuorescence module
 This is the repository for the in-incubator microscope. It is capable to acquire Time-Lapse videos from living cells inside an incubator.
 
 The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org).
@@ -25,22 +25,22 @@ Fluorescence version:
 ## 3D Printing Files
 Please have a look at the folder [STL](./STL). All files need to be printed.
 
-* 1x [Base-Plate](./STL/Assembly_UKJ_Microscope_Assembly_base_4x2.stl)
-* 3x [1x1 Cube Lid](./STL/Assembly_UKJ_Microscope_v4_10_Lid_el_v0.stl)
-* 1x [Z-Stage](./STL/Assembly_UKJ_Microscope_v4_00_focus_inlet_triangle_spiral_v6.stl)
-* 1x [Motor Coupler](./STL/Assembly_UKJ_Microscope_v4_01_28BYJ_Coupling_ScrewM4.stl)
-* 1x [Base-Plate](./STL/Assembly_UKJ_Microscope_v4_10_Cube_2x_v0_no-rods.stl)
-* 1x [Cube LED Matrix Adapter](./STL/Assembly_UKJ_Microscope_v4_10_Cube_LED_Array.stl)
-* 1x [Cube Raspicam Adapter](./STL/Assembly_UKJ_Microscope_v4_11_Mirror_Adapter_for_RaspiCam.stl)
-* 1x [Cube Raspicam Adapter](./STL/Assembly_UKJ_Microscope_v4_11_Mirror_Adapter_for_RaspiCam.stl)
-* 1x [Cube](./STL/Assembly_UKJ_Microscope_v4_10_Cube_v0.stl)
-* 1x [Magnetic Sample adapter](./STL/Assembly_UKJ_Microscope_v4_40_XY_Stage_Chipclamp.stl)
-* 1x [1x1 Cube](./STL/Assembly_UKJ_Microscope_v4_10_Cube_v0_21.stl)
-* 1x [Z-STage Adapter Plate](./STL/Assembly_UKJ_Microscope_v4_40_Z_Stage_Adapterplate.stl)
-* 1x [2x1 Cube Lid ](./STL/Assembly_UKJ_Microscope_v4_10_Lid_el_2x_v0.stl)
-
-
-
+* 1× [Base-Plate 4×2](./STL/Assembly_base_4x2.stl)
+* 4× [1×1 Cube](./STL/10_Cube_1x1_v2.stl)
+* 4× [1×1 Cube Lid](./STL/10_Lid_1x1_v2.stl)
+* 1× [2×1 Cube](./STL/10_Cube_2x1_v2.stl)
+* 1× [2×1 Cube Lid](./STL/10_Lid_el_2x1_v2.stl)
+* 1× [Z-Stage](./STL/20_focus_inlet_triangle_spiral_v6.stl)
+* 1× [Coupling Screw M4](./STL/30_Coupling_Screw_28BYJ_M4.stl)
+* 1× [Z-Stage Fluomodule](./STL/30_Z_Stage_Fluomodule_12.stl)
+* 1× [Z-Stage Adapterplate](./STL/30_Z_Stage_Adapterplate_11.stl)
+* 1× [Z-Stage Microscope Slide Clamp](./STL/40_XY_Stage_Clamp_Slide_9.stl)
+* 1× [Cube LED Star Holder](./STL/ASSEMBLY_CUBE_LED_20_Cube_insert_LED_holder.stl)
+* 1× [Cube Dichroic Beamsplitter](./STL/20_Cube_Insert_Beamsplittercube_Base.stl)
+* 1× [Cube Dichroic Filter Retain plate](./STL/20_Cube_Insert_Beamsplittercube_Dichroicmirror_Retainplate.stl)
+* 1× [Cube Filter Retain ring](./STL/20_Cube_Insert_Beamsplittercube_Retainring_25mm.stl)
+* 1× [Cube Raspicam Insert](./STL/20_Cube_Insert_RaspiCam.stl)
+* 1× [Thorlabs Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_v2.stl) or [30×30 Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
 
 ## Devices features:
 

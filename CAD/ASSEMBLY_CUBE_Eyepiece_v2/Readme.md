@@ -4,11 +4,10 @@ This is the repository for the Eyepiece Cube.
 The stl-files can be found in the folder [STL](./STL).
 
 ### Purpose
-It adapts an eyepiece to the UC2 cube. A half-cube is used here, because then it works well with the [Cellphonemount](./CAD/ASSEMBLY_CUBE_Cellphonemount). Using a standard cube is also possible.
+It adapts an eyepiece to the UC2 cube.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Eyepiece_v2.png"
-width="1000">
+<img src="./IMAGES/Assembly_Cube_Eyepiece_v2.png" width="1000">
 </p>
 
 
@@ -20,9 +19,9 @@ width="1000">
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place
-* **The Half-Cube** which will be screwed to the Lid. The adapter plate will attach to it. Alternatively, use the standard 1×1 cube
-* **The Eyepiece Adapterplate** which connects the objective to the Cube
+* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+* **The Eyepiece holder** which connects the objective to the Cube ([INSERT](./STL/20_Cube_Insert_Holder-okular_v2.stl))
 
 ### Additional parts
 * 4× DIN912 M3*12 screws (non stainless steel)

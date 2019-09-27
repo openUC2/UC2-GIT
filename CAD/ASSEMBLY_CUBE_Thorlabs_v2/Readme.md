@@ -6,9 +6,9 @@ The stl-files can be found in the folder [STL](./STL).
 ### Purpose
 It adapts to the 1 inch Cage System from Thorlabs.
 
-
-![](./IMAGES/Assembly_Cube_Objectiveholder.png)
-
+<p align="center">
+<img src="./IMAGES/Assembly_Cube_Thorlabs_v2.png" width="600">
+</p>
 
 ### Properties
 * design is derived from the base-cube
@@ -18,9 +18,9 @@ It adapts to the 1 inch Cage System from Thorlabs.
 ### 3D printing parts
 The Part consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place
-* **The Thorlabs Insert** which adapts to any 1 inch cage system component 
+* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
+* **The Thorlabs Insert** which adapts to any 1 inch cage system component ([INSERT](./STL/20_Cube_Insert_Thorlabs.stl))
 
 ### Additional parts
 * 8x DIN912 M3*12 screws (non stainless steel)
@@ -38,7 +38,7 @@ The Part consists of the following components.
 * Add all screws to the Cube
 * Done!
 
-###Tutorial with images (LENSHOLDER)
+### Tutorial with images (LENSHOLDER)
 Don't insert batteries in the laser yet!!
 
 1. All parts for this model

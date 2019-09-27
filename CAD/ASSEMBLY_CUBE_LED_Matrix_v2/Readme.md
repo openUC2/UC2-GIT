@@ -1,6 +1,8 @@
 # Cube LED Matrix
 This parts adapt a LED matrix to the UC2 cubes. Electric control is done by an ESP32.
 
+The stl-files can be found in the folder [STL](./STL).
+
 <p align="center">
 <img src="./IMAGES/Assembly_Cube_LED_Matrix_v0.png" width="600">
 </p>
@@ -20,8 +22,8 @@ Here we list the 3D printed components from the ./STL folder
 
 The Part consists of the following components.
 
-1. **The Lid** which holds the ESP32 and the screws which connect to the base-plate (optional: wires can be connected to the screws)
-2. **The LED-Matrix Adapter** which adapts to the Neopixel LED Matrix display.
+1. **The Lid** which holds the ESP32 and the screws which connect to the base-plate (optional: wires can be connected to the screws) ([LID](./STL/10_Lid_1x1_el_v2.stl))
+2. **The LED-Matrix Adapter** which adapts to the Neopixel LED Matrix display. ([ADAPTER](./STL/20_Cube_insert_LED_holder.stl))
 
 
 ### Additional parts
@@ -30,11 +32,8 @@ Here we list all parts which need to be bought from different sources.
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
 |  ESP32 | Microcontroller | 5€  | [ESP](http://esp32.net/)  | 1|
-|  DIN912 M3x18 | Screws | 1€  | [Wpürth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/)  | 6|
+|  DIN912 M3x18 | Screws | 1€  | [Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/)  | 6|
 |  Adafruit Neopixel 8x8 | LED Matrix (RGB) | 25€  | [Neopixel](https://www.amazon.de/Adafruit-NeoPixel-NeoMatrix-8x8-64-Matrix/dp/B00FA9JDEU)  | 1|
-|  Adafruit Neopixel 8x8 | LED Matrix (RGB) | 25€  | [Neopixel](https://www.amazon.de/Adafruit-NeoPixel-NeoMatrix-8x8-64-Matrix/dp/B00FA9JDEU)  | 1|
-
-
 
 ## Remarks and Tips
 

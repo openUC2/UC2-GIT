@@ -27,7 +27,7 @@ Useful for Workshops. Get back to us if you want to organize one together with u
 A description on how to assemble the parts can be found in each Application-folder following the "LINK". It gives also a list of additional components to print/buy.
 
 ## 3D printing
-A list of 3D-printed parts is found in [STL](./STL), together with some printing tiprs and tricks.
+A list of 3D-printed parts is found in [STL](./STL), together with some printing tips and tricks.
 
 ## Necessary Parts
 The detailed up-to-date list of all components can be found in this [google-spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing).
@@ -132,20 +132,20 @@ What is inside the Box?
 <img src=".\IMAGES\IMG_20190905_174642.jpg" height="400">
 </p>
 <p align="center">
-<img src=".\IMAGES\UC2_Setups_theBOX.jpg" height="400">
+<img src=".\IMAGES\UC2_Setups_theBOX.png" height="400">
 </p>
 <p align="center">
 <img src=".\IMAGES\IMG_20190905_175948.jpg" height="400">
 </p>
 
-  * Baseplate  4×4 [🢂](../CAD/ASSEMBLY_BASE/STL/Assembly_base_4x4.stl)
+  * Baseplate  4×4 [🢂](../CAD/ASSEMBLY_Baseplate_v2)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180802.jpg" height="400">
   </p>
 
-  * Baseplate 4×2 [🢂](../CAD/ASSEMBLY_BASE/STL/Assembly_base_4x2.stl)
-  * Baseplate 4×1 - 2× [🢂](../CAD/ASSEMBLY_BASE/STL/Assembly_base_4x1.stl)
+  * Baseplate 4×2 [🢂](../CAD/ASSEMBLY_Baseplate_v2)
+  * Baseplate 4×1 - 2× [🢂](../CAD/ASSEMBLY_Baseplate_v2)
   * Raspberry Pi
 
   <p align="center">

@@ -1,8 +1,8 @@
 ## XYZ-Stage
-Here you can find the necessary .stl-parts for the XYZ-Stage. 
+Here you can find the necessary .stl-parts for the XYZ-Stage.
 
 <p align="center">
-<img src="./IMAGES/Assembly_cube_double_Zfocus.png" width="400">
+<img src="./IMAGES/Assembly_cube_double_Zfocus.png" width="600">
 </p>
 
 A detailed description of the assembly process can be found ***[here](./DOCUMENTS/TUT_Assembly_XYZ_Stage.pdf)***
@@ -15,10 +15,10 @@ A detailed explanation about the XY-Stage can be found [here](/ELECTRONICS/XY-St
 
 
 
-## 3D printing files 
+## 3D printing files
 All files can be found in the folder [STL](./STL).
 
-## Assembly Tutorial 
+## Assembly Tutorial
 
 ### 1. All parts
 <p align="center">
