@@ -1,5 +1,5 @@
-# Cube LED Matrix
-This parts adapt a LED matrix to the UC2 cubes. Electric control is done by an ESP32.
+# Cube LED Ring
+This parts adapt a LED Ring to the UC2 cubes. Electric control is done by an ESP32.
 
 The stl-files can be found in the folder [STL](./STL).
 
