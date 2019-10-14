@@ -8,7 +8,7 @@ The stl-files can be found in the folder [STL](./STL).
 </p>
 
 ## Purpose
-It can be used for quantitative phase imaging (QPI) using the work from Tian et al. [ARXIV]( https://arxiv.org/abs/1904.06004 .) and [code](https://github.com/bu-cisl/IDT-using-Annular-Illumination)  provided by the [Tian-Lab](http://sites.bu.edu/tianlab/) at Boston University. 
+It can be used for quantitative phase imaging (QPI) using the work from Tian et al. [ARXIV](https://arxiv.org/abs/1904.06004) and [code](https://github.com/bu-cisl/IDT-using-Annular-Illumination)  provided by the [Tian-Lab](http://sites.bu.edu/tianlab/) at Boston University. 
 
 ### LED-Ring Smartphone Setup for QPI
 <p align="center">
@@ -22,8 +22,18 @@ The images using the Huawei P9 with a monochromatic CMOS chip and a LED sequence
 </p>
 We used a 10x objective lens with an NA=0.3. 
 
+And some HeLa cells with subtracted background shot on a Huawei P9 (monochrome):
+
+<p align="center">
+<img src="./IMAGES/I_Raw_Hela-5.gif" width="300">
+</p>
+
+We used a 10x objective lens with an NA=0.3. 
 
 
+
+## Code 
+A sample code for the EPS32 or Arduino can be found in this [folder](./ESP32/LED_Ring_test).
 
 
 
