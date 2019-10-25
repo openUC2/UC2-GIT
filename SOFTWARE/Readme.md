@@ -1,6 +1,8 @@
 # Software
 
-In order to process the data which can be acquired using the UC2 cubes we already made some attempts to integrate it in Python and Fiji. 
+# Find out more about the software in the dedicated [GitHub!](https://github.com/bionanoimaging/UC2-Software-GIT)
+
+In order to process the data which can be acquired using the UC2 cubes we already made some attempts to integrate it in Python and Fiji.
 
 Over time wee want to collect a list of useful algorithms and code-snippets. For now, please have a look in our current Software made for the Inline-Hologram Workshop.
 
