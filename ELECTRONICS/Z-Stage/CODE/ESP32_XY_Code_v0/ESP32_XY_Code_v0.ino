@@ -4,7 +4,7 @@
 
 
 // Pins for the Motor X and Y
-int motorPin_X[] = {13, 12, 14, 27};
+int motorPin_X[] = {14, 27, 26, 25};//{13, 12, 14, 27};
 int motorPin_Y[] = {26, 25, 23, 32};
 
 // Define speeds
@@ -34,7 +34,8 @@ void loop()
   // Drive motor X in negative direction
   drive_left(highSpeed, motorPin_X, 1000);
   stop(motorPin_X);
-
+ 
+ if(false){
   // Drive motor Y in positive direction
   drive_right(highSpeed, motorPin_Y, 1000);
   stop(motorPin_Y);
@@ -42,6 +43,7 @@ void loop()
   // Drive motor Y in negative direction
   drive_left(highSpeed, motorPin_Y, 1000);
   stop(motorPin_Y);
+ }
 }
 
 void drive_right(unsigned int motorSpeed, int motorPin[], int steps)

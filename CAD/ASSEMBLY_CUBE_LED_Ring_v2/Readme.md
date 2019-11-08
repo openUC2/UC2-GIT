@@ -31,10 +31,39 @@ And some HeLa cells with subtracted background shot on a Huawei P9 (monochrome):
 We used a 10x objective lens with an NA=0.3. 
 
 
+### Reconstruction Results
+
+We acquiered a stack of freshly taken Cheek cells on a coverslip and imaged it with the Aafruit LED ring using a Huawei P20 with ISO400, texp=1/15s. It's very important to capture in RAW-mode. The demosaicing of the images destroys the FT relationship of the transfer function! 
+
+We provide a script to convert a stack of RAW-images to a TIFF-file in [CODE](./CODE). The modified files for the ***aIDT*** code from the ***TIANLAB*** can also be found in the [CODE](./CODE) folder. It just needs to be copy/pasted into the original Master-branch of their  [github - repository](https://github.com/bu-cisl/IDT-using-Annular-Illumination) in order to make it work. 
+
+The code will automatically fit the pupil function:
+<p align="center">
+<img src="./IMAGES/UC2_PupilCal.png" width="300">
+</p>
+
+
+The whole stack of oblique angle illumination looks like this: 
+<p align="center">
+<img src="./IMAGES/UC2_AIDT_Cheek_Sequential.gif" width="300">
+</p>
+
+After processing this stack of images with the code you get the 3D refractive index distribution **RI(r)** where we visualize a virtual focus-stack of the real part (e.g. phase retardation):
+
+UC2_AIDT_Cheek_Sequentiaprocessing this stack of images with the code you get the 3D refractive index distribution **RI(r)** where we visualize a virtual focus-stack of the real part (e.g. phase retardation):
+
+<p align="center">
+<img src="./IMAGES/UC2_AIDT_HeLA.gif" width="300">
+</p>
+
 
 ## Code 
 A sample code for the EPS32 or Arduino can be found in this [folder](./ESP32/LED_Ring_test).
 
+The image processing codes for python and Matlab based on this publication: 
+[ARXIV](https://arxiv.org/abs/1904.06004) 
+
+Many credits go to Alex Matlock who helped a lot to make sure that the data is curated the right way! Thanks to the TIANLAB for poviding the code!
 
 
 ## Properties
