@@ -1,12 +1,11 @@
 # Generic Lensholder Cube
-This is the a lens-holder for rectangular (e.g. cylindrical) lenses.
+This is a lens-holder for rectangular (e.g. cylindrical) lenses.
 
 The stl-files can be found in the folder [STL](./STL).
 
 ### Purpose
 It adapts the cylindrical lenses from COMAR optics to the UC2 system.
 
-Old image:
 <p align="center">
 <img src="./IMAGES/Assembly_Cube_Objectiveholder.png" width="600">
 </p>

@@ -54,7 +54,11 @@ void setup() {
 
 void loop() {
   // Fill along the length of the strip in various colors...
-  colorWipe(strip.Color(0,  255,   0), 1000); // Red
+  //colorWipe(strip.Color(0,  255,   0), 500); // Red
+  fullOn(strip.Color(0,  255,   0), 1000); // Red
+  colorWipe(strip.Color(0,  255,   0), 2500); // Red
+  fullOn(strip.Color(0,  255,   0),1000); // Red
+  
   }
 
 
@@ -73,6 +77,19 @@ void colorWipe(uint32_t color, int wait) {
     delay(wait);                           //  Pause for a moment
     strip.setPixelColor(i, strip.Color(0,   0,   0));         //  Set pixel's color (in RAM)
   }
+}
+
+void fullOn(uint32_t color,int wait) {
+  for(int i=0; i<strip.numPixels(); i++) { // For each pixel in strip...
+    strip.setPixelColor(i, color);         //  Set pixel's color (in RAM)
+    strip.show();                          //  Update strip to match
+}
+
+delay(wait); 
+  for(int i=0; i<strip.numPixels(); i++) { // For each pixel in strip...
+    strip.setPixelColor(i, strip.Color(0,   0,   0));         //  Set pixel's color (in RAM)
+    strip.show();                          //  Update strip to match
+}
 }
 
 // Theater-marquee-style chasing lights. Pass in a color (32-bit value,
