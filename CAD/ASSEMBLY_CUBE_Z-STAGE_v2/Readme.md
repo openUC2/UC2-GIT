@@ -60,9 +60,9 @@ For Fluomodule:
 ## Assembly
 * Detailed description coming soon
 * Add motor and small gear, fix it with M4 screw
-* Add the M3 nut in the dedicted hole close to the moving stage
-* Add M3x26mm screw with mounted large gear at one end and insert it into the hole.
-* rotate the M3x26 screw so that it pushes the moving z-stage
+* Add the M4 nut in the dedicted hole close to the moving stage
+* Add M4x26mm screw with mounted large gear at one end and insert it into the hole.
+* rotate the M4x26 screw so that it pushes the moving z-stage
 * Wire the motor, test it
 * Done!
 
@@ -80,22 +80,17 @@ This is the assembly guide for the Z-Stage.
 <img src="./IMAGES/Z_STAGE_1.jpg" width="300">
 </p>
 
-3. Use pliers to put the M4 nut in the place. Be careful, easy to break here!
-<p align="center">
-<img src="./IMAGES/Z_STAGE_2.jpg" width="300">
-</p>
-
-4. Fix the nut using two m3 screws
+3. Fix the nut using two M3 worm screws (This can also be done later, in case the nut becomes too wobbly.)
 <p align="center">
 <img src="./IMAGES/Z_STAGE_3.jpg" width="300">
 </p>
 
-5.  Put one end of the M4 screw inside the motor coupling thing- use pliers
+4.  Put one end of the M4 screw inside the motor coupling thing- use pliers
 <p align="center">
 <img src="./IMAGES/Z_STAGE_4.jpg" width="300">
 </p>
 
-6.  It should look like this
+5.  It should look like this
 <p align="center">
 <img src="./IMAGES/Z_STAGE_5.jpg" width="300">
 </p>
@@ -145,7 +140,7 @@ This is the assembly guide for the Z-Stage.
 <img src="./IMAGES/Z_STAGE_14.jpg" width="300">
 </p>
 
-###Tutorial with images (Fluomodule+Sample Insert)
+### Tutorial with images (Fluomodule+Sample Insert)
 This is the assembly guide for the Fluomodule+Sample Insert.
 It's tought to work as a darkfield illumination. This reduces any scattering light (e.g. 0th order of the illumination).
 
