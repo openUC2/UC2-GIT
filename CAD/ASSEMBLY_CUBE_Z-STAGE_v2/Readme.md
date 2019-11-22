@@ -169,5 +169,11 @@ It's tought to work as a darkfield illumination. This reduces any scattering lig
 <img src="./IMAGES/Z_STAGE_FLUOMODULE_4.jpg" width="300">
 </p>
 
+
+## Fluorescent Module
+
+The wiring of the fluoresceent module can be found [here](../CUBE_INSERT_Fluomodule). 
 ## Safety
 Be careful!
+
+
