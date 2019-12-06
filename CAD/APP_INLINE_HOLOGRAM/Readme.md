@@ -1,10 +1,12 @@
 ## Inline Holographic Microscope
-This is the repository for the inline hographical microscope. This will be part of the workshop which can be found in WORKSHOP.
+This is the repository for the inline holographical microscope.
+
+This is be part of the workshop which can be found in WORKSHOP. Note that the designs has been updated since the last workshop was organised. The files and linkd on this page are up to date. The files in the workshop document follow the old version of the cube.
 
 It acquires the interference of the spherial wave coming from a pinhole, illuminated by an LED, and the scattered wave from a transparent (phase) sample.
 
 <p align="center">
-<img src="./IMAGES/INLINE_HOLOGRAM.png" width="500">
+<img src="./IMAGES/Application_Inline_Holographic_Microscopy_v2.png" width="900">
 </p>
 
 
@@ -24,7 +26,7 @@ A more in-detail documentation can be found [here](./../../WORKSHOP/INLINE-HOLOG
 ## 3D printing
 
 <p align="center">
-<img src="./IMAGES/Print_CURA_Capture.PNG" width="500">
+<img src="./IMAGES/Print_CURA_Prusai3MK3S.PNG" width="500">
 </p>
 
 ### Parts to printing
@@ -48,8 +50,6 @@ A more in-detail documentation can be found [here](./../../WORKSHOP/INLINE-HOLOG
 ## Software
 Please have a look at our **ImJoy** [Github-Repository](https://github.com/bionanoimaging/UC2-ImJoy-GIT) for this Application.
 
-## Comments
-Nothing to say.
 
 ## Contribution
 If you find this piece usefull or you want to improve it, please feel free to file an issue or write us a message!

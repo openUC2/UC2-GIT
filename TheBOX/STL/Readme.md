@@ -1,5 +1,7 @@
 # The BOX
 
+This is a guide for 3D printing the parts of the [FullBOX](../FullBOX). The guide for the [SimpleBOX can be found here.](../SimpleBOX/STL)
+
 ## 3D Printing:
 
 A quick printing tutorial can be found here:
@@ -18,7 +20,7 @@ We have a good experience with these printers and settings:
   * Profile Optimal 0,15 mm, infill 20%, no support, 215/60°C
   * [Hint](./IMAGES/prusa_printing_theBox.pdf)
 
-## List of parts for one Box
+## List of parts for the FullBox
 
 ### Housing
 
