@@ -9,7 +9,7 @@ This is a guide for building the [SimpleBOX](../SimpleBOX). The guide for the [F
 ### Content
 * [Shopping](#shopping)
 * [3D printing](#3d-printing)
-* [Tools](#whic-tools-to-use)
+* [Tools](#which-tools-to-use)
 * [Assembly](#assembly)
 
 ## Shopping
@@ -44,8 +44,7 @@ We have a good experience with this printer and settings:
   * [Hint](./IMAGES/prus_printing_SimpleBOX.pdf)
 
 ### Housing
-
-Link - name of part             |  Amount
+Name of part - Link to STL file             |  Amount
 :-------------------------:|:----------------------------:
 [(01) Basic Cube 2×1](./STL/01_10_Cube_2x1_v2.stl)  |  1 piece
 [(02) Basic Lid 2×1](./STL/02_10_Lid_el_2x1_v2.stl)  |  1 piece
@@ -56,7 +55,7 @@ Link - name of part             |  Amount
 
 ### Inserts
 
-Link - name of part             |  Amount |  Comment
+Name of part - Link to STL file            |  Amount |  Comment
 :-------------------------:|:-------------------------:|:-------------------------:
 [(05) Z-Stage Focusing Insert](./STL/05_20_focus_inlet_triangle_spiral_v6.stl)  |  1 piece  | Rotate the part in your slicer before printing. Always print it laying on the flat side.
 [(06) Z-Stage Coupling Screw M4](./STL/06_30_Coupling_Screw_28BYJ_M4.stl) |  1 piece   | This couples the gear to the screw, which moves the objective.
@@ -75,21 +74,21 @@ Link - name of part             |  Amount |  Comment
 ## Which tools to use
 Tool             |  Image|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
-Electric screw driver with M3 bit | | For putting the cubes together using M3×12 and M3×8 screws.
-M3 hex key | | For fine adjustment of all the M3 screws if needed.
-M4 hex key | | For assembly of the Z-Stage - mounting the gear to the screw.
-M??? hex key | | For assembly of the Z-Stage - mounting worm screws.
-Needle-nose Pliers | | For assembly of the Z-Stage - inserting the M4 nut.
+[Electric screw driver with 2,5 mm hex bit](https://www.amazon.de/Bosch-Akkuschrauber-Generation-Bits-Ladeger%C3%A4t/dp/B00TTZU566/ref=asc_df_B00TTZU566/?tag=googshopde-21&linkCode=df0&hvadid=255989693737&hvpos=1o1&hvnetw=g&hvrand=6125749874385941808&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9042960&hvtargid=pla-421346020200&psc=1&th=1&psc=1) |<img src="./IMAGES/screwdriver.jpg" width="300"> | For putting the cubes together using M3×12 and M3×8 screws.
+[2,5 mm hex key](https://www.amazon.de/Presch-Innensechskant-Satz-Kugelkopf-Innensechskantschl%C3%BCssel/dp/B079V335CR/ref=sr_1_2_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2K89GU3MY8P26&keywords=hex+key+set&qid=1575997133&s=diy&sprefix=hex+%2Cdiy%2C160&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRENMU0hKWkJRR0FEJmVuY3J5cHRlZElkPUEwMDIzMjIyMzFBWVIyOEpORU1FSCZlbmNyeXB0ZWRBZElkPUEwMzk0NjQwMlA0NFZDTVk0Tk9LUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) | <img src="./IMAGES/hex-keys.jpg" width="300">| For fine adjustment of all the M3 screws if needed.
+[3 mm hex key](https://www.amazon.de/Presch-Innensechskant-Satz-Kugelkopf-Innensechskantschl%C3%BCssel/dp/B079V335CR/ref=sr_1_2_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2K89GU3MY8P26&keywords=hex+key+set&qid=1575997133&s=diy&sprefix=hex+%2Cdiy%2C160&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRENMU0hKWkJRR0FEJmVuY3J5cHRlZElkPUEwMDIzMjIyMzFBWVIyOEpORU1FSCZlbmNyeXB0ZWRBZElkPUEwMzk0NjQwMlA0NFZDTVk0Tk9LUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) |↑ | For assembly of the Z-Stage - mounting the gear to the M4 screw.
+[1,5 mm hex key](https://www.amazon.de/Presch-Innensechskant-Satz-Kugelkopf-Innensechskantschl%C3%BCssel/dp/B079V335CR/ref=sr_1_2_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2K89GU3MY8P26&keywords=hex+key+set&qid=1575997133&s=diy&sprefix=hex+%2Cdiy%2C160&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRENMU0hKWkJRR0FEJmVuY3J5cHRlZElkPUEwMDIzMjIyMzFBWVIyOEpORU1FSCZlbmNyeXB0ZWRBZElkPUEwMzk0NjQwMlA0NFZDTVk0Tk9LUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) |↑↑ | For assembly of the Z-Stage - mounting worm screws.
+[Needle-nose Pliers](https://www.amazon.de/Br%C3%BCder-Mannesmann-Telefonzange-gerade-M10948/dp/B003A63EIG/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=needle+nose+pliers&qid=1575997091&s=diy&sr=1-3) |<img src="./IMAGES/pliers.jpg" width="300"> | For assembly of the Z-Stage - inserting the M4 nut.
 
 ## Assembly
 Part - link             |  Result|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
-[Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)||
-[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)||
-[Mirror Cubes](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)||
-[Sample Cube](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)||
-[Flashlight Cube](../../../CAD/ASSEMBLY_Baseplate_v2)||
-[Eyepiece and Smartphone Cube](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)||
-[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)||
+[Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)|<img src="./IMAGES/baseplates.jpg" width="300">|1× "big" baseplate (4×2), 3× "small" baseplate (4×1)
+[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|<img src="./IMAGES/lens.jpg" width="300">| 5× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building different setups.
+[Mirror Cubes](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|<img src="./IMAGES/mirror.jpg" width="300">| 2× Mirror Cube
+[Sample Cube](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|<img src="./IMAGES/sample.jpg" width="300">|1× Sample Holder Cube
+[Flashlight Cube](../../../CAD/ASSEMBLY_Lens_v2)|<img src="./IMAGES/flashlight.jpg" width="300">| 1× Flashlight Cube
+[Eyepiece and Smartphone Cube](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)|<img src="./IMAGES/smartphone.jpg" width="300">|1× Eyepiece Cube with Smartphone Holder mounted on it
+[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)|<img src="./IMAGES/z-stage.jpg" width="300">|1× mechanical Z-Stage with Sample Clamp
 
-## Done! Great job! Explore the experiments with our [work sheets](../DOCUMENT/UC2_simpleBOX.pdf) now. 
+## Done! Great job! Explore the experiments with our [work sheets](../DOCUMENT/UC2_simpleBOX.pdf) now.
