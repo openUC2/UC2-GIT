@@ -3,8 +3,9 @@
 This is a guide for 3D printing the parts of the [FullBOX](../FullBOX). The guide for the [SimpleBOX can be found here.](../SimpleBOX/STL)
 
 ## 3D Printing:
+Completely new to 3D printing? Have a look into this [beginner's guide](https://www.makeuseof.com/tag/beginners-guide-3d-printing/)!
 
-A quick printing tutorial can be found here:
+Our quick printing tutorial can be found here:
 [![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.PNG)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
 
 We have a good experience with these printers and settings:
