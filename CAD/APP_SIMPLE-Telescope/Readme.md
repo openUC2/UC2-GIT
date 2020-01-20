@@ -9,7 +9,7 @@ width="400">
 </p>
 
 
-We created a [Workshop-Document](UC2_Telescope.pdf) which goes into details of assembling the Telescope and comes with a quiz to test your knowledge about telescopes. Are you able to answer all of them?
+We created a German [Workshop-Document (GER)](UC2_Telescope.pdf) and English [Workshop-Document (EN)](UC2_Telescope_EN.pdf) which goes into details of assembling the Telescope and comes with a quiz to test your knowledge about telescopes. Are you able to answer all of them?
 
 <p align="center">
 <img src=".\IMAGES\UC2_Setups_6_telescopes.png"
