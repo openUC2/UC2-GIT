@@ -28,4 +28,5 @@ Here you'll find a growing list of other projects, tutorials and inspirations:
 ### Bill of Materials 
 An example table with all components necessary for the UC2 incubator microscope can be found here:
 
-* [IncuScope - Bill of Materials](./BillOfMaterials/Bill_of_Materials_In-Incubator-Microscope_v0.xlsx)
+* [IncuScope - Bill of Materials](../TheBOX/FullBOX/DOCUMENTS/Bill_of_Materials_In-Incubator-Microscope_v0.xlsx)
+* ["TheBOX" - Comprehensive List of all components + assemblies + Bill of Materials](../TheBOX/FullBOX/DOCUMENTS/UC2_ReadyToUseBox_Modules_Parts.xlsx)
