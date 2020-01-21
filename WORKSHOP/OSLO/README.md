@@ -18,11 +18,13 @@ Please report any errors you find so that we can improve the system and document
 
 ### DAY 2
 
-[Experiment 4 - Examine the Time-Lapse Series](./Experiment_4.md)
+[Experiment 4 - Light Sheet](./Experiment_4.md)
 
-[Experiment 5 - Intro to Image Processing with ImJoy](./Experiment_5.md)
+[Experiment 5 - Examine the Time-Lapse Series](./Experiment_5.md)
 
-[Experiment 6 - Smartphone Microscopy](./Experiment_5.md)
+[Experiment 6 - Intro to Image Processing with ImJoy](./Experiment_6.md)
 
-[Experiment 7 - Light Sheet](./Experiment_5.md)
+[Experiment 7 - Smartphone Microscopy](./Experiment_7.md)
+
+
 

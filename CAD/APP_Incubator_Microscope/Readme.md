@@ -43,3 +43,11 @@ Please have a look at the folder [STL](./STL). All files need to be printed.
 * Low-cost acquisition
 * based on off-the-shelf components (please see the bill of materials in the (./../DOCUMENTS) DOCUMENTS folder)
 * Open-Source
+
+## Results
+
+This is a 30-minutes timelapse of some dog-cells made in a Workshop in UiO prepared by Xian H. and Kay S.
+
+<p align="center">
+<img src="./IMAGES/SAMPLE.gif" width="500">
+</p>
