@@ -11,3 +11,10 @@ The basic description about the device and how to align it can be found [here](h
 3. Load the images/videos to Fiji and create a Z-project 
 
 
+## RESULT
+
+Larvae of fruitfly using a 4x lens for detection and illumination.
+
+<p align="center">
+<img src="./IMAGES/Larve_Lightsheet.png" width="500">
+</p>
