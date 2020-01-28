@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- 
+===========================================================
+This file contains options for exporting a flat Pattern
+to a DWG/DXF file.
+In this version the only option is to replace splines with 
+line segments with a set chord tolerance.
+
+enable="1" will turn the option on
+enable="0" will turn the option off
+
+chord_tolerance sets the maximum distance from any point 
+on the line to the spline. 
+Please use '.' as decimal delimiter.
+
+===========================================================
+-->
+
+<!--
+===========================================================
+                     BEGIN DTD SECTION
+Do not modify the DTD section of this file.  It is used to
+verify that the content of the file is valid.
+===========================================================
+-->
+<!DOCTYPE fpdwgEdits [
+   <!ELEMENT fpdwgEdits      (option)>
+   <!ELEMENT option         (replace)>
+   <!ELEMENT replace         (spline, advlegacyexport?)>
+   <!ELEMENT spline         EMPTY>
+   <!ELEMENT advlegacyexport   EMPTY>
+   
+   <!ATTLIST fpdwgEdits version CDATA #REQUIRED>
+   <!ATTLIST spline enable CDATA #REQUIRED>
+   <!ATTLIST spline chord_tolerance CDATA #REQUIRED>
+   <!ATTLIST advlegacyexport enable CDATA #REQUIRED>
+]>
+<!--
+===========================================================
+                      END DTD SECTION
+===========================================================
+-->
+<fpdwgEdits version='1.0'>
+   <option>
+      <replace>
+         <spline enable="1" chord_tolerance="0.01" />
+         <advlegacyexport enable="1" />
+      </replace>
+   </option>
+</fpdwgEdits>

@@ -1,0 +1,472 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Wood
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="asset_information" 
+                label="Information" 
+                orientation="Vertical" 
+                expanded="false">
+      <AssetName id="asset_name"
+                 label="Name"/>
+      <AssetDescription id="asset_description"
+                        label="Description"/>
+      <AssetKeywords id="asset_keywords"
+                     label="Keywords"/>
+      <AssetType id="asset_type"
+                 label="Type"/>
+
+      <String id="structural_subclass"
+              label="Subclass" />
+      <String id="structural_source"
+              label="Source" />
+      <String id="structural_sourceURL"
+              label="Source URL" />
+    </StackPanel>
+
+    <StackPanel id="wood_props1" 
+                label="Basic Thermal" 
+                orientation="Vertical" 
+                expanded="true">
+      
+      <Float id="structural_Thermal_conductivity"
+             forcenumeric="spinbox"
+             label="Thermal Conductivity"  
+             min="0.001"
+             max="5000" >
+        <Dependency id="dep27"
+	            on="structural_Behavior"
+	            requires="structural_isotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <Float id="structural_Specific_heat"
+             forcenumeric="spinbox"
+             label="Specific Heat"  
+             min="0.1"
+             max="15" />
+
+
+   <!--Thermal Expansion Coefficient-->
+      <Float id="structural_Thermal_expansion_coefficient"
+             forcenumeric="spinbox"
+             label="Thermal Expansion Coefficient" 
+             min="0.1"
+             max="500" >
+        <Dependency id="dep4"
+	            on="structural_Behavior"
+	            requires="structural_isotropic"
+		    else="hidden"/>
+      </Float>
+
+     <!--3d Thermal Expansion Coefficient-->
+      <Float id="structural_Thermal_expansion_coefficient_X"
+             forcenumeric="spinbox"
+             label="Thermal Expansion Coefficient X"  
+             min="0.1"
+             max="500" >
+        <Dependency id="dep19"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <Float id="structural_Thermal_expansion_coefficient_Y"
+             forcenumeric="spinbox"
+             label="Thermal Expansion Coefficient Y"  
+             min="0.1"
+             max="500" >
+        <Dependency id="dep20"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <Float id="structural_Thermal_expansion_coefficient_Z"
+             forcenumeric="spinbox"
+             label="Thermal Expansion Coefficient Z"  
+             min="0.1"
+             max="500" >
+        <Dependency id="dep21"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+      <Float id="structural_Thermal_expansion_coefficient_1"
+             forcenumeric="spinbox"
+             label="Thermal Expansion Coefficient 1"  
+             min="0.1"
+             max="500" >
+        <Dependency id="dep22"
+	            on="structural_Behavior"
+	            requires="structural_transverse_isotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <Float id="structural_Thermal_expansion_coefficient_2"
+             forcenumeric="spinbox"
+             label="Thermal Expansion Coefficient 2"  
+             min="0.1"
+             max="500" >
+        <Dependency id="dep23"
+	            on="structural_Behavior"
+	            requires="structural_transverse_isotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <Float id="structural_Thermal_conductivity_X"
+             forcenumeric="spinbox"
+             label="Thermal Conductivity X"  
+             min="0.001"
+             max="5000" >
+        <Dependency id="dep24"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <Float id="structural_Thermal_conductivity_Y"
+             forcenumeric="spinbox"
+             label="Thermal Conductivity Y"  
+             min="0.001"
+             max="5000" >
+        <Dependency id="dep25"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <Float id="structural_Thermal_conductivity_Z"
+             forcenumeric="spinbox"
+             label="Thermal Conductivity Z"  
+             min="0.001"
+             max="5000" >
+        <Dependency id="dep26"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+    </StackPanel>
+
+    <StackPanel id="wood_props2" 
+                label="Mechanical" 
+                orientation="Vertical" 
+                expanded="false">
+      <ChooseList id="structural_Behavior"
+                  label="Behavior"
+                  tooltip="Chooses between Isotropic and Orthotropic behavior.">
+        <Choice id="structural_isotropic" label="Isotropic"/>
+        <Choice id="structural_orthotropic" label="Orthotropic"/>
+        <Choice id="structural_transverse_isotropic" label="Transverse Isotropic"/>
+      </ChooseList>
+
+      <!--Young's Modulus-->
+      <Float id="structural_Young_modulus"
+             forcenumeric="spinbox"
+             label="Young's Modulus" 
+             min=".01"
+             max="1.3e+9" >
+        <Dependency id="dep1"
+	            on="structural_Behavior"
+	            requires="structural_isotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <!--Poisson Ratio-->
+      <Float id="structural_Poisson_ratio"
+             forcenumeric="spinbox"
+             label="Poisson's Ratio" 
+             min="-1.0"
+             max="0.5"  >
+        <Dependency id="dep2"
+	            on="structural_Behavior"
+	            requires="structural_isotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <!--Shear Modulus-->
+      <Float id="structural_Shear_modulus"
+             forcenumeric="spinbox"
+             label="Shear Modulus"  
+             min="0.0005"
+             max="5e+8" >
+        <Dependency id="dep3"
+	            on="structural_Behavior"
+	            requires="structural_isotropic"
+		    else="hidden"/>
+      </Float>
+
+      <Float id="structural_Density"
+             forcenumeric="spinbox"
+             label="Density" />
+      
+   
+      
+
+      <!--3d Young's Modulus-->
+      <Float id="structural_Young_modulus_X"
+             forcenumeric="spinbox"
+             label="Young's Modulus X" 
+             min=".01"
+             max="1.3e+9" >
+        <Dependency id="dep5"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <Float id="structural_Young_modulus_Y"
+             forcenumeric="spinbox"
+             label="Young's Modulus Y"  
+             min=".01"
+             max="1.3e+9" >
+        <Dependency id="dep6"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <Float id="structural_Young_modulus_Z"
+             forcenumeric="spinbox"
+             label="Young's Modulus Z"  
+             min=".01"
+             max="1.3e+9" >
+        <Dependency id="dep7"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <Float id="structural_Young_modulus_1"
+             forcenumeric="spinbox"
+             label="Young's Modulus 1"  
+             min=".01"
+             max="1.3e+9" >
+        <Dependency id="dep8"
+	            on="structural_Behavior"
+	            requires="structural_transverse_isotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <Float id="structural_Young_modulus_2"
+             forcenumeric="spinbox"
+             label="Young's Modulus 2"  
+             min=".01"
+             max="1.3e+9" >
+        <Dependency id="dep9"
+	            on="structural_Behavior"
+	            requires="structural_transverse_isotropic"
+		    else="hidden"/>
+      </Float>
+      
+      <!--3d Poisson Ratio-->
+      <Float id="structural_Poisson_ratio_X"
+             forcenumeric="spinbox"
+             label="Poisson's Ratio X" 
+             min="-1.0"
+             max="1.0"  >
+        <Dependency id="dep10"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <Float id="structural_Poisson_ratio_Y"
+             forcenumeric="spinbox"
+             label="Poisson's Ratio Y" 
+             min="-1.0"
+             max="1.0"  >
+        <Dependency id="dep11"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <Float id="structural_Poisson_ratio_Z"
+             forcenumeric="spinbox"
+             label="Poisson's Ratio Z"  
+             min="-1.0"
+             max="1.0"  >
+        <Dependency id="dep12"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+      <Float id="structural_Poisson_ratio_12"
+             forcenumeric="spinbox"
+             label="Poisson's Ratio 12" 
+             min="-1.0"
+             max="1.0"  >
+        <Dependency id="dep13"
+	            on="structural_Behavior"
+	            requires="structural_transverse_isotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <Float id="structural_Poisson_ratio_23"
+             forcenumeric="spinbox"
+             label="Poisson's Ratio 23"  
+             min="-1.0"
+             max="1.0"  >
+        <Dependency id="dep14"
+	            on="structural_Behavior"
+	            requires="structural_transverse_isotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <!--3d Shear Modulus-->
+      <Float id="structural_Shear_modulus_X"
+             forcenumeric="spinbox"
+             label="Shear Modulus X"  
+             min="0.0005"
+             max="5e+8" >
+        <Dependency id="dep15"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <Float id="structural_Shear_modulus_Y"
+             forcenumeric="spinbox"
+             label="Shear Modulus Y"  
+             min="0.0005"
+             max="5e+8" >
+        <Dependency id="dep16"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+      
+      <Float id="structural_Shear_modulus_Z"
+             forcenumeric="spinbox"
+             label="Shear Modulus Z"  
+             min="0.0005"
+             max="5e+8" >
+        <Dependency id="dep17"
+	            on="structural_Behavior"
+	            requires="structural_orthotropic"
+		    else="hidden"/>
+      </Float>
+
+      <Float id="structural_Shear_modulus_12"
+             forcenumeric="spinbox"
+             label="Shear Modulus 12"  
+             min="0.0005"
+             max="5e+8" >
+        <Dependency id="dep18"
+	            on="structural_Behavior"
+	            requires="structural_transverse_isotropic"
+		    else="hidden"/>
+      </Float>
+      
+    </StackPanel>
+
+    <StackPanel id="metal_props4" 
+                label="Wood" 
+                orientation="Vertical" 
+                expanded="false">
+      
+      <String id="stuctural_wood_Species"
+              label="Species" />
+      
+      <String id="stuctural_wood_Strength_grade"
+              label="Strength Grade" />
+
+      <Float id="structural_wood_Bending" 
+             label="Bending"  
+             forcenumeric="spinbox"
+             min="0.01"
+             max="1e+6" />
+      
+      <Float id="structural_wood_compression_parallel" 
+             label="Compression Parallel to Grain"
+             forcenumeric="spinbox"
+             min="0.01"
+             max="1e+6" />
+      
+      <Float id="structural_wood_compression_perpendicular" 
+             label="Compression Perpendicular to Grain"
+             forcenumeric="spinbox"
+             min="0.01"
+             max="1e+5" />
+      
+      
+      <Float id="structural_wood_shear_parallel" 
+             label="Shear Parallel to Grain"
+             forcenumeric="spinbox"
+             min="0.01"
+             max="1e+5" />
+      
+      
+      <Float id="structural_wood_tension_parallel" 
+             label="Tension Parallel to Grain"  
+             forcenumeric="spinbox"
+             min="0.01"
+             max="1e+6" />
+      
+      <Float id="structural_wood_tension_perpendicular" 
+             label="Tension Perpendicular to Grain"  
+             forcenumeric="spinbox"
+             min="0.01"
+             max="1e+5" />
+      
+      <Float id="structural_wood_Average_modulus" 
+             label="Average Modulus"  
+             forcenumeric="spinbox"
+             min="0.01"
+             max="1.3e+8" />
+      
+      <ChooseList id="structural_wood_Construction_Property"
+                  label="Construction" >
+        <Choice id="structural_wood_natural"
+                     val="0"
+                     label="Natural" />
+        <Choice id="structural_wood_glued"
+                     val="1"
+                     label="Glued" />
+        <Choice id="structural_wood_glued_kertoS"
+                     val="2"
+                     label="Glued KertoS" />
+        <Choice id="structural_wood_glued_kertoQ"
+                     val="3"
+                     label="Glued KertoQ" />
+        <Choice id="structural_wood_lvl"
+                     val="4"
+                     label="LVL" />
+      </ChooseList>
+
+       <!--Yield Strength-->
+      <Float id="structural_Minimum_yield_stress"
+             forcenumeric="spinbox"
+             label="Yield Strength"  
+             min="0"
+             max="1e+7" />
+
+      <!--Tensile Strength-->
+      <Float id="structural_Minimum_tensile_strength"
+             forcenumeric="spinbox"
+             label="Tensile Strength"  
+             min="0"
+             max="1e+8" />
+       
+    </StackPanel>
+    
+  </Fields>
+</adsui>

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!DOCTYPE AssetSchema SYSTEM "../../ADSKAssetSchema.dtd">
+
+<AssetSchema>
+
+  <Base val="StructuralAdvancedSchema"
+        file="../Advanced/StructuralAdvancedSchema.xml" />
+
+  <UID  val="StructuralWoodSchema"/>
+
+  <Integer id="SchemaVersion"
+           val="6"
+           public="false"
+           readonly="true" />
+
+  <type val="Structural" />
+
+  <localtype val="Physical" />
+  <localname val="Wood" />
+
+  <String id="stuctural_wood_Species"
+          label="Species"
+          val="" />
+
+  <String id="stuctural_wood_Strength_grade"
+          label="Strength Grade"
+          val="" />
+
+  <Float id="structural_wood_Bending" 
+         val="0.01"
+         unit="Kilopascal"
+         label="Bending"  >
+    <Bounds minimum="0.01"
+            maximum="1e+6" />
+  </Float>
+
+  <Float id="structural_wood_compression_parallel" 
+         val="0.01"
+         unit="Kilopascal"
+         label="Compression Parallel to Grain"  >
+    <Bounds minimum="0.01"
+            maximum="1e+6" />
+  </Float>
+
+  <Float id="structural_wood_compression_perpendicular" 
+         val="0.01"
+         unit="Kilopascal"
+         label="Compression Perpendicular to Grain"  >
+    <Bounds minimum="0.01"
+            maximum="1e+5" />
+  </Float>
+  
+
+  <Float id="structural_wood_shear_parallel" 
+         val="0.01"
+         unit="Kilopascal"
+         label="Shear Parallel to Grain"  >
+    <Bounds minimum="0.01"
+            maximum="1e+5" />
+  </Float>
+
+  
+  <Float id="structural_wood_tension_parallel" 
+         val="0.01"
+         unit="Kilopascal"
+         label="Tension Parallel to Grain"  >
+    <Bounds minimum="0.01"
+            maximum="1e+6" />
+  </Float>
+
+  <Float id="structural_wood_tension_perpendicular" 
+         val="0.01"
+         unit="Kilopascal"
+         label="Tension Perpendicular to Grain"  >
+    <Bounds minimum="0.01"
+            maximum="1e+5" />
+  </Float>
+  
+  <Float id="structural_wood_Average_modulus" 
+         val="0.01"
+         unit="Kilopascal"
+         label="Average Modulus"  >
+    <Bounds minimum="0.01"
+            maximum="1.3e+8" />
+  </Float>
+
+  <Choice id="structural_wood_Construction_Property"
+          val="structural_wood_natural"
+          label="Construction" >
+    <ChoiceValue id="structural_wood_natural"
+                 val="0"
+                 label="Natural" />
+    <ChoiceValue id="structural_wood_glued"
+                 val="1"
+                 label="Glued" />
+    <ChoiceValue id="structural_wood_glued_kertoS"
+                 val="2"
+                 label="Glued KertoS" />
+    <ChoiceValue id="structural_wood_glued_kertoQ"
+                 val="3"
+                 label="Glued KertoQ" />
+    <ChoiceValue id="structural_wood_lvl"
+                 val="4"
+                 label="LVL" />
+  </Choice>
+  
+
+  <!-- Constant values for CommonSchema properties -->
+  <ui id="UIDefinition"
+      val="Structural/Wood/WoodStructuralUI.xml"/>
+
+</AssetSchema>
+
+

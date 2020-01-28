@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE AssetSchema SYSTEM "../../ADSKAssetSchema.dtd">
+
+<AssetSchema>
+
+  <Base val="StructuralAdvancedSchema"
+        file="../Advanced/StructuralAdvancedSchema.xml" />
+
+  <UID  val="StructuralGenericSchema"/>
+
+  <Integer id="SchemaVersion"
+           val="6"
+           public="false"
+           readonly="true" />
+
+  <type val="Structural" />
+
+  <localtype val="Physical" />
+  <localname val="Generic" />
+
+
+  <!-- Constant values for CommonSchema properties -->
+  <ui id="UIDefinition"
+      val="Structural/Generic/GenericStructuralUI.xml"/>
+
+</AssetSchema>
+
+

@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Physical Material
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="asset_information1" 
+                label="Descriptive Information" 
+                orientation="Vertical"
+                expandbutton="false" >
+
+      <AssetDescription id="asset_description"
+                        label="Description"/>
+
+      <ChooseList id="physmat_Type"
+                  label="Type">
+        <Choice id="physmat_plastic"
+                value="0"
+                label="Plastic" />
+        <Choice id="physmat_metal"
+                value="1"
+                label="Metal" />
+        <Choice id="physmat_wood"
+                value="2"
+                label="Wood" />
+        <Choice id="physmat_glass"
+                value="3"
+                label="Glass" />
+        <Choice id="physmat_ceramic"
+                value="4"
+                label="Ceramic" />
+        <Choice id="physmat_stone"
+                value="5"
+                label="Stone" />
+        <Choice id="physmat_liquid"
+                value="6"
+                label="Liquid" />
+        <Choice id="physmat_gas"
+                value="7"
+                label="Gas" />
+        <Choice id="physmat_masonry"
+                value="8"
+                label="Masonry" />
+        <Choice id="physmat_textile"
+                value="9"
+                label="Textile" />
+        <Choice id="physmat_paint"
+                value="10"
+                label="Paint/Coating" />
+        <Choice id="physmat_earth"
+                value="11"
+                label="Earth" />
+        <Choice id="physmat_generic"
+                value="12"
+                label="Generic" />
+        <Choice id="physmat_concrete"
+                value="13"
+                label="Concrete" />
+      </ChooseList>
+
+      <String id="physmat_class"
+              label="Class" />
+
+      <String id="physmat_Comments"
+              label="Comments" />
+
+      <String id="physmat_Keywords"
+              label="Keywords" />
+
+    </StackPanel>
+
+    <StackPanel id="asset_information2" 
+                label="Product Information" 
+                orientation="Vertical"
+                expandbutton="false" >
+
+      <String id="physmat_Manufacturer"
+              label="Manufacturer" />
+      <String id="physmat_Model"
+              label="Model" />
+      <String id="physmat_Cost"
+              label="Cost" />
+      <String id="physmat_URL"
+              label="URL"
+              customcontrol="true" />
+      
+    </StackPanel>
+
+    <StackPanel id="asset_information3" 
+                label="Revit Annotation Information" 
+                orientation="Vertical"
+                expandbutton="false" >
+
+      <String id="physmat_Keynote"
+              label="Keynote"
+              customcontrol="true" />
+      <String id="physmat_Mark"
+              label="Mark" />
+    </StackPanel>
+    
+  </Fields>
+</adsui>
