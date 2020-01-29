@@ -10,7 +10,7 @@ We have Tutorials with images now! :-)
 ![](./IMAGES/UC2_Structure.png)
 
 
-## Ready-to-use box
+## <img src="./IMAGES/D.png" width="40"> <img src="./IMAGES/B.png" width="40"> Ready-to-use box
 
 ![](./IMAGES/UC2_Box_Structure.png)
 
@@ -22,10 +22,10 @@ We made a change in the CAD-design of the cube in order to be more generic (e.g.
 
 The overall dimensions stay the same, but the inserts change!
 
-## Printing
+## <img src="./IMAGES/P.png" width="40"> Printing
 The .stl files can be downloaded and printed. We use an Ultimaker 2+/3 and DeeGreen which is precise enough. Note, that not all parts might be necessary to print. A detailed description or compiled list of necessary parts will follow soon.
 
-## List of available Modules (CUBEs):
+## <img src="./IMAGES/D.png" width="40"> List of available Modules (CUBEs):
 Each folder contains a step-by-step tutorial which describes how the module has to be assembled.
 
 
@@ -60,7 +60,7 @@ Link             |  Image of the part
 * [ELECTRONICS-Mount](./EXT_ELECTRONICS-Mount)
 * [openSIM - Module](./ASSEMBLY_CUBE_openSIM)
 
-## List of available Applications (APPs):
+## <img src="./IMAGES/E.png" width="40"> List of available Applications (APPs):
 - [Abbe Diffraction Experiment](./APP_Abbe_Setup)
 - [Incubator Microscope (Old)](./APP_Incubator_Microscope)
 - [Smartphone Microscope](./APP_SMARTPHONE_MICROSCOPE)
@@ -73,5 +73,5 @@ Link             |  Image of the part
 More setups are coming soon!
 Inspire us with your ideas - we try to make it work! :-)
 
-## Participate
+## <img src="./IMAGES/S.png" width="40"> Participate
 If you have a cool idea, please don't hesitate to write us a line, we are happy to incorporate it in our design to make it even better.

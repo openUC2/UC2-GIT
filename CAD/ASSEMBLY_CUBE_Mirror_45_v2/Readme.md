@@ -17,8 +17,6 @@ Due to limited space, we need to fold the beam using a mirror. This is done by r
 ## Properties
 * design is derived from the base-cube
 * the adapter holds a 30×30 mm ² toy-mirror or a 1 inch circular mirror (e.g. Thorlabs part) at 45 degrees in a UC2 base cube
-
-
 * the here used mirror has the following parameters:
 	* Diameter: 25,4mm
 	* Reflectance
@@ -26,19 +24,16 @@ Due to limited space, we need to fold the beam using a mirror. This is done by r
 	* Substrate Fused: Silica
 	* Thickness: 6.0 mm (0.24")
 
-
-
-
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Mirror Insert** which holds a 1-inch Mirror from Thorlabs ([INSERT](./STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)) or a 30x30mm Mirror from Amazon ([INSERT](./STL/20_Cube_Insert_Mirror_Holder_v2.stl)) and adapts it to the base cube
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 8x DIN912 M3*12 screws (non stainless steel)
 * 1x Thorlabs PF10-03-P01 - Protected Silver Mirror or
 * 1x 30x30 Mirror from Amazon  
@@ -48,7 +43,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Add the mirror to the Insert
 * Add the insert to the Cube
 * Add the screws to the Cube

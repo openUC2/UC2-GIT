@@ -25,7 +25,7 @@ We designed a telescope where an iPhone 5 lens and an ordinary 25mm lens can be 
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
@@ -33,7 +33,7 @@ The Part consists of the following components.
 * **The Telescope** which holds the two lenses  adapts it to the base cube ([TELESCOPE](./STL/20_Cube_Insert_Beamexpander.stl))
 * **The Lens Adapter** which is suitable for a lens with 12,7 mm diameter. You might need a custom one or none at all, depending on the lens size. ([ADAPTER](./STL/30_Lens_Adapter_Beamexpander.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 4x DIN912 M3*12 screws (non stainless steel)
 * iPhone 5 lens (serperated from an iPhone camera spare part), f'=3mm
 * biconved/plan-convex lens, f'=25mm, diameter=20mm, thickness=4mm
@@ -43,7 +43,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove the iPhone lens from the camera (a dedicated tutorial can be found in the [UC2 Tutorial-Section](../../DOCUMETS/TUTORIAL).
 * Insert the lenses inside the telescope adapter (orientation of the iPhone has to be the way, that the small aperture - hole - has to face the other bigger lens as indicated by the photo)
 ![](./IMAGES/Beamexpander_Assembly_1.png)

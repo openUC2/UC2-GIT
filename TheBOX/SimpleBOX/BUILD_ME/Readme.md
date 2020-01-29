@@ -12,7 +12,7 @@ This is a guide for building the [SimpleBOX](../SimpleBOX). The guide for the [F
 * [Tools](#which-tools-to-use)
 * [Assembly](#assembly)
 
-## Shopping
+## <img src="./IMAGES/B.png" height="40"> Shopping
 ### What to buy
 
 Link - name of part             |  Amount |  Comment | Price per amount used
@@ -30,7 +30,7 @@ Link - name of part             |  Amount |  Comment | Price per amount used
   [Screws](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) |   ~120 pieces | M3×12, galvanized steel - ~50  pieces; M3×8, galvanized steel - ~50 pieces; M3×5, galvanized steel, worm screw - 6 pieces; M3×12, galvanized steel, worm screw - 2 pieces; M4×20, not magnetic - 1 pieces; M4 nut | ~10 €
   [Chocolate](https://www.milka.de/produkte/milka-standard-tafeln/milka-alpenmilch?p=128&provider={D193998A-4A6D-4EA5-BAA8-209357B27A09}&categoryId=1395)|1 bar| Use it as a reward when you're done.
 
-## 3D Printing:
+## <img src="./IMAGES/P.png" height="40"> 3D Printing:
 
 Completely new to 3D printing? Have a look into this [beginner's guide](https://www.makeuseof.com/tag/beginners-guide-3d-printing/)!
 
@@ -43,7 +43,7 @@ We have a good experience with this printer and settings:
   * Profile Optimal 0,15 mm, infill 20%, no support, 215/60°C
   * [Hint](./IMAGES/prus_printing_SimpleBOX.pdf)
 
-### Housing
+### <img src="./IMAGES/D.png" height="40">  Housing
 Name of part - Link to STL file             |  Amount
 :-------------------------:|:----------------------------:
 [(01) Basic Cube 2×1](./STL/01_10_Cube_2x1_v2.stl)  |  1 piece
@@ -53,7 +53,7 @@ Name of part - Link to STL file             |  Amount
 [(18) Baseplate 4×1](./STL/18_Assembly_base_4x1.stl)  |  3 pieces
 [(19) Baseplate 4×2](./STL/19_Assembly_base_4x2.stl)  |  1 piece
 
-### Inserts
+### <img src="./IMAGES/D.png" height="40"> Inserts
 
 Name of part - Link to STL file            |  Amount |  Comment
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -71,7 +71,7 @@ Name of part - Link to STL file            |  Amount |  Comment
 [(16) Lens Holder Clamp](./STL/16_20_Lens_mount_clamp.stl)  |  5 pieces | Diameter fits for the listed lenses (25 mm).
 [(17) Smartphone Holder](./STL/17_30_Smartphone_Holder.stl)  |  1 piece | Which belongs together with the eyepiece cube.
 
-## Which tools to use
+## <img src="./IMAGES/A.png" height="40"> Which tools to use
 Tool             |  Image|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
 [Electric screw driver with 2,5 mm hex bit](https://www.amazon.de/Bosch-Akkuschrauber-Generation-Bits-Ladeger%C3%A4t/dp/B00TTZU566/ref=asc_df_B00TTZU566/?tag=googshopde-21&linkCode=df0&hvadid=255989693737&hvpos=1o1&hvnetw=g&hvrand=6125749874385941808&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9042960&hvtargid=pla-421346020200&psc=1&th=1&psc=1) |<img src="./IMAGES/screwdriver.jpg" width="300"> | For putting the cubes together using M3×12 and M3×8 screws.
@@ -80,7 +80,7 @@ Tool             |  Image|  Comment
 [1,5 mm hex key](https://www.amazon.de/Presch-Innensechskant-Satz-Kugelkopf-Innensechskantschl%C3%BCssel/dp/B079V335CR/ref=sr_1_2_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2K89GU3MY8P26&keywords=hex+key+set&qid=1575997133&s=diy&sprefix=hex+%2Cdiy%2C160&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRENMU0hKWkJRR0FEJmVuY3J5cHRlZElkPUEwMDIzMjIyMzFBWVIyOEpORU1FSCZlbmNyeXB0ZWRBZElkPUEwMzk0NjQwMlA0NFZDTVk0Tk9LUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) |↑↑ | For assembly of the Z-Stage - mounting worm screws.
 [Needle-nose Pliers](https://www.amazon.de/Br%C3%BCder-Mannesmann-Telefonzange-gerade-M10948/dp/B003A63EIG/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=needle+nose+pliers&qid=1575997091&s=diy&sr=1-3) |<img src="./IMAGES/pliers.jpg" width="300"> | For assembly of the Z-Stage - inserting the M4 nut.
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40">  Assembly
 Part - link             |  Result|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
 [Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)|<img src="./IMAGES/baseplates.jpg" width="300">|1× "big" baseplate (4×2), 3× "small" baseplate (4×1)
@@ -91,4 +91,4 @@ Part - link             |  Result|  Comment
 [Eyepiece and Smartphone Cube](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)|<img src="./IMAGES/smartphone.jpg" width="300">|1× Eyepiece Cube with Smartphone Holder mounted on it
 [Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)|<img src="./IMAGES/z-stage.jpg" width="300">|1× mechanical Z-Stage with Sample Clamp
 
-## Done! Great job! Explore the experiments with our [work sheets](../DOCUMENT/UC2_simpleBOX.pdf) now.
+## <img src="./IMAGES/E_S.png" height="40"> Done! Great job! Explore the experiments with our [work sheets](../DOCUMENT/UC2_simpleBOX.pdf) now.

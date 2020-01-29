@@ -17,7 +17,7 @@ The basic properties/features of the assembly go here.
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 Here we list the 3D printed components from the ./STL folder
 
 The Part consists of the following components.
@@ -26,7 +26,7 @@ The Part consists of the following components.
 2. **The LED-Matrix Adapter** which adapts to the Neopixel LED Matrix display. ([ADAPTER](./STL/20_Cube_insert_LED_holder.stl))
 
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 Here we list all parts which need to be bought from different sources.
 
 |  Name | Properties  |  Price | Link  | # |
@@ -46,7 +46,7 @@ You can connect the supply-voltage wires to the screws (5V, Gnd) which can conne
 ### Electronics
 Please follow the tutorial of how to handle the LED Matrix in the Adafruit Post [here](https://learn.adafruit.com/adafruit-neopixel-uberguide/neomatrix-library). We connect the LED-array to ```pin 9```.
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 The assembly of this part is straight forward. Just screw all the parts together to end up here:
 
 <p align="center">

@@ -8,10 +8,10 @@ That's how it could look like:
 
 Useful for Workshops. Get back to us if you want to organize one together with us!
 
-## Build the BOX
+## <img src="./IMAGES/D_B_P_A.png" height="40"> Build the BOX
 A list of 3D-printed parts and necessary components is found in [BUILD_ME](./BUILD_ME), together with assembly guidelines and some printing tips and tricks.
 
-## Setups
+## <img src="./IMAGES/E.png" height="40"> Setups
 What can you build with the SimpleBOX?
 
 ### Projector
@@ -37,5 +37,5 @@ Trasmission microscope, uses smartphone for image acquisition. LED array serves 
 
 You also find some education material and more about the setups in [DOCUMENTS](./DOCUMENTS/UC2_simpleBOX.pdf). At the moment, the materials are in German only.
 
-## Participate
+## <img src="./IMAGES/S.png" height="40"> Participate
 If you have a cool idea, please don't hesitate to write us a line, we are happy to incorporate it in our design to make it even better.

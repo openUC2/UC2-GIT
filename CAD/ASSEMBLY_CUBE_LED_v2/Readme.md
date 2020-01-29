@@ -17,7 +17,7 @@ width="500">
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 Here we list the 3D printed components from the [STL](./STL) folder
 
 
@@ -30,7 +30,7 @@ The Part consists of the following components.
 5. **The Sample holder clamp** that fixes the pinhole in its position ([SAMPLE CLAMP](./STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl))
 
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Hi-Power LED 1W/3W UV STAR Blue for the Holography experiment
 * Any LED STAR if you plan to use it for another application
 * Cables
@@ -44,7 +44,7 @@ The Part consists of the following components.
 * Carefully remove all support structures (if applicable)
 
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove any support and clean the part
 * Solder the wires to the LED
 * Insert the LED in its holder

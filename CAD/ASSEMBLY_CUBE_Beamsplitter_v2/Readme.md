@@ -17,14 +17,14 @@ width="1000">
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Beamsplitter Insert** which holds a glass beamsplitter cube and adapts it to the base cube ([Beamsplitter](./STL/20_Cube_Insert_Beamsplitter.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 4x DIN912 M3*12 screws (non stainless steel)
 * 1x Beamsplitter cube (20×20 mm²)
 
@@ -34,7 +34,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove any support and clean the part
 * Insert the glass beamsplitter inside its holder
 * Slide the beamsplitter holder into the Cube Body

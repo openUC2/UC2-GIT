@@ -29,7 +29,7 @@ For the common lenses we also offer a more stable solution.
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
@@ -50,9 +50,9 @@ For any lens you have at hand:
 * Open the file called "Assembly_Insert_Lens_mount_fixed.iam" → 20_Lens_holder.ipt → Manage → Parameters → Lens_Diameter → Done → Return → Update → Save Copy As → .stl → Options → One Part per File
 * For a thick (often the case of concave lenses) increase the thickness of the holder (hint: thickness of your lens at the edge + 2-3 mm)
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 8x DIN912 M3*12 screws (non stainless steel)
-* Microscopic Objective lens, 4x, 0.1NA, RMS-Thread, Finite corrected or any lens < 16mm Diameter
+* Microscopic Objective lens, 4x, 0.1NA, RMS-Thread, Finite corrected or any lens < 35mm Diameter
 
 
 ## Remarks and Tips
@@ -60,17 +60,17 @@ For any lens you have at hand:
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly of the Generic Lens Holder
+## <img src="./IMAGES/A.png" height="40"> Assembly of the Generic Lens Holder
 * Mount the lens inside the insert
 * Put the Insert inside the Cube
 * Add all screws to the Cube
 * Done!
 
-## Assembly of Size-fitting Lens Holder
+## <img src="./IMAGES/A.png" height="40"> Assembly of Size-fitting Lens Holder
 * Mount the lens inside the holder
 * Put the clamp in, to hold the lens
 * Put hot glue in the groove between the clamp and the holder - this way it will fix it permanently. The glue must never touch the lens!
-* Put the Insert in the Cube 
+* Put the Insert in the Cube
 * Add all screws to the Cube
 * Done!
 

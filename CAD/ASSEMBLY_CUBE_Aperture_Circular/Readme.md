@@ -16,7 +16,7 @@ The aperture diaphragm is typically used in the case of critical or Köhler illu
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** which closes the Cube ([LID](./STL/10_Lid_1x1_v2.stl))
@@ -26,21 +26,21 @@ The Part consists of the following components.
 * **The Aperture Leaf** which moves when the wheel is rotated. Print ALL the leaves in the STL folder ([LEAF](./STL/20_Cube_Insert_CirAp_Leaf1.stl))
 * **The Aperture Lid** which holds the wheel in position by pressing it against the guiding part ([APERTURE LID](./STL/20_Cube_Insert_CirAp_Lid.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 8x DIN912 M3*12 screws (non stainless steel)
 
 ## Remarks and Tips
-### 3D Printing:
+### <img src="./IMAGES/P.png" height="40"> 3D Printing:
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Assemble the aperture
 * Add the insert to the Cube
 * Add screws to the Cube
 * Done!
 
-### Tutorial with images
+### <img src="./IMAGES/A.png" height="40"> Tutorial with images
 
 1. All parts for this model: Don't forget to print SEVEN leaves!
 <p align="center">

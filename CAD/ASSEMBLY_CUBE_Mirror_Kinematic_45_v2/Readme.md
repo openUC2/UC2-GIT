@@ -23,14 +23,14 @@ Due to limited space, we sometimes need to fold the beam using a mirror. This is
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Kinematic Mirror Holder** which holds a Mirror and adapts it to the base cube ([INSERT](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 7× DIN912 M3*12 screws (non stainless steel)
 * 3× Ballmagnets, arbitrary diameter
 * Metalplate, 30×40 mm<sup>2</sup>, magnetic material (e.g. Nickel)
@@ -43,7 +43,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove any support and clean the part
 * Insert three M3 screw into the holes in the mirror holder. There are four holes - the one in the center of the part stays empty! Make sure you are using the correct holes
 * Slide the mirror holder into the Cube

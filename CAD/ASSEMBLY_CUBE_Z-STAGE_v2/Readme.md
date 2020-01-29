@@ -28,7 +28,7 @@ Another spiral-like spring can hold an objective lens with varying sizes. It als
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid (2x1)** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_el_2x1_v2.stl))
@@ -42,7 +42,7 @@ For Fluomodule:
 * **The Adapterplate** which goes on top and where the slides are placed ([ADAPTERPLATE](./STL/30_Z_Stage_Adapterplate_11.stl))
 * **The Clamp for microscope slides** which can fix the slide ([CLAMP](./STL/40_XY_Stage_Clamp_Slide_9.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 16x DIN912 M3*12 screws (non stainless steel)
 * 1x M4 Nut
 * 1x M4 Screw, Hex Head, 26mm
@@ -57,7 +57,7 @@ For Fluomodule:
 * No support required in all designs except the sprial focussing mechanism (use sparse support!)
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Detailed description coming soon
 * Add motor and small gear, fix it with M4 screw
 * Add the M4 nut in the dedicted hole close to the moving stage
@@ -172,8 +172,6 @@ It's tought to work as a darkfield illumination. This reduces any scattering lig
 
 ## Fluorescent Module
 
-The wiring of the fluoresceent module can be found [here](../CUBE_INSERT_Fluomodule). 
+The wiring of the fluoresceent module can be found [here](../CUBE_INSERT_Fluomodule).
 ## Safety
 Be careful!
-
-

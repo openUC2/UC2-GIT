@@ -30,7 +30,7 @@ We measured a mean power of ***0.546 mW*** in continous mode. We used new batter
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
@@ -39,7 +39,7 @@ The Part consists of the following components.
 * **The Laser Clamp** allows switching the laser permanently ([SWITCH](./STL/00_Laser_Clamp_OnOffSwitch.stl))
 
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 10x DIN912 M3*12 screws (non stainless steel)
 * Laserlands 450 nm laser-pointer
 
@@ -48,7 +48,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Prepare the laser-pointer by inserting the batteries
 * Insert the 4 screws in the Laser Mount Adapter and screw them thus far so the they are not visible in the inner hole
 * Insert the Laserpointer inside the adapter

@@ -23,7 +23,7 @@ To keep the setup as simple as possible we decided to mount the sample (e.g. bea
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid (Special)** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2_thin.stl))
@@ -31,7 +31,7 @@ The Part consists of the following components.
 * **The Sample Chamber** which can be filled with liquid ([CHAMBER](./STL/30_Samplechamber.stl))
 * **The Syringe Holder** which holds a Syringe and is very useful for light-sheet alignment ([HOLDER](./STL/30_Syringe_holder_v2.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 4x DIN912 M3*12 screws (non stainless steel)
 * 3x M3 Nut
 * 1x M3 Screw, 26 mm
@@ -46,7 +46,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Detailed description coming soon
 * Add motor and small gear, fix it with M4 screw
 * Add the M3 nut in the dedicted hole close to the moving stage

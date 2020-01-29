@@ -34,14 +34,14 @@ More information:
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Lens Holder** which holds a rect. lens ([HOLDER](./STL/20_Cube_Insert_Lens_Cylindrical.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 8x DIN912 M3*12 screws (non stainless steel)
 * Comar cylindrical lens
 
@@ -50,7 +50,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Put the lens inside the insert
 * Add the insert to the Cube
 * Add screws to the Cube

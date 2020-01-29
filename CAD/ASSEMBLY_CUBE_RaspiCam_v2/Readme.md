@@ -21,14 +21,14 @@ The sensor (w/wo lens) is put into an adapter which holds the camera in the cent
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Camera Insert** which holds the camera and makes it adaptable to the base-cube ([INSERTE](./STL/20_Cube_Insert_RaspiCam.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 4x DIN912 M3*12 screws (non stainless steel)
 * Raspi Camera (v1, v2)
 * 2x M2*10 screws (best: plastic)
@@ -38,7 +38,7 @@ The Part consists of the following components.
 ### 3D Printing:
 * No support required in all designs
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Mount the flex cable to the raspi-cam
 * Mount the camera board to the Camera-Inlet using the 2 M2 screws
 * Fix the position by mounting the 2 nuts. Take care to not destroy the camera'S PCB

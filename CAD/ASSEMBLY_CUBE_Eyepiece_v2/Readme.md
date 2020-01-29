@@ -16,14 +16,14 @@ It adapts an eyepiece to the UC2 cube.
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Eyepiece holder** which connects the objective to the Cube ([INSERT](./STL/20_Cube_Insert_Holder-okular_v2.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 4× DIN912 M3*12 screws (non stainless steel)
 * 4× DIN912 M3*8 screws (non stainless steel)
 * 1× Eyepiece
@@ -35,7 +35,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly (Attention: Parts have been updated)
+## <img src="./IMAGES/A.png" height="40"> Assembly (Attention: Parts have been updated)
 * Remove any support and clean the part
 * Insert M3 screws (8 mm) into the Half-cube
 * Add the lid and fix it using a set of M3 screws (12 mm)

@@ -19,19 +19,19 @@ width="450">
 
 Useful for Workshops. Get back to us if you want to organize one together with us!
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 A description on how to assemble the parts can be found in each Application-folder following the "LINK". It gives also a list of additional components to print/buy.
 
-## 3D printing
+## <img src="./IMAGES/P.png" height="40"> 3D printing
 A list of 3D-printed parts is found in [STL](../STL), together with some printing tips and tricks.
 
-## Necessary Parts
+## <img src="./IMAGES/D.png" height="40"><img src="./IMAGES/B.png" height="40"> Necessary Parts
 The detailed up-to-date list of all components can be found in this [google-spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing).
 
 The overall price-tag is around 600€ including the Raspberry Pi, Camera, Optics, 3D printed parts and all additional components.
 
 
-## Possible Setups
+## <img src="./IMAGES/E.png" height="40"> Possible Setups
 What could be inside the box?
 
 ### Projector
@@ -264,5 +264,5 @@ What is inside the Box?
 
 
 
-## Participate
+## <img src="./IMAGES/S.png" height="40"> Participate
 If you have a cool idea, please don't hesitate to write us a line, we are happy to incorporate it in our design to make it even better.

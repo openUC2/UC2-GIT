@@ -26,16 +26,16 @@ width="500">
 </p>
 
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 Always print the baseplate the flat side down. The files in [STL](./STL) might sometimes be the other way around. Make sure to rotate them into the correct position in your 3D printer slicing software before saving the gcode.
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 
 * Ballmagnets - 5 mm diameter [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 
 
-## Assembly-Tutorial with images (Base)
+## <img src="./IMAGES/A.png" height="40"> Assembly-Tutorial with images (Base)
 
 1. All parts for this model
 <p align="center">

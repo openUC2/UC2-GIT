@@ -19,7 +19,7 @@ In some cases it might be useful to use the comb-structured sample holder, shown
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 Here we list the 3D printed components from the ./STL folder
 
 The Part consists of the following components.
@@ -30,7 +30,7 @@ The Part consists of the following components.
 * **The Sample holder clamp** that fixes the pinhole in its position ([CLAMP](./STL/20_Cube_Insert_Sample_clamp.stl))
 * **The Sample holder Comb** that can hold a microscope slide or other flat object ([COMB](./STL/20_Cube_Sampleholder.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 8x DIN912 M3*12 screws (non stainless steel)
 
 ## Remarks and Tips
@@ -40,7 +40,7 @@ The Part consists of the following components.
 * Carefully remove all support structures (if applicable)
 
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove any support and clean the part
 * Press the Clamp on the sample holder, slide the holder into the Cube Body in front of the LED
 * Add the lid and fix it using a set of M3 screws

@@ -18,7 +18,7 @@ width="400">
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
@@ -27,7 +27,7 @@ The Part consists of the following components.
 * 2x **The Retain Rings** which fixes the emission and excitation filters ([RETAIN RING](./STL/20_Cube_Insert_Beamsplittercube_Dichroicmirror_Retainplate.stl))
 * 1x **The Retain Plate** which holds the dichroic filter ([RETAIN PLATE](./STL/20_Cube_Insert_Beamsplittercube_Retainring_25mm.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 10x DIN912 M3*12 screws (non stainless steel)
 * 1x Dichroic Mirror (16mmx25mm, rectangular, e.g. COMAR optics)
 * 1x Excitation filter (25mm Diameter, e.g. COMAR optics)
@@ -38,7 +38,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove any support and clean the part
 * Insert the dichroic filter inside its place
 * Mount the Retain Plate with 2x M3 Screws

@@ -15,14 +15,14 @@ It adapts to the 1 inch Cage System from Thorlabs.
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Thorlabs Insert** which adapts to any 1 inch cage system component ([INSERT](./STL/20_Cube_Insert_Thorlabs.stl))
 
-### Additional parts
+### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 8x DIN912 M3*12 screws (non stainless steel)
 * Cage System Component
 
@@ -32,7 +32,7 @@ The Part consists of the following components.
 * No support required in all designs
 * Carefully remove all support structures (if applicable)
 
-## Assembly
+## <img src="./IMAGES/A.png" height="40"> Assembly
 * Mount the Cage component inside the insert
 * Put the Insert inside the Cube
 * Add all screws to the Cube

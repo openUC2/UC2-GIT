@@ -15,7 +15,7 @@ width="1000">
 
 ## Parts
 
-### 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 Here we list the 3D printed components from the ./STL folder
 
 
@@ -25,12 +25,8 @@ The Part consists of the following components.
 2. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 3. **The Smartphone holder**, on which the phone will be placed ([SMARTPHONE](./STL/30_Smartphone_Holder.stl))
 
-
-
-### Additional parts
+### <img src="./IMAGES/P.png" height="40"> Additional parts
 * 4x DIN912 M3*12 screws (non stainless steel)
-
-
 
 ## Remarks and Tips
 
@@ -40,7 +36,7 @@ Settins for cura? Support? Temperture?
 ### Tricks
 Anything which need to get mentioned here?
 
-## Assembly
+## <img src="./IMAGES/P.png" height="40"> Assembly
 * Remove any support and clean the part
 * Add the lid and fix it using a set of M3 screws
 * Fix the holder on the side of the cube opposite to the lid using four M3 screws
@@ -50,7 +46,6 @@ Anything which need to get mentioned here?
 <img src="./IMAGES/DSC_1794.jpg"
 width="800">
 </p>
-
 
 ## Safety
 Take care in case you're dealing with lasers!
