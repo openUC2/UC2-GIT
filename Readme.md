@@ -17,6 +17,25 @@
 
 ---
 
+# Start here! Everything is open-source - simply join!
+## Steps to reproduce and contribute to the toolbox:
+<p align="center">
+<img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800">
+</p>
+
+## Click here if you are looking for...
+
+
+
+TheBOX|General toolbox |Workshops
+:------:|:------:|:------:
+<img src="./IMAGES/UC2_theBox.jpg" height="200" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="200">|<img src="./IMAGES/UC2_workshop.jpg" height="200">
+[Build your own BOX that contains multiple experiments.](./TheBOX) | [Explore the toolbox and what we already offer.](./CAD) | [Host or join a workshop.](./WORKSHOP)
+
+## ... or keep on reading to learn more about the project!
+
+---
+
 Making **open-science** great again!
 
 **UC2** is a general-purpose modular framework for making interactive (electro)-optical projects. Most optical systems such as microscopes follow a simple **4f** or Fourier-optical principle, where lenses are aligned such that focal-planes of adjacent components overlap to limit the amount of aberrations as much as possible and to be able to predict the system-behavior easily using Fourier-transforms.
@@ -47,13 +66,13 @@ A full cube + base-plate looks like that:
 
 
 
-**UC2** can be used with cameras from the Raspberry Pi world, but creates even more beautiful images with your cellphone. Thus making cutting edge-research not only affordable, but also available. 
+**UC2** can be used with cameras from the Raspberry Pi world, but creates even more beautiful images with your cellphone. Thus making cutting edge-research not only affordable, but also available.
 A more in-detail project description can be found in the [UC2 White-Paper](./DOCUMENTS/UC2_Whitepaper.pdf)
 
 
 ## UC2 as an "open-standard"
 
-The idea is to use **UC2** as an open-standard or bridge to external hardware components and devices such as cameras or lenses. An already existing or customized adapter/insert creates the link to the **UC2** eco-system. A variety of ready-to-use adapters can be found in the folder [CAD](./CAD). 
+The idea is to use **UC2** as an open-standard or bridge to external hardware components and devices such as cameras or lenses. An already existing or customized adapter/insert creates the link to the **UC2** eco-system. A variety of ready-to-use adapters can be found in the folder [CAD](./CAD).
 
 <p align="center">
 <img src="./IMAGES/UC2_openstandard.png" width="550">
@@ -62,7 +81,7 @@ The idea is to use **UC2** as an open-standard or bridge to external hardware co
 **FIG 3:** The structure of any UC2 assembly follows the green lines; A basic cube can hold an insert thus adapting to different components (i.e. lenses, etc.); A number of assembled cube-modules can form a complex optical system here called application
 
 
-A more in-detail description of the **MDK** (**M**odule **D**eveloper **K**it) which explains how ***your idea*** can be adapted to the module system can be found in the [MDK](./MDK)-folder. 
+A more in-detail description of the **MDK** (**M**odule **D**eveloper **K**it) which explains how ***your idea*** can be adapted to the module system can be found in the [MDK](./MDK)-folder.
 
 If you have a new part, we are eager to see it. Please feel free to share it on available resources like Twitter, Thingiverse, Github or any other platform of choice!
 
@@ -79,7 +98,7 @@ Our goal is to make as many setups as possible available, so that people can pla
 * [**FULL**Box: Optical setups for high-schools to universities (contains electronics)](./TheBOX/SimpleBOX)
 
 
-### SIMPLE Setups 
+### SIMPLE Setups
 * [*SIMPLE* - Projector](./CAD/APP_SIMPLE-Projector)
 * [*SIMPLE* - Telescope](./CAD/APP_SIMPLE-Telescope)
 * [*SIMPLE* - Smartphone Microscope](./CAD/APP_SMARTPHONE_MICROSCOPE)
@@ -94,7 +113,7 @@ Our goal is to make as many setups as possible available, so that people can pla
 * [Mach Zehnder interferometer (Interference-effect of light)](./CAD/APP_Mach-Zehnder_Interferometer)
 * [Double Slit Experiment (Interference-effect of light)](./CAD/APP_Double-slit_Experiment)
 
-### COMPLEX Setups 
+### COMPLEX Setups
 * [*openSIM* - Structured Illumination Microscopy (2-Beam Interference Super-Resolution)](./CAD/APP_openSIM)
 * [*openISM* - Image Scanning Microscopy (Confocal or Super-confocal imaging)](./CAD/APP_openISM)
 * [*openKOEHLER* - Phase Contrast enhancement using an adaptive Koehler illumination](./CAD/APP_openKOEHLER)
@@ -117,7 +136,7 @@ Currently, **UC2** consists of the following repositories:
 There is a new Software repository dedicated for the UC2 stuff. It can be found [here](https://github.com/bionanoimaging/UC2-Software-GIT).
 It supports you with controler APPS for the Raspberry Pi and Android Cellphones.
 
-## Quickstart 
+## Quickstart
 
 ### Print your first UC2 cube
 
@@ -137,23 +156,23 @@ A quick printing tutorial can be found here:
 ### Modify the UC2 design-files
 
 The basic cube can directly be printed using the [STL](./CAD/ASSEMBLY_CUBE_Base_v2/STL)-files or imported in Autodesk's Inventor/Fusion360. Therefor we wrote a little tutorial which can be found [here](./CAD/ASSEMBLY_CUBE_Base_v2).
-A video is coming soon! 
+A video is coming soon!
 
 A quick tutorial where you find a guide on how an inlet could look like can be found here: [Guide to design a customized function](./DOCUMENTS/TUTORIALS/TUT_Basic_Design_Cube_Inlet_Function_v0.pdf).
 
 
 ### Workshops
 
-The documented workshops can be found in the folder [WORKSHOP](./WORKSHOP) and give a step-by-step introduction into the system. We have done multiple workshops together with the HHMI Janelia Farm, UiO Oslo, Lichtwerkstatt Jena and Leibniz IPHT Jena e.V. If you're interested we are happy to host one near you. 
+The documented workshops can be found in the folder [WORKSHOP](./WORKSHOP) and give a step-by-step introduction into the system. We have done multiple workshops together with the HHMI Janelia Farm, UiO Oslo, Lichtwerkstatt Jena and Leibniz IPHT Jena e.V. If you're interested we are happy to host one near you.
 
 
 ### Bill of Material
 
 All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. The project is heavily benefiting from the wide variety and availability of components brought up by the open-source community.
 
-Recent lists can be found [here](https://github.com/bionanoimaging/UC2-GIT/tree/master/DOCUMENTS). It includes shops for the low-cost components we use in our setups as well as the List of all parts for the Boxes. 
+Recent lists can be found [here](https://github.com/bionanoimaging/UC2-GIT/tree/master/DOCUMENTS). It includes shops for the low-cost components we use in our setups as well as the List of all parts for the Boxes.
 
-The [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is an always up-to-date version of the list. 
+The [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is an always up-to-date version of the list.
 
 
 ## Get Involved!

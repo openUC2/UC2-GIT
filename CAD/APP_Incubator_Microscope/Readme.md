@@ -44,6 +44,9 @@ Please have a look at the folder [STL](./STL). All files need to be printed.
 * based on off-the-shelf components (please see the bill of materials in the (./../DOCUMENTS) DOCUMENTS folder)
 * Open-Source
 
+## Assembly and alignment
+A simplified scheme can be found [here](./IMAGES/UC2_fullBOX_incubator_EN.pdf).
+
 ## Results
 
 This is a 30-minutes timelapse of some dog-cells made in a Workshop in UiO prepared by Xian H. and Kay S.
