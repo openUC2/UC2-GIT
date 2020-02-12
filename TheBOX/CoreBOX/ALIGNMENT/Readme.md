@@ -33,7 +33,8 @@
 
 5. Use direct illumination from the flashlight with! its lens. Adjust the position of the objective lens - focus the image on PIP by moving the lens back or forth.
 
-*     **Focussing Trick:**     Firstly move the whole objective lens cube in one direction (away from the sample). If the image sharpness in PIP improves, slide the insert in that direction. If the image sharpness in PIP get worse, slide the insert in the opposite direction, towards the sample. Continue until you get a focussed image of your sample on the PIP.
+* **Focussing Trick:** Firstly move the whole objective lens cube in one direction (away from the sample). If the image sharpness in PIP improves, slide the insert in that direction. If the image sharpness in PIP get worse, slide the insert in the opposite direction, towards the sample. Continue until you get a focussed image of your sample on the PIP.
+
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_06.jpg" width="500">
 </p>
@@ -84,7 +85,9 @@
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_18.jpg" width="500">
 </p>
+
 * Place the AD into the same plane - slide in within the cube. Careful - push the Aperture from one side to keep it together.
+
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_19.jpg" width="500">
 <img src="./IMAGES/UC2_coreBOX_alignment_20.jpg" width="500">
@@ -117,7 +120,9 @@
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_28.jpg" width="500">
 </p>
+
 * Left: both apertures open. Middle: FD closed. Right: AD closed.
+
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_29.jpg" height="375">
 <img src="./IMAGES/UC2_coreBOX_alignment_30.jpg" height="375">
@@ -169,13 +174,16 @@
 
 * Option 1: Place the mirror as shown in the picture.
 * Place the eyepiece lens (40 mm).
+
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_41.jpg" height="375">
 <img src="./IMAGES/UC2_coreBOX_alignment_42.jpg" height="375">
 </p>
+
 * Option 2: Place the mirror as shown in the picture.
 * Place the baseplate connector on the mirror cube.
 * Place the eyepiece cube (40 mm) on the connector on the mirror cube.
+
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_43.jpg" height="375">
 <img src="./IMAGES/UC2_coreBOX_alignment_44.jpg" height="375">
