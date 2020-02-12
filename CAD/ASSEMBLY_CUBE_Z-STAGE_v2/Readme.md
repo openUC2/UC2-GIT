@@ -3,27 +3,35 @@ This is the repository for the Z-Stage (Objective) Cube.
 
 The stl-files can be found in the folder [STL](./STL).
 
-
 ### Purpose
 In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample.
-In order to automate this, we designed a very simple z-stage itself reyling on flexure bearings also knwon from Bowman's flexurescope. The main difference here is, that we rely on a spiral-design which avoids the parallel-shift of the objective lens and makes the entire design very robust.
+In order to automate this, we designed a very simple z-stage itself relying on flexure bearings also knwon from Bowman's flexurescope.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Z_Focus_Spiralbearing_v3.png" width="1000">
+<img src="./IMAGES/Assembly_Z_Focus_Linearbearing_v0_with_fluomodule.png" width="1000">
 </p>
 
-***The mechanism is as follows***: A stepper motor (28-BYJ) drives a small gearbox which rotates a screw. On the screw, there is a nut which acts as a worm-drive. The conversion of the rotational into linear movement pushes/pulls a small level-arm which is connected to the spiral spring-like linear actuator. It can thus move up-and down around the resting position.
-Another spiral-like spring can hold an objective lens with varying sizes. It also allows coarse z-focussing.  
+**The mechanism is the following:**
 
+**Course movement:** The objective is mounted on a ring which has a screw on one side and the screw head is inserted in a slot in the focussing insert. The movement range for this is 35 mm - the full length of th slot.
 <p align="center">
-<img src="./IMAGES/Assembly_Z_Focus_Spiralbearing_v3_2.png" width="600">
+<img src="./IMAGES/Z-stage_principle_01.jpg" width="300">
+<img src="./IMAGES/Z-stage_principle_02.jpg" width="300">
+<img src="./IMAGES/Z-stage_principle_03.jpg" width="300">
+</p>
+
+**Fine movement:** For fine focussing the linearbearing lever is moved by (in this case) a step-motor. When the screw pushes or pulls the lever, due to a rotation of the motor, the objective mount moves with it.
+<p align="center">
+<img src="./IMAGES/Z-stage_principle_04.jpg" width="300">
+<img src="./IMAGES/Z-stage_principle_05.jpg" width="300">
+<img src="./IMAGES/Z-stage_principle_06.jpg" width="300">
 </p>
 
 ## Properties
 * theoretically no play due to the use of flexure berings
 * moving range
-	* fine: around +/- 8mm
-	* coarse: around +/- 20 mm (shifting the objective lens inside the spiral-like spring
+	* fine: around +/- 6 mm
+	* coarse: around 30 mm (shifting the objective lens inside the slot)
 * very low cost by relying on off-the-shelf components
 
 ## Parts
@@ -33,9 +41,9 @@ The Part consists of the following components.
 
 * **The Lid (2x1)** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_el_2x1_v2.stl))
 * **The Cube (2x1)** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_2x1_v2.stl))
-* **The Z-Stage and Motor Holder** which moves the objective and holds the stepper motor ([INSERT](./STL/20_focus_inlet_triangle_spiral_v6.stl))
-* **The M4 to Motor Adapter (mech. Coupling)** which connects the Motor directly to an M4 screw which acts as a wormdrive ([SCREW](./STL/30_Coupling_Screw_28BYJ_M4.stl))
-* **The Objective Lens Thread Fixer** Kind of a retain ring which pushes the spiral arms closer to the objective lens ([FIXER](./STL/30_focus_inlet_triangle_spiral_fixingring.stl))
+* **The Z-Stage and Motor Holder** which moves the objective and holds the stepper motor ([INSERT](./STL/20_focus_inlet_linearflexure_v0.stl))
+* **The M3 to Motor Adapter (mech. Coupling)** which connects the Motor directly to an M3 screw which acts as a wormdrive ([SCREW](./STL/30_Coupling_Screw_28BYJ_M3.stl))
+* **The Objective Lens Mount** which holds the objective and allows for coarse movement ([OBJECTIVE MOUNT](./STL/30_focus_inlet_objective_mount_v7.stl))
 
 For Fluomodule:
 * **The Fluomodule** where the LEDs finds their place ([FLUOMODULE](./STL/30_Z_Stage_Fluomodule_12.stl))
@@ -43,101 +51,170 @@ For Fluomodule:
 * **The Clamp for microscope slides** which can fix the slide ([CLAMP](./STL/40_XY_Stage_Clamp_Slide_9.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* 16x DIN912 M3*12 screws (non stainless steel)
-* 1x M4 Nut
-* 1x M4 Screw, Hex Head, 26mm
-* 1x 28-BYJ stepper motor
-* 1x Driving electronic
-* 1x ESP32 for controlling the motor
+* 4× DIN912 M3×12 screws (non stainless steel)
+* 17× DIN912 M3×8 screws (non stainless steel)
+* 2 - 4× M3×5 worm screws (non stainless steel)
+* 1× M3 Nut
+* 1× M3 Screw, Hex Head, 20 - 30 mm
+* 1× 28-BYJ stepper motor
+* 1× Stepper motor driver board ULN2003
+* 1× ESP32 for controlling the motor
 * cables to connect everything
+
+For fluomodule:
+* 2× LED
+* PNP-transistor BD809
+* 4× DIN912 M3×18 screws (non stainless steel)
+* 4× ballmagnets, 5 mm diameter
+* wires to connect everything
 
 
 ## Remarks and Tips
-### 3D Printing:
-* No support required in all designs except the sprial focussing mechanism (use sparse support!)
+### <img src="./IMAGES/P.png" height="40"> 3D Printing:
+* No support required in all designs
 * Carefully remove all support structures (if applicable)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
-* Detailed description coming soon
-* Add motor and small gear, fix it with M4 screw
-* Add the M4 nut in the dedicted hole close to the moving stage
-* Add M4x26mm screw with mounted large gear at one end and insert it into the hole.
-* rotate the M4x26 screw so that it pushes the moving z-stage
-* Wire the motor, test it
-* Done!
-
 
 ### Tutorial with images (Z-Stage)
 This is the assembly guide for the Z-Stage.
 
-1. All parts for this model
+1. All parts for this model. The electronics comes later.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_0.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_01.jpg" width="300">
 </p>
 
-2. Use pliers to put the M4 nut in the place. Be careful, easy to break here!
+1. Insert the motor into the motor-screw-coupling adapter.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_1.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_02.jpg" width="300">
 </p>
 
-3. Fix the nut using two M3 worm screws (This can also be done later, in case the nut becomes too wobbly.)
+1. Insert the head of the M3×20 screw into the motor-screw-coupling adapter. Use pliers to press the screw inside.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_3.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_03.jpg" width="300">
 </p>
 
-4.  Put one end of the M4 screw inside the motor coupling thing- use pliers
+1.  Fix the head of the M3 screw inside the adapter using two M3 worm screws (This can also be done later, in case the screw becomes too wobbly.) You may fix the motor-end the same way, if needed.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_4.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_04.jpg" width="300">
 </p>
 
-5.  It should look like this
+1.  The M3 nut goes into the level of the Z-stage.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_5.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_05.jpg" width="300">
 </p>
 
-7. Add the other side of the coupling thing to the motor
+1. We will fix the nut inside the lever using two M3×8 screw. Firstly, insert one screw but only enough to not fall out for now. Use a hex key through the hole in the side of the Z-stage to tighten this screw.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_6.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_06.jpg" width="300">
 </p>
 
-8. Mount the motor to the Z-Stage after putting the M4 screw through the nut (rotate it)
+1. Add the screw to the opposite side. The screws must not hold the nut inside yet! Make sure the screws are tight enough not to fall out and then remove the nut.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_7.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_07.jpg" width="300">
 </p>
 
-9. Fix the Z-Stage within the 2x1 cube using headless M3 screws
+1. Screw the M3 nut on the M3×20 screw, which is attached to the motor. The optimal position for the nut is roughly one third of the length of the screw from the couling adapter.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_8.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_08.jpg" width="300">
 </p>
 
-10. Mount the lid
+1. Insert the nut back to the lever, using the motor with the screwto hold it easily. The wire end of the motor is pointing away from the objective side of the Z-stage. Tighten the two M3×8 screw to fix the nut - the nut must not be able to rotate.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_9.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_09.jpg" width="300">
 </p>
 
-11. Start adding the wires
+1. This is how it should look like. The M3×8 screw should be tightened equally. Do not overtighten the screws - you might break the part.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_10.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_10.jpg" width="300">
 </p>
 
-12. Mount the control electronics of the Motor to the Z-stage module
+1. Using two M3×8 screws, fix the motor to the Z-stage.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_11.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_11.jpg" width="300">
 </p>
 
-13. Screw the lid
+1. This is how it should look like now.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_12.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_12.jpg" width="300">
 </p>
 
-14. Add the objective lens - optional: Add the ring to fix it permanently
+1. Insert a M3×8 screw in the objective mount as shown in the picture. Don't screw it all the way in but leave roughly 1 mm between the head of the screw and the flat side of the objective mount.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_13.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_13.jpg" width="300">
 </p>
 
-15. Add as many screws as possible - Done!
+1. Insert the objective lens into its mount.
 <p align="center">
-<img src="./IMAGES/Z_STAGE_14.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_14.jpg" width="300">
+</p>
+
+1. Insert the objective mount into the focussing insert. The head of the M3×8 screw goes into the slot in the insert. In case the screw is too tigten to the objective mount, it won't go into the slot - loosen the screw a little. In case the head of the screw is too far from the objective mount, it won't hold in the slot but fall through - tigten the screw a little.
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_15.jpg" width="300">
+</p>
+
+1. The optimal case: the objective mount holds the objective in any position within the slot. You should be able to shift the objective but it shouldn not move on its own. Adjust the screw of the objective mount if necessary. The assembled insert looks like this:
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_16.jpg" width="300">
+</p>
+
+1. Place the insert inside the cube. For optimal use, the lid of the cube should be sideways from the insert, as shown in the picture. Close the cube using four M3×12 screws.
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_17.jpg" width="300">
+</p>
+
+1. Add as many M3×8 screws as possible to both the lid and the bottom of the cube-body.
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_18.jpg" width="300">
+</p>
+
+1. Time for the electronics: You will need the parts shown in this picture.
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_19.jpg" width="300">
+</p>
+
+1. Connect all cables to the ESP32 following [these instructions](../../ELECTRONICS). The ESP32 will go on the side of the Z-stage and all the cables will go through the cube.
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_20.jpg" width="300">
+</p>
+
+1. Place the ESP32 in the cube as shown in the picture. It needs to be on this side with respect to the objective and motor - this way the power cable won't be in the way in any of the setups where you might use the Z-stage.
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_21.jpg" width="300">
+</p>
+
+1. Gently pull all the cables - both from ESP32 and stepper motor - through the cube and out on the side opposite to where the objective is looking.
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_22.jpg" width="300">
+</p>
+
+1. Place the driver board of the motor on the objective side of the cube.  
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_23.jpg" width="300">
+</p>
+
+1. Gently glue or screw the driver board to the insert.
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_24.jpg" width="300">
+</p>
+
+1. Connect all the cables of the ESP and the motor to the driver board ([Instructions](../../ELECTRONICS)).
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_25.jpg" width="300">
+</p>
+
+1. Gently fix the ESP32 to the cube - Done!
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_26.jpg" width="300">
+</p>
+
+1. This is the correct mutual position of the Z-stage insert, objective, motor, ESP32, motor controller and all the wires.
+<p align="center">
+<img src="./IMAGES/Z_stage_assembly_27.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_28.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_29.jpg" width="300">
+<img src="./IMAGES/Z_stage_assembly_30.jpg" width="300">
 </p>
 
 ### Tutorial with images (Fluomodule+Sample Insert)

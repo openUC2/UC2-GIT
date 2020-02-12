@@ -47,6 +47,8 @@ In particular you need the following parts:
 * 2x [Lens Holder](./STL/Assembly_Custom_Lens_Adapter_11_Lens_Thorlabs_Mount_Customized_B_1.stl)
 * 2x [Lens Holder Ring](./STL/Assembly_Custom_Lens_Adapter_11_Lens_Thorlabs_Mount_Ring_B_2.stl)
 
+
+
 ### Lenses (Kepler+Galileo)
 * 1x biconvex lens, Diameter=20mm, 50mm
 * 1x plano-concave lens, Diameter=20mm, -50mm

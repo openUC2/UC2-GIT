@@ -17,7 +17,7 @@ It is a very early developer version. Please feel free to contribute to the docu
 <img src="./IMAGES/Assembly_UKJ_Microscope_v4_2.png" width="500">
 </p>
 
-## 3D Printing Files
+## <img src="./IMAGES/D.png" width="40"> <img src="./IMAGES/P.png" width="40"> 3D Printing Files
 Please have a look at the folder [STL](./STL). All files need to be printed.
 
 * 1× [Base-Plate 4×2](./STL/Assembly_base_4x2.stl)
@@ -44,13 +44,17 @@ Please have a look at the folder [STL](./STL). All files need to be printed.
 * based on off-the-shelf components (please see the bill of materials in the (./../DOCUMENTS) DOCUMENTS folder)
 * Open-Source
 
-## Assembly and alignment
+## <img src="./IMAGES/A.png" width="40"> Assembly and alignment
 A simplified scheme can be found [here](./IMAGES/UC2_fullBOX_incubator_EN.pdf).
 
-## Results
+## <img src="./IMAGES/E.png" width="40"> Results
 
 This is a 30-minutes timelapse of some dog-cells made in a Workshop in UiO prepared by Xian H. and Kay S.
 
 <p align="center">
 <img src="./IMAGES/SAMPLE.gif" width="500">
 </p>
+
+## <img src="./IMAGES/S.png" width="40"> Participate!
+
+Do you want to show your own results? Do you have ideas for improvements? Let us know!
