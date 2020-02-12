@@ -3,19 +3,19 @@
 ## <img src="./IMAGES/E.png" height="40"> This tutorial will lead you step-by-step through the alignment of the Compound Microscope, Köhler illumination and Abbe Difraction Experiment.
 
 1. Start with 1×13 baseplate and all the cubes:
-⋅⋅* Flashlight Cube
-⋅⋅* Collector Lens Cube
-⋅⋅* 2× Circular Aperture Cube
-⋅⋅* Condenser Lens Cube
-⋅⋅* Sample Cube
-⋅⋅* Objective Lens Cube
-⋅⋅* Objective in Z-Stage Cube
-⋅⋅* Eyepiece Lens Cube
-⋅⋅* 4× Screen Cube - 1× with white paper, 3× with lens tissue
+* Flashlight Cube
+* Collector Lens Cube
+* 2× Circular Aperture Cube
+* Condenser Lens Cube
+* Sample Cube
+* Objective Lens Cube
+* Objective in Z-Stage Cube
+* Eyepiece Lens Cube
+* 4× Screen Cube - 1× with white paper, 3× with lens tissue
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_01.jpg" width="500">
 </p>
-1. Start by placing the sample - we built the microscope around it.
+2. Start by placing the sample - we built the microscope around it.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_02.jpg" width="500">
 </p>
@@ -29,11 +29,11 @@
 <img src="./IMAGES/UC2_coreBOX_alignment_05.jpg" width="500">
 </p>
 1. Use direct illumination from the flashlight with! its lens. Adjust the position of the objective lens - focus the image on PIP by moving the lens back or forth.
-⋅⋅* **Focussing Trick**: Firstly move the whole objective lens cube in one direction (away from the sample). If the image sharpness in PIP improves, slide the insert in that direction. If the image sharpness in PIP get worse, slide the insert in the opposite direction, towards the sample. Continue until you get a focussed image of your sample on the PIP.
+* **Focussing Trick**: Firstly move the whole objective lens cube in one direction (away from the sample). If the image sharpness in PIP improves, slide the insert in that direction. If the image sharpness in PIP get worse, slide the insert in the opposite direction, towards the sample. Continue until you get a focussed image of your sample on the PIP.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_06.jpg" width="500">
 </p>
-1. Place the eyepiece lens behind the PIP. It is a single plano-convex lense with *f'* = 40 mm. Exchange the PIP screen with a semitransparent screen (lens tissue). While looking through the eyepiece, focus it on the PIP. Use the Focussing Trick again.
+6. Place the eyepiece lens behind the PIP. It is a single plano-convex lense with *f'* = 40 mm. Exchange the PIP screen with a semitransparent screen (lens tissue). While looking through the eyepiece, focus it on the PIP. Use the Focussing Trick again.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_07.jpg" width="500">
 <img src="./IMAGES/UC2_coreBOX_alignment_09.jpg" width="500">
@@ -69,17 +69,17 @@
 <img src="./IMAGES/UC2_coreBOX_alignment_17.jpg" height="375">
 </p>
 1. Place the Aparture Diaphragm (AD) into the Front Focal Plane (FFP) of the condenser lens (40 mm).
-⋅⋅* **Focal Plane Trick** - In case you don't know where exactly the FFP is, use this:
-⋅⋅* Use the Laser Cube with Beam Expander Cube to produce a collimated beam. Place the condenser lens in the collimated beam and find focus.
+* **Focal Plane Trick** - In case you don't know where exactly the FFP is, use this:
+* Use the Laser Cube with Beam Expander Cube to produce a collimated beam. Place the condenser lens in the collimated beam and find focus.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_18.jpg" width="500">
 </p>
-⋅⋅* Place the AD into the same plane - slide in within the cube. Careful - push the Aperture from one side to keep it together.
+* Place the AD into the same plane - slide in within the cube. Careful - push the Aperture from one side to keep it together.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_19.jpg" width="500">
 <img src="./IMAGES/UC2_coreBOX_alignment_20.jpg" width="500">
 </p>
-1. Remove the lens of the flashlight. The position of the flashlight remains.
+15. Remove the lens of the flashlight. The position of the flashlight remains.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_22.jpg" width="500">
 </p>
@@ -104,35 +104,35 @@
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_28.jpg" width="500">
 </p>
-⋅⋅* Left: both apertures open. Middle: FD closed. Right: AD closed.
+* Left: both apertures open. Middle: FD closed. Right: AD closed.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_29.jpg" height="375">
 <img src="./IMAGES/UC2_coreBOX_alignment_30.jpg" height="375">
 <img src="./IMAGES/UC2_coreBOX_alignment_31.jpg" height="375">
 </p>
-1. Exhange objective lens with 4× objective in Z-Stage. Place a screen in PIP and observe the effect of opening and closing the apertures in the PIP.
+21. Exhange objective lens with 4× objective in Z-Stage. Place a screen in PIP and observe the effect of opening and closing the apertures in the PIP.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_32.jpg" width="500">
 </p>
-⋅⋅* Top: both apertures open. Middle: AD closed. Bottom: FD closed.
+* Top: both apertures open. Middle: AD closed. Bottom: FD closed.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_33.jpg" width="500">
 <img src="./IMAGES/UC2_coreBOX_alignment_34.jpg" width="500">
 <img src="./IMAGES/UC2_coreBOX_alignment_35.jpg" width="500">
 </p>
-1. Remove the screen. **This is an aligned finite-corrected microscope with Köhler illumination**.
+22. Remove the screen. **This is an aligned finite-corrected microscope with Köhler illumination**.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_36.jpg" width="500">
 </p>
 1. By adding 4 more cubes and another baseplate, we will now create the **Abbe Difraction Experiment**. The extra cubes are:
-⋅⋅* Beamsplitter Cube
-⋅⋅* Mirror 45° Cube
-⋅⋅* Eyepiece Lens Cube (different *f'* than the previously used one!)
-⋅⋅* Relay Lens Cube
+* Beamsplitter Cube
+* Mirror 45° Cube
+* Eyepiece Lens Cube (different *f'* than the previously used one!)
+* Relay Lens Cube
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_37.jpg" height="375">
 </p>
-1. Remove the eyepiece (40 mm) and add the 4×2 baseplate. Exchange the 4× objective with the objective lens (35 mm).
+24. Remove the eyepiece (40 mm) and add the 4×2 baseplate. Exchange the 4× objective with the objective lens (35 mm).
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_38.jpg" width="500">
 </p>
@@ -145,21 +145,21 @@
 <img src="./IMAGES/UC2_coreBOX_alignment_40.jpg" height="375">
 </p>
 1. In the other arm we will observe the BFP. There are two options, depending on how you place the Mirror in the next step.
-⋅⋅* Option 1: Place the mirror as shown in the picture.
-⋅⋅* Place the eyepiece lens (40 mm).
+* Option 1: Place the mirror as shown in the picture.
+* Place the eyepiece lens (40 mm).
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_41.jpg" height="375">
 <img src="./IMAGES/UC2_coreBOX_alignment_42.jpg" height="375">
 </p>
-⋅⋅* Option 2: Place the mirror as shown in the picture.
-⋅⋅* Place the baseplate connector on the mirror cube.
-⋅⋅* Place the eyepiece cube (40 mm) on the connector on the mirror cube.
+* Option 2: Place the mirror as shown in the picture.
+* Place the baseplate connector on the mirror cube.
+* Place the eyepiece cube (40 mm) on the connector on the mirror cube.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_43.jpg" height="375">
 <img src="./IMAGES/UC2_coreBOX_alignment_44.jpg" height="375">
 <img src="./IMAGES/UC2_coreBOX_alignment_45.jpg" height="375">
 </p>
-1. Place the relay lens after the Beamsplitter. It is a single plano-convex lense with *f'* = 75 mm.
+28. Place the relay lens after the Beamsplitter. It is a single plano-convex lense with *f'* = 75 mm.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_46.jpg" height="375">
 </p>
