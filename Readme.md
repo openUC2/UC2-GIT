@@ -42,7 +42,7 @@ Making **open-science** great again!
 
 Following this idea, a microscope as shown in **Fig 1** creates an angular magnification depending on the focal lenghts of the objective f<sub>obj</sub> and tube lens f<sub>tube</sub>:
 
-***M<sub>4f</sub>=  f<sub>obj</sub>/f<sub>tube</sub>***
+***M<sub>4f</sub>=  f<sub>tube</sub>/f<sub>obj</sub>***
 
 <p align="center">
 <img src="./IMAGES/UC2_simplemicroscope.png" width="800">
