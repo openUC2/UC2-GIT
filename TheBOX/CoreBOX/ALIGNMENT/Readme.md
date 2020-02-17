@@ -3,19 +3,22 @@
 ## <img src="./IMAGES/E.png" height="40"> This tutorial will lead you step-by-step through the alignment of the Compound Microscope, Köhler illumination and Abbe Difraction Experiment.
 
 1. Start with 1×13 baseplate and all the cubes:
-* Flashlight Cube
-* Collector Lens Cube
-* 2× Circular Aperture Cube
-* Condenser Lens Cube
-* Sample Cube
-* Objective Lens Cube
-* Objective in Z-Stage Cube
-* Eyepiece Lens Cube
-* 4× Screen Cube - 1× with white paper, 3× with lens tissue
+
+
+1. Flashlight Cube
+1. Collector Lens Cube
+1. 2× Circular Aperture Cube
+1. Condenser Lens Cube
+1. Sample Cube
+1. Objective Lens Cube
+1. Objective in Z-Stage Cube
+1. Eyepiece Lens Cube
+1. 4× Screen Cube - 1× with white paper, 3× with lens tissue
+
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_01.jpg" width="500">
 </p>
-2. Start by placing the sample - we built the microscope around it.
+2. Start by placing the sample - we will build the microscope around it.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_02.jpg" width="500">
 </p>
@@ -39,7 +42,7 @@
 <img src="./IMAGES/UC2_coreBOX_alignment_06.jpg" width="500">
 </p>
 
-6. Place the eyepiece lens behind the PIP. It is a single plano-convex lense with *f'* = 40 mm. Exchange the PIP screen with a semitransparent screen (lens tissue). While looking through the eyepiece, focus it on the PIP. Use the Focussing Trick again.
+6. Place the eyepiece lens behind the PIP. It is a single plano-convex lense with *f'* = 40 mm. Exchange the PIP screen with a semitransparent screen (lens tissue). While looking through the eyepiece, focus it on the PIP. Use the Focussing Trick again. The position within the cube of the sample holder for the paper screen and for the semitransparent screen has to be identical.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_07.jpg" width="500">
 <img src="./IMAGES/UC2_coreBOX_alignment_09.jpg" width="500">
@@ -77,7 +80,7 @@
 <img src="./IMAGES/UC2_coreBOX_alignment_17.jpg" height="375">
 </p>
 
-14. Place the Aparture Diaphragm (AD) into the Front Focal Plane (FFP) of the condenser lens (40 mm).
+14. Place the Aperture Diaphragm (AD) into the Front Focal Plane (FFP) of the condenser lens (40 mm).
 
 
 * **Focal Plane Trick** - In case you don't know where exactly the FFP is, use this:
@@ -92,6 +95,9 @@
 <img src="./IMAGES/UC2_coreBOX_alignment_19.jpg" width="500">
 <img src="./IMAGES/UC2_coreBOX_alignment_20.jpg" width="500">
 </p>
+<p align="center">
+<img src="./IMAGES/UC2_coreBOX_alignment_21.jpg" width="500">
+</p>
 
 15. Remove the lens of the flashlight. The position of the flashlight remains.
 <p align="center">
@@ -99,7 +105,7 @@
 </p>
 
 
-16. Place the collector lens. It is a single plano-convex lense with *f'* = 40 mm.
+16. Place the collector lens. It is a single plano-convex lense with *f'* = 50 mm.
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_23.jpg" width="500">
 </p>
@@ -149,10 +155,11 @@
 
 23. By adding 4 more cubes and another baseplate, we will now create the **Abbe Difraction Experiment**. The extra cubes are:
 
-* Beamsplitter Cube
-* Mirror 45° Cube
-* Eyepiece Lens Cube (different *f'* than the previously used one!)
-* Relay Lens Cube
+
+1. Beamsplitter Cube
+1. Mirror 45° Cube
+1. Eyepiece Lens Cube (different *f'* than the previously used one!)
+1. Relay Lens Cube
 
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_37.jpg" height="375">
