@@ -23,8 +23,10 @@ An example of a mirror or raspi-cam adapter can be found in the In-Incubator Fol
 A quick printing tutorial can be found here:
 [![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.PNG)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
 
+## Assembly Video Tutorial
+[![UC2 YouSeeToo - How to assemble the base-cube?](./IMAGES/UC2_Assembly_BaseCube.png)](https://www.youtube.com/watch?v=zAMedY0mWKA)
 
-## Assembly-Tutorial with images (Cube)
+## OLD VERSION!!! Assembly-Tutorial with images (Cube v0)
 
 1. All parts for this model
 <p align="center">

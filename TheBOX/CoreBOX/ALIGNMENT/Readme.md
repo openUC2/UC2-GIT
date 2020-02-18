@@ -33,19 +33,15 @@ We propose to use a diffraction grating as a sample and spatial filter in the BF
 
 1. Start with 1×13 baseplate and all the cubes:
 
-
-
-1. Flashlight Cube
-1. Collector Lens Cube
-1. 2× Circular Aperture Cube
-1. Condenser Lens Cube
-1. Sample Cube
-1. Objective Lens Cube
-1. Objective in Z-Stage Cube
-1. Eyepiece Lens Cube
-1. 4× Screen Cube - 1× with white paper, 3× with lens tissue
-
-
+* Flashlight Cube (1)
+* Collector Lens Cube (2)
+* 2× Circular Aperture Cube (3)
+* Condenser Lens Cube (4)
+* Sample Cube (5)
+* Objective Lens Cube (6)
+* Objective in Z-Stage Cube (7)
+* Eyepiece Lens Cube (8)
+* 4× Screen Cube - 1× with white paper, 3× with lens tissue (9)
 
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_01.jpg" width="500">
@@ -187,13 +183,10 @@ We propose to use a diffraction grating as a sample and spatial filter in the BF
 
 23. By adding 4 more cubes and another baseplate, we will now create the **Abbe Difraction Experiment**. The extra cubes are:
 
-
-
-1. Beamsplitter Cube
-1. Mirror 45° Cube
-1. Eyepiece Lens Cube (different *f'* than the previously used one!)
-1. Relay Lens Cube
-
+* Beamsplitter Cube (1)
+* Mirror 45° Cube (2)
+* Eyepiece Lens Cube (different *f'* than the previously used one!) (3)
+* Relay Lens Cube (4)
 
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_37.jpg" height="375">
