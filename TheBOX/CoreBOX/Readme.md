@@ -24,7 +24,7 @@ Classical experiment for explaining Fourier transform done by a lens. The illumi
 <img src="./IMAGES/CoreBOX_Setup2.gif" width="1000">
 </p>
 
-#### Coming soon:
+#### Coming soon
 
 ### Laser Scanning Confocal Microscope
 Laser Scanning system is built on the detection side of the same setup. Scanning mirror can be rotated around one axis, which results in the translation of the point on the sample.

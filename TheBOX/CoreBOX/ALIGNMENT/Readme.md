@@ -1,8 +1,38 @@
 # The Core BOX Alignment Procedure
 
-## <img src="./IMAGES/E.png" height="40"> This tutorial will lead you step-by-step through the alignment of the Compound Microscope, Köhler illumination and Abbe Difraction Experiment.
+### First experiment: Finite-corrected Microscope with Köhler Illumination
+This experiment demonstrates the essential parts of a microscope and explains the concept of conjugate planes. The key components are: Light source, Collector lens, Field Diaphragm, Aperture Diaphragm, Condenser lens, Sample, Objective lens and Eyepiece lens.
+<p align="center">
+<img src="./IMAGES/CoreBOX_Setup1_01.png" width="800">
+</p>
+The Aperture set of conjugate planes: Lamp filament, Aperture diaphragm, Back Focal Plane of the objective, Exit pupil of the eye.
+<p align="center">
+<img src="./IMAGES/CoreBOX_Setup1_02.png" width="800">
+</p>
+The Field set of conjugate planes: Field diaphragm, Sample plane, Primary Image Plane, Retina.
+<p align="center">
+<img src="./IMAGES/CoreBOX_Setup1_03.png" width="800">
+</p>
+
+### Second experiment: Abbe Diffraction Experiment
+The famous Abbe Diffraction Experiments shows how diffraction of light by a specimen (and interference with the illuminating light) creates an image and how collection of diffracted light defines the resolution of the microscope. With this setup it is possbile to view both sets of conjugate planes at the same time, with one's eye or a camera.
+<p align="center">
+<img src="./IMAGES/CoreBOX_Setup2_01.png" width="800">
+</p>
+The Aperture set of conjugate planes: Lamp filament, Aperture diaphragm, Back Focal Plane of the objective, Mirror surface in the side arm, Retina.
+<p align="center">
+<img src="./IMAGES/CoreBOX_Setup2_02.png" width="800">
+</p>
+The Field set of conjugate planes: Field diaphragm, Sample plane, Primary Image Plan, Retina.
+<p align="center">
+<img src="./IMAGES/CoreBOX_Setup2_03.png" width="800">
+</p>
+We propose to use a diffraction grating as a sample and spatial filter in the BFP.
+
+## <img src="./IMAGES/E.png" height="40"> This tutorial will lead you step-by-step through the alignment of the Finite-corrected Microscope, Köhler Illumination and Abbe Diffraction Experiment.
 
 1. Start with 1×13 baseplate and all the cubes:
+
 
 
 1. Flashlight Cube
@@ -14,6 +44,8 @@
 1. Objective in Z-Stage Cube
 1. Eyepiece Lens Cube
 1. 4× Screen Cube - 1× with white paper, 3× with lens tissue
+
+
 
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_01.jpg" width="500">
@@ -156,10 +188,12 @@
 23. By adding 4 more cubes and another baseplate, we will now create the **Abbe Difraction Experiment**. The extra cubes are:
 
 
+
 1. Beamsplitter Cube
 1. Mirror 45° Cube
 1. Eyepiece Lens Cube (different *f'* than the previously used one!)
 1. Relay Lens Cube
+
 
 <p align="center">
 <img src="./IMAGES/UC2_coreBOX_alignment_37.jpg" height="375">
