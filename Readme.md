@@ -4,33 +4,33 @@
 
 
 
-## UC2 - Open and Modular Optical Toolbox
+# **UC2 - Open and Modular Optical Toolbox**
 
 ---
+**New:** We have a [YouTube Channel](https://www.youtube.com/channel/UCcHFzXTdC1Ro0OMnHS_54UA)!
 
+**New:** The [CoreBOX](./TheBOX/CoreBOX) now comes with a detailed alignment tutorial.
 
 **New**: The COSI conference paper is out [on OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5), A preprint will soon appear on BioRxiv.
 
-**New:** We have updated many modules and their pictured tutorials with in [CAD](./CAD)
+**New:** We have updated many modules and their pictured tutorials in [CAD](./CAD)
 
-**New:** We have a new comprehenssive 2-day workshop documented in [WORKSHOP](./WORKSHOP)
+**New:** We have a new comprehensive 2-day workshop documented in [WORKSHOP](./WORKSHOP)
 
 ---
 
 # Start here! Everything is open-source - simply join!
-## Steps to reproduce and contribute to the toolbox:
+
+## Steps to reproduce and use the toolbox:
 <p align="center">
 <img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800">
 </p>
 
 ## Click here if you are looking for...
-
-
-
-TheBOX|General toolbox |Workshops
+TheBOX | General toolbox |Workshops
 :------:|:------:|:------:
 <img src="./IMAGES/UC2_theBox.jpg" height="200" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="200">|<img src="./IMAGES/UC2_workshop.jpg" height="200">
-[Build your own BOX that contains multiple experiments.](./TheBOX) | [Explore the toolbox and what we already offer.](./CAD) | [Host or join a workshop.](./WORKSHOP)
+[Choose a version and build your own BOX.](./TheBOX) | [Explore the toolbox and its applications.](./CAD) | [Host or join a UC2 workshop.](./WORKSHOP)
 
 ## ... or keep on reading to learn more about the project!
 
@@ -42,7 +42,7 @@ Making **open-science** great again!
 
 Following this idea, a microscope as shown in **Fig 1** creates an angular magnification depending on the focal lenghts of the objective f<sub>obj</sub> and tube lens f<sub>tube</sub>:
 
-***M<sub>4f</sub>=  f<sub>obj</sub>/f<sub>tube</sub>***
+***M<sub>4f</sub>=  f<sub>tube</sub>/f<sub>obj</sub>***
 
 <p align="center">
 <img src="./IMAGES/UC2_simplemicroscope.png" width="800">

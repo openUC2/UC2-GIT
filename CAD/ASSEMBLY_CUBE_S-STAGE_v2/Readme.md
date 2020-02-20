@@ -83,7 +83,7 @@ Don't insert batteries in the laser yet!!
 <img src="./IMAGES/UC2_Tut_Zstagesample11.jpg" width="300">
 </p>
 
-1. Glue a metallic plate to the moving part of the z-stag
+1. Glue a metallic plate to the moving part of the z-stage. It is mportant to glue the metal plate only to the center of the stage - just on the M3 nut. Otherwise the mechanism does not work!
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Zstagesample12.jpg" width="300">
 </p>

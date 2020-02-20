@@ -35,7 +35,19 @@ The files contain a fluorescent module which works in darkfield configuration.
 * Fluorescent Module enables "true" fluorescent imaging
 * The electronics can be operated via WiFi
 
-## 3D printing
+## <img src="./IMAGES/D.png" width="40"><img src="./IMAGES/P.png" width="40"> 3D printing
+
+### Modules for this setup
+
+|  Name | Properties  |  Price | Link  | # |
+|---|---|---|---|---|
+|  4×4 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_Baseplate_v2/)  | 1|
+|  Module: Z-Stage | Optionally with Fluomodule  | ?? €  | [Z-Stage](../ASSEMBLY_CUBE_Z-STAGE_v2)  | 1|
+|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../ASSEMBLY_CUBE_Mirror_45_v2)  | 2|
+|  Module: Eyepiece with Smartphone Holder  | - | ??€  | [Eyepiece + Smartphone](../ASSEMBLY_CUBE_Eyepiece_v2)  | 1|
+|  Module: LED array  | Optionally LED Ring | ??€  | [LED array](../ASSEMBLY_CUBE_LED_Matrix_v2)  | 1|
+|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4€  | [Cube](../ASSEMBLY_CUBE_Base_v2)  | 3|
+
 
 Parts to print:
 
@@ -64,7 +76,7 @@ In the end it should look like this:
 <br> * Here UC2_v0 parts were used.
 </p>
 
-## Additional components
+## <img src="./IMAGES/B.png" width="40"> Additional components
 * 1× Smartphone
 * 1× LED-Array, Neopixel, 8x8 [🢂](https://www.amazon.de/AZDelivery-Matrix-CJMCU-8-Arduino-Raspberry/dp/B078HYP681/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=neopixel+matrix&qid=1565008576&s=gateway&sr=8-2)
 *  32× - 68× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
@@ -75,7 +87,7 @@ In the end it should look like this:
 * 1× Eyepiece (e.g. 20×) [🢂](https://de.aliexpress.com/item/32965050204.html?spm=a2g0o.productlist.0.0.7aa657eeefLUfu&algo_pvid=cd60fca0-3fa5-4191-9ce9-303815e2afa7&algo_expid=cd60fca0-3fa5-4191-9ce9-303815e2afa7-1&btsid=76036b58-6717-4d1f-a4a0-c3d4bacd0450&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_52)
 * 2× Mirrors (e.g. 30×30 mm² Toymirrors) [🢂](https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE)
 * 2× ESP32 [🢂](https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3)
-* 1× Stepper Motor and 1× Controller [🢂](https://www.amazon.de/Elegoo-Stepper-Schrittmotor-28BYJ-48-Treiberplatine/dp/B01MEGIHLF/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=stepper+arduino&qid=1565008205&s=gateway&sr=8-1-spons&psc=1)
+* 1× Stepper Motor and 1× Driver Board [🢂](https://www.amazon.de/Elegoo-Stepper-Schrittmotor-28BYJ-48-Treiberplatine/dp/B01MEGIHLF/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=stepper+arduino&qid=1565008205&s=gateway&sr=8-1-spons&psc=1)
 * 9× Female-Female Jumper Wire, 0.14 mm² [🢂](https://www.amazon.de/ZOORE-120pcs-Multicolored-Female-Breadboard/dp/B07P85V1G3/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jumper+male&qid=1565690543&s=industrial&sr=1-5)
 * 2× Power cables for ESP32 - USB-microUSB [🢂](https://www.amazon.de/Gritin-Datenkabel-Geflochtene-Robust-Daten%C3%BCbertragung-Grau/dp/B07CJJHVKX/ref=sr_1_3?keywords=usb+c+kabel&qid=1566029225&s=gateway&sr=8-3)
 * Optional (for Fluomodule): 2× Star-LEDs blue (high power 1-3 Watt) [🢂](https://www.ebay.de/itm/Hi-Power-LED-1W-3W-UV-STAR-Ultraviolet-/131326525056?var=)
@@ -83,7 +95,7 @@ In the end it should look like this:
 * Optional (for Fluomodule): 4× Screws DIN912 ISO 4762 M3×18 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/)
 
 
-## Assembly
+## <img src="./IMAGES/A.png" width="40"> Assembly
 
 * [Baseplate ](../ASSEMBLY_Baseplate_v2/)
 * [Z-stage ](../ASSEMBLY_CUBE_Z-STAGE_v2/)
@@ -93,7 +105,7 @@ In the end it should look like this:
 * [LED array ](../ASSEMBLY_CUBE_LED_Matrix_v2/)
 * 2× Additional empty cube
 
-## Electronics (for dummies)
+## <img src="./IMAGES/A.png" width="40"> Electronics (for dummies)
 
 Don't have much experience with electronics? It's actually really simple:
 
@@ -121,7 +133,7 @@ Don't have much experience with electronics? It's actually really simple:
 * Power the ESP32 simply with microUSB cables.
 * And it works just like that ;-)
 
-## Results
+## <img src="./IMAGES/E.png" width="40"> Results
 This is a quick result we shot with an Xperia Z5 of potatoe starch cells:
 <p align="center">
 <img src="./IMAGES/UC2_Result_Potato_Smartphonemicroscope.jpeg" width="300">
@@ -132,6 +144,6 @@ This is a quick result we shot with an Huawei P9 of dandelion fuss:
 <img src="./IMAGES/UC2_Result_Dandelion_Smartphonemicroscope.jpeg" width="300">
 </p>
 
-## Participate!
+## <img src="./IMAGES/S.png" width="40"> Participate!
 
 Do you want to show your own results? Do you have ideas for improvements? Let us know!

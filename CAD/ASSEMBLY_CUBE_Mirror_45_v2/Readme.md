@@ -49,6 +49,10 @@ The Part consists of the following components.
 * Add the screws to the Cube
 * Done!
 
+## Assembly Video Tutorial
+[![UC2 YouSeeToo - How to assemble the Mirror Cube?](./IMAGES/UC2-Assembly_Cube_Mirror_45.png)](https://www.youtube.com/watch?v=IG7ws6ZtL6E)
+
+
 ### Tutorial with images (30×30 mm² mirror)
 
 1. All parts for this model

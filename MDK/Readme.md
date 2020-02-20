@@ -12,112 +12,22 @@ The UC2 framework requires the introduction of several new concepts. These terms
 
 The Names can be found in the chart below (Fig 1). The chart also represents the logical structure of building a setup using UC2 elements.
 
-
-<table>
-  <tr>
-   <td>Name
-   </td>
-   <td>Description
-   </td>
-  </tr>
-  <tr>
-   <td>APPLICATION
-   </td>
-   <td>Complete microscopes and other optical  setups.
-<p>
-They are composed of one or more baseplates and modules with different functions. The list of available applications and modules that are necessary for building them can be found in TheBOX.
-   </td>
-  </tr>
-  <tr>
-   <td>ASSEMBLY BASE
-   </td>
-   <td>The Assembly Base plate (“Skeleton” of the setups) is the frame and backplane of the UC2 project, determining the size and layout of the optical system. UC2 modules attach to the baseplate positions, which have a backplane to electrically and logically connect modules together.
-   </td>
-  </tr>
-  <tr>
-   <td>ASSEMBLY CUBE Insert
-   </td>
-   <td>“Assembly Cube”s are the building blocks of a UC2 setup. These are physical components that implement various functions into the system.
-<p>
-They are assemblies of empty cubes and inserts and external parts. The functionality is provided by the inserts and specialized components while the housing ensures correct position in the optical path.
-   </td>
-  </tr>
-  <tr>
-   <td>ASSEMBLY CUBE Empty
-   </td>
-   <td>Raw cube/basic building block, varying in size (1×1, 2×1, etc.).
-<p>
-Note that the MDK only details the specification of the Cube and Base to the extent that it is necessary for module developers to develop modules.
-   </td>
-  </tr>
-  <tr>
-   <td>CUBE Body
-   </td>
-   <td>Part of the cube that holds the inserts. Screws can be inserted on all sides in order to build setups in three dimensions.
-   </td>
-  </tr>
-  <tr>
-   <td>CUBE Lid
-   </td>
-   <td>The lid closes the cube when attached by screw to the Body. It can carry electronics. Through the screws of the lid electrical components inside the cube can be powered.
-   </td>
-  </tr>
-  <tr>
-   <td>CUBE INSERTS
-   </td>
-   <td>Interfaces base cube to external components. They fit the inner dimensions of the cube.
-<p>
-There are two types of inserts: perpendicular (to the optical axis) and diagonal. They serve as holder for lenses, mirrors, cameras, filters, and other components demanded by the application.
-<p>
-Existing inserts can be adjusted to fit specific parts (i.e. lens diameters).
-   </td>
-  </tr>
-  <tr>
-   <td>EXTERNAL MODULES
-   </td>
-   <td>Interfaces that are outside of a cube.
-<p>
-Those are stages, sample mounts, smartphone holders and others elements that do not fit inside a cube but give function to it.
-<p>
-They are attached to an (empty) cube or they use the Cube Lid to attach to the baseplate.
-   </td>
-  </tr>
-  <tr>
-   <td>EXTERNAL PARTS
-   </td>
-   <td>Components that has to be bought externally - objectives, lenses, LEDs, etc.
-<p>
-Parts that are used by the project but the designs are not our own.
-   </td>
-  </tr>
-  <tr>
-   <td>COMPLETE MODULES
-   </td>
-   <td>Entire Functional modules that can be swapped to the system.  
-<p>
-They have the correct screws and dimensions to adapt to the magnets on the baseplate.
-<p>
-Fully independent, but follows the optical path (e.g. SIM-module, ISM-module, projector, etc.)
-   </td>
-  </tr>
-</table>
-
-
-<p align="center">
-<img src="./IMAGES/UC2-Module-Developer-Kit0.png"
-width="750">
-<br><br>
-    <em>Figure 1: The chart showing logical structure of building a UC2 setup.</em>
-</p>
-
-
-
+Name | Description
+:---:|:---:
+**CUBE (Base)** | The units of the base are join into the **ASSEMBLY BASE**-plate (“skeleton” of the setups). This is the frame and backplane of the UC2 project, determining the size and layout of the optical system. UC2 modules attach to the rectangular baseplate positions using ball-magnets and ferro-magnetic screws. Additionally it supports smart-cubes with electrical power.
+**CUBE (Body)** | The **ASSEMBLY CUBE (empty)** consist of the body- and the lid-part which gets screwed together. Screws can be inserted on all sides in order to build setups in three dimensions.
+**CUBE (Lid)** | The lid closes the cube when attached by screw to the body. It can carry electronics like microcontrollers (e.g. Arduino, ESP32). By adding wires to the screws closing the lid electronic components can be supplied with electrical power.
+**ASSEMBLY CUBE (empty)** | The raw cube/basic building block is made of the Body and the Lid and can vary in size (e.g. 1×1, 2×1, etc.). Note that the MDK only details the specification of the Cube and Base to the extent that it is necessary for module developers to develop modules.
+**CUBE INSERTS** | Cube Inserts are physical components that implement various functions into the system by adapting EXTERNAL PARTS to the **ASSEMBLY CUBE INSERT**. They fit the inner dimensions of the cube.  There are two types of inserts: perpendicular (to the optical axis) and diagonal. They serve as holder for various components like  lenses, mirrors, cameras, filters, and other components demanded by the application. Existing inserts can be adjusted to fit specific parts (i.e. lens diameters).
+**EXTERNAL PARTS** | Everything which is not part of the UC2-system or can not be 3D printed is termed as an EXTERNAL PARTS. This can be commercially available parts like objectives, lenses, LEDs, etc., but also 3D-printed parts from other projects (e.g. openflexure stage).
+**ASSEMBLY CUBE (insert)** | This is the combination of the ASSEMBLY CUBE (empty) and a CUBE INSERTS. Since the ASSEMBLY CUBEs are the building blocks of a UC2 setup, adding features is accomplished by hardware plugins also called CUBE INSERTS.
+**EXTERNAL MODULES** | Using EXTERNAL MODULES one adapt EXTERNAL PARTS that typically do not fit inside a cube but give function to it. This can be for example cellphones, stages projectors, etc. By providing customized hardware-adapter they interface with the ASSEMBLY CUBE.
+**COMPLETE MODULES**  | Entire Functional modules that can be swapped to the system. They have the correct screws and dimensions to adapt to the magnets on the baseplate. They are fully independent, but follow the optical path (e.g. SIM-module, ISM-module, projector, etc.).
+**APPLICATION** | APPLICATIONs are complete optical setups or microscopes. They are composed of one or more base-plates (ASSEMBLY BASE) and modules with different functions. The github-repository provides a list of basic optical systems which are also compiled into a ready-to-use list called "TheBOX".
 
 ### Concept of the cube
 
 The cube is the cornerstone of UC2 framework. Its purpose is to create a bridge between the toolbox and any external component. The cube itself is universal and thanks to the modular design of inserts, it can be adapted to any application.
-
-
 
 *   Interface to bridge UC2 to any external component
 *   Dimensions of the "50 mm" Cube unit  
@@ -138,7 +48,6 @@ The cube is the cornerstone of UC2 framework. Its purpose is to create a bridge 
     *   The power (5V, GND) comes through cables, connected to two screws inside the lid; To avoid wrong polaritiy of the voltage, the wires go through a full-rectifier (discrete component) before it reaches the input power of the ESP32
     *   The ESP32 can be controlled through WiFi and MQTT protocol
 
-
 <p align="center">
 <img src="./IMAGES/UC2-Module-Developer-Kit1.png"
 width="450">
@@ -146,17 +55,12 @@ width="450">
     <em>Figure 2: Basic empty cube 1×1</em>
 </p>
 
-
 <p align="center">
 <img src="./IMAGES/UC2-Module-Developer-Kit2.png"
 width="450">
 <br><br>
     <em>Figure 3: Basic empty cube 2×1</em>
 </p>
-
-
-
-
 
 ### Concept of the Baseplate
 
@@ -168,10 +72,6 @@ width="750">
 <br>
     <em>Figure 4: Baseplate 4×4</em>
 </p>
-
-
-
-
 
 *   5mm Ballmagnets (Neodym) are press fit into the holes
 *   Cables can be attached to the magnets before they are pressfit into the holes
@@ -185,10 +85,7 @@ width="750">
 *   The system can be built in the 3<sup>rd</sup> dimension by using 90° connectors
 *   Baseplates can be concatenated by using M3 Screws which find their place at the faces of the base-plate
 
-
 ### Good Practice to transfer an optical system to UC2
-
-
 
 *   Fourier optics is happy if the focal lengthes of adjacent lenses follow each other (minimizing vignetting, telecentric systems, etc.)
 *   Lenses should be chosen as integer 50 mm of their focal lengthes (ideal lens, real lens => subtract thickness of the lens itself=> focal-focal length 100mm)
@@ -217,18 +114,16 @@ width="450">
 <br><br>
     <em>Figure 5a: Available UC2 components .</em>
 </p>
- 
- and the base-plate to place the components on it in order create the setup: 
- 
- 
+
+ and the base-plate to place the components on it in order create the setup:
+
+
 <p align="center">
 <img src="./IMAGES/UC2_Setupcreation_2.png"
 width="450">
 <br><br>
     <em>Figure 5b: Playground for the UC2 setup creation.</em>
 </p>
- 
-
 
 
 ### Cube Inserts
@@ -239,10 +134,7 @@ Since the cube is point symmetric around the origin, the inserts can be rotated 
 
 The CAD templates for Autodesk Inventor 2019 (```.ipt```) and ```STL/STEP```-standard can be found in the [CAD](./CAD)-folder.
 
-
 ##### Cube Insert (Perpendicular)
-
-
 
 *   This can be slided into the cube
 *   Allows variation in the position along the optical axis, three different orientations of the insert inside the cube are possible
@@ -254,10 +146,7 @@ The CAD templates for Autodesk Inventor 2019 (```.ipt```) and ```STL/STEP```-sta
 *   Example for an insert which adapts a Thorlabs Cage Components (CP02)
 *   An Example is given [here](./CAD)
 
-
 ##### Cube Insert (Diagonal)
-
-
 
 *   This can be slided into the cube
 *   Allows variation in the position with an angle of 45° w.r.t. the optical axis
@@ -268,11 +157,7 @@ The CAD templates for Autodesk Inventor 2019 (```.ipt```) and ```STL/STEP```-sta
 *   Example for an insert which adapts a Thorlabs round mirror
 *   An Example is given [here](./CAD)
 
-
-
-
 ### CAD Drawings
-
 
 ##### Baseplate
 
@@ -295,7 +180,6 @@ width="450">
 width="450">
 </p>
 
-
 ##### Cube Insert (Perpendicular to the optical axis; Thorlabs cage system compatible)
 
 <p align="center">
@@ -303,7 +187,8 @@ width="450">
 width="450">
 </p>
 
-
+**Video Tutorial on How to design a Cube Insert (Perpendicular to the optical axis)**
+[![UC2 YouSeeToo - How to design an insert](./IMAGES/UC2_Insert_Design.png)](https://www.youtube.com/watch?v=q2DNw-Q1KEo&t=2s)
 
 ##### Cube Insert (Diagonal)
 

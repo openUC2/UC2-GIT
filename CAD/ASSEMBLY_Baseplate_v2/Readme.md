@@ -34,6 +34,8 @@ Always print the baseplate the flat side down. The files in [STL](./STL) might s
 * Ballmagnets - 5 mm diameter [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 
+## Assembly Video Tutorial
+[![UC2 YouSeeToo - How to assemble the baseplate?](./IMAGES/UC2_Assembly_Baseplate.png)](https://www.youtube.com/watch?v=zAMedY0mWKA)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly-Tutorial with images (Base)
 
