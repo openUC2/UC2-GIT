@@ -207,6 +207,28 @@ width="450">
 </p>
 
 
+#### Template for UC2-designs
+
+We incororate a PPT-based layout helper for the creation of arbitrary complex sysetm using UC2. Go to the [PPT](./PPT)-Folder and open the file [UC2_Setupcreation.pptx](./PPT/UC2_Setupcreation.pptx) which has  slides for all available components:
+
+<p align="center">
+<img src="./IMAGES/UC2_Setupcreation_1.png"
+width="450">
+<br><br>
+    <em>Figure 5a: Available UC2 components .</em>
+</p>
+ 
+ and the base-plate to place the components on it in order create the setup: 
+ 
+ 
+<p align="center">
+<img src="./IMAGES/UC2_Setupcreation_2.png"
+width="450">
+<br><br>
+    <em>Figure 5b: Playground for the UC2 setup creation.</em>
+</p>
+ 
+
 
 
 ### Cube Inserts
