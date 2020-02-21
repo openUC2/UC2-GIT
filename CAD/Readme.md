@@ -46,6 +46,8 @@ Link             |  Image of the part
 [Mirror (45°)](./ASSEMBLY_CUBE_Mirror_45_v2) | ![](./ASSEMBLY_CUBE_Mirror_45_v2/IMAGES/Assembly_Cube_Mirror_Tilt.png)
 [Mirror, kinematic (45°)](./ASSEMBLY_CUBE_Mirror_Kinematic_45_v2) | ![](./ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/IMAGES/Assembly_Cube_Kinematic_Mirrormount_45_v2.png)
 [Mirror, kinematic (0°)](./ASSEMBLY_CUBE_Mirror_Kinematic_v2) | ![](./ASSEMBLY_CUBE_Mirror_Kinematic_v2/IMAGES/Assembly_Cube_Kinematic_Mirrormount_v2.png)
+[Basler Cam](./ASSEMBLY_CUBE_BaslerCam) | ![](./ASSEMBLY_CUBE_BaslerCam/IMAGES/Assembly_Cube_BaslerCam_acA1920_25gm_v2.png)
+[Allied Vision Cam](./ASSEMBLY_CUBE_AlliedVision_Alvium) | ![](./ASSEMBLY_CUBE_AlliedVision_Alvium/IMAGES/Assembly_Cube_AlliedVision_Alvium_v2.png)
 [Raspi Cam](./ASSEMBLY_CUBE_RaspiCam_v2) | ![](./ASSEMBLY_CUBE_RaspiCam_v2/IMAGES/Assembly_Cube_cameracube.png)
 [S-Stage](./ASSEMBLY_CUBE_S-STAGE_v2) | ![](./ASSEMBLY_CUBE_S-STAGE_v2/IMAGES/Assembly_XY_Translator_Lightsheet_v2.png)
 [Sample Holder Cube](./ASSEMBLY_CUBE_Sample_Holder_v2) | ![](./ASSEMBLY_CUBE_Sample_Holder_v2/IMAGES/Assembly_Cube_Sample_holder_v2.png)
