@@ -32,6 +32,8 @@ TheBOX | General toolbox |Workshops
 <img src="./IMAGES/UC2_theBox.jpg" height="200" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="200">|<img src="./IMAGES/UC2_workshop.jpg" height="200">
 [Choose a version and build your own BOX.](./TheBOX) | [Explore the toolbox and its applications.](./CAD) | [Host or join a UC2 workshop.](./WORKSHOP)
 
+## [Get Involved! Contribute to the project!](#get-involved)
+
 ## ... or keep on reading to learn more about the project!
 
 ---
@@ -96,6 +98,7 @@ Our goal is to make as many setups as possible available, so that people can pla
 * [**THE**Box: Concept of a ready-to-use box containing multiple setups at once](./TheBOX/)
 * [**SIMPLE**Box: Optical setups for elementary- to high-schools ](./TheBOX/SimpleBOX)
 * [**FULL**Box: Optical setups for high-schools to universities (contains electronics)](./TheBOX/SimpleBOX)
+* [**CORE**Box: Optical setups for Optics and Microscopy courses](./TheBOX/CoreBOX)
 
 
 ### SIMPLE Setups
@@ -146,7 +149,7 @@ Each Application (e.g. Incubator Microscope) has a specific sub-folder in the [C
 
 
 A quick printing tutorial can be found here:
-[![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.png)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
+[![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.PNG)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
 
 **Attention:** Don't just print everything from the STL folder, as currently it contains some parts that must be printed multiple times, and other parts that are redundant.
 
@@ -175,21 +178,23 @@ Recent lists can be found [here](https://github.com/bionanoimaging/UC2-GIT/tree/
 The [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is an always up-to-date version of the list.
 
 
-## Get Involved!
------ THIS SECTION NEEDS REVISION -------
+## Get Involved
 
-This project is open so that anyone can get involved. Ways you can contribute include (see also: https://github.com/rwb27/openflexure_microscope):
+This project is open so that anyone can get involved. You don't even have to learn CAD designing or programming. Ways you can contribute include:
 
-* Get involved in discussions in the ISSUE-section
-* Raise an issue if you spot something that's wrong, or something that could be improved. This includes the instructions/documentation.
-* We support you with the basic CAD Design files, so that you can develop specific hardware-function which can fit in our cubes (Autocad Inventor files are not accessible though)
-* Suggest better text or images for the instructions.
-* Improve the design of parts - even if you don't use OpenSCAD, STL files or descriptions of changes are helpful.
-* Fork it, and make pull requests - again, documentation improvements are every bit as useful as revised OpenSCAD files.
+* General / Documentation
+  * Share your results - setups you've built or things you've seen with them - on Twitter using [#openUc2](https://twitter.com/search?q=%23openUc2&src=typed_query)
+  * Get involved in discussions in the [ISSUE-section](https://github.com/bionanoimaging/UC2-GIT/issues).
+  * Raise an issue if you spot something that's wrong, or something that could be improved. This includes the instructions/documentation.
+  * Suggest better text or images for the instructions.
+  * Fork it, and make pull requests - documentation improvements are every bit as useful as a new design or software improvement.
+* Hardware / Design
+  * We support you with the basic CAD design files, so that you can develop specific hardware-function which can fit in our cubes.
+  * We provide a brief tutorial on how to design an insert which adapts any part to the UC2 system. Please find it [here](./CAD/ASSEMBLY_CUBE_Base_v2/#tutorial-on-how-to-design-an-insert-in-inventor) on how to design an insert in Inventor.
+  * Improve the design of parts STL files or descriptions of changes are helpful, even if you don't use OpenSCAD or Inventor.
+* Software
+  * Have a look into our specialised [UC2-SOFTWARE-GIT](https://github.com/bionanoimaging/UC2-Software-GIT) to find out more.
 * Things in need of attention are currently described in issues so have a look there if you'd like to work on something but aren't sure what.
-
-We provide a brief tutorial on how to design an insert which adapts any part to the UC2 system. Please find it [here](./CAD/ASSEMBLY_CUBE_Base_v2/#tutorial-on-how-to-design-an-insert-in-inventor) on how to design an insert in Inventor).
-
 
 REMARK: All files have been designed using Autodesk Inventor 2019 (EDUCATION)
 
@@ -209,7 +214,7 @@ Please find the type of licenses [here](./License.md)
 This is the mess you can end up during Fourier-optics session using UC2 components. Pure-fun! :-)
 
 <p align="center">
-<img src="./IMAGES/UC2_fourierworkshop.jpg" width="500">
+<img src="./IMAGES/UC2_fourierworkshop.JPG" width="500">
 </p>
 
 
