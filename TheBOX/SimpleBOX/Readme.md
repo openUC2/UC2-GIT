@@ -35,7 +35,7 @@ Trasmission microscope, uses smartphone for image acquisition. LED array serves 
 <img src="./IMAGES/UC2_Setups_9_smartphone_simple.png" height="300">
 </p>
 
-You also find some education material and more about the setups in [DOCUMENTS](./DOCUMENTS/UC2_simpleBOX.pdf). At the moment, the materials are in German only.
+You also find some education material and more about the setups in DOCUMENTs in [GERMAN](./DOCUMENTS/UC2_simpleBOX_DE.pdf) and [ENGLISH](./DOCUMENTS/UC2_simpleBOX_EN.pdf). 
 
 ## <img src="./IMAGES/S.png" height="40"> Participate
 If you have a cool idea, please don't hesitate to write us a line, we are happy to incorporate it in our design to make it even better.
