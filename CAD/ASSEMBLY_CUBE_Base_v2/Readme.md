@@ -96,6 +96,9 @@ Open-Souce also means, that one should be able to modify the files with open-sou
 ## Tutorial on how to design an insert in Inventor
 This should represent an examplary tutoria on how an insert for any function you like should look like. We are eager to see your results! Feel free to file a pull-request or share it via mail or [@openUC2 on Twitter](https://twitter.com/openUC2) .
 
+**Video Tutorial on How to design a Cube Insert (Perpendicular to the optical axis)**
+[![UC2 YouSeeToo - How to design an insert](./IMAGES/UC2_Insert_Design.png)](https://www.youtube.com/watch?v=q2DNw-Q1KEo&t=2s)
+
 
 #### 1. Open Autodesk Inventor 2019 (Student) and open the UC2 project
 <p align="center">
