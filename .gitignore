@@ -12,6 +12,7 @@ Thumbs.db
 *.dropbox
 ~$*
 
+CAD/APP_Ptychography/RESULT/*
 
 *.tmp
 
@@ -35,3 +36,4 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+*.tif
