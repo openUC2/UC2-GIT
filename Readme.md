@@ -7,11 +7,14 @@
 # **UC2 - Open and Modular Optical Toolbox**
 
 ---
+
+**New**: Our new Pre-print fresh from the press is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.03.02.973073v1)
+
+**New**: The COSI conference paper is out [on OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5)
+
 **New:** We have a [YouTube Channel](https://www.youtube.com/channel/UCcHFzXTdC1Ro0OMnHS_54UA)!
 
 **New:** The [CoreBOX](./TheBOX/CoreBOX) now comes with a detailed alignment tutorial.
-
-**New**: The COSI conference paper is out [on OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5), A preprint will soon appear on BioRxiv.
 
 **New:** We have updated many modules and their pictured tutorials in [CAD](./CAD)
 
