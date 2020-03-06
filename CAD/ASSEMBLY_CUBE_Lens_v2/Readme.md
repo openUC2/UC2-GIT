@@ -44,7 +44,8 @@ For a convex 25 mm lens:
 * **The 25 mm Lens Holder** which holds a lens with 25 mm diamater and adapts it to the base cube ([HOLDER](./STL/25mm_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl))
 * **The 25 mm Lens Clamp** which holds a lens with 25 mm diamater in the holder ([CLAMP](./STL/25mm_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl))
 
-## Design your own Lens Holder
+## Design your own Lens Holder  
+## For any lens or round filter from ⌀9 mm to ⌀42 mm
 ### Shortly, for any lens you have at hand:
 * Download the [Lens Insert Folder](./STL/Lens_Insert), adapt the .ipt files to the dimensions of your lens, export .stl and print your own holders.
 * The clamp is adaptive to the holder - it is enough to change a single parameter - the diameter of your lens.
