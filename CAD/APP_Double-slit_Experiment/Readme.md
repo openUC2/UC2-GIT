@@ -1,4 +1,4 @@
-## Double-slit experiment
+# Double-slit experiment
 
 <p align="center">
 <img src="./IMAGES/UC2_Setups_13_Double-slit.png"

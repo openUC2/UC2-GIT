@@ -1,5 +1,4 @@
-## Michelson Interferometer
-
+# Michelson Interferometer
 
 <p align="center">
 <img src=".\IMAGES\UC2_Setups_8_michelson.png"
@@ -27,16 +26,11 @@ In particular you need the following parts:
 ### Miscellaneous
 * here will be a list of components
 
-
 ## Assembly of the cube
 Putting the parts together is as simple as that:
 <p align="center">
 <img src="./IMAGES/UC2_assembly.png" width="300">
 </p>
-
-
-
-
 
 ## Suggestions
 If you have any problems or suggestions, please file an issue. Thank you!

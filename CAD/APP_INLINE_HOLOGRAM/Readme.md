@@ -1,4 +1,4 @@
-## Inline Holographic Microscope
+# Inline Holographic Microscope
 This is the repository for the inline holographical microscope.
 
 This is be part of the workshop which can be found in WORKSHOP. Note that the designs has been updated since the last workshop was organised. The files and linkd on this page are up to date. The files in the workshop document follow the old version of the cube.
@@ -14,7 +14,7 @@ For reconstructing the Hologram, acquired on-chip (Raspi-Cam, left) one only nee
 
 A more in-detail documentation can be found [here](./../../WORKSHOP/INLINE-HOLOGRAMM)
 
-## Devices' features:
+## <img src="./IMAGES/F.png" width="40">Devices' features:
 
 * Lensless
 * Explain Interference
@@ -23,7 +23,7 @@ A more in-detail documentation can be found [here](./../../WORKSHOP/INLINE-HOLOG
 * Compatible with Educational purposes
 
 
-## <img src="./IMAGES/D.PNG" width="40"><img src="./IMAGES/P.PNG" width="40"> 3D printing
+## <img src="./IMAGES/D.PNG" width="40"> 3D printing
 
 <p align="center">
 <img src="./IMAGES/Print_CURA_Prusai3MK3S.PNG" width="500">
@@ -37,7 +37,7 @@ A more in-detail documentation can be found [here](./../../WORKSHOP/INLINE-HOLOG
 |  Module: Raspberry Pi Camera | -  | 20 €  | [Raspi Camera Cube](../ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
 |  Module: LED + Pinhole  | - | 10€  | [LED + Pinhole](../ASSEMBLY_CUBE_LED_v2)  | 1|
 
-Parts to print:
+### <img src="./IMAGES/P.PNG" width="40">Parts to print
 
 * 1× [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
 * 2× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
@@ -48,12 +48,26 @@ Parts to print:
 * 1× [Clamp for the Insert for Pinhole](./STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl)
 
 
-### <img src="./IMAGES/B.PNG" width="40"> Additional components
+## <img src="./IMAGES/B.PNG" width="40"> Additional components
+*  16× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+* 8× - 16× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 2× M2×12 mm and 2× M2 nut - non-magnetic
+* 1× Raspberry Pi Camera [🢂](https://www.amazon.de/Raspberry-Pi-v2-1-1080P-Kamera-Modul/dp/B01ER2SMHY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1LUZK9XHFS5CX&keywords=raspberry+pi+camera+v2.1&qid=1565008837&s=gateway&sprefix=raspberry+pi+camera+%2Caps%2C163&sr=8-4)
 * 1x Raspberry Pi
 * 1x wired LED (blue)
 * 1x button
 * 1x Power Supply for Raspberry Pi
 
+## <img src="./IMAGES/A.png" width="40"> Assembly and alignment
+* [Baseplate ](../ASSEMBLY_Baseplate_v2/)
+* [Raspberry Camera Cube ](../ASSEMBLY_CUBE_RaspiCam_v2/)
+* [LED Cube](../ASSEMBLY_CUBE_LED_v2/)
+
+## <img src="./IMAGES/L.png" width="40"> Electronics
+🢂 Find more in the [Electronics section](../../ELECTRONICS)
+
+## <img src="./IMAGES/W.png" width="40"> Software
+🢂 Find the software for this setup in our dedicated [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)
 
 ## <img src="./IMAGES/E.PNG" width="40"> Quick-start
 

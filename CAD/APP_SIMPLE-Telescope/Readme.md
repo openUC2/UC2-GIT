@@ -1,15 +1,13 @@
-## Simple Telescope
+# Simple Telescopes
 
-We developed a very easy-to-use setup to let people understand how a telescope works. It guides you through  different varieties of optical designs all with the goal: magnifying of far-away objects (e.g. Stars).
+We developed a very easy-to-use setup to help you understand how a telescope works. It guides you through different optical designs, all with the goal: magnifying far-away objects (e.g. Stars).
 
-In the end the setup should look like this here:
 <p align="center">
 <img src="./IMAGES/Assembly_simple_Telescope.png"
 width="400">
 </p>
 
-
-We created a German [Workshop-Document (GER)](UC2_Telescope.pdf) and English [Workshop-Document (EN)](UC2_Telescope_EN.pdf) which goes into details of assembling the Telescope and comes with a quiz to test your knowledge about telescopes. Are you able to answer all of them?
+The telescopes are also a part of the [SimpleBOX](../../TheBOX/SimpleBOX). There, in the [DOCUMENTS](..\..\TheBOX\SimpleBOX\DOCUMENTS) folder you'll find manuals for these simple experiemnt in [ENGLISH](./DOCUMENTS/UC2_simpleBOX_EN.pdf), [GERMAN](./DOCUMENTS/UC2_simpleBOX_DE.pdf) and [FRENCH](./DOCUMENTS/UC2_simpleBOX_FR.pdf).
 
 <p align="center">
 <img src=".\IMAGES\UC2_Setups_6_telescopes.png"
@@ -34,46 +32,37 @@ The core idea of the Galilean telescope is to magnify objects from far away - su
 
 Another major difference is, that the image is not flipped compared to the Keplerian Telescope!
 
+## <img src="./IMAGES/D.png" width="40">3D printing
 
-## Components
-The CAD parts can also be found [here](./STL).
+### Modules for this setup
 
-In particular you need the following parts:
+|  Name | Properties  |  Price | Link  | # |
+|---|---|---|---|---|
+|  4×1 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_Baseplate_v2/)  | 2|
+|  Module: Lens Cube | -  | ?? €  | [Lens](../ASSEMBLY_CUBE_Lens_v2)  | 4|
 
-### 3D-printed components
-* 1x [Base Frame](./STL/INLINE_HOLOGRAM_00_Base_4x1_v0.stl)
-* 2x [Cube Lid](./STL/INLINE_HOLOGRAM_10_Lid_el_v0.stl)
-* 2x [Cube Lid](./STL/INLINE_HOLOGRAM_10_Cube_v0.stl)
-* 2x [Lens Holder](./STL/Assembly_Custom_Lens_Adapter_11_Lens_Thorlabs_Mount_Customized_B_1.stl)
-* 2x [Lens Holder Ring](./STL/Assembly_Custom_Lens_Adapter_11_Lens_Thorlabs_Mount_Ring_B_2.stl)
+### <img src="./IMAGES/P.png" width="40">Parts to print
 
+* 2× [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
+* 4× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
+* 4x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
+* 4× [Lens Holder](./STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl)
+* 4x [Lens Clamp](./STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl)
 
+In the [STL](./STL) folder you will find lens holder for a thin lens with diameter of 1 inch. When using different lenses, plese follow our [Tutorial: Design your own Lens Holder](../ASSEMBLY_CUBE_Lens_v2#design-your-own-lens-holder).
 
-### Lenses (Kepler+Galileo)
-* 1x biconvex lens, Diameter=20mm, 50mm
-* 1x plano-concave lens, Diameter=20mm, -50mm
-* 1x biconvex lens, Diameter=20mm, 150mm
+## <img src="./IMAGES/B.png" width="40"> Additional components
+* 1× planoconvex lens, *f'* = +100 mm, diameter 25,4 mm (Artikel 2004) [🢂](https://optikbaukasten.de/)
+* 2× planoconvex lens, *f'* = +50 mm, diameter 25,4 mm [🢂](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1131)
+* 1× planoconcave lens, *f'* = -50 mm, diameter 25,4 mm [🢂](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)
+* 32× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+* 16× - 32× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 
-### Miscellaneous
-* 4x [Aluminium Rods, Diameter=6mm, length=50mm, EBAY](https://www.ebay.de/itm/Aluminium-rund-6mm-Lange-wahlbar-Rundstange-Alu-AlCuMgPb-Rundmaterial-Stab/142225734720?hash=item211d507c40:m:mAppPewY6qYHfgAQt2GatDg)
-* 8x [Ball-Magnets - 5mm, Neo-Dym, AMAZON](https://www.amazon.de/Unbekannt-100-Neodym-Kugelmagnete-5-mm/dp/B00HXLBH6K/ref=pd_sbs_196_4/261-4292290-0235846?_encoding=UTF8&pd_rd_i=B00HXLBH6K&pd_rd_r=985b1a67-4b1e-11e9-b3ce-5b3ae6a6812b&pd_rd_w=Yei4i&pd_rd_wg=eETBx&pf_rd_p=74d946ea-18de-4443-bed6-d8837f922070&pf_rd_r=Z3BJWK5PJB16K7PF8ENR&psc=1&refRID=Z3BJWK5PJB16K7PF8ENR)
-* 8x [M3 srews, DIN 912, magnetic (!), 18mm long, AMAZON](https://www.amazon.de/Edelstahl-Innensechskant-Schrauben-Sortiment-250-tlg/dp/B0065GSI34)
+## <img src="./IMAGES/A.png" width="40"> Assembly
 
+* [Baseplate ](../ASSEMBLY_Baseplate_v2/)
+* [Lens Cube ](../ASSEMBLY_CUBE_Lens_v2/)
 
-## Assembly of the cube
-Putting the parts together is as simple as that:
-<p align="center">
-<img src="./IMAGES/UC2_assembly.png" width="300">
-</p>
+## <img src="./IMAGES/S.png" width="40"> Participate!
 
-## Assembly of the lenses
-Putting the parts together is as simple as that:
-<p align="center">
-<img src="./IMAGES/Assembly_Custom_Lens_Adapter.png" width="300">
-</p>
-Put the lens into the inner hole of the adapter, add the retaining ring and you're done. If you have a specifc lens shape, let us know, we can customize the inner diameter in order to make it work! This part goes on the 6mm rod which goes inside cube.
-
-
-
-## Suggestions
-If you have any problems or suggestions, please file an issue. Thank you!
+Do you want to show your own results? Do you have ideas for improvements? Let us know!

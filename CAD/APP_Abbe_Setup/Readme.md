@@ -1,4 +1,4 @@
-## Abbe Diffraction Experiment
+# Abbe Diffraction Experiment
 This is the repository for the Abbe Diffraction Experiment. It has two cameras where one captures the fourier plane and the other acquieres the image plane.
 
 <p align="center">
@@ -20,11 +20,11 @@ This is based on old cubes, but the order is the same. All lenses have 50mm foca
 * Compatible with Educational purposes
 
 
-## 3D printing
+## <img src="./IMAGES/P.png" width="40">3D printing
 
 Having two cameras is optional since one camera can be moved between two planes!
 
-### Parts to printing
+### <img src="./IMAGES/D.png" width="40"><img src="./IMAGES/P.png" width="40">Parts to printing
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
@@ -36,8 +36,7 @@ Having two cameras is optional since one camera can be moved between two planes!
 |  Module: Beamsplitter | - | 30€  | [Beamsplitter Cube](../ASSEMBLY_CUBE_Beamsplitter_v2)  | 1 |
 |  Module: Sampleholder | - | 30€  | [Sampleholder Cube](../ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |
 
-
-### Additional components
+### <img src="./IMAGES/B.png" width="40">Additional components
 
 * 1x Raspberry Pi
 * 1x camera splitter for Raspberry Pi
@@ -46,13 +45,8 @@ Having two cameras is optional since one camera can be moved between two planes!
 * 1x Power Supply for Raspberry Pi
 * long camera cables
 
-
-
 ## Software
 Please have a look at our **ImJoy** [Github-Repository](https://github.com/bionanoimaging/UC2-ImJoy-GIT) for this Application.
 
-## Comments
-Nothing to say.
-
-## Contribution
+## <img src="./IMAGES/S.png" width="40">Participate!
 If you find this piece usefull or you want to improve it, please feel free to file an issue or write us a message!

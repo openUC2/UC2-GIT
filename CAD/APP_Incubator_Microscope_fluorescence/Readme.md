@@ -1,4 +1,4 @@
-## In-Incubator Microscope with fuorescence module
+# In-Incubator Microscope with fuorescence module
 This is the repository for the in-incubator microscope. It is capable to acquire Time-Lapse videos from living cells inside an incubator.
 
 The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org).

@@ -188,6 +188,7 @@ width="450">
 </p>
 
 **Video Tutorial on How to design a Cube Insert (Perpendicular to the optical axis)**
+
 [![UC2 YouSeeToo - How to design an insert](./IMAGES/UC2_Insert_Design.png)](https://www.youtube.com/watch?v=q2DNw-Q1KEo&t=2s)
 
 ##### Cube Insert (Diagonal)
