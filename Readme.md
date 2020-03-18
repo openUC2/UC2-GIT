@@ -12,13 +12,9 @@
 
 **New**: The COSI conference paper is out [on OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5)
 
-**New:** We have a [YouTube Channel](https://www.youtube.com/channel/UCcHFzXTdC1Ro0OMnHS_54UA)!
-
-**New:** The [CoreBOX](./TheBOX/CoreBOX) now comes with a detailed alignment tutorial.
-
-**New:** We have updated many modules and their pictured tutorials in [CAD](./CAD)
-
 **New:** We have a new comprehensive 2-day workshop documented in [WORKSHOP](./WORKSHOP)
+
+[<img src="./IMAGES/icon_git.svg" width=40>](https://github.com/bionanoimaging/UC2-GIT) [<img src="./IMAGES/icon_tw.png" width=40>](https://twitter.com/openuc2) [<img src="./IMAGES/icon_yt.png" width=40>](https://www.youtube.com/channel/UCcHFzXTdC1Ro0OMnHS_54UA)
 
 ---
 
@@ -29,7 +25,9 @@
 <img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800">
 </p>
 
-## Click here if you are looking for...
+## Too many new things? Follow our tutorial [<img src="./IMAGES/BtP.png" width="60"> From a Beginner to a Professional](./TUTORIALS)!
+
+## Already familiar? Click here if you are looking for...
 TheBOX | General toolbox |Workshops
 :------:|:------:|:------:
 <img src="./IMAGES/UC2_theBox.jpg" height="200" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="200">|<img src="./IMAGES/UC2_workshop.jpg" height="200">
@@ -72,7 +70,7 @@ A full cube + base-plate looks like that:
 
 
 **UC2** can be used with cameras from the Raspberry Pi world, but creates even more beautiful images with your cellphone. Thus making cutting edge-research not only affordable, but also available.
-A more in-detail project description can be found in the [UC2 White-Paper](./DOCUMENTS/UC2_Whitepaper.pdf)
+A more in-detail project description can be found in the [UC2 White-Paper](./TUTORIALS/DOCUMENTS/UC2_Whitepaper.pdf)
 
 
 ## UC2 as an "open-standard"
@@ -100,7 +98,7 @@ Our goal is to make as many setups as possible available, so that people can pla
 
 * [**THE**Box: Concept of a ready-to-use box containing multiple setups at once](./TheBOX/)
 * [**SIMPLE**Box: Optical setups for elementary- to high-schools ](./TheBOX/SimpleBOX)
-* [**FULL**Box: Optical setups for high-schools to universities (contains electronics)](./TheBOX/SimpleBOX)
+* [**FULL**Box: Optical setups for high-schools to universities (contains electronics)](./TheBOX/FullBOX)
 * [**CORE**Box: Optical setups for Optics and Microscopy courses](./TheBOX/CoreBOX)
 
 
@@ -113,7 +111,6 @@ Our goal is to make as many setups as possible available, so that people can pla
 * [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./CAD/APP_Incubator_Microscope)
 * [Light-Sheet Microscope](./CAD/APP_LIGHTSHEET_Workshop)
 * [In-Line Holographical Microscope](./CAD/APP_INLINE_HOLOGRAM)
-* [Telescope](./CAD/APP_SIMPLE-Telescope)
 * [Abbe Experiment (Diffraction-effect of light)](./CAD/APP_Abbe_Setup)
 * [Michelson interferometer (Interference-effect of light)](./CAD/APP_Michelson_Interferometer)
 * [Mach Zehnder interferometer (Interference-effect of light)](./CAD/APP_Mach-Zehnder_Interferometer)
@@ -142,29 +139,12 @@ Currently, **UC2** consists of the following repositories:
 There is a new Software repository dedicated for the UC2 stuff. It can be found [here](https://github.com/bionanoimaging/UC2-Software-GIT).
 It supports you with controler APPS for the Raspberry Pi and Android Cellphones.
 
-## Quickstart
-
-### Print your first UC2 cube
-
-All the CAD-Parts can be printed using an off-the-shelf 3D printer (or 3D printing service). Currently we use majorly PLA and ABS coming from an ULTIMAKER 2+/3 (Netherlands), Be3D DeeGreen (Czech Republic) and Prusa i3 Mk3 (Czech Republic).
-
-Each Application (e.g. Incubator Microscope) has a specific sub-folder in the [CAD](./CAD)-section where all necessary ```.stl``` files are lying ready for printing.
-
-
-A quick printing tutorial can be found here:
-[![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.PNG)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
-
-**Attention:** Don't just print everything from the STL folder, as currently it contains some parts that must be printed multiple times, and other parts that are redundant.
-
-**Hint:** A detailed description of how-to-print the **UC2**-parts with a ***Prusa i3*** can be found in the folder [Printer](./PRINTER).
-
-
 ### Modify the UC2 design-files
 
 The basic cube can directly be printed using the [STL](./CAD/ASSEMBLY_CUBE_Base_v2/STL)-files or imported in Autodesk's Inventor/Fusion360. Therefor we wrote a little tutorial which can be found [here](./CAD/ASSEMBLY_CUBE_Base_v2).
 A video is coming soon!
 
-A quick tutorial where you find a guide on how an inlet could look like can be found here: [Guide to design a customized function](./DOCUMENTS/TUTORIALS/TUT_Basic_Design_Cube_Inlet_Function_v0.pdf).
+A quick tutorial where you find a guide on how an inlet could look like can be found here: [Guide to design a customized function](./TUTORIALS/DOCUMENTS/TUTORIALS/TUT_Basic_Design_Cube_Inlet_Function_v0.pdf).
 
 
 ### Workshops
@@ -185,6 +165,7 @@ The [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs
 
 This project is open so that anyone can get involved. You don't even have to learn CAD designing or programming. Ways you can contribute include:
 
+* **Firstly, have a look into the [Contributor guidelines](.TUTORIALS)**
 * General / Documentation
   * Share your results - setups you've built or things you've seen with them - on Twitter using [#openUc2](https://twitter.com/search?q=%23openUc2&src=typed_query)
   * Get involved in discussions in the [ISSUE-section](https://github.com/bionanoimaging/UC2-GIT/issues).
@@ -216,7 +197,7 @@ We encourage everyone who is using our Toolbox to share their results and ideas,
 
 You're free to fork the project and enhance it. If you have any suggestions to improve it or add any additional functions make a pull-request or file an issue.
 
-Please find the type of licenses [here](./License.md)
+Please find the type of licenses [here](./LICENSE.md)
 
 
 ## Showcase

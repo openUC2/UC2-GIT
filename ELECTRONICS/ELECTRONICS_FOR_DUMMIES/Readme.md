@@ -11,8 +11,8 @@ Don't have much experience with electronics? It's actually really simple!
 
 ## <img src="./IMAGES/A.png" width="40"> Connecting the electronics
 
-* When using jumper wires you can avoid most of the soldering.
-* LED array - 3 wires
+* When using [jumper wires](http://blog.sparkfuneducation.com/what-is-jumper-wire) you can avoid most of the soldering.
+* **LED array** - 3 wires
 
 <p align="center">
 <img src="./IMAGES/Electronics_LED.png" width="300">
@@ -21,8 +21,8 @@ Don't have much experience with electronics? It's actually really simple!
 <img src="./IMAGES/IMG_20190925_163200.jpg" width="300">
 </p>
 
-* Z-stage - 6 wires + motor connection
-* Sample stage is the very same
+* **Z-stage** or **Sample-stage** - 6 wires + motor connection
+* Sample stage is the very same as the Z-stage - you just mount it on different 3Dprinted parts.
 
 <p align="center">
 <img src="./IMAGES/Electronics_Z-stage.png" width="300">
@@ -36,3 +36,7 @@ Don't have much experience with electronics? It's actually really simple!
 * Power the ESP32 simply with microUSB cables.
 * Flash them with the right software from our [Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT).
 * And it works just like that ;-)
+
+Hints:  
+[But I don't have such wires...](https://www.youtube.com/watch?v=VB1CrqY_jMg)  
+[But how to connect two wires to the same pin?](https://www.youtube.com/watch?v=8W-zdo1AVns)
