@@ -48,9 +48,9 @@ The soldering is quiet easy. Simply put some wires to the end of the Pogo-Pin co
 ![Schematics](./IMAGES/PogoPins_2.png)
 
 ### Properties
-	- 4 pins
-	- magnetic (600g)
+- 4 pins
+- magnetic (600g)
 
 
-## NOTES
+## SAFETY
 Make sure you're releasing the Motor after usage, otherwise it can get quiet hot!

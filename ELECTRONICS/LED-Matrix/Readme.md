@@ -23,13 +23,13 @@ This is how it could look like in a cube
 
 
 ## Properties
-	- 8x8 RGB LEDs
-	- 5V Control Voltage
-	- WS2812 LED controllers
+- 8x8 RGB LEDs
+- 5V Control Voltage
+- WS2812 LED controllers
 
 
 ## <img src="./IMAGES/W.png" width=40>Code
-The code is from the Adafruit example with the wiring explained above. Please find it also [here](./controleLED.ino):
+The code is from the Adafruit example with the wiring explained above. Please find it also [here](./CODE/controleLED/controleLED.ino):
 
 		// Adafruit_NeoMatrix example for single NeoPixel Shield.
 	// Scrolls 'Howdy' across the matrix in a portrait (vertical) orientation.
@@ -451,5 +451,5 @@ The code is from the Adafruit example with the wiring explained above. Please fi
 
 
 
-## NOTES
+## SAFETY
 Make sure you're releasing the Motor after usage, otherwise it can get quiet hot!

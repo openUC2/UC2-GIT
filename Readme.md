@@ -14,7 +14,7 @@
 
 **New:** We have a new comprehensive 2-day workshop documented in [WORKSHOP](./WORKSHOP)
 
-[<img src="./IMAGES/icon_git.svg" width=40>](https://github.com/bionanoimaging/UC2-GIT) [<img src="./IMAGES/icon_tw.png" width=40>](https://twitter.com/openuc2) [<img src="./IMAGES/icon_yt.png" width=40>](https://www.youtube.com/channel/UCcHFzXTdC1Ro0OMnHS_54UA)
+[<img src="./IMAGES/icon_git.png" width=40>](https://github.com/bionanoimaging/UC2-GIT) [<img src="./IMAGES/icon_tw.png" width=40>](https://twitter.com/openuc2) [<img src="./IMAGES/icon_yt.png" width=40>](https://www.youtube.com/channel/UCcHFzXTdC1Ro0OMnHS_54UA)
 
 ---
 
@@ -28,10 +28,10 @@
 ## Too many new things? Follow our tutorial [<img src="./IMAGES/BtP.png" width="60"> From a Beginner to a Professional](./TUTORIALS)!
 
 ## Already familiar? Click here if you are looking for...
-TheBOX | General toolbox |Workshops
-:------:|:------:|:------:
-<img src="./IMAGES/UC2_theBox.jpg" height="200" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="200">|<img src="./IMAGES/UC2_workshop.jpg" height="200">
-[Choose a version and build your own BOX.](./TheBOX) | [Explore the toolbox and its applications.](./CAD) | [Host or join a UC2 workshop.](./WORKSHOP)
+TheBOX | General toolbox  | Specific setup |Workshops
+:------:|:------:|:------:|:------:
+<img src="./IMAGES/UC2_theBox.jpg" height="200" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="200">|<img src="./IMAGES/UC2_application.jpg" height="200">|<img src="./IMAGES/UC2_workshop.jpg" height="200">
+[Choose a version and build your own BOX.](./TheBOX) | [Explore the toolbox and its applications.](./CAD) | [Alternatives for many Microscopy methods... and more.](./APPLICATIONS) | [Host or join a UC2 workshop.](./WORKSHOP)
 
 ## [Get Involved! Contribute to the project!](#get-involved)
 
@@ -197,7 +197,7 @@ We encourage everyone who is using our Toolbox to share their results and ideas,
 
 You're free to fork the project and enhance it. If you have any suggestions to improve it or add any additional functions make a pull-request or file an issue.
 
-Please find the type of licenses [here](./LICENSE.md)
+Please find the type of licenses [here](./License.md)
 
 
 ## Showcase
@@ -205,7 +205,7 @@ Please find the type of licenses [here](./LICENSE.md)
 This is the mess you can end up during Fourier-optics session using UC2 components. Pure-fun! :-)
 
 <p align="center">
-<img src="./IMAGES/UC2_fourierworkshop.JPG" width="500">
+<img src="./IMAGES/UC2_workshop.jpg" width="500">
 </p>
 
 

@@ -8,6 +8,8 @@ That's how it could look like:
 
 Useful for Workshops. Get back to us if you want to organize one together with us!
 
+**Coming soon:** MiniBOX with 8 cubes only but the same amount of experiments as the SimpleBOX! Price is reduced, effect remains. 
+
 ## <img src="./IMAGES/D_B_P_A.png" height="40"> Build the BOX
 A list of 3D-printed parts and necessary components is found in [BUILD_ME](./BUILD_ME), together with assembly guidelines and some printing tips and tricks.
 
@@ -35,7 +37,7 @@ Trasmission microscope, uses smartphone for image acquisition. LED array serves 
 <img src="./IMAGES/UC2_Setups_9_smartphone_simple.png" height="300">
 </p>
 
-You also find some education material and more about the setups in DOCUMENTs in [ENGLISH](./DOCUMENTS/UC2_simpleBOX_EN.pdf), [GERMAN](./DOCUMENTS/UC2_simpleBOX_DE.pdf) and [FRENCH](./DOCUMENTS/UC2_simpleBOX_FR.pdf). 
+You also find some education material and more about the setups in DOCUMENTs in [ENGLISH](./DOCUMENTS/UC2_simpleBOX_EN.pdf), [GERMAN](./DOCUMENTS/UC2_simpleBOX_DE.pdf) and [FRENCH](./DOCUMENTS/UC2_simpleBOX_FR.pdf).
 
 ## <img src="./IMAGES/S.png" height="40"> Participate
 If you have a cool idea, please don't hesitate to write us a line, we are happy to incorporate it in our design to make it even better.

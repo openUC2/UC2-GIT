@@ -1,19 +1,19 @@
 # The BOX
-Very soon we would like to offer a ready-to-use box being able to make a growing number of different optical experiments possible.
+We would like to offer a ready-to-use box being able to make a growing number of different optical experiments possible. Our BOXes are still a work-in-progress - we test them, optimize them and continually improve them.
 
 ## Choose [SimpleBOX](./SimpleBOX) for schools and demonstration of basic optical principles:
 <p align="center">
-<img src="./IMAGES/SimpleBOX.jpg" width="450">
+<img src="./IMAGES/SimpleBOX.jpg" width="400">
 </p>
 
 ## Choose [FullBOX](./FullBOX) for adventurous biologists and microscopy enthusiasts:
 <p align="center">
-<img src="./IMAGES/FullBOX.jpg" height="450">
+<img src="./IMAGES/FullBOX.jpg" height="400">
 </p>
 
-## Choose [CoreBOX](./CoreBOX) for Basic Microscopy and Optical Alignment courses:
+## Choose [CourseBOX](./CourseBOX) for Basic Microscopy and Optical Alignment courses:
 <p align="center">
-<img src="./IMAGES/CoreBOX.jpg" width="450">
+<img src="./IMAGES/CourseBOX.jpg" width="400">
 </p>
 
 Useful for [Workshops](../WORKSHOP). Get back to us if you want to organize one together with us!

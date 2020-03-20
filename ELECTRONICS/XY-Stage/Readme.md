@@ -21,11 +21,11 @@ The motor can be connected as follows:
 If one uses an H-Bridge one simply need to make sure, that A+/A- and B+/B- are connected to MOTOR A and MOTOR B respectively.
 
 ## Properties
-	- Impedance: ~45 ohm
-	- Stepsize: 18 degree
-	- Voltage: 5 V
-	- Peak Current: 100mA
-	- Movement X/Y: 2.4 mm
+- Impedance: ~45 ohm
+- Stepsize: 18 degree
+- Voltage: 5 V
+- Peak Current: 100mA
+- Movement X/Y: 2.4 mm
 
 
 ## <img src="./IMAGES/W.png" width=40>Code
@@ -59,5 +59,5 @@ The code is from the Adafruit example with the wiring explained above:
 	}
 
 
-## NOTES
+## SAFETY
 Make sure you're releasing the Motor after usage, otherwise it can get quiet hot!

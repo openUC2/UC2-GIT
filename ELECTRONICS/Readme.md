@@ -5,6 +5,8 @@ Here you'll find the schematics for the wiring parts of the UC2 parts.
 # If all the wiring scares you, click here [<img src="./IMAGES/lightbulb.svg" width="60">](./ELECTRONICS_FOR_DUMMIES)
 ---
 
+    This section needs an update!
+
 ## Wire Diagrams/Schematics
 All schemes are put together with the Open-Source Software [Fritzing](http://fritzing.org/).
 
@@ -25,9 +27,10 @@ The junctions are connected with [WaGo Snapping Clamps, Compact Wago 2273-203 ->
 
 
 ## Projects
-- [XY-Stage](./XY-Stage/Readme.md)
-- [LED-Matrix](./LED-Matrix/Readme.md)
-- [FLUO-LED](./FLUO-LED/Readme.md)
-- [Magnetic Connectors](./Magnetic-Connectors/Readme.md)
+- [XY-Stage](./XY-Stage)
+- [LED-Matrix](./LED-Matrix)
+- [FLUO-LED](./FLUO-LED)
+- [Magnetic Connectors](./Magnetic-Connectors)
+- [Raspberry Pi](./RASPBERRY-PI)
 
 # Done with the wiring? Then it's time for [software<img src="./IMAGES/W.png" width=40>](https://github.com/bionanoimaging/UC2-Software-GIT)!
