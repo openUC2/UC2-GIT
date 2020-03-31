@@ -36,7 +36,7 @@ The function is defined by the insert and all our insert are in the respective m
 [![UC2 YouSeeToo - How to assemble the base-cube?](./IMAGES/UC2_Assembly_BaseCube.png)](https://www.youtube.com/watch?v=zAMedY0mWKA)
 
 ## <img src="./IMAGES/A.png" width="40">Assembly Tutorial with images
-([TUT02 of TUTORIALS](../../../TUTORIALS))
+([TUT02 of TUTORIALS](../TUTORIALS))
 ## OLD VERSION!!! Assembly Tutorial with images (Cube v0)
       This section needs a update!
 

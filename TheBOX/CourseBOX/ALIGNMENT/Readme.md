@@ -1,4 +1,4 @@
-# The Core BOX Alignment Procedure
+# The Course BOX Alignment Procedure
 
 ### First experiment: Finite-corrected Microscope with Köhler Illumination
 This experiment demonstrates the essential parts of a microscope and explains the concept of conjugate planes. The key components are: Light source, Collector lens, Field Diaphragm, Aperture Diaphragm, Condenser lens, Sample, Objective lens and Eyepiece lens.

@@ -12,11 +12,11 @@ This is the repository for the simple mechanical-only version of the [Smartphone
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×2 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: mechanical Z-Stage | -  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)  | 1|
-|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)  | 2|
-|  Module: Eyepiece with Smartphone Holder  | - | ?? €  | [Eyepiece + Smartphone](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)  | 1|
-|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4€  | [Cube](../../CAD/ASSEMBLY_CUBE_Base_v2)  | 3|
+|  4×2 Baseplate | - | 5€  | [Base-plate](../../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
+|  Module: mechanical Z-Stage | -  | ?? €  | [Z-Stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)  | 1|
+|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)  | 2|
+|  Module: Eyepiece with Smartphone Holder  | - | ?? €  | [Eyepiece + Smartphone](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)  | 1|
+|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4€  | [Cube](../../../CAD/ASSEMBLY_CUBE_Base_v2)  | 3|
 
 
 ### <img src="../IMAGES/P.png" width="40">Parts to print

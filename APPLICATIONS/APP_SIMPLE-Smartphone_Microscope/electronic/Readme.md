@@ -16,30 +16,30 @@ Note: The above picture on this site does not show the latest version of the Z-s
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×4 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Z-Stage | -  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)  | 1|
-|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)  | 2|
-|  Module: Eyepiece with Smartphone Holder  | - | ??€  | [Eyepiece + Smartphone](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)  | 1|
-|  Module: LED array  | -| ??€  | [LED array](../../CAD/ASSEMBLY_CUBE_LED_Matrix_v2)  | 1|
-|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4€  | [Cube](../../CAD/ASSEMBLY_CUBE_Base_v2)  | 3|
+|  4×4 Baseplate | - | 5€  | [Base-plate](../../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
+|  Module: Z-Stage | -  | ?? €  | [Z-Stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)  | 1|
+|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)  | 2|
+|  Module: Eyepiece with Smartphone Holder  | - | ??€  | [Eyepiece + Smartphone](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)  | 1|
+|  Module: LED array  | -| ??€  | [LED array](../../../CAD/ASSEMBLY_CUBE_LED_Matrix_v2)  | 1|
+|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4€  | [Cube](../../../CAD/ASSEMBLY_CUBE_Base_v2)  | 3|
 
 
 ### <img src="../IMAGES/P.png" width="40">Parts to print
 
-* 1× [Base-plate 4×4](./STL/Assembly_base_4x4.stl)
-* 6× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
-* 7x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
-* 1× [Cube base 2×1](./STL/10_Cube_2x1_v2.stl)
-* 1× [Cube lid 2×1](./STL/10_Lid_el_2x1_v2.stl)
-* 1× [LED Array Holder](./STL/30_Cube_LED_Array_v0.stl)
-* 1× [Cube Insert for Eyepiece](./STL/20_Cube_Insert_Holder-okular_v2.stl)
-* 1× [Smartphone Holder](./STL/30_Smartphone_Holder.stl)
-* 2× [Cube Insert for Mirror - 45°](./STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
-* 1× [Cube Insert for Z-stage](./STL/20_focus_inlet_linearflexure_v0.stl)
-* 1× [Z-stage Insert for Objective](./STL/30_focus_inlet_objective_mount_v7.stl)
-* 1× [Coupling Screw M3](./STL/30_Coupling_Screw_28BYJ_M3.stl)
+* 1× [Base-plate 4×4](../STL/Assembly_base_4x4.stl)
+* 6× [Cube base 1×1](../STL/10_Cube_1x1_v2.stl)
+* 7x [Cube lid 1×1](../STL/10_Lid_1x1_v2.stl)
+* 1× [Cube base 2×1](../STL/10_Cube_2x1_v2.stl)
+* 1× [Cube lid 2×1](../STL/10_Lid_el_2x1_v2.stl)
+* 1× [LED Array Holder](../STL/30_Cube_LED_Array_v0.stl)
+* 1× [Cube Insert for Eyepiece](../STL/20_Cube_Insert_Holder-okular_v2.stl)
+* 1× [Smartphone Holder](../STL/30_Smartphone_Holder.stl)
+* 2× [Cube Insert for Mirror - 45°](../STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
+* 1× [Cube Insert for Z-stage](../STL/20_focus_inlet_linearflexure_v0.stl)
+* 1× [Z-stage Insert for Objective](../STL/30_focus_inlet_objective_mount_v7.stl)
+* 1× [Coupling Screw M3](../STL/30_Coupling_Screw_28BYJ_M3.stl)
 * 1× [Z-stage Sample plate](../STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_Z_Stage_Sampleplate_8)
-* Optional: 1× [Generic Clamp for Slides](./STL/30_Sampleclamp_generic.stl)- current design is for 5 mm magnets (same as Baseplate)
+* Optional: 1× [Generic Clamp for Slides](../STL/30_Sampleclamp_generic.stl)- current design is for 5 mm magnets (same as Baseplate)
 
 In the end it should look like this:
 
@@ -99,10 +99,9 @@ In the [CODE](./CODE) folder you find the code for both the [LED array](./CODE/E
 Have a look in the [TUTORIALS](../../../TUTORIALS) for a beginners guide to UC2 hardware controls.
 
 Prerequisities:
-* [Arduino IDE]() installed
+* [Arduino IDE](https://www.arduino.cc/en/main/software) installed
 * ESP32 libraries - [Installation guide here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
-* [FastLED.h]() library
-* [Stepper.h]() library
+* [FastLED.h](https://www.arduinolibraries.info/libraries/fast-led) library
 
 **Where next?**  
 Find out more about the smartphone microscope in the [SimpleBOX manuals](../../../TheBOX/SimpleBOX/DOCUMENTS)  

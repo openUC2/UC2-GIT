@@ -21,7 +21,7 @@ They come in pairs.
 ### POGO Pins (male/female)
 Some images from their website:
 <p align="center">
-<img src="./IMAGES/PogoPins_1.png" width=300>
+<img src="./images/PogoPins_1.png" width=300>
 </p>
 
 ### Properties
@@ -52,8 +52,8 @@ This is a cube from the back side
 ### Soldering
 Simply put some wires to the end of the Pogo-Pin connectors like that:
 <p align="center">
-<img src="./IMAGES/PogoPins_2.png" width=300>
+<img src="./images/PogoPins_2.png" width=300>
 </p>
 
-## <img src="./IMAGES/Y.png" width=40>Safety
+## <img src="./images/Y.png" width=40>Safety
 Make sure to unplug the power supply when you're not using the electronic parts!

@@ -2,10 +2,9 @@
 
 ## [Main page with the story of UC2](./Readme.md)
 
-* [Making open-science great again!](./UC2-GIT#making-ope-science-great-again)
+* [Making open-science great again!](./UC2-GIT#making-open-science-great-again)
 * [UC2 as an "open-standard"](./UC2-GIT#uc2-as-an-open-standard)
-* [Get Involved!](./UC2-GIT#get-involved)
-* [License](./UC2-GIT#kits-licence-and-collaboration)
+* [License](./License.md)
 * [Showcase](./UC2-GIT#showcase)
 * [Credits](./UC2-GIT#credits)
 
@@ -35,7 +34,7 @@ There you also find our
  [HERE](./ELECTRONICS) you will find guidelines for the electronic parts that are used in several cubes and other related stuff.  
  The discussed topics are:
 
- * [Z-stage and Sample-Stage](./ELECTRONICS/Z-stage)
+ * [Z-stage and Sample-Stage](./ELECTRONICS/Z-Stage)
  * [LED matrix](./ELECTRONICS/LED-Matrix)
  * [Fluo-LED for Z-stage](./ELECTRONICS/FLUO-LED)
  * [XY-Stage](./ELECTRONICS/XY-Stage)
@@ -60,9 +59,9 @@ There is also a dedicated [UC2+ImJoy Image Processing](https://github.com/bionan
  [HERE](./TheBOX) you find our BOXes. The BOX is a comprehensive toolbox that contains a given set of cubes and can be used for a series of experiments.  
  Currently, we have three levels:
 
- * [SimpleBOX](./TheBOX) for schools and demonstration of basic optical principles
- * [FullBOX](./TheBOX) for adventurous biologists and microscopy enthusiasts
- * [CourseBOX](./TheBOX) for Basic Microscopy and Optical Alignment courses
+ * [SimpleBOX](./TheBOX/SimpleBOX) for schools and demonstration of basic optical principles
+ * [FullBOX](./TheBOX/FullBOX) for adventurous biologists and microscopy enthusiasts
+ * [CourseBOX](./TheBOX/CourseBOX) for Basic Microscopy and Optical Alignment courses
 
 
  ## [Tutorials](./TUTORIALS)
@@ -90,3 +89,7 @@ There is also a dedicated [UC2+ImJoy Image Processing](https://github.com/bionan
  * [In-line holography](./WORKSHOP/INLINE-HOLOGRAMM)
  * [Light sheet microscopy](./WORKSHOP/LIGHTSHEET)
  * [Comprehensive 2-day workshop](./WORKSHOP/OSLO)
+ * [Short FullBOX workshop](./TiM2020)
+ * [Simple Telescopes](../APPLICATION/AP_SIMPLE-Telescope)
+ * [SimpleBOX](../TheBOX/SimpleBOX)
+ * [CourseBOX](../TheBOX/CourseBOX)

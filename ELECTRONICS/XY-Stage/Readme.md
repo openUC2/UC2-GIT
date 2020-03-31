@@ -10,13 +10,13 @@ It is equipped with two bipolar stepper motors for X and Y direction. The wiring
 	3 -- A-
 	4 -- B-
 
-![xypins](./IMAGES/XYpins.png)
+![xypins](./images/XYpins.png)
 
 It can be controlled with an ESP32 or Arduino for example. Code is very easy as it relies on the $stepper.h$ library in Arduion IDE. We tested seveal H-Bridges to amplify the current coming from the Arduino GPIOs. The L293m works fine, but the DRV8833 is also good and even much smaller. The complete tutorial for can also be found at [Adafruit](https://learn.adafruit.com/adafruit-drv8833-dc-stepper-motor-driver-breakout-board/stepper-motor-usage).
 
 The motor can be connected as follows:
 
-![xypins](./IMAGES/XY_Stage_v0_Schaltplan.png)
+![xypins](./images/XY_Stage_v0_Schaltplan.png)
 
 If one uses an H-Bridge one simply need to make sure, that A+/A- and B+/B- are connected to MOTOR A and MOTOR B respectively.
 
@@ -28,7 +28,7 @@ If one uses an H-Bridge one simply need to make sure, that A+/A- and B+/B- are c
 - Movement X/Y: 2.4 mm
 
 
-## <img src="./IMAGES/W.png" width=40>Code
+## <img src="./images/W.png" width=40>Code
 The code is from the Adafruit example with the wiring explained above:
 
 	#include <Stepper.h>
@@ -59,5 +59,5 @@ The code is from the Adafruit example with the wiring explained above:
 	}
 
 
-## <img src="./IMAGES/Y.png" width=40>Safety
+## <img src="./images/Y.png" width=40>Safety
 Make sure to release the motor when not using it, otherwise it gets quiet hot!

@@ -1,7 +1,7 @@
 # Baseplate
 This is the repository for the design of the baseplates. The .stl files can be found in the folder [STL](./STL).
 
-([TUT04 of TUTORIALS](../../../TUTORIALS))
+([TUT04 of TUTORIALS](../../TUTORIALS))
 
 ## Purpose
 Baseplates serve as a spine of any setup you build using the cubes. The basic unit has a size of 1×1. The 5 mm ballmagnets are inserted in the baseplate.

@@ -8,7 +8,7 @@ Here you'll find the schematics for the wiring of the UC2 parts.
 Most connections can be established with pin-connection (male/female), as you see in the [simplified tutorial](./ELECTRONICS_FOR_DUMMIES). For durable connection, please solder everything! You're not expected to have perfect soldering skills though. Have a look in the [TUTORIALS](../TUTORIALS) for some soldering guidelines. Be careful not to mix up +/-, otherwise you might cause shortcuts which would very likely fry the Pi or the Arduinos/ESP32s.
 
 ## Available schemes and guidelines
-* [Z-stage and Sample-Stage](./Z-stage)
+* [Z-stage and Sample-Stage](./Z-Stage)
 * [LED matrix](./LED-Matrix)
 * [Fluo-LED for Z-stage](./FLUO-LED)
 * [XY-Stage](./XY-Stage)

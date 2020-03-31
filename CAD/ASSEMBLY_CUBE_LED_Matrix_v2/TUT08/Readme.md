@@ -29,7 +29,7 @@ The Cube consists of the following components.
 * 4× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 2× M2 screws with nuts for connecting the LED matrix to the adapter, alternatively use hot glue
 * 1× ESP32 [🢂](https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3)
-* 1× LED-Array, AZ Delivery, 8x8 [🢂]https://www.amazon.de/AZDelivery-Matrix-CJMCU-8-Arduino-Raspberry/dp/B078HYP681/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=neopixel+matrix&qid=1565008576&s=gateway&sr=8-2)
+* 1× LED-Array, AZ Delivery, 8x8 [🢂](https://www.amazon.de/AZDelivery-Matrix-CJMCU-8-Arduino-Raspberry/dp/B078HYP681/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=neopixel+matrix&qid=1565008576&s=gateway&sr=8-2)
 * 1× Button [🢂](https://www.az-delivery.de/products/button-modul?_pos=2&_sid=f2080c1b0&_ss=r)
 * 5× Female-Female Jumper Wire, 0.14 mm² [🢂](https://www.amazon.de/ZOORE-120pcs-Multicolored-Female-Breadboard/dp/B07P85V1G3/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jumper+male&qid=1565690543&s=industrial&sr=1-5)
 * 1× Power cable for ESP32 - USB-microUSB [🢂](https://www.amazon.de/Gritin-Datenkabel-Geflochtene-Robust-Daten%C3%BCbertragung-Grau/dp/B07CJJHVKX/ref=sr_1_3?keywords=usb+c+kabel&qid=1566029225&s=gateway&sr=8-3)
@@ -93,9 +93,9 @@ In the [CODE](./CODE) folder you find a simple code for the [LED array](./CODE/E
 Have a look in the [TUTORIALS](../../../TUTORIALS) for a beginners guide to UC2 hardware controls.
 
 Prerequisities:
-* [Arduino IDE]() installed
+* [Arduino IDE](https://www.arduino.cc/en/main/software) installed
 * ESP32 libraries - [Installation guide here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
-* [FastLED.h]() library
+* [FastLED.h](https://www.arduinolibraries.info/libraries/fast-led) library
 
 **Where next?**  
 Find out more about the electronics in the [Electronics section](../../../ELECTRONICS)  

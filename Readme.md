@@ -84,7 +84,7 @@ Where next? [<img src="./IMAGES/sitemap.png" height=50>](./SITEMAP.md)
 
 ### List of available Setups
 
-Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please have a look in the [APPLICATIONS](./CAD/Readme.md) folder for the up to date list of the setups.
+Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please have a look in the [APPLICATIONS](./APPLICATIONS/Readme.md) folder for the up to date list of the setups.
 
 <p align="center">
 <img src="./IMAGES/UC2_Holography.png" width="300">

@@ -12,7 +12,7 @@ The Lens Holder insert adapts a lens into the cube.
 
 ## Parts
 
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
 * No support needed in all designs
 * Carefully remove all support structures (if applicable)
 
@@ -25,12 +25,12 @@ For a thin convex 1 inch lens (like the one in additional parts):
 * **The 1" Lens Holder** which holds a lens with 1 inch (25,4 mm) diameter and adapts it to the base cube ([HOLDER](../STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl))
 * **The 1" Lens Clamp** which holds a lens with 1 inch (25,4 mm) diameter in the holder ([CLAMP](../STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl))
 
-### <img src="./IMAGES/B.png" height="40"> Additional parts
+### <img src="../IMAGES/B.png" height="40"> Additional parts
 * 8× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * alternatively: 4× M3×12 and 4× M3×8
 * Lens, f' = +40 mm (Artikel 2120) [🢂](https://optikbaukasten.de/)
 
-## <img src="./IMAGES/A.png" height="40"> Assembly
+## <img src="../IMAGES/A.png" height="40"> Assembly
 * Mount the lens inside the holder
 * Put the clamp in, to hold the lens
 * Put hot glue in the groove between the clamp and the holder - this way it will fix it permanently. The glue must never touch the lens!

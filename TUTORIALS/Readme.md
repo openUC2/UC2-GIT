@@ -51,9 +51,9 @@ Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie
 * TUT03: Give your first cube a function - lens as a magnifying glass [:feet:](../CAD/ASSEMBLY_CUBE_Lens_v2/TUT03)
 * TUT04: Build your first baseplate [:feet:](../CAD/ASSEMBLY_Baseplate_v2)[:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA)
 * TUT05: Build your first optical setup - a telescope [:feet:](../APPLICATIONS/APP_SIMPLE-Telescope)
-* TUT06: Build your first microscope [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope)
+* TUT06: Build your first microscope [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/mechanical)
 * TUT07: Get your first electronic part - simple LED matrix [:feet:](../CAD/ASSEMBLY_CUBE_LED_Matrix_v2/TUT08)
-* TUT08: Build your first microscope with electronics [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope)
+* TUT08: Build your first microscope with electronics [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/electronic)
 
 ## <img src="./IMAGES/HT.png" width="120"> How-to guides
 How-to guides show you how to assemble cubes for various functions and how to build many different optical setups, once you are familiar with the basic idea. It also takes you from the mechanical-only to motorized systems.

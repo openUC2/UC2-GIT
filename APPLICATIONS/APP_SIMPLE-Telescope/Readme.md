@@ -1,6 +1,6 @@
 # Simple Telescopes
 
-([TUT05 of TUTORIALS](../../../TUTORIALS))
+([TUT05 of TUTORIALS](../../TUTORIALS))
 
 We developed a very easy-to-use setup to help you understand how a telescope works. It guides you through different optical designs, all with one goal: magnifying far-away objects.
 
@@ -20,8 +20,8 @@ width="600">
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×1 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_Baseplate_v2/)  | 2|
-|  Module: Lens Cube | -  | 20 €  | [Lens](../ASSEMBLY_CUBE_Lens_v2)  | 4|
+|  4×1 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 2|
+|  Module: Lens Cube | -  | 20 €  | [Lens](../../CAD/ASSEMBLY_CUBE_Lens_v2)  | 4|
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 

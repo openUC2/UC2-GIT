@@ -17,7 +17,7 @@ Motor  = 25, 26, 27, 14
 They connect to the IN1, IN2, IN3, IN4 of the motor controller respectively, as indicated below:
 
 <p align="center">
-<img src="./IMAGES/Z_Stage_ESP_v0_Schaltplan.png" width=500>
+<img src="./images/Z_Stage_ESP_v0_Schaltplan.png" width=500>
 <br> THIS SCHEME NEEDS AN UPDATE!!!
 </p>
 
@@ -36,19 +36,19 @@ Have a look in the [TUTORIALS](../TUTORIALS) for some soldering guidelines, if y
 If everything went correct, the entire circuit should look like the lower photograph.
 
 1. Remove the isolation of the wires
-![xypins](./IMAGES/UC2_Soldering_stage_1.jpg)
+![xypins](./images/UC2_Soldering_stage_1.jpg)
 
 1. Add some lead to the tips of the short wires and solder them to both sides of the ESP and ULN2003.
-![xypins](./IMAGES/UC2_Soldering_stage_2.jpg)
+![xypins](./images/UC2_Soldering_stage_2.jpg)
 
 1. Finish the setup using and flash the example program to the ESP so that both motors move back-and-forth
-![xypins](./IMAGES/UC2_Soldering_stage_3.jpg)
+![xypins](./images/UC2_Soldering_stage_3.jpg)
 
 
-## <img src="./IMAGES/W.png" width=40>Code
+## <img src="./images/W.png" width=40>Code
 The code can be found in the [Software GIT](https://github.com/bionanoimaging/UC2-Software-GIT).
 
 The code needs to flashed using the Arduino IDE with the ESP32 library. Further information can be found in [TUTORIALS](../../TUTORIALS)
 
-## <img src="./IMAGES/Y.png" width=40>Safety
+## <img src="./images/Y.png" width=40>Safety
 Make sure to release the motor when not using in, otherwise it can get quiet hot!

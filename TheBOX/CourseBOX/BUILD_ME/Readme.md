@@ -1,6 +1,6 @@
-# Building The CoreBOX
+# Building The CourseBOX
 
-This is a guide for building the [CoreBOX](../CoreBOX). If you were looking for another BOX version, [click here](../../).
+This is a guide for building the [CourseBOX](../CourseBOX). If you were looking for another BOX version, [click here](../../).
 
 * Total price: 230 €
 * Printing time including preparation: 5 days
@@ -40,7 +40,7 @@ We have a good experience with this printer and settings:
 * Prusa i3/MK3S
   * PLA 1,75 mm, for one Box: 0,6 kg = 235 m = 105 hours = 20 €
   * Profile Optimal 0,15 mm, infill 20%, no support, 215/60°C
-  * [Hint](./IMAGES/prusa_printing_coreBOX.pdf)
+  * [Hint](./IMAGES/prusa_printing_courseBOX.pdf)
 
 ### <img src="./IMAGES/D.png" height="40">  Housing
 Name of part - Link to STL file             |  Amount
