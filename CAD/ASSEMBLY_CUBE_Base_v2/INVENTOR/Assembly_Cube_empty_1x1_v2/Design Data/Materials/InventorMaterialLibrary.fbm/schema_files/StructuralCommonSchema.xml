@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE AssetSchema SYSTEM "../../ADSKAssetSchema.dtd">
+
+<AssetSchema>
+
+  <Base val="CommonSchema"
+        file="../../../Common/CommonSchema.xml" />
+
+  <UID  val="StructuralCommonSchema"/>
+
+  <Integer id="SchemaVersion"
+           val="5"
+           public="false"
+           readonly="true" />
+
+  <type val="Structural" />
+
+  <localtype val="Physical" />
+  <localname val="Common Structural" />
+
+  <!--Meta-data properties-->
+
+  <Choice id="common_Shared_Asset"
+          val="common_shared"
+          label="Sharing" >
+    <ChoiceValue id="common_shared"
+                 val="0"
+                 label="Shared" />
+    <ChoiceValue id="common_independent"
+                 val="1"
+                 label="Independent" />
+  </Choice>
+
+  <String id="structural_subclass"
+          val=""
+          label="Subclass"
+		  local="true"/>
+
+  <String id="structural_ExternalMaterialID"
+          val=""
+          label="External Material ID" />
+
+  <!--Data properties-->
+
+  <!--Thermal Conductivity-->
+  <Float id="structural_Thermal_conductivity" 
+         val="1.00"
+         unit="WattPerMeterKelvin"
+         label="Thermal Conductivity"  >
+    <Bounds minimum="0.001"
+            maximum="5000" />
+  </Float>
+
+  <!--Specific Heat-->
+  <Float id="structural_Specific_heat" 
+         val="1.00"
+         unit="JoulePerGramCelsius"
+         label="Specific Heat"  >
+    <Bounds minimum="0.1"
+            maximum="15" />
+  </Float>
+
+  <!--Density-->
+  <Float id="structural_Density" 
+         val="100"
+         unit="KilogramPerCubicMeter"
+         label="Density"  >
+    <Bounds minimum="0"
+            maximum="25000" />
+  </Float>
+
+</AssetSchema>
+
+

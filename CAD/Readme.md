@@ -1,7 +1,7 @@
-## CAD-Files
-Here you can find the necessary .stl-parts for the different modules (cubes) and setups ([APPs](../APPLICATIONS)).
+## CAD Files
+Here you can find the necessary .stl parts for the different modules (cubes) and setups ([APPs](../APPLICATIONS)).
 
-This is a growing list of available optical modules coming along with tutorials and assembly instructions. The most important part is the core building block as you can also find it in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](./ASSEMBLY_CUBE_Base_v2/Readme.md).
+This is a growing list of available modules coming along with tutorials and assembly instructions. The most important part is the core building block as you find in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](./ASSEMBLY_CUBE_Base_v2/Readme.md).
 
 ## General Naming Convetion and Structure of UC2
 
@@ -15,7 +15,7 @@ If you're unsure, check out the [Modular Developer Kit](../MDK) - there you find
 
 The outer cube dimensions stayed the same, but the inserts changed completely!
 
-## <img src="./IMAGES/D.png" width="40"><img src="./IMAGES/B.png" width="40"><img src="./IMAGES/P.png" width="40"> Printing
+## <img src="./IMAGES/D.png" width="40"><img src="./IMAGES/P.png" width="40"> Printing
 The .stl files of the respective modules can be downloaded and printed. Have a look at our [TUTORIALS](../TUTORIALS) section for some introductory information regarding 3D printing, shopping for components and more.
 
 ## List of available Modules (CUBEs):

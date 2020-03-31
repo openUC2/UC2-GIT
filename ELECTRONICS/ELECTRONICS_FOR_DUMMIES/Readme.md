@@ -33,10 +33,29 @@ Don't have much experience with electronics? It's actually really simple!
 <img src="./IMAGES/IMG_20190925_162700.jpg" width="300">
 </p>
 
-* Power the ESP32 simply with microUSB cables.
 * Flash them with the right software from our [Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT).
+* Power the ESP32 simply with microUSB cables.
 * And it works just like that ;-)
 
-Hints:  
+## Electronics for the SIMPLE smartphone microscope
+No control via WiFi - just buttons. The Simple Smartphone Microscope is found [here](../../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/electronic)
+
+* When using jumper wires you can avoid soldering.
+* LED array - 3 wires + 2 wires for the button
+
+<p align="center">
+<img src="./IMAGES/Electronics_LED_simple.png" width="300">
+</p>
+
+* Z-stage - 6 wires + motor connection + 2×2 wires for two buttons
+
+<p align="center">
+<img src="./IMAGES/Electronics_Z-stage_simple.png" width="300">
+</p>
+
+* Power the ESP32 simply with microUSB cables.
+* And it works just like that ;-)
+
+Further advice:  
 [But I don't have such wires...](https://www.youtube.com/watch?v=VB1CrqY_jMg)  
 [But how to connect two wires to the same pin?](https://www.youtube.com/watch?v=8W-zdo1AVns)

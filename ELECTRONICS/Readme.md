@@ -1,18 +1,27 @@
-## <img src="./IMAGES/L.png" width=40>Electronics
-Here you'll find the schematics for the wiring parts of the UC2 parts.
+# <img src="./IMAGES/L.png" width=40>Electronics
+Here you'll find the schematics for the wiring of the UC2 parts.
 
 ---
 # If all the wiring scares you, click here [<img src="./IMAGES/lightbulb.svg" width="60">](./ELECTRONICS_FOR_DUMMIES)
 ---
+
+Most connections can be established with pin-connection (male/female), as you see in the [simplified tutorial](./ELECTRONICS_FOR_DUMMIES). For durable connection, please solder everything! You're not expected to have perfect soldering skills though. Have a look in the [TUTORIALS](../TUTORIALS) for some soldering guidelines. Be careful not to mix up +/-, otherwise you might cause shortcuts which would very likely fry the Pi or the Arduinos/ESP32s.
+
+## Available schemes and guidelines
+* [Z-stage and Sample-Stage](./Z-stage)
+* [LED matrix](./LED-Matrix)
+* [Fluo-LED for Z-stage](./FLUO-LED)
+* [XY-Stage](./XY-Stage)
+* [Raspberry Pi](./RASPBERRY-PI)
+* [Magnetic connectors (v0)](./Magnetic-Connectors)
+
 
     This section needs an update!
 
 ## Wire Diagrams/Schematics
 All schemes are put together with the Open-Source Software [Fritzing](http://fritzing.org/).
 
-Most connections can be established with pin-connection (male/female). For durable connection, please solder everything! You're not expected to have perfect soldering skills though. Look up some youtube-tutorials on "How to solder wires" and alike. Be careful not to mixing up +/- to prevent any shortcuts which would very likely fry the Pi or the Arduinos.
-
-## General Wiring (Arduino)
+## General Wiring (Arduino Nano; I2C)
 For the I2C Bus we use a 4-wire colour-code as follows:
 
 - **5V** - White
@@ -26,11 +35,6 @@ The junctions are connected with [WaGo Snapping Clamps, Compact Wago 2273-203 ->
 </p>
 
 
-## Projects
-- [XY-Stage](./XY-Stage)
-- [LED-Matrix](./LED-Matrix)
-- [FLUO-LED](./FLUO-LED)
-- [Magnetic Connectors](./Magnetic-Connectors)
-- [Raspberry Pi](./RASPBERRY-PI)
+
 
 # Done with the wiring? Then it's time for [software<img src="./IMAGES/W.png" width=40>](https://github.com/bionanoimaging/UC2-Software-GIT)!

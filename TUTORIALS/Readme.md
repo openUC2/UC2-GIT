@@ -1,4 +1,4 @@
-    This section is currently under construction. 
+    This section is currently under construction.
 
 # <img src="./IMAGES/BtP.png" width="120"> From a Beginner to a Professional
 
@@ -19,7 +19,7 @@ All external links are used with the best intention - to provide more informatio
 [How to make your First Contribution if the previous guide still seems to complicated?](https://github.com/firstcontributions/first-contributions/blob/master/github-desktop-tutorial.md)
 
 #### Shopping for material and components
-[What do I have to buy if I want to build something with UC2 tolbox?](./MATERIALS)
+[What do I have to buy if I want to build something with UC2 toolbox?](./RESOURCES/Resources_step_by_step.md)
 
 #### 3D printing
 [Never tried it but it's so cool you want to start now?](https://www.makeuseof.com/tag/beginners-guide-3d-printing/)  
@@ -47,27 +47,30 @@ Tutorials take you by hand through your beginnings with UC2. It's useful to get 
 Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie_camera: YouTube Video
 
 * TUT01: Print your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base_v2/STL) [:movie_camera:](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
-* TUT02: Assemble your first cube [:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA&t=1s)
-* TUT03: Give your first cube a function - lens as a magnifying glass
-* TUT04: Build your first optical setup - a telescope
-* TUT05: Build your first microscope
-* TUT06: Get your first electronic part - LED matrix
-* TUT07: Build your first microscope with electronics
+* TUT02: Assemble your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base_v2#-assembly-tutorial-with-images) [:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA&t=1s)
+* TUT03: Give your first cube a function - lens as a magnifying glass [:feet:](../CAD/ASSEMBLY_CUBE_Lens_v2/TUT03)
+* TUT04: Build your first baseplate [:feet:](../CAD/ASSEMBLY_Baseplate_v2)[:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA)
+* TUT05: Build your first optical setup - a telescope [:feet:](../APPLICATIONS/APP_SIMPLE-Telescope)
+* TUT06: Build your first microscope [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope)
+* TUT07: Get your first electronic part - simple LED matrix [:feet:](../CAD/ASSEMBLY_CUBE_LED_Matrix_v2/TUT08)
+* TUT08: Build your first microscope with electronics [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope)
 
 ## <img src="./IMAGES/HT.png" width="120"> How-to guides
 How-to guides show you how to assemble cubes for various functions and how to build many different optical setups, once you are familiar with the basic idea. It also takes you from the mechanical-only to motorized systems.
 
-* HOW-TO find cubes and components
-* HOW-TO assemble cubes for different functions
-* HOW-TO find optical setup that are already tested
+* [HOW-TO find all the cubes and components](../CAD)
+* [HOW-TO assemble cubes for different functions](../CAD)
+* [HOW-TO find optical setups that are already tested](../APPLICATIONS)
 * [HOW-TO set up a Raspberry Pi for the use in UC2 toolbox](https://github.com/bionanoimaging/UC2-Software-GIT/blob/master/GUI/RASPBERRY_PI/README.md)
+* [HOW-TO print the UC2 parts with a *Prusa i3 MK3S* Printer](./PRINTER)
 * HOW-TO use UC2 toolbox for education
 * HOW-TO use UC2 toolbox for research
-* [HOW-TO print the UC2 parts with a *Prusa i3* Printer](./PRINTER)
 
 ## <img src="./IMAGES/CG.png" width="40"> Contributor guidelines
 
 We appreciate that you want to get involved! Your help is valuable for us, even if you are not a skilled researcher, maker or programmer. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+
+Find the detailed guidelines in [CONTRIBUTING](../CONTRIBUTING.md)
 
 ## <img src="./IMAGES/RG.png" width="40"> Reference guides
 Reference guides give you more information on specific topics and provide technical details.  
@@ -84,3 +87,4 @@ Find out more about...
 * [REF: 3D printing material: PLA](https://www.creativemechanisms.com/blog/learn-about-polylactic-acid-pla-prototypes)
 * [REF: 3D printing material: ABS](https://www.creativemechanisms.com/blog/everything-you-need-to-know-about-abs-plastic)
 * [REF: Datasheets](./DATASHEETS)
+* More links in [Resources: Knowledge](./RESOURCES/Resources_Knowledge.md)

@@ -1,6 +1,6 @@
-## XY-Stage
+# XY-Stage
 
-The following gives you a very brief introduction of the workin principle of the low-cost, but very precise Z-stage which is used in our setups. You can find a more detailed version of the description at [aliexpress](https://aliexpress.com/item/Micro-stepping-motor-cross-platform-small-mobile-digital-microscope-XY-axis-table-experiment-two-slide/32790147861.html) (chineses though).
+The following gives you a very brief introduction of the working principle of the low-cost, but very precise XY-stage which can be used in our setups. You can find a more detailed version of the description at [aliexpress](https://aliexpress.com/item/Micro-stepping-motor-cross-platform-small-mobile-digital-microscope-XY-axis-table-experiment-two-slide/32790147861.html) (chinesese though).
 I have absolutely no clue where this piece is actually coming from, but it is working really great!
 
 It is equipped with two bipolar stepper motors for X and Y direction. The wiring follows (from left to right):
@@ -59,5 +59,5 @@ The code is from the Adafruit example with the wiring explained above:
 	}
 
 
-## SAFETY
-Make sure you're releasing the Motor after usage, otherwise it can get quiet hot!
+## <img src="./IMAGES/Y.png" width=40>Safety
+Make sure to release the motor when not using it, otherwise it gets quiet hot!

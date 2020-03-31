@@ -1,1 +1,0 @@
-# Contributing to UC2 

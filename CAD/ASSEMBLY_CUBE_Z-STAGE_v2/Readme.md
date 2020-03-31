@@ -5,7 +5,7 @@ The stl-files can be found in the folder [STL](./STL).
 
 ### Purpose
 In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample.
-In order to automate this, we designed a very simple z-stage itself relying on flexure bearings also knwon from Bowman's flexurescope.
+In order to automate this, we designed a very simple z-stage itself relying on flexure bearings also known from Bowman's flexurescope.
 
 <p align="center">
 <img src="./IMAGES/Assembly_Z_Focus_Linearbearing_v0_with_fluomodule.png" width="1000">
@@ -174,7 +174,7 @@ This is the assembly guide for the Z-Stage.
 <img src="./IMAGES/Z_stage_assembly_19.jpg" width="300">
 </p>
 
-1. Connect all cables to the ESP32 following [these instructions](../../ELECTRONICS). The ESP32 will go on the side of the Z-stage and all the cables will go through the cube.
+1. Connect all cables to the ESP32 following the [instructions](../../ELECTRONICS) in the Electronics section. The ESP32 will go on the side of the Z-stage and all the cables will go through the cube.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_20.jpg" width="300">
 </p>
@@ -216,6 +216,8 @@ This is the assembly guide for the Z-Stage.
 <img src="./IMAGES/Z_stage_assembly_29.jpg" width="300">
 <img src="./IMAGES/Z_stage_assembly_30.jpg" width="300">
 </p>
+
+1. Where next? [🢂 Software!](https://github.com/bionanoimaging/UC2-Software-GIT) No not plug anything in the power supply, unless you are sure everything is correctly connected. 
 
 ### Tutorial with images (Fluomodule+Sample Insert)
 This is the assembly guide for the Fluomodule+Sample Insert.

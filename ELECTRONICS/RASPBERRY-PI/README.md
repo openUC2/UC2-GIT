@@ -1,3 +1,5 @@
+      This section and all related sections need an update!
+
 # Getting a UC2-ready Raspbian
 
 This shell script simplifies the preparation of a fresh [Raspbian Stretch Desktop (2018-10-09)](https://www.raspberrypi.org/downloads/raspbian/)

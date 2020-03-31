@@ -15,7 +15,7 @@ The Field set of conjugate planes: Field diaphragm, Sample plane, Primary Image 
 </p>
 
 ### Second experiment: Abbe Diffraction Experiment
-The famous Abbe Diffraction Experiments shows how diffraction of light by a specimen (and interference with the illuminating light) creates an image and how collection of diffracted light defines the resolution of the microscope. With this setup it is possbile to view both sets of conjugate planes at the same time, with one's eye or a camera.
+The famous Abbe Diffraction Experiments shows how diffraction of light by a specimen (and interference with the illuminating light) creates an image and how collection of diffracted light defines the resolution of the microscope. With this setup it is possible to view both sets of conjugate planes at the same time, with one's eye or a camera.
 <p align="center">
 <img src="./IMAGES/CoreBOX_Setup2_01.png" width="800">
 </p>

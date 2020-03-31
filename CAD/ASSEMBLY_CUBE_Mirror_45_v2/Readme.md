@@ -65,19 +65,18 @@ The Part consists of the following components.
 <img src="./IMAGES/CUBE_MIRRORMOUNT_45_1.jpg" width="300">
 </p>
 
-3. Put the insert inside the cube and close the lid.
+3. Put the insert inside the cube and close the lid using the screws.
 <p align="center">
 <img src="./IMAGES/CUBE_MIRRORMOUNT_45_2.jpg" width="300">
 </p>
 
+4. Add screws to the other side of the cube - Done!
+
 ## Safety
 Don't touch the silver surface!
 
-Attention, don't cut your fingers while removing the lens from the iPhone sensor!
-
 Never (!) look into the laser pointer! It will damage your eye immediately!
 
-
 * ATTENTION: NEVER WATCH DIRECTLY INTO THE LASER! EYE WILL BE DAMAGED DIRECTLY
-* NEVER SWITCH ON THE LASER WITHOUT INTEDED USE
+* NEVER SWITCH ON THE LASER WITHOUT INTENDED USE
 * BEAM HAS TO GO AWAY FROM ONESELF - ALWAYS!

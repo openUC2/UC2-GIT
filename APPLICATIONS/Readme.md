@@ -1,25 +1,38 @@
 ## Applications
 Here you can find all the optical setups we tested or proposed so far.
 
-This is a growing list of available optical setups coming along with tutorials and alignment instructions. The most important part is the core building block as you can also find it in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](../CAD/ASSEMBLY_CUBE_Base_v2/Readme.md).
+This is a growing list of available optical setups coming along with tutorials and alignment instructions. The most important part is the core building block as you find in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](../CAD/ASSEMBLY_CUBE_Base_v2/Readme.md).
 
 ## <img src="./IMAGES/E.png" width="40"> List of available Applications (APPs)
-- [Abbe Diffraction Experiment](./APP_Abbe_Setup)
-- [Double-slit Experiment](./APP_Double-slit_Experiment)
-- [Incubator Microscope](./APP_Incubator_Microscope)
-- [Inline Holographical Microscope](./APP_INLINE_HOLOGRAM)
-- [Light sheet Microscope](./APP_LIGHTSHEET_Workshop)
-- [Mach-Zehnder Interferometer](APP_Mach-Zehnder_Interferometer)
-- [Michelson Interferometer](APP_Michelson_Interferometer)
-- [openISM](./APP_openISM)
-- [openKöhler - Module](./APP_openKOEHLER)
-- [openSIM - Module](./APP_openSIM)
-- [openXYtable - Module](./APP_openXYTable)
-- [Ptychography](./APP_Ptychography)
-- [Simple Projector](./APP_SIMPLE-Projector)
-- [Simple Telescope](./APP_SIMPLE-Telescope)
-- [Smartphone Microscope](./APP_SMARTPHONE_MICROSCOPE)
-- [Spectrometer](APP_Spectrometer)
+
+### Compilations
+
+* [TheBOX: Concept of a ready-to-use box containing multiple setups at once](../TheBOX/)
+* [SimpleBOX: Optical setups from elementary to high-school level ](../TheBOX/SimpleBOX)
+* [FullBOX: Optical setups from high-school to university level (contains electronics)](../TheBOX/FullBOX)
+* [CourseBOX: Optical setups for Optics and Microscopy courses](../TheBOX/CourseBOX)
+
+### SIMPLE Setups
+* [SIMPLE - Projector](./APP_SIMPLE-Projector)
+* [SIMPLE - Telescope](./APP_SIMPLE-Telescope)
+* [SIMPLE - Smartphone Microscope](./APP_SIMPLE-Smartphone_Microscope)
+
+### BASIC Setups
+* [In-Incubator Microscope with X/Y/Z-control and adaptive illumination](./APP_Incubator_Microscope)
+* [Light sheet Microscope](./APP_LIGHTSHEET_Workshop)
+* [In-line Holographic Microscope](./APP_INLINE_HOLOGRAM)
+* [Abbe Diffraction Experiment](./APP_Abbe_Setup)
+* [Michelson Interferometer (Interference effect of light)](./APP_Michelson_Interferometer)
+* [Mach-Zehnder Interferometer (Interference effect of light)](./APP_Mach-Zehnder_Interferometer)
+* [Double Slit Experiment (Interference effect of light)](./APP_Double-slit_Experiment)
+* [Spectrometer](APP_Spectrometer)
+
+### COMPLEX Modules and Setups
+* [openSIM - Structured Illumination Microscopy (2-Beam Interference Super-Resolution)](./APP_openSIM)
+* [openISM - Image Scanning Microscopy (Confocal or Super-confocal imaging)](./APP_openISM)
+* [openKOEHLER - Phase Contrast enhancement using an adaptive Koehler illumination](./APP_openKOEHLER)
+* [openXYtable - Module](./APP_openXYTable)
+* [Ptychography](./APP_Ptychography)
 
 ## General Naming Convetion and Structure of UC2
 ![](./IMAGES/UC2_Structure.png)
