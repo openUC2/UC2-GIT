@@ -6,7 +6,7 @@ The stl-files can be found in the folder [STL](./STL).
 ### Purpose
 It adapts a laser-pointer to the to the UC2 system.
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Lasermount.png" width="800">
+<img src="./IMAGES/Assembly_Cube_Lasermount.png" width="300">
 </p>
 
 The laser-pointer is permanently switched on/off using a 3D printed clamp. It is inserted in a Thorlabs-like adapter which centers the laser on the optical axis. Using a set of rods, this adapter can be mounted inside the base-cube. Having two of these adapters makes the design very robust!

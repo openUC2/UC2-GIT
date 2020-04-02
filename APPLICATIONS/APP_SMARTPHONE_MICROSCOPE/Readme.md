@@ -28,7 +28,7 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 
 * Z-Focus
 * Upright Microscope
-* High resoltion
+* High resolution
 * Open-Source
 * Compatible with Educational/Professional fields
 * Compatible with almost any smartphone
@@ -141,7 +141,7 @@ Don't have much experience with electronics? It's actually really simple:
 🢂 Find the software for this setup in our dedicated [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)
 
 ## <img src="./IMAGES/E.png" width="40"> Results
-This is a quick result we shot with an Xperia Z5 of potatoe starch cells:
+This is a quick result we shot with an Xperia Z5 of potato starch cells:
 <p align="center">
 <img src="./IMAGES/UC2_Result_Potato_Smartphonemicroscope.jpeg" width="300">
 </p>

@@ -7,8 +7,7 @@ The stl-files can be found in the folder [STL](./STL).
 This is meant to be used for fluorescence microscopic imaging setups. The cube can hold an emission and excitation filter as well as a dichroic mirror. The idea is to low-pass filter light e.g. coming from an LED which gets reflected onto the sample plane by a bandpass dichroic mirror. The emitted fluorescent signal is shifted towards the lower frequencies and gets filtered by the emission filter.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Dichroic_Beamsplitter.png"
-width="400">
+<img src="./IMAGES/Assembly_Cube_Dichroic_Beamsplitter.png" width="400">
 </p>
 
 

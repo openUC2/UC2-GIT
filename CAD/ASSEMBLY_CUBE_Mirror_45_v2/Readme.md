@@ -7,7 +7,7 @@ The stl-files can be found in the folder [STL](./STL).
 It adapts a 30×30 mm ² fold-mirror to the UC2 system. Alternatively, we also have a design for a 1-inch mirror holder.
 Old Image:
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Mirror_Tilt.png" width="600">
+<img src="./IMAGES/Assembly_Cube_Mirror_Tilt.png" width="300">
 </p>
 
 

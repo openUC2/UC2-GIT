@@ -89,7 +89,7 @@ Note: The pictures on this site do not show the latest version of the cubes. Fol
 <p align="center">
 <img src="./IMAGES/UC2Lightsheet.gif" width="400">
 </p>
-Here we give a step-by-step tutorial on how-to allign the beam-path.
+Here we give a step-by-step tutorial on how-to align the beam-path.
 
 The illumination path is independent from the detection path - the order how you align it is up to you.
 
@@ -226,12 +226,12 @@ Here we try to form the simple microscope.
 ## <img src="./IMAGES/E.png" width="40"> Results
 ### The result could look like this:
 
-##### Fluorescent Image (*Pollengrain in Agarose*)
+##### Fluorescent Image (*Pollen grain in Agarose*)
 <p align="center">
 <img src="./IMAGES/Assembly_simple_Lightsheet_v4.png" width="400">
 </p>
 
-##### Brightfield Image (*Pollengrain in Agarose*)
+##### Brightfield Image (*Pollen grain in Agarose*)
 <p align="center">
 <img src="./IMAGES/Assembly_simple_Lightsheet_v5.png" width="400">
 </p>

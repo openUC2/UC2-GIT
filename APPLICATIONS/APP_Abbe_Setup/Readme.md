@@ -1,5 +1,5 @@
 # Abbe Diffraction Experiment
-This is the repository for the Abbe Diffraction Experiment. It has two cameras where one captures the fourier plane and the other acquieres the image plane.
+This is the repository for the Abbe Diffraction Experiment. It has two cameras where one captures the Fourier plane and the other acquires the image plane.
 
 <p align="center">
 <img src="./IMAGES/Application_Abbe-Experiment_v2.png" width="500">
@@ -34,14 +34,14 @@ Having two cameras is optional since one camera can be moved between two planes!
 |  Module: LED + Pinhole  | white light LED, 1mm pinhole | 10€  | [LED + Pinhole Cube](../../CAD/ASSEMBLY_CUBE_LED_v2)  | 1|
 |  Module: Lens | all 50mm lenses | 10€  | [Lens Cube](../../CAD/ASSEMBLY_CUBE_Lens_v2)  | 4 |
 |  Module: Beamsplitter | - | 30€  | [Beamsplitter Cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)  | 1 |
-|  Module: Sampleholder | - | 30€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |
+|  Module: Sample holder | - | 30€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |
 
 ### <img src="./IMAGES/B.png" width="40">Additional components
 
 * 1x Raspberry Pi
 * 1x camera splitter for Raspberry Pi
 * 1x wired LED (blue)
-* Aluminium Foil for the apertures/pinhole
+* Aluminum Foil for the apertures/pinhole
 * 1x Power Supply for Raspberry Pi
 * long camera cables
 
@@ -49,4 +49,4 @@ Having two cameras is optional since one camera can be moved between two planes!
 Please have a look at our **ImJoy** [Github-Repository](https://github.com/bionanoimaging/UC2-ImJoy-GIT) for this Application.
 
 ## <img src="./IMAGES/S.png" width="40">Participate!
-If you find this piece usefull or you want to improve it, please feel free to file an issue or write us a message!
+If you find this piece useful or you want to improve it, please feel free to file an issue or write us a message!

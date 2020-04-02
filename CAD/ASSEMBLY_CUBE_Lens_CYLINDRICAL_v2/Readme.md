@@ -7,7 +7,7 @@ The stl-files can be found in the folder [STL](./STL).
 It adapts the cylindrical lenses from COMAR optics to the UC2 system.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Objectiveholder.png" width="600">
+<img src="./IMAGES/Assembly_Cube_Objectiveholder.png" width="300">
 </p>
 
 

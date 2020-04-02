@@ -8,7 +8,7 @@ It adapts a beamsplitter cube to the UC2 system.
 
 <p align="center">
 <img src="./IMAGES/Assembly_Cube_Beamsplitter_v2.png"
-width="1000">
+width="250">
 </p>
 
 

@@ -4,7 +4,7 @@ This parts adapt a LED matrix to the UC2 cubes. Electric control is done by an E
 The stl-files can be found in the folder [STL](./STL).
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_LED_Matrix_v0.png" width="600">
+<img src="./IMAGES/Assembly_Cube_LED_Matrix_v0.png" width="300">
 </p>
 
 ## Purpose

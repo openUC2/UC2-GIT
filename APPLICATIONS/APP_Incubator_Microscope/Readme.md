@@ -7,7 +7,7 @@ The current version of the Z-stage is inspired by the flexure-bearing Z-stage fr
 <img src="./IMAGES/Assembly_UKJ_Microscope_v4.png" width="500">
 </p>
 
-Each functional block has an Arduino acting as a BUS-communicator. Therefore it's possible to control (i.e. swith on/off) devices from the MASTER-device (i.e. Raspberry pi). We aim to build a low-cost solution for high throughput acquisitions, acting as a new tools for (not only) biologists.
+Each functional block has an Arduino acting as a BUS-communicator. Therefore it's possible to control (i.e. switch on/off) devices from the MASTER-device (i.e. Raspberry pi). We aim to build a low-cost solution for high throughput acquisitions, acting as a new tools for (not only) biologists.
 
 It is a very early developer version. Please feel free to contribute to the documentation and device development.
 
@@ -24,7 +24,7 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 * Quantitative Phase Imaging
 * Modularized design
 * Low-cost acquisition
-* Based on off-the-shelf components (please see the bill of materials in the [DOCUMENTS](../../DOCUMENTS) folder)
+* Based on off-the-shelf components 
 * Open-Source
 
 ## <img src="./IMAGES/D.png" width="40">3D printing

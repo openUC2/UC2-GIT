@@ -2,7 +2,7 @@
 
 This is the repository for the simple electronic version of the [Smartphone Microscope](../../APP_SMARTPHONE_MICROSCOPE).
 
-This microscope and the code for the ESP32 is a work of students from KLGymnasium in Erfurt.
+This microscope and the code for the ESP32 is a work of students from KL-Gymnasium in Erfurt.
 
 <p align="center">
 <img src="../IMAGES/Assembly_smartphone_microscope_2.png" width="500">

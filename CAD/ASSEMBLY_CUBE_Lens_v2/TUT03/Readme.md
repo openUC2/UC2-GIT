@@ -72,6 +72,10 @@ For a thin convex 1 inch lens (like the one in additional parts):
 
 ## Lens as a magnifying glass
 
+<p align="center">
+<img src="../IMAGES/UC2_magnifying_glass.png" width="400">
+</p>
+
 A magnifying glass is simply a convex lens with small focal length. The magnification is given by
 
 ***M=  250 mm/f<sub>lens</sub>*** ,

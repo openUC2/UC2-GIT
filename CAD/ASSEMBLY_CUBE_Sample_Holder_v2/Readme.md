@@ -5,7 +5,7 @@ This is the repository for the design of the sample holder that can hold microsc
 This holder can be used for microscope slides, filters and other flat objects. Both vertical and horizontal position is possible. The holder can be slided through the cube and the sample can be moved through the field of view in X and Y.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Sample_holder_v2.png" width="1000">
+<img src="./IMAGES/Assembly_Cube_Sample_holder_v2.png" width="300">
 </p>
 
 In some cases it might be useful to use the comb-structured sample holder, shown in the following image.

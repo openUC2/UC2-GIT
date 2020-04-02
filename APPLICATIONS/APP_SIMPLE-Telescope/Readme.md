@@ -5,13 +5,14 @@
 We developed a very easy-to-use setup to help you understand how a telescope works. It guides you through different optical designs, all with one goal: magnifying far-away objects.
 
 <p align="center">
-<img src="./IMAGES/Assembly_simple_Telescope.png" width="400">
+<img src="./IMAGES/Assembly_simple_Telescope.png" width="350">
 </p>
 
 ### Schemes of the telescopes
 <p align="center">
 <img src=".\IMAGES\UC2_Setups_6_telescopes.png"
 width="600">
+<br> L1: f' = +100 mm; L2: f' = +40 mm; L3: f' = -50 mm
 </p>
 
 ## <img src="./IMAGES/D.png" width="40">Parts

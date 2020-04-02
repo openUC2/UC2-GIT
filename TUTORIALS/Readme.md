@@ -63,6 +63,8 @@ How-to guides show you how to assemble cubes for various functions and how to bu
 * [HOW-TO find optical setups that are already tested](../APPLICATIONS)
 * [HOW-TO set up a Raspberry Pi for the use in UC2 toolbox](https://github.com/bionanoimaging/UC2-Software-GIT/blob/master/GUI/RASPBERRY_PI/README.md)
 * [HOW-TO print the UC2 parts with a *Prusa i3 MK3S* Printer](./PRINTER)
+* [HOW-TO import your ideas into the UC2 framework](../MDK)
+* [HOW-TO easily sketch your UC2 setups](../MDK/DRAW.IO)
 * HOW-TO use UC2 toolbox for education
 * HOW-TO use UC2 toolbox for research
 

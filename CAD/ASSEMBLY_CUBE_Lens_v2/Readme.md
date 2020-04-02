@@ -6,7 +6,7 @@ The .stl files can be found in the folder [STL](./STL).
 ### Purpose
 Spiral holder: It adapts any circular symmetric lens with varying diameter to the UC2 system.
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Objectiveholder.png" width="700">
+<img src="./IMAGES/Assembly_Cube_Objectiveholder.png" width="300">
 </p>
 
 Fixed holder: For the common lenses we also offer a more stable solution.

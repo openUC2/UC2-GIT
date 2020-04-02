@@ -7,12 +7,10 @@ The stl-files can be found in the folder [STL](./STL).
 It adapts a mirror to the UC2 system. It allows precise tilting in *x* and *y*.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Kinematic_Mirrormount_45_v2.png"
-width="1000">
+<img src="./IMAGES/Assembly_Cube_Kinematic_Mirrormount_45_v2.png" width="300">
 </p>
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Kinematic_Mirrormount_45_v2_2.png"
-width="1000">
+<img src="./IMAGES/Assembly_Cube_Kinematic_Mirrormount_45_v2_2.png" width="300">
 </p>
 
 Due to limited space, we sometimes need to fold the beam using a mirror. This is done by reflecting the incoming light under an angle of 45°. It follows in a change of the optical axis by 90°.

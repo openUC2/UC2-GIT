@@ -9,19 +9,27 @@ There is a [mechanical only version](./mechanical) and a [version with electroni
 <br> Electronic version
 </p>
 
-It's based on a compound microscope which itself relies on finite corrected objective lenses. The Smartphone reimages the image of the eyepiece onto the camera sensor. This means that the smartphone's camera lens acts like the eye. Proper imaging is achieved if the exit pupil of the eyepiece is matching well with the entrance pupil of the smartphone camera.
+The microscope is an optical instrument that makes it possible to see magnified images of objects that are too small to be seen by the naked eye.
+
+<p align="center">
+<img src="./IMAGES/UC2_simple_smartphone_microscope_01.png" width="500">
+</p>
+
+Old or simple microscopes use objectives that are designed for a defined tube length and they form a real intermediate image in a given distance from the objective. The intermediate image is further magnified by the eyepiece. These microscopes are „finite“ optical systems.
 
 <p align="center">
 <img src="./IMAGES/Application_simple_smartphone_microscope_v2.png" width="500">
 <br> Mechanical version.
 </p>
 
-The optical path is composed of two main elements - microscope objective and an eyepiece. The finite corrected objective (MO) lens produces an intermediate image in its tube-length (160 mm). This image is propagated to infinity by the eyepiece (EP). The smartphone (CAM) focusses this image on the smartphone's camera sensor. The mirrors (M) are just folding the beam. In the electronic version, the LED-Array (LA) is giving the option of different illumination intensity.
+The optical path is composed of two main elements - microscope objective and an eyepiece. The finite corrected objective (MO) lens produces an intermediate image in its tube length (160 mm). This image is propagated to infinity by the eyepiece (EP). The smartphone (CAM) focusses this image on the smartphone's camera sensor. The mirrors (M) are just folding the beam. In the electronic version, the LED-Array (LA) is giving the option of different illumination intensity.
 
 <p align="center">
-<img src="./IMAGES/UC2_OpticalPath_Smartphonemicroscope.png" width="300">
+<img src="./IMAGES/UC2_simple_smartphone_microscope_02.png" width="500">
 </p>
 
+Magnification of the microscope is given by  
+***M = M<sub>objective</sub> × M<sub>eyepiece</sub>***
 
 Note: Not all the pictures on this site show the latest version of the Z-stage. Follow the respective assembly guidelines.
 

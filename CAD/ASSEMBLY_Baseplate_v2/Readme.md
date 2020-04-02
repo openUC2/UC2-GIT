@@ -7,18 +7,16 @@ This is the repository for the design of the baseplates. The .stl files can be f
 Baseplates serve as a spine of any setup you build using the cubes. The basic unit has a size of 1×1. The 5 mm ballmagnets are inserted in the baseplate.
 
 <p align="center">
-<img src="./IMAGES/00_Base_v0.png"
-width="500">
+<img src="./IMAGES/00_Base_v0.png" width="200">
 </p>
 
 Most useful baseplates are 4×1, 4×2 and 4×4. But any size or shape can be concatenated. For better stability, the printed baseplate can be screwed to a Thorlabs breadboard, optical table or a wooden board.
 
 <p align="center">
-<img src="./IMAGES/Assembly_base_4x4.png"
-width="500">
+<img src="./IMAGES/Assembly_base_4x4.png" width="350">
 </p>
 
-The baseplates can be aslo concatenated in 90° using the Baseplate Connector. This allows you to build setups in 3D!
+The baseplates can be also concatenated in 90° using the Baseplate Connector. This allows you to build setups in 3D!
 
 <p align="center">
 <img src="./IMAGES/Assembly_base_90degree.png"

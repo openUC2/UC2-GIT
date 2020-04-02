@@ -6,8 +6,7 @@ This is the repository for the design of the smartphone holder. The stl-files ca
 ## Purpose
 When using a smartphone for image acquisition, this part holds the phone in fixed distance from the eyepiece.
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Smartphone_Holder.png"
-width="1000">
+<img src="./IMAGES/Assembly_Cube_Smartphone_Holder.png" width="400">
 </p>
 
 ## Properties

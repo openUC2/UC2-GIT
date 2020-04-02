@@ -9,7 +9,7 @@ The stl-files can be found in the folder [STL](./STL).
 It adapts a standard Raspberry Pi Camera (v1, v2) to the UC2 system.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_cameracube.png" width="600">
+<img src="./IMAGES/Assembly_Cube_cameracube.png" width="300">
 </p>
 
 The sensor (w/wo lens) is put into an adapter which holds the camera in the center of the cube. The height can be varied by sliding the adapter along the slides. It is designed to eventually hold (flourescent) filters. The camera need to be fixed with a set of screws. M2x10mm in combination with nuts work best.

@@ -8,7 +8,7 @@ In microscopy one often needs the ability to move the objective along the optica
 In order to automate this, we designed a very simple z-stage itself relying on flexure bearings also known from Bowman's flexurescope.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Z_Focus_Linearbearing_v0_with_fluomodule.png" width="1000">
+<img src="./IMAGES/Assembly_Z_Focus_Linearbearing_v0_with_fluomodule.png" width="300">
 </p>
 
 **The mechanism is the following:**
@@ -217,7 +217,7 @@ This is the assembly guide for the Z-Stage.
 <img src="./IMAGES/Z_stage_assembly_30.jpg" width="300">
 </p>
 
-1. Where next? [🢂 Software!](https://github.com/bionanoimaging/UC2-Software-GIT) No not plug anything in the power supply, unless you are sure everything is correctly connected. 
+1. Where next? [🢂 Software!](https://github.com/bionanoimaging/UC2-Software-GIT) No not plug anything in the power supply, unless you are sure everything is correctly connected.
 
 ### Tutorial with images (Fluomodule+Sample Insert)
 This is the assembly guide for the Fluomodule+Sample Insert.

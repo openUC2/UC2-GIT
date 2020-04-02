@@ -13,7 +13,7 @@ To keep the setup as simple as possible we decided to mount the sample (e.g. bea
 ***The mechanism is as follows***: A stepper motor (28-BYJ) drives a small gearbox which rotates a screw. On the screw, there is a nut which acts as a worm-drive. The conversion of the rotational into linear movement pushes/pulls a small table which is formed by a set of flexure-bearings. The syringe can be placed on a dedicated stand which is mounted using magnets on a ferro-magnetic metal plate itself glued to the moving table.
 
 <p align="center">
-<img src="./IMAGES/Assembly_XY_Translator_Lightsheet_v2.png" width="1000">
+<img src="./IMAGES/Assembly_XY_Translator_Lightsheet_v2.png" width="300">
 </p>
 
 ## Properties

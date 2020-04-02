@@ -7,7 +7,7 @@ The stl-files can be found in the folder [STL](./STL).
 It adapts to the 1 inch Cage System from Thorlabs.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Thorlabs_v2.png" width="600">
+<img src="./IMAGES/Assembly_Cube_Thorlabs_v2.png" width="300">
 </p>
 
 ### Properties

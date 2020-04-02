@@ -10,7 +10,7 @@ It acquires the interference of the spherical wave coming from a pinhole, illumi
 </p>
 
 
-For reconstructing the Hologram, acquired on-chip (Raspi-Cam, left) one only needs to "deconvolve" it with the free propagator at a certain z-distance (i.e. fresnel propagator).
+For reconstructing the Hologram, acquired on-chip (Raspi-Cam, left) one only needs to "deconvolve" it with the free propagator at a certain z-distance (i.e. Fresnel propagator).
 
 A more in-detail documentation can be found [here](../../WORKSHOP/INLINE-HOLOGRAMM)
 
@@ -33,9 +33,9 @@ A more in-detail documentation can be found [here](../../WORKSHOP/INLINE-HOLOGRA
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  1x4 Baseplate | - | 5€  | [Base-plate](../ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Raspberry Pi Camera | -  | 20 €  | [Raspi Camera Cube](../ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
-|  Module: LED + Pinhole  | - | 10€  | [LED + Pinhole](../ASSEMBLY_CUBE_LED_v2)  | 1|
+|  1x4 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
+|  Module: Raspberry Pi Camera | -  | 20 €  | [Raspi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
+|  Module: LED + Pinhole  | - | 10€  | [LED + Pinhole](../../CAD/ASSEMBLY_CUBE_LED_v2)  | 1|
 
 ### <img src="./IMAGES/P.PNG" width="40">Parts to print
 

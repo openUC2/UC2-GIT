@@ -7,7 +7,7 @@ The stl-files can be found in the folder [STL](./STL).
 The aperture diaphragm is typically used in the case of critical or Köhler illumination, where it allows for controlling the intensity and/or diameter of the illuminated area.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_CircularAperture.png" width="600">
+<img src="./IMAGES/Assembly_Cube_CircularAperture.png" width="300">
 </p>
 
 ### Properties

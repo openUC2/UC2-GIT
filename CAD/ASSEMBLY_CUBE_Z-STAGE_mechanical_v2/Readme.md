@@ -7,7 +7,7 @@ The stl-files can be found in the folder [STL](./STL).
 In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample.This is a mechanical-only version of our [Z-stage](../ASSEMBLY_CUBE_Z-STAGE_v2). It allows for course and fine focussing by hand.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Z-Focus_Linearbearing_mechanical_v0.png" width="1000">
+<img src="./IMAGES/Assembly_Z-Focus_Linearbearing_mechanical_v0.png" width="300">
 </p>
 
 **The mechanism is the following:**

@@ -7,12 +7,10 @@ The stl-files can be found in the folder [STL](./STL).
 It adapts a mirror to the UC2 system. It allows precise tilting in *x* and *y*.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Kinematic_Mirrormount_v2.png"
-width="1000">
+<img src="./IMAGES/Assembly_Cube_Kinematic_Mirrormount_v2.png" width="300">
 </p>
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Kinematic_Mirrormount_v2_2.png"
-width="1000">
+<img src="./IMAGES/Assembly_Cube_Kinematic_Mirrormount_v2_2.png" width="250">
 </p>
 
 ## Properties

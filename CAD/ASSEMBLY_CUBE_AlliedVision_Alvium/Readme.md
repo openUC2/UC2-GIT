@@ -9,7 +9,7 @@ The stl-files can be found in the folder [STL](./STL).
 It adapts an Allied Vision Camera to the UC2 system.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_AlliedVision_Alvium_v2.png" width="600">
+<img src="./IMAGES/Assembly_Cube_AlliedVision_Alvium_v2.png" width="300">
 </p>
 
 The sensor is put into an adapter which holds the camera in the center of the cube. The height can be varied by sliding the adapter along the slides.
@@ -36,7 +36,7 @@ The Part consists of the following components.
 
 ### Making it work
 
-We use the following configuration: 
+We use the following configuration:
 
 - Nvidia Jetson Nano (100€)
 - CSI ALVIUM 1800 C-158 (250€)
@@ -46,7 +46,7 @@ We use the following configuration:
 - USB Micro cable for the Adapter-Board supply voltage (!)
 - SD Card, 64 GB (15€)
 
-#### Assembly 
+#### Assembly
 Put all the components together as this here
 
 <p align="center">
@@ -64,13 +64,13 @@ Put all the components together as this here
 [https://pypi.org/project/pyv4l2/](https://pypi.org/project/pyv4l2/)
 ```sudo apt-get install qv4l2```
 ```sudo apt-get install libv4l-dev```
-and 
+and
 ```pip3 install pyv4l2```
 
 
 4.) A package to detect the camera is this here:
 ```sudo apt-get install v4l-utils```
-find the camera (```/dev/video0```) by typing: 
+find the camera (```/dev/video0```) by typing:
 ```v4l2-ctl --list-devices​```
 
 it may give you something like this:
@@ -91,7 +91,7 @@ cd ~Downloads
 
 git clone https://github.com/alliedvision/examples
 
-cd GStreamer 
+cd GStreamer
 
 sudo ./gstreamer_install.sh
 
@@ -105,7 +105,7 @@ you should now see a live-stream of the camera. Eventually reboot before this st
 ### Things to do
 - Control camera acquisition parameters through python/opencv (i.e. gain, exposure time) for still-image acquisition
 	- V4L2 allows Register Access, so we should be able to do that?
-- We would like to use the ```cv2.CaptureVideo``` method to load frames from the camera insid the MAT container. How could we do that? 
+- We would like to use the ```cv2.CaptureVideo``` method to load frames from the camera insid the MAT container. How could we do that?
 
 ### 3D Printing:
 * No support required in all designs
@@ -116,7 +116,7 @@ you should now see a live-stream of the camera. Eventually reboot before this st
 * Take the cube lid and mount it using the 4 hex screws
 * Done!
 
-Once it's done it looks like this: 
+Once it's done it looks like this:
 
 <p align="center">
 <img src="./IMAGES/IMG_20200220_193843.jpg" width="600">

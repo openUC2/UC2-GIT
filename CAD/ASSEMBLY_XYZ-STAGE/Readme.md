@@ -2,7 +2,7 @@
 Here you can find the necessary .stl-parts for the XYZ-Stage.
 
 <p align="center">
-<img src="./IMAGES/Assembly_cube_double_Zfocus.png" width="600">
+<img src="./IMAGES/Assembly_cube_double_Zfocus.png" width="400">
 </p>
 
 A detailed description of the assembly process can be found ***[here](./DOCUMENTS/TUT_Assembly_XYZ_Stage.pdf)***
