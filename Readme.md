@@ -132,7 +132,7 @@ REMARK: All files have been designed using Autodesk Inventor 2019 (EDUCATION)
 This is the mess you can end up during Fourier-optics session using UC2 components. Pure-fun! :-)
 
 <p align="center">
-<img src="./IMAGES/UC2_workshop.jpg" width="500">
+<img src="./IMAGES/UC2_workshop.jpg" width="400">
 </p>
 
 ## Credits

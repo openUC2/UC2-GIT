@@ -10,40 +10,34 @@ The stl-files can be found in the folder [STL](./STL).
 ## Purpose
 It can be used for Fourier Ptychographic Microscopy (FPM, Horstmeyer 2014), quantitative differential phase-contrast (qDPC, Tian&Waller 2015) or oblique illumination, etc.
 
-
-
-## Properties
+### Properties
 The basic properties/features of the assembly go here.
 
 ## Parts
 
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
-Here we list the 3D printed components from the ./STL folder
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+* No support needed in all designs
+* Carefully remove all support structures (if applicable)
 
-The Part consists of the following components.
+The Cube consists of the following components.
 
 1. **The Lid** which holds the ESP32 and the screws which connect to the base-plate (optional: wires can be connected to the screws) ([LID](./STL/10_Lid_1x1_el_v2.stl))
 2. **The LED-Matrix Adapter** which adapts to the Neopixel LED Matrix display. ([ADAPTER](./STL/20_Cube_insert_LED_holder.stl))
 
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-Here we list all parts which need to be bought from different sources.
+* 4× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 2× M2 screws with nuts for connecting the LED matrix to the adapter, alternatively use hot glue
+* 1× ESP32 [🢂](https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3)
+* 1× LED-Array, Neopixel, 8x8 [🢂](https://www.amazon.de/Adafruit-NeoPixel-NeoMatrix-8x8-64-Matrix/dp/B00FA9JDEU)
+* 3× Female-Female Jumper Wire, 0.14 mm² [🢂](https://www.amazon.de/ZOORE-120pcs-Multicolored-Female-Breadboard/dp/B07P85V1G3/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jumper+male&qid=1565690543&s=industrial&sr=1-5)
+* 1× Power cable for ESP32 - USB-microUSB [🢂](https://www.amazon.de/Gritin-Datenkabel-Geflochtene-Robust-Daten%C3%BCbertragung-Grau/dp/B07CJJHVKX/ref=sr_1_3?keywords=usb+c+kabel&qid=1566029225&s=gateway&sr=8-3)
 
-|  Name | Properties  |  Price | Link  | # |
-|---|---|---|---|---|
-|  ESP32 | Microcontroller | 5€  | [ESP](http://esp32.net/)  | 1|
-|  DIN912 M3x18 | Screws | 1€  | [Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/)  | 6|
-|  Adafruit Neopixel 8x8 | LED Matrix (RGB) | 25€  | [Neopixel](https://www.amazon.de/Adafruit-NeoPixel-NeoMatrix-8x8-64-Matrix/dp/B00FA9JDEU)  | 1|
-
-## Remarks and Tips
-
-### 3D Printing
-Print as is without support. Infill can be around 30%.
 
 ### Tricks
 You can connect the supply-voltage wires to the screws (5V, Gnd) which can connect to the baseplates' magnets which can eventually also hold power. This makes additional wires obsolete.
 
-### Electronics
+## <img src="./IMAGES/L.png" height="40">Electronics
 Please follow the tutorial of how to handle the LED Matrix in the Adafruit Post [here](https://learn.adafruit.com/adafruit-neopixel-uberguide/neomatrix-library). We connect the LED-array to ```pin 9```.
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
@@ -58,8 +52,6 @@ The assembly of this part is straight forward. Just screw all the parts together
 </p>
 
 The ```DIN```, ```5V``` and ```Gnd```-Pin have to be connected to the ESP32. The ESP32 connects to the supply voltage (5V).
-
-
 
 
 ### Tutorial with images
@@ -102,6 +94,6 @@ Don't insert batteries in the laser yet!!
 
 
 ## Safety
-Take care in case you're dealing with lasers. Don't burn yourself if you solder the part!
+Don't burn yourself if you solder the part!
 
 - Open Electronic Contacts can deduce a shortcut!

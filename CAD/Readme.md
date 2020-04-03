@@ -5,7 +5,9 @@ This is a growing list of available modules coming along with tutorials and asse
 
 ## General Naming Convetion and Structure of UC2
 
-![](./IMAGES/UC2_Structure.png)
+<p align=center>
+<img src="./IMAGES/UC2_Structure.png" width=500>
+</p>
 
 ## Confusion about version v0 vs. version v2
 
@@ -34,6 +36,7 @@ Link             |  Image of the part
 [Smartphone Holder](./ASSEMBLY_CUBE_Cellphonemount) | <img src="./ASSEMBLY_CUBE_Cellphonemount/IMAGES/Assembly_Cube_Smartphone_Holder.png" width=300>
 [Dichroic Beamsplitter](./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2) | <img src="./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2/IMAGES/Assembly_Cube_Dichroic_Beamsplitter.png" width=400>
 [Eyepiece ](./ASSEMBLY_CUBE_Eyepiece_v2) | <img src="./ASSEMBLY_CUBE_Eyepiece_v2/IMAGES/Assembly_Cube_Eyepiece_v2.png" width=200>
+[Eyeball Cube ](./ASSEMBLY_CUBE_Eyeball_v2) | <img src="./ASSEMBLY_CUBE_Eyeball_v2/IMAGES/Assembly_Cube_Eyeball_v2_01.png" width=200>
 [Laser](./ASSEMBLY_CUBE_Laser_v2) | <img src="./ASSEMBLY_CUBE_Laser_v2/IMAGES/Assembly_Cube_Lasermount.png" width=300>
 [LED Matrix](./ASSEMBLY_CUBE_LED_Matrix_v2) | <img src="./ASSEMBLY_CUBE_LED_Matrix_v2/IMAGES/Assembly_Cube_LED_Matrix_v0.png" width=250>
 [LED Ring](./ASSEMBLY_CUBE_LED_Ring_v2)  |  <img src="./ASSEMBLY_CUBE_LED_Ring_v2/IMAGES/Assembly_Cube_LED_Ring_v0.png" width=400>

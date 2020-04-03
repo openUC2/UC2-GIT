@@ -3,22 +3,23 @@ This is the repository for the Dichroic Beamsplitter Cube.
 
 The stl-files can be found in the folder [STL](./STL).
 
-### Purpose
+## Purpose
 This is meant to be used for fluorescence microscopic imaging setups. The cube can hold an emission and excitation filter as well as a dichroic mirror. The idea is to low-pass filter light e.g. coming from an LED which gets reflected onto the sample plane by a bandpass dichroic mirror. The emitted fluorescent signal is shifted towards the lower frequencies and gets filtered by the emission filter.
 
 <p align="center">
 <img src="./IMAGES/Assembly_Cube_Dichroic_Beamsplitter.png" width="400">
 </p>
 
-
-
-## Properties
+### Properties
 * design is derived from the base-cube
 
 ## Parts
 
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
-The Part consists of the following components.
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+* No support needed in all designs
+* Carefully remove all support structures (if applicable)
+
+The Cube consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
@@ -31,11 +32,6 @@ The Part consists of the following components.
 * 1x Dichroic Mirror (16mmx25mm, rectangular, e.g. COMAR optics)
 * 1x Excitation filter (25mm Diameter, e.g. COMAR optics)
 * 1x Emission filter (25mm Diameter, e.g. COMAR optics)
-
-## Remarks and Tips
-### 3D Printing:
-* No support required in all designs
-* Carefully remove all support structures (if applicable)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove any support and clean the part
@@ -83,9 +79,3 @@ Don't insert batteries in the laser yet!!
 
 ## Safety
 Don't touch the smooth glass surfaces, only the opaque ones!
-
-Never (!) look into the laser pointer! It will damage your eye immediately!
-
-* ATTENTION: NEVER WATCH DIRECTLY INTO THE LASER! EYE WILL BE DAMAGED DIRECTLY
-* NEVER SWITCH ON THE LASER WITHOUT INTEDED USE
-* BEAM HAS TO GO AWAY FROM ONESELF - ALWAYS!

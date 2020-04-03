@@ -3,9 +3,7 @@ This is the repository for the Camera Cube which hosts an embedded vision camera
 
 The stl-files can be found in the folder [STL](./STL).
 
-
-
-### Purpose
+## Purpose
 It adapts an Allied Vision Camera to the UC2 system.
 
 <p align="center">
@@ -14,25 +12,25 @@ It adapts an Allied Vision Camera to the UC2 system.
 
 The sensor is put into an adapter which holds the camera in the center of the cube. The height can be varied by sliding the adapter along the slides.
 
-## Properties
+### Properties
 * design is derived from the base-cube
 * camera adapter can be adjusted to individual needs
 
 ## Parts
 
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
-The Part consists of the following components.
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+* No support needed in all designs
+* Carefully remove all support structures (if applicable)
+
+The Cube consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Camera Insert** which holds the camera and makes it adaptable to the base-cube ([INSERT](./STL/20_Cube_insert_AlliedVision_Alvium.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* 7x DIN912 M3*12 screws (non stainless steel)
+* 7× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * Allied Vision Camera: CSI ALVIUM 1800 C-158
-
-
-## Remarks and Tips
 
 ### Making it work
 
@@ -46,7 +44,7 @@ We use the following configuration:
 - USB Micro cable for the Adapter-Board supply voltage (!)
 - SD Card, 64 GB (15€)
 
-#### Assembly
+## Assembly
 Put all the components together as this here
 
 <p align="center">

@@ -2,11 +2,11 @@
 
 ## [Main page with the story of UC2](./Readme.md)
 
-* [Making open-science great again!](https://github.com/bionanoimaging/UC2-GIT/tree/master/UC2-GIT#making-open-science-great-again)
-* [UC2 as an "open-standard"](https://github.com/bionanoimaging/UC2-GIT/tree/master/UC2-GIT#uc2-as-an-open-standard)
+* [Making open-science great again!](https://github.com/bionanoimaging/UC2-GIT#making-open-science-great-again)
+* [UC2 as an "open-standard"](https://github.com/bionanoimaging/UC2-GIT#uc2-as-an-open-standard)
 * [License](./License.md)
-* [Showcase](https://github.com/bionanoimaging/UC2-GIT/tree/master/UC2-GIT#showcase)
-* [Credits](https://github.com/bionanoimaging/UC2-GIT/tree/master/UC2-GIT#credits)
+* [Showcase](https://github.com/bionanoimaging/UC2-GIT#showcase)
+* [Credits](https://github.com/bionanoimaging/UC2-GIT#credits)
 
 There you also find our
 

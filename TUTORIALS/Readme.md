@@ -1,5 +1,3 @@
-    This section is currently under construction.
-
 # <img src="./IMAGES/BtP.png" width="120"> From a Beginner to a Professional
 
 ... in clear and simple steps! Here you find guidelines that will lead you through the UC2 toolbox.

@@ -1,8 +1,6 @@
 # LED Cube (+ Pinhole)
 This is the repository for the design of the LED Cube. The stl-files can be found in the folder [STL](./STL).
 
-
-
 ## Purpose
 This cube holds a single LED. Optionally, A generic sample holder can be added to hold a pinhole directly in front of the LED.
 
@@ -10,17 +8,16 @@ This cube holds a single LED. Optionally, A generic sample holder can be added t
 <img src="./IMAGES/Assembly_Cube_LED_holder_v2.png" width="300">
 </p>
 
-
-## Properties
+### Properties
 * design is derived from the Base Cube
 
 ## Parts
 
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
-Here we list the 3D printed components from the [STL](./STL) folder
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+* No support needed in all designs
+* Carefully remove all support structures (if applicable)
 
-
-The Part consists of the following components.
+The Cube consists of the following components.
 
 1. **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 2. **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
@@ -30,17 +27,11 @@ The Part consists of the following components.
 
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* Hi-Power LED 1W/3W UV STAR Blue for the Holography experiment
+* 8× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* Hi-Power LED 1W/3W UV STAR Blue for the Holography experiment [🢂](https://www.ebay.de/itm/Hi-Power-LED-1W-3W-UV-STAR-Ultraviolet-/131326525056?var=)
 * Any LED STAR if you plan to use it for another application
-* Cables
+* wires
 * Resistor to down-convert the 5V supply-voltage to 2.5V for the LED; e.g. 180R @ 0.5W
-
-
-## Remarks and Tips
-
-### 3D Printing
-* No support required in all designs
-* Carefully remove all support structures (if applicable)
 
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
@@ -102,5 +93,4 @@ Don't insert batteries in the laser yet!!
 Never (!) look into the LED directly! It may damage your eye immediately!
 
 * ATTENTION: NEVER WATCH DIRECTLY INTO THE LED! EYE WILL BE DAMAGED DIRECTLY
-* NEVER SWITCH ON THE LASER WITHOUT INTEDED USE
-* BEAM HAS TO GO AWAY FROM ONESELF - ALWAYS!
+* NEVER SWITCH ON THE LED WITHOUT INTEDED USE

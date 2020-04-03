@@ -23,7 +23,7 @@ The baseplates can be also concatenated in 90° using the Baseplate Connector. T
 width="500">
 </p>
 
-
+## Parts
 ### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 In [STL](./STL) you find the following baseplates. Choose the size that will be the best for your setup:
 * [Assembly_base_4x1](./STL/Assembly_base_4x1.stl)
@@ -39,10 +39,11 @@ Further, you find there:
 
 * Ballmagnets (four magnets per baseplate unit) - 5 mm diameter [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 
-## Assembly Video Tutorial
+## <img src="./IMAGES/A.png" height="40"> Assembly
+### Assembly Video Tutorial
 [![UC2 YouSeeToo - How to assemble the baseplate?](./IMAGES/UC2_Assembly_Baseplate.png)](https://www.youtube.com/watch?v=zAMedY0mWKA)
 
-## <img src="./IMAGES/A.png" height="40"> Assembly Tutorial with images
+### <img src="./IMAGES/A.png" height="40"> Assembly Tutorial with images
 
 1. All parts for this model. Here, v0 parts are shown, but the principle of the baseplate assembly haven't changed.
 <p align="center">

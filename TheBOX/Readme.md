@@ -1,5 +1,7 @@
 # The BOX
-We would like to offer a ready-to-use box containing a growing number of optical experiments. Our BOXes are still a work-in-progress - we test them, optimize them and continually improve them.
+Our BOXes are still a work-in-progress - we test them, optimize them and continually improve them.
+
+TheBOX is a number of optical experiments compiled into a ready-to-use box. We created three variants for different levels of knowledge and skills. SimpleBOX covers the basic experiments of ray optics for secondary and high schools. CourseBOX  teaches the core principles of microscopy from a simple lens to laser scanning confocal microscopy. FullBOX is meant to be used by university students and researchers for the everyday labwork or advanced courses.  
 
 ## Choose [SimpleBOX](./SimpleBOX) for schools and demonstration of basic optical principles:
 <p align="center">

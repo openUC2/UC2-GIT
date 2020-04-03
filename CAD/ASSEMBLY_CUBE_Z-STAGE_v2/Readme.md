@@ -3,7 +3,7 @@ This is the repository for the Z-Stage (Objective) Cube.
 
 The stl-files can be found in the folder [STL](./STL).
 
-### Purpose
+## Purpose
 In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample.
 In order to automate this, we designed a very simple z-stage itself relying on flexure bearings also known from Bowman's flexurescope.
 
@@ -27,8 +27,8 @@ In order to automate this, we designed a very simple z-stage itself relying on f
 <img src="./IMAGES/Z-stage_principle_06.jpg" width="300">
 </p>
 
-## Properties
-* theoretically no play due to the use of flexure berings
+### Properties
+* theoretically no play due to the use of flexure bearings
 * moving range
 	* fine: around +/- 6 mm
 	* coarse: around 30 mm (shifting the objective lens inside the slot)
@@ -36,8 +36,11 @@ In order to automate this, we designed a very simple z-stage itself relying on f
 
 ## Parts
 
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
-The Part consists of the following components.
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+* No support needed in all designs
+* Carefully remove all support structures (if applicable)
+
+The Cube consists of the following components.
 
 * **The Lid (2x1)** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_el_2x1_v2.stl))
 * **The Cube (2x1)** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_2x1_v2.stl))
@@ -51,15 +54,15 @@ For Fluomodule:
 * **The Clamp for microscope slides** which can fix the slide ([CLAMP](./STL/40_XY_Stage_Clamp_Slide_9.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* 4× DIN912 M3×12 screws (non stainless steel)
-* 17× DIN912 M3×8 screws (non stainless steel)
-* 2 - 4× M3×5 worm screws (non stainless steel)
+* 10× - 20× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 2× DIN912 M3×8 screws (galvanized steel)
+* 2× DIN912 M3×18 screws (galvanized steel)
 * 1× M3 Nut
-* 1× M3 Screw, Hex Head, 20 - 30 mm
-* 1× 28-BYJ stepper motor
-* 1× Stepper motor driver board ULN2003
-* 1× ESP32 for controlling the motor
-* cables to connect everything
+* 1× M3 Screw, 30 mm or longer (non-magnetic)
+* 1× 28-BYJ stepper motor with 1x Driving electronic [🢂](https://www.amazon.de/Elegoo-Stepper-Schrittmotor-28BYJ-48-Treiberplatine/dp/B01MEGIHLF/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=stepper+arduino&qid=1565008205&s=gateway&sr=8-1-spons&psc=1)
+* 1× ESP32 for controlling the motor [🢂](https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3)
+* wires to connect everything; for example: 6× Female-Female Jumper Wire, 0.14 mm² [🢂](https://www.amazon.de/ZOORE-120pcs-Multicolored-Female-Breadboard/dp/B07P85V1G3/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jumper+male&qid=1565690543&s=industrial&sr=1-5)
+* 1× USB Micro Cable [🢂](https://www.amazon.de/Gritin-Datenkabel-Geflochtene-Robust-Daten%C3%BCbertragung-Grau/dp/B07CJJHVKX/ref=sr_1_3?keywords=usb+c+kabel&qid=1566029225&s=gateway&sr=8-3)
 
 For fluomodule:
 * 2× LED
@@ -68,11 +71,6 @@ For fluomodule:
 * 4× ballmagnets, 5 mm diameter
 * wires to connect everything
 
-
-## Remarks and Tips
-### <img src="./IMAGES/P.png" height="40"> 3D Printing:
-* No support required in all designs
-* Carefully remove all support structures (if applicable)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 
@@ -228,7 +226,7 @@ It's tought to work as a darkfield illumination. This reduces any scattering lig
 <img src="./IMAGES/Z_STAGE_FLUOMODULE_0.jpg" width="300">
 </p>
 
-2. Solder the LEDs to the Transistor; The base of the transistor goes to the ouput of the ESP32, the 5V and GND as well; LEDs are connected in parallel; No resistor necessary. BD809 is connected to the LED in series
+2. Solder the LEDs to the Transistor; The base of the transistor goes to the output of the ESP32, the 5V and GND as well; LEDs are connected in parallel; No resistor necessary. BD809 is connected to the LED in series
 <p align="center">
 <img src="./IMAGES/Z_STAGE_FLUOMODULE_1.jpg" width="300">
 </p>
