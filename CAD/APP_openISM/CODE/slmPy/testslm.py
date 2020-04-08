@@ -2,14 +2,15 @@
 import time
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.misc import imresize 
+import slmpy
+#from scipy.misc import imresize 
 
 
 is_display = True  # swith to use SLM or not 
 
 if(is_display):
-    import slmpy
-    slm = slmpy.SLMdisplay(isImageLock = True, monitor = 2)
+
+    slm = slmpy.SLMdisplay(isImageLock = True, monitor = 1)
     resX, resY = slm.getSize()
 
 resX, resY = 1920, 720

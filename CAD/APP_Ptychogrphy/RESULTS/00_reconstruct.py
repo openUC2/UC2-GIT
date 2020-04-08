@@ -17,6 +17,7 @@ mypath = './ptycho_2020-03-02_18-36-35_DIATOMES/'
 mypath = './ptycho_2020-03-02_16-59-15_Mouseemryo/'
 mypath = './ptycho_2020-03-02_16-59-15_MAIZE_STEM_ZEA_MAYS/'
 mypath = './ptycho_2020-02-29_19-29-56_USAF/'
+mypath = './ptycho_2020-03-10_15-19-08/'
 
 
 myfile = glob.glob(mypath+"*.csv")[0]

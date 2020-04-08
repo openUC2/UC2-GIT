@@ -54,6 +54,9 @@ We highly recommond you to check the marketin with known retaillers (e.g. eBay, 
 | Dichroic Prism/BS |  Generic |  10 € | [Amazon](https://www.amazon.de/Askliy-Physik-Pr%C3%A4zision-optisch-Prisma/dp/B01LSATQI2/ref=pd_bxgy_328_img_2?_encoding=UTF8&pd_rd_i=B01LSATQI2&pd_rd_r=eadee6fe-2316-11e9-9f91-fdda01699348&pd_rd_w=4rz9k&pd_rd_wg=wDsca&pf_rd_p=c63cca93-7a15-40dd-b68a-47167d2b2080&pf_rd_r=RMDXQTSY6WHWMVE03SGS&psc=1&refRID=RMDXQTSY6WHWMVE03SGS)  |
 | Silver Mirror |  Generic |  45 € | [Eksma](http://eksmaoptics.com/femtoline-components/femtoline-mirrors/enhanced-silver-mirrors/?listtype=search&searchparam=mirror)  |
 | Microlens Arrays |  Generic |  450 € | [RPC Photonics](https://www.rpcphotonics.com/product-category/microlens-arrays/) |
+| Quater Wave Plates | knight optical | 20-50 € | [Knight Optical](https://www.knightoptical.com/stock/optical-components/uvvisnir-optics/retarders/plastic-retarders/) |
+
+
 
 
 
