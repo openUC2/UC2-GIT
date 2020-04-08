@@ -1,7 +1,7 @@
 ## Experiment – 7 Smartphone Microscope
-This time we want to buld the smartphone microscope combined with image processing 
+This time we want to build the smartphone microscope combined with image processing
 
-The basic description about the device and how to align it can be found [here](https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/APP_SMARTPHONE_MICROSCOPE). 
+The basic description about the device and how to align it can be found [here](../../APPLICATIONS/APP_SMARTPHONE_MICROSCOPE).
 
 ## Tasks
 
@@ -9,5 +9,3 @@ The basic description about the device and how to align it can be found [here](h
 2. Take a picture
 3. Send it to ImJoy
 4. Process it and see the result
-
-

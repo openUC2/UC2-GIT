@@ -3,11 +3,11 @@ This is the repository for a circular aperture incorporated into the basic Cube.
 
 The stl-files can be found in the folder [STL](./STL).
 
-### Purpose
+## Purpose
 The aperture diaphragm is typically used in the case of critical or Köhler illumination, where it allows for controlling the intensity and/or diameter of the illuminated area.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_CircularAperture.png" width="600">
+<img src="./IMAGES/Assembly_Cube_CircularAperture.png" width="300">
 </p>
 
 ### Properties
@@ -16,23 +16,21 @@ The aperture diaphragm is typically used in the case of critical or Köhler illu
 
 ## Parts
 
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
-The Part consists of the following components.
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+* No support needed in all designs
+* Carefully remove all support structures (if applicable)
+
+The Cube consists of the following components.
 
 * **The Lid** which closes the Cube ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
-* **The Aperture Guide** which controlls the movement of the leaves ([GUIDE](./STL/20_Cube_Insert_CirAp_Guide.stl))
+* **The Aperture Guide** which controls the movement of the leaves ([GUIDE](./STL/20_Cube_Insert_CirAp_Guide.stl))
 * **The Aperture Wheel** which opens and closes the aperture when rotated ([WHEEL](./STL/20_Cube_Insert_CirAp_Wheel.stl))
 * **The Aperture Leaf** which moves when the wheel is rotated. Print ALL the leaves in the STL folder ([LEAF](./STL/20_Cube_Insert_CirAp_Leaf1.stl))
 * **The Aperture Lid** which holds the wheel in position by pressing it against the guiding part ([APERTURE LID](./STL/20_Cube_Insert_CirAp_Lid.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* 8x DIN912 M3*12 screws (non stainless steel)
-
-## Remarks and Tips
-### <img src="./IMAGES/P.png" height="40"> 3D Printing:
-* No support required in all designs
-* Carefully remove all support structures (if applicable)
+* 8× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 * Assemble the aperture
@@ -40,7 +38,7 @@ The Part consists of the following components.
 * Add screws to the Cube
 * Done!
 
-### <img src="./IMAGES/A.png" height="40"> Tutorial with images
+### <img src="./IMAGES/A.png" height="40"> Assembly Tutorial with images
 
 1. All parts for this model: Don't forget to print SEVEN leaves!
 <p align="center">

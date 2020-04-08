@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE AssetSchema SYSTEM "../../ADSKAssetSchema.dtd">
+
+<AssetSchema>
+
+  <Base val="ThermalCommonSchema"
+        file="../Common/ThermalCommonSchema.xml" />
+
+  <UID  val="ThermalLiquidSchema"/>
+
+  <Integer id="SchemaVersion"
+           val="5"
+           public="false"
+           readonly="true" />
+
+  <type val="Thermal" />
+
+  <localtype val="Thermal" />
+  <localname val="Liquid" />
+
+  <!--Liquid Viscosity-->
+  <Float id="thermal_Liquid_viscosity" 
+         val="0.1"
+         unit="Centipoise"
+         label="Liquid Viscosity"  >
+    <Bounds minimum="0.1"
+            maximum="100000" />
+  </Float>
+
+  <!--Specific Heat of Vaporization-->
+  <Float id="thermal_Specific_heat_of_vaporization" 
+         val="1"
+         unit="JoulePerGram"
+         label="Specific Heat of Vaporization"  >
+    <Bounds minimum="1"
+            maximum="3000" />
+  </Float>
+
+  <!--Vapor Pressure-->
+  <Float id="thermal_Vapor_pressure" 
+         val="1000"
+         unit="Pascal"
+         label="Vapor Pressure"  >
+    <Bounds minimum="1e+3"
+            maximum="1e+8" />
+  </Float>
+
+  <!--Compressibility-->
+  <Float id="thermal_Compressibility" 
+         val="0"
+         unit="Unitless"
+         label="Compressibility"  >
+    <Bounds minimum="0"
+            maximum="1" />
+  </Float>
+
+  <!-- Constant values for CommonSchema properties-->
+  <ui id="UIDefinition"
+      val="Thermal/Liquid/LiquidThermalUI.xml"/>
+
+</AssetSchema>
+
+

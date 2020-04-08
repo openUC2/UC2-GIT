@@ -3,30 +3,33 @@ This is the repository for the Integrated Telescope Cube.
 
 The stl-files can be found in the folder [STL](./STL).
 
-### Purpose
+## Purpose
 It adapts a very small beam-expander to the UC2 system.
 
 <p align="center">
 <img src="./IMAGES/Assembly_Cube_Beamexpander_v2.png" width="400">
 </p>
 
-Sometimes one need to increase the diameter of an illuminating beam. This is necessary for the Light-sheet microscopy setup for example. Here we have a laser-pointer which comes with a relatively small beam-diamter of about 2mm. By using a telescope, this can be magnified by a factor of e.g. 8 which results in a beam-dimater of 16 mm. This is necerssary to overfill the aperture of the following illumination objective lens.
+Sometimes one need to increase the diameter of an illuminating beam. This is necessary for the Light-sheet microscopy setup for example. Here we have a laser-pointer which comes with a relatively small beam-diameter of about 2mm. By using a telescope, this can be magnified by a factor of e.g. 8 which results in a beam-dimeter of 16 mm. This is necessary to overfill the aperture of the following illumination objective lens.
 
 In order to achieve this, we first need to focus the beam with a low focal length lens (e.g. cellphone lens, f'=3mm) and then re-collimate the lens with a second lens with a larger focal length e.g. f'=25 mm.
 
-We designed a telescope where an iPhone 5 lens and an ordinary 25mm lens can be inserted in an adpater, which finds its place inside an ordinary UC2-cube as visualized in the image above.
+We designed a telescope where an iPhone 5 lens and an ordinary 25mm lens can be inserted in an adapter, which finds its place inside an ordinary UC2-cube as visualized in the image above.
 
-## Properties
+### Properties
 * design is derived from the base-cube
 * the adapter for the telescope can be adjusted for different magnifications and lenses
-* the beam height can be adjusted by sliding the the telescope along the axis
-* the degree of collimation can be adjusted beforehand  * very cost-effecient beam-exander at a fairly good quality as the cellphone lens is diffraction limited (overall costs ~15€)
+* the beam height can be adjusted by sliding the telescope along the axis
+* the degree of collimation can be adjusted beforehand  * very cost-efficient beam-expander at a fairly good quality as the cellphone lens is diffraction limited (overall costs ~15€)
 * Magnification : m=f<sub>tl</sub>/f<sub>ep</sub> = 25/3 = 8.33
 
 ## Parts
 
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
-The Part consists of the following components.
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+* No support needed in all designs
+* Carefully remove all support structures (if applicable)
+
+The Cube consists of the following components.
 
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
@@ -34,23 +37,18 @@ The Part consists of the following components.
 * **The Lens Adapter** which is suitable for a lens with 12,7 mm diameter. You might need a custom one or none at all, depending on the lens size. ([ADAPTER](./STL/30_Lens_Adapter_Beamexpander.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* 4x DIN912 M3*12 screws (non stainless steel)
-* iPhone 5 lens (serperated from an iPhone camera spare part), f'=3mm
-* biconved/plan-convex lens, f'=25mm, diameter=20mm, thickness=4mm
-
-## Remarks and Tips
-### 3D Printing:
-* No support required in all designs
-* Carefully remove all support structures (if applicable)
+* 4× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* iPhone 5 lens (separated from an iPhone camera spare part), f'=3mm [🢂](https://www.amazon.de/BisLinks%C2%AE-Facing-Kamera-Ersatz-Repair/dp/B01M9K9RVN/ref=sr_1_10?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=lg+g3+camera&qid=1565005739&s=gateway&sr=8-10)
+* biconvex/plan-convex lens, f'=20mm, diameter=12,7mm, thickness=4mm (Artikel 2107) [🢂](https://optikbaukasten.de/)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
-* Remove the iPhone lens from the camera (a dedicated tutorial can be found in the [UC2 Tutorial-Section](../../DOCUMETS/TUTORIAL).
+* Remove the iPhone lens from the camera (a dedicated tutorial can be found in the [UC2 Tutorial-Section](../../TUTORIALS/DOCUMETS/V0/TUTORIALS_SETUP).
 * Insert the lenses inside the telescope adapter (orientation of the iPhone has to be the way, that the small aperture - hole - has to face the other bigger lens as indicated by the photo)
 ![](./IMAGES/Beamexpander_Assembly_1.png)
 
 * Take the laser-pointer
 * Point the laser towards the iPhone Lens
-* Adjust the distance between the two lenses, so that the beam is collimated (=the beam diamter right after the telescope should not change over any distance)
+* Adjust the distance between the two lenses, so that the beam is collimated (=the beam diameter right after the telescope should not change over any distance)
 * Put the telescope inside the cube by sliding it along the slides
 
 ![](./IMAGES/Beamexpander_Assembly_2.png)
@@ -143,7 +141,7 @@ Don't insert batteries in the laser yet!!
 <img src="./IMAGES/UC2_Tut_Beamexpandercube12.jpg" width="300">
 </p>
 
-1. Mark the position and diamter of the beam on the white piece of paper
+1. Mark the position and diameter of the beam on the white piece of paper
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Beamexpandercube14.jpg" width="300">
 </p>
@@ -157,10 +155,6 @@ Don't insert batteries in the laser yet!!
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Beamexpandercube13.jpg" width="300">
 </p>
-
-
-
-
 
 ## Safety
 Attention, don't cut your fingers while removing the lens from the iPhone sensor!

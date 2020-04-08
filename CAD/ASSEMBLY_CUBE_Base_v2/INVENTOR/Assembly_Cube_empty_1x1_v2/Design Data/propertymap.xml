@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<propertyMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<property assetSchemaUID="AmbientOcclusionSchema">
+		<category>category</category>
+		<diffuseColor>ssao_filter_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="CeramicSchema">
+		<textureFileName>ceramic_color</textureFileName>
+		<textureOpacity>ceramic_color</textureOpacity>
+		<textureScaleU>ceramic_color</textureScaleU>
+		<textureScaleV>ceramic_color</textureScaleV>
+		<textureRotation>ceramic_color</textureRotation>
+		<category>category</category>
+		<bumpMapImageFile>ceramic_pattern_map</bumpMapImageFile>
+		<bumpMapAmount>ceramic_pattern_amount</bumpMapAmount>
+		<bumpMapScaleU>ceramic_pattern_map</bumpMapScaleU>
+		<bumpMapScaleV>ceramic_pattern_map</bumpMapScaleV>
+		<bumpMapRotation>ceramic_pattern_map</bumpMapRotation>
+		<diffuseColor>ceramic_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="CheckerSchema">
+		<textureScaleU>checker_UVScale</textureScaleU>
+		<textureRotation>checker_WAngle</textureRotation>
+		<category>category</category>
+		<diffuseColor>checker_color1</diffuseColor>
+	</property>
+	<property assetSchemaUID="ColorSchema">
+		<category>category</category>
+		<diffuseColor>color_color_input</diffuseColor>
+	</property>
+	<property assetSchemaUID="ConcreteSchema">
+		<textureFileName>concrete_color</textureFileName>
+		<textureOpacity>concrete_color</textureOpacity>
+		<textureScaleU>concrete_color</textureScaleU>
+		<textureScaleV>concrete_color</textureScaleV>
+		<textureRotation>concrete_color</textureRotation>
+		<category>category</category>
+		<bumpMapImageFile>concrete_bump_map</bumpMapImageFile>
+		<bumpMapAmount>concrete_bump_amount</bumpMapAmount>
+		<bumpMapScaleU>concrete_bump_map</bumpMapScaleU>
+		<bumpMapScaleV>concrete_bump_map</bumpMapScaleV>
+		<bumpMapRotation>concrete_bump_map</bumpMapRotation>
+		<diffuseColor>concrete_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="DaylightPortalSchema">
+		<category>category</category>
+		<diffuseColor>tint_color</diffuseColor>
+		<transparency>transparency</transparency>
+	</property>
+	<property assetSchemaUID="DecalAppearanceSchema">
+		<showBackFaces>decApp_backface_cull</showBackFaces>
+		<category>category</category>
+		<refraction>decApp_refraction_index</refraction>
+		<bumpMapAmount>decApp_bump_amount</bumpMapAmount>
+		<shininess>decApp_glossiness</shininess>
+		<transparency>decApp_transparency</transparency>
+	</property>
+	<property assetSchemaUID="DecalbumpmapSchema">
+		<category>category</category>
+		<bumpMapImageFile>decalbumpmap_Bitmap</bumpMapImageFile>
+		<bumpMapAmount>decalbumpmap_RGBAmount</bumpMapAmount>
+		<bumpMapScaleU>decalbumpmap_UVScale</bumpMapScaleU>
+		<bumpMapScaleV>decalbumpmap_UVScale</bumpMapScaleV>
+		<bumpMapRotation>decalbumpmap_WAngle</bumpMapRotation>
+	</property>
+	<property assetSchemaUID="DecalmapSchema">
+		<textureFileName>decalmap_Bitmap</textureFileName>
+		<textureScaleU>decalmap_UVScale</textureScaleU>
+		<textureRotation>decalmap_WAngle</textureRotation>
+		<category>category</category>
+	</property>
+	<property assetSchemaUID="DecalSchema">
+		<textureScaleU>decalmap_UVScale</textureScaleU>
+		<textureRotation>decalmap_WAngle</textureRotation>
+		<category>category</category>
+	</property>
+	<property assetSchemaUID="GenericPhotometricLightSchema">
+		<category>category</category>
+		<ambientColor>rgbLightcolor</ambientColor>
+		<diffuseColor>filterColor</diffuseColor>
+	</property>
+	<property assetSchemaUID="GenericSchema">
+		<textureFileName>generic_diffuse</textureFileName>
+		<textureOpacity>generic_diffuse</textureOpacity>
+		<textureScaleU>generic_diffuse</textureScaleU>
+		<textureScaleV>generic_diffuse</textureScaleV>
+		<textureRotation>generic_diffuse</textureRotation>
+		<showBackFaces>generic_backface_cull</showBackFaces>
+		<category>category</category>
+		<refraction>generic_refraction_index</refraction>
+		<bumpMapImageFile>generic_bump_map</bumpMapImageFile>
+		<bumpMapAmount>generic_bump_amount</bumpMapAmount>
+		<bumpMapScaleU>generic_bump_map</bumpMapScaleU>
+		<bumpMapScaleV>generic_bump_map</bumpMapScaleV>
+		<bumpMapRotation>generic_bump_map</bumpMapRotation>
+		<diffuseColor>generic_diffuse</diffuseColor>
+		<shininess>generic_glossiness</shininess>
+		<transparency>generic_transparency</transparency>
+	</property>
+	<property assetSchemaUID="GlazingSchema">
+		<textureFileName>glazing_transmittance_map</textureFileName>
+		<textureOpacity>glazing_transmittance_map</textureOpacity>
+		<textureScaleU>glazing_transmittance_map</textureScaleU>
+		<textureScaleV>glazing_transmittance_map</textureScaleV>
+		<textureRotation>glazing_transmittance_map</textureRotation>
+		<category>category</category>
+		<diffuseColor>glazing_transmittance_map</diffuseColor>
+	</property>
+	<property assetSchemaUID="GradientSchema">
+		<textureScaleU>gradient_UVScale</textureScaleU>
+		<textureRotation>gradient_WAngle</textureRotation>
+		<category>category</category>
+		<diffuseColor>gradient_Color</diffuseColor>
+	</property>
+	<property assetSchemaUID="HardwoodSchema">
+		<textureFileName>hardwood_color</textureFileName>
+		<textureOpacity>hardwood_color</textureOpacity>
+		<textureScaleU>hardwood_color</textureScaleU>
+		<textureScaleV>hardwood_color</textureScaleV>
+		<textureRotation>hardwood_color</textureRotation>
+		<category>category</category>
+		<bumpMapImageFile>hardwood_imperfections_shader</bumpMapImageFile>
+		<bumpMapAmount>hardwood_imperfections_amount</bumpMapAmount>
+		<bumpMapScaleU>hardwood_imperfections_shader</bumpMapScaleU>
+		<bumpMapScaleV>hardwood_imperfections_shader</bumpMapScaleV>
+		<bumpMapRotation>hardwood_imperfections_shader</bumpMapRotation>
+		<diffuseColor>hardwood_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="HemisphericalSchema">
+		<textureFileName>hemispherical_Bitmap</textureFileName>
+		<category>category</category>
+	</property>
+	<property assetSchemaUID="LogarithmicToneOpSchema">
+		<category>category</category>
+		<shininess>brightness</shininess>
+	</property>
+	<property assetSchemaUID="MarbleSchema">
+		<textureScaleU>marble_Tilling</textureScaleU>
+		<textureRotation>marble_Angle</textureRotation>
+		<category>category</category>
+		<ambientColor>marble_Color1</ambientColor>
+		<diffuseColor>marble_Color2</diffuseColor>
+	</property>
+	<property assetSchemaUID="MasonryCMUSchema">
+		<textureFileName>masonrycmu_color</textureFileName>
+		<textureOpacity>masonrycmu_color</textureOpacity>
+		<textureScaleU>masonrycmu_color</textureScaleU>
+		<textureScaleV>masonrycmu_color</textureScaleV>
+		<textureRotation>masonrycmu_color</textureRotation>
+		<category>category</category>
+		<bumpMapImageFile>masonrycmu_pattern_map</bumpMapImageFile>
+		<bumpMapAmount>masonrycmu_pattern_height</bumpMapAmount>
+		<bumpMapScaleU>masonrycmu_pattern_map</bumpMapScaleU>
+		<bumpMapScaleV>masonrycmu_pattern_map</bumpMapScaleV>
+		<bumpMapRotation>masonrycmu_pattern_map</bumpMapRotation>
+		<diffuseColor>masonrycmu_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="MetallicPaintSchema">
+		<textureFileName>metallicpaint_base_color</textureFileName>
+		<textureOpacity>metallicpaint_base_color</textureOpacity>
+		<textureScaleU>metallicpaint_base_color</textureScaleU>
+		<textureScaleV>metallicpaint_base_color</textureScaleV>
+		<textureRotation>metallicpaint_base_color</textureRotation>
+		<category>category</category>
+		<bumpMapImageFile>metallicpaint_pearl_color</bumpMapImageFile>
+		<bumpMapAmount>metallicpaint_pearl_amount</bumpMapAmount>
+		<bumpMapScaleU>metallicpaint_pearl_color</bumpMapScaleU>
+		<bumpMapScaleV>metallicpaint_pearl_color</bumpMapScaleV>
+		<bumpMapRotation>metallicpaint_pearl_color</bumpMapRotation>
+		<diffuseColor>metallicpaint_base_color</diffuseColor>
+		<shininess>metallicpaint_topcoat_glossy</shininess>
+	</property>
+	<property assetSchemaUID="MetalSchema">
+		<textureFileName>metal_color</textureFileName>
+		<textureOpacity>metal_color</textureOpacity>
+		<textureScaleU>metal_color</textureScaleU>
+		<textureScaleV>metal_color</textureScaleV>
+		<textureRotation>metal_color</textureRotation>
+		<category>category</category>
+		<bumpMapImageFile>metal_pattern_shader</bumpMapImageFile>
+		<bumpMapAmount>metal_pattern_height</bumpMapAmount>
+		<bumpMapScaleU>metal_pattern_scale</bumpMapScaleU>
+		<bumpMapScaleV>metal_pattern_scale</bumpMapScaleV>
+		<bumpMapRotation>metal_pattern_shader</bumpMapRotation>
+		<diffuseColor>metal_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="MirrorSchema">
+		<textureFileName>mirror_tintcolor</textureFileName>
+		<textureOpacity>mirror_tintcolor</textureOpacity>
+		<textureScaleU>mirror_tintcolor</textureScaleU>
+		<textureScaleV>mirror_tintcolor</textureScaleV>
+		<textureRotation>mirror_tintcolor</textureRotation>
+		<category>category</category>
+		<diffuseColor>mirror_tintcolor</diffuseColor>
+	</property>
+	<property assetSchemaUID="NoiseSchema">
+		<textureScaleU>noise_Tiling</textureScaleU>
+		<textureRotation>noise_Angle</textureRotation>
+		<category>category</category>
+		<ambientColor>noise_Color1</ambientColor>
+		<diffuseColor>noise_Color2</diffuseColor>
+	</property>
+	<property assetSchemaUID="PhotographToneOpSchema">
+		<category>category</category>
+	</property>
+	<property assetSchemaUID="PlasticVinylSchema">
+		<textureFileName>plasticvinyl_color</textureFileName>
+		<textureOpacity>plasticvinyl_color</textureOpacity>
+		<textureScaleU>plasticvinyl_color</textureScaleU>
+		<textureScaleV>plasticvinyl_color</textureScaleV>
+		<textureRotation>plasticvinyl_color</textureRotation>
+		<category>category</category>
+		<bumpMapImageFile>plasticvinyl_bump_map</bumpMapImageFile>
+		<bumpMapAmount>plasticvinyl_bump_amount</bumpMapAmount>
+		<bumpMapScaleU>plasticvinyl_bump_map</bumpMapScaleU>
+		<bumpMapScaleV>plasticvinyl_bump_map</bumpMapScaleV>
+		<bumpMapRotation>plasticvinyl_bump_map</bumpMapRotation>
+		<diffuseColor>plasticvinyl_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="RPCSchema">
+		<textureFileName>RPCImage</textureFileName>
+		<category>category</category>
+	</property>
+	<property assetSchemaUID="SolidGlassSchema">
+		<textureFileName>solidglass_transmittance_custom_color</textureFileName>
+		<textureOpacity>solidglass_transmittance_custom_color</textureOpacity>
+		<textureScaleU>solidglass_transmittance_custom_color</textureScaleU>
+		<textureScaleV>solidglass_transmittance_custom_color</textureScaleV>
+		<textureRotation>solidglass_transmittance_custom_color</textureRotation>
+		<category>category</category>
+		<refraction>solidglass_refr_ior</refraction>
+		<bumpMapImageFile>solidglass_bump_map</bumpMapImageFile>
+		<bumpMapAmount>solidglass_bump_amount</bumpMapAmount>
+		<bumpMapScaleU>solidglass_bump_map</bumpMapScaleU>
+		<bumpMapScaleV>solidglass_bump_map</bumpMapScaleV>
+		<bumpMapRotation>solidglass_bump_map</bumpMapRotation>
+		<diffuseColor>solidglass_transmittance_custom_color</diffuseColor>
+		<shininess>solidglass_glossiness</shininess>
+	</property>
+	<property assetSchemaUID="SpeckleSchema">
+		<textureScaleU>speckle_Tiling</textureScaleU>
+		<textureRotation>speckle_Angle</textureRotation>
+		<category>category</category>
+		<ambientColor>speckle_Color1</ambientColor>
+		<diffuseColor>speckle_Color2</diffuseColor>
+	</property>
+	<property assetSchemaUID="StoneSchema">
+		<textureFileName>stone_color</textureFileName>
+		<textureOpacity>stone_color</textureOpacity>
+		<textureScaleU>stone_color</textureScaleU>
+		<textureScaleV>stone_color</textureScaleV>
+		<textureRotation>stone_color</textureRotation>
+		<category>category</category>
+		<bumpMapImageFile>stone_pattern_map</bumpMapImageFile>
+		<bumpMapAmount>stone_pattern_amount</bumpMapAmount>
+		<bumpMapScaleU>stone_pattern_map</bumpMapScaleU>
+		<bumpMapScaleV>stone_pattern_map</bumpMapScaleV>
+		<bumpMapRotation>stone_pattern_map</bumpMapRotation>
+		<diffuseColor>stone_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="SunAndSkySchema">
+		<category>category</category>
+	</property>
+	<property assetSchemaUID="SwatchSceneSchema">
+		<category>category</category>
+	</property>
+	<property assetSchemaUID="TileSchema">
+		<textureScaleU>tile_UVScale</textureScaleU>
+		<textureRotation>tile_WAngle</textureRotation>
+		<category>category</category>
+		<ambientColor>tile_BrickColor</ambientColor>
+		<diffuseColor>tile_MortarColor</diffuseColor>
+	</property>
+	<property assetSchemaUID="UnifiedBitmapSchema">
+		<textureFileName>unifiedbitmap_Bitmap</textureFileName>
+		<textureOpacity>generic_transparency</textureOpacity>
+		<textureScaleU>unifiedbitmap_RealWorldScaleX</textureScaleU>
+		<textureScaleV>unifiedbitmap_RealWorldScaleY</textureScaleV>
+		<textureRotation>unifiedbitmap_WAngle</textureRotation>
+		<category>category</category>
+		<bumpMapImageFile>unifiedbitmap_Bitmap</bumpMapImageFile>
+		<bumpMapScaleU>unifiedbitmap_RealWorldScaleX</bumpMapScaleU>
+		<bumpMapScaleV>unifiedbitmap_RealWorldScaleY</bumpMapScaleV>
+		<bumpMapRotation>unifiedbitmap_WAngle</bumpMapRotation>
+	</property>
+	<property assetSchemaUID="UnknownSchema">
+		<category>category</category>
+		<bumpMapAmount>water_bump_amount</bumpMapAmount>
+		<diffuseColor>water_tint_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="WallPaintSchema">
+		<textureFileName>wallpaint_color</textureFileName>
+		<textureOpacity>wallpaint_color</textureOpacity>
+		<textureScaleU>wallpaint_color</textureScaleU>
+		<textureScaleV>wallpaint_color</textureScaleV>
+		<textureRotation>wallpaint_color</textureRotation>
+		<category>category</category>
+		<diffuseColor>wallpaint_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="WaterSchema">
+		<category>category</category>
+		<bumpMapAmount>water_bump_amount</bumpMapAmount>
+		<diffuseColor>water_tint_color</diffuseColor>
+	</property>
+	<property assetSchemaUID="WaveSchema">
+		<textureScaleU>wave_Tiling</textureScaleU>
+		<textureRotation>wave_Angle</textureRotation>
+		<category>category</category>
+		<ambientColor>wave_Color1</ambientColor>
+		<diffuseColor>wave_Color2</diffuseColor>
+	</property>
+	<property assetSchemaUID="WoodSchema">
+		<textureScaleU>wood_Tiling</textureScaleU>
+		<textureRotation>wood_Angle</textureRotation>
+		<category>category</category>
+		<ambientColor>wood_Color1</ambientColor>
+		<diffuseColor>wood_Color2</diffuseColor>
+	</property>
+</propertyMap>

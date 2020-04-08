@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Ceramic
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="asset_information" 
+                label="Information" 
+                orientation="Vertical" 
+                expanded="false">
+      <AssetName id="asset_name"
+                 label="Name"/>
+      <AssetDescription id="asset_description"
+                        label="Description"/>
+      <AssetKeywords id="asset_keywords"
+                     label="Keywords"/>
+      <AssetType id="asset_type"
+                 label="Type"/>
+
+      <String id="thermal_subclass"
+              label="Subclass" />
+      <String id="thermal_source"
+              label="Source" />
+      <String id="thermal_sourceURL"
+              label="Source URL" />
+    </StackPanel>
+
+    <StackPanel id="liquid_props1" 
+                label="Properties" 
+                orientation="Vertical" 
+                expanded="true">
+      
+      <!--Thermal Conductivity-->
+      <Float id="thermal_Thermal_conductivity" 
+             label="Thermal Conductivity" 
+             forcenumeric="spinbox"
+             min=".001"
+             max="5000" />
+  
+      <!--Specific Heat-->
+      <Float id="thermal_Specific_heat" 
+             label="Specific Heat" 
+             forcenumeric="spinbox"
+             min=".1"
+             max="15" />
+  
+      <!--Density-->
+      <Float id="thermal_Density" 
+             label="Density"  
+             forcenumeric="spinbox" />
+
+      <!--Emissivity-->
+      <Float id="thermal_Emissivity" 
+             label="Emissivity"  
+             forcenumeric="spinbox"
+             min=".001"
+             max="1" />
+
+      <!--Liquid Viscosity-->
+      <Float id="thermal_Liquid_viscosity" 
+             label="Liquid Viscosity"  
+             forcenumeric="spinbox"
+             min="0.1"
+             max="100000" />
+
+      <!--Specific Heat of Vaporization-->
+      <Float id="thermal_Specific_heat_of_vaporization" 
+             label="Specific Heat of Vaporization"  
+             forcenumeric="spinbox"
+             min="1"
+             max="3000" />
+
+      <!--Vapor Pressure-->
+      <Float id="thermal_Vapor_pressure" 
+             label="Vapor Pressure"  
+             forcenumeric="spinbox"
+             min="1e+3"
+             max="1e+8" />
+  
+
+      <!--Compressibility-->
+      <Float id="thermal_Compressibility" 
+             label="Compressibility"  
+             forcenumeric="spinbox"
+             min="0"
+             max="1" />
+
+    </StackPanel>
+    
+  </Fields>
+</adsui>

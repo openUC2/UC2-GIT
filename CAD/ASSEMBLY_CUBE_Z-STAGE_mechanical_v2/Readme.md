@@ -3,11 +3,11 @@ This is the repository for the mechanical Z-Stage (Objective) Cube.
 
 The stl-files can be found in the folder [STL](./STL).
 
-### Purpose
+## Purpose
 In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample.This is a mechanical-only version of our [Z-stage](../ASSEMBLY_CUBE_Z-STAGE_v2). It allows for course and fine focussing by hand.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Z-Focus_Linearbearing_mechanical_v0.png" width="1000">
+<img src="./IMAGES/Assembly_Z-Focus_Linearbearing_mechanical_v0.png" width="300">
 </p>
 
 **The mechanism is the following:**
@@ -26,7 +26,7 @@ In microscopy one often needs the ability to move the objective along the optica
 <img src="./IMAGES/Z-stage_principle_06.jpg" width="300">
 </p>
 
-## Properties
+### Properties
 * theoretically no play due to the use of flexure berings
 * moving range
 	* fine: around +/- 6mm (when using 30 mm long screw for the gear mechanism)
@@ -35,8 +35,11 @@ In microscopy one often needs the ability to move the objective along the optica
 
 ## Parts
 
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
-The Part consists of the following components.
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+* No support needed in all designs
+* Carefully remove all support structures (if applicable)
+
+The Cube consists of the following components.
 
 * **The Lid (2x1)** which closes the Cube ([LID](./STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Lid_el_2x1_v2_6.stl))
 * **The Cube (2x1)** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Cube_2x1_v2_5.stl))
@@ -48,29 +51,25 @@ The Part consists of the following components.
 * **The Sample Plate** which provides the optimal spacing between the objective lens and the sample ([SAMPLE PLATE](./STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_Z_Stage_Sampleplate_8.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* 8× DIN912 M3×12 screws (non stainless steel)
-* 13× DIN912 M3×8 screws (non stainless steel)
-* 2× DIN912 M3×18 screws (non stainless steel)
+* 10× - 20× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 2× DIN912 M3×8 screws (galvanized steel)
+* 2× DIN912 M3×18 screws (galvanized steel)
 * 1× M3 Nut
-* 1× M3 Screw, 30 mm or longer
-* 1× Microscope Objective, RMS thread
+* 1× M3 Screw, 30 mm or longer (non-magnetic)
+* 1× Microscope Objective, RMS thread [🢂](https://de.aliexpress.com/item/4X-10X-20X-40X-60X-100X195-Augenmikroskops-System-Bio-Mikroskop-Biologische-Mikroskop-Lab-Labor-Achromatische-Objektiv/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)
 
-## Remarks and Tips
-### <img src="./IMAGES/P.png" height="40"> 3D Printing:
-* No support required in all designs
-* Carefully remove all support structures (if applicable)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 
 ### Tutorial with images (Z-Stage)
-This is the assembly guide for the mechanicalZ-Stage.
+This is the assembly guide for the mechanical Z-Stage.
 
 1. All parts for this model (some parts in this picture might not be according to the latest design but the assembly is the same)
 <p align="center">
 <img src="./IMAGES/Z-stage_mech_01.jpg" width="300">
 </p>
 
-1. Place the head of the M3×30 screw in the end of the lever of the linearbearing insert.  
+1. Place the head of the M3×30 screw in the end of the lever of the linear bearing insert.  
 <p align="center">
 <img src="./IMAGES/Z-stage_mech_02.jpg" width="300">
 </p>
@@ -125,12 +124,12 @@ This is the assembly guide for the mechanicalZ-Stage.
 <img src="./IMAGES/Z-stage_mech_12.jpg" width="300">
 </p>
 
-1. Insert the objective mount into the focussing insert. The head of the M3×8 screw goes into the slot in the insert. In case the screw is too tigten to the objective mount, it won't go into the slot - loosen the screw a little. In case the head of the screw is too far from the objective mount, it won't hold in the slot but fall through - tigten the screw a little.
+1. Insert the objective mount into the focussing insert. The head of the M3×8 screw goes into the slot in the insert. In case the screw is too tighten to the objective mount, it won't go into the slot - loosen the screw a little. In case the head of the screw is too far from the objective mount, it won't hold in the slot but fall through - tighten the screw a little.
 <p align="center">
 <img src="./IMAGES/Z-stage_mech_13.jpg" width="300">
 </p>
 
-1. The optimal case: the objective mount holds the objective in any position within the slot. You should be able to shift the objective but it shouldn not move on its own. Adjust the screw of the objective mount if necessary.
+1. The optimal case: the objective mount holds the objective in any position within the slot. You should be able to shift the objective but it shouldn't not move on its own. Adjust the screw of the objective mount if necessary.
 <p align="center">
 <img src="./IMAGES/Z-stage_mech_14.jpg" width="300">
 </p>
@@ -140,7 +139,7 @@ This is the assembly guide for the mechanicalZ-Stage.
 <img src="./IMAGES/Z-stage_mech_15.jpg" width="300">
 </p>
 
-1. Add the sampleplate above the objective lens. It is designed to give proper spacing bewtween the objective lens and the sample - therefore the stage is already pre-aligned when assembled. Use two M3×18 screw to fix in to the cube - positioned left in the following picture. On the right side of the plate, use two M3×12 screws.
+1. Add the sample plate above the objective lens. It is designed to give proper spacing between the objective lens and the sample - therefore the stage is already pre-aligned when assembled. Use two M3×18 screw to fix in to the cube - positioned left in the following picture. On the right side of the plate, use two M3×12 screws.
 <p align="center">
 <img src="./IMAGES/Z-stage_mech_16.jpg" width="300">
 </p>

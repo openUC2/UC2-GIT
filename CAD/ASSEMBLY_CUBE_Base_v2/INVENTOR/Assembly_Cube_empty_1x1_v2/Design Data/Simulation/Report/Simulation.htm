@@ -1,0 +1,138 @@
+<hr />
+<div>
+<h2><!--iif(JAVA)<img class="p" src="Images/minus.png" onclick="aa(this)" alt="" /> iif-->&nbsp;$$SimulationName$</h2>
+<div style="display:">
+<blockquote>
+  <p><b>$$msg16015$</b></p>
+  <table class="ta">
+    <tr>
+      <td>$$msg16016$</td>
+      <td>$$DesignObjective$</td>
+    </tr>
+    <tr>
+      <td>$$msg16017$</td>
+      <td>$$SimulationType$</td>
+    </tr>
+    <tr>
+      <td>$$msg16013$</td>
+      <td>$$LastModifDate$</td>
+    </tr><!--iif(STATIC)
+    <tr>
+      <td>$$msg16076$</td>
+      <td>$$EliminateRigidBodyModes$</td>
+    </tr><!--iif(not PART)
+    <tr>
+      <td>$$msg16077$</td>
+      <td>$$SeparateStresses$</td>
+    </tr>
+    <tr>
+      <td>$$msg16079$</td>
+      <td>$$MotionLoadsAnalysis$</td>
+    </tr> 
+	<!--iif(MOTION)
+	<tr>
+      <td>$$msg16045$</td>
+      <td>$$MotionLoadsAnalysisPart$</td>
+    </tr> 
+	<tr>
+      <td>$$msg16091$</td>
+      <td>$$MotionLoadsAnalysisTimeStep$</td>
+    </tr> 
+	iif--> iif--> iif--><!--iif(not STATIC)
+    <tr>
+      <td>$$msg16052$</td>
+      <td>$$NumberOfModes$</td>
+    </tr>
+    <tr>
+      <td>$$msg16053$</td>
+      <td>$$FrequencyRange$</td>
+    </tr>
+    <tr>
+      <td>$$msg16054$</td>
+      <td>$$ComputePreloaded$</td>
+    </tr>
+    <tr>
+      <td>$$msg16055$</td>
+      <td>$$EnhancedAccuracy$</td>
+    </tr> iif-->
+  </table>
+  <p><br/><b>$$msg16018$</b></p>
+  <table class="ta">
+    <tr>
+      <td>$$msg16019$</td>
+      <td>$$AvgMeshSize$</td>
+    </tr>
+	<tr>
+      <td>$$msg16101$</td>
+      <td>$$AvgMeshSizeInShells$</td>
+    </tr>
+    <tr>
+      <td>$$msg16020$</td>
+      <td>$$MinSize$</td>
+    </tr>
+    <tr>
+      <td>$$msg16021$</td>
+      <td>$$GradingFactor$</td>
+    </tr>
+    <tr>
+      <td>$$msg16022$</td>
+      <td>$$MaxTurnAngle$</td>
+    </tr>
+    <tr>
+      <td>$$msg16023$</td>
+      <td>$$CurvedMesh$</td>
+    </tr><!--iif(not PART)
+    <tr>
+      <td>$$msg16051$</td>
+      <td>$$PartBasedMeasure$</td>
+    </tr> iif-->
+  </table><!--iif(DESIGNCONSTRAINTS)
+  <p><br/><b>$$msg16072$</b></p>
+  <table class="ta">
+    <tr>
+      <td><b>$$msg12046$</b></td>
+      <td><b>$$msg12047$</b></td>
+      <td><b>$$msg12049$</b></td>
+      <td><b>$$msg12050$</b></td>
+    </tr>
+    $$GroupDesignConstraints$
+  </table> iif--><!--iif(PARAMETRIC)<!--iif(DESIGNPARAMETERS)
+  <p><br/><b>$$msg16073$</b></p>
+  <table class="ta">
+    <tr>
+      <td><b>$$msg12053$</b></td>
+      <td><b>$$msg12057$</b></td>
+      <td><b>$$msg12054$</b></td>
+      <td><b>$$msg12055$</b></td>
+      <td><b>$$msg12056$</b></td>
+      <td><b>$$msg12093$</b></td>
+    </tr>
+    $$GroupDesignParameters$
+  </table> iif--> iif--><!--iif(MATERIALS)
+  <div>
+  <h3><!--iif(JAVA)<img class="p" src="Images/minus.png" onclick="aa(this)" alt="" /> iif-->&nbsp;$$msg16025$</h3>
+  <div style="display:">
+  <blockquote>
+  $$GroupMaterial$
+  </blockquote>
+  </div></div> iif--><!--iif(LOADS,CONSTRAINTS,CONTACTS, SHELLS)
+  <div>
+  <h3><!--iif(JAVA)<img class="p" src="Images/minus.png" onclick="aa(this)" alt="" /> iif-->&nbsp;$$msg16026$</h3>
+  <div style="display:">
+  <blockquote>
+  $$GroupLoad$
+  $$GroupConstraint$
+  $$GroupContact$
+  $$GroupShell$
+  </blockquote>
+  </div></div> iif--><!--iif(RESULTS)
+  <div>
+  <h3><!--iif(JAVA)<img class="p" src="Images/minus.png" onclick="aa(this)" alt="" /> iif-->&nbsp;$$msg16027$</h3>
+  <div style="display:">
+    <blockquote>
+    $$GroupConfiguration$
+    </blockquote>
+  </div></div> iif-->
+</blockquote>
+</div>
+</div>

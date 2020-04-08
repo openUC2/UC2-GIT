@@ -1,13 +1,13 @@
 
-# UC2 - Workshop @ OSLO 
+# UC2 - Workshop @ OSLO
 
-This workshop is a collbarotive work between the University of Norway and the UC2. 
+This workshop is a collaborative work between the University of Norway and the UC2.
 
-Please report any errors you find so that we can improve the system and documentation by filing an issue or letting us know drectly :-). 
+Please report any errors you find so that we can improve the system and documentation by filing an issue or letting us know directly :-).
 
 ### DAY 1
 
-[Experiment 0 - Get Familar](./Experiment_0.md)
+[Experiment 0 - Get Familiar](./Experiment_0.md)
 
 [Experiment 1 - Telescope](./Experiment_1.md)
 
@@ -25,6 +25,3 @@ Please report any errors you find so that we can improve the system and document
 [Experiment 6 - Intro to Image Processing with ImJoy](./Experiment_6.md)
 
 [Experiment 7 - Smartphone Microscopy](./Experiment_7.md)
-
-
-

@@ -1,18 +1,18 @@
 # Experiment 5 - Intro to Image Processing with ImJoy
 Simple example on how to use ImJoy
 
-This tutorial gives you an idea on how to operate a simple image processing task with your cellphone as a camera for a microscope and [ImJoy](https://imjoy.io) as the cloud-based software. 
+This tutorial gives you an idea on how to operate a simple image processing task with your cellphone as a camera for a microscope and [ImJoy](https://imjoy.io) as the cloud-based software.
 
-We provide a sample script in our [UC2 ImJoy Repository](https://github.com/bionanoimaging/UC2-ImJoy-Plugins) which you can fork and modify. 
+We provide a sample script in our [UC2 ImJoy Repository](https://github.com/bionanoimaging/UC2-ImJoy-Plugins) which you can fork and modify.
 The file of interest is called ```UC2_tools_janelia.imjoy.html```
 
 
-During this work you will learn how to load an image through the web-interface and perform a basic edge-detection task which gets displayed in the browser. 
+During this work you will learn how to load an image through the web-interface and perform a basic edge-detection task which gets displayed in the browser.
 
 
 ## Start the ImJoy Server (only for Admin)
 
-After installing ImJoy Server follwing [this tutorial](https://imjoy.io) a https-tunnel has to be established using telebit. Follow the steps mentioned [here](https://telebit.cloud/). Setup an account and start the server using: 
+After installing ImJoy Server following [this tutorial](https://imjoy.io) a https-tunnel has to be established using telebit. Follow the steps mentioned [here](https://telebit.cloud/). Setup an account and start the server using:
 
 ```
 ~/telebit http 9527
@@ -20,7 +20,7 @@ After installing ImJoy Server follwing [this tutorial](https://imjoy.io) a https
 telebit restart - stops connection
 ```
 
-It forwards the port **9527** which is now visible to the public (!). 
+It forwards the port **9527** which is now visible to the public (!).
 
 
 Go to [https://imjoy.io](https://imjoy.io) and start ImJoy
@@ -41,7 +41,7 @@ add the UC2-repo: [https://github.com/bionanoimaging/UC2-ImJoy-Plugins](https://
 <img src="./IMAGES/ImJoy_3.png" width="500">
 </p>
 
-Click on the cloud-symbol next to "UC2 Janelia Workshop" to install the plugin. 
+Click on the cloud-symbol next to "UC2 Janelia Workshop" to install the plugin.
 
 We need to add the Plugin engine for the computationally expensive algorithms:
 
@@ -55,7 +55,7 @@ Click on "Add new Plugin engine(#)" and add this:
 Now you can execute all plugins either on the cellphone or the laptop:
 
 
-## Tutorial to install the plugins 
+## Tutorial to install the plugins
 
 1.) Go to:
 
@@ -82,14 +82,14 @@ Now you can execute all plugins either on the cellphone or the laptop:
 ###
 
 
-## Code 
+## Code
 
 ### GUI
 
 The following code can be found in the GUI-file: ```UC2_GUI_UploadDemo.imjoy```
 
 **JSON**
-This handles the GUI settings for the ImJOY backend and the libraries necessary to deal with loading data and save it to the local server: 
+This handles the GUI settings for the ImJOY backend and the libraries necessary to deal with loading data and save it to the local server:
 
 ```
 <config lang="json">
@@ -238,16 +238,16 @@ class ImJoyPlugin():
 
     async def process(self):
         await api.alert('processing with param1='+ str(self.param1))
-        
+
         # Taken from http://opensciencecafe.org/2016/01/counting-change-image-analysis-python/
         # await api.alert('Processing the image')
-        
+
         # load the image which was loaded through the GUI
         # await api.alert('Loading image from: '+self.url)
         myimage = np.array(Image.open(self.url)) #myimage = plt.imread()
         myimage_gray = color.rgb2gray(myimage)
 
-        # Adaptive Thresholding the image 
+        # Adaptive Thresholding the image
         thresh = threshold_otsu(myimage_gray, nbins=5)
         thresh_im = myimage_gray > thresh
 
@@ -261,7 +261,7 @@ class ImJoyPlugin():
 
         # Watershed Segmentation
         distance_im = ndi.distance_transform_edt(neurons)
-        
+
         peaks_im = feature.peak_local_max(distance_im, indices=False)
 
         markers_im = measure.label(peaks_im)
@@ -296,7 +296,7 @@ class ImJoyPlugin():
                 self.window = await api.createWindow(data_plot)
                 print(f'Could not print to old window. New window created.')
         await api.showMessage('done!')
-        
+
 
     def imshow_overlay(im, mask, alpha=0.5, color='red', **kwargs):
         """Show semi-transparent red mask over an image"""
@@ -313,16 +313,16 @@ class ImJoyPlugin():
         if title:
             plt.title(title)
         plt.axis('off')
-        
+
     def run(self, ctx):
         print('Hello World')
 
 api.export(ImJoyPlugin())
 </script>
-    
+
 ```
 
 
-## TASKS 
+## TASKS
 
-Exhange the part of ```# Watershed Segmentation```with an edge detection á la ```opencv``` canny-edge detection. 
+Exhange the part of ```# Watershed Segmentation```with an edge detection á la ```opencv``` canny-edge detection.

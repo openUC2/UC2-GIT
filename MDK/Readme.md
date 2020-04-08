@@ -2,7 +2,7 @@
 
 V1 – 31.08.2019, Benedict Diederich, Barbora Marsikova
 
-If you want to adapt your ideas to the ***UC2*** framework this document gives you the necessary steps in order to do so. We provide a detailed description of the definitions, intentions and files to do so. Once you have created your idea with this system, please share it so that others can benefit from it!
+If you want to adapt your ideas to the ***UC2*** framework this document provides you with all the necessary information. We provide a detailed description of the definitions, intentions and files. Once you have introduced your idea into the system, please share it so that others can benefit from it!
 
 The CAD templates can be found in the [CAD](./CAD)-folder.
 
@@ -11,6 +11,10 @@ The CAD templates can be found in the [CAD](./CAD)-folder.
 The UC2 framework requires the introduction of several new concepts. These terms are defined in the table below and illustrated in a series of figures.
 
 The Names can be found in the chart below (Fig 1). The chart also represents the logical structure of building a setup using UC2 elements.
+
+<p align=center>
+<img src="./IMAGES/UC2-Module-Developer-Kit0.png" width=400>
+</p>
 
 Name | Description
 :---:|:---:
@@ -106,25 +110,24 @@ width="450">
 
 #### Template for UC2-designs
 
-We incororate a PPT-based layout helper for the creation of arbitrary complex sysetm using UC2. Go to the [PPT](./PPT)-Folder and open the file [UC2_Setupcreation.pptx](./PPT/UC2_Setupcreation.pptx) which has  slides for all available components:
+We incorporated a PPT-based layout helper for the creation of arbitrary complex system using UC2. Go to the [PPT](./PPT) Folder and open the file [UC2_Setupcreation.pptx](./PPT/UC2_Setupcreation.pptx) which has  slides for all available components:
 
 <p align="center">
-<img src="./IMAGES/UC2_Setupcreation_1.png"
-width="450">
+<img src="./IMAGES/UC2_Setupcreation_1.png" width="450">
 <br><br>
     <em>Figure 5a: Available UC2 components .</em>
 </p>
 
- and the base-plate to place the components on it in order create the setup:
+ and the baseplate to place the components on it in order create the setup:
 
 
 <p align="center">
-<img src="./IMAGES/UC2_Setupcreation_2.png"
-width="450">
+<img src="./IMAGES/UC2_Setupcreation_2.png" width="450">
 <br><br>
     <em>Figure 5b: Playground for the UC2 setup creation.</em>
 </p>
 
+You can also use the publicly available tool [draw.io](https://app.diagrams.net/). Simply import our libraries from the [DRAW.IO](./DRAW.IO) Folder. You find there one for the schemes - [UC2_schemes](./DRAW.IO/UC2_schemes.xml) (same as in the .ppt) and one for the SIMPLE sketches - [UC2_simple](./DRAW.IO/UC2_simple.xml).
 
 ### Cube Inserts
 
@@ -188,7 +191,8 @@ width="450">
 </p>
 
 **Video Tutorial on How to design a Cube Insert (Perpendicular to the optical axis)**
-[![UC2 YouSeeToo - How to design an insert](./IMAGES/UC2_Insert_Design.png)](https://www.youtube.com/watch?v=q2DNw-Q1KEo&t=2s)
+
+[![UC2 YouSeeToo - How to design an insert](./IMAGES/UC2_Insert_design.png)](https://www.youtube.com/watch?v=q2DNw-Q1KEo&t=2s)
 
 ##### Cube Insert (Diagonal)
 
