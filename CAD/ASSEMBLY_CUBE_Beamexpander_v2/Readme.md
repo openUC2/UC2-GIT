@@ -37,6 +37,7 @@ The Cube consists of the following components.
 * **The Lens Adapter** which is suitable for a lens with 12,7 mm diameter. You might need a custom one or none at all, depending on the lens size. ([ADAPTER](./STL/30_Lens_Adapter_Beamexpander.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 4× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * iPhone 5 lens (separated from an iPhone camera spare part), f'=3mm [🢂](https://www.amazon.de/BisLinks%C2%AE-Facing-Kamera-Ersatz-Repair/dp/B01M9K9RVN/ref=sr_1_10?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=lg+g3+camera&qid=1565005739&s=gateway&sr=8-10)
 * biconvex/plan-convex lens, f'=20mm, diameter=12,7mm, thickness=4mm (Artikel 2107) [🢂](https://optikbaukasten.de/)

@@ -1,6 +1,6 @@
 ## openISM
 
-This is the repository for the openISM project which integrates a laser-scanning module for image-scanning microscopy (ISM) to the UC2-system. 
+This is the repository for the openISM project which integrates a laser-scanning module for image-scanning microscopy (ISM) to the UC2-system.
 
 <p align="center">
 <img src="./IMAGES/Application_openISM_v2.png" width="500">
@@ -17,7 +17,7 @@ This module is based on the work about Image Scanning Microscopy (ISM) by Enderl
 
 ***Fig 2:*** *A beam-expander magnifies the collimated beam which hits the DMD displaying a set of gratings*
 
-The angle between the collimated and expanded Laser-beam and the DMD is 25° in order to get the maximum in the diffracted orders. 
+The angle between the collimated and expanded Laser-beam and the DMD is 25° in order to get the maximum in the diffracted orders.
 
 
 
@@ -38,12 +38,12 @@ The angle between the collimated and expanded Laser-beam and the DMD is 25° in 
 
 ***Fig 3:*** *The full system based on the modular cubes*
 
-In recent years portable devices to experience entertainment "on-the-go" like video-projectors or movie screens have found their ways to the consumer market. Many of these produce like portable projectors share the same components as their scientific counterparts (e.g. digital mirror devices, DMD) but for a much lower price since components are mass-produced. Besides wide-field projection system based on LCoS (liquid crystal on silica), LCD or DMD displays, more exotic laser-scanning based systems like the here used Sony MP.CL1A (Japan) enable the creation of laser-scanning microscopes for a very low price (e.g. 300\, Euro). 
+In recent years portable devices to experience entertainment "on-the-go" like video-projectors or movie screens have found their ways to the consumer market. Many of these produce like portable projectors share the same components as their scientific counterparts (e.g. digital mirror devices, DMD) but for a much lower price since components are mass-produced. Besides wide-field projection system based on LCoS (liquid crystal on silica), LCD or DMD displays, more exotic laser-scanning based systems like the here used Sony MP.CL1A (Japan) enable the creation of laser-scanning microscopes for a very low price (e.g. 300\, Euro).
 
 To display a color image on a screen (e.g. wall), a small MEMS (Micro-Electro-Mechanical Systems) scans a set of RGB Blue=450nm, Green}=530, Red = 650, laser-beams over the 2D (e.g. X/Y) plane with a frame-rate of 60fps at a spatial resolution of 1920*720 pixel^2. \\
 This device can easily be integrated in the UC2-system by providing a customized  adapter which makes the device compatible with the 50*5 mm^2 grid. Following the work by Enderlein et al. (ISM) (Muller2010a) and York et al. (iSIM)  (York2012) we displayed an incoherent grid of point sources in the sample plane, which can be used to create a better optical sectioning and improve optical resolution. This is done in a post-processing step, where each 2D image gets divided in a series of tiles of the size of the PSF-extend around one illumination position. Each tile corresponds to a confocal-like measurement, where the information can computationally be confined, when a de-centred detection pinhole is assumed. The resulting signal is placed on a canvas with twice the sampling of the original measurement, which creates an optical super-resolution up to a factor of $\sqrt{2}$ (McGregor2015).\\
 
-Since this device is not meant to be used for scientific instrumentation, there are only limited information available. Also, since the resolution of 1920*720 pixels^2 is not very common, ordinary computers to generate a display on this device where interpolating the images. Connecting the device to a Apple Macbook (USA) at a display-resolution of 720p ensured a one-to-one pixel mapping, where we created a customized Python-script to generate and display the ISM-patterns full-screen. The monochromatic cellphone-camera (Huasei P20, China) was driven using the open-source software FreeDCam (Fuchs2018), where the exposure time $t_{exp}=1/60\,s$ matches the frame-rate of the laser-scanning projector in order to reduce bouncing effects of both refresh-rates. 
+Since this device is not meant to be used for scientific instrumentation, there are only limited information available. Also, since the resolution of 1920*720 pixels^2 is not very common, ordinary computers to generate a display on this device where interpolating the images. Connecting the device to a Apple Macbook (USA) at a display-resolution of 720p ensured a one-to-one pixel mapping, where we created a customized Python-script to generate and display the ISM-patterns full-screen. The monochromatic cellphone-camera (Huasei P20, China) was driven using the open-source software FreeDCam (Fuchs2018), where the exposure time $t_{exp}=1/60\,s$ matches the frame-rate of the laser-scanning projector in order to reduce bouncing effects of both refresh-rates.
 
 ## Optical Setup
 
@@ -67,6 +67,8 @@ The optical setup shown in Fig. 1 is straight-forward. The resonating MEMS in th
 | Lens | 25mm lens for the telescope (optional) |  5 € | [Amazon]()  |
 | Dichroics  |  Various |  200 € | [Thorlabs]()  |
 | PCB for Raspi-DMD connection  |  Various |  8 € | [See below]()  |
+
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 
 
 ### 3D printed parts
@@ -93,13 +95,13 @@ This will come in the future.
 
 
 
-## Further reading 
+## Further reading
 
 This will come in the future.
 
 
 
-## Result 
+## Result
 
 This is just one frame of some fluorescent pollen grains:
 <p align="center">
@@ -111,5 +113,3 @@ This is just one frame of some fluorescent pollen grains:
 ## Participate!
 
 Do you want to show your own results? Do you have ideas for improvements? Let us know!
-
-

@@ -29,6 +29,7 @@ The Cube consists of the following components.
 * **The Camera Insert** which holds the camera and makes it adaptable to the base-cube ([INSERTE](./STL/20_Cube_insert_Basler_acA1920_25gm.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 7× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * Basler Camera: a AC 1920_25ag
 

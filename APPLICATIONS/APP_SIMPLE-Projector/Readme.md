@@ -29,6 +29,7 @@ We developed a very easy-to-use setup to demonstrate single lens imaging and mag
 In the [STL](./STL) folder you find lens holders for a thin lens with diameter of 1 inch. When using a different lens, please follow our [Tutorial: Design your own Lens Holder](../../CAD/ASSEMBLY_CUBE_Lens_v2/STL#design-your-own-lens-holder).
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 2× planoconvex lens, *f'* = +40 mm, diameter 25,4 mm, (Artikel 2120) [🢂](https://optikbaukasten.de/)
 * 16× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * 12× - 24× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
@@ -51,7 +52,7 @@ The *Lens Equation* tells us that the image is not formed anywhere - its positio
 ***1/f' = 1/s<sub>1</sub> + 1/s<sub>2</sub>***  
 The magnification is given by  
 ***M = h<sub>2</sub>/h<sub>1</sub> = s<sub>2</sub>/s<sub>1</sub>***  
-When using a lens as a projecor, the image is always inverted, magnified and real. 
+When using a lens as a projecor, the image is always inverted, magnified and real.
 
 <p align="center">
 <img src="./IMAGES/UC2_projector_02.png" width="400">

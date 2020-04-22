@@ -24,7 +24,7 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 * Quantitative Phase Imaging
 * Modularized design
 * Low-cost acquisition
-* Based on off-the-shelf components 
+* Based on off-the-shelf components
 * Open-Source
 
 ## <img src="./IMAGES/D.png" width="40">3D printing
@@ -56,6 +56,7 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 * 1× [Thorlabs Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_v2.stl) or [30×30 Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 1× LED-Array, Neopixel, 8x8 [🢂](https://www.amazon.de/AZDelivery-Matrix-CJMCU-8-Arduino-Raspberry/dp/B078HYP681/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=neopixel+matrix&qid=1565008576&s=gateway&sr=8-2)
 *  32× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * 20× - 40× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)

@@ -49,6 +49,7 @@ Note: The pictures on this site do not show the latest version of the cubes. Fol
 
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 *  36× - 64× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * 50× - 70× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 2× M3×30 mm and 2× M3 nut - non-magnetic

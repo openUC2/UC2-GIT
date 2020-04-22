@@ -11,10 +11,12 @@ This is a guide for building the [FullBOX](../FullBOX). If you were looking for 
 ## <img src="./IMAGES/D.png" height="40"><img src="./IMAGES/B.png" height="40"> Necessary Parts
 The detailed up-to-date list of all components can be found in this [google-spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing).
 
+  * Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
+
 The overall price-tag is around 600€ including the Raspberry Pi, Camera, Optics, 3D printed parts and all additional components.
 
 <p align=center>
-<img src="./IMAGES/UC2_Setups_theBOX.png" width=400> 
+<img src="./IMAGES/UC2_Setups_theBOX.png" width=400>
 </p>
 
 ## Currect state-of-art

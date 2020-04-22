@@ -1,5 +1,13 @@
 ## Applications
-Here you can find all the optical setups we tested or proposed so far.
+<img src="../IMAGES/signpost.png" width=30> Here you can find all the optical setups we tested or proposed so far.
+
+* For printing and assembly of all the cubes and modules go to [CAD](../CAD)
+* For setups compilations go to [TheBOX](../TheBOX)
+* For beginner's tutorials, how-to guides and more guidelines go to [TUTORIALS](../TUTORIALS)
+* For information on the electronic parts go to [ELECTRONICS](../ELECTRONICS)
+* For information on the software go to the dedicated repository [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)
+* For the Bill of Materials go to [RESOURCES](../TUTORIALS/RESOURCES)
+* For anything else, have a look at the [SITEMAP](../SITEMAP.md)
 
 This is a growing list of available optical setups coming along with tutorials and alignment instructions. The most important part is the core building block as you find in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](../CAD/ASSEMBLY_CUBE_Base_v2/Readme.md).
 

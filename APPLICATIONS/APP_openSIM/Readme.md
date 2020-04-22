@@ -1,6 +1,6 @@
 ## openSIM
 
-This is the repository for the openSIM project which integrates structured illumination microscopy into the UC2-system. 
+This is the repository for the openSIM project which integrates structured illumination microscopy into the UC2-system.
 
 <p align="center">
 <img src="./IMAGES/UC2_openSIM_setup_CAD.png" width="500">
@@ -18,7 +18,7 @@ This module is based on the work by the Huser-Lab and can be found as a preprint
 
 ***Fig 2:*** *A beam-expander magnifies the collimated beam which hits the DMD displaying a set of gratings*
 
-The angle between the collimated and expanded Laser-beam and the DMD is 25° in order to get the maximum in the diffracted orders. 
+The angle between the collimated and expanded Laser-beam and the DMD is 25° in order to get the maximum in the diffracted orders.
 
 
 
@@ -32,7 +32,7 @@ bioRxiv 797670; doi: [https://doi.org/10.1101/797670](https://doi.org/10.1101/79
 - Very low cost:  ~300€
 - Easy to align
 - Open-Source
-- 
+-
 
 ## Optical System
 
@@ -44,9 +44,9 @@ bioRxiv 797670; doi: [https://doi.org/10.1101/797670](https://doi.org/10.1101/79
 
 The system of a classical two-beam interference SIM is straight forward and based on common 4f (i.e. fourier imaging) system, where focal lengtheses of adjacent lenses are following each other. The core idea is to place two delta-peaks inside the BFP of the objective lens. The lens fourier-transforms the peaks and therefore form a grating in the sample plane.
 
-In order to keep the whole system small, the telescope imaging the DMD is  based on two lenses with ***f'=50mm*** (e.g. Thorlabs achromates). A tube-lens of ***f'=180mm*** fourier-transforms the image folded by the mirror and places the different diffraction order inside the BFP of the objective lens. To produce 2D-Sim a fourier mask in the fourier-plane after the DMD, blocks the zeroth order. 
+In order to keep the whole system small, the telescope imaging the DMD is  based on two lenses with ***f'=50mm*** (e.g. Thorlabs achromates). A tube-lens of ***f'=180mm*** fourier-transforms the image folded by the mirror and places the different diffraction order inside the BFP of the objective lens. To produce 2D-Sim a fourier mask in the fourier-plane after the DMD, blocks the zeroth order.
 
-The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave from a coherent laser source. The pattern which are displayed are then actually coherently reimaged inside the sample plane by the whole system. 
+The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave from a coherent laser source. The pattern which are displayed are then actually coherently reimaged inside the sample plane by the whole system.
 
 
 
@@ -67,6 +67,8 @@ The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave fr
 | Lens | 25mm lens for the telescope (optional) |  5 € | [Amazon]()  |
 | Dichroics  |  Various |  200 € | [Thorlabs]()  |
 | PCB for Raspi-DMD connection  |  Various |  8 € | [See below]()  |
+
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 
 
 ### 3D printed parts
@@ -116,7 +118,7 @@ It can conveniently be ordered through online resources. Ours came from [aisler]
 
 ### Assemble the DMD Module
 
-The SIM-setup uses the bare DMD to display images into the sample-plane. This means, that we need to get rid of the LED illumination. Unfortunately the module stops working once the LED is put away from the electronics. Therefore we need to cover it with dark tape. 
+The SIM-setup uses the bare DMD to display images into the sample-plane. This means, that we need to get rid of the LED illumination. Unfortunately the module stops working once the LED is put away from the electronics. Therefore we need to cover it with dark tape.
 
 ***1.) Take the DMD Module***
 <p align="center">
@@ -148,15 +150,15 @@ The SIM-setup uses the bare DMD to display images into the sample-plane. This me
 
 ## Software  
 
-Using the PCB, setting up the module is again straight forward. After setting up the Raspberry Pi operating system, the *I2C* registers have to be set in order to display a fullscreen image on the DMD at a true resolution of *640x460* pixels. 
+Using the PCB, setting up the module is again straight forward. After setting up the Raspberry Pi operating system, the *I2C* registers have to be set in order to display a fullscreen image on the DMD at a true resolution of *640x460* pixels.
 
 This can be done from remote through SSH (e.g. ```ssh pi@192.168.178.39```) or using a secondary screen.
-Opening a terminal connection one need to enter the following commands: 
+Opening a terminal connection one need to enter the following commands:
 
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install mplayer 
+sudo apt-get install mplayer
 
 ```
 
@@ -167,10 +169,10 @@ sudo i2cset -y 3 0x1b 0x0b 0x00 0x00 0x00 0x00 i
 export DISPLAY=:0
 ```
 
-In order to keep this after a reboot this can be added to the boot-config.txt. 
+In order to keep this after a reboot this can be added to the boot-config.txt.
 
 
-Another thing before it starts working is to set the timings of the video-display. 
+Another thing before it starts working is to set the timings of the video-display.
 Therefore type the following:
 
 ```nano /boot/config.txt```
@@ -210,7 +212,7 @@ Once you have created a proper video-file which contains the RAW-frames (e.g. ``
 
 ```mplayer -fs -loop 0 ./Desktop/ABS.avi```
 
-###Video generation 
+###Video generation
 
 For generating the frames we suggest to use the freely available pattern-generation software which is part of the ***fairSIM*** project by Marcel Müller et al. This can generate patterns using the following GUI:
 
@@ -219,11 +221,11 @@ For generating the frames we suggest to use the freely available pattern-generat
 <img src="./IMAGES/fairSIM_configuration.png" width="200">
 </p>
 
-The created stack (i.e. TIF) need to be imported and saved as an uncompressed 8-Bit monochromatic AVI-file in order to get displayed using mplayer on the Raspberry Pi. 
+The created stack (i.e. TIF) need to be imported and saved as an uncompressed 8-Bit monochromatic AVI-file in order to get displayed using mplayer on the Raspberry Pi.
 
 
 
-## Further reading 
+## Further reading
 
 - [DATASHEET DMD](https://www.digikey.at/de/product-highlight/t/texas-instruments/dlp-lightcrafter-display-2000-eval-module)
 - [DMD for Photo-Lithography](https://hackaday.io/project/25260/gallery#f8c0a842e59a10156db102aedcd8b790)
@@ -236,7 +238,7 @@ The created stack (i.e. TIF) need to be imported and saved as an uncompressed 8-
 
 
 
-## Result 
+## Result
 
 This is just some stack where we measured the fluorescent signal on a Fluochart:
 <p align="center">
@@ -248,5 +250,3 @@ This is just some stack where we measured the fluorescent signal on a Fluochart:
 ## Participate!
 
 Do you want to show your own results? Do you have ideas for improvements? Let us know!
-
-

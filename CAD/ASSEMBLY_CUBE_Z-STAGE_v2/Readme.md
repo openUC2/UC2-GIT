@@ -54,6 +54,7 @@ For Fluomodule:
 * **The Clamp for microscope slides** which can fix the slide ([CLAMP](./STL/40_XY_Stage_Clamp_Slide_9.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 10× - 20× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 2× DIN912 M3×8 screws (galvanized steel)
 * 2× DIN912 M3×18 screws (galvanized steel)

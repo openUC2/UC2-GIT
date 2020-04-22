@@ -23,6 +23,7 @@ The Cube consists of the following components.
 3. **The Smartphone holder**, on which the phone will be placed ([SMARTPHONE](./STL/30_Smartphone_Holder.stl))
 
 ### <img src="./IMAGES/P.png" height="40"> Additional parts
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 6× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 
 ## <img src="./IMAGES/P.png" height="40"> Assembly

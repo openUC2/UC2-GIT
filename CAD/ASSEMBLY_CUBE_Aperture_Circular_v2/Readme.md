@@ -30,6 +30,7 @@ The Cube consists of the following components.
 * **The Aperture Lid** which holds the wheel in position by pressing it against the guiding part ([APERTURE LID](./STL/20_Cube_Insert_CirAp_Lid.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 8× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
