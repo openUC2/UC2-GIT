@@ -8,10 +8,10 @@ Here you can find the necessary .stl-parts for the XYZ-Stage.
 A detailed description of the assembly process can be found ***[here](./DOCUMENTS/TUT_Assembly_XYZ_Stage.pdf)***
 
 ## Electronics and wiring
-A detailed explanation about the ***Z-Stage*** can be found [here](/ELECTRONICS/Z-Stage).
+A detailed explanation about the ***Z-Stage*** can be found [here](../../ELECTRONICS/Z-Stage).
 
 
-A detailed explanation about the XY-Stage can be found [here](/ELECTRONICS/XY-Stage).
+A detailed explanation about the XY-Stage can be found [here](../../ELECTRONICS/XY-Stage).
 
 
 

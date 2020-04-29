@@ -18,6 +18,7 @@ In particular you need the following parts:
 
 ### Miscellaneous
 * here will be a list of components
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 
 
 ## Assembly of the cube

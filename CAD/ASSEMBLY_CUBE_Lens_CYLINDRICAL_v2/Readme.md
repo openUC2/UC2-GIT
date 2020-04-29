@@ -42,6 +42,7 @@ The Cube consists of the following components.
 * **The Lens Holder** which holds a rect. lens ([HOLDER](./STL/20_Cube_Insert_Lens_Cylindrical.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 8× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * Comar cylindrical lens, f' = 63 mm (63 YQ 40) [🢂](https://www.comaroptics.com/components/lenses/cylindrical-lenses/quality-planoconvex-cylindrical-lenses-visibleuv#row-63_yq_40)
 

@@ -27,6 +27,7 @@ The Cube consists of the following components.
 * **The Beamsplitter Insert** which holds a glass beamsplitter cube and adapts it to the base cube ([Beamsplitter](./STL/20_Cube_Insert_Beamsplitter.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 4× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 1x Beamsplitter cube (20×20 mm²) (Artikel 2137) [🢂](https://optikbaukasten.de/)
 

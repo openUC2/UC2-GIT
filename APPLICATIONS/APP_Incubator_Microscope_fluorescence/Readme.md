@@ -49,5 +49,7 @@ Please have a look at the folder [STL](./STL). All files need to be printed.
 * Quantitative Phase Imaging
 * modularized design
 * Low-cost acquisition
-* based on off-the-shelf components 
+* based on off-the-shelf components
 * Open-Source
+
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!

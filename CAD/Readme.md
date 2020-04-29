@@ -1,9 +1,17 @@
 ## CAD Files
-Here you can find the necessary .stl parts for the different modules (cubes) and setups ([APPs](../APPLICATIONS)).
+<img src="../IMAGES/signpost.png" width=30> Here you can find the necessary .stl parts for the different modules (cubes) and setups ([APPs](../APPLICATIONS)).
 
-This is a growing list of available modules coming along with tutorials and assembly instructions. The most important part is the core building block as you find in every modular toolbox. A detailed description of the the **UC2** cube can be found [here](./ASSEMBLY_CUBE_Base_v2/Readme.md).
+* For complete setups go to [APPLICATIONS](../APPLICATIONS)
+* For setups compilations go to [TheBOX](../TheBOX)
+* For beginner's tutorials, how-to guides and more guidelines go to [TUTORIALS](../TUTORIALS)
+* For information on the electronic parts go to [ELECTRONICS](../ELECTRONICS)
+* For information on the software go to the dedicated repository [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)
+* For the Bill of Materials go to [RESOURCES](../TUTORIALS/RESOURCES)
+* For anything else, have a look at the [SITEMAP](../SITEMAP.md)
 
-## General Naming Convetion and Structure of UC2
+This is a growing list of available modules coming along with tutorials and assembly instructions. The most important part is the core building block as you find in every modular toolbox. A detailed description of the **UC2** cube can be found [here](./ASSEMBLY_CUBE_Base_v2/Readme.md).
+
+## General Naming Convention and Structure of UC2
 
 <p align=center>
 <img src="./IMAGES/UC2_Structure.png" width=500>
@@ -56,7 +64,7 @@ Link             |  Image of the part
 
 
 ## List of available Supplements:
-* [ELECTONICS-RaspiTFT-Case](./EXT_ELECTONICS-RaspiTFT-Case)
+* [ELECTRONICS-RaspiTFT-Case](./EXT_ELECTRONICS-RaspiTFT-Case)
 * [ELECTRONICS-Mount](./EXT_ELECTRONICS-Mount)
 * [Alignment tool](./EXT_Alignment_Tool)
 * [Adapter to openflexure stage](./CUBE_INSERT_OpenFlexure_Deltastage)

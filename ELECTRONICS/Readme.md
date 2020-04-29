@@ -1,5 +1,13 @@
 # <img src="./IMAGES/L.png" width=40>Electronics
-Here you'll find the schematics for the wiring of the UC2 parts.
+<img src="../IMAGES/signpost.png" width=30> Here you'll find the schematics for the wiring of the UC2 parts.
+
+* For printing and assembly of all the cubes and modules go to [CAD](../CAD)
+* For complete setups go to [APPLICATIONS](../APPLICATIONS)
+* For setups compilations go to [TheBOX](../TheBOX)
+* For beginner's tutorials, how-to guides and more guidelines go to [TUTORIALS](../TUTORIALS)
+* For information on the software go to the dedicated repository [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)
+* For the Bill of Materials go to [RESOURCES](../TUTORIALS/RESOURCES)
+* For anything else, have a look at the [SITEMAP](../SITEMAP.md)
 
 ---
 # If all the wiring scares you, click here [<img src="./IMAGES/lightbulb.svg" width="60">](./ELECTRONICS_FOR_DUMMIES)

@@ -37,7 +37,7 @@ Having two cameras is optional since one camera can be moved between two planes!
 |  Module: Sample holder | - | 30€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |
 
 ### <img src="./IMAGES/B.png" width="40">Additional components
-
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 1x Raspberry Pi
 * 1x camera splitter for Raspberry Pi
 * 1x wired LED (blue)

@@ -37,6 +37,7 @@ Further, you find there:
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * Ballmagnets (four magnets per baseplate unit) - 5 mm diameter [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly

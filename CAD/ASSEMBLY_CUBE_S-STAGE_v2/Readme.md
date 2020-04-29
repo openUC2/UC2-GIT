@@ -35,6 +35,7 @@ The Cube consists of the following components.
 * **The Syringe Holder** which holds a Syringe and is very useful for light-sheet alignment ([HOLDER](./STL/30_Syringe_holder_v2.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 6× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 1× M3 Nut
 * 1× M3 Screw, 26 mm

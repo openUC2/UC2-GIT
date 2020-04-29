@@ -28,6 +28,7 @@ The Cube consists of the following components.
 * 1x **The Retain Plate** which holds the dichroic filter ([RETAIN PLATE](./STL/20_Cube_Insert_Beamsplittercube_Retainring_25mm.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 10x DIN912 M3*12 screws (non stainless steel)
 * 1x Dichroic Mirror (16mmx25mm, rectangular, e.g. COMAR optics)
 * 1x Excitation filter (25mm Diameter, e.g. COMAR optics)
