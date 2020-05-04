@@ -2,7 +2,7 @@
 
 This project is open so that anyone can get involved. We welcome all community contributions to the UC2 project. We appreciate your time and effort to make open-science great!
 
-When contributing to our project, please first discuss the change you wish to make via issue, email, or any other method with the maintainers of this repository before making a change. The following lines are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+When contributing to our project, please first discuss the change you wish to make via issue, email *info@useetoo.org*, or any other method with the maintainers of this repository before making a change. The following lines are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 Please follow our [Code of Conduct](./CODE_OF_CONDUCT.md) when making a contribution.
 
@@ -15,9 +15,9 @@ Where to start? Have a look at our [TUTORIALS](./TUTORIALS), especially at the [
 Things in need of attention are currently described in issues so have a look there if you'd like to work on something but aren't sure what.
 
 ### Become a UC2 builder
-* Fork it, and make pull requests - documentation improvements are every bit as useful as a new design or software improvement
 * The UC2 toolbox or its parts could be useful in your work? Give it a try!
 * Share your results - setups you've built or things you've seen with them - on Twitter using [#openUc2](https://twitter.com/search?q=%23openUc2&src=typed_query)
+* Fork it, and make pull requests - documentation improvements are every bit as useful as a new design or software improvement
 * Propose adding your results to the APP's README in a pull request
   * Include: the image of the setup you've build, an image of what you've seen with it, your name and institution (if relevant)
 
