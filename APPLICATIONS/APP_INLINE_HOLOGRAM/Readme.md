@@ -155,6 +155,8 @@ FocusSlider = widgets.FloatSlider(
 
 ```min```, ```max``` and step which describe the minimal/maximal focal distance between the sensor and the sample as well as the stepsize where the algorithm calculates the refocussed hologram.
 
+## <img src="./IMAGES/E.png" width="40"> Results
+None yet. Be the first to share yours! 
 
 ## <img src="./IMAGES/S.PNG" width="40"> Contribution
 If you find this piece usefull or you want to improve it, please feel free to file an issue or write us a message!

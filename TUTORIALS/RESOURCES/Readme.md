@@ -18,7 +18,9 @@ You can find them here:
 
 All the parts are from typical distributors like Amazon, Alibaba, Ebay, etc. to provide an easy-to-build solution not relying on special components. We also have an alternative source in Germany for most of the parts, but they're typically more expensive. The project is heavily benefiting from the wide variety and availability of components brought up by the open-source community.
 
-This [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is an always up-to-date version of the list. It is our "work-in-progress" list though and it might be difficult to find your way through it
+#### Complete overview of setups, modules, parts to buy and parts to print
+This [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is an always up-to-date version of the list. The first sheet gives you a list of all modules with their respective shopping'n'printing lists. you also find there how many of each modules are needed for all the setups and BOXes. There are also price estimates for each module and setup.  
+The other sheets are just older versions of a similar list.
 
 ### A list of links
 Here you'll find a growing list of other projects, tutorials and inspirations:

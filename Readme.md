@@ -82,6 +82,9 @@ If you have a new part, we are eager to see it. Please feel free to share it on 
 
 Where next? [<img src="./IMAGES/sitemap.png" height=50>](./SITEMAP.md)
 
+### Complete overview of setups, modules, parts to buy and parts to print
+Find a complete shopping'n'printing list including estimated prices for all modules and setups in this [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)!
+
 ### List of available Setups
 
 Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please have a look in the [APPLICATIONS](./APPLICATIONS/Readme.md) folder for the up to date list of the setups.

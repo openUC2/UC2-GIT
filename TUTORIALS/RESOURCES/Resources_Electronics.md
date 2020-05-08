@@ -1,4 +1,4 @@
-## Resources: Electronics, Cameras 
+## Resources: Electronics, Cameras
 
 We cannot guarantee the availability of the components. If you know other components, please let us know by filing an issue. Thank you :-)
 
@@ -49,7 +49,7 @@ Raspberry Pi Camera | 8MP, IR, v2, IMX219PQ | 30€ | [reichelt.de](https://www.
 |  Name | Properties  |  Price | Link  | Tested |
 |---|---|---|---|---|
 Jumper Wires | male-to-male, 65 pcs | 4€ | [pollin.de](https://www.pollin.de/p/steckbruecken-sortiment-65-teilig-511007) | Yes
-Jumper Wires | male-to-male, male-to-female, female-to-female, 120 pcs | 4€ | [Amazon](https://www.amazon.de/ZOORE-120pcs-Multicolored-Female-Breadboard/dp/B07P85V1G3/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jumper+male&qid=1565690543&s=industrial&sr=1-5) | Yes
+Jumper Wires | female-to-female, 40 pcs | 4€ | [Amazon](https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3) | Yes
 Wires | Original Danube Cable Copper Set of 10 | 12€ | [Amazon](https://www.amazon.de/Donau-Elektronik-GMBH-Original-Kupfer/dp/B01BI1G88C/ref=sr_1_6?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=kabel+set+0%2C14&qid=1565690819&s=gateway&sr=8-6) | Yes
 USB-C cables | USB 2.0, USB-C, 1m, 1,5m and 2m | 8€ | [Amazon](https://www.amazon.de/Gritin-Datenkabel-Geflochtene-Robust-Daten%C3%BCbertragung-Grau/dp/B07CJJHVKX/ref=sr_1_3?keywords=usb+c+kabel&qid=1566029225&s=gateway&sr=8-3) | Yes
 microUSB cables | USB 2.0, microUSB, 1m, 1,5m and 2m | 8€ | [Amazon](https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2) | Yes

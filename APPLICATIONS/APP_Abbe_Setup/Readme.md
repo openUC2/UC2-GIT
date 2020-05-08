@@ -48,5 +48,8 @@ Having two cameras is optional since one camera can be moved between two planes!
 ## Software
 Please have a look at our **ImJoy** [Github-Repository](https://github.com/bionanoimaging/UC2-ImJoy-GIT) for this Application.
 
+## <img src="./IMAGES/E.png" width="40"> Results
+None yet. Be the first to share yours!
+
 ## <img src="./IMAGES/S.png" width="40">Participate!
 If you find this piece useful or you want to improve it, please feel free to file an issue or write us a message!

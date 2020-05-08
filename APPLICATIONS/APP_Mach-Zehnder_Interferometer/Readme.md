@@ -24,5 +24,8 @@ Putting the parts together is as simple as that:
 <img src="./IMAGES/UC2_assembly.png" width="300">
 </p>
 
+## <img src="./IMAGES/E.png" width="40"> Results
+None yet. Be the first to share yours! 
+
 ## Suggestions
 If you have any problems or suggestions, please file an issue. Thank you!

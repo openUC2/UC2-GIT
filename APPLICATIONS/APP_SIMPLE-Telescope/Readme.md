@@ -103,6 +103,9 @@ Where next?
 The telescopes are also a part of the [SimpleBOX](../../TheBOX/SimpleBOX). Find out more about in the [SimpleBOX manuals](../../../TheBOX/SimpleBOX/DOCUMENTS)    
 Or return to the [TUTORIALS](../../../TUTORIALS)
 
+## <img src="./IMAGES/E.png" width="40"> Results
+None yet. Be the first to share yours! 
+
 ## <img src="./IMAGES/S.png" width="40"> Participate!
 
 Do you want to show your own results? Do you have ideas for improvements? Let us know!

@@ -1,6 +1,6 @@
 # Contribute to UC2
 
-This project is open so that anyone can get involved. We welcome all community contributions to the UC2 project. We appreciate your time and effort to make open-science great!
+This project is open so that anyone can get involved. We welcome all community contributions to the UC2 project. Every contribution is meaningful, whether you catch bugs, make performance improvements, and help with documentation. We appreciate your time and effort to make open-science great!
 
 When contributing to our project, please first discuss the change you wish to make via issue, email *info@useetoo.org*, or any other method with the maintainers of this repository before making a change. The following lines are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
@@ -18,8 +18,9 @@ Things in need of attention are currently described in issues so have a look the
 * The UC2 toolbox or its parts could be useful in your work? Give it a try!
 * Share your results - setups you've built or things you've seen with them - on Twitter using [#openUc2](https://twitter.com/search?q=%23openUc2&src=typed_query)
 * Fork it, and make pull requests - documentation improvements are every bit as useful as a new design or software improvement
-* Propose adding your results to the APP's README in a pull request
+* Propose adding your results to the APP's README in a pull request - [Issue #27](https://github.com/bionanoimaging/UC2-GIT/issues/27)
   * Include: the image of the setup you've build, an image of what you've seen with it, your name and institution (if relevant)
+* You've built your setup following the [TUTORIALS](./TUTORIALS)? Suggest an improvement there - [Issue #26](https://github.com/bionanoimaging/UC2-GIT/issues/26)
 
 ### Documentation
 * Get involved in discussions in the [ISSUE-section](https://github.com/bionanoimaging/UC2-GIT/issues).

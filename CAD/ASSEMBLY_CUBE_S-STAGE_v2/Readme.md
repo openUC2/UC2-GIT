@@ -30,6 +30,7 @@ To keep the setup as simple as possible we decided to mount the sample (e.g. bea
 The Cube consists of the following components.
 
 * **The Lid (Special)** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2_thin.stl))
+* **The Z-translator** which is a linear bearing-based table that carries the plate with the sample ([TRANSLATOR](./STL/30_Z_Translator_Lightsheet_v4.stl))
 * **The Coupling Screw** which couples the motor to a screw a through that to the movement of the stage ([SCREW](./STL/30_Coupling_Screw_28BYJ_M3.stl))
 * **The Sample Chamber** which can be filled with liquid ([CHAMBER](./STL/30_Samplechamber.stl))
 * **The Syringe Holder** which holds a Syringe and is very useful for light-sheet alignment ([HOLDER](./STL/30_Syringe_holder_v2.stl))

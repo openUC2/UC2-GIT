@@ -2,7 +2,7 @@
 
 This is a guide for building the [CourseBOX](../CourseBOX). If you were looking for another BOX version, [click here](../../).
 
-* Total price: 230 €
+* Total price: 300 €
 * Printing time including preparation: 5 days
 * Assembly time: 1 day
 

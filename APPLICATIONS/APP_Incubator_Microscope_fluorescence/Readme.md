@@ -53,3 +53,6 @@ Please have a look at the folder [STL](./STL). All files need to be printed.
 * Open-Source
 
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
+
+## <img src="./IMAGES/E.png" width="40"> Results
+None yet. Be the first to share yours! 
