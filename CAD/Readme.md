@@ -71,6 +71,9 @@ Link             |  Image of the part
 
 ## <img src="./IMAGES/E.png" width="40"> List of available [Applications (APPs)](../APPLICATIONS)
 
+### Complete overview of setups, modules, parts to buy and parts to print
+Find a complete shopping'n'printing list including estimated prices for all modules and setups in this [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)!
+
 ## <img src="./IMAGES/S.png" width="40"> Participate
 If you have a cool idea, please don't hesitate to contact us, we are happy to incorporate it in our design to make it even better.  
 More setups are coming soon!
