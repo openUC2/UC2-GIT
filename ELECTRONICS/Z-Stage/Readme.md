@@ -17,7 +17,7 @@ Motor  = 25, 26, 27, 14
 They connect to the IN1, IN2, IN3, IN4 of the motor controller respectively, as indicated below:
 
 <p align="center">
-<img src="./images/Z_Stage_ESP_v0_Schaltplan.png" width=500>
+<img src="./IMAGES/Z_Stage_ESP_v0_Schaltplan.png" width=500>
 <br> THIS SCHEME NEEDS AN UPDATE!!!
 </p>
 
@@ -36,13 +36,13 @@ Have a look in the [TUTORIALS](../TUTORIALS) for some soldering guidelines, if y
 If everything went correct, the entire circuit should look like the lower photograph.
 
 1. Remove the isolation of the wires
-![xypins](./images/UC2_Soldering_stage_1.jpg)
+![xypins](./IMAGES/UC2_Soldering_stage_1.jpg)
 
 1. Add some lead to the tips of the short wires and solder them to both sides of the ESP and ULN2003.
-![xypins](./images/UC2_Soldering_stage_2.jpg)
+![xypins](./IMAGES/UC2_Soldering_stage_2.jpg)
 
 1. Finish the setup using and flash the example program to the ESP so that both motors move back-and-forth
-![xypins](./images/UC2_Soldering_stage_3.jpg)
+![xypins](./IMAGES/UC2_Soldering_stage_3.jpg)
 
 
 ## <img src="./images/W.png" width=40>Code

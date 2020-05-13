@@ -47,7 +47,7 @@ Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie
 * TUT01: Print your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base_v2/STL) [:movie_camera:](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
 * TUT02: Assemble your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base_v2#-assembly-tutorial-with-images) [:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA&t=1s)
 * TUT03: Give your first cube a function - lens as a magnifying glass [:feet:](../CAD/ASSEMBLY_CUBE_Lens_v2/TUT03)
-* TUT04: Build your first baseplate [:feet:](../CAD/ASSEMBLY_Baseplate_v2)[:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA)
+* TUT04: Build your first baseplate [:feet:](../CAD/ASSEMBLY_Baseplate_v2)[:movie_camera:](https://www.youtube.com/watch?v=qxA-4V7BRI0)
 * TUT05: Build your first optical setup - a telescope [:feet:](../APPLICATIONS/APP_SIMPLE-Telescope)
 * TUT06: Build your first microscope [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/mechanical)
 * TUT07: Get your first electronic part - simple LED matrix [:feet:](../CAD/ASSEMBLY_CUBE_LED_Matrix_v2/TUT08)

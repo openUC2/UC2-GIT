@@ -34,6 +34,9 @@ The Cube consists of the following components.
 * wires
 * Resistor to down-convert the 5V supply-voltage to 2.5V for the LED; e.g. 180R @ 0.5W
 
+#### Pinhole
+An easy way to make your own pinhole from aluminium foil is described [here](https://www.jpl.nasa.gov/edu/learn/project/how-to-make-a-pinhole-camera/) and [here](https://www.fi.edu/space/eclipse/pinhole-camera).
+
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove any support and clean the part

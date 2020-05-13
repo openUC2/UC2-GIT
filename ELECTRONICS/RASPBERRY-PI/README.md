@@ -1,3 +1,6 @@
+# An up-to-date tutorial is found in the [UC2 Software GitHub repository](https://github.com/bionanoimaging/UC2-Software-GIT/blob/master/GUI/RASPBERRY_PI/README.md)
+
+
       This section and all related sections need an update!
 
 # Getting a UC2-ready Raspbian

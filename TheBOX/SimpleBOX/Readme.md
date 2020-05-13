@@ -18,21 +18,21 @@ A list of 3D-printed parts and necessary components is found in [BUILD_ME](./BUI
 What can you build with the SimpleBOX?
 
 ### Projector
-[LINK](../../CAD/APP_SIMPLE-Projector)
+[LINK](../../APPLICATIONS/APP_SIMPLE-Projector)
  Simple one lens projector. Direct illumination. 4× magnification for *f(L)* = +40 mm, object to lens 50 mm and lens to screen 200 mm.
 <p align="center">
 <img src="./IMAGES/UC2_Setups_12_Projector.png" width="640">
 </p>
 
 ### Telescopes
-[LINK](../../CAD/APP_SIMPLE-Telescope)
+[LINK](../../APPLICATIONS/APP_SIMPLE-Telescope)
 Three classical telescope principles. 2× magnification for *f(L1)* = +100 mm, *f(L2)* = +50 mm, *f(L3)* = -50 mm.
 <p align="center">
 <img src="./IMAGES/UC2_Setups_6_telescopes.png" height="370">
 </p>
 
 ### Smartphone Microscope
-[LINK](../../CAD/APP_SMARTPHONE_MICROSCOPE)
+[LINK](../../APPLICATIONS/APP_SMARTPHONE_MICROSCOPE)
 Trasmission microscope, uses smartphone for image acquisition. LED array serves as light source - different illumination modes possible.
 <p align="center">
 <img src="./IMAGES/UC2_Setups_9_smartphone_simple.png" height="300">

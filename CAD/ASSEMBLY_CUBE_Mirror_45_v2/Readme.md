@@ -22,6 +22,17 @@ Due to limited space, we need to fold the beam using a mirror. This is done by r
 	* Substrate Fused: Silica
 	* Thickness: 6.0 mm (0.24")
 
+## Design
+The original design files are in the [INVENTOR](./INVENTOR) folder. These files were generated using Autodesk Inventor 2019 Student Version.
+
+To start working on it, you have to do the following steps:
+1. Download the `ASSEMBLY_CUBE_Mirror_45_v2.zip` and untip it
+1. Open Inventor and import existing project
+1. Select filename `ASSEMBLY_CUBE_Mirror_45_v2.ipj`
+1. Then open the assembly `ASSEMBLY_CUBE_Mirror_45_v2.iam` in Inventor
+1. Now you can modify the parts
+1. If you have a cool impovement for this part, please let us know! ([CONTRIBUTING](../../CONTRIBUTING.MD))
+
 ## Parts
 
 ### <img src="../IMAGES/P.png" height="40"> 3D printing parts
