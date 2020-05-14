@@ -73,6 +73,16 @@ Part - link             |  Result|  Comment
 [Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|<img src="./BUILD_ME/IMAGES/lens.jpg" width="300">| 4× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building different setups.
 [Mirror Cubes](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|<img src="./BUILD_ME/IMAGES/mirror.jpg" width="300">| 2× Mirror Cube
 [Sample Cube](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|<img src="./BUILD_ME/IMAGES/sample.jpg" width="300">|1× Sample Holder Cube
+[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|<img src="./BUILD_ME/IMAGES/z-stage.jpg" width="300">|Attention! Here, the stage is put into a 1×1 cube - assembly is mostly the same but have a look at the following section 
+
+#### Z-stage in 1×1 cube
+The assembly is not very different when putting the Z-stage inside a 1×1 cube. In the pictures, you see how it should look like in the end:
+<p align="center">
+<img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v2.png" width="300">
+<img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v2_1.png" width="300">
+<img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v2_2.png" width="300">
+<img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v2_3.png" width="300">
+</p>
 
 ## <img src="./BUILD_ME/IMAGES/E_S.png" height="40"> Done! Great job!
 

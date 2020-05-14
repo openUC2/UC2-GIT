@@ -9,7 +9,7 @@ That's how it could look like:
 
 Useful for Workshops. Get back to us if you want to organize one together with us!
 
-**Coming soon:** MiniBOX with 8 cubes only but the same amount of experiments as the SimpleBOX! Price is reduced, effect remains.
+**Coming soon:** [MiniBOX](MiniBOX.md) with 8 cubes only but the same amount of experiments as the SimpleBOX! Price is reduced, effect remains.
 
 ## <img src="./IMAGES/D_B_P_A.png" height="40"> Build the BOX
 A list of 3D-printed parts and necessary components is found in [BUILD_ME](./BUILD_ME), together with assembly guidelines and some printing tips and tricks.
