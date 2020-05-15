@@ -15,7 +15,7 @@ That's how it could look like:
 
 Link - name of part             |  Amount |  Comment | Price per amount used
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
-  3D printing material|~260 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in [3D printing section](#3d-printing)|8 €
+  3D printing material|~260 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in [3D printing section](#-3d-printing)|8 €
   [Microscope objective 4×](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)  |  1 piece | It is possible to use 10× objective as well, but we recommend 4× for this setup.| 11 €
   [Lens 100 mm](https://optikbaukasten.de/)  |  1 piece |Artikel 2004|6 €
   [Lens 40 mm](https://optikbaukasten.de/)  |  2 pieces |Artikel 2120|12 €
@@ -69,11 +69,11 @@ Tool             |  Image|  Comment
 ## <img src="./BUILD_ME/IMAGES/A.png" height="40">  Assembly
 Part - link             |  Result|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
-[Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)|<img src="./BUILD_ME/IMAGES/baseplates.jpg" width="300">|2× baseplate 4×1
-[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|<img src="./BUILD_ME/IMAGES/lens.jpg" width="300">| 4× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building different setups.
-[Mirror Cubes](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|<img src="./BUILD_ME/IMAGES/mirror.jpg" width="300">| 2× Mirror Cube
-[Sample Cube](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|<img src="./BUILD_ME/IMAGES/sample.jpg" width="300">|1× Sample Holder Cube
-[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|<img src="./BUILD_ME/IMAGES/z-stage.jpg" width="300">|Attention! Here, the stage is put into a 1×1 cube - assembly is mostly the same but have a look at the following section 
+[Baseplates](../../CAD/ASSEMBLY_Baseplate_v2)|<img src="./BUILD_ME/IMAGES/baseplates.jpg" width="300">|2× baseplate 4×1
+[Lens Cubes](../../CAD/ASSEMBLY_CUBE_Lens_v2)|<img src="./BUILD_ME/IMAGES/lens.jpg" width="300">| 4× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building different setups.
+[Mirror Cubes](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|<img src="./BUILD_ME/IMAGES/mirror.jpg" width="300">| 2× Mirror Cube
+[Sample Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|<img src="./BUILD_ME/IMAGES/sample.jpg" width="300">|1× Sample Holder Cube
+[Z-Stage Cube](../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|<img src="./BUILD_ME/IMAGES/z-stage.jpg" width="300">|Attention! Here, the stage is put into a 1×1 cube - assembly is mostly the same but have a look at the following section 
 
 #### Z-stage in 1×1 cube
 The assembly is not very different when putting the Z-stage inside a 1×1 cube. In the pictures, you see how it should look like in the end:

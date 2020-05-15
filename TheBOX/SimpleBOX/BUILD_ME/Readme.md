@@ -17,7 +17,7 @@ This is a guide for building the [SimpleBOX](../SimpleBOX). If you were looking 
 
 Link - name of part             |  Amount |  Comment | Price per amount used
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
-  3D printing material|~500 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in [3D printing section](#3d-printing)|15 €
+  3D printing material|~500 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in [3D printing section](#-3d-printing)|15 €
   [Microscope objective 4×](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)  |  1 piece | It is possible to use 10× objective as well, but we recommend 4× for this setup.| 10 €
   [Eyepiece 20×](https://de.aliexpress.com/item/32965050204.html?spm=a2g0o.productlist.0.0.7aa657eeefLUfu&algo_pvid=cd60fca0-3fa5-4191-9ce9-303815e2afa7&algo_expid=cd60fca0-3fa5-4191-9ce9-303815e2afa7-1&btsid=76036b58-6717-4d1f-a4a0-c3d4bacd0450&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_52)  |  1 piece | The holder is designed for an eyepiece of this diameter. Sold in pairs.|13 €
   [Lens 100 mm](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=550.OA50)  |  2 pieces |550.OA.50|10 €
