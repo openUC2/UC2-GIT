@@ -5,12 +5,11 @@
 # **UC2 - Open and Modular Optical Toolbox**
 
 ---
+**NEW**: We have a [TUTORIALS](./TUTORIALS) section that leads you through the toolbox step-by-step.
 
 **New**: Our new Pre-print fresh from the press is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.03.02.973073v1)
 
 **New**: The COSI conference paper is out on [OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5)
-
-**New:** We have a new comprehensive 2-day workshop documented in [WORKSHOP](./WORKSHOP)
 
 [<img src="./IMAGES/sitemap.png" height=50 align="right">](./SITEMAP.md)
 
@@ -76,9 +75,13 @@ The idea is to use **UC2** as an open-standard or bridge to external hardware co
 <br> Fig. 3: The structure of any UC2 assembly follows the green lines; A basic cube can hold an insert thus adapting to different components (i.e. lenses, etc.); A number of assembled cube-modules can form a complex optical system here called application
 </p>
 
-A more in-detail description of the **MDK** (**M**odule **D**eveloper **K**it) which explains how ***your idea*** can be adapted to the module system can be found in the [MDK](./MDK)-folder.
+A more in-detail description of the **MDK** (**M**odular **D**eveloper **K**it) which explains how ***your idea*** can be adapted to the module system can be found in the [MDK](./MDK)-folder.
 
 If you have a new part, we are eager to see it. Please feel free to share it on available websites like Twitter, Thingiverse, Github or any other platform of choice!
+
+### Read more about the project in our papers:
+Our new Pre-print  is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.03.02.973073v1)  
+The COSI conference paper is out on [OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5)
 
 Where next? [<img src="./IMAGES/sitemap.png" height=50>](./SITEMAP.md)
 

@@ -11,10 +11,10 @@ It's always hard the first time you do something. Everything new is scary. But w
 
 Where to start? Have a look at our [TUTORIALS](./TUTORIALS), especially at the [First steps with GitHub](./TUTORIALS#github). There you find links to guidelines tp GitHub contributions for beginners.
 
-## How can I contribute?
+## How can I contribute? :muscle:
 Things in need of attention are currently described in issues so have a look there if you'd like to work on something but aren't sure what.
 
-### Become a UC2 builder
+### Become a UC2 builder :construction_worker:
 * The UC2 toolbox or its parts could be useful in your work? Give it a try!
 * Share your results - setups you've built or things you've seen with them - on Twitter using [#openUc2](https://twitter.com/search?q=%23openUc2&src=typed_query)
 * Fork it, and make pull requests - documentation improvements are every bit as useful as a new design or software improvement
@@ -22,19 +22,19 @@ Things in need of attention are currently described in issues so have a look the
   * Include: the image of the setup you've build, an image of what you've seen with it, your name and institution (if relevant)
 * You've built your setup following the [TUTORIALS](./TUTORIALS)? Suggest an improvement there - [Issue #26](https://github.com/bionanoimaging/UC2-GIT/issues/26)
 
-### Documentation
+### Documentation :pencil:
 * Get involved in discussions in the [ISSUE-section](https://github.com/bionanoimaging/UC2-GIT/issues).
 * Raise an issue if you spot something that's wrong, or something that could be improved. This includes the instructions/documentation.
   * Improve assembly tutorial if you found out there's an important of anyhow useful information missing
   * Create alignment tutorial with images of a setup that you've built and doesn't have a detailed tutorial yet
   * Suggest better text or images for the instructions
 
-### Hardware
+### Hardware :hammer:
 * We support you with the basic CAD design files, so that you can develop specific hardware-function which can fit in our cubes.
 * We provide a brief tutorial on how to design an insert which adapts any part to the UC2 system. Please find it [here](./CAD/ASSEMBLY_CUBE_Base_v2/#tutorial-on-how-to-design-an-insert-in-inventor) on how to design an insert in Inventor.
 * Improve the design of parts. STL files or descriptions of changes are helpful, even if you don't use OpenSCAD or Inventor.
 
-### Software
+### Software :computer:
 * Our software-oriented [UC2-SOFTWARE-GIT](https://github.com/bionanoimaging/UC2-Software-GIT) provides you with all the different programs that you need to automate your blocks
 * Run our GUI on [RasPi](https://github.com/bionanoimaging/UC2-Software-GIT/tree/master/GUI/RASPBERRY_PI/RASPIapp_py3) or [Android-Phone](https://github.com/bionanoimaging/UC2-Software-GIT/tree/master/GUI/Android/UC2-TheBox)
   * Report bugs or other issues

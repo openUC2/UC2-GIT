@@ -15,9 +15,12 @@ All external links are used with the best intention - to provide more informatio
 [How to access all the files easily?](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)  
 [How to make your First Contribution?](https://firstcontributions.github.io/)  
 [How to make your First Contribution if the previous guide still seems to complicated?](https://github.com/firstcontributions/first-contributions/blob/master/github-desktop-tutorial.md)
+[How to edit GitHub documentation (Readme files)?](https://atom.io/)
+[How to use GitHub flavored Markdown?](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 #### Shopping for material and components
 [What do I have to buy if I want to build something with UC2 toolbox?](./RESOURCES/Resources_step_by_step.md)
+[Is there a complete list of all setups, modules and components?](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)
 
 #### 3D printing
 [Never tried it but it's so cool you want to start now?](https://www.makeuseof.com/tag/beginners-guide-3d-printing/)  
@@ -63,8 +66,8 @@ How-to guides show you how to assemble cubes for various functions and how to bu
 * [HOW-TO print the UC2 parts with a *Prusa i3 MK3S* Printer](./PRINTER)
 * [HOW-TO import your ideas into the UC2 framework](../MDK)
 * [HOW-TO easily sketch your UC2 setups](../MDK/DRAW.IO)
-* HOW-TO use UC2 toolbox for education
-* HOW-TO use UC2 toolbox for research
+* HOW-TO use UC2 toolbox for education?
+* HOW-TO use UC2 toolbox for research?
 
 ## <img src="./IMAGES/CG.png" width="40"> Contributor guidelines
 
