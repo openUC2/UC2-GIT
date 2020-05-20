@@ -44,7 +44,8 @@ For a convex 25 mm lens:
 
 ## Design your own Lens Holder  
 For any lens or round filter from ⌀9 mm to ⌀42 mm  
-[TUTORIAL with images](./STL)
+* [INVENTOR TUTORIAL with images](./INVENTOR)  
+* [OPENSCAD](./OPENSCAD)
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!

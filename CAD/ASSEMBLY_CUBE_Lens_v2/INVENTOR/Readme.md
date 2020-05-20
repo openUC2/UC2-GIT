@@ -8,7 +8,7 @@
 
 ### Tutorial with images
 
-1. Open the file called _Assembly_Insert_Lens_mount_fixed.iam_ from [_STL/Lens_Insert_](./Lens_Insert)
+1. Open the file called _Assembly_Insert_Lens_mount_fixed.iam_ from [_/Lens_Insert_](./Lens_Insert)
 
 <p align="center">
 <img src="../IMAGES/design_lens_holder_01.png" width="500">

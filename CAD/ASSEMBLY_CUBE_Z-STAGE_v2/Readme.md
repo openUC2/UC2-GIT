@@ -34,6 +34,24 @@ In order to automate this, we designed a very simple z-stage itself relying on f
 	* coarse: around 30 mm (shifting the objective lens inside the slot)
 * very low cost by relying on off-the-shelf components
 
+## Z-stage in an incubator
+The Z-stage is used in our [Incubator Microscope](../../APPLICATIONS/APP_Incubator_Microscope), where it needs to be stable and provide a good performance over long time at the temperature of 37°C. However, PLA is not an ideal material for such conditions and our previous stage tended to drift aways as the material heated up.
+
+<p align="center">
+<img src="./IMAGES/Z-stage_incubator_01.jpeg" width="300">
+<img src="./IMAGES/Z-stage_incubator_02.jpeg" width="300">
+<img src="./IMAGES/Z-stage_incubator_03.jpeg" width="300">
+<img src="./IMAGES/Z-stage_incubator_04.jpeg" width="300">
+<img src="./IMAGES/Z-stage_incubator_05.jpeg" width="300">
+</p>
+
+The pictures above show the latest version of the Z-stage that should be able to cope with the temperature in the incubator. What is different:
+* The objective mount has now TWO SCREW, instead of one, to share the force.
+* There are TWO M2 SCREWS in the slider of the Z-stage, so the slit it not 3D-printed only
+* There are FIVE ARMS that attach via linear flexures to the frame, to share the force
+
+This version is currently being tested in an incubator. The STL files for it are not yet available, but for any experiments at room temperature, the available version of the stage works well.
+
 ## Parts
 
 ### <img src="../IMAGES/P.png" height="40"> 3D printing parts
