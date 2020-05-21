@@ -5,11 +5,12 @@
 # **UC2 - Open and Modular Optical Toolbox**
 
 ---
-**NEW**: We have a [TUTORIALS](./TUTORIALS) section that leads you through the toolbox step-by-step.
+**New**: We have a complete [Bill of materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) with price estimates.
+
+**New**: We have a [TUTORIALS](./TUTORIALS) section that leads you through the toolbox step-by-step.
 
 **New**: Our new Pre-print fresh from the press is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.03.02.973073v1)
 
-**New**: The COSI conference paper is out on [OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5)
 
 [<img src="./IMAGES/sitemap.png" height=50 align="right">](./SITEMAP.md)
 
@@ -29,7 +30,7 @@
 ## Already familiar? Click here if you are looking for...
 TheBOX | General toolbox  | Specific setup |Workshops
 :------:|:------:|:------:|:------:
-<img src="./IMAGES/UC2_theBox.jpg" height="200" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="200">|<img src="./IMAGES/UC2_application.jpg" height="200">|<img src="./IMAGES/UC2_workshop.jpg" height="200">
+<img src="./IMAGES/UC2_theBox.jpg" height="150" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="150">|<img src="./IMAGES/UC2_application.jpg" height="150">|<img src="./IMAGES/UC2_workshop.jpg" height="150">
 [Choose a version and build your own BOX.](./TheBOX) | [Explore the toolbox and its applications.](./CAD) | [Alternatives for many Microscopy methods... and more.](./APPLICATIONS) | [Host or join a UC2 workshop.](./WORKSHOP)
 
 ## [Get Involved! Contribute to the project!](CONTRIBUTING.md)
@@ -86,7 +87,7 @@ The COSI conference paper is out on [OSA](https://www.osapublishing.org/abstract
 Where next? [<img src="./IMAGES/sitemap.png" height=50>](./SITEMAP.md)
 
 ### Complete overview of setups, modules, parts to buy and parts to print
-Find a complete shopping'n'printing list including estimated prices for all modules and setups in this [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)!
+Find a complete shopping'n'printing list including estimated prices for all modules and setups in this [BILL OF MATERIALS](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)!
 
 ### List of available Setups
 
@@ -121,8 +122,6 @@ This project is open so that anyone can get involved. You don't even have to lea
 
 
 ## Kits, License and Collaboration
-
-     THIS SECTION NEEDS REVISION
 
 This project is open-source and is released under the CERN open hardware license. Our aim is to make the kits commercially available.
 We encourage everyone who is using our Toolbox to share their results and ideas, so that the Toolbox keeps improving. It should serve as a easy-to-use and easy-to-access general purpose building block solution for the area of STEAM education. All the design files are generally for free, but we would like to hear from you how is it going.

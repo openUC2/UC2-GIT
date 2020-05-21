@@ -14,12 +14,12 @@ All external links are used with the best intention - to provide more informatio
 [What is GitHub? How to join?](https://guides.github.com/activities/hello-world/)  
 [How to access all the files easily?](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)  
 [How to make your First Contribution?](https://firstcontributions.github.io/)  
-[How to make your First Contribution if the previous guide still seems to complicated?](https://github.com/firstcontributions/first-contributions/blob/master/github-desktop-tutorial.md)
-[How to edit GitHub documentation (Readme files)?](https://atom.io/)
+[How to make your First Contribution if the previous guide still seems to complicated?](https://github.com/firstcontributions/first-contributions/blob/master/github-desktop-tutorial.md)  
+[How to edit GitHub documentation (Readme files)?](https://atom.io/)  
 [How to use GitHub flavored Markdown?](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 #### Shopping for material and components
-[What do I have to buy if I want to build something with UC2 toolbox?](./RESOURCES/Resources_step_by_step.md)
+[What do I have to buy if I want to build something with UC2 toolbox?](./RESOURCES/Resources_step_by_step.md)  
 [Is there a complete list of all setups, modules and components?](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)
 
 #### 3D printing
