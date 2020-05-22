@@ -12,3 +12,5 @@ To start working on it, you have to do the following steps:
   * Choose whether you need both the Cube Body and the Lid or just one of them
   * Render it, export an STL file and print it
 * Without the customizer: Comment/Uncomment the respective part to chose which one you render
+
+The [UC2_Insert_Perpendicular.scad](UC2_Insert_Perpendicular.scad) file carries a generic insert design - just the dimension that are necessary for fitting inside a cube, no function. You can use it to design your own insert. 

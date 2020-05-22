@@ -15,7 +15,6 @@ a = 49.8;
 b = 33.6;
 c = 6.28;
 d = 53.8;
-angle = 45;
 h = lens_edge_thickness < 4.1 ? 5 : 5+(lens_edge_thickness-3); //holder height
 h1 = 3; //clamp rims height
 t = 1.5; //clamp ring thickness
@@ -38,10 +37,10 @@ module lens_holder () {
         union() {   //basic insert design
             cube([a,b,h], center=true);
             cube([b,a,h], center=true);
-            rotate(a=[0,0,angle]){
+            rotate(a=[0,0,45]){
                 cube([c,d,h], center=true);
             }
-            rotate(a=[0,0,-angle]){
+            rotate(a=[0,0,-45]){
                 cube([c,d,h], center=true);
             }
         }

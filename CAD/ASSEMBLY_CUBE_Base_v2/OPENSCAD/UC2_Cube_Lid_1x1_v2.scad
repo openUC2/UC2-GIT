@@ -19,7 +19,10 @@ scr_l=8; // Screw length (hole length)
 scr_hd=5.5; // Screw head diameter (M3)
 scr_hl=3.1; // Screw head length (M3)
 
+//Comment or uncomment the following three lines, depending on which part you want to print OR use the Customizer window
 print_part();
+//basecube();
+//lid();
 
 module print_part() {   //choose part to print cube body/lid/both
 	if (part == "first") {
