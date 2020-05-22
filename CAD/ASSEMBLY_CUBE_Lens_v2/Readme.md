@@ -22,6 +22,8 @@ Fixed holder: For the common lenses we also offer a more stable solution.
 
 ## Parts
 
+Note: [The holder we designed in openSCAD](./OPENSCAD) is a bit different and better than the one designed with [Inventor](./INVENTOR). The update of the STLs and Inventor files will be done in a near future ;)
+
 ### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 

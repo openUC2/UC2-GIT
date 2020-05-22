@@ -1,5 +1,7 @@
 # Design your own Lens Holder  
 ## For any lens or round filter from ⌀9 mm to ⌀42 mm
+Note: [The holder we designed in openSCAD](../OPENSCAD) is a bit different from THIS ONE - and better. The update of the STLs and Inventor files will be done in a near future ;)
+
 ### Shortly, for any lens you have at hand:
 * Download the [Lens Insert Folder](./Lens_Insert), adapt the .ipt files to the dimensions of your lens, export .stl and print your own holders.
 * The clamp is adaptive to the holder - it is enough to change a single parameter - the diameter of your lens.

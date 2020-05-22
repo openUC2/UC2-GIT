@@ -4,12 +4,14 @@ These files were generated using Autodesk Inventor 2019 Student Version.
 
 To start working on it, you have to do the following steps:
 
+1. Download the `Assembly_Cube_empty_1x1_v2.zip` and unzip it
 1. Open Inventor and import existing project
 2. Select filename `Assembly_Cube_empty_1x1_v2.ipj`
 3. Then open the assembly `Assembly_Cube_empty_1x1_v2.iam` in Inventor
 4. The base-cube has two components: `10_Lid_1x1_v2.ipt` and `10_Cube_1x1_v2.ipt` which can be modified to personal needs.
+1. If you have a cool improvement for this part, please let us know! ([CONTRIBUTING](../../../CONTRIBUTING.MD))
 
-Screenshot of the cube in Invetor:
+Screenshot of the cube in Inventor:
 <p align="center">
 <img src="./IMAGES/INVENTORSCREENSHOT.png" width="600">
 </p>
@@ -19,7 +21,7 @@ Alternatively the cube can also be used in the free (educational purposes) CAD s
 <img src="./IMAGES/Fusion_1.png" width="600">
 </p>
 
-and then opening the `.iam`-file:
+and then opening the `.iam`-file (this is a v0 image):
 <p align="center">
 <img src="./IMAGES/Fusion_2.png" width="600">
 </p>
@@ -110,7 +112,7 @@ The dimensions are derived from the CAD-drawing in 13.
 </p>
 
 #### 16. Add some support to make it 'slidable'
-This is examplary. You can add any shape you want as long as you can slide it inside the cube and keep dimensions in step 13 in your mind.
+This is exemplary. You can add any shape you want as long as you can slide it inside the cube and keep dimensions in step 13 in your mind.
 <p align="center">
 <img src="../IMAGES/Cube_Tut_16.PNG" width="500">
 </p>
@@ -121,7 +123,7 @@ It can be any value so that the part fits inside the cube. It has to be less tha
 <img src="../IMAGES/Cube_Tut_17.PNG" width="500">
 </p>
 
-#### 18. Look up the external devices Parameters (CAD Dimenisons)
+#### 18. Look up the external devices Parameters (CAD Dimensions)
 Here we review a Thorlabs silver mirror with 1 inch in diameter and 6mm in thickness
 <p align="center">
 <img src="../IMAGES/Cube_Tut_18.PNG" width="500">
@@ -133,7 +135,7 @@ Here we review a Thorlabs silver mirror with 1 inch in diameter and 6mm in thick
 </p>
 
 #### 20. Extrude the hole so that a mirror fits in there
-Add some inprecision boundary (e.g. .1-.2 mm)
+Add some imprecision boundary (e.g. .1-.2 mm)
 <p align="center">
 <img src="../IMAGES/Cube_Tut_20.PNG" width="500">
 </p>
@@ -143,7 +145,7 @@ Add some inprecision boundary (e.g. .1-.2 mm)
 <img src="../IMAGES/Cube_Tut_21.PNG" width="500">
 </p>
 
-#### 22. You'Re done! :)
+#### 22. You're done! :)
 Add any modifications to your design to make it work and share it - please! :-)
 [@openUC2 on Twitter](https://twitter.com/openUC2) and as a github pull request :-)
 

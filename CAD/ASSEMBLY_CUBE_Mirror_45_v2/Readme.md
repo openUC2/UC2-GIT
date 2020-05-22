@@ -26,11 +26,12 @@ Due to limited space, we need to fold the beam using a mirror. This is done by r
 The original design files are in the [INVENTOR](./INVENTOR) folder. These files were generated using Autodesk Inventor 2019 Student Version.
 
 To start working on it, you have to do the following steps:
-1. Download the `ASSEMBLY_CUBE_Mirror_45_v2.zip` and unzip it
+1. Firstly, it might be useful to also download the design for the base cube from [here](../ASSEMBLY_CUBE_Base_v2/INVENTOR)
+1. Download the `Cube_Insert_Mirror_Holder_v2.zip` and unzip it
 1. Open Inventor and import existing project
-1. Select filename `ASSEMBLY_CUBE_Mirror_45_v2.ipj`
-1. Then open the assembly `ASSEMBLY_CUBE_Mirror_45_v2.iam` in Inventor
-1. Now you can modify the parts
+1. Select filename `20_Cube_Insert_Mirror_Holder_v2.ipj`
+1. Then open the part `20_Cube_Insert_Mirror_Holder_v2.ipt` in Inventor
+1. Now you can modify the part
 1. If you have a cool improvement for this part, please let us know! ([CONTRIBUTING](../../CONTRIBUTING.MD))
 
 ## Parts
