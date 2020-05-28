@@ -22,7 +22,7 @@ The basic properties/features of the assembly go here.
 The Cube consists of the following components.
 
 1. **The Lid** which holds the ESP32 and the screws which connect to the base-plate (optional: wires can be connected to the screws) ([LID](./STL/10_Lid_1x1_el_v2.stl))
-2. **The LED-Matrix Adapter** which adapts to the Neopixel LED Matrix display. ([ADAPTER](./STL/20_Cube_insert_LED_holder.stl))
+2. **The LED-Matrix Adapter** which adapts to the Neopixel LED Matrix display. ([ADAPTER](./STL/30_Cube_LED_Array_v0.stl))
 
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
