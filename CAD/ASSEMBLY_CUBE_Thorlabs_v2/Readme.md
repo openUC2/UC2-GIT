@@ -14,6 +14,7 @@ It adapts to the 1 inch Cage System from Thorlabs.
 * design is derived from the base-cube
 
 ## Parts
+Have a look in the [OPENSCAD folder](./OPENSCAD) to learn more about making UC2 cubes compatible with Thorlabs cage system! 
 
 ### <img src="../IMAGES/P.png" height="40"> 3D printing parts
 * No support needed in all designs

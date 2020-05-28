@@ -2,7 +2,7 @@
 ## For any lens or round filter from ⌀9 mm to ⌀42 mm
 Note: This holder is a bit different from the one we designed in Inventor - and better. The update of the STLs and Inventor files will be done in a near future ;)
 <p align=center>
-<img src="../IMAGES/UC2_lens_holder_made.png" height=200>
+<img src="../IMAGES/UC2_lens_holder_made.PNG" height=200>
 <img src="../IMAGES/UC2_lens_measurements.PNG" height=200>
 </p>
 
