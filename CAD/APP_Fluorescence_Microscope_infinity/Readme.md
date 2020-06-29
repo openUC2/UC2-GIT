@@ -84,11 +84,10 @@ Top View             | Side View
 :-------------------------:|:-------------------------:
 This setup has only a z-stage
 <img src="./IMAGES/Application_Fluorescence_Micrsocope_Infinity.png" width=500>  | <img src="./IMAGES/Application_Fluorescence_Micrsocope_Infinity_2.png" width=500>  
-|
-This setup is based on the delta stage from the Bowman lab
+| This setup is based on the delta stage from the Bowman lab
 <img src="./IMAGES/Application_Fluorescence_Micrsocope_Infinity_openflexure.png" width=500>  | <img src="./IMAGES/Application_Fluorescence_Micrsocope_Infinity_openflexure_2.png" width=500>  
 To make it more stable you can "sandwich" it with a second baseplate | <img src="./IMAGES/Application_Fluorescence_Micrsocope_Infinity_openflexure_sandwich.png" width=500>  
-|
+
 
 
 
