@@ -43,6 +43,7 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 
 ### <img src="./IMAGES/P.png" width="40"> Parts to print
 (**TODO:** need to be updated!)
+
 * 1× [Base-Plate 4×2](./STL/Assembly_base_4x2.stl)
 * 2× [1×1 Cube](./STL/10_Cube_1x1_v2.stl)
 * 3× [1×1 Cube Lid](./STL/10_Lid_1x1_v2.stl)
@@ -58,8 +59,10 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 * 1× [Cube Raspicam Insert](./STL/20_Cube_Insert_RaspiCam.stl)
 * 1× [Thorlabs Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_v2.stl) or [30×30 Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
 
+
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 (**TODO:** need to be updated!)
+
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 1× Laser Module, 635/637nm entertainment laser (laserlands.net, #3450, Dot Laser Module, 300mW, 50 Euro, China) [🢂](https://www.laserlands.net/diode-laser-module/600nm-640nm-orange-red-laser-module/635dot/200mw-300mw-637nm-638nm-laser-diode-module-ttl-stage-lighting-dj-show-12vdc.html)
 * 1x Objective lens, No Name, 100x, NA1.25, 50 Euro, China  [🢂](https://de.aliexpress.com/item/664303199.html)
@@ -89,7 +92,21 @@ This setup has only a z-stage
 To make it more stable you can "sandwich" it with a second baseplate | <img src="./IMAGES/Application_Fluorescence_Micrsocope_Infinity_openflexure_sandwich.png" width=500>  
 
 
+in List form:
 
+| Amount | Type                                      | Properties                        | Price  | Source                                                                                                                                                                    |
+|--------|-------------------------------------------|-----------------------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    1   | Kamera                                    | USB ALVIUM 1800 U -158            | 250    | [Allied Vision](https://www.alliedvision.com/de/produkte/embedded-vision-kameras/detail/Alvium%201800%20U/-158.html)                                                                      |
+|    3   | Laser                                     | 635/637 nm                        | 50     |[ Laserlands.net](https://www.laserlands.net/diode-laser-module/600nm-640nm-orange-red-laser-module/635dot/200mw-300mw-637nm-638nm-laser-diode-module-ttl-stage-lighting-dj-show-12vdc.html) |
+|    1   | Beam Splitter Dichroic                    | Comar optics Dichro 740 IY als 45 | 40     | [Comar ](https://www.comaroptics.com/components/filters/dichroic-filters/long-pass-dichroic-filters)                                                                                |
+|    1   | Filter Emission                           | Emissionsfilter 655 IY als 0°     | 40     | [Comar](https://www.comaroptics.com/components/filters/dichroic-filters/long-pass-dichroic-filters)                                                                                |
+|   200  | Magnets                                   | 5mm Ball Magnets, NEoxym          | 0,31   | [Magnetmax](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html?XTCsid=8a83b5bb1601ec808d634714960a4e25)         |
+|    4   | Mirrors 1 inch                            | Thoralbs                          | ~50    | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF10-03-P01)                                                                                                           |
+|    1   | Tube lense according to   objective lens  |                                   | ?      | -                                                                                                                                            |
+|    1   | Tube Lens                                 | Achromat, f 156,4mm / ∅ 40,0mm    | 5,9    | [PGI-Versand](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=563.OA.63)                                                                                                             |
+| 1      | Tube Lens alternative                     | Achromat, f 182,8mm / ∅ 50,0mm    | 7,9    | [PGI-Versand](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=564.OA.64)                                                                                                             |
+|  1x500 | Screws M3x12                              |                                   | ?      | [Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)                                                |
+|        | Beam Expander Lens                        | Achromat, + 26,5mm / ∅ 18,0mm     | 4,6    | [PGI-Versand](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=551.OAL)                                                                                                               |
 
 
 

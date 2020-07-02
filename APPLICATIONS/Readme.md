@@ -41,6 +41,8 @@ This is a growing list of available optical setups coming along with tutorials a
 * [openKOEHLER - Phase Contrast enhancement using an adaptive Koehler illumination](./APP_openKOEHLER)
 * [openXYtable - Module](./APP_openXYTable)
 * [Ptychography](./APP_Ptychography)
+* [Fluorescent Microscope with infinity optics and a Laser ](./APP_Fluorescence_Microscope_infinity)
+
 
 ## General Naming Convetion and Structure of UC2
 ![](./IMAGES/UC2_Structure.png)
