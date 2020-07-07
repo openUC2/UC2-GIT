@@ -99,6 +99,174 @@ sudo ./gstreamer_install.sh
 
 you should now see a live-stream of the camera. Eventually reboot before this step.
 
+## Use VIMBA Python with the USB version
+
+The Allied vision cameras come as CSI and USB3 versions. The latter can work with the ```Vimba Python``` API as an installable package provided by Allied Vision on their [github page](https://github.com/alliedvision/VimbaPython).
+
+We managed to get it run on the Nvidia Jetson. Though it's not straight forward, since Vimba requires Python 3.7 and OpenCV. Therefore we need to build it from source. Nevertheless, the effort is worth it!
+
+### 1. Install Python 3.7
+If you haven't already done so execute:
+
+```
+sudo apt install python3.7-dev
+```
+and make it the default python version on the Jetson:
+
+```
+update-alternatives  --install /usr/bin/python python /usr/bin/python3.7 1
+```
+
+### 2 Install Allied Vision SDK
+
+Go to their website and download the SDK for ARM64 and follow the installation instructions
+https://www.alliedvision.com/en/products/software.html#c6444
+
+### 3 Install OpenCV on Python 3.7 (takes a while)
+
+#### Swap-file
+
+The build-process requires quiet some RAM, so we need to expand it by creating a swap file:
+
+```
+sudo dd if=/dev/zero of=/swapfile bs=1M count=4096
+
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+```
+
+
+Also, to make the swapfile activated during reboot, edit ```/etc/fstab```:
+
+```
+sudo nano /etc/fstab
+```
+
+And add the following line:
+```
+/swapfile none swap 0 0
+```
+
+
+
+#### Install dependencies
+
+Please see this [post](https://pythops.com/post/compile-deeplearning-libraries-for-jetson-nano)
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+dependencies=(build-essential
+              cmake
+              pkg-config
+              libavcodec-dev
+              libavformat-dev
+              libswscale-dev
+              libv4l-dev
+              libxvidcore-dev
+              libavresample-dev
+              python3-dev
+              libtbb2
+              libtbb-dev
+              libtiff-dev
+              libjpeg-dev
+              libpng-dev
+              libtiff-dev
+              libdc1394-22-dev
+              libgtk-3-dev
+              libcanberra-gtk3-module
+              libatlas-base-dev
+              gfortran
+              wget
+              unzip)
+sudo apt install -y ${dependencies[@]}
+```
+
+#### Download and build OpenCV from source
+```
+cd ~/Downloads
+wget https://github.com/opencv/opencv/archive/4.2.0.zip -O opencv-4.2.0.zip
+wget https://github.com/opencv/opencv_contrib/archive/4.2.0.zip -O opencv_contrib-4.2.0.zip
+unzip opencv-4.2.0.zip
+unzip opencv_contrib-4.2.0.zip
+mkdir opencv-4.2.0/build
+cd opencv-4.2.0/build
+Configure the build
+cmake -D CMAKE_BUILD_TYPE=RELEASE \
+      -D WITH_CUDA=ON \
+      -D CUDA_ARCH_PTX="" \
+      -D CUDA_ARCH_BIN="5.3,6.2,7.2" \
+      -D WITH_CUBLAS=ON \
+      -D WITH_LIBV4L=ON \
+      -D BUILD_opencv_python3=ON \
+      -D BUILD_opencv_python2=OFF \
+      -D BUILD_opencv_java=OFF \
+      -D WITH_GSTREAMER=OFF \
+      -D WITH_GTK=ON \
+      -D BUILD_TESTS=OFF \
+      -D BUILD_PERF_TESTS=OFF \
+      -D BUILD_EXAMPLES=OFF \
+      -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.2.0/modules \
+      -D PYTHON3_LIBRARY=/usr/lib/aarch64-linux-gnu/libpython3.7m.so \
+      -D PYTHON3_EXECUTABLE=/usr/bin/python3.7 \
+      -D PYTHON3_INCLUDE_DIR=/usr/include/python3.7m \
+      ..
+```
+
+The last part for Python3.7 support is important!
+
+#### Build the package and install
+
+```
+make -j4
+sudo make install
+```
+
+#### Verification
+
+```python```
+
+and enter
+
+```import cv2```
+
+#### Optional packages:
+
+```
+#reinstall numpy
+pip install -I numpy
+sudo python -m pip install matplotlib
+sudo pip uninstall PIL -y
+sudo pip uninstall Pillow -y
+sudo pip install Pillow
+```
+
+## Install Vimba Python API
+
+```
+cd ~/Downloads
+git clone https://github.com/alliedvision/VimbaPython
+chmod 755 Install.sh
+sudo ./Install.sh
+# alternatively
+# pip install ./ -e
+-> Python 3.7
+-> With numpy
+-> With OpenCV
+
+cd VimbaPython/examples
+python asynchronous_grab_opencv.py
+```
+
+
+**Done!**
+
+
+
+
+​
+
 
 
 ### Things to do
