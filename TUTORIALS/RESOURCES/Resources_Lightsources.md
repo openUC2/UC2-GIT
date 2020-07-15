@@ -9,6 +9,8 @@ We cannot guarantee the availability of the components. If you know other compon
 Unknown | 5mW 450nm Blue Laser Pointer Pen | 15€ | [Laserlands](https://www.laserlands.net/11040037.html) | Yes
 Unknown | 1668 450nm 80mW Blue Laser Dot Module | 22€ | [Laserlands](https://www.laserlands.net/diode-laser-module/445-473nm-blue/11041055.html) | Yes
 Protective goggles | LP-GTY 200nm-532nm OD6+ 900n-1100nm OD5+ Laser Protective Goggles Safety Glasses | 28€| [Laserlands](https://www.laserlands.net/protection/laser-glasses/laserland/200nm-532nm-od6-900n-1100nm-od5-laser-protective-goggles-safety-glasses.html) | Yes
+Unknown | Heavy duty lasers (can be ordered from University!) | 25-100€ | [prolasersysetems](https://www.prolasersystems.com/laserman-systeme/) | Yes
+
 
 
 We highly recommend you to check the marketing with known retailers (e.g. eBay, Amazon, Aliexpress, Alibaba). We made good experience with the low-cost optics!
