@@ -9,6 +9,25 @@ Created on Wed Jul  8 07:23:47 2020
 from pandas import read_excel
 import pandas as pd
 import string
+# convert global class-structure into JSON
+myjsonobj = json.loads(json.dumps(my_application.__dict__, default=lambda o: '<not serializable>'))
+
+# replace the non-serializable modulels
+for iiter in range(len(myjsonobj['modulelist'])):
+    # replace modules
+    myjsonobj['modulelist'][iiter] = json.loads(json.dumps(my_application.modulelist[iiter].__dict__, default=lambda o: '<not serializable>'))
+    
+    # replace all parts inside modules 
+    for jiter in range(len(myjsonobj['modulelist'][iiter]['partslist'])):
+        
+        print(str(iiter)+'/'+str(jiter))
+        
+        myjsonobj['modulelist'][iiter]['partslist'][jiter] = json.loads(json.dumps(myjsonobj['modulelist'][iiter]['partslist'][jiter])) #.__dict__
+
+
+
+
+
 import xlrd
 
 
@@ -105,6 +124,8 @@ col_assembly_module_part_name_price =  alphabet.find('g')
 
 #%%
 # open XLXS file
+stl_prefix = 'Assembly_ALL_PARTS_FOR_EXPORT_'
+
 workbook = xlrd.open_workbook(ucs_database_filename)
 worksheet = workbook.sheet_by_name(sheetname)
 
@@ -212,46 +233,120 @@ if(True):
     # 3.) Test if this works 
     my_application.print()
 
+#%%
+#https://stackoverflow.com/questions/5160077/encoding-nested-python-object-in-json
+import json
 
 
-# %% Now transform it to compatible JSON code using code from :
-# https://github.com/AlecVercruysse/UC2-GIT/blob/master/APPLICATIONS/APP_Incubator_Microscope/config.json
-# def get_modules(dirname):
-#     """ Basically look through the STL names to try to find a unique match in the CAD subfolder. just an estimate for now, this needs to be gone through manually"""
-#     modules = []
-#     try:
-#         fs = os.scandir(dirname + "/STL")
-#     except FileNotFoundError: # some incomplete applications
-#         fs = []
-#         print("file not found :( no module completion")
-#     for f in fs:
-#         matches = glob.glob("../CAD/ASSEMBLY_*/STL/" + f.name)
-#         if len(matches) == 1:
-#             modname = re.search(r"ASSEMBLY.*?(?=/)", matches[0]).group(0)
-#             modules.append({
-#                 "name":modname,
-#                 "fixedOptions": {}
-#             })
-#     modules_no_duplicates = []
-#     [modules_no_duplicates.append(x) for x in modules if x not in modules_no_duplicates]
-#     return modules_no_duplicates
+# export to JSON
+# Hierachy:
+#   Application    
+#   |
+#   --->Modules
+#       |
+#       Module 1 ---> Parts ----> Part 1
+#                          |
+#                          |----> Part 2
 
+
+# convert global class-structure into JSON
+myjsonobj = json.loads(json.dumps(my_application.__dict__, default=lambda o: '<not serializable>'))
+
+# replace the non-serializable modulels
+for iiter in range(len(myjsonobj['modulelist'])):
+    # replace modules
+    myjsonobj['modulelist'][iiter] = my_application.modulelist[iiter].__dict__ #, default=lambda o: '<not serializable>') 
     
-# sentence = re.compile(r"[A-Z][a-z]+.*\.")
-# dirs = [x for x in os.scandir() if "APP" in x.name]
-# for d in dirs:
-#     print(d.name)
-#     with open(glob.glob(d.name + "/*.md")[0], "r") as f:
-#         f.readline()
-#         x = ""
-#         while not sentence.match(x): x = f.readline()
-#         desc = x.replace("This is the repository for ", "").replace("The stl-files can be found in the folder [STL](./STL).", "").replace("\n", "") # quick and dirty estimate.
-#         if "STL" in desc: desc = "TODO: This, and the readme, needs more documentation."
-#         #print(desc)
-#         with open(d.name + "/config.json", "w") as j:
-#             data = {
-#                 "type":"application",
-#                 "description" : desc,
-#                 "modules": get_modules(d.name)
-#                 }
-#             json.dump(data, j, indent=2)
+    # replace all parts inside modules 
+    for jiter in range(len(myjsonobj['modulelist'][iiter]['partslist'])):
+        
+        print(str(iiter)+'/'+str(jiter))
+        
+        try:
+            myjsonobj['modulelist'][iiter]['partslist'][jiter] = json.dumps(myjsonobj['modulelist'][iiter]['partslist'][jiter].__dict__)
+        except:
+            myjsonobj['modulelist'][iiter]['partslist'][jiter] = json.dumps(myjsonobj['modulelist'][iiter]['partslist'][jiter])
+        
+#%%
+    
+
+json_string = json.dumps(myjsonobj)
+    
+# %% Now transform it to compatible JSON code using code from :
+#https://github.com/AlecVercruysse/UC2-GIT/blob/master/APPLICATIONS/APP_Incubator_Microscope/config.json
+#https://github.com/AlecVercruysse/UC2-GIT/blob/master/CAD/config_generator.py
+#%%
+import os, json
+
+
+
+
+already_written = ["ASSEMBLY_Baseplate_v2", "ASSEMBLY_CUBE_LED_Matrix_v2", "ASSEMBLY_CUBE_Mirror_45_v2", "ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2", "ASSEMBLY_CUBE_Base_v2", "ASSEMBLY_CUBE_Z-STAGE_v2"]
+dirs = [x for x in os.scandir() if ("ASSEMBLY" in x.name)]
+dirs = [x for x in dirs if x.name not in already_written]
+print(os.getcwd())
+os.chdir(input("enter chdir path: ('.' to stay in current folder). we want to end up in /CAD of the repo we're generating configs for:\n"))
+for d in dirs:
+    print("generating config for {}".format(d.name))
+    desc = input("Description (one liner):\n")
+    
+    print("We'll now guide you through setting up the options. enter an option, or press return when done.")
+    options = {}
+    selectingOptions = True
+    while (selectingOptions):
+        key = input("new option (camelCase'd):\n")
+        if key == "":
+            selectingOptions = False
+        else:
+            displayName = input("enter the name of the option as shown to the user:\n")
+            choices = []
+            for i in range(int(input("number of choices:\n"))):
+                choices.append(input("choice #{}:\n".format(i+1)))
+                options[key] = {
+                    "displayName": displayName,
+                    "choices": choices
+                }
+            
+    print("Time to assign files to options. For all files, please input the path relative to the home dir of the module.\n e.g.: STL/file.stl")
+            
+    print("\n fixed files (that will always be included with the module): enter path, or return when complete")
+    fixedFiles = []
+    inputtingFixedFiles = True
+    while (inputtingFixedFiles):
+        path = input("path:\n")
+        if path == "":
+            inputtingFixedFiles = False
+        else:
+            fixedFiles.append(path)
+            
+    print("For each file that is included conditionally, specify the name of the files, and we'll ask for the conditions of inclusion. Again, return ends the list.")
+    dynamicFiles = []
+    inputtingDynamicFiles = True
+    while (inputtingDynamicFiles):
+        f = {}
+        path = input("path:\n")
+        if path == "":
+            inputtingDynamicFiles = False
+        else:
+            f["path"] = path
+            f["conditions"] = {}
+            for key in options.keys():
+                choices = input("enter a comma (no spaces!!) delimited list of all choices to include this file for. press return if this file is not dependent on the option:.\n for option:\t{}\n".format(key)).split(',')
+                if choices != "":
+                    f["conditions"][key] = choices
+            dynamicFiles.append(f)
+                    
+                    
+        
+    with open(d.name + "/config.json", "w") as j:
+        data = {
+            "type":"module",
+            "description" : desc,
+            "options": options,
+            "fixedFiles": fixedFiles,
+            "dynamicFiles": dynamicFiles
+        }
+        json.dump(data, j, indent=2)
+    print("config written!\n\n")
+    
+    
