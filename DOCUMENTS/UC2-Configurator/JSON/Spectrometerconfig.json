@@ -1,23 +1,24 @@
 {
-    "name": "Double-slit E.",
-    "description": "The basic interference experiment demonstartes the wave property of light. ",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_Double-slit_Experiment",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Double-slit_Experiment/IMAGES/UC2_Setups_13_Double-slit.png?raw=true",
+    "name": "Spectrometer",
+    "description": "The Spectrometer uses a grating to disperse the incoming light and allows for imaging of the transmission spectrum of the sample. ",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_Spectrometer",
+    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Spectrometer/IMAGES/UC2_Setups_10_spectrometer.png?raw=true",
     "price": 0,
     "modulelist": [
         {
-            "name": "ASSEMBLY_Baseplate 4\u00d71",
+            "name": "ASSEMBLY_Baseplate 4\u00d74",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
-            "price": 8.219999999999999,
+            "price": 32.68,
+            "fixedOptions": {},
             "partslist": [
                 {
-                    "name": "Baseplate 4\u00d71",
+                    "name": "Baseplate 4\u00d74",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x4.stl",
                     "image": "",
-                    "price": 0.7,
+                    "price": 2.6,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
@@ -28,7 +29,7 @@
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
-                    "n_parts": 16.0
+                    "n_parts": 64.0
                 }
             ]
         },
@@ -38,6 +39,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_LED_v2",
             "image": "",
             "price": 7.249999999999999,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -123,11 +125,113 @@
             ]
         },
         {
+            "name": "ASSEMBLY_CUBE_Lens (4\u00d7)",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
+            "image": "",
+            "price": 13.5,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Objective_Holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/20_Cube_Insert_Objective_Holder.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Microscope Objective 4\u00d7",
+                    "description": "",
+                    "githublink": "https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7",
+                    "image": "",
+                    "price": 11.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Mirror_Kinematic_45",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2",
+            "image": "",
+            "price": 4.61,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Metal plate 30\u00d740 mm\u00b2, custom cut",
+                    "description": "",
+                    "githublink": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "30\u00d730 mm\u00b2 Mirror",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3\u00d712",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 3.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 3.0
+                }
+            ]
+        },
+        {
             "name": "ASSEMBLY_CUBE_RaspiCam",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
             "image": "",
             "price": 33.7,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -182,6 +286,44 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
             "image": "",
             "price": 2.5,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_insert_Sample_holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Sample_clamp",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Sample_Holder",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
+            "image": "",
+            "price": 2.5,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -218,6 +360,7 @@
             "githublink": "",
             "image": "",
             "price": 187.8,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Raspberry Pi 4 B",

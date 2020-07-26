@@ -11,6 +11,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
             "price": 16.34,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Baseplate 4\u00d72",
@@ -38,6 +39,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base_v2",
             "image": "",
             "price": 2.2,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
@@ -83,6 +85,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base_v2",
             "image": "",
             "price": 2.2,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
@@ -128,6 +131,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base_v2",
             "image": "",
             "price": 2.2,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
@@ -173,6 +177,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Eyepiece_v2",
             "image": "",
             "price": 16.11,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -218,6 +223,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_45_v2",
             "image": "",
             "price": 2.5000000000000004,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -254,6 +260,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_45_v2",
             "image": "",
             "price": 2.5000000000000004,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -290,6 +297,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2",
             "image": "",
             "price": 30.700000000000003,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "10_Cube_2x1",

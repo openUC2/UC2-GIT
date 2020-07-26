@@ -11,6 +11,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
             "price": 8.219999999999999,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Baseplate 4\u00d71",
@@ -38,6 +39,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
             "price": 8.219999999999999,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Baseplate 4\u00d71",
@@ -65,6 +67,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
             "image": "",
             "price": 8.5,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -110,6 +113,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
             "image": "",
             "price": 8.5,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -155,6 +159,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
             "image": "",
             "price": 8.5,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -200,6 +205,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
             "image": "",
             "price": 21.5,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",

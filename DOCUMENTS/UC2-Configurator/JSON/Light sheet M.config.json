@@ -11,6 +11,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
             "price": 32.68,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Baseplate 4\u00d74",
@@ -38,6 +39,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Beamexpander_v2",
             "image": "",
             "price": 12.1,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -92,6 +94,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Laser_v2",
             "image": "",
             "price": 18.400000000000002,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -146,6 +149,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2",
             "image": "",
             "price": 62.4,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -182,6 +186,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2",
             "image": "",
             "price": 4.61,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -245,6 +250,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
             "image": "",
             "price": 33.7,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -299,6 +305,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2",
             "image": "",
             "price": 21.75,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "10_Lid_1x1_v2_thin",
@@ -407,6 +414,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2",
             "image": "",
             "price": 50.35,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "10_Cube_2x1",
@@ -569,6 +577,7 @@
             "githublink": "",
             "image": "",
             "price": 187.8,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Raspberry Pi 4 B",

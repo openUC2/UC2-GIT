@@ -43,6 +43,7 @@ class uc2_module: # also called assembly
         self.githublink = githublink
         self.image = image
         self.price = price
+        self.fixedOptions = {}
         
         self.partslist = []
         
@@ -263,7 +264,7 @@ for i_application in range(10,100):
     my_jsonpath = my_root+my_approot+my_appprefix+my_appnpath
     print('should save to: '+my_jsonpath)
 
-    with open('config.json', "w") as j:
+    with open('./JSON/'+application_name+'config.json', "w") as j:
         json.dump(my_application_json, j, indent=4)
     print("config written!\n\n")
     

@@ -11,6 +11,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
             "price": 32.68,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Baseplate 4\u00d74",
@@ -38,6 +39,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_LED_v2",
             "image": "",
             "price": 7.249999999999999,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -128,6 +130,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
             "image": "",
             "price": 13.5,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -164,6 +167,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2",
             "image": "",
             "price": 4.61,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -227,6 +231,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
             "image": "",
             "price": 33.7,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -281,6 +286,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
             "image": "",
             "price": 2.5,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -317,6 +323,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
             "image": "",
             "price": 2.5,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -353,6 +360,7 @@
             "githublink": "",
             "image": "",
             "price": 187.8,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Raspberry Pi 4 B",

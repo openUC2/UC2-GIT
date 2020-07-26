@@ -1,8 +1,8 @@
 {
-    "name": "Inline Holography",
-    "description": "Inline Holographic microscope creates a hologramm without using any lenses. ",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_INLINE_HOLOGRAM",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_INLINE_HOLOGRAM/IMAGES/Application_Inline_Holographic_Microscopy_v2.png?raw=true",
+    "name": "Double-slit E.",
+    "description": "The basic interference experiment demonstartes the wave property of light. ",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_Double-slit_Experiment",
+    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Double-slit_Experiment/IMAGES/UC2_Setups_13_Double-slit.png?raw=true",
     "price": 0,
     "modulelist": [
         {
@@ -11,6 +11,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
             "price": 8.219999999999999,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Baseplate 4\u00d71",
@@ -38,6 +39,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_LED_v2",
             "image": "",
             "price": 7.249999999999999,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -128,6 +130,7 @@
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
             "image": "",
             "price": 33.7,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "ASSEMBLY_CUBE_empty_1\u00d71",
@@ -177,11 +180,49 @@
             ]
         },
         {
+            "name": "ASSEMBLY_CUBE_Sample_Holder",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
+            "image": "",
+            "price": 2.5,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_insert_Sample_holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Sample_clamp",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
             "name": "Raspberry Pi + accesories",
             "description": "",
             "githublink": "",
             "image": "",
             "price": 187.8,
+            "fixedOptions": {},
             "partslist": [
                 {
                     "name": "Raspberry Pi 4 B",
