@@ -22,19 +22,20 @@ class uc2_application:
         self.githublink = githublink
         self.image = image
         self.price = price
+        self.type = "application",
         
-        self.modulelist = []
+        self.modules = []
         
 
     def addmodule(self, module):
-        self.modulelist.append(module)
+        self.modules.append(module)
 
     def print(self):
         print("App Name: " + self.name)
         print("App description: " + self.description)
         print("App githublink: " + self.githublink)
         print("App image: " + self.image)
-        print("App Parts: ".join(str(x) for x in ([i.name for i in self.modulelist]))) 
+        print("App Parts: ".join(str(x) for x in ([i.name for i in self.modules]))) 
 
 class uc2_module: # also called assembly
     def __init__(self, name, description, githublink, image, price):
@@ -236,16 +237,16 @@ for i_application in range(10,100):
         if(is_debug): print('adding module '+str(i_module)+'  '+str(n_modules)+'-times')
         for i_add in range(n_modules):
             my_application.addmodule(all_modules[module_iterator]) # make sure to add n-modules   
-            my_application_json['modulelist'].append(json.loads(json.dumps(all_modules[module_iterator].__dict__, default=lambda o: '<not serializable>')))
+            my_application_json['modules'].append(json.loads(json.dumps(all_modules[module_iterator].__dict__, default=lambda o: '<not serializable>')))
             
             # add all parts
-            n_parts = len(my_application_json['modulelist'][-1]['partslist'])
+            n_parts = len(my_application_json['modules'][-1]['partslist'])
             my_partslist = []
             for i_part in range(n_parts):
-                my_partslist.append(my_application.modulelist[-1].__dict__['partslist'][i_part].__dict__)
+                my_partslist.append(my_application.modules[-1].__dict__['partslist'][i_part].__dict__)
 
 
-            my_application_json['modulelist'][-1]['partslist']=json.loads(json.dumps(my_partslist))
+            my_application_json['modules'][-1]['partslist']=json.loads(json.dumps(my_partslist))
 
                 
                 
@@ -257,14 +258,14 @@ for i_application in range(10,100):
     my_application.print()
    
     # 4.) Save this! 
-    my_root = './GITHUBROOT' 
+    my_root = '/Users/bene/Dropbox/Dokumente/Promotion/PROJECTS/UC2-GIT' 
     my_approot = '/APPLICATIONS'
-    my_appprefix = '/APP_'
+    my_appprefix = '/'
     my_appnpath = application_name
     my_jsonpath = my_root+my_approot+my_appprefix+my_appnpath
     print('should save to: '+my_jsonpath)
 
-    with open('./JSON/'+application_name+'config.json', "w") as j:
+    with open(my_jsonpath+'/config.json', "w") as j:
         json.dump(my_application_json, j, indent=4)
     print("config written!\n\n")
     
