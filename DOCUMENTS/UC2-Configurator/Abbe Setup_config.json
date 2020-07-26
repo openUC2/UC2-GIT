@@ -1,0 +1,576 @@
+{
+    "name": "Abbe Setup",
+    "description": "The famous Abbe Diffraction Experiment demonstartes the image formation in optical setup. ",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_Abbe_Setup",
+    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Abbe_Setup/IMAGES/Application_Abbe-Experiment_v2.png?raw=true",
+    "price": 0,
+    "modulelist": [
+        {
+            "name": "ASSEMBLY_Baseplate 4\u00d72",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
+            "image": "",
+            "price": 16.34,
+            "partslist": [
+                {
+                    "name": "Baseplate 4\u00d72",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x2.stl",
+                    "image": "",
+                    "price": 1.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 32.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate 4\u00d74",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
+            "image": "",
+            "price": 32.68,
+            "partslist": [
+                {
+                    "name": "Baseplate 4\u00d74",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x4.stl",
+                    "image": "",
+                    "price": 2.6,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 64.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Beamsplitter",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Beamsplitter_v2",
+            "image": "",
+            "price": 29.2,
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Beamsplitter",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Beamsplitter_v2/STL/20_Cube_Insert_Beamsplitter.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Beamsplitter Cube (Art. 2137)",
+                    "description": "",
+                    "githublink": "https://optikbaukasten.de/",
+                    "image": "",
+                    "price": 26.7,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_LED",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_LED_v2",
+            "image": "",
+            "price": 7.249999999999999,
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_insert_LED_holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_v2/STL/ASSEMBLY_CUBE_LED_20_Cube_insert_LED_holder.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_insert_Sample_holder (optional)",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_v2/STL/ASSEMBLY_CUBE_LED_20_Cube_insert_Sample_holder.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Sample_clamp (optional)",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_v2/STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Hi-Power LED 1W/3W UV STAR Blue",
+                    "description": "",
+                    "githublink": "https://www.ebay.de/itm/Hi-Power-LED-1W-3W-UV-STAR-Ultraviolet-/131326525056?var=",
+                    "image": "",
+                    "price": 1.85,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "wire",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Donau-Elektronik-GMBH-Original-Kupfer/dp/B01BI1G88C/ref=sr_1_6?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=kabel+set+0%2C14&qid=1565690819&s=gateway&sr=8-6",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Resistor",
+                    "description": "",
+                    "githublink": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "USB-microUSB cable",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2",
+                    "image": "",
+                    "price": 2.8,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Wago binder",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Sortiment-2273-202-Verbindungsklemme-praktischem-Sortimentskasten/dp/B06WLLCH5Y/ref=sr_1_18?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=wago+steckklemme&qid=1565690748&s=gateway&sr=8-18",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Lens (+50)",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
+            "image": "",
+            "price": 23.5,
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder_clamp",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Lens: f'=50mm, 1 inch (LA1131)",
+                    "description": "",
+                    "githublink": "https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1131",
+                    "image": "",
+                    "price": 21.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_RaspiCam",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
+            "image": "",
+            "price": 33.7,
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_RaspiCam",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2/STL/20_Cube_Insert_RaspiCam.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspberry Pi Camera",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Raspberry-Pi-v2-1-1080P-Kamera-Modul/dp/B01ER2SMHY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1LUZK9XHFS5CX&keywords=raspberry+pi+camera+v2.1&qid=1565008837&s=gateway&sprefix=raspberry+pi+camera+%2Caps%2C163&sr=8-4",
+                    "image": "",
+                    "price": 27.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspberry Pi Camera long cable",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/gp/product/B075JN61S7/ref=ox_sc_act_title_2?smid=A1X7QLRQH87QA3&psc=1",
+                    "image": "",
+                    "price": 4.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "M2 screw + nut",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_RaspiCam",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
+            "image": "",
+            "price": 33.7,
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_RaspiCam",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2/STL/20_Cube_Insert_RaspiCam.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspberry Pi Camera",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Raspberry-Pi-v2-1-1080P-Kamera-Modul/dp/B01ER2SMHY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1LUZK9XHFS5CX&keywords=raspberry+pi+camera+v2.1&qid=1565008837&s=gateway&sprefix=raspberry+pi+camera+%2Caps%2C163&sr=8-4",
+                    "image": "",
+                    "price": 27.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspberry Pi Camera long cable",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/gp/product/B075JN61S7/ref=ox_sc_act_title_2?smid=A1X7QLRQH87QA3&psc=1",
+                    "image": "",
+                    "price": 4.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "M2 screw + nut",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Sample_Holder",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
+            "image": "",
+            "price": 2.5,
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_insert_Sample_holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Sample_clamp",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Circular_Aperture",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Aperture_Circular_v2",
+            "image": "",
+            "price": 2.6,
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_CirAp_Guide",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Aperture_Circular_v2/STL/20_Cube_Insert_CirAp_Guide.stl",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_CirAp_Wheel",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Aperture_Circular_v2/STL/20_Cube_Insert_CirAp_Wheel.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_CirAp_Leaf",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Aperture_Circular_v2/STL/20_Cube_Insert_CirAp_Leaf1.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 7.0
+                },
+                {
+                    "name": "20_Cube_Insert_CirAp_Lid",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Aperture_Circular_v2/STL/20_Cube_Insert_CirAp_Lid.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "Raspberry Pi + accesories",
+            "description": "",
+            "githublink": "",
+            "image": "",
+            "price": 187.8,
+            "partslist": [
+                {
+                    "name": "Raspberry Pi 4 B",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-2-gb-ram-wlan-bt-rasp-pi-4-b-2gb-p259919.html?PROVID=2788&gclid=Cj0KCQjwv8nqBRDGARIsAHfR9wDfSTnmSNyUOfEQFSt3AH1NsNxiCz0buRYcON7xUyqIMCWoCNkDb1AaAl7kEALw_wcB&&r=1",
+                    "image": "",
+                    "price": 40.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspberry Pi 7\" Display",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/raspberry-pi-shield-display-lcd-touch-7-800x480-pixel-raspberry-pi-7td-p159859.html?",
+                    "image": "",
+                    "price": 64.5,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspberry Pi Case",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-7-touch-display-rpi4-case-lcd7bk-p268976.html?&trstct=pol_57",
+                    "image": "",
+                    "price": 22.3,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspi 4 Power supply",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html?&trstct=lsbght_sldr::259919",
+                    "image": "",
+                    "price": 9.5,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "SanDisk Ultra microSD card",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/SanDisk-SDSQUAR-064G-GN6MA-microSDXC-Speicherkarte-Adapter/dp/B073JYVKNX/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sd+card+64+gb&qid=1565691023&s=computers&sr=1-2",
+                    "image": "",
+                    "price": 11.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Keyboard",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/funk-tastatur-usb-schwarz-touchpad-logitech-k400-p162726.html?&trstct=pos_0",
+                    "image": "",
+                    "price": 27.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "USB hub",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Sabrent-USB-HUB-einzelnen-Schalter/dp/B00JX1ZS5O/ref=sr_1_15?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=usb+hub+power&qid=1573648723&sr=8-15",
+                    "image": "",
+                    "price": 13.5,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "Raspberry Pi + accesories",
+            "description": "",
+            "githublink": "",
+            "image": "",
+            "price": 187.8,
+            "partslist": [
+                {
+                    "name": "Raspberry Pi 4 B",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-2-gb-ram-wlan-bt-rasp-pi-4-b-2gb-p259919.html?PROVID=2788&gclid=Cj0KCQjwv8nqBRDGARIsAHfR9wDfSTnmSNyUOfEQFSt3AH1NsNxiCz0buRYcON7xUyqIMCWoCNkDb1AaAl7kEALw_wcB&&r=1",
+                    "image": "",
+                    "price": 40.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspberry Pi 7\" Display",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/raspberry-pi-shield-display-lcd-touch-7-800x480-pixel-raspberry-pi-7td-p159859.html?",
+                    "image": "",
+                    "price": 64.5,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspberry Pi Case",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-7-touch-display-rpi4-case-lcd7bk-p268976.html?&trstct=pol_57",
+                    "image": "",
+                    "price": 22.3,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Raspi 4 Power supply",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html?&trstct=lsbght_sldr::259919",
+                    "image": "",
+                    "price": 9.5,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "SanDisk Ultra microSD card",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/SanDisk-SDSQUAR-064G-GN6MA-microSDXC-Speicherkarte-Adapter/dp/B073JYVKNX/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sd+card+64+gb&qid=1565691023&s=computers&sr=1-2",
+                    "image": "",
+                    "price": 11.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Keyboard",
+                    "description": "",
+                    "githublink": "https://www.reichelt.de/funk-tastatur-usb-schwarz-touchpad-logitech-k400-p162726.html?&trstct=pos_0",
+                    "image": "",
+                    "price": 27.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "USB hub",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Sabrent-USB-HUB-einzelnen-Schalter/dp/B00JX1ZS5O/ref=sr_1_15?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=usb+hub+power&qid=1573648723&sr=8-15",
+                    "image": "",
+                    "price": 13.5,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        }
+    ]
+}
