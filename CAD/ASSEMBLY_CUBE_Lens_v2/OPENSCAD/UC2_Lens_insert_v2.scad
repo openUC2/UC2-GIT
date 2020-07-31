@@ -54,7 +54,7 @@ module lens_holder () {
     }
     translate([0,0,(h+h1-0.1)/2]){  //rim for the clamp
         difference(){
-                cylinder(h1+0.1,d1=lens_diameter+2.7, d2=lens_diameter+1.5, center = true);
+                cylinder(h1+0.1,d1=lens_diameter+2.9, d2=lens_diameter+1.9, center = true);
                 cylinder(h1+0.1+eps,d=lens_diameter+0.7, center = true);
         }
     }
