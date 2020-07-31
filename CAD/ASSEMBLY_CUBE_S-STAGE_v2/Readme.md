@@ -1,6 +1,8 @@
 # S-Stage (Sample) Cube (v2)
 This is the repository for the Z-Stage (Sample) Cube.
 
+Check out the newer Sample-Stage that is suitable for microscope slides [HERE](../ASSEMBLY_CUBE_S-STAGE_new_v2)! 
+
 The stl-files can be found in the folder [STL](./STL).
 
 Wiring and coding examples can be found in the folder [ELECTRONICS](./ELECTRONICS).
@@ -10,7 +12,8 @@ In light-sheet microscopy one often needs the ability to move the sample trough 
 
 To keep the setup as simple as possible we decided to mount the sample (e.g. beads in agarose prepared in a syringe) on a stage which linearly moves it back and forth. Therefore, the light-sheet and objective lens once aligned can always stay in the same position.
 
-***The mechanism is as follows***: A stepper motor (28-BYJ) drives a small gearbox which rotates a screw. On the screw, there is a nut which acts as a worm-drive. The conversion of the rotational into linear movement pushes/pulls a small table which is formed by a set of flexure-bearings. The syringe can be placed on a dedicated stand which is mounted using magnets on a ferro-magnetic metal plate itself glued to the moving table.
+**The mechanism is the following**:
+A stepper motor (28-BYJ) drives a small gearbox which rotates a screw. On the screw, there is a nut which acts as a worm-drive. The conversion of the rotational into linear movement pushes/pulls a small table which is formed by a set of flexure-bearings. The syringe can be placed on a dedicated stand which is mounted using magnets on a ferro-magnetic metal plate itself glued to the moving table.
 
 <p align="center">
 <img src="./IMAGES/Assembly_XY_Translator_Lightsheet_v2.png" width="300">
@@ -78,12 +81,12 @@ Don't insert batteries in the laser yet!!
 <img src="./IMAGES/UC2_Tut_Zstagesample10.jpg" width="300">
 </p>
 
-1. Add the motor (28BYJ) to the assembly using M3+nute
+1. Add the motor (28BYJ) to the assembly using M3+nut
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Zstagesample11.jpg" width="300">
 </p>
 
-1. Glue a metallic plate to the moving part of the z-stage. It is mportant to glue the metal plate only to the center of the stage - just on the M3 nut. Otherwise the mechanism does not work!
+1. Glue a metallic plate to the moving part of the z-stage. It is important to glue the metal plate only to the center of the stage - just on the M3 nut. Otherwise the mechanism does not work!
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Zstagesample12.jpg" width="300">
 </p>
