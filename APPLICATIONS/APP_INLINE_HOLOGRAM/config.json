@@ -45,13 +45,40 @@
             "fixedOptions": {},
             "partslist": [
                 {
-                    "name": "ASSEMBLY_CUBE_empty_1x1",
+                    "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "A14;E18",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
                     "image": "",
-                    "price": 2.2,
-                    "is_printable": false,
+                    "price": 0.4,
+                    "is_printable": true,
                     "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                },
+                {
+                    "name": "Screws M3x8 (optional)",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 4.0
                 },
                 {
                     "name": "20_Cube_insert_LED_holder",
@@ -136,13 +163,40 @@
             "fixedOptions": {},
             "partslist": [
                 {
-                    "name": "ASSEMBLY_CUBE_empty_1x1",
+                    "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "A14;E18",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
                     "image": "",
-                    "price": 2.2,
-                    "is_printable": false,
+                    "price": 0.4,
+                    "is_printable": true,
                     "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                },
+                {
+                    "name": "Screws M3x8 (optional)",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 4.0
                 },
                 {
                     "name": "20_Cube_Insert_RaspiCam",
