@@ -1,6 +1,52 @@
-# Design your own Lens Holder  
+### Assembly Tutorial with images (Inventor Lens Holder)
+
+1. All parts for this model
+<p align="center">
+<img src="../IMAGES/Lens_Holder_01.jpg" width="300">
+</p>
+
+1. Put the lens inside the holder. When using plano-convex lenses, put the plano-surface in the holder with the convex surface in the direction where the clamp will be. That way, your lens will be completely sunken in the holder and therefore more protected from scratching.
+<p align="center">
+<img src="../IMAGES/Lens_Holder_02.jpg" width="300">
+</p>
+
+1. Put hot glue on the clamp as shown in the pictures. Do not use too much glue - you don't want to glue the clamp to the surface of the lens!
+<p align="center">
+<img src="../IMAGES/Lens_Holder_03.jpg" width="300">
+<img src="../IMAGES/Lens_Holder_04.jpg" width="300">
+</p>
+
+1. Press the clamp in the holder. The glue will fill the groove between the holder and the clamp's "flowery" rim. Be careful not to put any glue on the surface of the lens!
+<p align="center">
+<img src="../IMAGES/Lens_Holder_05.jpg" width="300">
+<img src="../IMAGES/Lens_Holder_06.jpg" width="300">
+<img src="../IMAGES/Lens_Holder_07.jpg" width="300">
+</p>
+
+1. Insert the insert into the Cube, add screws - Done!
+<p align="center">
+<img src="../IMAGES/Lens_Holder_08.jpg" width="300">
+<img src="../IMAGES/Lens_Holder_09.jpg" width="300">
+<img src="../IMAGES/Lens_Holder_10.jpg" width="300">
+</p>
+
+## <img src="../IMAGES/Y.png" height="40">Safety
+Don't touch the optical surfaces - fingerprints and scratches are bad for lenses!
+
+Be careful not to burn yourself with the hot glue gun!
+
+# Design your own Lens Holder (Inventor)
 ## For any lens or round filter from ⌀9 mm to ⌀42 mm
-Note: [The holder we designed in openSCAD](../OPENSCAD) is a bit different from THIS ONE - and better. The update of the STLs and Inventor files will be done in a near future ;)
+Note: [The holder we designed in openSCAD](../OPENSCAD) is a bit different from THIS ONE - and better. But if you prefer Inventor, the files and Assembly Tutorial are still available here ;)
+
+#### The STL files for the Inventor Lens Holder
+For a convex 1 inch lens:
+* **The 1" Lens Holder** which holds a lens with 1 inch (25,4 mm) diameter and adapts it to the base cube ([HOLDER](./STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl))
+* **The 1" Lens Clamp** which holds a lens with 1 inch (25,4 mm) diameter in the holder ([CLAMP](./STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl))
+
+For a convex 25 mm lens:
+* **The 25 mm Lens Holder** which holds a lens with 25 mm diameter and adapts it to the base cube ([HOLDER](./STL/25mm_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl))
+* **The 25 mm Lens Clamp** which holds a lens with 25 mm diameter in the holder ([CLAMP](./STL/25mm_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl))
 
 ### Shortly, for any lens you have at hand:
 * Download the [Lens Insert Folder](./Lens_Insert), adapt the .ipt files to the dimensions of your lens, export .stl and print your own holders.

@@ -43,7 +43,7 @@ The Cube consists of the following components.
 * biconvex/plan-convex lens, f'=20mm, diameter=12,7mm, thickness=4mm (Artikel 2107) [🢂](https://optikbaukasten.de/)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
-* Remove the iPhone lens from the camera (a dedicated tutorial can be found in the [UC2 Tutorial-Section](../../TUTORIALS/DOCUMETS/V0/TUTORIALS_SETUP).
+* Remove the iPhone lens from the camera (a dedicated tutorial can be found in the [UC2 Tutorial-Section](../../TUTORIALS/DOCUMENTS/v0/TUTORIALS_SETUP/TUT_Assembly_Cellphonelens.pdf) (page 6).
 * Insert the lenses inside the telescope adapter (orientation of the iPhone has to be the way, that the small aperture - hole - has to face the other bigger lens as indicated by the photo)
 ![](./IMAGES/Beamexpander_Assembly_1.png)
 

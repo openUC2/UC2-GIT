@@ -45,6 +45,8 @@ We have a good experience with this printer and settings:
   * Profile Optimal 0,15 mm, infill 20%, no support, 215/60°C
   * [Hint](./IMAGES/prus_printing_SimpleBOX.pdf)
 
+### Note: The design of the mechanical Z-stage has recently been changed. The files here are not yet up-to-date. Please check the [Mechanical Z-stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2) for the latest version. Same applies to the Lens Holder available [here](../../../CAD/ASSEMBLY_CUBE_Lens_v2)
+
 ### <img src="./IMAGES/D.png" height="40">  Housing
 Name of part - Link to STL file             |  Amount
 :-------------------------:|:----------------------------:
