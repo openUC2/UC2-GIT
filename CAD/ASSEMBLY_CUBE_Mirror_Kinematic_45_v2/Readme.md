@@ -48,7 +48,9 @@ The Cube consists of the following components.
 * Done!
 
 ### Tutorial with images
-**The previous version of this module used a metal plate instead of the 3D printed plate. We got rid of the metal plates, since they are not generally available. Other than the, the assembly is still the same - have a look in step 8.**
+**Note:  
+The previous version of this module used a metal plate instead of the 3D printed plate. We got rid of the metal plates, since they are not generally available. Other than the, the assembly is still the same - have a look in step 8.  
+The metal plates limit the play between the magnets and screws, so it might be a more stable solution. However, they are not generally available components (We had them custom cut in a mechanical workshop).**
 
 1. All parts for this model
 <p align="center">
