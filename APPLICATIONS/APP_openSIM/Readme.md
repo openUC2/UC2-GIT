@@ -212,7 +212,10 @@ Once you have created a proper video-file which contains the RAW-frames (e.g. ``
 
 ```mplayer -fs -loop 0 ./Desktop/ABS.avi```
 
-###Video generation
+
+### Video generation
+
+#### Fiji Plugin
 
 For generating the frames we suggest to use the freely available pattern-generation software which is part of the ***fairSIM*** project by Marcel Müller et al. This can generate patterns using the following GUI:
 
@@ -223,6 +226,11 @@ For generating the frames we suggest to use the freely available pattern-generat
 
 The created stack (i.e. TIF) need to be imported and saved as an uncompressed 8-Bit monochromatic AVI-file in order to get displayed using mplayer on the Raspberry Pi.
 
+The plugin is available from Marcel Müller on his [Repo](https://github.com/fairSIM/fastSIM-GratingSearch/releases). Download the file ```SLM_GratingSearch.jar``` and add it to the plugin directory. 
+
+#### Matlab Programm
+
+The Matlab based version of the SLM Pattern generation can be found in our [fastSIM Repository](https://github.com/nanoimaging/fastSIM_GratingSearchforSLM).
 
 
 ## Further reading

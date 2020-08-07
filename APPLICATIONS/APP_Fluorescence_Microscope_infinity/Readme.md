@@ -92,6 +92,17 @@ This setup has only a z-stage
 To make it more stable you can "sandwich" it with a second baseplate | <img src="./IMAGES/Application_Fluorescence_Micrsocope_Infinity_openflexure_sandwich.png" width=500>  
 
 
+
+**Assembled Setups with a Jetson-driven mono camera:**
+
+For more infos about the camera look [here](../../CAD/ASSEMBLY_CUBE_AlliedVision_Alvium) 
+
+<img src="./IMAGES/photo_setup_1.jpg" width=500> 
+
+<img src="./IMAGES/photo_setup_2.jpg" width=500> 
+
+
+## Parts
 in List form:
 
 | Amount | Type                                      | Properties                        | Price  | Source                                                                                                                                                                    |
