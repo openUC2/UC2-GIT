@@ -232,6 +232,9 @@ The plugin is available from Marcel Müller on his [Repo](https://github.com/fai
 
 The Matlab based version of the SLM Pattern generation can be found in our [fastSIM Repository](https://github.com/nanoimaging/fastSIM_GratingSearchforSLM).
 
+#### Java Programm
+
+There is also a Java implementation for CUDA enabled graphic cards available from the University Bielefeld [here](https://github.com/biophotonics-bielefeld/coherent-dmd-sim-simulator).
 
 ## Further reading
 
