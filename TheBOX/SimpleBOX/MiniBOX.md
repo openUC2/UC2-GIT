@@ -9,9 +9,12 @@ That's how it could look like:
 <img src="./IMAGES/BOX_mini_v2.png" width="500">
 </p>
 
+The MiniBOX is intended for production by injection molding. The baseplate will come in puzzle-like pieces and therefore it will be possible to build any shape. It will also be possible to stack the cubes and baseplates in multiple layers. Then, no extra sample plate for the z-stage will be needed, but for now, for the 3D printed version it might be useful. Also, for now, use the baseplates listed in the 3D printing list.
+
 ## <img src="./IMAGES/D_B_P_A.png" height="40"> Build the BOX
 
 ### <img src="./BUILD_ME/IMAGES/B.png" height="40"> Shopping
+Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information! The parts here are the cheapest or easily accessible for universities, but almost everything has an alternative in Amazon!
 
 Link - name of part             |  Amount |  Comment | Price per amount used
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
@@ -21,9 +24,11 @@ Link - name of part             |  Amount |  Comment | Price per amount used
   [Lens 40 mm](https://optikbaukasten.de/)  |  2 pieces |Artikel 2120|12 €
   [Lens -50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)  |  1 piece |LC1259|19 €
   [Mirror](https://www.rayher.com/de/spiegelmosaik-selbstklebend-14548606)  |  2 pieces | 45 pieces package, only 2 pieces needed.|0,50 €
-  [Magnets](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)  |  32 pieces | Ball magnets, diameter 5 mm.|12 €
-  [Screws](https://eshop.wuerth.de) |   ~40 pieces | (Art.-Nr. 00843  12) M3×12, galvanized steel - ~34  pieces; (Art.-Nr. 00843  8) M3×8, galvanized steel - ~3 pieces (35 pieces for putting screws to all sides of all cubes); (Art.-Nr. 00943  30) M3×30, not magnetic - 1 piece; (Art.-Nr. 03223) M3 nut | ~3 €
+  [Magnets](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)  |  48 pieces | Ball magnets, diameter 5 mm.|12 €
+  [Screws](https://eshop.wuerth.de) |   ~40 pieces | (Art.-Nr. 00843  12) M3×12, galvanized steel - ~32  pieces; (Art.-Nr. 00843  8) M3×8, galvanized steel - ~3 pieces (35 pieces for putting screws to all sides of all cubes); (Art.-Nr. 00943  30) M3×30, not magnetic - 1 piece; (Art.-Nr. 03223) M3 nut | ~3 €
   [Chocolate](https://www.milka.de/produkte/milka-standard-tafeln/milka-wei%c3%9fe-schokolade?p=137&provider={D193998A-4A6D-4EA5-BAA8-209357B27A09}&categoryId=1395)|1 bar| Use it as a reward when you're done.
+
+Notes on screws: In order to have the screws on both sides of the cubes, you will need extra 32 pieces M3×8 screws (or M3×12). When using the sample-plate, you will need four extra magnets and four extra M3×12 screws.
 
 ### <img src="./BUILD_ME/IMAGES/P.png" height="40"> 3D Printing:
 
@@ -40,25 +45,26 @@ We have a good experience with this printer and settings:
 ### <img src="./BUILD_ME/IMAGES/D.png" height="40">  Housing
 Name of part - Link to STL file             |  Amount
 :-------------------------:|:----------------------------:
-[(03) Basic Cube 1×1](./BUILD_ME/STL/03_10_Cube_1x1_v2.stl)  |  8 pieces
-[(04) Basic Lid 1×1](./BUILD_ME/STL/04_10_Lid_1x1_v2.stl)  |  8 pieces
-[(05) Baseplate 4×1](./BUILD_ME/STL/05_Assembly_base_4x1.stl)  |  2 pieces
+[(01) Basic Cube 1×1](./STL/01_10_Cube_1x1_v2.stl)  |  8 pieces
+[(02) Basic Lid 1×1](./STL/02_10_Lid_1x1_v2.stl)  |  8 pieces
+[(03) Baseplate 4×1](./STL/03_Assembly_base_4x1.stl)  |  1 pieces
+[(04) Baseplate 4×2](./STL/04_Assembly_base_4x2.stl)  |  1 piece
 
 ### <img src="./BUILD_ME/IMAGES/D.png" height="40"> Inserts
 
 Name of part - Link to STL file            |  Amount |  Comment
 :-------------------------:|:-------------------------:|:-------------------------:
-[(07) Z-Stage Focusing Insert](./BUILD_ME/STL/07_20_focus_inlet_linearflexure_v0_1.stl)  |  1 piece  | Rotate the part in your slicer before printing. Always print it laying on the flat side.
-[(08) Z-Stage Bottom Plate](./BUILD_ME/STL/08_20_focus_inlet_plate_bottom_2.stl) |  1 piece   | The plate holds the gear and screw in position, allowing the only to rotate but not to wobble.
-[(09) Z-Stage Top Plate](./BUILD_ME/STL/09_20_focus_inlet_plate_top_3.stl) |  1 piece   | The plate holds the gear and screw in position, allowing the only to rotate but not to wobble.
-[(10) Z-Stage Gear](./BUILD_ME/STL/10_20_focus_inlet_gear.stl) |  1 piece   | Kindly borrowed from [openflexure](https://openflexure.org).
-[(11) Z-Stage Objective Mount](./BUILD_ME/STL/11_30_focus_inlet_objective_mount_v7_7.stl) |  1 piece   | For mounting the objective lens (RMS thread).
-[(15) Mirror Holder 45° 30×30mm²](./BUILD_ME/STL/15_20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)  |  2 pieces | Size fits for the listed mirrors.
-[(16) Generic Sample Holder](./BUILD_ME/STL/16_20_Cube_insert_Sample_holder.stl)  |  1 piece | It is used to hold the object in the projector setup and in the microscopes.
-[(17) Generic Sample Holder Clamp](./BUILD_ME/STL/17_20_Cube_Insert_Sample_clamp.stl)  |  1 piece | To fix the sample.
-[(18) Lens Holder - Thick lens](./BUILD_ME/STL/18_20_Lens_mount_thick_lens.stl)  |  1 piece | Diameter fits for 25 mm lenses. The thick holder is for the diverging lens.
-[(19) Lens Holder - Thin lens](./BUILD_ME/STL/19_20_Lens_mount_Thin_lens.stl)  |  3 pieces | Diameter fits for 25 mm lenses. The thin holder is for the converging lenses.
-[(20) Lens Holder Clamp](./BUILD_ME/STL/20_20_Lens_mount_clamp.stl)  |  4 pieces | Diameter fits for the listed lenses (25 mm).
+[(05) Z-Stage Focusing Insert and Objective Mount](./STL/05_20_focus_inlet_linearflexure_stage_objectivemount.stl)  |  1 piece  | The insert and the objective mount for RMS thread print together.
+[(06) Z-Stage Gear](./STL/06_20_gear.stl) |  1 piece   | With hexagonal hole for the nut.
+[(08) Mirror Holder 45° 30×30mm²](./STL/08_20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)  |  2 pieces | Size fits for the listed mirrors.
+[(09) Generic Sample Holder](./STL/09_20_Cube_insert_Sample_holder.stl)  |  1 piece | In the SimpleBOX, it is used to hold the object in the projector setup.
+[(10) Generic Sample Holder Clamp](./STL/10_20_Cube_Insert_Sample_clamp.stl)  |  1 piece | To fix the sample.
+[(12) Lens Holder](./STL/12_UC2_Lens_insert_v2_40mm.stl)  |  1 piece | For the 40 mm lens from the shopping list.
+[(13) Lens Holder](./STL/13_UC2_Lens_insert_v2_-50mm.stl)  |  1 piece | For the 100 mm lens from the shopping list.
+[(14) Lens Holder](./STL/14_UC2_Lens_insert_v2_100mm.stl)  |  1 piece | For the -50 mm lens from the shopping list.
+[(opt) Z-Stage Sample Plate](./STL/12_30_Z_Stage_Sampleplate_8.stl) |  1 piece   | It provides the optimal spacing between the objective lens and the sample.
+[(opt) Z-Stage Sample Clamp](./STL/13_30_Sampleclamp_generic_5mmMagnets.stl)  |  1 piece | To hold the microscope slide.
+
 
 ### <img src="./BUILD_ME/IMAGES/A.png" height="40"> Which tools to use
 Tool             |  Image|  Comment
@@ -73,21 +79,13 @@ Part - link             |  Result|  Comment
 [Lens Cubes](../../CAD/ASSEMBLY_CUBE_Lens_v2)|<img src="./BUILD_ME/IMAGES/lens.jpg" width="300">| 4× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building different setups.
 [Mirror Cubes](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|<img src="./BUILD_ME/IMAGES/mirror.jpg" width="300">| 2× Mirror Cube
 [Sample Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|<img src="./BUILD_ME/IMAGES/sample.jpg" width="300">|1× Sample Holder Cube
-[Z-Stage Cube](../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|<img src="./BUILD_ME/IMAGES/z-stage.jpg" width="300">|Attention! Here, the stage is put into a 1×1 cube - assembly is mostly the same but have a look at the following section 
+[Z-Stage Cube](../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|<img src="./BUILD_ME/IMAGES/z-stage.jpg" width="300">|1× mechanical Z-stage in 1×1 cube
 
-#### Z-stage in 1×1 cube
-The assembly is not very different when putting the Z-stage inside a 1×1 cube. In the pictures, you see how it should look like in the end:
-<p align="center">
-<img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v2.png" width="300">
-<img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v2_1.png" width="300">
-<img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v2_2.png" width="300">
-<img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v2_3.png" width="300">
-</p>
 
 ## <img src="./BUILD_ME/IMAGES/E_S.png" height="40"> Done! Great job!
 
 ## <img src="./IMAGES/E.png" height="40"> Setups
-What can you build with the SimpleBOX?
+What can you build with the MiniBOX?
 
 ### Projector
 [LINK](../../APPLICATIONS/APP_SIMPLE-Projector)
