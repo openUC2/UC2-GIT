@@ -22,7 +22,7 @@
 
 ## Steps to reproduce and use the toolbox:
 <p align="center">
-<img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800">
+ <a href="#"><img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800"></a>
 </p>
 
 ## Too many new things? Follow our tutorials [<img src="./IMAGES/BtP.png" width="60"> From a Beginner to a Professional](./TUTORIALS)!
@@ -30,7 +30,7 @@
 ## Already familiar? Click here if you are looking for...
 TheBOX | General toolbox  | Specific setup |Workshops
 :------:|:------:|:------:|:------:
-<img src="./IMAGES/UC2_theBox.jpg" height="150" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="150">|<img src="./IMAGES/UC2_application.jpg" height="150">|<img src="./IMAGES/UC2_workshop.jpg" height="150">
+[<img src="./IMAGES/UC2_theBox.jpg" height="150" hspace="20">](./TheBOX)|[<img src="./IMAGES/UC2_Cube_Store.jpg" height="150">](./CAD)|[<img src="./IMAGES/UC2_application.jpg" height="150">](./APPLICATIONS)|[<img src="./IMAGES/UC2_workshop.jpg" height="150">](./WORKSHOP)
 [Choose a version and build your own BOX.](./TheBOX) | [Explore the toolbox and its applications.](./CAD) | [Alternatives for many Microscopy methods... and more.](./APPLICATIONS) | [Host or join a UC2 workshop.](./WORKSHOP)
 
 ## [Get Involved! Contribute to the project!](CONTRIBUTING.md)
