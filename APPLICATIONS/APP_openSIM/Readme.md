@@ -164,9 +164,12 @@ sudo apt-get install mplayer
 
 To edit the *I2C* settings the following is requiered:
 
+Edit the entry at boot by typing ```nano /etc/rc.local``` and add (make sure the number after ```-y``` matches your I2C device by listing ```ls /dev/``` (e.g. ```/dev/i2c-11```)
+Don't use ```sudo``` for ```i2cset```!!
 ```
-sudo i2cset -y 3 0x1b 0x0b 0x00 0x00 0x00 0x00 i
-export DISPLAY=:0
+i2cset -y 11 0x1b 0x0b 0x00 0x00 0x00 0x00 i
+i2cset -y 11 0x1b 0x0c 0x00 0x00 0x00 0x1b i
+# export DISPLAY=:0 (use this to access the screen from a remote SSH session)
 ```
 
 In order to keep this after a reboot this can be added to the boot-config.txt.
