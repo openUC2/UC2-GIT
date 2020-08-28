@@ -144,7 +144,10 @@ The SIM-setup uses the bare DMD to display images into the sample-plane. This me
 <img src="./IMAGES/UC2_DMD_5.jpg" width="300">
 </p>
 
-
+***6.) Connnect raspberry pi with DMD platine***
+<p align="center">
+<img src="./IMAGES/DMDMontage.jpg" width="300">
+</p>
 
 
 ## Software  
