@@ -149,7 +149,7 @@ The SIM-setup uses the bare DMD to display images into the sample-plane. This me
 
 ## Software  
 
-Using the PCB, setting up the module is again straight forward. After setting up the Raspberry Pi operating system, the *I2C* registers have to be set in order to display a fullscreen image on the DMD at a true resolution of *640x460* pixels.
+Using the PCB, setting up the module is again straight forward. After setting up the Raspberry Pi operating system, the *I2C* registers have to be set in order to display a fullscreen image on the DMD at a true resolution of *640x360* pixels. The raspbian version we applied on the raspberry pi is 10.0. MQTT package is not pre-installed and need to install with ```python3 -m pip install paho-mqtt``
 
 This can be done from remote through SSH (e.g. ```ssh pi@192.168.178.39```) or using a secondary screen.
 Opening a terminal connection one need to enter the following commands:
