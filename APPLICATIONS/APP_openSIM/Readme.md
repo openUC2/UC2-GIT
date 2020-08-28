@@ -32,7 +32,6 @@ bioRxiv 797670; doi: [https://doi.org/10.1101/797670](https://doi.org/10.1101/79
 - Very low cost:  ~300€
 - Easy to align
 - Open-Source
--
 
 ## Optical System
 
@@ -75,8 +74,8 @@ The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave fr
 
 Parts to print:
 
-* 1× [SIM-Module 2×4](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_base_v2_1.stl)
-* 1× [Telescope for Beam Expansion](./STL/Assembly_openSIM_module_v2_30_CUBE_OpenSIM_Beamexpander_v2_9.stl)
+* 1x [SIM-Module 2×4](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_base_v2_1.stl)
+* 1x [Telescope for Beam Expansion](./STL/Assembly_openSIM_module_v2_30_CUBE_OpenSIM_Beamexpander_v2_9.stl)
 * 1x [DMD Adapter](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_DLP2000_Holder_mirrored_3.stl)
 
 ### Additional parts for the whole setup
