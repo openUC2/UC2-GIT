@@ -37,7 +37,7 @@ Link - name of part             |  Amount |  Comment | Price per amount used
 Completely new to 3D printing? Have a look into this [beginner's guide](https://www.makeuseof.com/tag/beginners-guide-3d-printing/)!
 
 Our quick printing tutorial can be found here:
-[![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/UC2_TutorialPrintYoutube.PNG)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
+[![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/CURA_1.png)](https://www.youtube.com/watch?v=SblqYJYXe4k&feature=youtu.be)
 
 We have a good experience with this printer and settings:
 * Prusa i3/MK3S

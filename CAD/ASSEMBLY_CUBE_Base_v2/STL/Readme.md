@@ -38,7 +38,7 @@ For general advice on 3D printing, have a look in the [TUTORIALS](../../../TUTOR
 
 ### Video Tutorial
 A quick printing tutorial can be found here:
-[![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/CURA_1.png)](https://www.youtube.com/watch?v=JswW8BexnC4&feature=youtu.be)
+[![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/CURA_1.png)](https://www.youtube.com/watch?v=SblqYJYXe4k&feature=youtu.be)
 
 ## Confusion about version v0 vs. version v2
 

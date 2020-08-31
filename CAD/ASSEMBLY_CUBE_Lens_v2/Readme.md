@@ -113,7 +113,7 @@ Using the holder for big lenses? It works pretty much the same:
 <img src="./IMAGES/Large_lens_holder_openscad_04.jpg" width="300">
 </p>
 
-1. Insert the insert into the Cube, add screws - Done!
+4. Insert the insert into the Cube, add screws - Done!
 <p align="center">
 <img src="./IMAGES/SCAD_Lens_Holder_05.jpg" width="300">
 <img src="./IMAGES/SCAD_Lens_Holder_06.jpg" width="300">
