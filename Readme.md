@@ -22,7 +22,7 @@
 
 ## Steps to reproduce and use the toolbox:
 <p align="center">
- <a href="#"><img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800"></a>
+ <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/TUTORIALS"><img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800"></a>
 </p>
 
 ## Too many new things? Follow our tutorials [<img src="./IMAGES/BtP.png" width="60"> From a Beginner to a Professional](./TUTORIALS)!
