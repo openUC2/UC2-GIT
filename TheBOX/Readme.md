@@ -5,17 +5,17 @@ TheBOX is a number of optical experiments compiled into a ready-to-use box. We c
 
 ## Choose [SimpleBOX](./SimpleBOX) for schools and demonstration of basic optical principles:
 <p align="center">
-<a href="#"><img src="./IMAGES/SimpleBOX.jpg" width="400"></a>
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/TheBOX/SimpleBOX"><img src="./IMAGES/SimpleBOX.jpg" width="400"></a>
 </p>
 
 ## Choose [CourseBOX](./CourseBOX) for Basic Microscopy and Optical Alignment courses:
 <p align="center">
-<a href="#"><img src="./IMAGES/CourseBOX.jpg" width="400"></a>
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/TheBOX/CourseBOX"><img src="./IMAGES/CourseBOX.jpg" width="400"></a>
 </p>
 
 ## Choose [FullBOX](./FullBOX) for adventurous biologists and microscopy enthusiasts:
 <p align="center">
-<a href="#"><img src="./IMAGES/FullBOX.jpg" height="400"></a>
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/TheBOX/FullBOX"><img src="./IMAGES/FullBOX.jpg" height="400"></a>
 </p>
 
 Useful for [Workshops](../WORKSHOP). Get back to us if you want to organize one together with us!
