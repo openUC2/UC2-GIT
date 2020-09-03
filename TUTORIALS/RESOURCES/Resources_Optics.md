@@ -54,6 +54,8 @@ Artikel: 2004 | planoconvex, f'=100mm, 1 inch, used in BOXes, telescopes | 6€ 
 LC1259 | planoconcave, f'=-50mm, 25 mm, used in SimpleBOX, telescopes | 19€ | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)
 | Positive/Negative  |  Plastic and Glass lenses |  5-10 € | [Astromedia](https://www.pgi-versand.de/?id=47&mode=artlist&kat=69)
 smartphone camera Lens |iPhone 5 | 5€ | [Ebay](https://www.ebay.com/itm/For-iPhone-5-Back-Camera-Replacement-Rear-Facing-Camera-With-Flash-LED/271905852188?hash=item3f4eda0b1c:g:NzYAAOSwa39UuBni)
+| Generic | Bi-convex | 1-9€ | [Ajax Scientific](https://ajaxscientific.com/product/bi-convex-lens/?attribute_pa_diameter=38mm&attribute_pa_focal-length=05cm) |
+| Generic | Bi-concave | 1-3€ | [Ajax Scientific](https://ajaxscientific.com/product/bi-concave-lens/?attribute_pa_diameter=38mm&attribute_pa_focal-length=05cm) | 
 
 
 ### Mirrors and Others

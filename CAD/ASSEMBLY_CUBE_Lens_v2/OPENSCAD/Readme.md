@@ -13,7 +13,7 @@ Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thi
 </p>
 
 ### Using openSCAD
-* Download the [UC2_Lens_insert.scad](UC2_Lens_insert.scad) file and open it in openSCAD
+* Download the [UC2_Lens_insert_v2.scad](UC2_Lens_insert_v2.scad) file and open it in openSCAD
 1. Use the Customizer
   * In the View menu, the option called [Hide customizer] must be unselected to display the customizer
   * Change the _lens diameter_ and _lens edge thickness_ to fit your lens
@@ -30,3 +30,10 @@ Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thi
   * Render it, export an STL file and print it
   * In case you're not happy with the way the clamp fits on the holder (it might vary among different 3D printers), you can also fiddle with any of the values in the code
   * If you have a suggestion for an improvement, please let us know! :-)
+
+## For any lens or round filter from ⌀42 mm to ⌀50 mm
+Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4580156) or use the [UC2_Lens_insert_v2_large_lens.scad](UC2_Lens_insert_v2_large_lens.scad) - the steps to follow are the same, but this holder has a different design, allowing you to put a big lens into the cube.
+<p align=center>
+<img src="../IMAGES/Large_lens_holder_openscad_01.jpg" height=200>
+<img src="../IMAGES/Large_lens_holder_openscad.PNG" height=200>
+</p>

@@ -5,9 +5,9 @@
 # **UC2 - Open and Modular Optical Toolbox**
 
 ---
-**New**: New module: [Rectangular Aperture](./CAD/ASSEMBLY_CUBE_Aperture_Rectangular_v2); Simpler and better modules: [Mechanical Z-stage](./CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2), [Sample-stage for light sheet microscope](./CAD/ASSEMBLY_CUBE_S-STAGE_new_v2), [Magnetic Sample Holder](./CAD/ASSEMBLY_CUBE_Sample_Holder_v2) and [openSCAD Lens Holder](./CAD/ASSEMBLY_CUBE_Lens_v2)
+**New**: The [Lens Holder](./CAD/ASSEMBLY_CUBE_Lens_v2) works now for lenses with the diameter up to 50 mm!
 
-**New**: We have a complete [Bill of materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) with price estimates.
+**New**: New module: [Rectangular Aperture](./CAD/ASSEMBLY_CUBE_Aperture_Rectangular_v2); Simpler and better modules: [Mechanical Z-stage](./CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2), [Sample-stage for light sheet microscope](./CAD/ASSEMBLY_CUBE_S-STAGE_new_v2), [Magnetic Sample Holder](./CAD/ASSEMBLY_CUBE_Sample_Holder_v2) and [openSCAD Lens Holder](./CAD/ASSEMBLY_CUBE_Lens_v2)
 
 **New**: Our new Pre-print fresh from the press is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.03.02.973073v1)
 
@@ -22,7 +22,7 @@
 
 ## Steps to reproduce and use the toolbox:
 <p align="center">
-<img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800">
+ <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/TUTORIALS"><img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800"></a>
 </p>
 
 ## Too many new things? Follow our tutorials [<img src="./IMAGES/BtP.png" width="60"> From a Beginner to a Professional](./TUTORIALS)!
@@ -30,7 +30,7 @@
 ## Already familiar? Click here if you are looking for...
 TheBOX | General toolbox  | Specific setup |Workshops
 :------:|:------:|:------:|:------:
-<img src="./IMAGES/UC2_theBox.jpg" height="150" hspace="20">|<img src="./IMAGES/UC2_Cube_Store.jpg" height="150">|<img src="./IMAGES/UC2_application.jpg" height="150">|<img src="./IMAGES/UC2_workshop.jpg" height="150">
+[<img src="./IMAGES/UC2_theBox.jpg" height="150" hspace="20">](./TheBOX)|[<img src="./IMAGES/UC2_Cube_Store.jpg" height="150">](./CAD)|[<img src="./IMAGES/UC2_application.jpg" height="150">](./APPLICATIONS)|[<img src="./IMAGES/UC2_workshop.jpg" height="150">](./WORKSHOP)
 [Choose a version and build your own BOX.](./TheBOX) | [Explore the toolbox and its applications.](./CAD) | [Alternatives for many Microscopy methods... and more.](./APPLICATIONS) | [Host or join a UC2 workshop.](./WORKSHOP)
 
 ## [Get Involved! Contribute to the project!](CONTRIBUTING.md)

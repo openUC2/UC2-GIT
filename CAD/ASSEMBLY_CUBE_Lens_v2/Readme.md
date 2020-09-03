@@ -48,7 +48,7 @@ For the frequently used lenses (the ones that are used in ou BOXes etc.) you can
 * **-50 mm lens** ([LC1259](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)) - [LENS -50](./STL/UC2_Lens_insert_v2_-50mm.stl)
 
 ## Design your own Lens Holder  
-For any lens or round filter from ⌀9 mm to ⌀42 mm  
+For any lens or round filter from ⌀9 mm to ⌀50 mm  
 * [OPENSCAD](./OPENSCAD)
 * [INVENTOR TUTORIAL with images](./INVENTOR)
 
@@ -106,8 +106,14 @@ For any lens or round filter from ⌀9 mm to ⌀42 mm
 <img src="./IMAGES/SCAD_Lens_Holder_03.jpg" width="300">
 <img src="./IMAGES/SCAD_Lens_Holder_04.jpg" width="300">
 </p>
+Using the holder for big lenses? It works pretty much the same:
+<p align="center">
+<img src="./IMAGES/Large_lens_holder_openscad_02.jpg" width="300">
+<img src="./IMAGES/Large_lens_holder_openscad_03.jpg" width="300">
+<img src="./IMAGES/Large_lens_holder_openscad_04.jpg" width="300">
+</p>
 
-1. Insert the insert into the Cube, add screws - Done!
+4. Insert the insert into the Cube, add screws - Done!
 <p align="center">
 <img src="./IMAGES/SCAD_Lens_Holder_05.jpg" width="300">
 <img src="./IMAGES/SCAD_Lens_Holder_06.jpg" width="300">

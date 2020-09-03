@@ -32,7 +32,6 @@ bioRxiv 797670; doi: [https://doi.org/10.1101/797670](https://doi.org/10.1101/79
 - Very low cost:  ~300€
 - Easy to align
 - Open-Source
--
 
 ## Optical System
 
@@ -75,8 +74,8 @@ The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave fr
 
 Parts to print:
 
-* 1× [SIM-Module 2×4](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_base_v2_1.stl)
-* 1× [Telescope for Beam Expansion](./STL/Assembly_openSIM_module_v2_30_CUBE_OpenSIM_Beamexpander_v2_9.stl)
+* 1x [SIM-Module 2×4](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_base_v2_1.stl)
+* 1x [Telescope for Beam Expansion](./STL/Assembly_openSIM_module_v2_30_CUBE_OpenSIM_Beamexpander_v2_9.stl)
 * 1x [DMD Adapter](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_DLP2000_Holder_mirrored_3.stl)
 
 ### Additional parts for the whole setup
@@ -145,12 +144,15 @@ The SIM-setup uses the bare DMD to display images into the sample-plane. This me
 <img src="./IMAGES/UC2_DMD_5.jpg" width="300">
 </p>
 
-
+***6.) Connnect raspberry pi with DMD platine***
+<p align="center">
+<img src="./IMAGES/DMDMontage.jpg" width="300">
+</p>
 
 
 ## Software  
 
-Using the PCB, setting up the module is again straight forward. After setting up the Raspberry Pi operating system, the *I2C* registers have to be set in order to display a fullscreen image on the DMD at a true resolution of *640x460* pixels.
+Using the PCB, setting up the module is again straight forward. After setting up the Raspberry Pi operating system, the *I2C* registers have to be set in order to display a fullscreen image on the DMD at a true resolution of *640x360* pixels. The raspbian version we applied on the raspberry pi is 10.0. MQTT package is not pre-installed and need to install with ```python3 -m pip install paho-mqtt```
 
 This can be done from remote through SSH (e.g. ```ssh pi@192.168.178.39```) or using a secondary screen.
 Opening a terminal connection one need to enter the following commands:
@@ -164,9 +166,12 @@ sudo apt-get install mplayer
 
 To edit the *I2C* settings the following is requiered:
 
+Edit the entry at boot by typing ```nano /etc/rc.local``` and add (make sure the number after ```-y``` matches your I2C device by listing ```ls /dev/``` (e.g. ```/dev/i2c-11```)
+Don't use ```sudo``` for ```i2cset```!!
 ```
-sudo i2cset -y 3 0x1b 0x0b 0x00 0x00 0x00 0x00 i
-export DISPLAY=:0
+i2cset -y 11 0x1b 0x0b 0x00 0x00 0x00 0x00 i
+i2cset -y 11 0x1b 0x0c 0x00 0x00 0x00 0x1b i
+# export DISPLAY=:0 (use this to access the screen from a remote SSH session)
 ```
 
 In order to keep this after a reboot this can be added to the boot-config.txt.
