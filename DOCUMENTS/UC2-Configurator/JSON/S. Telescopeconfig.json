@@ -1,0 +1,249 @@
+{
+    "name": "S. Telescope",
+    "description": "The SIMPLE Telescope demostartes the principles of the most common refractvive telescopes. ",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_SIMPLE-Telescope",
+    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SIMPLE-Telescope/IMAGES/Assembly_simple_Telescope.png?raw=true",
+    "price": 0,
+    "modulelist": [
+        {
+            "name": "ASSEMBLY_Baseplate 4\u00d71",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
+            "image": "",
+            "price": 8.219999999999999,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "Baseplate 4\u00d71",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl",
+                    "image": "",
+                    "price": 0.7,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 16.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate 4\u00d71",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
+            "image": "",
+            "price": 8.219999999999999,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "Baseplate 4\u00d71",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl",
+                    "image": "",
+                    "price": 0.7,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 16.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Lens (+40)",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
+            "image": "",
+            "price": 8.5,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder_clamp",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Lens: f'=40mm, 1 inch (Art. 2120)",
+                    "description": "",
+                    "githublink": "https://optikbaukasten.de/",
+                    "image": "",
+                    "price": 6.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Lens (+40)",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
+            "image": "",
+            "price": 8.5,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder_clamp",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Lens: f'=40mm, 1 inch (Art. 2120)",
+                    "description": "",
+                    "githublink": "https://optikbaukasten.de/",
+                    "image": "",
+                    "price": 6.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Lens (+100)",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
+            "image": "",
+            "price": 8.5,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder_clamp",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Lens: f'=100mm, 1 inch (Art. 2004)",
+                    "description": "",
+                    "githublink": "https://optikbaukasten.de/",
+                    "image": "",
+                    "price": 6.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Lens (-50)",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
+            "image": "",
+            "price": 21.5,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "ASSEMBLY_CUBE_empty_1\u00d71",
+                    "description": "",
+                    "githublink": "A14;E18",
+                    "image": "",
+                    "price": 2.2,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Lens_holder_clamp",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Lens: f'=-50mm, 25 mm (LC1259)",
+                    "description": "",
+                    "githublink": "https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259",
+                    "image": "",
+                    "price": 19.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                }
+            ]
+        }
+    ]
+}

@@ -92,6 +92,17 @@ This setup has only a z-stage
 To make it more stable you can "sandwich" it with a second baseplate | <img src="./IMAGES/Application_Fluorescence_Micrsocope_Infinity_openflexure_sandwich.png" width=500>  
 
 
+
+**Assembled Setups with a Jetson-driven mono camera:**
+
+For more infos about the camera look [here](../../CAD/ASSEMBLY_CUBE_AlliedVision_Alvium) 
+
+<img src="./IMAGES/photo_setup_1.jpg" width=500> 
+
+<img src="./IMAGES/photo_setup_2.jpg" width=500> 
+
+
+## Parts
 in List form:
 
 | Amount | Type                                      | Properties                        | Price  | Source                                                                                                                                                                    |
@@ -134,6 +145,24 @@ This is a set of ATTO 647 labelled *e.colis* provided by O. Helle from UiO image
 <p align="center">
 <img src="./IMAGES/1.25NA_100x_ecoli_p20pro.jpg" width="500">
 </p>
+
+This is acquired with the Allied Vision Alvium 1500-158 and the new UC2 Nvidia Jetson Nano GUI. HeLa labelled with Alexa Fluor 647 Phal.
+
+***Brightfield***
+<p align="center">
+<img src="./IMAGES/20200810-MEAS-Bright--1.jpg-1.jpg" width="500">
+</p>
+
+***Fluorescence***
+<p align="center">
+<img src="./IMAGES/20200810-MEAS-Fluor--INT_20-1.jpg" width="500">
+</p>
+
+***Overlay***
+<p align="center">
+<img src="./IMAGES/HeLa_AF647_BF_Overlay.png" width="500">
+</p>
+
 
 ## <img src="./IMAGES/S.png" width="40"> Participate!
 

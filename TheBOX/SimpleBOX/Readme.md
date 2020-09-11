@@ -32,7 +32,7 @@ Three classical telescope principles. 2× magnification for *f(L1)* = +100 mm, *
 </p>
 
 ### Smartphone Microscope
-[LINK](../../APPLICATIONS/APP_SMARTPHONE_MICROSCOPE)
+[LINK](../../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope)
 Trasmission microscope, uses smartphone for image acquisition. LED array serves as light source - different illumination modes possible.
 <p align="center">
 <img src="./IMAGES/UC2_Setups_9_smartphone_simple.png" height="300">

@@ -1,0 +1,40 @@
+{
+    "name": "APP_SIMPLE-Projector",
+    "description": "This SIMPLE experiment shown the image formation done by a single lens. ",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_SIMPLE-Projector",
+    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SIMPLE-Projector/IMAGES/UC2_Setups_12_Projector.png?raw=true",
+    "price": 0,
+    "type": [
+        "application"
+    ],
+    "modules": [
+        {
+            "name": "ASSEMBLY_Baseplate 4x11",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
+            "image": "",
+            "price": 8.219999999999999,
+            "fixedOptions": {},
+            "partslist": [
+                {
+                    "name": "Baseplate 4x1",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl",
+                    "image": "",
+                    "price": 0.7,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 16.0
+                }
+            ]
+        }
+    ]
+}

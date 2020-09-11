@@ -12,9 +12,9 @@
 int n_substeps = 1;
   int myspeed = 1000;
   int mynsteps = 800;
-int motorPin_X[] = {12,13,2,15};
-int motorPin_Y[] = {14,27,26,25};
-int motorPin_Z[] = {0,4,16,17};
+int motorPin_X[] = {2,3,4,5};
+int motorPin_Y[] = {6,7,8,9};
+int motorPin_Z[] = {10,11,12,13};
 
 void setup() {
   Serial.begin(115200);

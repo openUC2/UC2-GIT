@@ -12,11 +12,13 @@ This is the repository for the simple mechanical-only version of the [Smartphone
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×2 Baseplate | - | 5€  | [Base-plate](../../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: mechanical Z-Stage | -  | ?? €  | [Z-Stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)  | 1|
-|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)  | 2|
-|  Module: Eyepiece with Smartphone Holder  | - | ?? €  | [Eyepiece + Smartphone](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)  | 1|
-|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4€  | [Cube](../../../CAD/ASSEMBLY_CUBE_Base_v2)  | 3|
+|  4×2 Baseplate | - | 16€  | [Base-plate](../../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
+|  Module: mechanical Z-Stage | -  | 20 €  | [Z-Stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)  | 1|
+|  Module: Mirror 45°  | - | 3€  | [Mirror 45](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)  | 2|
+|  Module: Eyepiece with Smartphone Holder  | - | 16 €  | [Eyepiece + Smartphone](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)  | 1|
+|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 3€  | [Cube](../../../CAD/ASSEMBLY_CUBE_Base_v2)  | 2|
+
+**Estimated price of the setup: 65€**
 
 
 ### <img src="../IMAGES/P.png" width="40">Parts to print
@@ -24,32 +26,30 @@ This is the repository for the simple mechanical-only version of the [Smartphone
 * 1× [Base-plate 4×2](../STL/Assembly_base_4x2.stl)
 * 6× [Cube base 1×1](../STL/10_Cube_1x1_v2.stl)
 * 6x [Cube lid 1×1](../STL/10_Lid_1x1_v2.stl)
-* 1× [Cube base 2×1](../STL/10_Cube_2x1_v2.stl)
-* 1× [Cube lid 2×1](../STL/10_Lid_el_2x1_v2.stl)
 * 1× [Cube Insert for Eyepiece](../STL/20_Cube_Insert_Holder-okular_v2.stl)
 * 1× [Smartphone Holder](../STL/30_Smartphone_Holder.stl)
 * 2× [Cube Insert for Mirror - 45°](../STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
-* 1× [Cube Insert for Z-stage](../STL/20_focus_inlet_linearflexure_v0.stl)
+* 1× [Cube Insert for Z-stage](../STL/Assembly_Cube_Z-Focus_Linearbearing_1x1_v4_20_focus_inlet_linearflexure_v4_7.stl)
 * 1× [Z-stage Insert for Objective](../STL/30_focus_inlet_objective_mount_v7.stl)
-* 1× [Z-stage bottom plate](../STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_bottom_2)
-* 1× [Z-stage top plate](../STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_top_3)
-* 1× [Z-stage gear](../STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_00_large_gear_4)
-* 1× [Z-stage Sample plate](../STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_Z_Stage_Sampleplate_8)
-* 1× [Coupling Screw M3](../STL/30_Coupling_Screw_28BYJ_M3.stl)
-* Optional: 1× [Generic Clamp for Slides](../STL/30_Sampleclamp_generic.stl)- current design is for 5 mm magnets (same as Baseplate)
+* 1× [Z-stage gear](../STL/Assembly_Cube_Z-Focus_Linearbearing_1x1_v4_20_gear_8.stl)
+* 1× [Z-stage Sample plate](../STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_Z_Stage_Sampleplate_8.stl)
+* Optional: 1× [Generic Clamp for Slides](../STL/30_Sampleclamp_generic.stl)
+
+**Note**: The design is currently being adapted for the use of cubes produced by injection molding. In the future, the baseplates will come as puzzle pieces and the plan is to use the Sample Holder Cube above the Z-stage. For now, you can add the Sampleplate and a clamp to the stage.
 
 In the end it should look like this:
 
 <p align="center">
-<img src="../IMAGES/" width="300">
+<img src="../IMAGES/Simple_smartphone_mechancal_01.jpg" width="300">
+<img src="../IMAGES/Simple_smartphone_mechancal_02.jpg" width="300">
 </p>
 
 ## <img src="../IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 * 1× Smartphone
-*  32× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
-* 40× - 72× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-* 3× DIN912 M3×8 screws (galvanized steel)
+*  32× - 36× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+* 32× - 56× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 7× DIN912 M3×8 screws (galvanized steel)
 * 1× M3×30 mm and M3 nut - non-magnetic
 * 1× Objective Lens (e.g. 10×, NA 0.3) [🢂](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)
 * 1× Eyepiece (e.g. 20×) [🢂](https://de.aliexpress.com/item/32965050204.html?spm=a2g0o.productlist.0.0.7aa657eeefLUfu&algo_pvid=cd60fca0-3fa5-4191-9ce9-303815e2afa7&algo_expid=cd60fca0-3fa5-4191-9ce9-303815e2afa7-1&btsid=76036b58-6717-4d1f-a4a0-c3d4bacd0450&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_52)
