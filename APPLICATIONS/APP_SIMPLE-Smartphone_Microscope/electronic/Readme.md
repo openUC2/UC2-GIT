@@ -104,6 +104,14 @@ Prerequisities:
 * ESP32 libraries - [Installation guide here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 * [FastLED.h](https://www.arduinolibraries.info/libraries/fast-led) library
 
+## <img src="../IMAGES/E.png" width="40"> Results
+<p align="center">
+<img src="../IMAGES/UC2_simple_smartphone_microscope_class.jpeg" height="250">
+<img src="../IMAGES/UC2_simple_smartphone_microscope_results.jpeg" height="250">
+<br>
+Right: Smartphone microscope during the classroom experiments; left: Red onion cells, the nucleus visible in the center 
+</p>
+
 **Where next?**  
 Find out more about the smartphone microscope in the [SimpleBOX manuals](../../../TheBOX/SimpleBOX/DOCUMENTS)  
 Find out more about the electronics in the [Electronics section](../../../ELECTRONICS)  
