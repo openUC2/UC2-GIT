@@ -1,5 +1,5 @@
 <p align="left">
-<img src="./IMAGES/UC2_logo_text.png" width="400">
+<a href="#logo" name="logo"><img src="./IMAGES/UC2_logo_text.png" width="400"></a>
 </p>
 
 # **UC2 - Open and Modular Optical Toolbox**
