@@ -12,7 +12,7 @@ This is a guide for building the [CourseBOX](../CourseBOX). If you were looking 
 1. [Tools](#-which-tools-to-use)
 1. [Assembly](#-assembly)
 
-## <img src="./IMAGES/B.png" height="40"> Shopping
+## <a href="#icon01" name="icon01"><img src="./IMAGES/B.png" height="40"></a> Shopping
 ### What to buy
 
 Link - name of part             |  Amount |  Comment | Price per amount used
@@ -31,7 +31,7 @@ Link - name of part             |  Amount |  Comment | Price per amount used
 
 * Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 
-## <img src="./IMAGES/P.png" height="40"> 3D Printing:
+## <a href="#icon02" name="icon02"><img src="./IMAGES/P.png" height="40"></a> 3D Printing:
 
 Completely new to 3D printing? Have a look into this [beginner's guide](https://www.makeuseof.com/tag/beginners-guide-3d-printing/)!
 
@@ -46,7 +46,7 @@ We have a good experience with this printer and settings:
 
 ### Note: The design of the mechanical Z-stage has recently been changed. The files here are not yet up-to-date. Please check the [Mechanical Z-stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2) for the latest version. Same applies to the Lens Holder available [here](../../../CAD/ASSEMBLY_CUBE_Lens_v2)
 
-### <img src="./IMAGES/D.png" height="40">  Housing
+### <a href="#icon03" name="icon03"><img src="./IMAGES/D.png" height="40"></a>  Housing
 Name of part - Link to STL file             |  Amount
 :-------------------------:|:----------------------------:
 [(01) Basic Cube 2×1](./STL/01_10_Cube_2x1_v2.stl)  |  1 piece
@@ -58,7 +58,7 @@ Name of part - Link to STL file             |  Amount
 [(07) Baseplate 1×1](./STL/07_10_Base_v2.stl)  |  1 piece
 [(08) Baseplate Connector 1×1](./STL/08_Baseplate_Connector_v2.stl)  |  1 piece
 
-### <img src="./IMAGES/D.png" height="40"> Inserts
+### <a href="#icon04" name="icon04"><img src="./IMAGES/D.png" height="40"></a> Inserts
 
 Name of part - Link to STL file            |  Amount |  Comment
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -84,27 +84,27 @@ Name of part - Link to STL file            |  Amount |  Comment
 [(27) Beam Expander Lens Adapter](./STL/27_30_Lens_Adapter_Beamexpander.stl)  |  1 piece |
 [(28) Beamsplitter Insert](./STL/28_20_Cube_Insert_Beamsplitter.stl)  |  1 piece |
 
-## <img src="./IMAGES/A.png" height="40"> Which tools to use
+## <a href="#icon05" name="icon05"><img src="./IMAGES/A.png" height="40"></a> Which tools to use
 Tool             |  Image|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
-[Electric screw driver with 2,5 mm hex bit](https://www.amazon.de/Bosch-Akkuschrauber-Generation-Bits-Ladeger%C3%A4t/dp/B00TTZU566/ref=asc_df_B00TTZU566/?tag=googshopde-21&linkCode=df0&hvadid=255989693737&hvpos=1o1&hvnetw=g&hvrand=6125749874385941808&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9042960&hvtargid=pla-421346020200&psc=1&th=1&psc=1) |<img src="./IMAGES/screwdriver.jpg" width="300"> | For putting the cubes together using M3×12 and M3×8 screws.
-[2,5 mm hex key](https://www.amazon.de/Presch-Innensechskant-Satz-Kugelkopf-Innensechskantschl%C3%BCssel/dp/B079V335CR/ref=sr_1_2_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2K89GU3MY8P26&keywords=hex+key+set&qid=1575997133&s=diy&sprefix=hex+%2Cdiy%2C160&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRENMU0hKWkJRR0FEJmVuY3J5cHRlZElkPUEwMDIzMjIyMzFBWVIyOEpORU1FSCZlbmNyeXB0ZWRBZElkPUEwMzk0NjQwMlA0NFZDTVk0Tk9LUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) | <img src="./IMAGES/hex-keys.jpg" width="300">| For fine adjustment of all the M3 screws if needed.
+[Electric screw driver with 2,5 mm hex bit](https://www.amazon.de/Bosch-Akkuschrauber-Generation-Bits-Ladeger%C3%A4t/dp/B00TTZU566/ref=asc_df_B00TTZU566/?tag=googshopde-21&linkCode=df0&hvadid=255989693737&hvpos=1o1&hvnetw=g&hvrand=6125749874385941808&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9042960&hvtargid=pla-421346020200&psc=1&th=1&psc=1) |[<img src="./IMAGES/screwdriver.jpg" width="300">](https://www.amazon.de/Bosch-Akkuschrauber-Generation-Bits-Ladeger%C3%A4t/dp/B00TTZU566/ref=asc_df_B00TTZU566/?tag=googshopde-21&linkCode=df0&hvadid=255989693737&hvpos=1o1&hvnetw=g&hvrand=6125749874385941808&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9042960&hvtargid=pla-421346020200&psc=1&th=1&psc=1) | For putting the cubes together using M3×12 and M3×8 screws.
+[2,5 mm hex key](https://www.amazon.de/Presch-Innensechskant-Satz-Kugelkopf-Innensechskantschl%C3%BCssel/dp/B079V335CR/ref=sr_1_2_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2K89GU3MY8P26&keywords=hex+key+set&qid=1575997133&s=diy&sprefix=hex+%2Cdiy%2C160&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRENMU0hKWkJRR0FEJmVuY3J5cHRlZElkPUEwMDIzMjIyMzFBWVIyOEpORU1FSCZlbmNyeXB0ZWRBZElkPUEwMzk0NjQwMlA0NFZDTVk0Tk9LUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) | [<img src="./IMAGES/hex-keys.jpg" width="300">](https://www.amazon.de/Presch-Innensechskant-Satz-Kugelkopf-Innensechskantschl%C3%BCssel/dp/B079V335CR/ref=sr_1_2_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2K89GU3MY8P26&keywords=hex+key+set&qid=1575997133&s=diy&sprefix=hex+%2Cdiy%2C160&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRENMU0hKWkJRR0FEJmVuY3J5cHRlZElkPUEwMDIzMjIyMzFBWVIyOEpORU1FSCZlbmNyeXB0ZWRBZElkPUEwMzk0NjQwMlA0NFZDTVk0Tk9LUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)| For fine adjustment of all the M3 screws if needed.
 [1,5 mm hex key](https://www.amazon.de/Presch-Innensechskant-Satz-Kugelkopf-Innensechskantschl%C3%BCssel/dp/B079V335CR/ref=sr_1_2_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2K89GU3MY8P26&keywords=hex+key+set&qid=1575997133&s=diy&sprefix=hex+%2Cdiy%2C160&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRENMU0hKWkJRR0FEJmVuY3J5cHRlZElkPUEwMDIzMjIyMzFBWVIyOEpORU1FSCZlbmNyeXB0ZWRBZElkPUEwMzk0NjQwMlA0NFZDTVk0Tk9LUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) |↑↑ | For mounting worm screws.
-[Needle-nose Pliers](https://www.amazon.de/Br%C3%BCder-Mannesmann-Telefonzange-gerade-M10948/dp/B003A63EIG/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=needle+nose+pliers&qid=1575997091&s=diy&sr=1-3) |<img src="./IMAGES/pliers.jpg" width="300"> | Might come handy
+[Needle-nose Pliers](https://www.amazon.de/Br%C3%BCder-Mannesmann-Telefonzange-gerade-M10948/dp/B003A63EIG/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=needle+nose+pliers&qid=1575997091&s=diy&sr=1-3) |[<img src="./IMAGES/pliers.jpg" width="300">](https://www.amazon.de/Br%C3%BCder-Mannesmann-Telefonzange-gerade-M10948/dp/B003A63EIG/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=needle+nose+pliers&qid=1575997091&s=diy&sr=1-3) | Might come handy
 
-## <img src="./IMAGES/A.png" height="40">  Assembly
+## <a href="#icon06" name="icon06"><img src="./IMAGES/A.png" height="40"></a>  Assembly
 Part - link             |  Result|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
-[Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)|<img src="./IMAGES/baseplates.jpg" width="300">|1× "big" baseplate (4×2), 4× "small" baseplate (4×1), 1× "unit" baseplate (1×1), 1× "unit" baseplate connector (1×1)
-[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|<img src="./IMAGES/z-stage.jpg" width="300">|1× mechanical Z-Stage, Sample Clamp not necessary
-[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|<img src="./IMAGES/lens.jpg" width="300">| 6× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building the setups.
-[Cylindrical Lens Cube](../../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2)|<img src="./IMAGES/CUBE_LENS_CYLINDRICAL_1.jpg" width="300">| 1× Cylindrical Lens Cube
-[Sample Cubes](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|<img src="./IMAGES/sample.jpg" width="300">|5× Sample Holder Cube
-[Mirror Cube](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|<img src="./IMAGES/mirror.jpg" width="300">| 1× Mirror Cube
-[Flashlight Cube](../../../CAD/ASSEMBLY_Lens_v2)|<img src="./IMAGES/flashlight.jpg" width="300">| 1× Flashlight Cube
-[Circular Aperture Cube](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular_v2)|<img src="./IMAGES/CirAp11.jpg" width="300">|2× Circular Aperture Cube
-[Laser Cube](../../../CAD/ASSEMBLY_CUBE_Laser_v2)|<img src="./IMAGES/laser.jpg" width="300">|1× Laser Holder Cube and Laser Clamp
-[Beam Expander Cube](../../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)|<img src="./IMAGES/beamexpander.jpg" width="300">|1× Beam Expander Cube
-[Beamsplitter Cube](../../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)|<img src="./IMAGES/beamsplitter.jpg" width="300">|1× Beam Expander Cube
+[Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)|[<img src="./IMAGES/baseplates.jpg" width="300">](../../../CAD/ASSEMBLY_Baseplate_v2)|1× "big" baseplate (4×2), 4× "small" baseplate (4×1), 1× "unit" baseplate (1×1), 1× "unit" baseplate connector (1×1)
+[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|[<img src="./IMAGES/z-stage.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|1× mechanical Z-Stage, Sample Clamp not necessary
+[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_v2)| 6× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building the setups.
+[Cylindrical Lens Cube](../../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2)|[<img src="./IMAGES/CUBE_LENS_CYLINDRICAL_1.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2)| 1× Cylindrical Lens Cube
+[Sample Cubes](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|5× Sample Holder Cube
+[Mirror Cube](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|[<img src="./IMAGES/mirror.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)| 1× Mirror Cube
+[Flashlight Cube](../../../CAD/ASSEMBLY_Lens_v2)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_Lens_v2)| 1× Flashlight Cube
+[Circular Aperture Cube](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular_v2)|[<img src="./IMAGES/CirAp11.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular_v2)|2× Circular Aperture Cube
+[Laser Cube](../../../CAD/ASSEMBLY_CUBE_Laser_v2)|[<img src="./IMAGES/laser.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Laser_v2)|1× Laser Holder Cube and Laser Clamp
+[Beam Expander Cube](../../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)|[<img src="./IMAGES/beamexpander.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)|1× Beam Expander Cube
+[Beamsplitter Cube](../../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)|[<img src="./IMAGES/beamsplitter.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)|1× Beam Expander Cube
 
-## <img src="./IMAGES/E_S.png" height="40"> Done! Great job!
+## <a href="#icon07" name="icon07"><img src="./IMAGES/E_S.png" height="40"></a> Done! Great job!

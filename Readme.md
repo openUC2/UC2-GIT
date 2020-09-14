@@ -18,7 +18,7 @@
 
 ---
 
-# <img src="./IMAGES/signpost.png" width=30> Start here! Everything is open-source - simply join!
+# <a href="#icon01" name="icon01"><img src="./IMAGES/signpost.png" width=30></a> Start here! Everything is open-source - simply join!
 
 ## Steps to reproduce and use the toolbox:
 <p align="center">

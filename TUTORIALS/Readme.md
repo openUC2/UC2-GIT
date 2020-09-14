@@ -1,4 +1,4 @@
-# <img src="./IMAGES/BtP.png" width="120"> From a Beginner to a Professional
+# <a href="#icon01" name="icon01"><img src="./IMAGES/BtP.png" width="120"></a> From a Beginner to a Professional
 
 ... in clear and simple steps! Here you find guidelines that will lead you through the UC2 toolbox.
 
@@ -8,7 +8,7 @@ Feel free to skip to the steps that you're most interested in - and feel free to
 
 All external links are used with the best intention - to provide more information and background on topics that are not in our main focus.
 
-## <img src="./IMAGES/FS.png" width="40"> First steps
+## <a href="#icon02" name="icon02"><img src="./IMAGES/FS.png" width="40"></a> First steps
 
 #### GitHub
 [What is GitHub? How to join?](https://guides.github.com/activities/hello-world/)  
@@ -43,7 +43,7 @@ Even if you don't aim for research application of the setups -handle the optical
 [How to prepare the hardware of the Raspberry Pi?](https://www.instructables.com/id/Raspberry-Pi-Touchscreen-Setup/)  
 [How to start with Raspberry Pi?](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)  
 
-## <img src="./IMAGES/TUT.png" width="40"> Tutorials
+## <a href="#icon03" name="icon03"><img src="./IMAGES/TUT.png" width="40"></a> Tutorials
 Tutorials take you by hand through your beginnings with UC2. It's useful to get familiar with the cubes before starting building a more complex system.  
 Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie_camera: YouTube Video
 
@@ -56,7 +56,7 @@ Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie
 * TUT07: Get your first electronic part - simple LED matrix [:feet:](../CAD/ASSEMBLY_CUBE_LED_Matrix_v2/TUT07)
 * TUT08: Build your first microscope with electronics [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/electronic)
 
-## <img src="./IMAGES/HT.png" width="120"> How-to guides
+## <a href="#icon04" name="icon04"><img src="./IMAGES/HT.png" width="120"></a> How-to guides
 How-to guides show you how to assemble cubes for various functions and how to build many different optical setups, once you are familiar with the basic idea. It also takes you from the mechanical-only to motorized systems.
 
 * [HOW-TO find all the cubes and components](../CAD)
@@ -69,13 +69,13 @@ How-to guides show you how to assemble cubes for various functions and how to bu
 * HOW-TO use UC2 toolbox for education?
 * HOW-TO use UC2 toolbox for research?
 
-## <img src="./IMAGES/CG.png" width="40"> Contributor guidelines
+## <a href="#icon05" name="icon05"><img src="./IMAGES/CG.png" width="40"></a> Contributor guidelines
 
 We appreciate that you want to get involved! Your help is valuable for us, even if you are not a skilled researcher, maker or programmer. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 Find the detailed guidelines in [CONTRIBUTING](../CONTRIBUTING.md)
 
-## <img src="./IMAGES/RG.png" width="40"> Reference guides
+## <a href="#icon06" name="icon06"><img src="./IMAGES/RG.png" width="40"></a> Reference guides
 Reference guides give you more information on specific topics and provide technical details.  
 Find out more about...
 

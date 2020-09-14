@@ -29,7 +29,7 @@ The Field set of conjugate planes: Field diaphragm, Sample plane, Primary Image 
 </p>
 We propose to use a diffraction grating as a sample and spatial filter in the BFP.
 
-## <img src="./IMAGES/E.png" height="40"> This tutorial will lead you step-by-step through the alignment of the Finite-corrected Microscope, Köhler Illumination and Abbe Diffraction Experiment.
+## <a href="#icon01" name="icon01"><img src="./IMAGES/E.png" height="40"></a> This tutorial will lead you step-by-step through the alignment of the Finite-corrected Microscope, Köhler Illumination and Abbe Diffraction Experiment.
 
 1. Start with 1×13 baseplate and all the cubes:
 
@@ -238,5 +238,5 @@ We propose to use a diffraction grating as a sample and spatial filter in the BF
 <img src="./IMAGES/UC2_coreBOX_alignment_48.jpg" width="500">
 </p>
 
-## <img src="./IMAGES/S.png" height="40"> Participate
+## <a href="#icon02" name="icon02"><img src="./IMAGES/S.png" height="40"></a> Participate
 If you have a cool idea, please don't hesitate to write us a line, we are happy to incorporate it in our design to make it even better.
