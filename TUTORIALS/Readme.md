@@ -40,7 +40,7 @@ Even if you don't aim for research application of the setups -handle the optical
 
 #### Software
 [Where do I find all the UC2-Software documentation in one place?](https://github.com/bionanoimaging/UC2-Software-GIT)  
-[How to prepare the hardware of the Raspberry Pi?](https://www.instructables.com/id/Raspberry-Pi-Touchscreen-Setup/)  
+[How to prepare the hardware of the Raspberry Pi?](https://www.techcoil.com/blog/how-to-setup-the-raspberry-pi-official-7-inch-touch-screen-with-your-raspberry-pi-4-model-b/)  
 [How to start with Raspberry Pi?](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)  
 
 ## <a href="#icon03" name="icon03"><img src="./IMAGES/TUT.png" width="40"></a> Tutorials

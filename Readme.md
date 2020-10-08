@@ -16,6 +16,9 @@
 
 [<img src="./IMAGES/UC2_Logo.png" height=40>](https://www.useetoo.org) [<img src="./IMAGES/icon_git.png" width=40>](https://github.com/bionanoimaging/UC2-GIT) [<img src="./IMAGES/icon_UC2Software.png" height=40>](https://github.com/bionanoimaging/UC2-Software-GIT) [<img src="./IMAGES/icon_tw.png" width=40>](https://twitter.com/openuc2)  [<img src="./IMAGES/icon_yt.png" width=40>](https://www.youtube.com/channel/UCcHFzXTdC1Ro0OMnHS_54UA) [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+
+Cite this repository: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4041339.svg)](https://doi.org/10.5281/zenodo.4041339)
+
 ---
 
 # <a href="#icon01" name="icon01"><img src="./IMAGES/signpost.png" width=30></a> Start here! Everything is open-source - simply join!
@@ -81,7 +84,8 @@ A more in-detail description of the **MDK** (**M**odular **D**eveloper **K**it) 
 If you have a new part, we are eager to see it. Please feel free to share it on available websites like Twitter, Thingiverse, Github or any other platform of choice!
 
 ### Read more about the project in our papers:
-Our new Pre-print  is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.03.02.973073v1)  [![DOI:10.1101/2020.03.02.973073](http://img.shields.io/badge/DOI-10.1101/2020.03.02.973073-B31B1B.svg)](https://doi.org/10.1101/2020.03.02.973073)  
+All data from the paper is available in [Zenodo](https://doi.org/10.5281/zenodo.4018965) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4018965.svg)](https://doi.org/10.5281/zenodo.4018965)  
+Our Pre-print  is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.03.02.973073v1)  [![DOI:10.1101/2020.03.02.973073](http://img.shields.io/badge/DOI-10.1101/2020.03.02.973073-B31B1B.svg)](https://doi.org/10.1101/2020.03.02.973073)  
 The COSI conference paper is out on [OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5)  [![DOI:10.1364/ISA.2019.ITh3B.5](http://img.shields.io/badge/DOI-10.1364/ISA.2019.ITh3B.5-36449F.svg)](https://doi.org/10.1364/ISA.2019.ITh3B.5)
 
 Where next? [<img src="./IMAGES/sitemap.png" height=50>](./SITEMAP.md)
