@@ -13,7 +13,7 @@ Here you find the guidelines to show these experiments:
 :star: Why to switch from finite optics to infinity optics? Infinity imaging systems are much more flexible and practical than finite-corrected systems. Probably the biggest advantage of an infinity system is that you can add filters, beamsplitters and other components (but not lenses!) in the optical path without shifting the position of the image.
 
 
-### First experiment: Compound Microscope and Illumination of the Sample
+## First experiment: Compound Microscope and Illumination of the Sample
 This experiment demonstrates the essential parts of a transmission light microscope and explains the concept of conjugate planes. We will start with a simple direct illumination and build up to a proper Köhler illumination, while observing the advantages and disadvantages of each illumination type.  
 <p align="center">
 <img src="./IMAGES/scheme01.jpg" width="800">
@@ -23,7 +23,7 @@ We will add a Beamsplitter and a side arm to split the light path in order to ob
 <img src="./IMAGES/scheme02.jpg" width="800">
 </p>
 
-### Second experiment: Abbe Diffraction Experiment
+## Second experiment: Abbe Diffraction Experiment
 **[Click here](https://youtu.be/NrkINpx6IMo) to watch a video of the UC2 Abbe Experiment on our YouTube channel!**  
 The famous Abbe Diffraction Experiments shows how diffraction of light by a specimen (and interference with the illuminating light) creates an image and how collection of diffracted light defines the resolution of the microscope. With this setup it is possible to view both sets of conjugate planes at the same time, on a camera or a screen.
 <p align="center">
@@ -32,6 +32,8 @@ The famous Abbe Diffraction Experiments shows how diffraction of light by a spec
 
 We provide different apertures that can be placed in the BFP.
 We use a very fine fish net as a sample here. You could try a net like [this one](https://www.amazon.de/-/en/Rryilong-Artemia-Portable-Fishing-Density/dp/B07PFNZVVS/ref=pd_vtp_199_5/261-3025835-8442122?_encoding=UTF8&pd_rd_i=B07PFNZVVS&pd_rd_r=bb7a3e28-77d9-45d8-a02c-da70409a7ff0&pd_rd_w=gHsKv&pd_rd_wg=Ojv0t&pf_rd_p=80911889-e795-4970-aa72-4c8dbf7a55d0&pf_rd_r=2SB3XXENVTP7HBN5MD5Q&psc=1&refRID=2SB3XXENVTP7HBN5MD5Q). Another idea is to try one of these plastic [tea bags](https://www.jenierteas.com/kaika-cherry-sencha-green-tea-pyramid-tea-bags-p1120/). Or of course you can take a proper diffraction grating (but where's the fun in that?). If you have other ideas for cool samples, let us know!
+
+[Skip to the Abbe Experiment now.](#-abbe-diffraction-experiment---alignment-procedure)
 
 ## <a href="#icon01" name="icon01"><img src="./IMAGES/E.png" height="40"></a> This tutorial will lead you step-by-step through the alignment of the Compound Microscope, different Illumination types and the Abbe Diffraction Experiment and explain the optical phenomena you observe with these systems
 
@@ -55,7 +57,7 @@ Also prepare:
 <img src="./IMAGES/UC2_CourseBOX_inf_01.jpg" height="375">
 </p>
 
-#### :star: Infinite conjugate imaging system
+### :star: Infinite conjugate imaging system
 We form a real image of the sample by a method known as infinite conjugate system. If the object is placed in the focal plane of a lens, its image is formed in the infinity, because the rays diffracted by the object are parallel after the lens. If a second lens is placed after the first one, it captures these parallel rays and a real image of the object is formed in the focal plane of the second lens. The magnification of an infinite conjugate system is given by  
 ***M = -f<sub>2</sub>/f<sub>1</sub>***
 
@@ -74,10 +76,21 @@ We form a real image of the sample by a method known as infinite conjugate syste
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_04.jpg" height="375">
 </p>
+
+### :star: Numerical Aperture and Resolution
+The Numerical Aperture (NA) describes how much light coming from an imaged object is captured and focussed by the objective and determines the resolution of the system (and not just that). It is given by  
+***NA = n × sin(alpha)*** ,  
+where *n* is the refractive index of the medium between the sample and the objective (here, in air, *n* = 1) and *alpha* is the angle of the between the optical axis and the steepest rays that are still collected by the objective. The angle *alpha* can be calculated from the focal length *f'* of the objective lens and its diameter *d*, because  
+***tan(alpha) = 1/2 d / f'*** .  
+From the NA we can calculate the resolution of our imaging system. Physically, the resolution s the smallest distance between two point is the sample that are still imaged as two point. If the points are any closer, the will appear as a single point in the Image Plane. For the microscope here, we calculate the resolution as  
+***R = 0,61 lambda / NA*** ,  
+where *lambda* is the wavelength of the illumination. Because we use a white light source, we take *lambda* = 550 nm, since this is roughly in the middle of the visible spectrum.
+
 4. Place the tube lens. It is a single plano-convex lens with *f'* = 100 mm.  
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_05.jpg" height="375">
 </p>
+
 5. Place the Primary Image Plane (PIP) in the focal plane of the tube lens. Use the Sample cube with white paper as a screen.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_06.jpg" height="375">
@@ -85,7 +98,10 @@ We form a real image of the sample by a method known as infinite conjugate syste
 
 :star: Now we have the imaging infinite conjugate system. The second lens can be placed at any distance from the first one, because the rays are parallel after the first lens. As long as the system is well aligned, the distance between the lenses doesn't really matter. Of course it shouldn't be across the whole room, because we would loose intensity and some of the marginal rays. Here we build it in such a way that the Back Focal Plane of the Objective coincides with the front focal plane of the tube lens, which is the most optimal way for Fourier imaging and it will be convenient for the next steps.
 
-#### :star: Direct Illumination
+:star: Numerical aperture of our imaging system equals to *NA = 1 × sin(alpha)* , with *alpha* coming from *tan(alpha) = 0,5×25,4 / 50*. Therefore our *NA* = 0,25.  
+The resolution of our microscope is be *R = 0,61×0,550 / 0,25 = 1,342 um* .  
+
+### :star: Direct Illumination
 To start with the simplest way of illuminating a sample, we  place the flashlight, our light source, close to the sample. This way we can see an image of our sample on the screen. This is called Direct illumination, but it's a very inefficient illumination type because  only a small fraction of the light emitted from the source will actually hit the sample.
 <p align="center">
 <img src="./IMAGES/scheme07.jpg" width="800">
@@ -104,9 +120,9 @@ To start with the simplest way of illuminating a sample, we  place the flashligh
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_09.jpg" height="375">
 </p>
-:star: The magnification of an infinite conjugate system is given by M = - f<sub>2</sub>/f<sub>1</sub> as we said. In infinity-corrected microscopes it is usually described as M = - f<sub>Tube lens</sub>/f<sub>Objective</sub> for the imaging system. The magnification of our imaging system here is therefore M = - 100/50 = -2. We can see an inverted 2× magnified image of our Sample in the Primary Image Plane.
+:star: The magnification of an infinite conjugate system is given by *M = - f<sub>2</sub>/f<sub>1</sub>* as we said. In infinity-corrected microscopes it is usually described as *M = - f<sub>Tube lens</sub>/f<sub>Objective</sub>* for the imaging system. The magnification of our imaging system here is therefore *M =* - 100/50 = -2. We can see an inverted 2× magnified image of our Sample in the Primary Image Plane.
 
-#### :star: Critical Illumination
+### :star: Critical Illumination
 To capture all the light from the flashlight, we build a second infinite conjugate system on the illumination side of the sample. This will form an image of the flashlight's LED on the sample. This is called critical illumination. The advantage of having an infinite conjugate critical illumination is that we can include an Aperture diaphragm (AD). The AD limits the range of angles of the rays that illuminate the sample and therefore influences the resolution and contrast.
 <p align="center">
 <img src="./IMAGES/scheme08.jpg" width="800">
@@ -116,32 +132,37 @@ To capture all the light from the flashlight, we build a second infinite conjuga
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_10.jpg" height="375">
 </p>
+
 8. Place a collector lens next to the flashlight. It is a single plano-convex lens with *f'* = 50 mm.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_11.jpg" height="375">
 </p>
+
 9. Place the condenser lens in front of the Sample. It is a single plano-convex lens with *f'* = 50 mm.  
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_12.jpg" height="375">
 </p>
+
 10. Place the Aperture Diaphragm (AD) between the collector and condenser. You can roughly align it to the center of the cube and precisely align it with the lenses using I. Focussing Trick. This is a microscope with critical illumination.  
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_13.jpg" height="375">
 </p>
+
 11. Let's have a look at the effect of the AD. You should be able to see it on the Sample itself but here we placed the paper screen in the position of the sample to be able to picture it.  
 The LED of the flashlight is now imaged directly on our sample. The flashlight used here is extremely bright and therefore the pictures shown here might look a bit misleading, because it wasn't possible to take a better, not oversaturated pictures.  
 :star: Both the collector and condenser lens have focal length of 50 mm, therefore the magnification of this infinite conjugate system is equal to -1. We see an image of the LED, in real size but inverted, on the sample.   
 First: AD open, the spot is very bright.  
 Second: AD closed, the spot seems smaller but it's just less bright. We can recognize the shape of the LED imaged in this plane.  
 Third: In PIP, we seen the image of the LED over the image of the Sample.  
-:star: The magnification of multiple infinite conjugate systems in a row is given by their multiplication. The image of the LED that we see in the PIP is given by M<sub>LED in PIP</sub> = M<sub>Illumination</sub>×M<sub>Imaging</sub> = -1 × -2 = 2. We can see a non-inverted 2× magnified image of the LED in the Primary Image Plane.
+:star: The magnification of multiple infinite conjugate systems in a row is given by their multiplication. The image of the LED that we see in the PIP is given by *M<sub>LED in PIP</sub> = M<sub>Illumination</sub>×M<sub>Imaging</sub> =* -1 × -2 = 2. We can see a non-inverted 2× magnified image of the LED in the Primary Image Plane.
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_14.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_15.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_16.jpg" height="375">
 </p>
 
-#### :star: Köhler Illumination
+### :star: Köhler Illumination
 With the critical illumination, the sample is not illuminated uniformly and in case of a very bright light source, like here, the image of the source is more visible than the image of our sample. We can solve this by adding one more lens to the illumination system, so that the image of the LED is formed on the AD instead of the sample. This way the illumination of the sample is uniform. Furthermore, we can add another diaphragm, known as the Field diaphragm (FD). The FD is imaged on the sample and allows for limiting the illuminated area.  
 This illumination technique is called the Köhler Illumination and it is the most common one for light microscopy.  
 The goals of illumination in microscopy are:
@@ -153,60 +174,72 @@ and Köhler Illumination gives us both.
 <img src="./IMAGES/scheme09.jpg" width="800">
 </p>
 
-12. *Advancing to Köhler illumination:* Move the flashlight further from the critical illumination as shown in the picture. Keep the critical illumination part as it was.
+12. *Upgrading to Köhler illumination:* Move the flashlight further from the critical illumination as shown in the picture. Keep the critical illumination part as it was.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_17.jpg" height="375">
 </p>
+
 13. Place a new collector lens next to the flashlight. It is again a single plano-convex lens with *f'* = 50 mm.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_18.jpg" height="375">
 </p>
+
 14. Place the Field Diaphragm (FD) between the new collector and old collector. You can roughly align it to the center of the cube and precisely align it with the lenses using I. Focussing Trick. This is a microscope with Köhler illumination.  
 :star: Why do we need to illuminate the specimen uniformly over an adjustable area? Large area of object illuminated provides large disc of light at primary image causing reflections from walls of microscope and reduction in contrast. We adjust the illuminated area with the FD.
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_19.jpg" height="375">
 </p>
+
 15. In the Köhler illumination, the aperture closer to the light source s the Field diaphragm (FD) and the one closer to the sample is the Aperture diaphragm (AD).  
 :star: Why do we need to illuminate the objective aperture uniformly over an adjustable angle? If the illuminating aperture is too small, resolution will be reduced and image quality will be impaired though contrast will be increased. If the illuminating aperture is too large, light will be scattered from the edges of the objective lens, thus reducing contrast. For the best resolution, the illuminating aperture should be 60%-75% of the imaging aperture. We adjust the illuminating aperture with the AD.
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_20.jpg" height="375">
 </p>
+
 16. In the Köhler illumination, the first lens after the light source is called the Collector lens. The lens between the apertures is called a Field lens. The one in front of the Sample is again the condenser lens, just as in the critical illumination.  
 :star: Thanks to this configuration of three lenses, the LED is imaged on the AD and the FD is imaged on the Sample.
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_21.jpg" height="375">
 </p>
+
 17. Let's have a look at the effects of the apertures in the Sample plane. Note: because the LED is very strong, the effect of the AD is not so apparent.  
 :star: In the Sample Plane: The FD is imaged on the Sample. It limits the size of the illuminated area and we can directly see the image of the FD when we close it. The AD limits the parallel light beam between the Field lens and the Condenser lens. It limits the illumination angles and therefore changes the intensity of the illumination.   
 First: both apertures open.  
 Second: FD closed, AD open.  
 Third: FD open, AD closed.  
 Fourth: both apertures closed.  
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_22.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_23.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_24.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_25.jpg" height="375">
 </p>
+
 18. Let's have a look at the effects of the apertures in the Primary Image Plane. Note: because the LED is very strong, the effect of the AD is not so apparent.  
 :star: In the Primary Image Plane: The FD and AD have the same effect as in the Sample Plane.   
 First: both apertures open.  
 Second: FD closed, AD open.    
 Third: FD open, AD closed.  
-Fourth: both apertures closed.   
+Fourth: both apertures closed.  
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_26.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_27.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_28.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_29.jpg" height="375">
 </p>
+
 19. Remove the screen from PIP.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_30.jpg" height="375">
 </p>
 
-#### :star: Eyepiece
-:star: So far we could consider our microscope a simple one, because the image is magnified by only one system of lenses (Objective and a Tube lens together). A compound microscope uses two systems of lenses - objective and eyepiece, that multiplies (compounds) the objective. This way we can achieve higher magnification.  
+### :star: Eyepiece
+So far we could consider our microscope a simple one, because the image is magnified by only one system of lenses (Objective and a Tube lens together). A compound microscope uses two systems of lenses - objective and eyepiece, that multiplies (compounds) the objective. This way we can achieve higher magnification.  
 The magnification of an eyepiece is given by  
 ***M = 250 mm/f<sub>Eyepiece</sub>*** ,     
 where 250 mm is an estimate of the "near point" distance of the eye - the closest distance at which the healthy naked eye can focus without too much strain.  
@@ -219,35 +252,41 @@ The eyepiece images the PIP to the infinity, making it observable by the naked e
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_31.jpg" height="375">
 </p>
+
 21. **Careful!** Put a lens tissue in front of the flashlight to dim it before you look into the strong light. Then look through the eyepiece lens. Note: because the LED is very strong, the effect of the AD is not so apparent.  
 :star: With the eyepiece we observe the Sample Plane imaged on the PIP. The diaphragms will have the same effect as we observed in the previous steps.    
 First: both apertures open.  
 Second: FD closed, AD open. Here we see the issue caused by the super bright light source - we should see the image only in the very bright region and not around it.  
 Third: FD open, AD closed.  
 Fourth: both apertures closed. Here we see the issue caused by the super bright light source - we should see the image only in the very bright region and not around it.
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_32.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_33.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_34.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_35.jpg" height="375">
 </p>
+
 :star: Note that you cannot put your eye anywhere behind the eyepiece. To maximize the field of view, your iris (the pupil of the eye) must match the so-called Ramsden disc. This is the smallest diameter of the light beam coming from the eyepiece. You can find it using a piece of paper and tracing the Light that emerges from the eyepiece. The smallest spot is roughly in the focal plane of the eyepiece (If your microscope is properly aligned).
+
 22. Place the Eye Cube behind the eyepiece. On the back of the "Eye" you can see the image similarly as it's formed on your retina.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_36.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_37.jpg" height="375">
 </p>
+
 23. **This is an aligned compound infinity-corrected microscope with proper Köhler illumination**.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_38.jpg" height="375">
 </p>
+
 24. Place the RasPi Camera in the PIP and switch on the UC2-GUI on the RasPi. The field of view of the camera is much smaller than the one of the eye or with the paper screen. Align the camera to see a sharp image (II. Focussing Trick).
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_39.jpg" height="375">
 </p>
 
-#### Field set and Aperture set of conjugate planes
-:star: In any imaging system there are two important sets of planes: Field set, containing the images of the object and the Field diaphragm and Aperture set, containing the images of the light source and the Aperture diaphragm. Those two sets are mathematically related to each other by Fourier transform. Both sets therefore contain all the information of the image and the image can be manipulated in either of them.  
+### :star: Field set and Aperture set of conjugate planes
+In any imaging system there are two important sets of planes: Field set, containing the images of the object and the Field diaphragm and Aperture set, containing the images of the light source and the Aperture diaphragm. Those two sets are mathematically related to each other by Fourier transform. Both sets therefore contain all the information of the image and the image can be manipulated in either of them.  
 In order to observe both sets of planes simultaneously, we can build a side arm and image the BFP there.  
 The Aperture set of conjugate planes: Lamp filament, Aperture diaphragm, Back Focal Plane of the objective, Exit pupil of the eye. The BFP will be imaged in the side arm.
 <p align="center">
@@ -264,45 +303,54 @@ Because we've build our system entirely of infinite conjugates, each pair of len
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_40.jpg" height="375">
 </p>
+
 26. Place the first relay lens next to the Beamsplitter, in the side arm. It is a single plano-convex lens with *f'* = 100 mm.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_41.jpg" height="375">
 </p>
+
 27. Place the second relay lens behind the first one, in the side arm. It is also a single plano-convex lens with *f'* = 100 mm.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_42.jpg" height="375">
 </p>
-:star: We build another infinite conjugate system in the side arm and its magnification is again given by M = - f<sub>2</sub>/f<sub>1</sub> . Because both of the relay lenses have the same focal length (100 mm), the magnification in the side arm is equal to -1. We can see an inverted image of the BFP, in the same size as in the actual Back Focal Plane of the Objective.
+
+:star: We build another infinite conjugate system in the side arm and its magnification is again given by *M = - f<sub>2</sub>/f<sub>1</sub>* . Because both of the relay lenses have the same focal length (100 mm), the magnification in the side arm is equal to -1. We can see an inverted image of the BFP, in the same size as in the actual Back Focal Plane of the Objective.
+
 28. Place the paper screen in the focal plane of the second relay lens. This is where you image the back focal plane of your objective.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_43.jpg" height="375">
 </p>
+
 29. Let's have a look in the BFP, as it's imaged in the side arm.  
 :star: In the BFP the apertures have the opposite effect as in the PIP. The AD is imaged into this plane while the FD limits the angles of the illuminating rays. We also see an image of the LED in the BFP.  
 First: both apertures open.  
 Second: FD closed, AD open. The image is dimmer.     
 Third: FD open, AD closed. The illuminated area is smaller.  
 Fourth: both apertures closed.
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_44.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_45.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_46.jpg" height="375">
 <img src="./IMAGES/UC2_CourseBOX_inf_47.jpg" height="375">
 </p>
+
 30. Switch the camera with the paper screen, so we can see the BFP on the RasPi. We could see the Fourier transform of our cat there but because of the high intensity of the flashlight, we only see the image of the LED.  
-:star: The magnification of the LED image formed here is given by the multiplication of the magnifications of al the infinite conjugate systems that are imaging it. It is given by M<sub>LED in BFP</sub> = - f<sub>Field lens</sub>/f<sub>Collector</sub> × f<sub>Objective</sub>/f<sub>Condenser</sub> × f<sub>Relay lens 2</sub>/f<sub>Relay lens 1</sub> . Because each pair of the lenses has actually the same focal length, the magnification of the LED in the BFP is -1 and we see an inverted non-magnified image of it.
+:star: The magnification of the LED image formed here is given by the multiplication of the magnifications of al the infinite conjugate systems that are imaging it. It is given by *M<sub>LED in BFP</sub> = - f<sub>Field lens</sub>/f<sub>Collector</sub> × f<sub>Objective</sub>/f<sub>Condenser</sub> × f<sub>Relay lens 2</sub>/f<sub>Relay lens 1</sub>* . Because each pair of the lenses has actually the same focal length, the magnification of the LED in the BFP is -1 and we see an inverted non-magnified image of it.
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_48.jpg" height="375">
 </p>
+
 31. **This is the complete first experiment: Compound Microscope with Köhler Illumination and access to all the conjugate planes.**  You would be able to demonstrate the Abbe Diffraction Experiment with this as well but it's much nicer with the setup we will build now.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_49.jpg" height="375">
 </p>
 
-### Abbe Diffraction experiment - alignment procedure
+## Abbe Diffraction experiment - alignment procedure
 
-#### Abbe Diffraction experiment
-:star: Until Ernst Abbe and Carl Zeiss teamed up in 1866, microscopes were produced by the trial and error method. Abbe discovered after many calculations and experiments that the diffraction image in the Back Focal Plane of the objective is essential for image formation. We're going to explain his findings during the demonstration of his famous experiment.   
+### :star: Abbe Diffraction experiment
+Until Ernst Abbe and Carl Zeiss teamed up in 1866, microscopes were produced by the trial and error method. Abbe discovered after many calculations and experiments that the diffraction image in the Back Focal Plane of the objective is essential for image formation. We're going to explain his findings during the demonstration of his famous experiment.   
 We use a laser pointer as a light source and expand it using two lenses. The imaging path is the same as in the microscope in the first experiment and therefore we can observe the image of our sample in the main arm and the image of the BFP in the side arm.
 <p align="center">
 <img src="./IMAGES/scheme06.jpg" width="800">
@@ -324,7 +372,9 @@ We use a laser pointer as a light source and expand it using two lenses. The ima
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_56.jpg" height="375">
 </p>
+
 35. Besides the apertures that we already prepared, we will need :
+
 * Laser Cube with laser pointer (1)
 * 1× Lens Cube with 50 mm lens (2)
 
@@ -332,6 +382,7 @@ For now, place the camera in PIP.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_57.jpg" height="375">
 </p>
+
 36. The laser is equipped with a cap that holds a lens from the RasPi camera. Make sure to put it on, otherwise you won't be able to create an expanded parallel beam.  
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_58.jpg" height="375">
@@ -358,18 +409,22 @@ For now, place the camera in PIP.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_64.jpg" height="375">
 </p>
+
 41. In the PIP, you can see an image of the sample. Here we see our fish net. Align the camera to obtain a sharp image.  
 :star: Because of the [Talbot effect](https://en.wikipedia.org/wiki/Talbot_effect) you can find more than one sharp image of the sample. Therefore, partially close the Field diaphragm (FD) and find the position of the camera where you not only see a sharp image of the grating (fish net) but also of the FD.
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_65.jpg" height="375">
 </p>
+
 42. In the BFP image in the side arm, you can see the Fourier transform of the grating just as it looks in the BFP itself. Align the second Relay lens to obtain a focussed image on the camera.  
 :star: The grating is regular in both X and Y and therefore it's a very convenient sample for this experiment, because its Fourier transform is easily predictable. With a different sample the BFP will of course also look differently.
+
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_66.jpg" height="375">
 </p>
 
-#### :star: Back Focal Plane
+### :star: Back Focal Plane
 The intensity peaks in the BFP are the diffraction orders of our sample. By placing an aperture or another object here we’ll be able to modify the information transmitted through the microscope that contributes to the image. Depending on the aperture we can observe different effects.
 
 * *Circular aperture:* The circular aperture blocks the light symmetrically from outside towards the center. Close the aperture and align the laser such that the 0<sup>th</sup> order is in the center of the aperture. You can align the laser using the four screws in its holder.
@@ -387,12 +442,13 @@ The intensity peaks in the BFP are the diffraction orders of our sample. By plac
 <img src="./IMAGES/UC2_CourseBOX_inf_71.jpg" height="200">
 <img src="./IMAGES/UC2_CourseBOX_inf_72.jpg" height="200">
 </p>
+
 43. **This is the setup for the second experiment: Abbe Diffraction Experiment.**
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_83.jpg" height="375">
 </p>
 
-### :star: Abbe Diffraction experiment - What do we see?
+## :star: Abbe Diffraction experiment - What do we see?
 1. With no aperture in the BFP, we see the image of the Sample in PIP and the Fourier transorm of the sample in the BFP, as we just aligned it and prepared it.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_73.jpg" height="375">
@@ -448,8 +504,5 @@ The intensity peaks in the BFP are the diffraction orders of our sample. By plac
 If you have a cool idea, please don't hesitate to write us a line, we are happy to incorporate it in our design to make it even better.
 
 #### References:
-[1](https://www.biodip.de/fileadmin/user_upload/Documents/Resources/Teaching_materials/theory_pdfs/03_Conjugate-Planes.pdf)  
-[2](https://www.wikilectures.eu/w/Abbe%E2%80%99s_theory)  
-[3](https://www.microscopeworld.com/p-3470-what-is-a-compound-microscope.aspx)  
-[Cat image source](https://www.facebook.com/TheOfficialGrumpyCat/)   
+[1](https://www.biodip.de/fileadmin/user_upload/Documents/Resources/Teaching_materials/theory_pdfs/03_Conjugate-Planes.pdf);  [2](https://www.wikilectures.eu/w/Abbe%E2%80%99s_theory);  [3](https://www.microscopeworld.com/p-3470-what-is-a-compound-microscope.aspx);  [Cat image source](https://www.facebook.com/TheOfficialGrumpyCat/);   
 4 Advanced Optical Imaging Workshop; Plymouth; Noah Russell, 2009©
