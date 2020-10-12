@@ -1,6 +1,6 @@
 # Building The CourseBOX
 
-This is a guide for building the [CourseBOX](../CourseBOX). If you were looking for another BOX version, [click here](../../).
+This is a guide for building the [CourseBOX](./CourseBOX). If you were looking for another BOX version, [click here](../../).
 
 This guide currently describes how to build both the [finite-corrected version](#finite-corrected-optics) and the [infinity version](#inifinity-optics) of the CourseBOX.
 
@@ -21,7 +21,7 @@ This guide currently describes how to build both the [finite-corrected version](
 
 Link - name of part             |  Amount |  Comment | Price
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
-  3D printing material|~580 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in [3D printing section](#3d-printing)|15 €
+  3D printing material|~580 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in 3D printing section|15 €
   [Lens 50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1131)  |  5 pieces ||á 21 €
   [Lens 100 mm](https://optikbaukasten.de/)  |  3 pieces |Artikel 2004|á 6 €
   [Lens for Eye Cube](https://optikbaukasten.de/)  |  1 piece |Artikel 2002|á 5 €
@@ -31,7 +31,7 @@ Link - name of part             |  Amount |  Comment | Price
   [Magnets](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)  |  80 pieces | Ball magnets, diameter 5 mm.|25 €
   [Screws](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) |   ~150 pieces | M3×12, galvanized steel - ~72  pieces; (optional M3×8, galvanized steel - ~72 pieces); M3×18, galvanized steel - 4 pieces; M2*12 screws with nuts - 6  pieces | ~15 €
   Raspberry Pi with accessories ||Have a look in our [Bill-of-Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) for a complete list and links. | 190 €
-  [Chocolate](https://www.milka.de/produkte/milka-standard-tafeln/milka-wei%c3%9fe-schokolade?p=137&provider={D193998A-4A6D-4EA5-BAA8-209357B27A09}&categoryId=1395)|1 bar| Use it as a reward when you're done.
+  [Chocolate](https://prod-cd-origin.milka.de/produkte/milka-weisse-schokolade)|1 bar| Use it as a reward when you're done.
 
 * Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 
@@ -72,7 +72,7 @@ Name of part - Link to STL file            |  Amount |  Comment
 [Lens Holder with Clamp](https://www.thingiverse.com/thing:4377691)  |  8 pieces | Generate and STL for the lenses you have at hand usng our lens holder in Thingiverse Customizer.
 [(16) Generic Sample Holder](./STL/16_20_Cube_insert_Sample_holder.stl)  |  2 pieces | To hold the sample and the screen.
 [(17) Generic Sample Holder Clamp](./STL/17_20_Cube_Insert_Sample_clamp.stl)  |  2 pieces |
-[(19) Flashlight Holder](./STL/19_20_Cube_Insert_Flashlight_Holder.stl)  |  1 pieces |
+[(19) Flashlight Holder](./STL/19_20_Cube_Insert_Flashlight_Holder.stl)  |  1 pieces |optional
 [(20) Circular Aperture Guide](./STL/20_20_Cube_Insert_CirAp_Guide.stl)  |  2 pieces |
 [(21) Circular Aperture Wheel](./STL/21_20_Cube_Insert_CirAp_Wheel.stl)  |  2 pieces |
 [(22) Circular Aperture Lid](./STL/22_20_Cube_Insert_CirAp_Lid.stl)  |  2 pieces |
@@ -129,7 +129,7 @@ Prepare the Raspberry Pi following our [tutorial in UC2-Software-GIT](https://gi
 
 Link - name of part             |  Amount |  Comment | Price per amount used
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
-  3D printing material|~620 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in [3D printing section](#3d-printing)|20 €
+  3D printing material|~620 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in 3D printing section|20 €
   [Microscope objective 4×](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)  |  1 piece | | 10 €
   [Lens 35 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1027)  |  1 piece |We did the alignment with lenses of these focal lengths, but other combination are also possible. The alignment principle stays the same, but the positions of the element will be different. |22 €
   [Lens 40 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1422)  |  2 pieces ||44 €
@@ -139,7 +139,7 @@ Link - name of part             |  Amount |  Comment | Price per amount used
   [Flashlight](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)  |  1 piece | Light source for the projector and microscope.|7 €
   [Magnets](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)  |  128 pieces | Ball magnets, diameter 5 mm.|30 €
   [Screws](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) |   ~120 pieces | M3×12, galvanized steel - ~90  pieces; M3×8, galvanized steel - ~90 pieces; M3×18, galvanized steel - 2 pieces; M3×30, not magnetic - 1 piece; M3 nut | ~15 €
-  [Chocolate](https://www.milka.de/produkte/milka-standard-tafeln/milka-wei%c3%9fe-schokolade?p=137&provider={D193998A-4A6D-4EA5-BAA8-209357B27A09}&categoryId=1395)|1 bar| Use it as a reward when you're done.
+  [Chocolate](https://prod-cd-origin.milka.de/produkte/milka-weisse-schokolade)|1 bar| Use it as a reward when you're done.
 
 * Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 
