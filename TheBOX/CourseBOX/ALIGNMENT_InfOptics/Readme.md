@@ -33,7 +33,8 @@ The famous Abbe Diffraction Experiments shows how diffraction of light by a spec
 We provide different apertures that can be placed in the BFP.
 We use a very fine fish net as a sample here. You could try a net like [this one](https://www.amazon.de/-/en/Rryilong-Artemia-Portable-Fishing-Density/dp/B07PFNZVVS/ref=pd_vtp_199_5/261-3025835-8442122?_encoding=UTF8&pd_rd_i=B07PFNZVVS&pd_rd_r=bb7a3e28-77d9-45d8-a02c-da70409a7ff0&pd_rd_w=gHsKv&pd_rd_wg=Ojv0t&pf_rd_p=80911889-e795-4970-aa72-4c8dbf7a55d0&pf_rd_r=2SB3XXENVTP7HBN5MD5Q&psc=1&refRID=2SB3XXENVTP7HBN5MD5Q). Another idea is to try one of these plastic [tea bags](https://www.jenierteas.com/kaika-cherry-sencha-green-tea-pyramid-tea-bags-p1120/). Or of course you can take a proper diffraction grating (but where's the fun in that?). If you have other ideas for cool samples, let us know!
 
-[Skip to the Abbe Experiment now.](#-abbe-diffraction-experiment---alignment-procedure)
+[Skip to the Abbe Diffraction Experiment](#-abbe-diffraction-experiment)
+
 
 ## <a href="#icon01" name="icon01"><img src="./IMAGES/E.png" height="40"></a> This tutorial will lead you step-by-step through the alignment of the Compound Microscope, different Illumination types and the Abbe Diffraction Experiment and explain the optical phenomena you observe with these systems
 
@@ -98,8 +99,7 @@ where *lambda* is the wavelength of the illumination. Because we use a white lig
 
 :star: Now we have the imaging infinite conjugate system. The second lens can be placed at any distance from the first one, because the rays are parallel after the first lens. As long as the system is well aligned, the distance between the lenses doesn't really matter. Of course it shouldn't be across the whole room, because we would loose intensity and some of the marginal rays. Here we build it in such a way that the Back Focal Plane of the Objective coincides with the front focal plane of the tube lens, which is the most optimal way for Fourier imaging and it will be convenient for the next steps.
 
-:star: Numerical aperture of our imaging system equals to *NA = 1 × sin(alpha)* , with *alpha* coming from *tan(alpha) = 0,5×25,4 / 50*. Therefore our *NA* = 0,25.  
-The resolution of our microscope is be *R = 0,61×0,550 / 0,25 = 1,342 um* .  
+:star: Numerical aperture of our imaging system equals to *NA = 1 × sin(alpha)* , with *alpha* coming from *tan(alpha) = 0,5×25,4 / 50*. Therefore our *NA* = 0,25.  The resolution of our microscope is then *R = 0,61×0,550 / 0,25 = 1,342 um* .  
 
 ### :star: Direct Illumination
 To start with the simplest way of illuminating a sample, we  place the flashlight, our light source, close to the sample. This way we can see an image of our sample on the screen. This is called Direct illumination, but it's a very inefficient illumination type because  only a small fraction of the light emitted from the source will actually hit the sample.
@@ -120,7 +120,10 @@ To start with the simplest way of illuminating a sample, we  place the flashligh
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_09.jpg" height="375">
 </p>
+
+
 :star: The magnification of an infinite conjugate system is given by *M = - f<sub>2</sub>/f<sub>1</sub>* as we said. In infinity-corrected microscopes it is usually described as *M = - f<sub>Tube lens</sub>/f<sub>Objective</sub>* for the imaging system. The magnification of our imaging system here is therefore *M =* - 100/50 = -2. We can see an inverted 2× magnified image of our Sample in the Primary Image Plane.
+
 
 ### :star: Critical Illumination
 To capture all the light from the flashlight, we build a second infinite conjugate system on the illumination side of the sample. This will form an image of the flashlight's LED on the sample. This is called critical illumination. The advantage of having an infinite conjugate critical illumination is that we can include an Aperture diaphragm (AD). The AD limits the range of angles of the rays that illuminate the sample and therefore influences the resolution and contrast.
@@ -347,7 +350,7 @@ Fourth: both apertures closed.
 <img src="./IMAGES/UC2_CourseBOX_inf_49.jpg" height="375">
 </p>
 
-## Abbe Diffraction experiment - alignment procedure
+## Abbe Diffraction experiment
 
 ### :star: Abbe Diffraction experiment
 Until Ernst Abbe and Carl Zeiss teamed up in 1866, microscopes were produced by the trial and error method. Abbe discovered after many calculations and experiments that the diffraction image in the Back Focal Plane of the objective is essential for image formation. We're going to explain his findings during the demonstration of his famous experiment.   
@@ -432,11 +435,13 @@ The intensity peaks in the BFP are the diffraction orders of our sample. By plac
 <img src="./IMAGES/UC2_CourseBOX_inf_67.jpg" height="200">
 <img src="./IMAGES/UC2_CourseBOX_inf_68.jpg" height="200">
 </p>
+
 * *Rectangular aperture:* The rectangular aperture closes independently from both sides in X and Y direction (horizontally and vertically). Use a hex key or a similar tool to close/open the aperture doors.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_69.jpg" height="200">
 <img src="./IMAGES/UC2_CourseBOX_inf_70.jpg" height="200">
 </p>
+
 * *Dot and line:* Use a sample holder cube or your (presumably steady) hand to hold these two. You can block the 0<sup>th</sup> or 0<sup>th</sup>+1<sup>st</sup> orders with the dot, depending on how big it is. You can block the X-0<sup>th</sup> or Y-0<sup>th</sup> order with the line-object.
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_71.jpg" height="200">
