@@ -2,6 +2,8 @@
 
 This is a guide for building the [CourseBOX](../CourseBOX). If you were looking for another BOX version, [click here](../../).
 
+This guide currently describes how to build the finited-corrected version of the CourseBOX. The tutorial for the infinity microscope and Abe experiment is coming soon ;-) 
+
 * Total price: 300 €
 * Printing time including preparation: 5 days
 * Assembly time: 1 day

@@ -16,24 +16,24 @@ Here you find the guidelines to show these experiments:
 ## First experiment: Compound Microscope and Illumination of the Sample
 This experiment demonstrates the essential parts of a transmission light microscope and explains the concept of conjugate planes. We will start with a simple direct illumination and build up to a proper Köhler illumination, while observing the advantages and disadvantages of each illumination type.  
 <p align="center">
-<img src="./IMAGES/scheme01.jpg" width="800">
+<img src="./IMAGES/setup03.gif" width="800">
 </p>
 We will add a Beamsplitter and a side arm to split the light path in order to observe the Back Focal Plane of the objective (BFP) and the Sample / Primary Image Plane in parallel.
 <p align="center">
-<img src="./IMAGES/scheme02.jpg" width="800">
+<img src="./IMAGES/setup01.gif" width="800">
 </p>
 
 ## Second experiment: Abbe Diffraction Experiment
 **[Click here](https://youtu.be/NrkINpx6IMo) to watch a video of the UC2 Abbe Experiment on our YouTube channel!**  
 The famous Abbe Diffraction Experiments shows how diffraction of light by a specimen (and interference with the illuminating light) creates an image and how collection of diffracted light defines the resolution of the microscope. With this setup it is possible to view both sets of conjugate planes at the same time, on a camera or a screen.
 <p align="center">
-<img src="./IMAGES/scheme05.jpg" width="800">
+<img src="./IMAGES/setup02.gif" width="800">
 </p>
 
 We provide different apertures that can be placed in the BFP.
 We use a very fine fish net as a sample here. You could try a net like [this one](https://www.amazon.de/-/en/Rryilong-Artemia-Portable-Fishing-Density/dp/B07PFNZVVS/ref=pd_vtp_199_5/261-3025835-8442122?_encoding=UTF8&pd_rd_i=B07PFNZVVS&pd_rd_r=bb7a3e28-77d9-45d8-a02c-da70409a7ff0&pd_rd_w=gHsKv&pd_rd_wg=Ojv0t&pf_rd_p=80911889-e795-4970-aa72-4c8dbf7a55d0&pf_rd_r=2SB3XXENVTP7HBN5MD5Q&psc=1&refRID=2SB3XXENVTP7HBN5MD5Q). Another idea is to try one of these plastic [tea bags](https://www.jenierteas.com/kaika-cherry-sencha-green-tea-pyramid-tea-bags-p1120/). Or of course you can take a proper diffraction grating (but where's the fun in that?). If you have other ideas for cool samples, let us know!
 
-[Skip to the Abbe Diffraction Experiment](#-abbe-diffraction-experiment)
+[Skip to the Abbe Diffraction Experiment](#abbe-diffraction-experiment)
 
 
 ## <a href="#icon01" name="icon01"><img src="./IMAGES/E.png" height="40"></a> This tutorial will lead you step-by-step through the alignment of the Compound Microscope, different Illumination types and the Abbe Diffraction Experiment and explain the optical phenomena you observe with these systems
@@ -56,6 +56,12 @@ Also prepare:
 * UC2 Alignment Tool
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_01.jpg" height="375">
+</p>
+
+:star: Why to use the flashlight without the lens? It would be one too many lenses in out system. In order to image the LED with our illumination optical path, we need to have access to the bare LED. Before you start building the microscope, remove the lens from the  flashlight.
+<p align="center">
+<img src="./IMAGES/UC2_CourseBOX_inf_00a.jpg" height="375">
+<img src="./IMAGES/UC2_CourseBOX_inf_00b.jpg" height="375">
 </p>
 
 ### :star: Infinite conjugate imaging system
@@ -83,6 +89,11 @@ The Numerical Aperture (NA) describes how much light coming from an imaged objec
 ***NA = n × sin(alpha)*** ,  
 where *n* is the refractive index of the medium between the sample and the objective (here, in air, *n* = 1) and *alpha* is the angle of the between the optical axis and the steepest rays that are still collected by the objective. The angle *alpha* can be calculated from the focal length *f'* of the objective lens and its diameter *d*, because  
 ***tan(alpha) = 1/2 d / f'*** .  
+
+<p align="center">
+<img src="./IMAGES/schemeNA.jpg" height="150">
+</p>
+
 From the NA we can calculate the resolution of our imaging system. Physically, the resolution s the smallest distance between two point is the sample that are still imaged as two point. If the points are any closer, the will appear as a single point in the Image Plane. For the microscope here, we calculate the resolution as  
 ***R = 0,61 lambda / NA*** ,  
 where *lambda* is the wavelength of the illumination. Because we use a white light source, we take *lambda* = 550 nm, since this is roughly in the middle of the visible spectrum.
@@ -154,9 +165,9 @@ To capture all the light from the flashlight, we build a second infinite conjuga
 11. Let's have a look at the effect of the AD. You should be able to see it on the Sample itself but here we placed the paper screen in the position of the sample to be able to picture it.  
 The LED of the flashlight is now imaged directly on our sample. The flashlight used here is extremely bright and therefore the pictures shown here might look a bit misleading, because it wasn't possible to take a better, not oversaturated pictures.  
 :star: Both the collector and condenser lens have focal length of 50 mm, therefore the magnification of this infinite conjugate system is equal to -1. We see an image of the LED, in real size but inverted, on the sample.   
-First: AD open, the spot is very bright.  
-Second: AD closed, the spot seems smaller but it's just less bright. We can recognize the shape of the LED imaged in this plane.  
-Third: In PIP, we seen the image of the LED over the image of the Sample.  
+Top left: AD open, the spot is very bright.  
+Top right: AD closed, the spot seems smaller but it's just less bright. We can recognize the shape of the LED imaged in this plane.  
+Bottom: In PIP, we seen the image of the LED over the image of the Sample.  
 :star: The magnification of multiple infinite conjugate systems in a row is given by their multiplication. The image of the LED that we see in the PIP is given by *M<sub>LED in PIP</sub> = M<sub>Illumination</sub>×M<sub>Imaging</sub> =* -1 × -2 = 2. We can see a non-inverted 2× magnified image of the LED in the Primary Image Plane.
 
 <p align="center">
@@ -210,10 +221,10 @@ and Köhler Illumination gives us both.
 
 17. Let's have a look at the effects of the apertures in the Sample plane. Note: because the LED is very strong, the effect of the AD is not so apparent.  
 :star: In the Sample Plane: The FD is imaged on the Sample. It limits the size of the illuminated area and we can directly see the image of the FD when we close it. The AD limits the parallel light beam between the Field lens and the Condenser lens. It limits the illumination angles and therefore changes the intensity of the illumination.   
-First: both apertures open.  
-Second: FD closed, AD open.  
-Third: FD open, AD closed.  
-Fourth: both apertures closed.  
+Top left: both apertures open.  
+Top right: FD closed, AD open.  
+Bottom left: FD open, AD closed.  
+Bottom right: both apertures closed.  
 
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_22.jpg" height="375">
@@ -224,10 +235,10 @@ Fourth: both apertures closed.
 
 18. Let's have a look at the effects of the apertures in the Primary Image Plane. Note: because the LED is very strong, the effect of the AD is not so apparent.  
 :star: In the Primary Image Plane: The FD and AD have the same effect as in the Sample Plane.   
-First: both apertures open.  
-Second: FD closed, AD open.    
-Third: FD open, AD closed.  
-Fourth: both apertures closed.  
+Top left: both apertures open.  
+Top right: FD closed, AD open.    
+Bottom left: FD open, AD closed.  
+Bottom right: both apertures closed.  
 
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_26.jpg" height="375">
@@ -258,10 +269,10 @@ The eyepiece images the PIP to the infinity, making it observable by the naked e
 
 21. **Careful!** Put a lens tissue in front of the flashlight to dim it before you look into the strong light. Then look through the eyepiece lens. Note: because the LED is very strong, the effect of the AD is not so apparent.  
 :star: With the eyepiece we observe the Sample Plane imaged on the PIP. The diaphragms will have the same effect as we observed in the previous steps.    
-First: both apertures open.  
-Second: FD closed, AD open. Here we see the issue caused by the super bright light source - we should see the image only in the very bright region and not around it.  
-Third: FD open, AD closed.  
-Fourth: both apertures closed. Here we see the issue caused by the super bright light source - we should see the image only in the very bright region and not around it.
+Top left: both apertures open.  
+Top right: FD closed, AD open. Here we see the issue caused by the super bright light source - we should see the image only in the very bright region and not around it.  
+Bottom left: FD open, AD closed.  
+Bottom right: both apertures closed. Here we see the issue caused by the super bright light source - we should see the image only in the very bright region and not around it.
 
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_32.jpg" height="375">
@@ -326,10 +337,10 @@ Because we've build our system entirely of infinite conjugates, each pair of len
 
 29. Let's have a look in the BFP, as it's imaged in the side arm.  
 :star: In the BFP the apertures have the opposite effect as in the PIP. The AD is imaged into this plane while the FD limits the angles of the illuminating rays. We also see an image of the LED in the BFP.  
-First: both apertures open.  
-Second: FD closed, AD open. The image is dimmer.     
-Third: FD open, AD closed. The illuminated area is smaller.  
-Fourth: both apertures closed.
+Top left: both apertures open.  
+Top right: FD closed, AD open. The image is dimmer.     
+Bottom left: FD open, AD closed. The illuminated area is smaller.  
+Bottom right: both apertures closed.
 
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_44.jpg" height="375">
@@ -499,8 +510,15 @@ The intensity peaks in the BFP are the diffraction orders of our sample. By plac
 ## :star: Watch the video of this experiment!
  [![UC2 YouSeeToo - Abbe Experiment Demonstration](./IMAGES/UC2_Abbe_Exp_Demonstration.jpg)](https://youtu.be/NrkINpx6IMo)
 
+Notes to the video:
+* In this demonstration of the experiment, two Alvium cameras from Allied vision are used, so we can show the PIP and BFP on the screen simultaneously
+* The optical path is different from the one described in this tutorial. This is because of the use of the above mentioned cameras
+  * The objective and eyepiece are both lenses with *f'* = 100 mm. The magnification of the microscope is therefore equal to 1. The "magnified" image is just a zoom into the camera view.
+  * Thanks to the use of a 10 mm lens as an objective, the diffraction orders in BFP are more separated and easily accessible.
+  * In the side arm, the first lens has *f'* = 100 mm and the second lens *f'* = 50 mm. The image of the BFP is therefore demagnified twice, to fit better in the field of view of the camera.
 
-**Bonus question:** This magical image was taken in the BFP with the fish net as a sample. If you tell me what created this effect, I send you a chocolate ;-)
+
+**Bonus question:** This magical image was taken by the RasPi camera in the BFP with the fish net as a sample. If you tell me what created this effect, I send you a chocolate ;-)
 <p align="center">
 <img src="./IMAGES/UC2_CourseBOX_inf_84.jpg" height="375">
 </p>
