@@ -1,0 +1,38 @@
+# UC2 with 3-holes-cubes
+
+In UC2, blocks are the key elements of each setup. All setup parts can be easily moved and
+aligned thanks to the modular UC2 block design like a piece of LEGO. The fundamental design of the unit block is cubic,
+and it has 4 holes for screws in the top and bottom surfaces. Screws connect two parts of the cube (lid and base) and
+help the cube to attach to the skeleton of the setup, the baseplate. Classical baseplate design has 4 holes in each corner for ball magnets.
+
+Let's try alternative unit block designs and try to improve stability problems of 4-holes-cube design.
+In this new block designs, 3 screw holes are used in the top and bottom surfaces of the cube instead of 4
+screws holes and two additional magnet holes are added to the base plate.
+
+*add screenshots of new designed cube: lid, base and baseplate*
+
+Luckily, we can use already printed inserts from 4-holes-cube setups. They have same dimensions and can be usable for our new cube designs.
+
+
+*add stl files of the new designed cubes*
+
+We designed new cube blocks. Let's build a simple microscope setup and see the differences between 3-holes-cube and classical UC2 4-holes-cube design.
+In a finite correction optical system, the objective lens forms an intermediate image by itself. Light passing through the objective is directed toward the intermediate
+image plane and converges at that point, undergoing constructive and destructive interference to produce an image.
+A simple finite-corrected microscope is built with a light source like LED lamp or laser, sample, lens, mirror, and
+camera (Raspberry Pi Camera Module v2) as a detector.
+
+*add pictures of real setup and rendered image of full setup from inventor*
+
+
+# Result
+
+Dreams vs. Reality
+
+Our idea behind making new design for cube block was to obtain a more stable connection between a cube block and a
+base plate with a triangular connection diagram. But in practice, this idea was impractical because of a gap between magnets and screws on the plane. Cubes were not stable on the base
+plate.
+
+# A short Message For the next UC2 Designers
+You see the beauty of UC2. We had an idea and tried that ad shared our experiences with you. UC2 is an open-source and improvable project for everybody. If you have any new idea, let's try and share your experiences with us.
+Keep dreaming and improving UC2 with next versions <3

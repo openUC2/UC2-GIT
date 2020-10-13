@@ -43,6 +43,11 @@ Even if you don't aim for research application of the setups -handle the optical
 [How to prepare the hardware of the Raspberry Pi?](https://www.instructables.com/id/Raspberry-Pi-Touchscreen-Setup/)  
 [How to start with Raspberry Pi?](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)  
 
+#### Alternative Unit Block Designs
+[Let's use different cube design with 3-holes and build a simple microscope with 3-holes-cubes!](../TUTORIALS/DOCUMENTS/UC2 with 3-holes-cubes)
+Let's try Hexagonal blocks instead of cube shape blocks!
+
+
 ## <img src="./IMAGES/TUT.png" width="40"> Tutorials
 Tutorials take you by hand through your beginnings with UC2. It's useful to get familiar with the cubes before starting building a more complex system.  
 Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie_camera: YouTube Video
