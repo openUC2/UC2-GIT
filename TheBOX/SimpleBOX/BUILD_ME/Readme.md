@@ -1,9 +1,9 @@
-# Building The SimpleBOX
+# Building The MiniBOX and SimpleBOX
 
-This is a guide for building the [SimpleBOX](../SimpleBOX). If you were looking for another BOX version, [click here](../../).
+This is a guide for building the [SimpleBOX and MiniBOX](../SimpleBOX). If you were looking for another BOX version, [click here](../../).
 
-* Total price: under 150 €
-* Printing time including preparation: under 4 days
+* Total price: under 150 € for SimpleBOX, around 80 € for MiniBOX
+* Printing time including preparation: under 4 days for SimpleBOX, under 2 days for MiniBOX
 * Assembly time: under 1 day
 
 ### Content
@@ -16,20 +16,29 @@ This is a guide for building the [SimpleBOX](../SimpleBOX). If you were looking 
 ### What to buy
 Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information! The parts here are the cheapest or easily accessible for universities, but almost everything has an alternative in Amazon!
 
-Link - name of part             |  Amount |  Comment | Price per amount used
+Link - name of part             |  Amount |  Comment | Price
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
-  3D printing material|~500 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in [3D printing section](#-3d-printing)|15 €
-  [Microscope objective 4×](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)  |  1 piece | It is possible to use 10× objective as well, but we recommend 4× for this setup.| 10 €
-  [Eyepiece 20×](https://de.aliexpress.com/item/32965050204.html?spm=a2g0o.productlist.0.0.7aa657eeefLUfu&algo_pvid=cd60fca0-3fa5-4191-9ce9-303815e2afa7&algo_expid=cd60fca0-3fa5-4191-9ce9-303815e2afa7-1&btsid=76036b58-6717-4d1f-a4a0-c3d4bacd0450&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_52)  |  1 piece | The holder is designed for an eyepiece of this diameter. Sold in pairs.|13 €
-  [Lens 100 mm](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=550.OA50)  |  2 pieces |550.OA.50|10 €
-  [Lens 50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1131)  |  1 piece |LA1131|20 €
-  [Lens 40 mm](https://optikbaukasten.de/)  |  1 piece |Artikel 2120|6 €
+  3D printing material|~260 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in [3D printing section](#-3d-printing)|8 €
+  [Microscope objective 4×](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)  |  1 piece | It is possible to use 10× objective as well, but we recommend 4× for this setup.| 11 €
+  [Lens 100 mm](https://optikbaukasten.de/)  |  1 piece |Artikel 2004|6 €
+  [Lens 40 mm](https://optikbaukasten.de/)  |  2 pieces |Artikel 2120|12 €
   [Lens -50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)  |  1 piece |LC1259|19 €
-  [Mirror](https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE)  |  2 pieces | 45 pieces package, only 2 pieces needed.|0,50 €
-  [Flashlight](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)  |  1 piece | Light source for the projector and microscope.|7 €
-  [Magnets](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)  |  84 pieces | Ball magnets, diameter 5 mm.|30 €
-  [Screws](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) |   ~120 pieces | M3×12, galvanized steel - ~50  pieces; M3×8, galvanized steel - ~50 pieces; M3×18, galvanized steel - 2 pieces; M3×30, not magnetic - 1 piece; M3 nut | ~10 €
+  [Mirror](https://www.rayher.com/de/spiegelmosaik-selbstklebend-14548606)  |  2 pieces | 45 pieces package, only 2 pieces needed.|0,50 €
+  [Magnets](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)  |  48 pieces | Ball magnets, diameter 5 mm.|total 12 €
+  [Screws](https://eshop.wuerth.de) |   ~40 pieces | (Art.-Nr. 00843  12) M3×12, galvanized steel - ~32  pieces; (Art.-Nr. 00843  8) M3×8, galvanized steel - ~3 pieces (32 pieces extra for putting screws to all sides of all cubes); (Art.-Nr. 00943  30) M3×30, not magnetic - 1 piece; (Art.-Nr. 03223) M3 nut | total ~3 €
   [Chocolate](https://prod-cd-origin.milka.de/produkte/milka-weisse-schokolade)|1 bar| Use it as a reward when you're done.
+
+Notes on screws: In order to have the screws on both sides of the cubes, you will need extra 32 pieces M3×8 screws (or M3×12).
+
+### Extra parts for SimpleBOX
+Link - name of part             |  Amount |  Comment | Price
+  :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
+  3D printing material|some more| |2-5 €
+  [Eyepiece 10×](https://de.aliexpress.com/item/32897739739.html?spm=a2g0s.9042311.0.0.466f4c4dehniSH)  |  1 piece | The holder is designed for an eyepiece of this diameter. Sold in pairs.|11 €
+  [Lens 100 mm](https://optikbaukasten.de/)  |  1 piece |Artikel 2004|6 €
+  [Flashlight](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)  |  1 piece | Light source for the projector and microscope.|7 €
+  [Screws](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) |   ~20 pieces | M3×12, galvanized steel - ~16  pieces; (M3×8, galvanized steel - 16 pieces extra for putting screws to all sides of all cubes); | total ~2 €
+  [Chocolate](https://prod-cd-origin.milka.de/produkte/milka-weisse-schokolade)|1 bar| One more won't kill you if you already ate the previous one ;-)
 
 
 ## <a href="#icon02" name="icon02"><img src="./IMAGES/P.png" height="40"></a> 3D Printing:
@@ -41,35 +50,49 @@ Our quick printing tutorial can be found here:
 
 We have a good experience with this printer and settings:
 * Prusa i3/MK3S
-  * PLA 1,75 mm, for one Box: 0,455 kg = 152,53 m = 69 hours = 13 €
+  * For MiniBOX: Prusament PLA 1,75 mm, for one Box: 0,26 g = 88 m = 38 hours = 8 €
+  * For SimpleBOX in total: Prusament PLA 1,75 mm, for one Box: 0,455 kg = 152,53 m = 69 hours = 13 €
   * Profile Optimal 0,15 mm, infill 20%, no support, 215/60°C
-  * [Hint](./IMAGES/prus_printing_SimpleBOX.pdf)
 
 
 ### <a href="#icon03" name="icon03"><img src="./IMAGES/D.png" height="40"></a>  Housing
 Name of part - Link to STL file             |  Amount
 :-------------------------:|:----------------------------:
-[(01) Basic Cube 1×1](./STL/01_10_Cube_1x1_v2.stl)  |  11 pieces
-[(02) Basic Lid 1×1](./STL/02_10_Lid_1x1_v2.stl)  |  11 pieces
-[(03) Baseplate 4×1](./STL/03_Assembly_base_4x1.stl)  |  3 pieces
-[(04) Baseplate 4×2](./STL/04_Assembly_base_4x2.stl)  |  1 piece
+[(01) Basic Cube 1×1](./STL/01_10_Cube_1x1_v2.stl)  |  8 pieces
+[(02) Basic Lid 1×1](./STL/02_10_Lid_1x1_v2.stl)  |  8 pieces
+[(03) Baseplate 4×1](./STL/03_Assembly_base_4x1.stl)  |  2 pieces
+[(04) Baseplate 4×4](./STL/04_Assembly_base_4x2.stl)  |  1 piece
 
-### <a href="#icon04" name="icon04"><img src="./IMAGES/D.png" height="40"></a> Inserts
+Note on the baseplates: As mentioned before, the MiniBOX was developed with the idea of injection molding produced cubes in mind. To perform the experiment conveniently with 3D printed baseplates, we suggest as optimal one Baseplate 4×4 and two Baseplates 4×1.
+
+### <a href="#icon05" name="icon05"><img src="./IMAGES/D.png" height="40"></a> Inserts
 
 Name of part - Link to STL file            |  Amount |  Comment
 :-------------------------:|:-------------------------:|:-------------------------:
 [(05) Z-Stage Focusing Insert and Objective Mount](./STL/05_20_focus_inlet_linearflexure_stage_objectivemount.stl)  |  1 piece  | The insert and the objective mount for RMS thread print together.
 [(06) Z-Stage Gear](./STL/06_20_gear.stl) |  1 piece   | With hexagonal hole for the nut.
-[(07) Eyepiece/flashlight mount](./STL/07_20_Cube_Insert_Holder_flashlight_eyepiece_v2.stl)  |  2 pieces | Diameter fits for the listed eyepiece and flashlight.
 [(08) Mirror Holder 45° 30×30mm²](./STL/08_20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)  |  2 pieces | Size fits for the listed mirrors.
 [(09) Generic Sample Holder](./STL/09_20_Cube_insert_Sample_holder.stl)  |  1 piece | In the SimpleBOX, it is used to hold the object in the projector setup.
 [(10) Generic Sample Holder Clamp](./STL/10_20_Cube_Insert_Sample_clamp.stl)  |  1 piece | To fix the sample.
-[(11) Smartphone Holder](./STL/11_30_Smartphone_Holder.stl)  |  1 piece | Which belongs together with the eyepiece cube.
 [(12) Lens Holder](./STL/12_UC2_Lens_insert_v2_40mm.stl)  |  1 piece | For the 40 mm lens from the shopping list.
 [(13) Lens Holder](./STL/13_UC2_Lens_insert_v2_-50mm.stl)  |  1 piece | For the 100 mm lens from the shopping list.
 [(14) Lens Holder](./STL/14_UC2_Lens_insert_v2_100mm.stl)  |  1 piece | For the -50 mm lens from the shopping list.
-[(opt) Z-Stage Sample Plate](./STL/12_30_Z_Stage_Sampleplate_8.stl) |  1 piece   | It provides the optimal spacing between the objective lens and the sample.
-[(opt) Z-Stage Sample Clamp](./STL/13_30_Sampleclamp_generic_5mmMagnets.stl)  |  1 piece | To hold the microscope slide.
+
+
+### Extra parts for SimpleBOX
+### <a href="#icon03" name="icon03"><img src="./IMAGES/D.png" height="40"></a>  Housing
+Name of part - Link to STL file             |  Amount
+:-------------------------:|:----------------------------:
+[(01) Basic Cube 1×1](./STL/01_10_Cube_1x1_v2.stl)  |  3 pieces
+[(02) Basic Lid 1×1](./STL/02_10_Lid_1x1_v2.stl)  |  3 pieces
+
+### <a href="#icon04" name="icon04"><img src="./IMAGES/D.png" height="40"></a> Inserts
+
+Name of part - Link to STL file            |  Amount |  Comment
+:-------------------------:|:-------------------------:|:-------------------------:
+[(07) Eyepiece/flashlight mount](./STL/07_20_Cube_Insert_Holder_flashlight_eyepiece_v2.stl)  |  2 pieces | Diameter fits for the listed eyepiece and flashlight.
+[(11) Smartphone Holder](./STL/11_30_Smartphone_Holder.stl)  |  1 piece | Which belongs together with the eyepiece cube.
+[(13) Lens Holder](./STL/13_UC2_Lens_insert_v2_-50mm.stl)  |  1 piece | For the 100 mm lens from the shopping list.
 
 ## <a href="#icon05" name="icon05"><img src="./IMAGES/A.png" height="40"></a> Which tools to use
 Tool             |  Image|  Comment
@@ -85,8 +108,9 @@ Part - link             |  Result|  Comment
 [Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_v2)| 5× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building different setups.
 [Mirror Cubes](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|[<img src="./IMAGES/mirror.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)| 2× Mirror Cube
 [Sample Cube](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|1× Sample Holder Cube
+[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|[<img src="./IMAGES/z-stage.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|1× mechanical Z-Stage with Sample Clamp
 [Flashlight Cube](../../../CAD/ASSEMBLY_Lens_v2)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_Lens_v2)| 1× Flashlight Cube
 [Eyepiece and Smartphone Cube](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)|[<img src="./IMAGES/smartphone.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)|1× Eyepiece Cube with Smartphone Holder mounted on it
-[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|[<img src="./IMAGES/z-stage.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|1× mechanical Z-Stage with Sample Clamp
+
 
 ## <a href="#icon07" name="icon07"><img src="./IMAGES/E_S.png" height="40"></a> Done! Great job! Explore the experiments with our [work sheets](../DOCUMENT/UC2_simpleBOX.pdf) now.
