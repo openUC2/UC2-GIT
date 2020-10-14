@@ -11,9 +11,7 @@ Unknown | 1668 450nm 80mW Blue Laser Dot Module | 22€ | [Laserlands](https://w
 Protective goggles | LP-GTY 200nm-532nm OD6+ 900n-1100nm OD5+ Laser Protective Goggles Safety Glasses | 28€| [Laserlands](https://www.laserlands.net/protection/laser-glasses/laserland/200nm-532nm-od6-900n-1100nm-od5-laser-protective-goggles-safety-glasses.html) | Yes
 Unknown | Heavy duty lasers (can be ordered from University!) | 25-100€ | [prolasersysetems](https://www.prolasersystems.com/laserman-systeme/) | Yes
 |  Unknown | Everything you want! (Diodes, Drivers, Lenses)  | 1-200€  | [dtrslasershop](https://sites.google.com/site/dtrslasershop/home/laser-drivers)  | No
-
-
-
+Ansmann Laser pointer | 2in1 red laser pointer and white LED | 5 € |[Conrad electronics](https://www.conrad.de/de/p/ansmann-laserpointer-2in1-reichweite-max-im-freifeld-50-m-2162622.html)|Yes
 
 
 

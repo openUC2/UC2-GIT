@@ -18,6 +18,7 @@ This guide currently describes how to build both the [finite-corrected version](
 
 ## <a href="#icon01" name="icon01"><img src="./IMAGES/B.png" height="40"></a> Shopping
 ### What to buy
+* Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 
 Link - name of part             |  Amount |  Comment | Price
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
@@ -33,7 +34,6 @@ Link - name of part             |  Amount |  Comment | Price
   Raspberry Pi with accessories ||Have a look in our [Bill-of-Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) for a complete list and links. | 190 €
   [Chocolate](https://prod-cd-origin.milka.de/produkte/milka-weisse-schokolade)|1 bar| Use it as a reward when you're done.
 
-* Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 
 #### 2 in 1 light source
 We propose the use of this [Laser Pointer](https://www.conrad.de/de/p/ansmann-laserpointer-2in1-reichweite-max-im-freifeld-50-m-2162622.html), because it also has a white LED. But we need to smartly adapt this for our experiments.
@@ -126,6 +126,7 @@ Prepare the Raspberry Pi following our [tutorial in UC2-Software-GIT](https://gi
 
 ## <a href="#icon01" name="icon01"><img src="./IMAGES/B.png" height="40"></a> Shopping
 ### What to buy
+* Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 
 Link - name of part             |  Amount |  Comment | Price per amount used
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
@@ -141,7 +142,6 @@ Link - name of part             |  Amount |  Comment | Price per amount used
   [Screws](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) |   ~120 pieces | M3×12, galvanized steel - ~90  pieces; M3×8, galvanized steel - ~90 pieces; M3×18, galvanized steel - 2 pieces; M3×30, not magnetic - 1 piece; M3 nut | ~15 €
   [Chocolate](https://prod-cd-origin.milka.de/produkte/milka-weisse-schokolade)|1 bar| Use it as a reward when you're done.
 
-* Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 
 ## <a href="#icon02" name="icon02"><img src="./IMAGES/P.png" height="40"></a> 3D Printing:
 
