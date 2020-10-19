@@ -2,25 +2,22 @@
 
 In UC2, blocks are the key elements of each setup. All setup parts can be easily moved and aligned thanks to the modular UC2 block design like a piece of LEGO. The fundamental design of the unit block is cubic, and it has 4 holes for screws in the top and bottom surfaces. Screws connect two parts of the cube (lid and base) and help the cube to attach to the skeleton of the setup, the baseplate. Classical baseplate design has 4 holes in each corner for ball magnets.
 
-Let's try alternative unit block designs and try to improve stability problems of 4-holes-cube design.    
+Let's try alternative unit block designs and try to improve stability problems of 4-holes-cube design.  
 
-
-<p align="middle">
+<p align="left">
 <img src="./IMAGES/3-holes-cube and 4-holes-cube.png" width="400">
 </p>
-
 
 In this new block designs, 3 screw holes are used in the top and bottom surfaces of the cube instead of 4 screws holes and two additional magnet holes are added to the base plate.  
 In (a), you see fundamental design of UC2 cube block and in (b), new designed cube block with less screw holes and more magnet holes.
 
 Luckily, we can use already printed inserts from 4-holes-cube setups. They have same dimensions and can be usable for our new cube design.
 
-
-<p align="middle">
+<p align="left">
 <img src="./IMAGES/3-holes-cube with inserts.png" width="400">
 </p>
 
-
+__*add stl files of the new designed cubes*__
 
 You can find .stl files of baseplate, cube lid and cube base of 3-holes-cube block [here.](./DESIGNS)
 
@@ -32,13 +29,13 @@ camera (Raspberry Pi Camera Module v2) as a detector.
 
 You can see simple microscope setup in Inventor as rendered image.
 
-<p align="middle">
+<p align="left">
 <img src="./IMAGES/Assembly_SimpleMicroscope_T1_full_2.png" width="400">
 </p>
 
 And let's build a real Setup!
 
-<p align="middle">
+<p align="left">
 <img src="./IMAGES/Simple Microscope experiment with 3-holes-cube.JPG" width="400">
 </p>
 

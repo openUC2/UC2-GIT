@@ -44,8 +44,9 @@ Even if you don't aim for research application of the setups -handle the optical
 [How to start with Raspberry Pi?](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)  
 
 #### Alternative Unit Block Designs
-Let's use different cube design with 3-holes and build a simple microscope with them.  
-Let's try hexagonal blocks instead of cube shape blocks!
+[Let's use different cube design with 3-holes and build a simple microscope with them.](./DOCUMENTS/UC2 with 3-holes-cubes/Readme.md)    
+[Let's try hexagonal blocks instead of cube shape blocks!](./DOCUMENTS/UC2 with Hexagonal Block/Readme.md)
+
 
 
 ## <img src="./IMAGES/TUT.png" width="40"> Tutorials
