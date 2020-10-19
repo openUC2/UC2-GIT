@@ -1,6 +1,47 @@
-# UC2 with 3-holes-cubes
+# UC2 with Hexagonal Unit Block
 
-In UC2, blocks are the key elements of each setup. All setup parts can be easily moved and aligned thanks to the modular UC2 block design like a piece of LEGO. The fundamental design of the unit block is cubic, and it has 4 holes for screws in the top and bottom surfaces. Screws connect two parts of the cube (lid and base) and help the cube to attach to the skeleton of the setup, the baseplate. Classical baseplate design has 4 holes in each corner for ball magnets.
+Unit blocks are the key elements of each setup. All setup parts can be easily moved and aligned thanks to the modular UC2 block design like a piece of LEGO. The fundamental design of the unit block is cubic. But in this section, we used the hexagonal shape for the unit block design of the optical setups.  
+The idea behind applying a hexagonal honeycomb shape is that the stability of such an optical setup yields a better result.
+
+__Honeycomb structures__ are inspired by bee honeycombs. The way bees build hives is to provide maximum cell space by using a minimal amount of beeswax, indicating that the hexagonal honeycomb
+structure is the most stable for nature. To sum up, application areas of honeycomb structures are architecture, aviation, space, transportation, mechanical engineering, chemical engineering, nanofabrication, and biomedicine such as tissue engineering and regenerative medicine [1].
+
+Three corners of the top and bottom surfaces of the hexagonal block have holes for screws and they are placed in the corner of an equilateral triangle. A three-point connection is used for designing and it gives a better result in hexagonal structure than the cube structure.
+
+<p align="center">
+<img src="./IMAGES/" width="400">
+</p>
+
+You see two different hexagonal shape design above. In (a), the distance between two corners is the same as one side length of cube (50 mm) but the total space inside the hexagon is decreased and it caused some problems like unmatched optical components like the Thorlab Eyepiece lens and flashlight lamp.  
+In (b), some changes are made on the (a), and problems are solved.
+
+
+You see hexagonal insert designs below: LED holder (a), sample holder (b),  mirror holder(c), sample holder (d) version 2, Raspberry Pi camera holder (e), and objective lens holder (f).
+
+<p align="center">
+<img src="./IMAGES/Hexagonal block with inserts -v1.png" width="400">
+</p>
+
+
+
+
+# *continue editing*
+
+In Figure 8, inserts are assembled with the hexagon base, hexagon lid, and hexagon base plate.
+Cubes represent LED holder (a), sample holder (b), mirror holder (c), sample holder-version 2
+(d), Raspberry Pi camera holder (e), an objective lens (f), respectively.
+
+<p align="center">
+<img src="./IMAGES/Hexagonal block with inserts -v1.png" width="400">
+</p>
+
+
+
+After ending up the design of hexagon blocks and related inserts, a Simple Microscope setup is built for testing new designs and compared them with original cubic design.
+
+*add simple microscope setup rendered and real *
+
+
 
 Let's try alternative unit block designs and try to improve stability problems of 4-holes-cube design.  
 
@@ -47,17 +88,25 @@ And let's build a real Setup!
 Our idea behind having a new design for cube block was to obtain a more stable connection between a cube block and a base plate with a triangular connection diagram.  
 But in practice, this idea was impractical because;
 
-
-+ The location of the screws cannot create a stable connection between cube and plate. Because magnets are located in a triangular shape.  
-In practice, magnets generate a gap from the plate through the cube.  In the attachment points, it does not create a problem but in screw-free points, the gap between plate and cube breaks the stability of the system. When we touch the screw-free corners, the cube moves up and down.
-
-+ To connect lid and base we must use an additional two setscrews. Otherwise, they will not attach properly.
-
 + 6 magnets were used instead of 4 magnets for each base plate.
   + It increases the total cost of the setup.
-  + When we print more than 1 base plate like 2, 3, or more, magnets can be a problem in the corners where 3 or 4 magnets are located next to each other. Neighbor magnets break the good connection link, while the cube attaches to the plate.
+  + When I printed more than 1 base plate like 2, 3, or more, magnets can be a problem in the corners where 3 or 4 magnets are located next to each other. Neighbor magnets break the good connection link, while the cube attaches to the plate.
+
++ In the 2nd task, some optical components could not fit into the hexagon block like LED light source (flashlight), some objectives, and some Thorlab lenses. Therefore, I made new designs for unmatched components in Task 2. The LED light holder design.
++ In the 2nd task, the total area of the inside of the hexagon is smaller than the cube block. The size of the cube base part for 4 different tasks can be seen clearly in Figure 14. Side length
+is 50 mm for Task 1, the distance between 2 edges is 50 mm but the longest distance is 58 mm for Tasks 2 and 3.
+
++ In the 2nd and 3rd tasks, hexagonal blocks could be used only on XY-plane horizontally. In the cube block system (1st task), cube blocks can be used XY- plane, and Z-plane together. And the same insert element of the block can be used horizontally and vertically.
+
++ In the 2nd and 3rd tasks, insert parts can not be moved inside the hexagon block. Because of this unlimited design property, newly designed inserts can be used in the setup. These inserts
+are used without hexagon block base and lid parts.
+
 
 ### A short Message For the next UC2 Designers
 You see the beauty of UC2. We had an idea and tried it and shared our experiences with you.   
 UC2 is an open-source and improvable project for everybody. If you have any new idea, let's try and share your experiences with us.  
 Keep dreaming and improving UC2 with next versions.
+
+### Reference
+
+[1] Honeycomb reference: Zhang, Q., Yang, X., Li, P., Huang, G., Feng, S., Shen, C., Han, B., Zhang, X., Jin, F., Xu, F., & Lu, T. J. (2015). Bioinspired engineering of honeycomb structure – Using nature to inspire human innovation. Progress in Materials Science, 74, 332–400. https://doi.org/10.1016/j.pmatsci.2015.05.001

@@ -45,8 +45,10 @@ Even if you don't aim for research application of the setups -handle the optical
 
 #### Alternative Unit Block Designs
 
-[Let's use different cube design with 3-holes and build a simple microscope with them.](./DOCUMENTS/UC2%20with%203-holes-cubes)  
-[Let's try hexagonal blocks instead of cube shape blocks!](./DOCUMENTS/UC2%20with%20Hexagonal%20Block)
+The UC2 cubes and baseplate system from some instability coming from the  4-point attachment design, as this is an over-determined connection. We tried other designs that should in theory be better. But were they?
+
+Have a look in the following section to find out [cube design with 3-holes and build a simple microscope with them](./DOCUMENTS/UC2%20with%203-holes-cubes)  and
+[hexagonal blocks instead of cube shape blocks.](./DOCUMENTS/UC2%20with%20Hexagonal%20Block)
 
 
 ## <img src="./IMAGES/TUT.png" width="40"> Tutorials
