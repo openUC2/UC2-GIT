@@ -6,79 +6,79 @@ The idea behind applying a hexagonal honeycomb shape is that the stability of su
 __Honeycomb structures__ are inspired by bee honeycombs. The way bees build hives is to provide maximum cell space by using a minimal amount of beeswax, indicating that the hexagonal honeycomb
 structure is the most stable for nature. To sum up, application areas of honeycomb structures are architecture, aviation, space, transportation, mechanical engineering, chemical engineering, nanofabrication, and biomedicine such as tissue engineering and regenerative medicine [1].
 
-Three corners of the top and bottom surfaces of the hexagonal block have holes for screws and they are placed in the corner of an equilateral triangle. A three-point connection is used for designing and it gives a better result in hexagonal structure than the cube structure.
 
 <p align="center">
-<img src="./IMAGES/" width="400">
-</p>
-
-You see two different hexagonal shape design above. In (a), the distance between two corners is the same as one side length of cube (50 mm) but the total space inside the hexagon is decreased and it caused some problems like unmatched optical components like the Thorlab Eyepiece lens and flashlight lamp.  
-In (b), some changes are made on the (a), and problems are solved.
-
-
-You see hexagonal insert designs below: LED holder (a), sample holder (b),  mirror holder(c), sample holder (d) version 2, Raspberry Pi camera holder (e), and objective lens holder (f).
-
-<p align="center">
-<img src="./IMAGES/Hexagonal block with inserts -v1.png" width="400">
+<img src="./IMAGES/Hexagon blocks 1 and 2.png" width="400">
 </p>
 
 
+You see two different hexagonal shape design above.   
+Three corners of the top and bottom surfaces of the hexagonal block have holes for screws and they are placed in the corner of an equilateral triangle. A three-point connection is used for designing and it gives a better result in hexagonal structure than the cube structure.  
+In (a), the distance between two corners is the same as one side length of cube (50 mm) but the total space inside the hexagon is decreased and it caused some problems like unmatched optical components like the Thorlab Eyepiece lens and flashlight lamp.  
+In (b), some changes are made on the (a), and previous problems are solved.
 
 
-# *continue editing*
+Time to make insert designs.There are hexagonal insert designs version 1 below: LED holder (a), sample holder (b),  mirror holder(c), sample holder version 2 (d), Raspberry Pi camera holder (e), and objective lens holder (f).
 
-In Figure 8, inserts are assembled with the hexagon base, hexagon lid, and hexagon base plate.
-Cubes represent LED holder (a), sample holder (b), mirror holder (c), sample holder-version 2
-(d), Raspberry Pi camera holder (e), an objective lens (f), respectively.
-
+</p>
 <p align="center">
 <img src="./IMAGES/Hexagonal block with inserts -v1.png" width="400">
 </p>
 
 
-
-After ending up the design of hexagon blocks and related inserts, a Simple Microscope setup is built for testing new designs and compared them with original cubic design.
-
-*add simple microscope setup rendered and real *
-
-
-
-Let's try alternative unit block designs and try to improve stability problems of 4-holes-cube design.  
-
-<p align="left">
-<img src="./IMAGES/3-holes-cube and 4-holes-cube.png" width="400">
-</p>
-
-In this new block designs, 3 screw holes are used in the top and bottom surfaces of the cube instead of 4 screws holes and two additional magnet holes are added to the base plate.  
-In (a), you see fundamental design of UC2 cube block and in (b), new designed cube block with less screw holes and more magnet holes.
-
-Luckily, we can use already printed inserts from 4-holes-cube setups. They have same dimensions and can be usable for our new cube design.
-
-<p align="left">
-<img src="./IMAGES/3-holes-cube with inserts.png" width="400">
-</p>
-
-__*add stl files of the new designed cubes*__
-
-You can find .stl files of baseplate, cube lid and cube base of 3-holes-cube block [here.](./DESIGNS)
-
-We designed new cube blocks. Let's build a simple microscope setup and see the differences between 3-holes-cube and classical UC2 4-holes-cube design.  
+After ending up the design of hexagon blocks and related inserts, a Simple Microscope setup is built for testing new designs and compared them with original cubic design.  
 In a finite correction optical system, the objective lens forms an intermediate image by itself. Light passing through the objective is directed toward the intermediate
-image plane and converges at that point, undergoing constructive and destructive interference to produce an image.
-A simple finite-corrected microscope is built with a light source like LED lamp or laser, sample, lens, mirror, and
+image plane and converges at that point, undergoing constructive and destructive interference to produce an image.  
+__A simple finite-corrected microscope__ is built with a light source like LED lamp or laser, sample, lens, mirror, and
 camera (Raspberry Pi Camera Module v2) as a detector.
 
-You can see simple microscope setup in Inventor as rendered image.
+Let's build Simple Microscope for Hexagonal block version 1.
 
-<p align="left">
-<img src="./IMAGES/Assembly_SimpleMicroscope_T1_full_2.png" width="400">
+*In the world of machines:*
+
+</p>
+<p align="center">
+<img src="./IMAGES/Assembly_hexagon_SimpleMicroscope_T2_2.png" width="400">
 </p>
 
-And let's build a real Setup!
+*And in the world of homo sapience:*
 
-<p align="left">
-<img src="./IMAGES/Simple Microscope experiment with 3-holes-cube.JPG" width="400">
 </p>
+<p align="center">
+<img src="./IMAGES/hexagonal simple microscope setup.jpg" width="400">
+</p>
+
+The idea behind applying a hexagonal honeycomb shape is that the stability of optical setup acquired as a better result and six vertical surfaces are used in one setup with a trouble-free harmony.
+And this motivation created Hexagonal block unit version 1. After testing version 1, we made some changes on it and solved some of problems.  
+
+And ta-da! *Hexagonal Block version 2* was born.
+
+
+In this design, six lateral surfaces of a hexagon can be used at the same time. Additionally, design is changed to recover the reduced space of the hexagon inside with hexagon base block with 3 pillars (legs) instead of 6. 6-pillars-base and 3-pillars-base can be used together in one system.  
+In the base plate, there are still 6 magnets, but their location is changed.   
+In the hexagonal base,there are 6 screws instead of 3 because the block can be spin around with 60-degree steps. Three different connection positions exist for one block on this base plate.  
+
+
+</p>
+<p align="center">
+<img src="./IMAGES/hexagonal block version 2.png" width="400">
+</p>
+
+Image in the above includes 3 different attached options from different points of view. In the top and middle row, we see that block can be used in one position for two different angles. In the bottom row, the block can attach
+to a different location with a half-a-unit shift of 25 mm.   
+When 3 base plates are connected, a
+new connection option for the hexagon block is obtained on this connection point of base plates.
+
+Time to see version 2 blocks in real world:
+
+
+</p>
+<p align="center">
+<img src="./IMAGES/Hexagonal v2 printed parts.png" width="400">
+</p>
+
+
+You can find .stl files of baseplate, cube lid and cube base of hexgaonal unit block version 1 designs [here.](./DESIGNS/version 1) and version 2 [here.](./DESIGNS/version 2)
 
 
 ### Result
@@ -90,22 +90,39 @@ But in practice, this idea was impractical because;
 
 + 6 magnets were used instead of 4 magnets for each base plate.
   + It increases the total cost of the setup.
-  + When I printed more than 1 base plate like 2, 3, or more, magnets can be a problem in the corners where 3 or 4 magnets are located next to each other. Neighbor magnets break the good connection link, while the cube attaches to the plate.
+  + When we print 4×1, 4×2, 4×4 base plates, magnets create a problem in the corners where 3 or 4 magnets are located next to each other. Neighbor magnets break the good connection link, while the cube attaches to the plate.
 
-+ In the 2nd task, some optical components could not fit into the hexagon block like LED light source (flashlight), some objectives, and some Thorlab lenses. Therefore, I made new designs for unmatched components in Task 2. The LED light holder design.
-+ In the 2nd task, the total area of the inside of the hexagon is smaller than the cube block. The size of the cube base part for 4 different tasks can be seen clearly in Figure 14. Side length
-is 50 mm for Task 1, the distance between 2 edges is 50 mm but the longest distance is 58 mm for Tasks 2 and 3.
+  </p>
+  <p align="center">
+  <img src="./IMAGES/1-base plat problem.png" width="400">
+  </p>
 
-+ In the 2nd and 3rd tasks, hexagonal blocks could be used only on XY-plane horizontally. In the cube block system (1st task), cube blocks can be used XY- plane, and Z-plane together. And the same insert element of the block can be used horizontally and vertically.
 
-+ In the 2nd and 3rd tasks, insert parts can not be moved inside the hexagon block. Because of this unlimited design property, newly designed inserts can be used in the setup. These inserts
-are used without hexagon block base and lid parts.
+  + It is really hard to insert some of the magnets into its places.
+
++ In the version 1, some optical components could not fit into the hexagon block like LED light source (flashlight), some objectives, and some Thorlab lenses. Therefore,new designs for unmatched components are made like LED light holder design.
+</p>
+<p align="center">
+<img src="./IMAGES/hexagonal flashlight.JPG" width="400">
+</p>
+
++ In the version 1, the total inside area of the hexagon is smaller than the fundamental cube block. The size of the cube base part for 3 different designs can be seen clearly below. Side length is 50 mm for fundamental cube block (a), the distance between 2 edges is 50 mm but the longest distance is 58 mm for hexagonal block designs version 1 and 2.
+</p>
+<p align="center">
+<img src="./IMAGES/Base plate dimensions.png" width="400">
+</p>
+
+
++ Hexagonal blocks could be used only on XY-plane horizontally. In the cube block system, cube blocks can be used XY-plane, and Z-plane together. And the same insert element of the block can be used horizontally and vertically.
+
++ Insert parts can not be moved inside the hexagon block. Because of this unlimited design property, newly designed inserts can be used in the setup. These inserts are used without hexagon block base and lid parts.
 
 
 ### A short Message For the next UC2 Designers
+:juggling_person:  
 You see the beauty of UC2. We had an idea and tried it and shared our experiences with you.   
 UC2 is an open-source and improvable project for everybody. If you have any new idea, let's try and share your experiences with us.  
-Keep dreaming and improving UC2 with next versions.
+Keep dreaming and improving UC2 with next versions.  :heart:
 
 ### Reference
 

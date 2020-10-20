@@ -4,7 +4,7 @@ In UC2, blocks are the key elements of each setup. All setup parts can be easily
 
 Let's try alternative unit block designs and try to improve stability problems of 4-holes-cube design.    
 
-
+</p>
 <p align="center">
 <img src="./IMAGES/3-holes-cube and 4-holes-cube.png" width="400">
 </p>
@@ -15,13 +15,10 @@ In (a), you see fundamental design of UC2 cube block and in (b), new designed cu
 
 Luckily, you use already printed inserts from 4-holes-cube setups. They have same dimensions and are usable for our new cube design.
 
-
-
+</p>
 <p align="center">
 <img src="./IMAGES/3-holes-cube with inserts.png" width="400">
 </p>
-
-
 
 You will find .stl files of baseplate, cube lid and cube base of 3-holes-cube block [here.](./DESIGNS)
 
@@ -32,7 +29,6 @@ A simple finite-corrected microscope is built with a light source like LED lamp 
 camera (Raspberry Pi Camera Module v2) as a detector.
 
 You see simple microscope setup below as rendered image from Inventor.
-
 
 <p align="center">
 <img src="./IMAGES/Assembly_SimpleMicroscope_T1_full_2.png" width="400">
@@ -71,7 +67,7 @@ In practice, magnets generate a gap from the plate through the cube. In the atta
   + It increases the total cost of the setup.
   + When we print 4×1, 4×2, 4×4 base plates, magnets create a problem in the corners where 3 or 4 magnets are located next to each other. Neighbor magnets break the good connection link, while the cube attaches to the plate.
 
-
+  </p>
   <p align="center">
   <img src="./IMAGES/1-base plate problem.png" width="400">
   </p>
