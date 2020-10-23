@@ -1,6 +1,11 @@
 # Polar BOX
 
-The PolarBOX is an UC2 toolbox that can be built 10 different polarization experiments.
+The PolarBOX is an UC2 toolbox that can be built 10 different polarization experiments with 3D printed blocks. You just need basic and cheap components for preparing your own polarBOX.  
+
+*What is the polarization of the light?*
+
+Light is
+
 
 *more explanation please*
 *add box photo here*
@@ -21,8 +26,6 @@ __*correct after here*__
 
 
 
-
- Simple one lens projector. Direct illumination. 4× magnification for *f(L)* = +40 mm, object to lens 50 mm and lens to screen 200 mm.
 <p align="center">
 <img src="./IMAGES/" width="640">
 </p>
