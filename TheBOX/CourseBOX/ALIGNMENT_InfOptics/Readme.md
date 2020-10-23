@@ -512,6 +512,7 @@ The intensity peaks in the BFP are the diffraction orders of our sample. By plac
 
 Notes to the video:
 * In this demonstration of the experiment, two Alvium cameras from Allied vision are used, so we can show the PIP and BFP on the screen simultaneously
+  * Find the cubes for the Alvium cameras [here](../../../CAD/ASSEMBLY_CUBE_AlliedVision_Alvium) anch choose the adjustable insert for easy alignment.
 * The optical path is different from the one described in this tutorial. This is because of the use of the above mentioned cameras
   * The objective and eyepiece are both lenses with *f'* = 100 mm. The magnification of the microscope is therefore equal to 1. The "magnified" image is just a zoom into the camera view.
   * Thanks to the use of a 10 mm lens as an objective, the diffraction orders in BFP are more separated and easily accessible.
