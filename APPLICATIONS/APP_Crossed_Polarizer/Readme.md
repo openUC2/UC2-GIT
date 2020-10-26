@@ -5,6 +5,8 @@
 width="450">
 </p>
 
+Crossed Polarizers is used to analyze the polarization of light.
+Two linear polarizers are located perpendicular to each other. 
 
 ## <img src="./IMAGES/D.png" width="40">Parts
 
