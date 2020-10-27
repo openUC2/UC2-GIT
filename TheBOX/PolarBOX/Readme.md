@@ -27,7 +27,7 @@ Which experiments can we build with this box? Let's see!
 [LINK](../../APPLICATIONS/APP_Crossed_Polarizer)
 
 <p align="center">
-<img src="./IMAGES/crossed polarizer_3.png" width="640">
+<img src="./IMAGES/Crossed Polarizer Diagram.png" width="640">
 </p>
 
 
@@ -35,23 +35,46 @@ Which experiments can we build with this box? Let's see!
 ### 2. 3 Polarizers
 [LINK](../../APPLICATIONS/APP_3_Polarizers)
 
-__*correct after here*__
+<p align="center">
+<img src="./IMAGES/3 Polarizers Diagram.png" width="640">
+</p>
+
 
 ### 3. Circular Polarizer
 [LINK](../../APPLICATIONS/APP_Circular_Polarizer)
 
+<p align="center">
+<img src="./IMAGES/Circular Polarizer Diagram.png" width="640">
+</p>
+
+__*correct after here*__
 ### 4. Polarization of light using optically active solution
-[LINK](../../APPLICATIONS/APP_)
-*I didn't add folder in APPLICATIONS*
+[LINK](../../APPLICATIONS/APP_Polarization_using_optically_active_solution)
+
+<p align="center">
+<a href="#"><img src="./IMAGES/" width="400"></a>
+</p>
 
 ### 5. Brewster Angle Cube
 [LINK](../../APPLICATIONS/APP_Brewster_Angle_Cube_Experiment)
 
+<p align="center">
+<img src="./IMAGES/Brewster angle experiment.png" width="640">
+</p>
+
 ### 6. Newton’s Rings Experiment
 [LINK](../../APPLICATIONS/APP_Newton’s_Rings_Experiment)
 
+<p align="center">
+<a href="#"><img src="./IMAGES/" width="400"></a>
+</p>
+
 ### 7. Stress Birefringence
 [LINK](../../APPLICATIONS/APP_Stress_Birefringence)
+
+<p align="center">
+<img src="./IMAGES/Stress Birefriengce.png" width="640">
+</p>
 
 ### 8. Many Microscope Slides
 [LINK](../../APPLICATIONS/APP_)
