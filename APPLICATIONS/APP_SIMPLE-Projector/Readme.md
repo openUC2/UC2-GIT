@@ -26,7 +26,7 @@ We developed a very easy-to-use setup to demonstrate single lens imaging and mag
 * 1x [Sample Holder Clamp](./STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl)
 * 1× [Flashlight Holder](./STL/20_Cube_Insert_Holder-flashlight_v2.stl) - the diameter works for the flashlight linked in the additional components
 
-In the [STL](./STL) folder you find lens holders for a thin lens with diameter of 1 inch. When using a different lens, please follow our [Tutorial: Design your own Lens Holder](../../CAD/ASSEMBLY_CUBE_Lens_v2/STL#design-your-own-lens-holder).
+In the [STL](./STL) folder you find lens holders for a thin lens with diameter of 1 inch. When using a different lens, please follow our [Tutorial: Design your own Lens Holder](../../CAD/ASSEMBLY_CUBE_Lens_v2/OPENSCAD#design-your-own-lens-holder).
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
@@ -61,7 +61,7 @@ When using a lens as a projecor, the image is always inverted, magnified and rea
 The projector is also a part of the [SimpleBOX](../../TheBOX/SimpleBOX). Find out more about in the [SimpleBOX manuals](../../../TheBOX/SimpleBOX/DOCUMENTS)
 
 ## <img src="./IMAGES/E.png" width="40"> Results
-None yet. Be the first to share yours! 
+None yet. Be the first to share yours!
 
 ## <img src="./IMAGES/S.png" width="40"> Participate!
 

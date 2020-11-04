@@ -27,6 +27,7 @@ The Cube consists of the following components.
 * **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Camera Insert** which holds the camera and makes it adaptable to the base-cube ([INSERT](./STL/20_Cube_insert_AlliedVision_Alvium.stl))
+* *OR* **The Adjustable Camera Insert** which holds the camera and makes it adaptable to the base-cube and makes it possible to slide it throught the cube and fix its position with screws ([INSERT](./STL/20_Cube_insert_AlliedVision_Alvium_adjustable.stl))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!

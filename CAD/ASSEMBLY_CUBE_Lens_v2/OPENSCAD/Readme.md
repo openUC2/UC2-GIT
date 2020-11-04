@@ -7,7 +7,7 @@ Note: This holder is a bit different from the one we designed in Inventor - and 
 </p>
 
 ### Using Thingiverse customizer
-Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert
+Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert. Ufortunately, the Thingiverse Customizer is for some time already not working in Google Chrome and Safari. Use a different browser to use the Customizer. 
 <p align=center>
 <img src="../IMAGES/UC2_lens_holder_customizer.jpeg" width=500>
 </p>

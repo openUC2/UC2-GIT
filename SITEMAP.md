@@ -1,4 +1,4 @@
-# <img src="./IMAGES/signpost.png" width=40> Site map for easy navigation
+# <a href="#icon01" name="icon01"><img src="./IMAGES/signpost.png" width=40></a> Site map for easy navigation
 
 ## [Main page with the story of UC2](./Readme.md)
 
