@@ -94,6 +94,26 @@ Parts to print:
 This will come in the future.
 
 
+### Install the Anybeam Nebra with the Raspberry Pi
+
+Open the file ```/boot/config.txt``` and add the following lines:
+
+```
+# Additional overlays and parameters are documented /boot/overlays/README
+dtoverlay=dpi24
+overscan_left=0
+overscan_right=0
+overscan_top=0
+overscan_bottom=0
+framebuffer_width=1280
+framebuffer_height=720
+enable_dpi_lcd=1
+display_default_lcd=1
+dpi_group=2
+dpi_mode=85
+dpi_output_format=0x070027
+```
+
 
 ## Further reading
 
