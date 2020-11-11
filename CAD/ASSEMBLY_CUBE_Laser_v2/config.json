@@ -16,67 +16,67 @@
             "n_parts": 1.0
         },
         {
-            "name": "10_Cube_1x1",
+            "name": "10_Lid_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
             "image": "",
-            "price": 0.4,
+            "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "10_Cube_1x1",
+            "name": "Screws M3x12",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
             "image": "",
-            "price": 0.4,
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "Screws M3x8 (optional)",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "20_Cube_Insert_Laser_Mount",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Laser_v2/STL/20_Cube_Insert_Laser_Mount.stl",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 2.0
+        },
+        {
+            "name": "00_Laser_Clamp_OnOffSwitch",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Laser_v2/STL/00_Laser_Clamp_OnOffSwitch.stl",
+            "image": "",
+            "price": 0.0,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "10_Cube_1x1",
+            "name": "Blue laser pointer, 445 nm",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "https://www.laserlands.net/11040037.html",
             "image": "",
-            "price": 0.4,
-            "is_printable": true,
+            "price": 14.8,
+            "is_printable": false,
             "n_parts": 1.0
         },
         {
-            "name": "10_Cube_1x1",
+            "name": "Screws M3x18",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/",
             "image": "",
-            "price": 0.4,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "10_Cube_1x1",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
-            "image": "",
-            "price": 0.4,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "10_Cube_1x1",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
-            "image": "",
-            "price": 0.4,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "10_Cube_1x1",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
-            "image": "",
-            "price": 0.4,
-            "is_printable": true,
-            "n_parts": 1.0
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
         }
     ]
 }

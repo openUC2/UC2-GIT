@@ -253,7 +253,7 @@ We also want to build a json file directly!
 
 
 
-for i_application in range(10,100):
+for i_application in range(10,100):# range(10,100):
 
     # read application properties
     if i_application >= worksheet.ncols: break
@@ -341,7 +341,7 @@ for i_module in range(len(all_modules)):
     
     my_partslist = []
     for i_part in range(n_parts):
-        my_partslist.append(my_module.partslist[0].__dict__)
+        my_partslist.append(my_module.partslist[i_part].__dict__)
 
     # add all parts to the module again.
     my_module_json['partslist'] = json.loads(json.dumps(my_partslist))
