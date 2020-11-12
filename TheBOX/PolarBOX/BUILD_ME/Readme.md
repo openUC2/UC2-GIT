@@ -1,4 +1,4 @@
-# Building The CourseBOX
+# Building The polarBOX
 
 This is a guide for building the [polarBOX](../polarBOX). If you were looking for another BOX version, [click here](../../).
 

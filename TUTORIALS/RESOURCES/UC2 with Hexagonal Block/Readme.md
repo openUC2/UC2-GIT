@@ -78,7 +78,7 @@ Time to see version 2 blocks in real world:
 </p>
 
 
-You can find .stl files of baseplate, cube lid and cube base of hexgaonal unit block version 1 designs [here.](./DESIGNS/version 1) and version 2 [here.](./DESIGNS/version 2)
+You can find .stl files of baseplate, cube lid and cube base of hexgaonal unit block version 1 designs [here](./STL/version_1) and version 2 [here.](./STL/version_2)
 
 
 ### Result

@@ -20,7 +20,7 @@ Luckily, you use already printed inserts from 4-holes-cube setups. They have sam
 <img src="./IMAGES/3-holes-cube with inserts.png" width="400">
 </p>
 
-You will find .stl files of baseplate, cube lid and cube base of 3-holes-cube block [here.](./DESIGNS)
+You will find .stl files of baseplate, cube lid and cube base of 3-holes-cube block [here.](./STL)
 
 We designed new cube blocks. Let's build a simple microscope setup and see the differences between 3-holes-cube and classical UC2 4-holes-cube design.  
 In a finite correction optical system, the objective lens forms an intermediate image by itself. Light passing through the objective is directed toward the intermediate
