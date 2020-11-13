@@ -4,9 +4,7 @@
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_Double-slit_Experiment",
     "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Double-slit_Experiment/IMAGES/UC2_Setups_13_Double-slit.png?raw=true",
     "price": 0,
-    "type": [
-        "application"
-    ],
+    "type": "application",
     "modules": [
         {
             "name": "ASSEMBLY_Baseplate 4x11",

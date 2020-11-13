@@ -4,9 +4,7 @@
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_SIMPLE-Telescope",
     "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SIMPLE-Telescope/IMAGES/Assembly_simple_Telescope.png?raw=true",
     "price": 0,
-    "type": [
-        "application"
-    ],
+    "type": "application",
     "modules": [
         {
             "name": "ASSEMBLY_Baseplate 4x11",

@@ -4,9 +4,7 @@
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/mechanical",
     "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/IMAGES/Application_simple_smartphone_microscope_v2.png?raw=true",
     "price": 0,
-    "type": [
-        "application"
-    ],
+    "type": "application",
     "modules": [
         {
             "name": "ASSEMBLY_Baseplate 4x2",

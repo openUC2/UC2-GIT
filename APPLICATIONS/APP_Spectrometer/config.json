@@ -4,9 +4,7 @@
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_Spectrometer",
     "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Spectrometer/IMAGES/UC2_Setups_10_spectrometer.png?raw=true",
     "price": 0,
-    "type": [
-        "application"
-    ],
+    "type": "application",
     "modules": [
         {
             "name": "ASSEMBLY_Baseplate 4x4",
