@@ -32,6 +32,8 @@ Unknown | Microscope Eyepiece 20×, sold in pairs | 26€ | [Aliexpress](https:/
 
 
 ### Lenses
+Lenses are in general a troubled topic, even for us and we're constantly looking for sources of good but cheap lenses that fit our requirements. In German university environment, we mostly order from Optikbaukasten, Astromedia and of course Thorlabs. Recently we found a Canadian company Ajax Scientific, which has a very good offer but the shipping is a bit of a problem there. You can of course use any whatsoever lens that you have at hand or find at Ebay or Amazon, you can print a holder from the Lens holder on [Thingiverse](https://www.thingiverse.com/thing:4377691) - you open the part in Customiser, enter the diameter, edge thickness and focal length value and generate an STL for your lens. Make sure to use the right focal length for your experiment. 
+
 |  Name | Properties  |  Price | Link  |
 |---|---|---|---|
 | Convex  |  Various |  1-10 € | [Optik Baukasten](http://optik-baukasten.de/)  |
@@ -55,7 +57,7 @@ LC1259 | planoconcave, f'=-50mm, 25 mm, used in SimpleBOX, telescopes | 19€ | 
 | Positive/Negative  |  Plastic and Glass lenses |  5-10 € | [Astromedia](https://www.pgi-versand.de/?id=47&mode=artlist&kat=69)
 smartphone camera Lens |iPhone 5 | 5€ | [Ebay](https://www.ebay.com/itm/For-iPhone-5-Back-Camera-Replacement-Rear-Facing-Camera-With-Flash-LED/271905852188?hash=item3f4eda0b1c:g:NzYAAOSwa39UuBni)
 | Generic | Bi-convex | 1-9€ | [Ajax Scientific](https://ajaxscientific.com/product/bi-convex-lens/?attribute_pa_diameter=38mm&attribute_pa_focal-length=05cm) |
-| Generic | Bi-concave | 1-3€ | [Ajax Scientific](https://ajaxscientific.com/product/bi-concave-lens/?attribute_pa_diameter=38mm&attribute_pa_focal-length=05cm) | 
+| Generic | Bi-concave | 1-3€ | [Ajax Scientific](https://ajaxscientific.com/product/bi-concave-lens/?attribute_pa_diameter=38mm&attribute_pa_focal-length=05cm) |
 
 
 ### Mirrors and Others
