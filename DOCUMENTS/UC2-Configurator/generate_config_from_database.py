@@ -341,7 +341,7 @@ for i_module in range(len(all_modules)):
     
     my_partslist = []
     for i_part in range(n_parts):
-        my_partslist.append(my_module.partslist[i_part].__dict__)
+        my_partsdesclist.append(my_module.partslist[i_part].__dict__)
 
     # add all parts to the module again.
     my_module_json['partslist'] = json.loads(json.dumps(my_partslist))
