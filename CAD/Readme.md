@@ -62,6 +62,10 @@ Link             |  Image of the part
 [Thorlabs Adapter](./ASSEMBLY_CUBE_Thorlabs_v2) | [<img src="./ASSEMBLY_CUBE_Thorlabs_v2/IMAGES/Assembly_Cube_Thorlabs_v2.png" width=200>](./ASSEMBLY_CUBE_Thorlabs_v2)
 [Z-Stage + Fluomodule](./ASSEMBLY_CUBE_Z-STAGE_v2) | [<img src="./ASSEMBLY_CUBE_Z-STAGE_v2/IMAGES/Assembly_Z_Focus_Linearbearing_v0_with_fluomodule.png" width=250>](./ASSEMBLY_CUBE_Z-STAGE_v2)
 [XYZ-Stage v0](./ASSEMBLY_XYZ-STAGE) | [<img src="./ASSEMBLY_XYZ-STAGE/IMAGES/Assembly_cube_double_Zfocus.png" width=300>](./ASSEMBLY_XYZ-STAGE)
+[Z-Stage Sample v3](./ASSEMBLY_CUBE_Z-STAGE_v3) | [<img src="./ASSEMBLY_CUBE_Z-STAGE_v3/IMAGES/Assembly2.png" width=300>](./ASSEMBLY_CUBE_Z-STAGE_v3)
+
+
+
 
 
 ## List of available Supplements:
