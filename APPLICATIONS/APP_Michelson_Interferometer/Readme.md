@@ -34,7 +34,20 @@ Putting the parts together is as simple as that:
 </p>
 
 ## <img src="./IMAGES/E.png" width="40"> Results
-None yet. Be the first to share yours! 
+We built Michelson Interferometer using injection molding UC2 cubes. Experiment setup looks:
+<p align="center">
+<img src="./IMAGES/Michelson 2.JPG" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Michelson .JPG" width="300">
+</p>
+
+Interference pattern looks like:
+
+<p align="center">
+<img src="./IMAGES/Michelson 3.JPG" width="300">
+</p>
 
 ## Suggestions
 If you have any problems or suggestions, please file an issue. Thank you!
