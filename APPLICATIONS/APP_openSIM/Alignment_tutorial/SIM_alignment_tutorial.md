@@ -8,70 +8,60 @@ This tutorial is aming to align the openSIM module to the microscope. The fundam
   - target sample
   - magical hand
 
-## Prepare the Fourier mask (put it on the outside part)
-A 3D printed Fourier mask is applied in the setup, which is used to block the zero-order of the illumination. The 3D model can be found in the ``STL`` repository. One thin copper wire is splitted from electric cable, first make a small knot on the wire which is roughly the size of the tin drop. Then solder a small drop of soldering tin onto the Knot.
-
-<p align="center">
-<img src="./IMAGES/KnotOnWire.jpg" width="500">
-</p>
-
-Mount the wire into the 3D printed part with the help of glue or fix gum, such as [UHU Patafix](https://www.uhu.de/de/produkt.3311). To aviod unexpected reflextion of the soldering tin, can use black marker pen and paint on it. At the end, the tin drop should be positioned at the middle of the mask. 
- 
- <p align="center">
-<img src="./IMAGES/FourierMaskInBlack.jpg" width="500">
-</p>
-
 ## Align the camera
-In our setup, the camera module is arranged on the bottom layer and it needs to be aligned first. Try to find a object far away and try to image it onto the camera by adjust the distance between the camera and tube lens. Following shows a example image of an infinity-corrected camera module.
+In the openSIM setup, the camera module is arranged on the bottom layer, therefore, it needs to be aligned first. Try to find a far away object (e.g a building or mountain) and try to image it with the camera clearly by adjusting the distance between the camera and tube lens. Following shows an example image took by an infinity-corrected camera.
 
 <p align="center">
 <img src="./IMAGES/CameraToInfinity.jpg" width="500">
 </p>
+***Fig. 1*** *An example image of an infinity-corrected camera. The mountian in the image is far away from our office.*
 
-## Align the laser source
-The laser we used is a 638 nm diode laser. In order to get a big illumination spot size, the collimator of the laser is teared down and a 30 mm lens is set in front. Move the laser position on its mount back and forth to collimate the laser. Check the spot size in front of the lens as well as far away. The spot size should be larger than the mirror area of the DMD.
+When the camera is infinity-corrected, the bottom layer of the system can be placed as shown here:
+
+<p align="center">
+<img src="./IMAGES/BottomLayer.png" width="500">
+</p>
+***Fig. 2*** *A top view of the system's bottom layer which contains camera module.*
+
+In this layer, it has some empty cubes spreaded around in order to support the upper layers.
+
+## Align the illumination laser source
+The laser we used is a 638 nm diode laser. In order to get a big illumination spot size, the collimator of the laser is teared down and a 20 mm lens is set in front. Move the laser on its mount back and forth to collimate the laser. Check the beam size in front of the lens as well as far away, it should keep the same size and larger than the mirror area of the DMD.
 
 <p align="center">
 <img src="./IMAGES/CollimatedLaserSource.jpg" width="500">
 </p>
+***Fig. 3*** *The laser beam is collimated by the lens, the beam size doesn't change with the propagation distance.*
 
-## Align the telescope
+## Prepare Fourier mask and align the telescope
 
-The telescope consists of two 50mm achromatic lenses and a fourier mask, which block the zero-order illumination and regenerate the intermediate image of the DMD. The telescope is fixed in the openSIM module. The collimated laser beam should focus onto the fourier mask and recollimate by the second lens.
-
-A collimated laser diode (or other light source) is mounted into a single UC2 cube in order to check the alignment of the telescope. Put the laser diode cube beside the telescope and head to the DMD, if the telescope is good calibrated, the laser beam should illuminate onto the DMD chip with its original spot size.
-
-## Mirror part
-The setup has two mirrors to direct the illumination beam to the objective. The aim of adjust the mirrors is to direct the laser beam straightly into the objective. The mirror has three direction variations which can tilted by the screws. The mirrors should be mounted on the base one by one, after each mirror the propagation direction of the beam should stay the same.
-
-## Check the 2 beam on BFP
-After raw adjustment is down, set the tube lens and the dichroic mirror in, the fourier transform of the DMD image should be located and focused at the position of the back focal plane of the objective. Insert the objective cube and linear stage with bright LED illumination at their position, use one surface refractive sample, such as a [negative Thorlabs USAF Target](https://www.thorlabs.com/thorproduct.cfm?partnumber=R3L1S4N). Focus onto some structures of the target, and adjust the linear stage, to make the structures sharp. At that time, it should be some unsharp DMD illumination signal on the sample. (When not, it is recommanded to go back to adjust the direction of the two mirrors, make the propagation direction of the laser beam parallel to the axial direction of the objective.) Keep the target structure sharp and adjust the two mirrors, make the illumination pattern sharp at the sample plane as well. With a three beam interference, the image generated by ``pygame_grating.py`` with grating constant of 6 pixel size should look like this:
+The telescope consists of two 50mm achromatic lenses and a fourier mask, which block the zero-order illumination and regenerate the intermediate image of the DMD. The telescope is fixed in the openSIM module.
 
 <p align="center">
-<img src="./IMAGES/ThreeBeamInterferenceCamera.png" width="500">
+<img src="./IMAGES/FirstLayer.png" width="500">
 </p>
+***Fig. 4*** *The bottom layer of the setup is built with Camera module and some empty cubes.*
 
-Then remove the objective from the system, try to move the fourier mask in the telescope to block the zero-order of the illumination. To check the process, hold a small piece of paper at the position of the back focal plan, their should be only two first-order left like this:
+A 3D printed Fourier mask is applied in the telescope, which is used to block the zero-order of the illumination. The 3D model of the mask case can be found in the ``STL`` repository. One thin copper wire is splitted from electric cable, first make a small knot on the wire which is roughly the size of the tin drop. Then solder a small drop of soldering tin onto the knot.
 
 <p align="center">
-<img src="./IMAGES/IlluWithoutZeroOrder.jpg" width="500">
+<img src="./IMAGES/KnotOnWire.png" width="500">
 </p>
+***Fig. 5*** *A single copper wire is taken from an electrical cable (left), a knot is crossed on the wire and can easliy add correct size of soldering tin on it.*
 
-Place the objective back, put a paper slightly above the sample plane, you should observe two same-shaped beam spot. 
-
+Mount the wire on the 3D printed part with the help of glue or fix gum, such as [UHU Patafix](https://www.uhu.de/de/produkt.3311). In order to aviod unexpected reflextion of the soldering tin, we can use black marker pen and paint on the tin drop. At the end, the tin drop should be positioned at the middle of the mask. 
+ 
 <p align="center">
-<img src="./IMAGES/TwoBeamOnTheObjective.jpg" width="500">
+<img src="./IMAGES/FourierMaskInBlack.png" width="500">
 </p>
+***Fig. 6*** *A prepared Fourier mask which has a soldering tin painted with black on it.*
 
-Apply the target sample back, the two beam interference pattern should be shown on the camera. If not, try to slightly tilt the mirror to refocus the pattern on the sample plane. A example image is shown as below.
+A collimated laser diode (or other light source) is mounted into a single UC2 cube in order to check the alignment of the telescope. Put the laser diode cube beside the telescope (the position of the first reflecting mirror out of the SIM module) and heading to the DMD mirror, if the telescope is good calibrated, the laser beam should illuminate onto the DMD chip with its original spot size.
 
-<p align="center">
-<img src="./IMAGES/TwoBeamInterferenceCamera.png" width="500">
-</p>
+## Bring the setup to the table
 
-
-## Setup the Raspberry Pi
-For transport the generated illunimation images to raspberry pi, using [WinSCP](https://winscp.net/eng/download.php) on Windows or [Putty](https://www.putty.org/) on Mac makes it easier.
+### Setup the Raspberry Pi
+The DMD is controlled by Raspberry Pi, when the Raspberry Pi connected with the DMD we need to remote control it with a PC for display images. For transport the generated illunimation images or python code to raspberry pi, using [WinSCP](https://winscp.net/eng/download.php) on Windows or [Putty](https://www.putty.org/) on Mac makes it easier.
 
 Turn on the wifi Hotspot with
 ```
@@ -86,12 +76,56 @@ The default password of Raspberry Pi is ``raspberry``. Then we need to activate 
 ```
 export DISPLAY=:0
 ```
-The grating pattern we used is generated by a python script ``pygame_grating.py``. The grating is set in vertical direction and the grating constant is 6 pixel size of the DMD micromirror. You can end the infinite loop with ``Ctrl + C``.
+The grating pattern we used is generated by a python script ``pygame_grating.py``. The grating is set in vertical direction and the grating constant is 6 pixel size of the DMD micromirror and rolling 1 pixel distance in each second. You can end the infinite loop with ``Ctrl + C``.
+
+### Adjust the mirrors
+The setup has two mirrors to direct the illumination beam to the objective. The aim of adjust the mirrors is to direct the laser beam straightly into the objective. The mirror has three direction flexibilities which can be tilted by the screws behind the kinetic mirror mount. The mirrors should be plugged on the base one by one, and after each mirror the propagation direction of the beam should stay the same.
+
+When raw adjustment is done, set the tube lens and the dichroic mirror at their position, the fourier transform of the DMD image should be located and focused at the position of the back focal plane of the objective. When the python script ``pygame_grating.py`` is running on the Raspberry Pi, three beams should located at the middle of the back focal plane position.
+
+<p align="center">
+<img src="./IMAGES/ThreeBeamOnBFP.jpg" width="500">
+</p>
+***Fig. 7*** *Three beam pattern should locate at the middle of the back focal plane of the objective.*
+
+Insert the objective cube and linear z-stage with bright LED illumination above the dichroic mirror, use one surface reflecting sample, such as a [negative Thorlabs USAF Target](https://www.thorlabs.com/thorproduct.cfm?partnumber=R3L1S4N). Move some structures of the target into the field of view, and adjust the linear stage, to focus on the structures sharply. At that time, it should be some DMD illumination signal on the sample. (When not, it is recommanded to go back to adjust the direction of the two mirrors, make the propagation direction of the laser beam parallel to the axial direction of the objective.) Keep the target structure sharp and adjust the two mirrors, make the illumination pattern sharp at the sample plane. With a three beam interference, the image generated by ``pygame_grating.py`` with grating constant of 6 pixel size should look like this:
+
+<p align="center">
+<img src="./IMAGES/ThreeBeamInterferenceCamera.png" width="500">
+</p>
+
+***Fig. 8*** *Three beam interference at the sample plane.*
+
+Then remove the objective from the system, try to move the fourier mask in the telescope to block the zero-order of the illumination. To check the process, hold a small piece of paper at the position of the back focal plan, their should be only two first-order left like this:
+
+<p align="center">
+<img src="./IMAGES/IlluWithoutZeroOrder.jpg" width="500">
+</p>
+***Fig. 9*** *Using the Fourier mask to block the zero-order illumination. You can easily check the block efficiency  by removing the objective from the system.*
+
+Place the objective back, put again a paper slightly above the sample plane, you should observe two same-shaped beam spot. 
+
+<p align="center">
+<img src="./IMAGES/TwoBeamOnTheObjective.jpg" width="500">
+</p>
+***Fig. 9*** *The two beam is interferencing at the sample plane and divergent above the sample plane.*
+
+Apply the target sample back, the two beam interference pattern should be shown on the camera. If not, try to slightly tilt the mirror to refocus the both patterns on the sample plane. A example image is shown as below:
+
+<p align="center">
+<img src="./IMAGES/TwoBeamInterferenceCamera.png" width="500">
+</p>
+***Fig. 9*** *The expected two beam interference pattern on the camera.*
 
 
 ## Ready for play
 
 Now the openSIM setup is ready to play. Enjoy the new toy!
 
+<p align="center">
+<img src="./IMAGES/FullSetup.png" width="500">
+</p>
+
+***Fig. 10*** *Overview of the SIM/ISM setup.*
 
 
