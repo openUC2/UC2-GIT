@@ -124,6 +124,7 @@ Apply the target sample back, the two beam interference pattern should be shown 
 <p align="center">
 <img src="./IMAGES/TwoBeamInterferenceCamera.png" width="500">
 </p>
+
 ***Fig. 11*** *The expected two beam interference pattern on the camera.*
 
 
@@ -135,6 +136,6 @@ Now the openSIM setup is ready to play. Enjoy the new toy!
 <img src="./IMAGES/FullSetup.png" width="500">
 </p>
 
-***Fig. 12** *Overview of the SIM/ISM setup.*
+***Fig. 12*** *Overview of the SIM/ISM setup.*
 
 
