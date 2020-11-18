@@ -12,6 +12,12 @@ Thumbs.db
 *.dropbox
 ~$*
 
+Icon 
+Icon*
+*Icon*
+*Icon
+Icon^M 
+
 CAD/APP_Ptychography/RESULT/*
 
 *.tmp
