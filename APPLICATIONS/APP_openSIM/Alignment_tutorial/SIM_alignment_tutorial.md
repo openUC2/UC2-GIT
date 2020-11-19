@@ -57,7 +57,7 @@ A 3D printed Fourier mask is applied in the telescope, the 3D model of the mask 
 Mount the wire on the 3D printed part with the help of glue or fix gum, such as [UHU Patafix](https://www.uhu.de/de/produkt.3311). In order to aviod unexpected reflextion of the soldering tin, we can use black color marker pen and paint on the tin drop. At the end, the tin drop should be positioned at the middle of the mask. 
  
 <p align="center">
-<img src="./IMAGES/FourierMaskInBlack.png" width="500">
+<img src="./IMAGES/FourierMaskInBlack.png" width="300">
 </p>
 
 ***Fig. 6*** *A prepared Fourier mask which has a soldering tin painted with black on it. The copper wire is fixed with fix gum.*
@@ -133,7 +133,11 @@ Refocus onto the target sample, the two beam interference pattern should be show
 Now the openSIM setup is ready to play. Enjoy the new toy!
 
 <p align="center">
+<<<<<<< HEAD
 <img src="./IMAGES/FullSetup.png">
+=======
+<img src="./IMAGES/FullSetup.png" width="300">
+>>>>>>> 1754cd7e9fb32e5d89a2b30627f5440ad85cec6c
 </p>
 
 ***Fig. 12*** *Overview of the SIM/ISM setup.*
