@@ -1,6 +1,6 @@
-# Polar BOX
+# PolarBOX
 
-The PolarBOX is an UC2 ready-to-use toolbox that can be built 10 different polarization experiments using 3D printed blocks. You just need basic and cheap components for preparing your own polarBOX.  
+The PolarBOX is an UC2 ready-to-use toolbox that can be built 10 different polarization experiments using 3D printed blocks. You just need basic and cheap components for preparing your own PolarBOX.  
 
 *What is the polarization of the light?*
 
@@ -23,7 +23,7 @@ A list of 3D-printed parts and necessary components is found in [BUILD_ME](./BUI
 
 Which experiments can we build with this box? Let's see!
 
-### 1. Crossed Polarizer
+### 1. Crossed Polarizers
 [LINK](../../APPLICATIONS/APP_Crossed_Polarizer)
 
 <p align="center">
@@ -32,7 +32,7 @@ Which experiments can we build with this box? Let's see!
 
 
 
-### 2. 3 Polarizers
+### 2. Three Polarizers
 [LINK](../../APPLICATIONS/APP_3_Polarizers)
 
 <p align="center">
@@ -55,7 +55,7 @@ __*correct after here*__
 <a href="#"><img src="./IMAGES/" width="400"></a>
 </p>
 
-### 5. Brewster Angle Cube
+### 5. Brewster Angle Experiment
 [LINK](../../APPLICATIONS/APP_Brewster_Angle_Cube_Experiment)
 
 <p align="center">
@@ -88,8 +88,8 @@ __*correct after here*__
 
 
 ## <img src="./IMAGES/S.png" height="40"> Participate
-Dear Participate,
+Dear Participant,
 you tasted our cake recipe. I'm sure that you have new ideas to try. Don't be afraid!
-Buy ingredients, use basic cooking techniques and add your imagination and creativity for your new cake recipe!
+Buy the ingredients, use basic cooking techniques and add your imagination and creativity for your new cake recipe!
 
-Don't forget to share with us! We like eating a lot :drooling_face:
+Don't forget to share your recipe with us!

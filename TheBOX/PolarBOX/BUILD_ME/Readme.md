@@ -1,6 +1,6 @@
-# Building The polarBOX
+# Building The PolarBOX
 
-This is a guide for building the [polarBOX](../polarBOX). If you were looking for another BOX version, [click here](../../).
+This is a guide for building the [PolarBOX](../PolarBOX). If you were looking for another BOX version, [click here](../../).
 
 * Total price:
 * Printing time including preparation: ...... days
