@@ -11,29 +11,28 @@ _Michelson Interferometer_ is an optical interferometer which measures some fact
 width="450">
 </p>
 
-Basic mechanism is that Beam-splitter module divides an incoming light beam into two beams, one is transmitted to a fixed mirror and the other is reflected to a movable mirror. Then two beams are reflected by these mirrors (M1 and M2) and interfere with each other with adding or subtracting in Beam-splitter cube.This interference generates a pattern which includes interference fringes of light and dark lines.
+The basic mechanism is that Beam-splitter module divides an incoming light beam into two beams, one is transmitted to a fixed mirror and the other is reflected to a movable mirror. Then two beams are reflected by these mirrors (M1 and M2) and interfere with each other with adding or subtracting in Beam-splitter cube.This interference generates a pattern which includes interference fringes of light and dark lines.
 Moving screws of the Diagonal Kinematic Mirror Holder cube provides flexibility to interfere two reflected beams in the beam-splitter easily.
 In the Results section, interference pattern image of the test setup can be seen.  
 
 
-
-### 3D-printed components
 
 <p align="center">
 <img src=".\IMAGES\Application_Michelson-Interferometer_v2.png"
 width="450">
 </p>
 
+### 3D-printed components
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
 |  4×4 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
 |  Module: Laser | - | 18,40 €  | [LASER](../../CAD/ASSEMBLY_CUBE_Laser_v2)  | 1|
-|  Module: Beam Expander | It expands incoming laser beam  | 12,10 €  | [Beam Expander](../../CAD/Assembly_Cube_Beamexpander_v2)  | 1|
-|  Module: Beam Splitter | It splits incoming light beam into two beams and reunites reflected two beams. | 29,20 €  | [Beam Splitter](../../CAD/Assembly_Cube_Beamsplitter_v2)  | 1|
-|  Module: Kinematic Mirror Holder Cube - Diagonal | For better interference of reflected beams in the Beam-splitter cube. | 4,71 €  | [ Kinematic Mirror 45](../../CAD/ASSEMBLY_CUBE_mirror_Kinematic_45_v2)  | 1|
-|  Module: Kinematic Mirror | - | 9,22 €  | [ Kinematic Mirror](../../CAD/ASSEMBLY_CUBE_mirror_Kinematic_v2)  | 2|
+|  Module: Beam Expander | It expands incoming laser beam  | 12,10 €  | [Beam Expander](../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)  | 1|
+|  Module: Beam Splitter | It splits incoming light beam into two beams and reunites reflected two beams. | 29,20 €  | [Beam Splitter](../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)  | 1|
+|  Module: Kinematic Mirror Holder Cube - Diagonal | For better interference of reflected beams in the Beam-splitter cube. | 4,71 €  | [ Kinematic Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)  | 1|
+|  Module: Kinematic Mirror | - | 9,22 €  | [ Kinematic Mirror](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_v2)  | 2|
 |  Module: Raspberry Camera  | - | 33,70 €  | [RasPi Camera](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
 |  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4,40 €  | [Cube](../../CAD/ASSEMBLY_CUBE_Base_v2)  | 2|
 
@@ -43,7 +42,7 @@ width="450">
 * 1× [Base-plate 4×4](./STL/Assembly_base_4x4.stl)
 * 8× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
 * 8x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
-* 1x [Laser Holder](./STL/20_Cube_Insert_Laser_Mount.stl)
+* 2x [Laser Holder](./STL/20_Cube_Insert_Laser_Mount.stl)
 * 1x [Laser Holder Clamp](./STL/00_Laser_Clamp_OnOffSwitch.stl)
 * 1× [Lens Adapter for Beam Expander](./STL/30_Lens_Adapter_Beamexpander.stl)
 * 1× [Beam Splitter](./STL/20_Cube_Insert_Beamsplitter.stl)
