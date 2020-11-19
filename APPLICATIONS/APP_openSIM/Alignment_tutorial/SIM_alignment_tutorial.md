@@ -49,7 +49,7 @@ The telescope consists of two 50mm achromatic lenses and a fourier mask, which b
 A 3D printed Fourier mask is applied in the telescope, the 3D model of the mask case can be found in the ``STL`` repository. One thin copper wire is splitted from electric cable, first make a small knot on the wire which is roughly the size of the desired tin drop. Then solder a small drop of soldering tin onto the knot.
 
 <p align="center">
-<img src="./IMAGES/KnotOnWire.png" width="1000">
+<img src="./IMAGES/KnotOnWire.png" width="800">
 </p>
 
 ***Fig. 5*** *A single copper wire is taken from an electrical cable (left), a knot is crossed on the wire and can easliy add correct size of soldering tin on it.*
@@ -57,7 +57,7 @@ A 3D printed Fourier mask is applied in the telescope, the 3D model of the mask 
 Mount the wire on the 3D printed part with the help of glue or fix gum, such as [UHU Patafix](https://www.uhu.de/de/produkt.3311). In order to aviod unexpected reflextion of the soldering tin, we can use black color marker pen and paint on the tin drop. At the end, the tin drop should be positioned at the middle of the mask. 
  
 <p align="center">
-<img src="./IMAGES/FourierMaskInBlack.png" width="200">
+<img src="./IMAGES/FourierMaskInBlack.png" width="400">
 </p>
 
 ***Fig. 6*** *A prepared Fourier mask which has a soldering tin painted with black on it. The copper wire is fixed with fix gum.*
@@ -133,7 +133,7 @@ Refocus onto the target sample, the two beam interference pattern should be show
 Now the openSIM setup is ready to play. Enjoy the new toy!
 
 <p align="center">
-<img src="./IMAGES/FullSetup.png" width='800'>
+<img src="./IMAGES/FullSetup.png" width='650'>
 </p>
 
 ***Fig. 12*** *Overview of the SIM/ISM setup.*
