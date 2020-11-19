@@ -8,7 +8,7 @@ Light can behave characteristics of both waves and particles. We developed a ver
 width="450">
 </p>
 
-In the experiment, a wave is split into two separate waves and later they are combined into a single wave. The path lengths of both waves are different and have a phase shift which creates an interference pattern. The [Mach–Zehnder interferometer,](./APP_Mach-Zehnder_Interferometer) is an another version which splits the beam with a mirror.
+In the experiment, a wave is split into two separate waves and later they are combined into a single wave. The path lengths of both waves are different and have a phase shift which creates an interference pattern. The [Mach–Zehnder interferometer,](../APPLICATIONS/APP_Mach-Zehnder_Interferometer) is an another version which splits the beam with a mirror.
 
 
 ### 3D-printed components
@@ -67,19 +67,18 @@ ADDITIONAL INFO: Our slits are done with a laser cutting machine. It's also an o
 Let's put slides into the cube.
 
 <p align="center">
-<img src="./IMAGES/components%for%slit%cube.JPG"
+<img src="./IMAGES/components for slit cube.jpg"
 width="450">
 </p>
 
-
 </p>
 <p align="center">
-<img src="./IMAGES/single_slit_cube.JPG"
+<img src="./IMAGES/single slit cube.jpg"
 width="450">
 </p>
 
 <p align="center">
-<img src="./IMAGES/single-slit_and double-slit cubes.JPG"
+<img src="./IMAGES/single-slit and double-slit cubes.jpg"
 width="450">
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
