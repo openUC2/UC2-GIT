@@ -75,9 +75,16 @@ width="450">
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
 
-* [Baseplate ](../../CAD/ASSEMBLY_Baseplate_v2/)
+* 1x [Baseplate ](../../CAD/ASSEMBLY_Baseplate_v2/)
 * 2× [Mirror Cube ](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2/)
-* 2× Additional empty cube
+* 2× [Additional empty cube](../../CAD/ASSEMBLY_CUBE_Base_v2)
+* 1x [LASER cube](../../CAD/ASSEMBLY_CUBE_Laser_v2)
+* 1x [Beam-expander cube](../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)
+* 1x [Beam-Splitter cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)
+* 1x [Diagonal Kinematic Mirror Holder Cube](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)
+* 2x [Kinematic Mirror Holder Cube ](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_v2)
+* 1x [RasPi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)
+
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 We built Michelson Interferometer using injection molding UC2 cubes. Experiment setup looks:
