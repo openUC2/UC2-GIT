@@ -8,7 +8,7 @@ Light can behave characteristics of both waves and particles. We developed a ver
 width="450">
 </p>
 
-In the experiment, a wave is split into two separate waves and later they are combined into a single wave. The path lengths of both waves are different and have a phase shift which creates an interference pattern. The [Mach–Zehnder interferometer,](../APPLICATIONS/APP_Mach-Zehnder_Interferometer) is an another version which splits the beam with a mirror.
+In the experiment, a wave is split into two separate waves and later they are combined into a single wave. The path lengths of both waves are different and have a phase shift which creates an interference pattern. The [Mach–Zehnder interferometer,](../APP_Mach-Zehnder_Interferometer) is an another version which splits the beam with a mirror.
 
 
 ### 3D-printed components
