@@ -67,19 +67,19 @@ ADDITIONAL INFO: Our slits are done with a laser cutting machine. It's also an o
 Let's put slides into the cube.
 
 <p align="center">
-<img src="./IMAGES/components for slit cube.JPG"
+<img src="./IMAGES/components%for%slit%cube.JPG"
 width="450">
 </p>
 
 
 </p>
 <p align="center">
-<img src="./IMAGES/single slit cube.JPG"
+<img src="./IMAGES/single_slit_cube.JPG"
 width="450">
 </p>
 
 <p align="center">
-<img src="./IMAGES/single-slit and double-slit cubes.JPG"
+<img src="./IMAGES/single-slit_and double-slit cubes.JPG"
 width="450">
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
