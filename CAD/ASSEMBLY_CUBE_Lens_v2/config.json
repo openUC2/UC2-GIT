@@ -10,7 +10,7 @@
         {
             "name": "10_Cube_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "10_Cube_1x1_v2.stl",
             "image": "",
             "price": 0.4,
             "is_printable": true,
@@ -19,7 +19,7 @@
         {
             "name": "10_Lid_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+            "githublink": "10_Lid_1x1_v2.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -46,7 +46,7 @@
         {
             "name": "20_Lens_holder",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl",
+            "githublink": "20_Lens_holder.stl",
             "image": "",
             "price": 0.3,
             "is_printable": true,
@@ -55,7 +55,7 @@
         {
             "name": "20_Lens_holder_clamp",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl",
+            "githublink": "20_Lens_holder_clamp.stl",
             "image": "",
             "price": 0.0,
             "is_printable": true,

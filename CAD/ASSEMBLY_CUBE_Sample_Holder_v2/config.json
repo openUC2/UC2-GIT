@@ -10,16 +10,16 @@
         {
             "name": "10_Lid_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+            "githublink": "10_Lid_1x1_v2.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "20_Cube_Sampleholder",
+            "name": "20_Cube_Insert_sampleholder.stl",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl",
+            "githublink": "20_Cube_Insert_sampleholder.stl",
             "image": "",
             "price": 0.4,
             "is_printable": true,

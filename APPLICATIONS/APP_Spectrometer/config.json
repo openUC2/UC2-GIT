@@ -18,7 +18,7 @@
                 {
                     "name": "Baseplate 4x4",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x4.stl",
+                    "githublink": "Assembly_base_4x4.stl",
                     "image": "",
                     "price": 2.6,
                     "is_printable": true,
@@ -47,7 +47,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -56,7 +56,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -83,7 +83,7 @@
                 {
                     "name": "20_Cube_insert_LED_holder",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_v2/STL/ASSEMBLY_CUBE_LED_20_Cube_insert_LED_holder.stl",
+                    "githublink": "20_Cube_insert_LED_holder.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -92,7 +92,7 @@
                 {
                     "name": "20_Cube_insert_Sample_holder (optional)",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_v2/STL/ASSEMBLY_CUBE_LED_20_Cube_insert_Sample_holder.stl",
+                    "githublink": "20_Cube_insert_Sample_holder.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -101,7 +101,7 @@
                 {
                     "name": "20_Cube_Insert_Sample_clamp (optional)",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_v2/STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl",
+                    "githublink": "20_Cube_Insert_Sample_clamp.stl",
                     "image": "",
                     "price": 0.0,
                     "is_printable": true,
@@ -166,7 +166,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -175,7 +175,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -202,7 +202,7 @@
                 {
                     "name": "20_Cube_Insert_Objective_Holder",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_v2/STL/20_Cube_Insert_Objective_Holder.stl",
+                    "githublink": "20_Cube_Insert_Objective_Holder.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -231,7 +231,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -240,7 +240,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -267,9 +267,27 @@
                 {
                     "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_base.stl",
                     "image": "",
                     "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter.stl",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl",
+                    "image": "",
+                    "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
@@ -323,7 +341,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -332,7 +350,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -359,7 +377,7 @@
                 {
                     "name": "20_Cube_Insert_RaspiCam",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2/STL/20_Cube_Insert_RaspiCam.stl",
+                    "githublink": "20_Cube_Insert_RaspiCam.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -399,14 +417,14 @@
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
             "image": "",
-            "price": 2.5,
+            "price": 2.8,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -415,7 +433,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -442,7 +460,7 @@
                 {
                     "name": "20_Cube_insert_Sample_holder",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl",
+                    "githublink": "20_Cube_insert_Sample_holder.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -451,9 +469,9 @@
                 {
                     "name": "20_Cube_Insert_Sample_clamp",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl",
+                    "githublink": "20_Cube_insert_Sample_holder_magnetic.stl",
                     "image": "",
-                    "price": 0.0,
+                    "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 }
@@ -464,14 +482,14 @@
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
             "image": "",
-            "price": 2.5,
+            "price": 2.8,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -480,7 +498,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -507,7 +525,7 @@
                 {
                     "name": "20_Cube_insert_Sample_holder",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl",
+                    "githublink": "20_Cube_insert_Sample_holder.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -516,9 +534,9 @@
                 {
                     "name": "20_Cube_Insert_Sample_clamp",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl",
+                    "githublink": "20_Cube_insert_Sample_holder_magnetic.stl",
                     "image": "",
-                    "price": 0.0,
+                    "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 }

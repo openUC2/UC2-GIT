@@ -10,7 +10,7 @@
         {
             "name": "10_Lid_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_Matrix_v2/STL/10_Lid_1x1_el_v2.stl",
+            "githublink": "10_Lid_1x1_el_v2.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -19,7 +19,7 @@
         {
             "name": "30_Cube_LED_Array",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_Matrix_v2/STL/30_Cube_LED_Array_v0.stl",
+            "githublink": "30_Cube_LED_Array_v0.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,

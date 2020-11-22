@@ -7,7 +7,7 @@
     "type": "application",
     "modules": [
         {
-            "name": "ASSEMBLY_Baseplate 4x11",
+            "name": "ASSEMBLY_Baseplate 4x1",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
@@ -18,7 +18,7 @@
                 {
                     "name": "Baseplate 4x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl",
+                    "githublink": "Assembly_base_4x1.stl",
                     "image": "",
                     "price": 0.7,
                     "is_printable": true,
