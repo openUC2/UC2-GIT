@@ -13,6 +13,7 @@
             "image": "",
             "price": 32.68,
             "fixedOptions": {},
+            "type": "module",
             "partslist": [
                 {
                     "name": "Baseplate 4x4",
@@ -41,6 +42,7 @@
             "image": "",
             "price": 7.249999999999999,
             "fixedOptions": {},
+            "type": "module",
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
@@ -159,6 +161,7 @@
             "image": "",
             "price": 13.5,
             "fixedOptions": {},
+            "type": "module",
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
@@ -223,6 +226,7 @@
             "image": "",
             "price": 4.61,
             "fixedOptions": {},
+            "type": "module",
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
@@ -314,6 +318,7 @@
             "image": "",
             "price": 33.7,
             "fixedOptions": {},
+            "type": "module",
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
@@ -396,6 +401,7 @@
             "image": "",
             "price": 2.5,
             "fixedOptions": {},
+            "type": "module",
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
@@ -460,6 +466,7 @@
             "image": "",
             "price": 2.5,
             "fixedOptions": {},
+            "type": "module",
             "partslist": [
                 {
                     "name": "10_Cube_1x1",
@@ -524,6 +531,7 @@
             "image": "",
             "price": 187.8,
             "fixedOptions": {},
+            "type": "module",
             "partslist": [
                 {
                     "name": "Raspberry Pi 4 B",

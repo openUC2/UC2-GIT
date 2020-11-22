@@ -5,11 +5,12 @@
     "image": "",
     "price": 30.700000000000003,
     "fixedOptions": {},
+    "type": "module",
     "partslist": [
         {
             "name": "10_Cube_2x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Cube_2x1_v2_5.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Cube_2x1_v2.stl",
             "image": "",
             "price": 0.5,
             "is_printable": true,
@@ -18,7 +19,7 @@
         {
             "name": "10_Lid_el_2x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Lid_el_2x1_v2_6.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Lid_el_2x1_v2.stl",
             "image": "",
             "price": 0.3,
             "is_printable": true,
@@ -27,7 +28,7 @@
         {
             "name": "20_focus_inlet_linearflexure",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_linearflexure_v0_1.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_linearflexure_v0.stl",
             "image": "",
             "price": 0.6,
             "is_printable": true,
@@ -36,7 +37,7 @@
         {
             "name": "30_focus_inlet_objective_mount",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_focus_inlet_objective_mount_v7_7.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_focus_inlet_objective_mount_v7.stl",
             "image": "",
             "price": 0.1,
             "is_printable": true,
@@ -45,7 +46,7 @@
         {
             "name": "20_focus_inlet_plate_bottom",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_bottom_2.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_bottom.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -54,7 +55,7 @@
         {
             "name": "20_focus_inlet_plate_top",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_top_3.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_top.stl",
             "image": "",
             "price": 0.1,
             "is_printable": true,
@@ -63,7 +64,7 @@
         {
             "name": "00_large_gear",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_00_large_gear_4.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_00_large_gear.stl",
             "image": "",
             "price": 0.1,
             "is_printable": true,
@@ -72,7 +73,7 @@
         {
             "name": "30_Z_Stage_Sampleplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_Z_Stage_Sampleplate_8.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_Z_Stage_Sampleplate.stl",
             "image": "",
             "price": 0.3,
             "is_printable": true,

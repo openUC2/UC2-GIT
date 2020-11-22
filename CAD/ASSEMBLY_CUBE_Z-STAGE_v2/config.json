@@ -5,6 +5,7 @@
     "image": "",
     "price": 50.35,
     "fixedOptions": {},
+    "type": "module",
     "partslist": [
         {
             "name": "10_Cube_2x1",
@@ -54,7 +55,7 @@
         {
             "name": "30_Z_Stage_Adapterplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Adapterplate_11.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Adapterplate.stl",
             "image": "",
             "price": 0.3,
             "is_printable": true,
@@ -63,7 +64,7 @@
         {
             "name": "30_Z_Stage_Fluomodule",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Fluomodule_12.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Fluomodule.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -72,7 +73,7 @@
         {
             "name": "40_XY_Stage_Clamp_Slide",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/40_XY_Stage_Clamp_Slide_9.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/40_XY_Stage_Clamp_Slide.stl",
             "image": "",
             "price": 0.1,
             "is_printable": true,

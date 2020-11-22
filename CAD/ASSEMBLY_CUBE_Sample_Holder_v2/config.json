@@ -5,6 +5,7 @@
     "image": "",
     "price": 1.4000000000000001,
     "fixedOptions": {},
+    "type": "module",
     "partslist": [
         {
             "name": "10_Lid_1x1",
