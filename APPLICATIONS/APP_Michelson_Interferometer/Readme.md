@@ -99,7 +99,7 @@ We built Michelson Interferometer using injection molding UC2 cubes. Experiment 
 Interference pattern looks like:
 
 <p align="center">
-<img src="./IMAGES/Michelson 3.jpg" width="300">
+<img src="./IMAGES/interference pattern.png" width="300">
 </p>
 
 ## Suggestions
