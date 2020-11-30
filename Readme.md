@@ -6,11 +6,11 @@
 
 ---
 
+**New**: **The UC2 paper is out in Nature Communications!** :muscle: [A versatile and customizable low-cost 3D-printed open standard for microscopic imaging](https://www.nature.com/articles/s41467-020-19447-9) 
+
 **New**: The [Microscopy, Optical Alignment and Abbe Diffraction experiment](./TheBOX/CourseBOX/ALIGNMENT_InfOptics) were added to the CourseBOX. You can also watch a demonstration of the [Abbe Experiment on YouTube](https://youtu.be/NrkINpx6IMo)
 
 **New**: The [Lens Holder](./CAD/ASSEMBLY_CUBE_Lens_v2) works now for lenses with the diameter up to 50 mm!
-
-**New**: New module: [Rectangular Aperture](./CAD/ASSEMBLY_CUBE_Aperture_Rectangular_v2); Simpler and better modules: [Mechanical Z-stage](./CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2), [Sample-stage for light sheet microscope](./CAD/ASSEMBLY_CUBE_S-STAGE_new_v2), [Magnetic Sample Holder](./CAD/ASSEMBLY_CUBE_Sample_Holder_v2) and [openSCAD Lens Holder](./CAD/ASSEMBLY_CUBE_Lens_v2)
 
 
 
