@@ -5,6 +5,7 @@
     "image": "",
     "price": 18.400000000000002,
     "fixedOptions": {},
+    "type": "module",
     "partslist": [
         {
             "name": "10_Cube_1x1",

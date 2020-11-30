@@ -5,6 +5,7 @@
     "image": "",
     "price": 187.8,
     "fixedOptions": {},
+    "type": "module",
     "partslist": [
         {
             "name": "Raspberry Pi 4 B",

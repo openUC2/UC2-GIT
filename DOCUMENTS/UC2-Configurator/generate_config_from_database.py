@@ -42,6 +42,7 @@ class uc2_module: # also called assembly
         self.image = image
         self.price = price
         self.fixedOptions = {}
+        self.type = "module"
         
         self.partslist = []
         

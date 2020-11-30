@@ -13,6 +13,7 @@
             "image": "",
             "price": 8.219999999999999,
             "fixedOptions": {},
+            "type": "module",
             "partslist": [
                 {
                     "name": "Baseplate 4x1",
