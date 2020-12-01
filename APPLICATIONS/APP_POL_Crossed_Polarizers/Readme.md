@@ -17,7 +17,7 @@ width="450">
 |  4×1 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 2|
 |  Module: Polarizer Cube | -  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)  | 1|
 |  Module: Sample Holder Cube | -  | 20 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
-|  Module: Raspberry Camera Cube | -  | 10 €  | [RasPi Camera Holder](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
+|  Module: Sample Holder Comb | -  | 10 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
 |  Module: Flashlight Lamp Cube | -  | 10 €  | [Flashlight Holder](../../CAD/Assembly_Cube_Eyepiece_v2)  | 1|
 
 
