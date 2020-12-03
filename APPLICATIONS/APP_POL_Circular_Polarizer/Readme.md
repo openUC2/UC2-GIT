@@ -1,29 +1,37 @@
 # Circular Polarizer   
 
 
-<p align="center">
-<img src="./IMAGES/Three_polarizers_diagram_2.png"
-width="450">
-</p>
+Light is an electromagnetic wave. The electric field vectors of unpolarized light vibrate in all planes randomly along the direction of propagation and most of the light sources have unpolarized light illumination such as sunlight, LED lights or halogen lamps.   
+When the electric field vectors are limited using a filtration mechanism and defined well, the polarized light is observed. LASER is the most known example for polarized light source.
 
-Light is an electromagnetic wave. Electric field vectors of unpolarized light vibrate in all planes randomly along the direction of propagation. When the electric field vectors are limited using a filtration mechanism to a single plane, linearly or plane polarized light is obtained with respect to the direction of propagation. In the plane-parallel or plane-polarized light, all waves vibrate in a single plane along the propagation direction.
-
-Most common filtration mechanism is using the polarizing filter. Polarizers can be used to filter, modify, or analyze the polarization states of light in an optical system. The electric field of light can be polarized as parallel to the plane of incidence, p-polarized, or perpendicular to this plane, s-polarized using a linear polarizer.  
-
-Let's see s-polarized light in the scheme:
+Most common filtration mechanism is using the polarizing filter. Polarizers can be used to filter, modify, or analyze the polarization states of light in an optical system.
 
 <p align="center">
-<img src="./IMAGES/linear_polarizer_s_verticaL.png"
-width="450">
+<img src="./IMAGES/Assembly_Circular_Polarizer 2.png"
+width="400">
 </p>
 
-And the rings bell for p-polarized light:
+##### What is the difference between the Linear and  the Circular Polarization?
+
+The polarized light can be classified into three types depending the orientation of its electric field: Linear polarization, circular polarization and elliptical polarization.
+
+If the electric field of light is limited to a single plane along the propagation direction, the light is *linearly polarized*.
+If the electric field of light has two linear components which are perpendicular to each other, equal in amplitude, π/2 difference in phase, the light is *circularly polarized*.
+Depending on the rotation direction, light can be left-hand circularly polarized or right-hand circularly polarized.
+If the electric field of light describes an ellipse shape with the combination of two linear components with unequal amplitudes and/or phase difference (not π/2), the light is *elliptically polarized*. Circular and linear polarized light can be described as special cases of elliptically polarized light.
+
+
 
 <p align="center">
-<img src="./IMAGES/linear_polarizer_p_horizontal.png"
-width="450">
+<img src="./IMAGES/circular_polarizer_diagram_CW.png"
+width="500">
 </p>
 
+
+<p align="center">
+<img src="./IMAGES/circular_polarizer_diagram_CCW.png"
+width="500">
+</p>
 
 
 
@@ -33,8 +41,9 @@ width="450">
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×1 Baseplate | - | 16,44€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 2|
-|  Module: Polarizer Cube | Linearly Polarizing Filter  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)  | 3|
+|  4×1 Baseplate | - | 8,22€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 1|
+|  Module: Polarizer Cube | Linearly Polarizing Filter  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)  | 1|
+|  Module: Circular Polarizer Cube | To insert the circular polarizer filter film | €  | [Circular Polarizer](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
 |  Module: Sample Holder Cube | To insert the sample  | 2,5 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
 |  Module: Sample Holder Comb | To hold the screen | 1,4 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
 |  Module: Flashlight Lamp Cube | -  | €  | [Flashlight ](../../CAD/Assembly_Cube_Eyepiece_v2)  | 1|
@@ -42,12 +51,14 @@ width="450">
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 2× [Base-plate 4×1](../../CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl)
-* 6× [Cube base 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl)
-* 6x [Cube lid 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl)
-* 3× [Polarizer Guide](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Guide.stl)
-* 3× [Polarizer Wheel](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Wheel.stl)
-* 3× [Polarizer Lid](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Lid.stl)
+* 1× [Base-plate 4×1](../../CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl)
+* 4× [Cube base 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl)
+* 5x [Cube lid 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl)
+* 1× [Polarizer Guide](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Guide.stl)
+* 1× [Polarizer Wheel](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Wheel.stl)
+* 1× [Polarizer Lid](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Lid.stl)
+* 1× [Circular Polarizing Filter Holder](../../APPLICATIONS/APP_POL_Circular_Polarizer/STL/20_Cube_POL_Circular_Polarizer_holder.stl)
+* 1x [Circular Polarizing Filter Holder Clamp](../../APPLICATIONS/APP_POL_Circular_Polarizer/STL/20_Cube_POL_Circular_Polarizer_holder_clamp.stl)
 * 1× [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl)
 * 1x [Sample Holder Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl)
 * 1× [Flashlight Holder](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl) - the diameter works for the flashlight linked in the eyepiece insert
@@ -57,6 +68,10 @@ width="450">
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 1× Linear Polarizer Film [🢂](https://amazon.de/-/en/Polarizing-A4-Sheet-Polarizer-Educational-Polarized/dp/B06XWXRB75/ref=pd_sbs_421_3/262-2115536-7173904?_encoding=UTF8&pd_rd_i=B06XWXRB75&pd_rd_r=b88e7340-b061-4e0b-8daa-8ec533fd7c71&pd_rd_w=qlkAY&pd_rd_wg=At9EZ&pf_rd_p=a03ac387-6e4d-4f6b-96b6-1853da0bb37b&pf_rd_r=49HX2Z4Q5KRZSQ2FWRQR&psc=1&refRID=49HX2Z4Q5KRZSQ2FWRQR)
+* 1x 3D cinema googles [🢂]()    
+
+
+
 * 32× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * 16× - 24× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 1× flashlight [🢂](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)
@@ -64,70 +79,29 @@ width="450">
 * White paper or cardboard as a screen
 
 <p align="center">
-<img src="./IMAGES/Assembly_Three_Polarizers_2.png"
-width="450">
+<img src="./IMAGES/Assembly_Circular_Polarizer.png"
+width="400">
 </p>
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
 
 * [Baseplate](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Polarizer Cube](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)
+* [Linear Polarizer Cube](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)
+* [Circular Polarizer Cube](../../CAD/ASSEMBLY_POL_Circular_Polarizer)
 * [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
 * [Sample Holder Cube Comb for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
 * [Flashlight cube](../../CAD/Assembly_Cube_Eyepiece_v2) : Simply insert the holder in a cube and close it as any other
 
 
-## Three Polarizers
-
-In crossed polarizers, two polarizers are oriented perpendicular to each other and light passes through the first polarizer (s-polarizer, 0 degrees) and blocks by the second polarizer (p-polarizer, 90 degrees). The extinction of the light reaches its maximum value.If we add third polarizer between two crossed polarizers, some light will pass through three polarizers.  
-
-In the __*Three Linear Polarizers,*__ the amount of light passing through the polarizers can be calculated by Law of Malus, cosine-squared law.
-
-<p align="center">
-<img src="./IMAGES/Law of Malus.PNG"
-width="200">
-</p>
-
-*I*    : the intensity of passing light through polarizers (total amount of passed light into three polarizers setup)  
-*I(0)* : the intensity of incoming light  
-*θ*    : the angle between the transmission axes of two polarizers
-
-
-The polarizing direction of the first polarizer is oriented vertically to the incoming beam with 0 degrees. Incoming unpolarized light passes through the first s-polarizer. Then vertically polarized light travel to the 45 degrees rotated second polarizer with respect to the first polarizer. Third polarizer is rotated transmission axis by 90 degrees with respect to the second polarizer and then the polarized light which is transmitted through the second one goes into the third polarizer.
-
-<p align="center">
-<img src="./IMAGES/three_polarizers_theory.png"
-width="450">
-</p>
-
-
-Three linear polarizers are used in the experiment and each of them has different angles with respect to the transmission axis.
-
-<p align="center">
-<img src="./IMAGES/Assembly_Three_Polarizers_3.png" width="600">
-</p>
-
-
-
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-The basic version of Three Polarizers experiment without specific sample and extra light source below is demonstrated. You can see the experiment images below.
+The basic version of Three Polarizers experiment without specific sample and extra light source below is demonstrated.
+
+The effect of the angle between two polarizers can be seen in the video below. The polarization direction of light before circular polarizer changes with the turning the wheel of the linear polarizer and changing its orientation.
 
 <p align="center">
-<img src="./IMAGES/three_polarizers_exp.jpg"
-width="450">
-</p>
-
-<p align="center">
-<img src="./IMAGES/three_polarizers_exp_2.jpg"
-width="450">
-</p>
-
-The effect of the angle between two linear polarizers can be seen in the video below. The intensity of passing light on the eye of observer through the polarizers changes when the wheel insert of polarization filter wheeled 45 angle.
-
-<p align="center">
-<img src="./IMAGES/three_polarizers.gif"
-width="450">
+<img src="./IMAGES/circular_polarizer_video.gif"
+width="350">
 </p>
 
 

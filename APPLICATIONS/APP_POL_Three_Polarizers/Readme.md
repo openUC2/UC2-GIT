@@ -6,26 +6,30 @@
 width="450">
 </p>
 
-Light is an electromagnetic wave. Electric field vectors of unpolarized light vibrate in all planes randomly along the direction of propagation. When the electric field vectors are limited using a filtration mechanism to a single plane, linearly or plane polarized light is obtained with respect to the direction of propagation. In the plane-parallel or plane-polarized light, all waves vibrate in a single plane along the propagation direction.
 
-Most common filtration mechanism is using the polarizing filter. Polarizers can be used to filter, modify, or analyze the polarization states of light in an optical system. The electric field of light can be polarized as parallel to the plane of incidence, p-polarized, or perpendicular to this plane, s-polarized using a linear polarizer.  
+In crossed polarizers, two polarizers are oriented perpendicular to each other and light passes through the first polarizer (s-polarizer, 0 degrees) and blocks by the second polarizer (p-polarizer, 90 degrees). The extinction of the light reaches its maximum value.If we add third polarizer between two crossed polarizers, some light will pass through three polarizers.  
 
-Let's see s-polarized light in the scheme:
+In the __*Three Linear Polarizers setup,*__ the amount of light passing through the polarizers can be calculated by Law of Malus, cosine-squared law.
 
 <p align="center">
-<img src="./IMAGES/linear_polarizer_s_verticaL.png"
+<img src="./IMAGES/Law of Malus.PNG"
+width="200">
+</p>
+
+*I*    : the intensity of passing light through polarizers (total amount of passed light into three polarizers setup)  
+*I(0)* : the intensity of incoming light  
+*θ*    : the angle between the transmission axes of two polarizers
+
+
+The polarization direction of the first polarizer is oriented vertically to the incoming beam with 0 degrees. Incoming unpolarized light passes through the first s-polarizer. Then vertically polarized light travel to the 45 degrees rotated second polarizer with respect to the first polarizer. Third polarizer is rotated transmission axis by 90 degrees with respect to the second polarizer and then the polarized light which is transmitted through the second one goes into the third polarizer.
+
+<p align="center">
+<img src="./IMAGES/three_polarizers_theory.png"
 width="450">
 </p>
 
-And the rings bell for p-polarized light:
 
-<p align="center">
-<img src="./IMAGES/linear_polarizer_p_horizontal.png"
-width="450">
-</p>
-
-
-
+Three linear polarizers are used in the experiment and each of them has different angles with respect to the transmission axis.
 
 ## <img src="./IMAGES/D.png" width="40">Parts
 
@@ -77,31 +81,7 @@ width="450">
 * [Flashlight cube](../../CAD/Assembly_Cube_Eyepiece_v2) : Simply insert the holder in a cube and close it as any other
 
 
-## Three Polarizers
 
-In crossed polarizers, two polarizers are oriented perpendicular to each other and light passes through the first polarizer (s-polarizer, 0 degrees) and blocks by the second polarizer (p-polarizer, 90 degrees). The extinction of the light reaches its maximum value.If we add third polarizer between two crossed polarizers, some light will pass through three polarizers.  
-
-In the __*Three Linear Polarizers,*__ the amount of light passing through the polarizers can be calculated by Law of Malus, cosine-squared law.
-
-<p align="center">
-<img src="./IMAGES/Law of Malus.PNG"
-width="200">
-</p>
-
-*I*    : the intensity of passing light through polarizers (total amount of passed light into three polarizers setup)  
-*I(0)* : the intensity of incoming light  
-*θ*    : the angle between the transmission axes of two polarizers
-
-
-The polarizing direction of the first polarizer is oriented vertically to the incoming beam with 0 degrees. Incoming unpolarized light passes through the first s-polarizer. Then vertically polarized light travel to the 45 degrees rotated second polarizer with respect to the first polarizer. Third polarizer is rotated transmission axis by 90 degrees with respect to the second polarizer and then the polarized light which is transmitted through the second one goes into the third polarizer.
-
-<p align="center">
-<img src="./IMAGES/three_polarizers_theory.png"
-width="450">
-</p>
-
-
-Three linear polarizers are used in the experiment and each of them has different angles with respect to the transmission axis.
 
 <p align="center">
 <img src="./IMAGES/Assembly_Three_Polarizers_3.png" width="600">

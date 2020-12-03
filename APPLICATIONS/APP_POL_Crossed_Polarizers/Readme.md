@@ -6,33 +6,22 @@
 width="450">
 </p>
 
-__What is polarized light?__
 
-I can hear the questions inside your head (Yes, I read your mind). We live with unpolarized light around us in our daily life: sunlight. Light is an electromagnetic wave. Electric field vectors of sunlight/unpolarized light vibrate in all planes randomly along the direction of propagation. When the electric field vectors are limited using a filtration mechanism to a single plane, linearly or plane polarized light is obtained with respect to the direction of propagation. In the plane-parallel or plane-polarized light, all waves vibrate in a single plane along the propagation direction.
+*Crossed Polarizers* are used to analyze the polarization of light. We use two linear polarizers and they are located perpendicular to each other.   
 
-Most common filtration mechanism is using the polarizing filter. Polarizers can be used to filter, modify, or analyze the polarization states of light in an optical system. The electric field of light can be polarized as parallel to the plane of incidence, p-polarized, or perpendicular to this plane, s-polarized using a linear polarizer.  
-
-Let's see s-polarized light in the scheme:
-
-<p align="center">
-<img src="./IMAGES/linear_polarizer_s_vertical.png"
-width="450">
-</p>
-
-And the rings bell for p-polarized light:
-
-<p align="center">
-<img src="./IMAGES/linear_polarizer_p_horizontal.png"
-width="450">
-</p>
-
-*Crossed Polarizers* are used to analyze the polarization of light. Two linear polarizers are located perpendicular to each other.  
+The polarizing direction of the first polarizer is oriented vertically to the incoming beam and it will allow passing only vertical electric field vectors. After the first polarizer, we have an s-polarized light wave.
 
 <p align="center">
 <img src="./IMAGES/crossed polarizer_exp_2.png"
 width="450">
 </p>
 
+The second polarizer is located horizontally with respect to the electric field vector. These two polarizers should be oriented at right angles with each other. It blocks the wave which passes through the first polarizer.
+
+
+<p align="center">
+<img src="./IMAGES/crossed polarizer_exp.png" width="600">
+</p>
 
 Time to build a Crossed Polarizers setup!
 
@@ -87,21 +76,10 @@ width="450">
 * [Flashlight cube](../../CAD/Assembly_Cube_Eyepiece_v2) : Simply insert the holder in a cube and close it as any other
 
 
-## Crossed Polarization
-
-We printed and assembled the module parts and bought necessary components and inserted them into cubes. But what is happening there?
-
-We use two linear polarizers. The polarizing direction of the first polarizer is oriented vertically to the incoming beam and it will allow passing only vertical electric field vectors. After the first polarizer, we have an s-polarized light wave.
-
-<p align="center">
-<img src="./IMAGES/crossed polarizer_exp.png" width="600">
-</p>
-
-The second polarizer is located horizontally with respect to the electric field vector. These two polarizers should be oriented at right angles with each other. It blocks the wave which passes through the first polarizer.
-
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
+We printed and assembled the module parts and bought necessary components and inserted them into cubes.  
 You will find basic version of Crossed Polarization experiment without specific sample and extra light source below.
 
 <p align="center">
