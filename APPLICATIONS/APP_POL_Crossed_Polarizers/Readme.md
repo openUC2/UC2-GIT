@@ -20,7 +20,8 @@ The second polarizer is located horizontally with respect to the electric field 
 
 
 <p align="center">
-<img src="./IMAGES/crossed polarizer_exp.png" width="600">
+<img src="./IMAGES/crossed polarizer_exp.png"
+width="400">
 </p>
 
 Time to build a Crossed Polarizers setup!
@@ -64,7 +65,7 @@ Time to build a Crossed Polarizers setup!
 
 <p align="center">
 <img src="./IMAGES/Assembly_Crossed_Polarizers_2.png"
-width="450">
+width="350">
 </p>  
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
@@ -96,9 +97,9 @@ We can observe the direct effect of the angle between two linear polarizers in t
 
 <p align="center">
 <img src="./IMAGES/crossed_polarizer.gif"
-width="450">
+width="400">
 </p>
 
 
 ## New Ideas
-We are open to new idea source (dad joke about open-source project :neutral_face: ). Just open a new issue and spread your idea!
+We are open to new ideas. Please contribute the project freely, this place is a free country which is built by codes and machines :robot: 

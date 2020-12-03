@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="./IMAGES/Three_polarizers_diagram_2.png"
-width="450">
+width="650">
 </p>
 
 
@@ -25,7 +25,7 @@ The polarization direction of the first polarizer is oriented vertically to the 
 
 <p align="center">
 <img src="./IMAGES/three_polarizers_theory.png"
-width="450">
+width="600">
 </p>
 
 
@@ -84,7 +84,7 @@ width="450">
 
 
 <p align="center">
-<img src="./IMAGES/Assembly_Three_Polarizers_3.png" width="600">
+<img src="./IMAGES/Assembly_Three_Polarizers_3.png" width="450">
 </p>
 
 
@@ -107,7 +107,7 @@ The effect of the angle between two linear polarizers can be seen in the video b
 
 <p align="center">
 <img src="./IMAGES/three_polarizers.gif"
-width="450">
+width="350">
 </p>
 
 
