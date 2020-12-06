@@ -2,8 +2,8 @@
 
 
 <p align="center">
-<img src="./IMAGES/Crossed_polarizers_setup.png"
-width="450">
+<img src="./IMAGES/crossed_polarizers_diagram_2.png"
+width="640">
 </p>
 
 
@@ -102,4 +102,4 @@ width="400">
 
 
 ## New Ideas
-We are open to new ideas. Please contribute the project freely, this place is a free country which is built by codes and machines :robot: 
+We are open to new ideas. Please contribute the project freely, this place is a free country which is built by codes and machines :robot:

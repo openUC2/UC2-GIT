@@ -1,19 +1,27 @@
 # Circular Polarizer   
 
-
-Light is an electromagnetic wave. The electric field vectors of unpolarized light vibrate in all planes randomly along the direction of propagation and most of the light sources have unpolarized light illumination such as sunlight, LED lights or halogen lamps.   
-When the electric field vectors are limited using a filtration mechanism and defined well, the polarized light is observed. LASER is the most known example for polarized light source.
-
-Most common filtration mechanism is using the polarizing filter. Polarizers can be used to filter, modify, or analyze the polarization states of light in an optical system.
-
 <p align="center">
 <img src="./IMAGES/Assembly_Circular_Polarizer 2.png"
 width="400">
 </p>
 
+In nature, circular polarization state is uncommon but some organisms can produce circular polarized light by reflection. Many kinds of beetles (Plusiotis, Crysinae and Cetonidae families), shrimps and several other organisms reflect a strongly circularly polarized light or the larvae of few fireflies emit circularly polarized light.
+Or if we look an ordinary day of a human being, we use circular polarized light to have a fun: 3D cinema goggles!
+
+A 3D cinema glasses can produce two different type polarization together. One side has a linear polarized filter and other side has circular polarized filter. When we watch a movie, our glasses turn the incoming light to circularly polarized light. But if turn the glasses and look the movie, we use linearly polarized light to watch our 3D movie.
+
+In a normal goggles, left eye part of the glasses have left-hand circular polarizer and right eye side has right-hand circular polarizer.
+
+
+**check them**  
+The way polarized glasses work in theatres is by using a polarizing screen in front of the projector that changes patterns between every frame of a movie - so the “odd” frames are polarized to match the left eye and the “even” frames are polarized to match the right eye (however in Digital cinema 3D films run at *twice* the normal frame rate, so you’re still getting 24 frames of information to each eye - the same as with a normal film). The “polarizing screen” connects to the projector which sends it information about when to switch so that the right information gets polarized for the proper eye.
+
+
+
+
 ##### What is the difference between the Linear and  the Circular Polarization?
 
-The polarized light can be classified into three types depending the orientation of its electric field: Linear polarization, circular polarization and elliptical polarization.
+The polarized light can be classified into three types depending the orientation of the electric field: Linear polarization, circular polarization and elliptical polarization.
 
 If the electric field of light is limited to a single plane along the propagation direction, the light is *linearly polarized*.
 If the electric field of light has two linear components which are perpendicular to each other, equal in amplitude, π/2 difference in phase, the light is *circularly polarized*.
@@ -21,16 +29,16 @@ Depending on the rotation direction, light can be left-hand circularly polarized
 If the electric field of light describes an ellipse shape with the combination of two linear components with unequal amplitudes and/or phase difference (not π/2), the light is *elliptically polarized*. Circular and linear polarized light can be described as special cases of elliptically polarized light.
 
 
-
+clockwise (right-circularly polarized light)
 <p align="center">
-<img src="./IMAGES/circular_polarizer_diagram_CW.png"
+<img src="./IMAGES/right_circular_polarizers_diagram.png  "
 width="500">
 </p>
 
-
+counterclockwise (left-circularly polarized light)
 <p align="center">
-<img src="./IMAGES/circular_polarizer_diagram_CCW.png"
-width="500">
+<img src="./IMAGES/left_circular_polarizers_diagram.png"
+width="600">
 </p>
 
 
