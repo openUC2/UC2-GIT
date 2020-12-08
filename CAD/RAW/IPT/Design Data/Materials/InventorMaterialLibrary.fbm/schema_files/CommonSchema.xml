@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!DOCTYPE AssetSchema SYSTEM "../ADSKAssetSchema.dtd">
+
+<AssetSchema>
+  
+  <UID  val="CommonSchema"/>
+
+  <String id="BaseSchema"
+          val=""
+          public="false"
+		  definitionIteratorData="true"/>
+
+  <Integer id="SchemaVersion"
+           val="4"
+           public="false"
+           readonly="true" />
+
+  <String id="AssetLibID"
+          val=""/>
+  
+  <String id="assettype"
+          val=""
+          public="false"
+          readonly="true"/>
+  
+  <String id="localtype"
+          val=""
+          local="true"
+          public="false"
+		  readonly="true"/>
+		  
+  <String id="localname"
+          val=""
+          local="true"
+          public="false"
+		  readonly="true"/>
+		  
+  <String id="UIName"
+          val=""
+          local="true"
+          public="false"
+          definitionIteratorData="true" />
+  
+  <String id="keyword"
+          public="false"
+          local="true"
+          allowmultiplevalues="true"
+          definitionIteratorData="true" 
+          val=""/>
+  
+  <String id="category"
+          public="false"
+          local="true"
+          allowmultiplevalues="true"
+          definitionIteratorData="true" 
+          val=""/>
+  
+  <String id="description"
+          val=""
+          local="true"
+          public="false"
+		  definitionIteratorData="true" />
+  
+  <URL id="thumbnail"
+       val=""
+       public="false"
+       allowmultiplevalues="true"
+       definitionIteratorData="true" />
+
+  <Boolean id="Hidden"
+           val="false"
+           public="false"
+           definitionIteratorData="true" />
+
+<Uuid id="VersionGUID"
+       val=""
+       public="false"
+       definitionIteratorData="true" />
+
+  <!-- Currently , the default value of instance version or revision 
+       is 1. To make consistent, we set them to 1 for schema too.
+  -->
+  <Integer id="version"
+           val="1"
+           public="false" />
+  
+  <Integer id="revision"
+           val="1"
+           public="false" />
+  
+  <URL id="UIDefinition"
+       val=""
+       public="false" 
+       readonly="true" />
+
+  <URL id="AdvancedUIDefinition"
+       val=""
+       public="false"
+       readonly="true" />
+
+  <Uuid id="ExchangeGUID"
+       val="" />
+  
+</AssetSchema>
