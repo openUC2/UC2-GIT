@@ -10,7 +10,7 @@
         {
             "name": "10_Cube_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "10_Cube_1x1_v2.stl",
             "image": "",
             "price": 0.4,
             "is_printable": true,
@@ -19,7 +19,7 @@
         {
             "name": "10_Lid_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+            "githublink": "10_Lid_1x1_v2.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -46,7 +46,7 @@
         {
             "name": "20_Cube_Insert_CirAp_Guide",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Aperture_Circular_v2/STL/20_Cube_Insert_CirAp_Guide.stl",
+            "githublink": "20_Cube_Insert_CirAp_Guide.stl",
             "image": "",
             "price": 0.4,
             "is_printable": true,
@@ -55,7 +55,7 @@
         {
             "name": "20_Cube_Insert_CirAp_Wheel",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Aperture_Circular_v2/STL/20_Cube_Insert_CirAp_Wheel.stl",
+            "githublink": "20_Cube_Insert_CirAp_Wheel.stl",
             "image": "",
             "price": 0.0,
             "is_printable": true,
@@ -64,7 +64,7 @@
         {
             "name": "20_Cube_Insert_CirAp_Leaf",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Aperture_Circular_v2/STL/20_Cube_Insert_CirAp_Leaf1.stl",
+            "githublink": "20_Cube_Insert_CirAp_Leaf.stl",
             "image": "",
             "price": 0.0,
             "is_printable": true,
@@ -73,7 +73,7 @@
         {
             "name": "20_Cube_Insert_CirAp_Lid",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Aperture_Circular_v2/STL/20_Cube_Insert_CirAp_Lid.stl",
+            "githublink": "20_Cube_Insert_CirAp_Lid.stl",
             "image": "",
             "price": 0.0,
             "is_printable": true,

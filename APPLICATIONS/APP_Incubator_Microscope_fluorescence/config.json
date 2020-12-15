@@ -18,7 +18,7 @@
                 {
                     "name": "Baseplate 4x4",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x4.stl",
+                    "githublink": "Assembly_base_4x4.stl",
                     "image": "",
                     "price": 2.6,
                     "is_printable": true,
@@ -47,7 +47,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -56,7 +56,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -83,7 +83,7 @@
                 {
                     "name": "20_Cube_Insert_Beamexpander",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Beamexpander_v2/STL/20_Cube_Insert_Beamexpander.stl",
+                    "githublink": "20_Cube_Insert_Beamexpander.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -92,7 +92,7 @@
                 {
                     "name": "30_Lens_Adapter_Beamexpander",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Beamexpander_v2/STL/30_Lens_Adapter_Beamexpander.stl",
+                    "githublink": "30_Beamexpander_Lens_Adapter.stl",
                     "image": "",
                     "price": 0.0,
                     "is_printable": true,
@@ -130,7 +130,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -139,7 +139,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -166,7 +166,7 @@
                 {
                     "name": "20_Cube_Insert_Laser_Mount",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Laser_v2/STL/20_Cube_Insert_Laser_Mount.stl",
+                    "githublink": "20_Cube_Insert_Laser_Holder_v2.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -175,7 +175,7 @@
                 {
                     "name": "00_Laser_Clamp_OnOffSwitch",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Laser_v2/STL/00_Laser_Clamp_OnOffSwitch.stl",
+                    "githublink": "00_Laser_Clamp_OnOffSwitch.stl",
                     "image": "",
                     "price": 0.0,
                     "is_printable": true,
@@ -213,7 +213,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -222,7 +222,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -249,7 +249,7 @@
                 {
                     "name": "20_Cube_Insert_Lens_Cylindrical",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2/STL/20_Cube_Insert_Lens_Cylindrical.stl",
+                    "githublink": "20_Cube_Insert_Lens_Cylindrical.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -278,7 +278,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -287,7 +287,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -314,9 +314,27 @@
                 {
                     "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_base.stl",
                     "image": "",
                     "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter.stl",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl",
+                    "image": "",
+                    "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
@@ -370,7 +388,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -379,7 +397,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -406,7 +424,7 @@
                 {
                     "name": "20_Cube_Insert_RaspiCam",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2/STL/20_Cube_Insert_RaspiCam.stl",
+                    "githublink": "20_Cube_Insert_RaspiCam.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -446,14 +464,14 @@
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2",
             "image": "",
-            "price": 21.75,
+            "price": 21.95,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
                     "name": "10_Lid_1x1_v2_thin",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/10_Lid_1x1_v2_thin.stl",
+                    "githublink": "10_Lid_1x1_v2_thin.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -462,18 +480,45 @@
                 {
                     "name": "30_Z_Translator_Lightsheet",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Z_Translator_Lightsheet_v4.stl",
+                    "githublink": "30_LS_Sample_stage_v2.stl",
                     "image": "",
                     "price": 0.5,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Coupling_Screw_28BYJ_M3",
+                    "name": "30_Coupling_Screw_28BYJ_M3.stl",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Coupling_Screw_28BYJ_M3.stl",
+                    "githublink": "30_Coupling_Screw_28BYJ_M3.stl",
                     "image": "",
-                    "price": 0.0,
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "30_Coupling_Screw_28BYJ_M3_v2.stl",
+                    "description": "",
+                    "githublink": "30_Coupling_Screw_28BYJ_M3_v2.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "30_Coupling_Screw_28BYJ_M4.stl",
+                    "description": "",
+                    "githublink": "30_Coupling_Screw_28BYJ_M4.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "30_Coupling_Screw_28BYJ_M4_v2.stl",
+                    "description": "",
+                    "githublink": "30_Coupling_Screw_28BYJ_M4_v2.stl",
+                    "image": "",
+                    "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
@@ -556,14 +601,14 @@
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2",
             "image": "",
-            "price": 50.35,
+            "price": 50.55,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
                     "name": "10_Cube_2x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/10_Cube_2x1_v2.stl",
+                    "githublink": "10_Cube_2x1_v2.stl",
                     "image": "",
                     "price": 0.5,
                     "is_printable": true,
@@ -572,7 +617,7 @@
                 {
                     "name": "10_Lid_el_2x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/10_Lid_el_2x1_v2.stl",
+                    "githublink": "10_Lid_el_2x1_v2.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -581,43 +626,52 @@
                 {
                     "name": "20_focus_inlet_linearflexure",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/20_focus_inlet_linearflexure_v0.stl",
+                    "githublink": "20_focus_inlet_linearflexure_v4.stl",
                     "image": "",
                     "price": 0.6,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Coupling_Screw_28BYJ_M3",
+                    "name": "30_Coupling_Screw_28BYJ_M3.stl",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Coupling_Screw_28BYJ_M3.stl",
+                    "githublink": "30_Coupling_Screw_28BYJ_M3.stl",
                     "image": "",
-                    "price": 0.0,
+                    "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_focus_inlet_objective_mount",
+                    "name": "30_Coupling_Screw_28BYJ_M3_v2.stl",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_focus_inlet_objective_mount_v7.stl",
+                    "githublink": "30_Coupling_Screw_28BYJ_M3_v2.stl",
                     "image": "",
-                    "price": 0.1,
+                    "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Z_Stage_Adapterplate",
+                    "name": "30_Coupling_Screw_28BYJ_M4.stl",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Adapterplate.stl",
+                    "githublink": "30_Coupling_Screw_28BYJ_M4.stl",
                     "image": "",
-                    "price": 0.3,
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "30_Coupling_Screw_28BYJ_M4_v2.stl",
+                    "description": "",
+                    "githublink": "30_Coupling_Screw_28BYJ_M4_v2.stl",
+                    "image": "",
+                    "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
                     "name": "30_Z_Stage_Fluomodule",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Fluomodule.stl",
+                    "githublink": "30_Z_Stage_Fluomodule.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -626,7 +680,7 @@
                 {
                     "name": "40_XY_Stage_Clamp_Slide",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/40_XY_Stage_Clamp_Slide.stl",
+                    "githublink": "40_XY_Stage_Clamp_Slide.stl",
                     "image": "",
                     "price": 0.1,
                     "is_printable": true,

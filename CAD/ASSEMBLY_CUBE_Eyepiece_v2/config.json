@@ -10,7 +10,7 @@
         {
             "name": "10_Cube_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "10_Cube_1x1_v2.stl",
             "image": "",
             "price": 0.4,
             "is_printable": true,
@@ -19,7 +19,7 @@
         {
             "name": "10_Lid_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+            "githublink": "10_Lid_1x1_v2.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -46,7 +46,7 @@
         {
             "name": "20_Cube_Insert_Holder-okular",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl",
+            "githublink": "20_Cube_Insert_Holder-okular+flashlight_v2.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -55,7 +55,7 @@
         {
             "name": "30_Smartphone_Holder",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/30_Smartphone_Holder.stl",
+            "githublink": "30_Smartphone_Holder.stl",
             "image": "",
             "price": 0.6,
             "is_printable": true,

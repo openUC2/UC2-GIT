@@ -10,7 +10,7 @@
         {
             "name": "10_Cube_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "10_Cube_1x1_v2.stl",
             "image": "",
             "price": 0.4,
             "is_printable": true,
@@ -19,7 +19,7 @@
         {
             "name": "10_Lid_1x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+            "githublink": "10_Lid_1x1_v2.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -46,9 +46,27 @@
         {
             "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl",
+            "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_base.stl",
             "image": "",
             "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter.stl",
+            "description": "",
+            "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl",
+            "description": "",
+            "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl",
+            "image": "",
+            "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },

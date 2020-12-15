@@ -7,7 +7,7 @@
     "type": "application",
     "modules": [
         {
-            "name": "ASSEMBLY_Baseplate 4x11",
+            "name": "ASSEMBLY_Baseplate 4x1",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
@@ -18,7 +18,7 @@
                 {
                     "name": "Baseplate 4x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl",
+                    "githublink": "Assembly_base_4x1.stl",
                     "image": "",
                     "price": 0.7,
                     "is_printable": true,
@@ -47,7 +47,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -56,7 +56,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -83,7 +83,7 @@
                 {
                     "name": "20_Cube_insert_LED_holder",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_v2/STL/ASSEMBLY_CUBE_LED_20_Cube_insert_LED_holder.stl",
+                    "githublink": "20_Cube_insert_LED_holder.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -92,7 +92,7 @@
                 {
                     "name": "20_Cube_insert_Sample_holder (optional)",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_v2/STL/ASSEMBLY_CUBE_LED_20_Cube_insert_Sample_holder.stl",
+                    "githublink": "20_Cube_insert_Sample_holder.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -101,7 +101,7 @@
                 {
                     "name": "20_Cube_Insert_Sample_clamp (optional)",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_v2/STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl",
+                    "githublink": "20_Cube_Insert_Sample_clamp.stl",
                     "image": "",
                     "price": 0.0,
                     "is_printable": true,
@@ -166,7 +166,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -175,7 +175,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -202,7 +202,7 @@
                 {
                     "name": "20_Cube_Insert_RaspiCam",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2/STL/20_Cube_Insert_RaspiCam.stl",
+                    "githublink": "20_Cube_Insert_RaspiCam.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,

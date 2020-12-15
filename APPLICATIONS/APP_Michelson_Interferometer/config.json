@@ -1,8 +1,8 @@
 {
     "name": "APP_Michelson_Interferometer",
-    "description": "Michelson Interferometer is sensitive to surface variation of the observed sample, compared to a flat mirror. ",
+    "description": "The Spectrometer uses a grating to disperse the incoming light and allows for imaging of the transmission spectrum of the sample. ",
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_Michelson_Interferometer",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Michelson_Interferometer/IMAGES/Application_Michelson-Interferometer_v2_2.png?raw=true",
+    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Spectrometer/IMAGES/UC2_Setups_10_spectrometer.png?raw=true",
     "price": 0,
     "type": "application",
     "modules": [
@@ -18,7 +18,7 @@
                 {
                     "name": "Baseplate 4x4",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x4.stl",
+                    "githublink": "Assembly_base_4x4.stl",
                     "image": "",
                     "price": 2.6,
                     "is_printable": true,
@@ -47,7 +47,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -56,7 +56,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -83,7 +83,7 @@
                 {
                     "name": "20_Cube_Insert_Beamexpander",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Beamexpander_v2/STL/20_Cube_Insert_Beamexpander.stl",
+                    "githublink": "20_Cube_Insert_Beamexpander.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -92,7 +92,7 @@
                 {
                     "name": "30_Lens_Adapter_Beamexpander",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Beamexpander_v2/STL/30_Lens_Adapter_Beamexpander.stl",
+                    "githublink": "30_Beamexpander_Lens_Adapter.stl",
                     "image": "",
                     "price": 0.0,
                     "is_printable": true,
@@ -130,7 +130,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -139,7 +139,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -166,7 +166,7 @@
                 {
                     "name": "20_Cube_Insert_Beamsplitter",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Beamsplitter_v2/STL/20_Cube_Insert_Beamsplitter.stl",
+                    "githublink": "20_Cube_Insert_Beamsplitter.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -195,7 +195,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -204,7 +204,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -231,7 +231,7 @@
                 {
                     "name": "20_Cube_Insert_Laser_Mount",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Laser_v2/STL/20_Cube_Insert_Laser_Mount.stl",
+                    "githublink": "20_Cube_Insert_Laser_Holder_v2.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -240,7 +240,7 @@
                 {
                     "name": "00_Laser_Clamp_OnOffSwitch",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Laser_v2/STL/00_Laser_Clamp_OnOffSwitch.stl",
+                    "githublink": "00_Laser_Clamp_OnOffSwitch.stl",
                     "image": "",
                     "price": 0.0,
                     "is_printable": true,
@@ -278,7 +278,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -287,7 +287,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -314,7 +314,227 @@
                 {
                     "name": "20_Cube_Insert_Kinematic_Mirrormount_base",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_v2/STL/20_Cube_Insert_Kinematic_Mirrormount_base.stl",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_base.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_Plate.",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_Plate.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Metal plate 30x40 mm\u00b2, custom cut",
+                    "description": "",
+                    "githublink": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "30x30 mm\u00b2 Mirror",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 3.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 3.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Mirror_Kinematic",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_v2",
+            "image": "",
+            "price": 4.510000000000001,
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Cube_1x1",
+                    "description": "",
+                    "githublink": "10_Cube_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1",
+                    "description": "",
+                    "githublink": "10_Lid_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                },
+                {
+                    "name": "Screws M3x8 (optional)",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_base",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_base.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_Plate.",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_Plate.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Metal plate 30x40 mm\u00b2, custom cut",
+                    "description": "",
+                    "githublink": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "30x30 mm\u00b2 Mirror",
+                    "description": "",
+                    "githublink": "https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 3.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 3.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Mirror_Kinematic_45",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2",
+            "image": "",
+            "price": 4.61,
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Cube_1x1",
+                    "description": "",
+                    "githublink": "10_Cube_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1",
+                    "description": "",
+                    "githublink": "10_Lid_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                },
+                {
+                    "name": "Screws M3x8 (optional)",
+                    "description": "",
+                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_base.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter.stl",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl",
+                    "description": "",
+                    "githublink": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -370,7 +590,7 @@
                 {
                     "name": "10_Cube_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -379,7 +599,7 @@
                 {
                     "name": "10_Lid_1x1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -406,7 +626,7 @@
                 {
                     "name": "20_Cube_Insert_RaspiCam",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2/STL/20_Cube_Insert_RaspiCam.stl",
+                    "githublink": "20_Cube_Insert_RaspiCam.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -438,71 +658,6 @@
                     "price": 0.1,
                     "is_printable": false,
                     "n_parts": 2.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Sample_Holder",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
-            "image": "",
-            "price": 2.5,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "Screws M3x8 (optional)",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "20_Cube_insert_Sample_holder",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Sample_clamp",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
                 }
             ]
         },

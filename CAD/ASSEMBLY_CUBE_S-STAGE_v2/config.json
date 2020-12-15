@@ -3,14 +3,14 @@
     "description": "",
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2",
     "image": "",
-    "price": 21.75,
+    "price": 21.95,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
         {
             "name": "10_Lid_1x1_v2_thin",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/10_Lid_1x1_v2_thin.stl",
+            "githublink": "10_Lid_1x1_v2_thin.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -19,18 +19,45 @@
         {
             "name": "30_Z_Translator_Lightsheet",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Z_Translator_Lightsheet_v4.stl",
+            "githublink": "30_LS_Sample_stage_v2.stl",
             "image": "",
             "price": 0.5,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30_Coupling_Screw_28BYJ_M3",
+            "name": "30_Coupling_Screw_28BYJ_M3.stl",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Coupling_Screw_28BYJ_M3.stl",
+            "githublink": "30_Coupling_Screw_28BYJ_M3.stl",
             "image": "",
-            "price": 0.0,
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Coupling_Screw_28BYJ_M3_v2.stl",
+            "description": "",
+            "githublink": "30_Coupling_Screw_28BYJ_M3_v2.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Coupling_Screw_28BYJ_M4.stl",
+            "description": "",
+            "githublink": "30_Coupling_Screw_28BYJ_M4.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Coupling_Screw_28BYJ_M4_v2.stl",
+            "description": "",
+            "githublink": "30_Coupling_Screw_28BYJ_M4_v2.stl",
+            "image": "",
+            "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },

@@ -346,7 +346,7 @@ for i_module in range(len(all_modules)):
 
     # add all parts to the module again.
     my_module_json['partslist'] = json.loads(json.dumps(my_partslist))
-    
+    aödslfkj
     
     # 4.) Save this! 
     my_cadroot = '/CAD'

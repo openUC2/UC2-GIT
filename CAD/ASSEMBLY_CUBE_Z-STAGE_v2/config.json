@@ -3,14 +3,14 @@
     "description": "",
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2",
     "image": "",
-    "price": 50.35,
+    "price": 50.55,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
         {
             "name": "10_Cube_2x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/10_Cube_2x1_v2.stl",
+            "githublink": "10_Cube_2x1_v2.stl",
             "image": "",
             "price": 0.5,
             "is_printable": true,
@@ -19,7 +19,7 @@
         {
             "name": "10_Lid_el_2x1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/10_Lid_el_2x1_v2.stl",
+            "githublink": "10_Lid_el_2x1_v2.stl",
             "image": "",
             "price": 0.3,
             "is_printable": true,
@@ -28,43 +28,52 @@
         {
             "name": "20_focus_inlet_linearflexure",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/20_focus_inlet_linearflexure_v0.stl",
+            "githublink": "20_focus_inlet_linearflexure_v4.stl",
             "image": "",
             "price": 0.6,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30_Coupling_Screw_28BYJ_M3",
+            "name": "30_Coupling_Screw_28BYJ_M3.stl",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Coupling_Screw_28BYJ_M3.stl",
+            "githublink": "30_Coupling_Screw_28BYJ_M3.stl",
             "image": "",
-            "price": 0.0,
+            "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30_focus_inlet_objective_mount",
+            "name": "30_Coupling_Screw_28BYJ_M3_v2.stl",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_focus_inlet_objective_mount_v7.stl",
+            "githublink": "30_Coupling_Screw_28BYJ_M3_v2.stl",
             "image": "",
-            "price": 0.1,
+            "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30_Z_Stage_Adapterplate",
+            "name": "30_Coupling_Screw_28BYJ_M4.stl",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Adapterplate.stl",
+            "githublink": "30_Coupling_Screw_28BYJ_M4.stl",
             "image": "",
-            "price": 0.3,
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Coupling_Screw_28BYJ_M4_v2.stl",
+            "description": "",
+            "githublink": "30_Coupling_Screw_28BYJ_M4_v2.stl",
+            "image": "",
+            "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
             "name": "30_Z_Stage_Fluomodule",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Fluomodule.stl",
+            "githublink": "30_Z_Stage_Fluomodule.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
@@ -73,7 +82,7 @@
         {
             "name": "40_XY_Stage_Clamp_Slide",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/40_XY_Stage_Clamp_Slide.stl",
+            "githublink": "40_XY_Stage_Clamp_Slide.stl",
             "image": "",
             "price": 0.1,
             "is_printable": true,
