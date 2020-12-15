@@ -37,8 +37,11 @@ The Cube consists of the following components.
 * **The Lid (1x1)** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
 * **The Cube (2x1)** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
 * **The Z-Stage and Motor Holder** which moves the sample and holds the stepper motor ([INSERT](./STL/20_Cube_Insert_Z-Focus_single_motorized_v3.stl))
+* **The Z-Stage for manual operation using a micrometer screw** it moves the sample using a micrometer ([INSERT](./STL/20_Cube_Insert_Z-Focus_single_v3))
+* **The Z-Stage for manual operation using an M3 screw** it moves the sample using a M3 screw ([INSERT](./STL/20_Cube_Insert_Z-Focus_single_M3_v3))
 * **The M3 to Motor Adapter (mech. Coupling)** which connects the Motor directly to an M3 screw which acts as a wormdrive ([SCREW](./STL/30_Coupling_Screw_28BYJ_M3.stl))
 * **The Insert for the RMS/25mm objective** With this you can slide in the objective lens inside the lower cube ([RMS/25mm Lens adapter](./STL/20_IM_Cube_Insert_Lens_holder_RMS_63x.stl))
+* **The insert for a RMS objective lens** With this you can move the objective lens rather than the sample. It fits inside the whole of the moving plate [Objective Mount](./STL/20_Cube_Insert_Z-Focus_objectivemount.stl)
 
 ***HINT:*** For the new puzzle-piece based cube, you need "M5 Madenschrauben". There will be more in the future. For now, please find some screws like these ones: [Ebay](https://www.ebay.de/itm/25-St-Madenschrauben-Gewindestifte-Spitze-DIN-914-M5-x-Laengen-4-bis-50-mm-V2A-/400494812602)
 
@@ -93,6 +96,14 @@ This is the assembly guide for the Z-Stage.
 <img src="./IMAGES/Assembly2.png" width="700">
 </p>
 
+## Z-Stage in Action
+
+The stage can be used with the new (v3) and old (v2) cubes!
+One can also mount the objective in place where the sample usually moves. 
+
+<p align="center">
+<img src="./IMAGES/zstageinaction.gif" width="700">
+</p>
 
 
 
