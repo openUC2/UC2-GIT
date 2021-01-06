@@ -1,46 +1,63 @@
 # Baseplate
-This is the repository for the design of the baseplates. The .stl files can be found in the folder [STL](./STL).
+This is the repository for the design of the baseplates.
+
+The STL-files of this part are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) parts.
 
 ([TUT04 of TUTORIALS](../../TUTORIALS))
 
 ## Purpose
-Baseplates serve as a spine of any setup you build using the cubes. The basic unit has a size of 1×1. The 5 mm ballmagnets are inserted in the baseplate.
+Baseplates serve as a spine of any setup you build using the cubes. The basic unit is a puzzle piece.
 
 <p align="center">
-<img src="./IMAGES/00_Base_v0.png" width="200">
+<img src="./IMAGES/10_Base_puzzle_v3.png" width="200">
 </p>
 
-Most useful baseplates are 4×1, 4×2 and 4×4. But any size or shape can be concatenated. For better stability, the printed baseplate can be screwed to a Thorlabs breadboard, optical table or a wooden board.
+The puzzle pieces can be arbitrarily combined into a baseplate of a desired size and shape. For better stability, the baseplate can be screwed to a Thorlabs breadboard, optical table or a wooden board.
 
 <p align="center">
-<img src="./IMAGES/Assembly_base_4x4.png" width="350">
+<img src="./IMAGES/10_Base_puzzle_v3_02.png" width="350">
 </p>
 
-The baseplates can be also concatenated in 90° using the Baseplate Connector. This allows you to build setups in 3D!
+The baseplates can be also concatenated in third dimension,  being build in a "sandwich"-like structure.
 
 <p align="center">
-<img src="./IMAGES/Assembly_base_90degree.png"
-width="500">
+<img src="./IMAGES/10_Base_puzzle_v3_03.png" width="200">
 </p>
 
 ## Parts
-### <img src="./IMAGES/P.png" height="40"> 3D printing parts
-In [STL](./STL) you find the following baseplates. Choose the size that will be the best for your setup:
-* [Assembly_base_4x1](./STL/Assembly_base_4x1.stl)
-* [Assembly_base_4x2](./STL/Assembly_base_4x2.stl)
-* [Assembly_base_4x4](./STL/Assembly_base_4x4.stl)
+The baseplate puzzles are produced using injection moulding (IM) but it is also possible to 3D print (3DP) them. The IM and 3DP puzzles are compatible.  
+However, the size of the 3DP puzzles may vary between different printers and filaments. It is therefore advisable to calibrate the baseplate with your printer. Details below.
 
-Further, you find there:
-* [10_Base_v2](./STL/10_Base_v2.stl) - a single baseplate unit. Use it to create assemblies and generate baseplates of different size and shape.
-* [00_Connector_Baseplate](./STL/00_Connector_Baseplate.stl) - as mentioned above, the connector allows you to build setups in 3D
-* [Assembly_Base_Connector_4](./STL/Assembly_Base_Connector_4.stl) - lenght of 4 baseplate units
+Find out more about combining the IM and 3DP cubes in the [Modular Developer Kit](../../MDK).
+
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
+The Baseplate puzzle for 3D printing is found in the [RAW/STL](../RAW/STL) folder here:
+* [10_Base_puzzle_v3.stl](../RAW/STL/UC2_v3_10_Base_puzzle_v3_77.stl)
+
+#### Calibrate the size of the baseplate puzzle
+The size of the 3DP puzzles may vary between different printers and filaments. How to take this aspect into account?
+
+1. Print the Baseplate calibrator from [here](../RAW/STL/UC2_v3_30_printing_calibrator_69.stl). Use the 3D printer you'll be using for all the parts.
+1. Find which pair of puzzle connectors fit best together
+1. Using an M5 screw, find on the S side of the calibrator the correct offset for the holes for the pins/screws
+1. If you'll be using magnets in the baseplates, find on the M side of the calibrator the correct offset for the holes for the magnets - they should be inserted with force but without breaking hands or the 3D printed calibrator
+1. This gives you the offset from the default size
+<p align="center">
+<img src="./IMAGES/Calibrator.PNG" width="800">
+</p>
+1. Open the Baseplate puzzle on [Thingiverse](https://www.thingiverse.com/thing:4712377) using their Customizer and insert the correct offsets.
+1. Generate an STL-file for the Baseplate that will work best with your printer. To make sure it works, firstly print only two baseplates and check if the puzzles connect firmly. 
+
+
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* Ballmagnets (four magnets per baseplate unit) - 5 mm diameter [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+* Optional - the magnets are necessary for using 3DP cubes and for certain modules: Ballmagnets (four magnets per baseplate unit) - 5 mm diameter [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
+      This part needs an update!
+
 ### Assembly Video Tutorial
 [![UC2 YouSeeToo - How to assemble the baseplate?](./IMAGES/UC2_Assembly_Baseplate.png)](https://www.youtube.com/watch?v=zAMedY0mWKA)
 

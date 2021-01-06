@@ -1,7 +1,7 @@
 # Z-Stage (Objective) Cube
 This is the repository for the Z-Stage (Objective) Cube.
 
-The stl-files can be found in the folder [STL](./STL).
+To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample.
@@ -18,11 +18,23 @@ In order to automate this, we designed a very simple z-stage itself relying on f
 * motorized with a stepper motor
 
 ## Parts
-### <img src="./IMAGES/P.png" height="40">
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
-3D printing parts
+### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+* No support needed in all designs
+* Carefully remove all support structures (if applicable)
 
-* Inside the Prusa we add a support enforcer (green part) 
+The Cube consists of the following components.
+
+#### Default:
+* **IM Cube** which houses the insert and adapts it into a UC2 setup.
+* **The Z-Stage and Motor Holder** which moves the sample and holds the stepper motor ([INSERT](./STL/20_Cube_Insert_Z-Focus_single_motorized_v3.stl))
+* **The M3 to Motor Adapter (mech. Coupling)** which connects the Motor directly to an M3 screw which acts as a wormdrive ([SCREW](./STL/30_Coupling_Screw_28BYJ_M3.stl))
+* **The Insert for the RMS/25mm objective** With this you can slide in the objective lens inside the lower cube ([RMS/25mm Lens adapter](./STL/20_IM_Cube_Insert_Lens_holder_RMS_63x.stl))
+
+**Hint:** 3D printing parts
+
+* Inside the Prusaslicer we add a support enforcer (green part)
 * Have 80-100% infill
 * Layerheight: 200µm
 * Remove the thin piece which is designed to support the motor holding bit
@@ -31,23 +43,13 @@ In order to automate this, we designed a very simple z-stage itself relying on f
 <img src="./IMAGES/PrintStage.jpeg" width="500">
 </p>
 
-
-The Cube consists of the following components.
-
-* **The Lid (1x1)** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
-* **The Cube (2x1)** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
-* **The Z-Stage and Motor Holder** which moves the sample and holds the stepper motor ([INSERT](./STL/20_Cube_Insert_Z-Focus_single_motorized_v3.stl))
-* **The M3 to Motor Adapter (mech. Coupling)** which connects the Motor directly to an M3 screw which acts as a wormdrive ([SCREW](./STL/30_Coupling_Screw_28BYJ_M3.stl))
-* **The Insert for the RMS/25mm objective** With this you can slide in the objective lens inside the lower cube ([RMS/25mm Lens adapter](./STL/20_IM_Cube_Insert_Lens_holder_RMS_63x.stl))
-
-***HINT:*** For the new puzzle-piece based cube, you need "M5 Madenschrauben". There will be more in the future. For now, please find some screws like these ones: [Ebay](https://www.ebay.de/itm/25-St-Madenschrauben-Gewindestifte-Spitze-DIN-914-M5-x-Laengen-4-bis-50-mm-V2A-/400494812602)
+#### Alternatives:
+* **3DP Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([10_Cube_1x1_v3.stl](../RAW/STL)) and **3DP Lid** which closes the Cube ([10_Lid_1x1_v3.stl](../RAW/STL)) - find the details in [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base)
 
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 10× - 20× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-* 3× DIN912 M3×8 screws (galvanized steel)
-* 2× DIN912 M3×18 screws (galvanized steel)
+* 2× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 1× M3 Nut
 * 1× M3 Screw, 30 mm or longer (non-magnetic)
 * 1× 28-BYJ stepper motor with 1x Driving electronic [🢂](https://www.amazon.de/Elegoo-Stepper-Schrittmotor-28BYJ-48-Treiberplatine/dp/B01MEGIHLF/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=stepper+arduino&qid=1565008205&s=gateway&sr=8-1-spons&psc=1)
@@ -60,7 +62,7 @@ The Cube consists of the following components.
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 
 ### Tutorial with images (Z-Stage)
-This is the assembly guide for the Z-Stage.
+    This tutorial needs a update!
 
 1. Insert the motor into the motor-screw-coupling adapter.
 <p align="center">

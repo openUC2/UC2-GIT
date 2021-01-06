@@ -2,12 +2,12 @@
 ([TUT03 of TUTORIALS](../../../TUTORIALS) )  
 This is a subsection of the repository for the [Generic Lens Holder Cube](../).
 
-The .stl files can be found in the folder [STL](../STL).
+To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ### Purpose
 The Lens Holder insert adapts a lens into the cube.
 <p align="center">
-<img src="../IMAGES/Assembly_Cube_Lens_Mount.png" width="400">
+<img src="../IMAGES/Assembly_Cube_Lens_holder_100mm_v3.png" width="300">
 </p>
 
 ## Parts
@@ -18,18 +18,15 @@ The Lens Holder insert adapts a lens into the cube.
 
 The Cube consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](../STL/10_Lid_1x1_v2.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](../STL/10_Cube_1x1_v2.stl))
+#### Default:
+* **IM Cube** which houses the insert and adapts it into a UC2 setup.
 
 For the 40 mm lens linked in additional parts:
-* **The 1" Lens Holder** which holds a lens with 1 inch (25,4 mm) diameter and adapts it to the base cube ([HOLDER](../STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl))
-* **The 1" Lens Clamp** which holds a lens with 1 inch (25,4 mm) diameter in the holder ([CLAMP](../STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl))
+* **The 1" Lens Holder with clamp** which holds a lens with 1 inch (25,4 mm) diameter and adapts it to the base cube ([UC2_v3_20_Insert_Lens_holder_40mm_v3.stl](../RAW/STL/UC2_v3_20_Insert_Lens_holder_40mm_v3.stl))
 
 You can generate a holder for any arbitrary lens following the [Thingiverse Customizer](https://www.thingiverse.com/thing:4377691). For the other lenses we frequently use, the STL can be found [here](../STL).
 
 ### <img src="../IMAGES/B.png" height="40"> Additional parts
-* 8× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-* alternatively: 4× M3×12 and 4× M3×8
 * Lens, f' = +40 mm (Artikel 2120) [🢂](https://optikbaukasten.de/)
 
 ## <img src="../IMAGES/A.png" height="40"> Assembly
@@ -37,10 +34,11 @@ You can generate a holder for any arbitrary lens following the [Thingiverse Cust
 * Put the clamp in, to hold the lens
 * Put hot glue in the groove between the clamp and the holder - this way it will fix it permanently. The glue must never touch the lens!
 * Put the Insert in the Cube
-* Add all screws to the Cube
+* Close the cube accordingly (IM/3DP)
 * Done!
 
 ### Tutorial with images
+:grey_exclamation: This tutorial shows a UC2_v2 cube but the assembly of the insert is still the same. For assembly of the cube (IM/3DP) check the [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base).
 
 1. All parts for this model
 <p align="center">
