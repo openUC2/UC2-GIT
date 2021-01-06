@@ -14,6 +14,11 @@ Here you find the guidelines to show these experiments:
 
 
 ## First experiment: Compound Microscope and Illumination of the Sample
+
+<p align="center">
+<img src="./IMAGES/Application_Plymouth_experiment_v3.png" width="400">
+</p>
+
 This experiment demonstrates the essential parts of a transmission light microscope and explains the concept of conjugate planes. We will start with a simple direct illumination and build up to a proper Köhler illumination, while observing the advantages and disadvantages of each illumination type.  
 <p align="center">
 <img src="./IMAGES/setup03.gif" width="800">
@@ -23,7 +28,13 @@ We will add a Beamsplitter and a side arm to split the light path in order to ob
 <img src="./IMAGES/setup01.gif" width="800">
 </p>
 
+
 ## Second experiment: Abbe Diffraction Experiment
+
+<p align="center">
+<img src="./IMAGES/Application_Abbe_experiment_v3.png" width="400">
+</p>
+
 **[Click here](https://youtu.be/NrkINpx6IMo) to watch a video of the UC2 Abbe Experiment on our YouTube channel!**  
 The famous Abbe Diffraction Experiments shows how diffraction of light by a specimen (and interference with the illuminating light) creates an image and how collection of diffracted light defines the resolution of the microscope. With this setup it is possible to view both sets of conjugate planes at the same time, on a camera or a screen.
 <p align="center">

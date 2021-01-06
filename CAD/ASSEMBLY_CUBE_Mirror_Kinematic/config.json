@@ -1,0 +1,92 @@
+{
+    "name": "ASSEMBLY_CUBE_Mirror_Kinematic",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_v2",
+    "image": "",
+    "price": 4.510000000000001,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Cube_1x1",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "image": "",
+            "price": 0.4,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Lid_1x1",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "Screws M3x8 (optional)",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "20_Cube_Insert_Kinematic_Mirrormount_base",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_v2/STL/20_Cube_Insert_Kinematic_Mirrormount_base.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Metal plate 30x40 mm\u00b2, custom cut",
+            "description": "",
+            "githublink": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30x30 mm\u00b2 Mirror",
+            "description": "",
+            "githublink": "https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 3.0
+        },
+        {
+            "name": "Ballmagnets",
+            "description": "",
+            "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+            "image": "",
+            "price": 0.47,
+            "is_printable": false,
+            "n_parts": 3.0
+        }
+    ]
+}

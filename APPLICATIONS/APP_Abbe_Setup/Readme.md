@@ -2,13 +2,13 @@
 This is the repository for the Abbe Diffraction Experiment. It has two cameras where one captures the Fourier plane and the other acquires the image plane.
 
 <p align="center">
-<img src="./IMAGES/Application_Abbe-Experiment_v2.png" width="500">
+<img src="./IMAGES/Application_Abbe_experiment_v3.png" width="500">
 </p>
 
 ## Setup
-This is based on old cubes, but the order is the same. All lenses have 50mm focal length.
+This experiment is also a part of the [CourseBOX](../../TheBOX/CourseBOX) and the detailed alignment tutorial is found [here](../../TheBOX/CourseBOX/ALIGNMENT_InfOptics).
 <p align="center">
-<img src="./IMAGES/Abbe_Experiment_3.jpg.png" width="500">
+<img src="./IMAGES/scheme06.jpg" width="800">
 </p>
 
 ## Devices' features:
@@ -20,11 +20,20 @@ This is based on old cubes, but the order is the same. All lenses have 50mm foca
 * Compatible with Educational purposes
 
 
-## <img src="./IMAGES/P.png" width="40">3D printing
+## <img src="./IMAGES/D.png" width="40">3D printing
 
-Having two cameras is optional since one camera can be moved between two planes!
+### Modules for this setup
 
-### <img src="./IMAGES/D.png" width="40"><img src="./IMAGES/P.png" width="40">Parts to printing
+|  Name | Properties  |  Price | Link  | # |
+|---|---|---|---|---|
+| Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 14|
+|  Module: Raspberry Pi Camera | Having two cameras is optional since one camera can be moved between two planes!  | 20 €  | [Raspi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 2|
+|  Module: Laser  | - | ??€  | [Laser](../../CAD/ASSEMBLY_CUBE_Laser_v2)  | 1|
+|  Module: Lens | all 50mm lenses | 10€  | [Lens Cube](../../CAD/ASSEMBLY_CUBE_Lens_v2)  | 4 |
+|  Module: Beamsplitter | - | 30€  | [Beamsplitter Cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)  | 1 |
+|  Module: Sample holder | - | 30€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |
+
+### <img src="./IMAGES/P.png" width="40">Parts to printing
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|

@@ -1,0 +1,29 @@
+{
+    "name": "ASSEMBLY_Baseplate 4x4",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
+    "image": "",
+    "price": 32.68,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "Baseplate 4x4",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x4.stl",
+            "image": "",
+            "price": 2.6,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Ballmagnets",
+            "description": "",
+            "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+            "image": "",
+            "price": 0.47,
+            "is_printable": false,
+            "n_parts": 64.0
+        }
+    ]
+}

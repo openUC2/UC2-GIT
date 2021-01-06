@@ -1,0 +1,128 @@
+{
+    "name": "ASSEMBLY_CUBE_Z-stage_mechanical",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2",
+    "image": "",
+    "price": 30.700000000000003,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Cube_2x1",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Cube_2x1_v2.stl",
+            "image": "",
+            "price": 0.5,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Lid_el_2x1",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Lid_el_2x1_v2.stl",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_focus_inlet_linearflexure",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_linearflexure_v0.stl",
+            "image": "",
+            "price": 0.6,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_focus_inlet_objective_mount",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_focus_inlet_objective_mount_v7.stl",
+            "image": "",
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_focus_inlet_plate_bottom",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_bottom.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_focus_inlet_plate_top",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_top.stl",
+            "image": "",
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "00_large_gear",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_00_large_gear.stl",
+            "image": "",
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Z_Stage_Sampleplate",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_Z_Stage_Sampleplate.stl",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Microscope Objective 10x",
+            "description": "",
+            "githublink": "https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7",
+            "image": "",
+            "price": 15.4,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.6,
+            "is_printable": false,
+            "n_parts": 20.0
+        },
+        {
+            "name": "Screws M3x8",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 3.0
+        },
+        {
+            "name": "M3x30 screw with nut (non-magnetic)",
+            "description": "",
+            "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x18",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 2.0
+        }
+    ]
+}

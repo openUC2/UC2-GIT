@@ -1,0 +1,74 @@
+{
+    "name": "ASSEMBLY_CUBE_Eyepiece",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Eyepiece_v2",
+    "image": "",
+    "price": 16.11,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Cube_1x1",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "image": "",
+            "price": 0.4,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Lid_1x1",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "Screws M3x8 (optional)",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "20_Cube_Insert_Holder-okular",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Smartphone_Holder",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/30_Smartphone_Holder.stl",
+            "image": "",
+            "price": 0.6,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Eyepiece 20x",
+            "description": "",
+            "githublink": "https://de.aliexpress.com/item/32965050204.html?spm=a2g0o.productlist.0.0.7aa657eeefLUfu&algo_pvid=cd60fca0-3fa5-4191-9ce9-303815e2afa7&algo_expid=cd60fca0-3fa5-4191-9ce9-303815e2afa7-1&btsid=76036b58-6717-4d1f-a4a0-c3d4bacd0450&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_52",
+            "image": "",
+            "price": 13.11,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

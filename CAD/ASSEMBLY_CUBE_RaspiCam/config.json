@@ -1,0 +1,83 @@
+{
+    "name": "ASSEMBLY_CUBE_RaspiCam",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
+    "image": "",
+    "price": 33.7,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Cube_1x1",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "image": "",
+            "price": 0.4,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Lid_1x1",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "Screws M3x8 (optional)",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "20_Cube_Insert_RaspiCam",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2/STL/20_Cube_Insert_RaspiCam.stl",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Raspberry Pi Camera",
+            "description": "",
+            "githublink": "https://www.amazon.de/Raspberry-Pi-v2-1-1080P-Kamera-Modul/dp/B01ER2SMHY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1LUZK9XHFS5CX&keywords=raspberry+pi+camera+v2.1&qid=1565008837&s=gateway&sprefix=raspberry+pi+camera+%2Caps%2C163&sr=8-4",
+            "image": "",
+            "price": 27.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Raspberry Pi Camera long cable",
+            "description": "",
+            "githublink": "https://www.amazon.de/gp/product/B075JN61S7/ref=ox_sc_act_title_2?smid=A1X7QLRQH87QA3&psc=1",
+            "image": "",
+            "price": 4.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "M2 screw + nut",
+            "description": "",
+            "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 2.0
+        }
+    ]
+}
