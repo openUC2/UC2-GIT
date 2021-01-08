@@ -72,84 +72,84 @@ This is the assembly guide for the mechanical Z-Stage.
 <img src="./IMAGES/Z-stage_mechanical_01.jpg" width="300">
 </p>
 
-1. Insert the M3 nut into the gear.  
+2. Insert the M3 nut into the gear.  
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_02.jpg" width="300">
 </p>
 
-1.  Insert the gear into the slot in the focussing insert. Depending on your 3D printer and material you might need to file the inside of the slot a little, in order to achieve smooth movement of the gear.
+3.  Insert the gear into the slot in the focussing insert. Depending on your 3D printer and material you might need to file the inside of the slot a little, in order to achieve smooth movement of the gear.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_03.jpg" width="300">
 </p>
 
-1.  Align the gear with the holes in the insert so that the screw can get through.
+4.  Align the gear with the holes in the insert so that the screw can get through.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_04.jpg" width="300">
 </p>
 
-1. By pressing on the top part of the insert, move the level of the focussing mechanism downwards. Place the head of the M3×30 screw into the slot at the end of the lever. The end of the screw goes into the hole above the lever, to the gear.
+5. By pressing on the top part of the insert, move the level of the focussing mechanism downwards. Place the head of the M3×30 screw into the slot at the end of the lever. The end of the screw goes into the hole above the lever, to the gear.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_05.jpg" width="300">
 <img src="./IMAGES/Z-stage_mechanical_06.jpg" width="300">
 </p>
 
-1. Using a hex key, screw the M3×30 screw through the gear and the plates that hold it. Keep the head of the screw in the lever!
+6. Using a hex key, screw the M3×30 screw through the gear and the plates that hold it. Keep the head of the screw in the lever!
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_07.jpg" width="300">
 <img src="./IMAGES/Z-stage_mechanical_08.jpg" width="300">
 </p>
 
-1. Leave the screw pushing the lever a little under the level of the insert. That way you will be able to fix the head of the screw easily.
+7. Leave the screw pushing the lever a little under the level of the insert. That way you will be able to fix the head of the screw easily.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_09.jpg" width="300">
 </p>
 
-1. In order to pull and push the lever, the head of the M3×30 screw has to be fixed in it. Fix it using two M3×8 screws from both sides. Firstly insert one screw.
+8. In order to pull and push the lever, the head of the M3×30 screw has to be fixed in it. Fix it using two M3×8 screws from both sides. Firstly insert one screw.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_10.jpg" width="300">
 </p>
 
-1. Then add the screw from the opposite side. Tighten both screws equally. The M3×30 must not rotate.
+9. Then add the screw from the opposite side. Tighten both screws equally. The M3×30 must not rotate.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_11.jpg" width="300">
 </p>
 
-1. Do not overtighten the screws, you might break the lever. This should be the result:
+10. Do not overtighten the screws, you might break the lever. This should be the result:
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_12.jpg" width="300">
 </p>
 
-1. The focussing mechanism for fine movement is now assembled.
+11. The focussing mechanism for fine movement is now assembled.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_13.jpg" width="300">
 </p>
 
-1. Place the insert inside the cube. For optimal use, the lid of the cube should be sideways from the insert, as shown in the picture. Close the cube using four M3×12 screws.
+12. Place the insert inside the cube. For optimal use, the lid of the cube should be sideways from the insert, as shown in the picture. Close the cube using four M3×12 screws.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_16.jpg" width="300">
 <img src="./IMAGES/Z-stage_mechanical_17.jpg" width="300">
 <img src="./IMAGES/Z-stage_mechanical_18.jpg" width="300">
 </p>
 
-1. Insert a M3×8 screw in the objective mount as shown in the picture. Don't screw it all the way in but leave roughly 1 mm between the head of the screw and the flat side of the objective mount. **Note:** The latest version of the objective mount has two M3×8 screws for better stability of the objective. 
+13. Insert a M3×8 screw in the objective mount as shown in the picture. Don't screw it all the way in but leave roughly 1 mm between the head of the screw and the flat side of the objective mount. **Note:** The latest version of the objective mount has two M3×8 screws for better stability of the objective.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_14.jpg" width="300">
 <img src="./IMAGES/Z-stage_mechanical_14b.jpg" width="300">
 </p>
 
-1. Insert the objective lens into its mount.
+14. Insert the objective lens into its mount.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_15.jpg" width="300">
 </p>
 
-1. Insert the objective mount into the focussing insert. The head of the M3×8 screw goes into the slot in the insert. In case the screw is too tighten to the objective mount, it won't go into the slot - loosen the screw a little. In case the head of the screw is too far from the objective mount, it won't hold in the slot but fall through - tighten the screw a little.
+15. Insert the objective mount into the focussing insert. The head of the M3×8 screw goes into the slot in the insert. In case the screw is too tighten to the objective mount, it won't go into the slot - loosen the screw a little. In case the head of the screw is too far from the objective mount, it won't hold in the slot but fall through - tighten the screw a little.
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_19.jpg" width="300">
 <img src="./IMAGES/Z-stage_mechanical_20.jpg" width="300">
 <img src="./IMAGES/Z-stage_mechanical_21.jpg" width="300">
 </p>
 
-1. Done!
+16. Done!
 <p align="center">
 <img src="./IMAGES/Z-stage_mechanical_22.jpg" width="300">
 </p>

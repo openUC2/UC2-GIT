@@ -4,12 +4,13 @@ These files were generated using Autodesk Inventor 2019 Student Version.
 
 To start working on it, you have to do the following steps:
 
-1. Download the `Assembly_Cube_empty_1x1_v2.zip` and unzip it
-1. Open Inventor and import existing project
-2. Select filename `Assembly_Cube_empty_1x1_v2.ipj`
-3. Then open the assembly `Assembly_Cube_empty_1x1_v2.iam` in Inventor
-4. The base-cube has two components: `10_Lid_1x1_v2.ipt` and `10_Cube_1x1_v2.ipt` which can be modified to personal needs.
-1. If you have a cool improvement for this part, please let us know! ([CONTRIBUTING](../../../CONTRIBUTING.MD))
+1. Download the `Assembly_Cube_3DP_v3.zip` and unzip it
+2. Open Inventor and import existing project
+3. Select filename `Assembly_Cube_empty_1x1_withBase_v3.ipj`
+4. Then open the assembly `Assembly_Cube_empty_1x1_withBase_v3.iam` in Inventor
+5. The base-cube has two components: `10_Lid_1x1_v3.ipt` and `10_Cube_1x1_v3.ipt` which can be modified to personal needs.
+6. The Baseplate puzzle `10_Base_puzzle_v3.ipt` is also in this assembly and can be modified.
+6. If you have a cool improvement for this part, please let us know! ([CONTRIBUTING](../../../CONTRIBUTING.md))
 
 Screenshot of the cube in Inventor:
 <p align="center">
@@ -21,12 +22,12 @@ Alternatively the cube can also be used in the free (educational purposes) CAD s
 <img src="./IMAGES/Fusion_1.png" width="600">
 </p>
 
-and then opening the `.iam`-file (this is a v0 image):
-<p align="center">
-<img src="./IMAGES/Fusion_2.png" width="600">
-</p>
+and then opening the `.iam`-file.
+
 
 ## Tutorial on how to design an insert in Inventor
+**Note:** The video and image tutorial both show a UC2_v2 Cube. Check the dimensions in the [Modular Developer kit](../../../MDK) to make sure your part is compatible with the v3 Cube. However, the designing process is the same, no matter the version. 
+
 This is an example of designing an insert for any function you like. We are eager to see your results! Feel free to file a pull-request or share it via mail or [@openUC2 on Twitter](https://twitter.com/openUC2) .
 
 **Video Tutorial on How to design a Cube Insert (Perpendicular to the optical axis)**

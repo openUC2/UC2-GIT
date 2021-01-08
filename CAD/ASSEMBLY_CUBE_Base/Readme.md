@@ -23,13 +23,13 @@ The basic building unit always consists of 3 components - two parts of a cube th
 
 Parts|IM Cube | 3DP Cube
 :---|:---|:---
-|<img src="./IMAGES/Assembly_Cube_IM_explosion.png" height=300>|<img src="./IMAGES/Assembly_Cube_3DP_explosion.png" height=300>
+-|<img src="./IMAGES/Assembly_Cube_IM_explosion.png" height=300>|<img src="./IMAGES/Assembly_Cube_3DP_explosion.png" height=300>
 Baseplate| **The Baseplate puzzle (IM)** which serves as the skeleton of all setups. [More about baseplates.](../ASSEMBLY_Baseplate) | **The Baseplate puzzle (3DP)** which serves as the skeleton of all setups and where the ball magnets will be fed in. [More about baseplates.](../ASSEMBLY_Baseplate)
 Building block| **The half-Cube** that is symmetrical and two of them form a Cube. Thanks to the IM production, the parts are very precise, so the halves are just pressed together and stay assembled. | **The Cube Body** where all the functions (i.e. Mirrors, LED's etc.) find their place - inserts that define the function of the cube are placed in the body before closing the lid.
-| The Cube has pins, eight on each of the two opposite sides, that connect the Cube to the Baseplate. | **The Lid** that closes the cube. It is attached by four M3 screws.
-Additional parts|| **Magnets** (5 mm diameter) are fed into the Baseplate and attach to the M3 screws of the Cube. [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
-|| **M3 screws** (M3×12) that hold the Body and Lid together, closing the Cube. They also attach the cube to the Baseplate via magnets. [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-|| **M5 screws** (M5×8) that replace the pins of the IM Cube. They make the alignment more precise and the connection between the Cube and the Baseplate more stable. [🢂](https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D)
+-| The Cube has pins, eight on each of the two opposite sides, that connect the Cube to the Baseplate. | **The Lid** that closes the cube. It is attached by four M3 screws.
+Additional parts|-| **Magnets** (5 mm diameter) are fed into the Baseplate and attach to the M3 screws of the Cube. [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+-|-| **M3 screws** (M3×12) that hold the Body and Lid together, closing the Cube. They also attach the cube to the Baseplate via magnets. [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+-|-| **M5 screws** (M5×8) that replace the pins of the IM Cube. They make the alignment more precise and the connection between the Cube and the Baseplate more stable. [🢂](https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D)
 
 
 The function which fits into the cube is not necessarily bound to optics. It can be anything!
@@ -54,10 +54,13 @@ The details about the size and other properties of the basic building block is f
 ## [<img src="./IMAGES/P.png" width="40">3D Printing](./STL)
 
 ### <img src="./IMAGES/A.png" width="40">Assembly Video Tutorial
+    This tutorial needs an update!
 
 [![UC2 YouSeeToo - How to assemble the base-cube?](./IMAGES/UC2_Assembly_BaseCube.png)](https://www.youtube.com/watch?v=zAMedY0mWKA)
 
 ## <img src="./IMAGES/A.png" width="40">Assembly Tutorial with images
+    This tutorial needs an update!
+
 ([TUT02 of TUTORIALS](../TUTORIALS))
 ### OLD VERSION!!! Assembly Tutorial with images (Cube v0)
       This section needs a update!
@@ -118,13 +121,13 @@ The details about the size and other properties of the basic building block is f
 </p>
 
 ## <img src="./IMAGES/L.png" width="40">Electronics
-The Arduino/ESP32 can be introduced with hot-glue or a rubber band, for parts with motors or LEDs.
+The Arduino/ESP32 can be introduced with hot-glue or a rubber band, for parts with motors or LEDs. Find out more in the [ELECTRONICS](../../ELECTRONICS) section.
 
 ## CAD Design
-Please also see the Module developer kit ([MDK](../../MDK)) for further design instructions on how you sould adapt to the UC2 cubes.
+Please also see the Module developer kit ([MDK](../../MDK)) for further design instructions on how you should adapt to the UC2 cubes.
 
 ## OpenSCAD files
-Open-Souce also means, that one should be able to modify the files with open-source software. Therefore we provide the basic cube as an ```.scad``` file in the [OPENSCAD](./OPENSCAD) folder.  The Inventor files will follow soon!
+Open-Source also means, that one should be able to modify the files with open-source software. Therefore we provide the basic cube as an ```.scad``` file in the [OPENSCAD](./OPENSCAD) folder.  The Inventor files will follow soon!
 
 ## Tutorial on how to design an insert in Inventor
 Find the tutorial in the [INVENTOR](./INVENTOR) folder.
