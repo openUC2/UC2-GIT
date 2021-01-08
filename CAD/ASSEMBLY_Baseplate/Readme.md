@@ -43,10 +43,11 @@ The size of the 3DP puzzles may vary between different printers and filaments. H
 1. If you'll be using magnets in the baseplates, find on the M side of the calibrator the correct offset for the holes for the magnets - they should be inserted with force but without breaking hands or the 3D printed calibrator
 1. This gives you the offset from the default size
 <p align="center">
-<img src="./IMAGES/Calibrator.PNG" width="800">
+<img src="./IMAGES/Calibrator.PNG" width="700">
 </p>
-1. Open the Baseplate puzzle on [Thingiverse](https://www.thingiverse.com/thing:4712377) using their Customizer and insert the correct offsets.
-1. Generate an STL-file for the Baseplate that will work best with your printer. To make sure it works, firstly print only two baseplates and check if the puzzles connect firmly. 
+
+6. Open the Baseplate puzzle on [Thingiverse](https://www.thingiverse.com/thing:4712377) using their Customizer and insert the correct offsets.
+1. Generate an STL-file for the Baseplate that will work best with your printer. To make sure it works, firstly print only two baseplates and check if the puzzles connect firmly.
 
 
 
