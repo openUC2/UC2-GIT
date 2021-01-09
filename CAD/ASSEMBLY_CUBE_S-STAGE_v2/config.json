@@ -8,29 +8,20 @@
     "type": "module",
     "partslist": [
         {
-            "name": "10_Lid_1x1_v2_thin",
+            "name": "30_LS_Sample_stage_v2",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/10_Lid_1x1_v2_thin.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_LS_Sample_stage_v2_68.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30_Z_Translator_Lightsheet",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Z_Translator_Lightsheet_v4.stl",
-            "image": "",
-            "price": 0.5,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
             "name": "30_Coupling_Screw_28BYJ_M3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Coupling_Screw_28BYJ_M3.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_Coupling_Screw_28BYJ_M3_53.stl",
             "image": "",
-            "price": 0.0,
+            "price": 0.5,
             "is_printable": true,
             "n_parts": 1.0
         },
@@ -50,24 +41,6 @@
             "image": "",
             "price": 0.1,
             "is_printable": false,
-            "n_parts": 1.0
-        },
-        {
-            "name": "Metal plate 30x40 mm\u00b2, custom cut",
-            "description": "",
-            "githublink": "",
-            "image": "",
-            "price": 0.0,
-            "is_printable": false,
-            "n_parts": 1.0
-        },
-        {
-            "name": "30_Syringe_holder",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Syringe_holder_v2.stl",
-            "image": "",
-            "price": 0.0,
-            "is_printable": true,
             "n_parts": 1.0
         },
         {

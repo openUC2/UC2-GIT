@@ -1,63 +1,36 @@
 {
-    "name": "ASSEMBLY_CUBE_Mirror_45",
+    "name": "ASSEMBLY_CUBE_Mirror_45_Thorlabs",
     "description": "",
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_45_v2",
     "image": "",
-    "price": 2.5000000000000004,
+    "price": 48.900000000000006,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
         {
-            "name": "10_Cube_1x1",
+            "name": "ASSEMBLY_CUBE_empty",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "Module#2",
             "image": "",
-            "price": 0.4,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "10_Lid_1x1",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
-            "image": "",
-            "price": 0.2,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "Screws M3x12",
-            "description": "",
-            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-            "image": "",
-            "price": 0.2,
+            "price": 0.0,
             "is_printable": false,
-            "n_parts": 4.0
+            "n_parts": 1.0
         },
         {
-            "name": "Screws M3x8 (optional)",
+            "name": "20_Cube_Insert_Mirror_Holder_Thorlabs_v3",
             "description": "",
-            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-            "image": "",
-            "price": 0.2,
-            "is_printable": false,
-            "n_parts": 4.0
-        },
-        {
-            "name": "20_Cube_Insert_Mirror_Holder_30x30Mirror",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Mirror_45_v2/STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Mirror_Holder_Thorlabs_v3_30.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30x30 mm\u00b2 Mirror",
+            "name": "1 inch Thorlabs mirror",
             "description": "",
-            "githublink": "https://www.rayher.com/de/spiegelmosaik-selbstklebend-14548606",
+            "githublink": "https://www.thorlabs.com/thorproduct.cfm?partnumber=PF10-03-P01",
             "image": "",
-            "price": 0.1,
+            "price": 48.7,
             "is_printable": false,
             "n_parts": 1.0
         }

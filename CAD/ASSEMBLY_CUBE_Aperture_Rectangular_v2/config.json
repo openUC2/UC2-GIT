@@ -1,0 +1,47 @@
+{
+    "name": "ASSEMBLY_CUBE_Aperture_Rectangular",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Aperture_Rectangular_v2",
+    "image": "",
+    "price": 0.6,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "ASSEMBLY_CUBE_empty",
+            "description": "",
+            "githublink": "Module#2",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Rect_Aperture_for_printing_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/20_Rect_Aperture_for_printing_v3.stl",
+            "image": "",
+            "price": 0.6,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Rect_Aperture_door_hinge",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Rect_Aperture_door_hinge_48.stl",
+            "image": "",
+            "price": 0.0,
+            "is_printable": true,
+            "n_parts": 4.0
+        },
+        {
+            "name": "20_Rect_Aperture_door_slide",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Rect_Aperture_door_slide_49.stl",
+            "image": "",
+            "price": 0.0,
+            "is_printable": true,
+            "n_parts": 4.0
+        }
+    ]
+}

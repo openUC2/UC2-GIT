@@ -3,36 +3,27 @@
     "description": "",
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_LED_Matrix_v2",
     "image": "",
-    "price": 23.69,
+    "price": 14.2,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
         {
-            "name": "10_Lid_1x1",
+            "name": "30_IM_LED_holder_v3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_Matrix_v2/STL/10_Lid_1x1_el_v2.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_IM_LED_holder_v3_65.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30_Cube_LED_Array",
+            "name": "LED Matrix 4x4",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_LED_Matrix_v2/STL/30_Cube_LED_Array_v0.stl",
+            "githublink": "https://www.openimpulse.com/blog/products-page/gearmotor-accessories/4x4-ws2812-addressable-rgb-led-matrix/",
             "image": "",
-            "price": 0.2,
+            "price": 1.5,
             "is_printable": true,
             "n_parts": 1.0
-        },
-        {
-            "name": "Screws M3x12",
-            "description": "",
-            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-            "image": "",
-            "price": 0.2,
-            "is_printable": false,
-            "n_parts": 4.0
         },
         {
             "name": "M2 screw + nut",
@@ -42,15 +33,6 @@
             "price": 0.1,
             "is_printable": false,
             "n_parts": 2.0
-        },
-        {
-            "name": "LED Matrix 8x8",
-            "description": "",
-            "githublink": "https://www.amazon.de/AZDelivery-Matrix-CJMCU-8-Arduino-Raspberry/dp/B078HYP681/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=neopixel+matrix&qid=1565008576&s=gateway&sr=8-2",
-            "image": "",
-            "price": 9.99,
-            "is_printable": false,
-            "n_parts": 1.0
         },
         {
             "name": "ESP32",

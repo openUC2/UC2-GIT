@@ -1,98 +1,43 @@
 {
     "name": "APP_Incubator_Microscope_fluorescence",
-    "description": "The Light sheet Microscope demonstartes the principle of sellective plane illumination methods. ",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_LIGHTSHEET_Workshop",
+    "description": "xxx",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_Incubator_Microscope_fluorescence",
     "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_LIGHTSHEET_Workshop/IMAGES/Assembly_simple_Lightsheet_v1.png?raw=true",
     "price": 0,
     "type": "application",
+    "is_box": false,
     "modules": [
-        {
-            "name": "ASSEMBLY_Baseplate 4x4",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
-            "image": "",
-            "price": 32.68,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "Baseplate 4x4",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x4.stl",
-                    "image": "",
-                    "price": 2.6,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Ballmagnets",
-                    "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
-                    "image": "",
-                    "price": 0.47,
-                    "is_printable": false,
-                    "n_parts": 64.0
-                }
-            ]
-        },
         {
             "name": "ASSEMBLY_CUBE_Beamexpander",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Beamexpander_v2",
             "image": "",
-            "price": 12.1,
+            "price": 9.899999999999999,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "Module#2",
                     "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
+                    "price": 0.0,
+                    "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "20_Cube_Insert_Beamexpander_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "Screws M3x8 (optional)",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "20_Cube_Insert_Beamexpander",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Beamexpander_v2/STL/20_Cube_Insert_Beamexpander.stl",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Beamexpander_v3_3.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Lens_Adapter_Beamexpander",
+                    "name": "20_Beamexpander_Lens_Adapter",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Beamexpander_v2/STL/30_Lens_Adapter_Beamexpander.stl",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Beamexpander_Lens_Adapter_82.stl",
                     "image": "",
                     "price": 0.0,
                     "is_printable": true,
@@ -123,59 +68,32 @@
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Laser_v2",
             "image": "",
-            "price": 18.400000000000002,
+            "price": 15.8,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "Module#2",
                     "image": "",
-                    "price": 0.4,
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Laser_Holder_fixed_v3",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Laser_Holder_fixed_v3_24.stl",
+                    "image": "",
+                    "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "30_Laser_Clamp_OnOffSwitch",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "Screws M3x8 (optional)",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "20_Cube_Insert_Laser_Mount",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Laser_v2/STL/20_Cube_Insert_Laser_Mount.stl",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "00_Laser_Clamp_OnOffSwitch",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Laser_v2/STL/00_Laser_Clamp_OnOffSwitch.stl",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_Laser_Clamp_OnOffSwitch_66.stl",
                     "image": "",
                     "price": 0.0,
                     "is_printable": true,
@@ -198,6 +116,24 @@
                     "price": 0.2,
                     "is_printable": false,
                     "n_parts": 4.0
+                },
+                {
+                    "name": "RasPi Camera lens",
+                    "description": "",
+                    "githublink": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "OPT 30_raspi_lens_to_laser",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_raspi_lens_to_laser_70.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
                 }
             ]
         },
@@ -206,50 +142,23 @@
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2",
             "image": "",
-            "price": 62.4,
+            "price": 60.2,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "Module#2",
                     "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
+                    "price": 0.0,
+                    "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "20_Cube_Insert_Lens_Cylindrical_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "Screws M3x8 (optional)",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "20_Cube_Insert_Lens_Cylindrical",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2/STL/20_Cube_Insert_Lens_Cylindrical.stl",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Lens_Cylindrical_v3_28.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -271,62 +180,44 @@
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2",
             "image": "",
-            "price": 4.61,
+            "price": 2.41,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "Module#2",
                     "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
+                    "price": 0.0,
+                    "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base_part1",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "Screws M3x8 (optional)",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Kinematic_Mirrormount_45_base_part1_15.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Metal plate 30x40 mm\u00b2, custom cut",
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base_part2",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Kinematic_Mirrormount_45_base_part2_16.stl",
                     "image": "",
                     "price": 0.0,
-                    "is_printable": false,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Kinematic_Mirrormount_45_Plate_18.stl",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
@@ -335,6 +226,24 @@
                     "githublink": "https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE",
                     "image": "",
                     "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "OPT 20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Kinematic_Mirrormount_Thorlabsadapter_22.stl",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "OPT 1 inch Thorlabs mirror",
+                    "description": "",
+                    "githublink": "https://www.thorlabs.com/thorproduct.cfm?partnumber=PF10-03-P01",
+                    "image": "",
+                    "price": 48.7,
                     "is_printable": false,
                     "n_parts": 1.0
                 },
@@ -363,52 +272,43 @@
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
             "image": "",
-            "price": 33.7,
+            "price": 31.5,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+                    "githublink": "Module#2",
                     "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
+                    "price": 0.0,
+                    "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "20_Cube_Insert_RaspiCam_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "Screws M3x8 (optional)",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "20_Cube_Insert_RaspiCam",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2/STL/20_Cube_Insert_RaspiCam.stl",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_RaspiCam_v3_33.stl",
                     "image": "",
                     "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "OPT 20_Cube_insert_Sample_holder_v3",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_insert_Sample_holder_v3_37.stl",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "OPT 20_Cube_Insert_Sample_clamp",
+                    "description": "",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Sample_clamp_34.stl",
+                    "image": "",
+                    "price": 0.0,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
@@ -451,29 +351,20 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Lid_1x1_v2_thin",
+                    "name": "30_LS_Sample_stage_v2",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/10_Lid_1x1_v2_thin.stl",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_LS_Sample_stage_v2_68.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Z_Translator_Lightsheet",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Z_Translator_Lightsheet_v4.stl",
-                    "image": "",
-                    "price": 0.5,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
                     "name": "30_Coupling_Screw_28BYJ_M3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Coupling_Screw_28BYJ_M3.stl",
+                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_Coupling_Screw_28BYJ_M3_53.stl",
                     "image": "",
-                    "price": 0.0,
+                    "price": 0.5,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
@@ -494,188 +385,6 @@
                     "price": 0.1,
                     "is_printable": false,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "Metal plate 30x40 mm\u00b2, custom cut",
-                    "description": "",
-                    "githublink": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Syringe_holder",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2/STL/30_Syringe_holder_v2.stl",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "ESP32",
-                    "description": "",
-                    "githublink": "https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3",
-                    "image": "",
-                    "price": 8.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "28-BYJ stepper motor with driver board",
-                    "description": "",
-                    "githublink": "https://www.reichelt.de/entwicklerboards-schrittmotor-inkl-steuerung-uln2003-debo-moto1-p192146.html",
-                    "image": "",
-                    "price": 5.35,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Female-Female Jumper Wire",
-                    "description": "",
-                    "githublink": "https://www.amazon.de/-/en/AZDelivery-Jumper-Arduino-Raspberry-Breadboard/dp/B07KYHBVR7/ref=pd_bxgy_3/259-4334118-3709357?_encoding=UTF8&pd_rd_i=B07KFMSW7H&pd_rd_r=81afa8b5-0542-49e3-9cba-8dae3b0a116f&pd_rd_w=nOtLQ&pd_rd_wg=YVuQX&pf_rd_p=334c2d1b-2e55-4bd9-b8d2-dcecf26eb7db&pf_rd_r=K64KK4P3QHQTPFHPYNN6&refRID=K64KK4P3QHQTPFHPYNN6&th=1",
-                    "image": "",
-                    "price": 0.6,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "USB-microUSB cable",
-                    "description": "",
-                    "githublink": "https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2",
-                    "image": "",
-                    "price": 2.8,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Z-stage",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2",
-            "image": "",
-            "price": 50.35,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_2x1",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/10_Cube_2x1_v2.stl",
-                    "image": "",
-                    "price": 0.5,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_el_2x1",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/10_Lid_el_2x1_v2.stl",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_focus_inlet_linearflexure",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/20_focus_inlet_linearflexure_v0.stl",
-                    "image": "",
-                    "price": 0.6,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Coupling_Screw_28BYJ_M3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Coupling_Screw_28BYJ_M3.stl",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_focus_inlet_objective_mount",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_focus_inlet_objective_mount_v7.stl",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Z_Stage_Adapterplate",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Adapterplate.stl",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Z_Stage_Fluomodule",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Fluomodule.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "40_XY_Stage_Clamp_Slide",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/40_XY_Stage_Clamp_Slide.stl",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Microscope Objective 10x",
-                    "description": "",
-                    "githublink": "https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7",
-                    "image": "",
-                    "price": 15.4,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.6,
-                    "is_printable": false,
-                    "n_parts": 20.0
-                },
-                {
-                    "name": "Screws M3x8",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 3.0
-                },
-                {
-                    "name": "M3x30 screw with nut (non-magnetic)",
-                    "description": "",
-                    "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x18",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 2.0
                 },
                 {
                     "name": "ESP32",

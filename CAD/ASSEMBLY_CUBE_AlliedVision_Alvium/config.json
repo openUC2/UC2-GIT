@@ -1,0 +1,47 @@
+{
+    "name": "ASSEMBLY_CUBE_AlliedVision_Alvium",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_AlliedVision_Alvium",
+    "image": "",
+    "price": 250.1,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "ASSEMBLY_CUBE_empty",
+            "description": "",
+            "githublink": "Module#2",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_insert_AlliedVision_Alvium_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_insert_AlliedVision_Alvium_v3_1.stl",
+            "image": "",
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "OPT 20_Cube_insert_AlliedVision_Alvium_adjustable",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_insert_AlliedVision_Alvium_adjustable_83.stl",
+            "image": "",
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Allied Vision Camera",
+            "description": "",
+            "githublink": "https://www.alliedvision.com/en/digital-industrial-camera-solutions.html",
+            "image": "",
+            "price": 250.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

@@ -3,52 +3,43 @@
     "description": "",
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
     "image": "",
-    "price": 33.7,
+    "price": 31.5,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
         {
-            "name": "10_Cube_1x1",
+            "name": "ASSEMBLY_CUBE_empty",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl",
+            "githublink": "Module#2",
             "image": "",
-            "price": 0.4,
-            "is_printable": true,
+            "price": 0.0,
+            "is_printable": false,
             "n_parts": 1.0
         },
         {
-            "name": "10_Lid_1x1",
+            "name": "20_Cube_Insert_RaspiCam_v3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
-            "image": "",
-            "price": 0.2,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "Screws M3x12",
-            "description": "",
-            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-            "image": "",
-            "price": 0.2,
-            "is_printable": false,
-            "n_parts": 4.0
-        },
-        {
-            "name": "Screws M3x8 (optional)",
-            "description": "",
-            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-            "image": "",
-            "price": 0.2,
-            "is_printable": false,
-            "n_parts": 4.0
-        },
-        {
-            "name": "20_Cube_Insert_RaspiCam",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2/STL/20_Cube_Insert_RaspiCam.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_RaspiCam_v3_33.stl",
             "image": "",
             "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "OPT 20_Cube_insert_Sample_holder_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_insert_Sample_holder_v3_37.stl",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "OPT 20_Cube_Insert_Sample_clamp",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Sample_clamp_34.stl",
+            "image": "",
+            "price": 0.0,
             "is_printable": true,
             "n_parts": 1.0
         },

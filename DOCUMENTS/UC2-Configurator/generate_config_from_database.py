@@ -20,6 +20,11 @@ class uc2_application:
         self.image = image
         self.price = price
         self.type = 'application'
+        self.is_box = False        
+
+        if self.name.find('BOX')>0:
+            self.is_box = True
+            
         
         self.modules = []
         
@@ -80,7 +85,7 @@ class uc2_part:
 # This file converts the UC2 modules/parts database into a JSON-file ready for the 
 # Online UC2 Selector 
 
-sheetname = 'Complete overview' # change it to your sheet name
+sheetname = 'v3' #'Complete overview' # change it to your sheet name
 ucs_database_filename = 'UC2_ReadyToUse_Boxes_Modules_Parts.xlsx' # change it to the name of your excel file
 
 #%% Define entries in Database
@@ -309,10 +314,18 @@ for i_application in range(10,100):# range(10,100):
     my_application.print()
    
     # 4.) Save this! 
-    my_approot = '/APPLICATIONS'
+    if my_application.is_box: 
+        # boxes have a different location
+        my_approot = '/TheBOX'
+    else:
+        my_approot = '/APPLICATIONS'
+        
     my_appprefix = '/'
     my_appnpath = application_name
+    
+
     my_jsonpath = my_root+my_approot+my_appprefix+my_appnpath
+    
     if(is_debug): print('should save to: '+my_jsonpath)
 
     with open(my_jsonpath+'/config.json', "w") as j:

@@ -3,38 +3,42 @@
 This is the repository for the openISM project which integrates a laser-scanning module for image-scanning microscopy (ISM) to the UC2-system.
 
 <p align="center">
-<img src="./IMAGES/Application_openISM_v2.png" width="500">
+<img src="./IMAGES/Application_openISM_v3_1.png" width="500">
 </p>
 
-***Fig 1:*** *This is the ready-to-print module which clicks into the UC2-system*
+***Fig 1:*** *This is the ready-to-print module which clicks into the UC2-system. It hosts the Nebra AnyBeam HAT with a Raspberry Pi as a control unit*
 
+🧾 The manuscript for the openISM and openSIM can be found under the [DOI:10.1101/2021.01.08.425840](https://doi.org/10.1101/2021.01.08.425840)
 
-This module is based on the work about Image Scanning Microscopy (ISM) by Enderlein et al. [1] and instant Structured Illumination Microscopy (iSIM) by A. York et al. [2]. It uses a low-cost MEMS-based laser-scanning video-project (Sony MHL  (532 nm) and a Raspberry Pi driven DMD module to generate a structured illumination for microscopy. Since we use coherent illumination, we can create pattern suitable for SIM in order to increase the lateral resolution. So far we're not aiming for any super-resolutio, but rather give a proof of principle.  
+This module is based on the work about Image Scanning Microscopy (ISM) by Enderlein et al. [1] and instant Structured Illumination Microscopy (iSIM) by A. York et al. [2]. It uses a low-cost MEMS-based laser-scanning video-project ([Sony CL1A, Tokyo, Japan, 300€](https://www.sony.com.sg/electronics/support/televisions-projectors-projectors/mp-cl1a/specifications); [Anybeam HAT, UK, 200€](https://uk.pi-supply.com/products/nebra-anybeam-hat-laser-projector-for-the-raspberry-pi?lang=de)) to generate a structured illumination for microscopy. We apply a point-wise incoherent lattice/grid-like pattern to increase lateral and axial resolution. The overall gain in resolution is limited, hence more suitable for educational purposes or data generation.  
 
 <p align="center">
-<img src="./IMAGES/Application_openISM_v2_2.png" width="500">
+<img src="./IMAGES/Assembly_SIMISM_layer1.png" width="500">
 </p>
 
-***Fig 2:*** *A beam-expander magnifies the collimated beam which hits the DMD displaying a set of gratings*
-
-The angle between the collimated and expanded Laser-beam and the DMD is 25° in order to get the maximum in the diffracted orders.
-
-
+***Fig 2:*** *This shows the optical assemlby; the laser beam deflected by the scanning mirror is "collimated" and stired by a set of two kinematic mirror mounts before a tube lens (f'=165mm) forms a magnified image in back focal plane (BFP) of the objective lens (not shown) which follows the dichroic mirror*
 
 
 ## Device's features:
 
-- Super-Resolution by confining the signal
+- Increased optical sectioning and higher resolution
 - Very low cost:  ~300€
 - Easy to align
 - Open-Source
+- Three wavelengths 
 
 
 ## Optical System
 
 <p align="center">
-<img src="./IMAGES/DSC_2023.jpg" width="400">
+<img src="./IMAGES/Application_openISM_v3.png" width="600">
 </p>
+
+<p align="center">
+<img src="./IMAGES/Application_openISM_v3.png" width="600">
+</p>
+
+
 
 ***Fig 3:*** *The full system based on the modular cubes*
 
@@ -85,6 +89,7 @@ Parts to print:
 - 1x OpenFlexure Delta-Stage (by Richard Bowman et al.) + Adapter + Objective lens (you can choose!)  [here](../ [here](../CUBE_INSERT_OpenFlexure_Deltastage))
 - Dichroic Mirror Cube [here](../ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2)
 - Basler-Camera + Adapter [here](../ASSEMBLY_CUBE_BaslerCam)
+
 
 
 

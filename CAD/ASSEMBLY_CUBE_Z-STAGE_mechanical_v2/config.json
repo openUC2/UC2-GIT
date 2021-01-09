@@ -3,79 +3,43 @@
     "description": "",
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2",
     "image": "",
-    "price": 30.700000000000003,
+    "price": 29.5,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
         {
-            "name": "10_Cube_2x1",
+            "name": "ASSEMBLY_CUBE_empty",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Cube_2x1_v2.stl",
+            "githublink": "Module#2",
             "image": "",
-            "price": 0.5,
-            "is_printable": true,
+            "price": 0.0,
+            "is_printable": false,
             "n_parts": 1.0
         },
         {
-            "name": "10_Lid_el_2x1",
+            "name": "20_focus_inlet_linearflexure_mechanical_v3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_10_Lid_el_2x1_v2.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_focus_inlet_linearflexure_mechanical_v3_43.stl",
             "image": "",
             "price": 0.3,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "20_focus_inlet_linearflexure",
+            "name": "20_focus_inlet_objective_mount_v8",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_linearflexure_v0.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_focus_inlet_objective_mount_v8_45.stl",
             "image": "",
             "price": 0.6,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30_focus_inlet_objective_mount",
+            "name": "20_gear",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_focus_inlet_objective_mount_v7.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_gear_46.stl",
             "image": "",
             "price": 0.1,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "20_focus_inlet_plate_bottom",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_bottom.stl",
-            "image": "",
-            "price": 0.2,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "20_focus_inlet_plate_top",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_20_focus_inlet_plate_top.stl",
-            "image": "",
-            "price": 0.1,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "00_large_gear",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_00_large_gear.stl",
-            "image": "",
-            "price": 0.1,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "30_Z_Stage_Sampleplate",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_Z_Stage_Sampleplate.stl",
-            "image": "",
-            "price": 0.3,
             "is_printable": true,
             "n_parts": 1.0
         },
