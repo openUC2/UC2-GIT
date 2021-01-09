@@ -2,6 +2,8 @@
 
 This is the repository for the openSIM project which integrates structured illumination microscopy into the UC2-system.
 
+🧾 The manuscript for the openISM and openSIM can be found under the [DOI:10.1101/2021.01.08.425840](https://doi.org/10.1101/2021.01.08.425840)
+
 <p align="center">
 <img src="./IMAGES/UC2_openSIM_setup_CAD.png" width="500">
 </p>
@@ -29,9 +31,11 @@ bioRxiv 797670; doi: [https://doi.org/10.1101/797670](https://doi.org/10.1101/79
 ## Device's features:
 
 - "True" two-beam SIM
-- Very low cost:  ~300€
+- Very low cost:  ~400€
 - Easy to align
 - Open-Source
+- One module per wavelength possible
+- Various patterns possible 
 
 ## Optical System
 
@@ -79,12 +83,6 @@ Parts to print:
 * 1x [Telescope for Beam Expansion](./STL/Assembly_openSIM_module_v2_30_CUBE_OpenSIM_Beamexpander_v2_9.stl)
 * 1x [DMD Adapter](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_DLP2000_Holder_mirrored_3.stl)
 
-### Additional parts for the whole setup
-- 1x Kinematic Mirror Mount (for 1inch Silver mirror!) [here](../ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)
-- 1x Mirror Mount (for 1inch Silver mirror!) [here](../ASSEMBLY_CUBE_Mirror_45_v2)
-- 1x OpenFlexure Delta-Stage (by Richard Bowman et al.) + Adapter + Objective lens (you can choose!)  [here](../ [here](../CUBE_INSERT_OpenFlexure_Deltastage))
-- Dichroic Mirror Cube [here](../ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2)
-- Basler-Camera + Adapter [here](../ASSEMBLY_CUBE_BaslerCam)
 
 ## Electronics
 
