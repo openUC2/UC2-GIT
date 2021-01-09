@@ -11,77 +11,13 @@ import os
 
 import xlrd
 
+from UC2_classes import *
 
-class uc2_application:
-    def __init__(self, name, description, githublink, image, price):
-        self.name = name
-        self.description = description
-        self.githublink = githublink
-        self.image = image
-        self.price = price
-        self.type = 'application'
-        self.is_box = False        
-
-        if self.name.find('BOX')>0:
-            self.is_box = True
-            
-        
-        self.modules = []
-        
-
-    def addmodule(self, module):
-        self.modules.append(module)
-
-    def print(self):
-        print("App Name: " + self.name)
-        print("App description: " + self.description)
-        print("App githublink: " + self.githublink)
-        print("App image: " + self.image)
-        print("App Parts: ".join(str(x) for x in ([i.name for i in self.modules]))) 
-
-class uc2_module: # also called assembly
-    def __init__(self, name, description, githublink, image, price):
-        self.name = name
-        self.description = description
-        self.githublink = githublink
-        self.image = image
-        self.price = price
-        self.fixedOptions = {}
-        self.type = "module"
-        
-        self.partslist = []
-        
-    def addpart(self, part):
-        self.partslist.append(part)
-
-    def print(self):
-        print("Module Name: " + self.name)
-        print("Module description: " + self.description)
-        print("Module githublink: " + self.githublink)
-        print("Module image: " + self.image)
-        print("Module Parts: ".join(str(x) for x in ([i.name for i in self.partslist]))) 
-
-
-class uc2_part:
-    def __init__(self, name, description, githublink, image, price, is_printable, n_parts):
-        self.name = name
-        self.description = description
-        self.githublink = githublink
-        self.image = image
-        self.price = price
-        self.is_printable = is_printable
-        self.n_parts = n_parts
-        
-    def print(self):
-        print("App Name: " + self.name)
-        print("App description: " + self.description)
-        print("App githublink: " + self.githublink)
-        print("App image: " + self.image)
-        print("App Modules: " + self.Modules.value)        
-
-
-
-
+# check if files exists
+stlfolder = '/Users/bene/Dropbox/Dokumente/Promotion/PROJECTS/UC2-GIT/CAD/RAW/STL/'
+filesnonexist = []
+NAME_CUBE_EMPTY = 'ASSEMBLY_CUBE_empty'
+github_prefx = 'UC2_'
 # This file converts the UC2 modules/parts database into a JSON-file ready for the 
 # Online UC2 Selector 
 
@@ -116,8 +52,6 @@ col_assembly_module_part_name_price =  alphabet.find('g')
 
 #%%
 # open XLXS file
-stl_prefix = 'Assembly_ALL_PARTS_FOR_EXPORT_'
-
 workbook = xlrd.open_workbook(ucs_database_filename)
 worksheet = workbook.sheet_by_name(sheetname)
 
@@ -136,12 +70,11 @@ for row_module in (all_modules_indices):
         break
         
     # the empty module is not well defined..
-    if module_name == 'ASSEMBLY_CUBE_empty_1x1':
+    if module_name == NAME_CUBE_EMPTY:
         my_empty_cube_index_start = row_module+1
-        print("is empty cube: " + str(module_name == 'ASSEMBLY_CUBE_empty_1x1') + " Name: "+module_name)
+        print("is empty cube: " + str(module_name == NAME_CUBE_EMPTY) + " Name: "+module_name)
         
 
-        
 
         
 # 1.) find all Assemblies 
@@ -175,7 +108,7 @@ for row_module in (all_modules_indices):
     # 2.) find all parts per Assembly
     for i_part in (all_part_indices):
         part_name = worksheet.cell(i_part, col_assembly_module_part_name).value
-        is_add_empty_cube = part_name=='ASSEMBLY_CUBE_empty_1x1'
+        is_add_empty_cube = part_name==NAME_CUBE_EMPTY
         
         if is_add_empty_cube:
             # we need to replace the reference link of the empty cube with the 
@@ -200,6 +133,7 @@ for row_module in (all_modules_indices):
                 
                 # addpart to module
                 mymodule.addpart(mypart)
+
                 if(is_debug): mymodule.print()
 
         else:
@@ -226,7 +160,9 @@ for row_module in (all_modules_indices):
             mymodule.addpart(mypart)
             if(is_debug): mymodule.print()
         
-        
+        if part_isprintable and not os.path.isfile(stlfolder+github_prefx+part_name+".stl"):
+            filesnonexist.append(part_name)
+
         
     # add all modules to the list
     all_modules.append(mymodule)
@@ -372,3 +308,11 @@ for i_module in range(len(all_modules)):
     with open(my_jsonpath+'/config.json', "w") as j:
         json.dump(my_module_json, j, indent=4)
     print("config written!\n\n")
+
+workbook.release_resources()
+del workbook
+
+
+# PRINT MISSING FILES
+for i in filesnonexist:
+    print(i+" is missing")

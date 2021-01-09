@@ -1,0 +1,47 @@
+{
+    "name": "ASSEMBLY_CUBE_Eyepiece",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Eyepiece_v2",
+    "image": "",
+    "price": 13.91,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "ASSEMBLY_CUBE_empty",
+            "description": "",
+            "githublink": "Module#2",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_Insert_Holder-okular+flashlight_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Holder-okular%2Bflashlight_v3_14.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Smartphone_Holder_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_Smartphone_Holder_v3_73.stl",
+            "image": "",
+            "price": 0.6,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Eyepiece 20x",
+            "description": "",
+            "githublink": "https://de.aliexpress.com/item/32965050204.html?spm=a2g0o.productlist.0.0.7aa657eeefLUfu&algo_pvid=cd60fca0-3fa5-4191-9ce9-303815e2afa7&algo_expid=cd60fca0-3fa5-4191-9ce9-303815e2afa7-1&btsid=76036b58-6717-4d1f-a4a0-c3d4bacd0450&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_52",
+            "image": "",
+            "price": 13.11,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

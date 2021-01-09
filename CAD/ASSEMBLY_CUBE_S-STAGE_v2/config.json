@@ -1,5 +1,5 @@
 {
-    "name": "ASSEMBLY_CUBE_S-Stage",
+    "name": "ASSEMBLY_CUBE_S-STAGE_v2",
     "description": "",
     "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2",
     "image": "",
@@ -8,16 +8,16 @@
     "type": "module",
     "partslist": [
         {
-            "name": "30_LS_Sample_stage_v2",
+            "name": "30_LS_Sample_stage_v3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_LS_Sample_stage_v2_68.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_LS_Sample_stage_68.stl",
             "image": "",
             "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30_Coupling_Screw_28BYJ_M3",
+            "name": "30_Coupling_Screw_28BYJ_M3_v3",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_Coupling_Screw_28BYJ_M3_53.stl",
             "image": "",

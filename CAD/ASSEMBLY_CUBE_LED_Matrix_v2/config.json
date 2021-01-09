@@ -22,7 +22,7 @@
             "githublink": "https://www.openimpulse.com/blog/products-page/gearmotor-accessories/4x4-ws2812-addressable-rgb-led-matrix/",
             "image": "",
             "price": 1.5,
-            "is_printable": true,
+            "is_printable": false,
             "n_parts": 1.0
         },
         {
