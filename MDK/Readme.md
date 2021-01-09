@@ -47,7 +47,7 @@ The 3D-printed cube is in the next picture. The body and the lid are held togeth
 <img src="./IMAGES/Assembly_Cube_empty_1x1_withBase_v3_04.png" width=200>
 </p>
 
-The 3D-printed baseplate puzzles are fully compatible with both types of cubes and with the IM puzzles. It is important to pay attention to calibration of your printer acording to the guide in the [baseplate CAD page](../CAD/ASSEMBLY_Baseplate_v2).
+The 3D-printed baseplate puzzles are fully compatible with both types of cubes and with the IM puzzles. It is important to pay attention to calibration of your printer according to the guide in the [baseplate CAD page](../CAD/ASSEMBLY_Baseplate).
 
 #### v2 = point symmetric
 *July 2019*  
