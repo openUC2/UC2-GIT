@@ -7,6 +7,7 @@ This tutorial is aming to align the openISM module to the microscope. The requir
   - UC2 cubes and inserts
   - target sample
   - magical hand
+  
 ## Introduction of the openISM module
 
 In the openISM module, the illumination source is a commercially available laser video projector (Sony/Anybeam HAT). Both of them have integrated different colored laser diodes and the desired image is displayed with the help of a MEMS mirror. In this project, we have built a openSIM/ISM setup, which the imaging and sample modules of the setup are shared. The illumination of the openISM module is shown in Fig. 1. 
@@ -30,7 +31,7 @@ After collimate the beam with first lens, the beam is directed by two mirrors to
 <img src="./IMAGES/CollimatedBeam.png" width="500">
 </p>
 
-***Fig. 3*** *The collimated illumination beam after the first lens of the telescope with the both projectors. The beam should keep the same size irrelevantly to the distance. Blow shows the detail of the beam at the wall. The beam shape from the Sony projector is not only a round spot due to the freeform lens in front of the DMD.*
+***Fig. 3*** *The laser beam come from both projectors is collimated by the first lens of the telescope. The beam should keep the same size irrelevantly to the distance. The lower image shows the detail of the beam at the wall. The beam shape from the Sony projector is not only a round spot due to the freeform lens in front of the MEMS mirror.*
 
 ## Alignment of the system
 When the setup is in general once adjusted, place the objective cube with z-stage on it. We updated a new [linear z-stage](https://en.wikipedia.org/wiki/Update) which is compatible with injection moulded cube. Put a sample on the stage and turn on the projector to display some image, we should observe at least some part of the image on the camera, when not, try to center the image at the position of the objective. Slightly adjust the position of the image pattern with rotate the adjusting screws of the kinetic mirrors. A well-aligned openISM module should capture the point array pattern similar to this:
