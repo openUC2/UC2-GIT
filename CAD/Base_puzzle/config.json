@@ -1,0 +1,38 @@
+{
+    "name": "Base_puzzle",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/Base_puzzle",
+    "image": "",
+    "price": "",
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Base_puzzle_IM",
+            "description": "",
+            "githublink": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Base_puzzle_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Ballmagnets",
+            "description": "",
+            "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
+            "image": "",
+            "price": 0.47,
+            "is_printable": false,
+            "n_parts": 4.0
+        }
+    ]
+}

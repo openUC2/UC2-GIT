@@ -39,7 +39,7 @@ row_app_name = 2
 row_app_imagelink = 4
 row_app_githublink = 3
 row_app_briefdescription = 5
-row_app_price = 6
+row_app_price = 7
 
 
 col_assembly_index = alphabet.find('a')
