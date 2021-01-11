@@ -1,0 +1,38 @@
+{
+    "name": "ASSEMBLY_CUBE_Flashlight",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Flashlight",
+    "image": "",
+    "price": 7.2,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "ASSEMBLY_CUBE_empty",
+            "description": "",
+            "githublink": "Module#2",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_Insert_Holder-okular+flashlight_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Holder-okular%2Bflashlight_v3_14.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Flashlight",
+            "description": "",
+            "githublink": "https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-864151",
+            "image": "",
+            "price": 7.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

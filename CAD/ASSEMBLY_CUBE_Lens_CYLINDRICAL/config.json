@@ -1,0 +1,38 @@
+{
+    "name": "ASSEMBLY_CUBE_Lens_CYLINDRICAL",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL",
+    "image": "",
+    "price": 60.2,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "ASSEMBLY_CUBE_empty",
+            "description": "",
+            "githublink": "Module#2",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_Insert_Lens_Cylindrical_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Lens_Cylindrical_v3_28.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Cylindrical lens, f' = 63 mm (63 YQ 40)",
+            "description": "",
+            "githublink": "https://www.comarics.com/components/lenses/cylindrical-lenses/quality-planoconvex-cylindrical-lenses-visibleuv#row-63_yq_40",
+            "image": "",
+            "price": 60.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

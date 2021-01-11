@@ -1949,9 +1949,9 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_Lens_cylindrical",
+            "name": "ASSEMBLY_CUBE_Lens_CYLINDRICAL",
             "description": "",
-            "githublink": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL",
             "image": "",
             "price": 60.2,
             "fixedOptions": {},

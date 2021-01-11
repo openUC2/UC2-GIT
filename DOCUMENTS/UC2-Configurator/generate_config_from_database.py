@@ -35,6 +35,7 @@ col_first_app = 'k' # chr(ord('K'))
 col_last_app = 'v'
 col_all_app = range(alphabet.find(col_first_app), alphabet.find(col_last_app))
 
+# Hardcoding the entires for now; #TODO: Use Pandas?
 row_app_name = 2
 row_app_imagelink = 4
 row_app_githublink = 3
@@ -90,7 +91,7 @@ for row_module in (all_modules_indices):
     # the empty module is not well defined..
     if module_name == NAME_CUBE_EMPTY:
         my_empty_cube_index_start = row_module+1
-        print("is empty cube: " + str(module_name == NAME_CUBE_EMPTY) + " Name: "+module_name)
+        if (is_debug): print("is empty cube: " + str(module_name == NAME_CUBE_EMPTY) + " Name: "+module_name)
         
 
 
@@ -156,7 +157,7 @@ for row_module in (all_modules_indices):
 
         else:
             part_name = worksheet.cell(i_part, col_assembly_module_part_name).value
-            print(part_name)
+            if (is_debug): print(part_name)
             part_isprintable = bool(worksheet.cell(i_part, col_assembly_module_part_isprintable).value)
             part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
             part_price = worksheet.cell(i_part, col_assembly_module_part_name_price).value
@@ -265,7 +266,7 @@ for i_application in range(10,100):# range(10,100):
         module_iterator += 1            
         
     # 3.) Test if this works 
-    my_application.print()
+    if (is_debug): my_application.print()
    
     # 4.) Save this! 
     if my_application.is_box: 
@@ -280,11 +281,11 @@ for i_application in range(10,100):# range(10,100):
 
     my_jsonpath = my_root+my_approot+my_appprefix+my_appnpath
     
-    if(is_debug): print('should save to: '+my_jsonpath)
+    print('should save to: '+my_jsonpath)
 
     with open(os.path.join(my_jsonpath, filenameconfig), "w") as j:
         json.dump(my_application_json, j, indent=4)
-    print("config written!\n\n")
+    if (is_debug): print("config written!\n\n")
     
 #%%
 # export Modules to JSON in /root/CAD
@@ -325,7 +326,7 @@ for i_module in range(len(all_modules)):
     # Write out file to the module folder    
     with open(my_jsonpath+'/config.json', "w") as j:
         json.dump(my_module_json, j, indent=4)
-    print("config written!\n\n")
+    if (is_debug): print("config written!\n\n")
 
 workbook.release_resources()
 del workbook
