@@ -26,12 +26,12 @@ and then opening the `.iam`-file.
 
 
 ## Tutorial on how to design an insert in Inventor
-**Note:** The video and image tutorial both show a UC2_v2 Cube. Check the dimensions in the [Modular Developer kit](../../../MDK) to make sure your part is compatible with the v3 Cube. However, the designing process is the same, no matter the version. 
+**Note: The video and image tutorial both show a UC2_v2 Cube. Check the dimensions in the [Modular Developer kit](../../../MDK) to make sure your part is compatible with the v3 Cube. However, the designing process is the same, no matter the version.**
 
 This is an example of designing an insert for any function you like. We are eager to see your results! Feel free to file a pull-request or share it via mail or [@openUC2 on Twitter](https://twitter.com/openUC2) .
 
 **Video Tutorial on How to design a Cube Insert (Perpendicular to the optical axis)**
-[![UC2 YouSeeToo - How to design an insert](../IMAGES/UC2_Insert_Design.png)](https://www.youtube.com/watch?v=q2DNw-Q1KEo&t=2s)
+[![UC2 YouSeeToo - How to design an insert](../IMAGES/UC2_Insert_design.png)](https://www.youtube.com/watch?v=q2DNw-Q1KEo&t=2s)
 
 
 #### 1. Open Autodesk Inventor 2019 (Student) and open the UC2 project

@@ -28,9 +28,9 @@ The Cube consists of the following components.
 
 #### Default:
 * **IM Cube** which houses the insert and adapts it into a UC2 setup.
-* **The Z-Stage and Motor Holder** which moves the sample and holds the stepper motor ([INSERT](./STL/20_Cube_Insert_Z-Focus_single_motorized_v3.stl))
-* **The M3 to Motor Adapter (mech. Coupling)** which connects the Motor directly to an M3 screw which acts as a wormdrive ([SCREW](./STL/30_Coupling_Screw_28BYJ_M3.stl))
-* **The Insert for the RMS/25mm objective** With this you can slide in the objective lens inside the lower cube ([RMS/25mm Lens adapter](./STL/20_IM_Cube_Insert_Lens_holder_RMS_63x.stl))
+* **The Z-Stage and Motor Holder** which moves the sample and holds the stepper motor ([UC2_v3_20_Cube_Insert_Z-Focus_single_motorized_v3.stl](../RAW/STL))
+* **The M3 to Motor Adapter (mech. Coupling)** which connects the Motor directly to an M3 screw which acts as a wormdrive ([UC2_v3_30_Coupling_Screw_28BYJ_M3.stl](../RAW/STL))
+* **The Insert for the RMS/25mm objective** With this you can slide in the objective lens inside the lower cube ([UC2_v3_20_Cube_Insert_Lens_holder_RMS_63x.stl](../RAW/STL))
 
 **Hint:** 3D printing parts
 
@@ -69,18 +69,18 @@ The Cube consists of the following components.
 <img src="./IMAGES/Z_stage_assembly_02.jpg" width="300">
 </p>
 
-1. Insert the head of the M3×20 screw into the motor-screw-coupling adapter. Use pliers to press the screw inside.
+2. Insert the head of the M3×20 screw into the motor-screw-coupling adapter. Use pliers to press the screw inside.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_03.jpg" width="300">
 </p>
 
-1.  Fix the head of the M3 screw inside the adapter using two M3 worm screws (This can also be done later, in case the screw becomes too wobbly.) You may fix the motor-end the same way, if needed.
+3.  Fix the head of the M3 screw inside the adapter using two M3 worm screws (This can also be done later, in case the screw becomes too wobbly.) You may fix the motor-end the same way, if needed.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_04.jpg" width="300">
 </p>
 
 
-1.  That is how it looks like without the motor. The Z-stage will "wrap" around the Cube
+4.  That is how it looks like without the motor. The Z-stage will "wrap" around the Cube
 <p align="center">
 <img src="./IMAGES/Zstage.jpeg" width="300">
 </p>
@@ -92,10 +92,8 @@ The Cube consists of the following components.
 </p>
 
 <p align="center">
-<img src="./IMAGES/Assembly2.png" width="700">
+<img src="./IMAGES/Assembly2.png" width="300">
 </p>
-
-
 
 
 ## Safety

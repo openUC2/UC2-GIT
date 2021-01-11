@@ -1,10 +1,10 @@
-# Beamsplitter Cube
-This is the repository for the Beamsplitter Cube.
+# Beam splitter Cube
+This is the repository for the Beam splitter Cube.
 
 To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
-It adapts a beamsplitter cube to the UC2 system.
+It adapts a beam splitter cube to the UC2 system.
 
 <p align="center">
 <img src="./IMAGES/Assembly_Cube_Beamsplitter_v3.png" width="300">
@@ -31,12 +31,12 @@ The Cube consists of the following components.
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 1x Beamsplitter cube (20×20 mm²) (Artikel 2137) [🢂](https://optikbaukasten.de/)
+* 1x Beam splitter cube (20×20 mm²) (Artikel 2137) [🢂](https://optikbaukasten.de/)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove any support and clean the part
-* Insert the glass beamsplitter inside its holder
-* Slide the beamsplitter holder into the Cube Body
+* Insert the glass beam splitter inside its holder
+* Slide the beam splitter holder into the Cube Body
 * Close the cube accordingly (IM/3DP)
 * Done!
 

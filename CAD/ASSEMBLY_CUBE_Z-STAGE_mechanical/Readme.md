@@ -4,7 +4,7 @@ This is the repository for the mechanical Z-Stage (Objective) Cube.
 To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
-In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample. This is a mechanical-only version of our [Z-stage](../ASSEMBLY_CUBE_Z-STAGE_v2). It allows for course and fine focussing by hand.
+In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample. This is a mechanical-only version of our [Z-stage](../ASSEMBLY_CUBE_Z-STAGE_objective). It allows for course and fine focussing by hand.
 
 <p align="center">
 <img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v4.png" width="300">

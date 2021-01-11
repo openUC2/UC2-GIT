@@ -2,13 +2,13 @@
 
 /* [User Parameters] */
 //Lens diameter - measure the diameter of your lens carefully and insert the value in millimetres. The holder can be used for lenses with a diameter from 42 mm to 50 mm.
-lens_diameter = 48.55; //[42:0.01:50]
+lens_diameter = 48.55; //[40:0.01:50]
 //Edge thickness - measure the thickness of your lens as close to the outer edge as possible.
 lens_edge_thickness = 2.33; //[0.5:0.01:10]
 // Which part would you like to print?
 part = "first"; // [first:Both - Holder AND Clamp,second:Holder ONLY,third:Clamp ONLY]
 // Is this insert for a 3D printed cube or for a cube produced by injection molding?
-3D_printed_cube = "3Dprint"; // [3Dprint,IM]
+3D_printed_cube = "IM"; // [IM, 3Dprint]
 
 /* [Hiden] */
 $fn = 80;
@@ -49,7 +49,7 @@ module lens_holder () {
         union() {
             cylinder(h+eps,d=lens_diameter-6, center = true); //hole
             translate([0,0,1.5]){
-                cylinder(h,d=lens_diameter+0.7, center = true); //rim to hold the lens
+                scale([1,1.05,1])cylinder(h,d=lens_diameter+0.7, center = true); //rim to hold the lens
             }
         }
     } 
@@ -59,11 +59,11 @@ module lens_clamp() {
     translate([a/2+lens_diameter/2+7,0,-(h-t)/2]){
         difference(){   //bottom ring
             cylinder(t, d=53.5, center = true);
-            cylinder(t+eps, d=44, center = true);
+            cylinder(t+eps, d=lens_diameter-4, center = true);
         }
         translate([0,0,+(h1+t)/2]){
             difference(){   //rim
-                cylinder(h1,d=lens_diameter+0.65, center = true);
+                scale([1,1.05,1])cylinder(h1,d=lens_diameter+0.65, center = true);
                 cylinder(h1+eps,d=lens_diameter-2, center = true);
             }
             }

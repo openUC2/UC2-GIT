@@ -36,8 +36,8 @@ The Cube consists of the following components.
 
 #### Default:
 * **IM Cube** which houses the insert and adapts it into a UC2 setup.
-* **The Kinematic Mirror Holder Base - part 1** which adapts the mirror into the cube ([20_Cube_Insert_Kinematic_Mirrormount_45_base_part1.stl])
-* **The Kinematic Mirror Holder Base - part 2** which holds the three screws that change the tilt of the mirror ([20_Cube_Insert_Kinematic_Mirrormount_45_base_part2.stl])
+* **The Kinematic Mirror Holder Base - part 1** which adapts the mirror into the cube ([20_Cube_Insert_Kinematic_Mirrormount_45_base_part1.stl](../RAW/STL)
+* **The Kinematic Mirror Holder Base - part 2** which holds the three screws that change the tilt of the mirror ([20_Cube_Insert_Kinematic_Mirrormount_45_base_part2.stl](../RAW/STL))
 * **The Mirror (30×30 mm) Holder for the Kinematic Mirror Holder** which holds the Mirror on the front side and three magnets on the back. For 30×30mm² Toy mirror ([20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl](../RAW/STL))
 * **The M3 Adapter** for convenient manipulation of the screws ([30_Adapter_M3_nut.stl](../RAW/STL))
 
@@ -77,43 +77,43 @@ The metal plates limit the play between the magnets and screws, so it might be a
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_0.jpg" width="300">
 </p>
 
-1. Add M3 screws to the insert
+2. Add M3 screws to the insert
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_1.jpg" width="300">
 </p>
 
-1. Add Ballmagnets to the screws
+3. Add Ballmagnets to the screws
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_2.jpg" width="300">
 </p>
 
-1. Add the magnetic plate to the Ballmagnets
+4. Add the magnetic plate to the Ballmagnets
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_3.jpg" width="300">
 </p>
 
-1. Glue the mirror onto the magnetic plate
+5. Glue the mirror onto the magnetic plate
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_4.jpg" width="300">
 </p>
 
-1. Put the insert in the cube
+6. Put the insert in the cube
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_5.jpg" width="300">
 </p>
 
-1. Add the M3 Screws - Done.
+7. Add the M3 Screws - Done.
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_6.jpg" width="300">
 </p>
 
-1. Here you see the 3D printed plates for the toy mirror and for 1" mirror. Simply press the ballmagnets into the holes of the plate using pliers.
+8. Here you see the 3D printed plates for the toy mirror and for 1" mirror. Simply press the ballmagnets into the holes of the plate using pliers.
 <p align="center">
 <img src="./IMAGES/Mirrormount_plates_01.jpg" width="300">
 <img src="./IMAGES/Mirrormount_plates_02.jpg" width="300">
 </p>
 
-1. In the end it should look like this:  
+9. In the end it should look like this:  
 <p align="center">
 <img src="./IMAGES/Kinematic_Mirror_45_w_plate_01.jpg" width="300">
 <img src="./IMAGES/Kinematic_Mirror_45_w_plate_02.jpg" width="300">

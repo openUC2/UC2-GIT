@@ -10,7 +10,7 @@ It adapts a standard Raspberry Pi Camera (v1, v2) to the UC2 system.
 <img src="./IMAGES/Assembly_Cube_RaspiCam_v3.png" width="300">
 </p>
 
-The sensor (w/wo lens) is put into an adapter which holds the camera in the center of the cube. The height can be varied by sliding the adapter along the slides. It is designed to eventually hold (fluorescent) filters. The camera need to be fixed with a set of screws. M2x10mm in combination with nuts work best.
+The sensor (w/wo lens) is put into an adapter which holds the camera in the center of the cube. The height can be varied by sliding the adapter along the slides. It is designed to eventually hold (fluorescent) filters. The camera need to be fixed with a set of screws. M2×10mm in combination with nuts work best.
 
 ### Properties
 * design is derived from the base-cube

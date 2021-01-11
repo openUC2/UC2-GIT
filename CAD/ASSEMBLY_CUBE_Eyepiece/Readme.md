@@ -54,12 +54,12 @@ The Cube consists of the following components.
 <img src="./IMAGES/CUBE_EYEPIECE_0.jpg" width="300">
 </p>
 
-1. Add the eyepiece to the spiral holder which auto-centers the optics inside the cube. Put the Insert into the cube and add all screws before fixing them.
+2. Add the eyepiece to the spiral holder which auto-centers the optics inside the cube. Put the Insert into the cube and add all screws before fixing them.
 <p align="center">
 <img src="./IMAGES/CUBE_EYEPIECE_1.jpg" width="300">
 </p>
 
-1. Attach the smartphone holder using four M3×8 screws
+3. Attach the smartphone holder using four M3×8 screws
 <p align="center">
 <img src="./IMAGES/Cube_Smartphone.jpg" width="300">
 </p>

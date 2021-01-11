@@ -47,11 +47,11 @@ A quick printing tutorial can be found here:
 
 The current version of the UC2 system is called v3. We're trying hard to update the APPlications so that everything is based on the new design, but it's a lot of files and there are probably still some forgotten v0 and v2 parts.
 
-If you're unsure, check out the [Modular Developer Kit](../MDK) - there you find a general definition of the shape and size of the inserts which is up to date!
+If you're unsure, check out the [Modular Developer Kit](../../../MDK) - there you find a general definition of the shape and size of the inserts which is up to date!
 
 The outer cube dimensions stayed the same, but the inserts changed a lot!
 
-[HERE (v0)](./V0) and [HERE (v2)](./V2) you find the old cube - just as a reference!
+[HERE (v0)](V0.zip) and [HERE (v2)](V2.zip) you find the old cube - just as a reference!
 
 ## Participation
 If you need further assistance please file an issue. Thank you :-)
