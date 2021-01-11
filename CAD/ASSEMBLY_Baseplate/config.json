@@ -1,18 +1,27 @@
 {
-    "name": "ASSEMBLY_Baseplate 4x4",
+    "name": "ASSEMBLY_Baseplate",
     "description": "",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate",
     "image": "",
-    "price": 32.68,
+    "price": "",
     "fixedOptions": {},
     "type": "module",
     "partslist": [
         {
-            "name": "Baseplate 4x4",
+            "name": "10_Base_puzzle_IM",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x4.stl",
+            "githublink": "",
             "image": "",
-            "price": 2.6,
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Base_puzzle_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
+            "image": "",
+            "price": 0.3,
             "is_printable": true,
             "n_parts": 1.0
         },
@@ -23,7 +32,7 @@
             "image": "",
             "price": 0.47,
             "is_printable": false,
-            "n_parts": 64.0
+            "n_parts": 4.0
         }
     ]
 }
