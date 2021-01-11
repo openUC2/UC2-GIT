@@ -1,9 +1,9 @@
 {
-    "name": "ASSEMBLY_CUBE_Lens - objective",
+    "name": "ASSEMBLY_CUBE_Lens_large",
     "description": "",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_large",
     "image": "",
-    "price": 11.3,
+    "price": 0.3,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
@@ -53,20 +53,20 @@
             "n_parts": 6.0
         },
         {
-            "name": "20_Cube_Insert_Objective_Holder_v3",
+            "name": "20_Insert_Large_Lens_holder_v3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Objective_Holder_v3_32.stl",
+            "githublink": "https://www.thingiverse.com/thing:4580156",
             "image": "",
             "price": 0.3,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "Microscope Objective 4x",
+            "name": "Lens: diameter 42-50 mm",
             "description": "",
-            "githublink": "https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7",
+            "githublink": "",
             "image": "",
-            "price": 11.0,
+            "price": 0.0,
             "is_printable": false,
             "n_parts": 1.0
         }
