@@ -37,7 +37,7 @@ After collimate the beam with first lens, the beam is directed by two mirrors to
 When the setup is in general once adjusted, place the objective cube with z-stage on it. We updated a new [linear z-stage](https://en.wikipedia.org/wiki/Update) which is compatible with injection moulded cube. Put a sample on the stage and turn on the projector to display some image, we should observe at least some part of the image on the camera, when not, try to center the image at the position of the objective. Slightly adjust the position of the image pattern with rotate the adjusting screws of the kinetic mirrors. A well-aligned openISM module should capture the point array pattern similar to this:
 
 <p align="center">
-<img src="./IMAGES/SamplePlane.png" width="500">
+<img src="./IMAGES/SamplePlane.png" width="600">
 </p>
 
 ***Fig. 4*** *After alignment, the image at the sample plane should be as shown here. The point array image is illuminated on a negative USAF target, with good aglinment, the point array should focus at the surface of the target with sharp pattern.*
