@@ -11,4 +11,9 @@ Save as -> Pack 'n go -> save somewhere and copy the ```.ipt``` files in the [IP
 ### STL files
 
 Export -> export as STL and hit options -> individual files. 
-Rename them with e.g. Bulkrenamer or so. 
+
+#### Renaming
+On Windows:
+```
+python rename.py
+```

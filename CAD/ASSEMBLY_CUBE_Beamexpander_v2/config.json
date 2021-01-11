@@ -1,0 +1,56 @@
+{
+    "name": "ASSEMBLY_CUBE_Beamexpander",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Beamexpander_v2",
+    "image": "",
+    "price": 9.899999999999999,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "ASSEMBLY_CUBE_empty",
+            "description": "",
+            "githublink": "Module#2",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_Insert_Beamexpander_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Beamexpander_v3_3.stl",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Beamexpander_Lens_Adapter_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Beamexpander_Lens_Adapter_82.stl",
+            "image": "",
+            "price": 0.0,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "iPhone Lens",
+            "description": "",
+            "githublink": "https://www.ebay.com/c/7029261375",
+            "image": "",
+            "price": 4.6,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Planoconvex Lens f'=26,5mm, 18 mm (551.OAL)",
+            "description": "",
+            "githublink": "https://www.pgi-versand.de/?id=47&mode=artdet&artnr=551.OAL",
+            "image": "",
+            "price": 5.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

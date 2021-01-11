@@ -1,80 +1,45 @@
 {
-    "name": "ASSEMBLY_CUBE_Z-stage",
+    "name": "ASSEMBLY_CUBE_Z-stage_v3",
     "description": "",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v3",
     "image": "",
-    "price": 50.35,
+    "price": 37.75,
     "fixedOptions": {},
+    "type": "module",
     "partslist": [
         {
-            "name": "10_Cube_2x1",
+            "name": "ASSEMBLY_CUBE_empty",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/10_Cube_2x1_v2.stl",
+            "githublink": "Module#2",
             "image": "",
-            "price": 0.5,
-            "is_printable": true,
-            "n_parts": 1.0
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 2.0
         },
         {
-            "name": "10_Lid_el_2x1",
+            "name": "20_Cube_Insert_Z-Focus_single_motorized_v3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/10_Lid_el_2x1_v2.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Z-Focus_single_motorized_v3_41.stl",
             "image": "",
-            "price": 0.3,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "20_focus_inlet_linearflexure",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/20_focus_inlet_linearflexure_v0.stl",
-            "image": "",
-            "price": 0.6,
+            "price": 0.8,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
             "name": "30_Coupling_Screw_28BYJ_M3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Coupling_Screw_28BYJ_M3.stl",
-            "image": "",
-            "price": 0.0,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "30_focus_inlet_objective_mount",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_focus_inlet_objective_mount_v7.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_Coupling_Screw_28BYJ_M3_53.stl",
             "image": "",
             "price": 0.1,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "30_Z_Stage_Adapterplate",
+            "name": "20_Cube_Insert_Lens_holder_RMS_63x",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Adapterplate_11.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Lens_holder_RMS_63x_29.stl",
             "image": "",
             "price": 0.3,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "30_Z_Stage_Fluomodule",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/30_Z_Stage_Fluomodule_12.stl",
-            "image": "",
-            "price": 0.2,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "40_XY_Stage_Clamp_Slide",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2/STL/40_XY_Stage_Clamp_Slide_9.stl",
-            "image": "",
-            "price": 0.1,
             "is_printable": true,
             "n_parts": 1.0
         },
@@ -94,16 +59,7 @@
             "image": "",
             "price": 0.6,
             "is_printable": false,
-            "n_parts": 20.0
-        },
-        {
-            "name": "Screws M3x8",
-            "description": "",
-            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-            "image": "",
-            "price": 0.2,
-            "is_printable": false,
-            "n_parts": 3.0
+            "n_parts": 2.0
         },
         {
             "name": "M3x30 screw with nut (non-magnetic)",
@@ -115,13 +71,13 @@
             "n_parts": 1.0
         },
         {
-            "name": "Screws M3x18",
+            "name": "M3x30 screw with nut (non-magnetic)",
             "description": "",
-            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/",
+            "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
             "image": "",
-            "price": 0.2,
+            "price": 0.1,
             "is_printable": false,
-            "n_parts": 2.0
+            "n_parts": 1.0
         },
         {
             "name": "ESP32",

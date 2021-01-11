@@ -1,27 +1,18 @@
 {
     "name": "ASSEMBLY_CUBE_Sample_Comb",
     "description": "",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Sample_Holder",
     "image": "",
-    "price": 1.4000000000000001,
+    "price": 1.0,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
         {
-            "name": "10_Lid_1x1",
+            "name": "30_Cube_sampleholder_v3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_Cube_sampleholder_62.stl",
             "image": "",
             "price": 0.2,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "20_Cube_Sampleholder",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/master/CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl",
-            "image": "",
-            "price": 0.4,
             "is_printable": true,
             "n_parts": 1.0
         },
@@ -33,6 +24,15 @@
             "price": 0.2,
             "is_printable": false,
             "n_parts": 4.0
+        },
+        {
+            "name": "",
+            "description": "",
+            "githublink": "",
+            "image": "",
+            "price": "",
+            "is_printable": false,
+            "n_parts": ""
         }
     ]
 }

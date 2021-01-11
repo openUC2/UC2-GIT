@@ -1,0 +1,38 @@
+{
+    "name": "ASSEMBLY_CUBE_Lens - large diameter",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_v2",
+    "image": "",
+    "price": 0.3,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "ASSEMBLY_CUBE_empty",
+            "description": "",
+            "githublink": "Module#2",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Insert_Large_Lens_holder_v3",
+            "description": "",
+            "githublink": "https://www.thingiverse.com/thing:4580156",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Lens: diameter 42-50 mm",
+            "description": "",
+            "githublink": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

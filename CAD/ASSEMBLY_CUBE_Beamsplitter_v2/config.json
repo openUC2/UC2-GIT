@@ -1,0 +1,38 @@
+{
+    "name": "ASSEMBLY_CUBE_Beamsplitter",
+    "description": "",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Beamsplitter_v2",
+    "image": "",
+    "price": 27.0,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "ASSEMBLY_CUBE_empty",
+            "description": "",
+            "githublink": "Module#2",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_Insert_Beamsplitter_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Beamsplitter_v3_4.stl",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Beamsplitter Cube (Art. 2137)",
+            "description": "",
+            "githublink": "https://optikbaukasten.de/",
+            "image": "",
+            "price": 26.7,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}
