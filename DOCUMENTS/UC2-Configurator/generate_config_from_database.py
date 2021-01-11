@@ -28,7 +28,7 @@ ucs_database_filename = 'UC2_ReadyToUse_Boxes_Modules_Parts.xlsx' # change it to
 alphabet=string.ascii_lowercase
 
 my_root = '/Users/bene/Dropbox/Dokumente/Promotion/PROJECTS/UC2-GIT' # save json.config files inside..
-    
+filenameconfig='config.json'
 is_debug = False
 # need to be lower case! 
 col_first_app = 'k' # chr(ord('K'))
@@ -49,6 +49,24 @@ col_assembly_module_part_isprintable =  alphabet.find('d')
 col_assembly_module_part_n =  alphabet.find('e')
 col_assembly_module_part_name_githublink =  alphabet.find('f')
 col_assembly_module_part_name_price =  alphabet.find('g')
+
+
+#%% 
+# First we want to remove all config.json files 
+import os                                                                                                             
+                                                                                                                      
+def del_files(dir, file_to_dele):                                                                                                  
+    r = []                                                                                                            
+    subdirs = [x[0] for x in os.walk(dir)]                                                                            
+    for subdir in subdirs:                                                                                            
+        files = os.walk(subdir).__next__()[2]                                                                             
+        if (len(files) > 0):                                                                                          
+            for file in files:                                                              
+                if(file==file_to_dele):
+                    print("REmoving file:"+os.path.join(subdir, file))
+                    os.remove(os.path.join(subdir, file))
+                  
+del_files(my_root,filenameconfig)
 
 #%%
 # open XLXS file
@@ -264,7 +282,7 @@ for i_application in range(10,100):# range(10,100):
     
     if(is_debug): print('should save to: '+my_jsonpath)
 
-    with open(my_jsonpath+'/config.json', "w") as j:
+    with open(os.path.join(my_jsonpath, filenameconfig), "w") as j:
         json.dump(my_application_json, j, indent=4)
     print("config written!\n\n")
     
