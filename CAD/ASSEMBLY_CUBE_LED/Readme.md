@@ -1,7 +1,7 @@
 # LED Cube (+ Pinhole)
 This is the repository for the design of the LED Cube.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 This cube holds a single LED. Optionally, A generic sample holder can be added to hold a pinhole directly in front of the LED.

@@ -1,7 +1,7 @@
 # Kinematic Mirror Holder Cube
 This is the repository for the Kinematic Mirror Holder Cube.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 It adapts a mirror to the UC2 system. It allows precise tilting in *x* and *y*.
@@ -73,33 +73,33 @@ The metal plates limit the play between the magnets and screws, so it might be a
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_0.jpg" width="300">
 </p>
 
-1. Add M3 screws and Ballmagnets to the insert
+2. Add M3 screws and Ballmagnets to the insert
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_1.jpg" width="300">
 </p>
 
-1. Glue the Mirror to the Metal plate
+3. Glue the Mirror to the Metal plate
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_3.jpg" width="300">
 </p>
 
-1. Add the magnetic mirror plate to the 3 Ballmagents
+4. Add the magnetic mirror plate to the 3 Ballmagents
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_4.jpg" width="300">
 </p>
 
-1. Put the insert inside the cube, add Screws - Done!
+5. Put the insert inside the cube, add Screws - Done!
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_5.jpg" width="300">
 </p>
 
-1. Here you see the 3D printed plate. Simply press the ballmagnets into the holes of the plate using pliers.
+6. Here you see the 3D printed plate. Simply press the ballmagnets into the holes of the plate using pliers.
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_6.jpg" width="300">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_7.jpg" width="300">
 </p>  
 
-1. In the end it should look like this:
+7. In the end it should look like this:
 <p align="center">
 <img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_8.jpg" width="300">
 </p>  

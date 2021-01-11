@@ -22,7 +22,7 @@ The Cube consists of the following components.
 * **IM Cube** which houses the insert and adapts it into a UC2 setup.
 
 For the 40 mm lens linked in additional parts:
-* **The 1" Lens Holder with clamp** which holds a lens with 1 inch (25,4 mm) diameter and adapts it to the base cube ([UC2_v3_20_Insert_Lens_holder_40mm_v3.stl](../RAW/STL/UC2_v3_20_Insert_Lens_holder_40mm_v3.stl))
+* **The 1" Lens Holder with clamp** which holds a lens with 1 inch (25,4 mm) diameter and adapts it to the base cube ([20_Insert_Lens_holder_v3_40mm.stl](../RAW/STL/20_Insert_Lens_holder_v3_40mm.stl))
 
 You can generate a holder for any arbitrary lens following the [Thingiverse Customizer](https://www.thingiverse.com/thing:4377691). For the other lenses we frequently use, the STL can be found [here](../STL).
 
@@ -45,18 +45,18 @@ You can generate a holder for any arbitrary lens following the [Thingiverse Cust
 <img src="../IMAGES/SCAD_Lens_Holder_01.jpg" width="300">
 </p>
 
-1. Put the lens inside the holder. When using plano-convex lenses, put the plano-surface in the holder with the convex surface in the direction where the clamp will be. That way, your lens will be completely sunken in the holder and therefore more protected from being scratched.
+2. Put the lens inside the holder. When using plano-convex lenses, put the plano-surface in the holder with the convex surface in the direction where the clamp will be. That way, your lens will be completely sunken in the holder and therefore more protected from being scratched.
 <p align="center">
 <img src="../IMAGES/SCAD_Lens_Holder_02.jpg" width="300">
 </p>
 
-1. Put the clamp on the rim of the holder a press it firmly. The lens shouldn't be able to move when you're done. Be careful not to touch the surface of the lens!
+3. Put the clamp on the rim of the holder a press it firmly. The lens shouldn't be able to move when you're done. Be careful not to touch the surface of the lens!
 <p align="center">
 <img src="../IMAGES/SCAD_Lens_Holder_03.jpg" width="300">
 <img src="../IMAGES/SCAD_Lens_Holder_04.jpg" width="300">
 </p>
 
-1. Insert the insert into the Cube, add screws - Done!
+4. Insert the insert into the Cube, add screws - Done!
 <p align="center">
 <img src="../IMAGES/SCAD_Lens_Holder_05.jpg" width="300">
 <img src="../IMAGES/SCAD_Lens_Holder_06.jpg" width="300">

@@ -7,13 +7,13 @@ Note: This holder is a bit different from the one we designed in Inventor - and 
 </p>
 
 ### Using Thingiverse customizer
-Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert. Ufortunately, the Thingiverse Customizer is for some time already not working in Google Chrome and Safari. Use a different browser to use the Customizer. 
+Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert. Ufortunately, the Thingiverse Customizer is for some time already not working in Google Chrome and Safari. Use a different browser to use the Customizer.
 <p align=center>
 <img src="../IMAGES/UC2_lens_holder_customizer.jpeg" width=500>
 </p>
 
 ### Using openSCAD
-* Download the [UC2_Lens_insert_v2.scad](UC2_Lens_insert_v2.scad) file and open it in openSCAD
+* Download the [20_Insert_Lens_holder_v3.scad](20_Insert_Lens_holder_v3.scad) file and open it in openSCAD
 1. Use the Customizer
   * In the View menu, the option called [Hide customizer] must be unselected to display the customizer
   * Change the _lens diameter_ and _lens edge thickness_ to fit your lens
@@ -32,7 +32,7 @@ Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thi
   * If you have a suggestion for an improvement, please let us know! :-)
 
 ## For any lens or round filter from ⌀42 mm to ⌀50 mm
-Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4580156) or use the [UC2_Lens_insert_v2_large_lens.scad](UC2_Lens_insert_v2_large_lens.scad) - the steps to follow are the same, but this holder has a different design, allowing you to put a big lens into the cube.
+Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4580156) or use the [20_Insert_Large_Lens_holder_v3.scad](20_Insert_Large_Lens_holder_v3.scad) - the steps to follow are the same, but this holder has a different design, allowing you to put a big lens into the cube.
 <p align=center>
 <img src="../IMAGES/Large_lens_holder_openscad_01.jpg" height=200>
 <img src="../IMAGES/Large_lens_holder_openscad.PNG" height=200>

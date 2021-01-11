@@ -1,7 +1,7 @@
 # Generic Lens Holder Cube
 This is the repository for the Generic Lens Holder Cube.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 RMS Objective holder: It adapts a objective with a RMS threading to the UC2 system.
@@ -40,9 +40,9 @@ There are two parts contained in one STL:
 * **The Lens Holder** which holds a lens and adapts it to the base cube and **The Lens Clamp** which holds the lens in the holder
 
 For the frequently used lenses (the ones that are used in our BOXes etc.) you can directly download the STLs:
-* **+40 mm lens** ([Artikel 2120](https://optikbaukasten.de/)) - [LENS +40](../RAW/STL))
-* **+100 mm lens** ([Artikel 2004](https://optikbaukasten.de/)) - [LENS +100](../RAW/STL))
-* **-50 mm lens** ([LC1259](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)) - [LENS -50](../RAW/STL))
+* **+40 mm lens** ([Artikel 2120](https://optikbaukasten.de/)) - [LENS +40](../RAW/STL/20_Insert_Lens_holder_v3_40mm.stl))
+* **+100 mm lens** ([Artikel 2004](https://optikbaukasten.de/)) - [LENS +100](../RAW/STL/20_Insert_Lens_holder_v3_100mm.stl))
+* **-50 mm lens** ([LC1259](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)) - [LENS -50](../RAW/STL/20_Insert_Lens_holder_v3_-50mm.stl))
 
 #### Alternatives:
 * **3DP Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([10_Cube_1x1_v3.stl](../RAW/STL)) and **3DP Lid** which closes the Cube ([10_Lid_1x1_v3.stl](../RAW/STL)) - find the details in [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base)
@@ -69,12 +69,12 @@ For any lens or round filter from ⌀9 mm to ⌀50 mm - using [OPENSCAD](./OPENS
 <img src="./IMAGES/CUBE_LENSHOLDER_0.jpg" width="300">
 </p>
 
-1. Put the lens inside the Spiral lens adapter (it auto centers)
+2. Put the lens inside the Spiral lens adapter (it auto centers)
 <p align="center">
 <img src="./IMAGES/CUBE_LENSHOLDER_1.jpg" width="300">
 </p>
 
-1. Insert the insert into the Cube, add screws - Done!
+3. Insert the insert into the Cube, add screws - Done!
 <p align="center">
 <img src="./IMAGES/CUBE_LENSHOLDER_2.jpg" width="300">
 </p>
@@ -94,12 +94,12 @@ For any lens or round filter from ⌀9 mm to ⌀50 mm - using [OPENSCAD](./OPENS
 <img src="./IMAGES/SCAD_Lens_Holder_01.jpg" width="300">
 </p>
 
-1. Put the lens inside the holder. When using plano-convex lenses, put the plano-surface in the holder with the convex surface in the direction where the clamp will be. That way, your lens will be completely sunken in the holder and therefore more protected from being scratched.
+2. Put the lens inside the holder. When using plano-convex lenses, put the plano-surface in the holder with the convex surface in the direction where the clamp will be. That way, your lens will be completely sunken in the holder and therefore more protected from being scratched.
 <p align="center">
 <img src="./IMAGES/SCAD_Lens_Holder_02.jpg" width="300">
 </p>
 
-1. Put the clamp on the rim of the holder a press it firmly. The lens shouldn't be able to move when you're done. Be careful not to touch the surface of the lens!
+3. Put the clamp on the rim of the holder a press it firmly. The lens shouldn't be able to move when you're done. Be careful not to touch the surface of the lens!
 <p align="center">
 <img src="./IMAGES/SCAD_Lens_Holder_03.jpg" width="300">
 <img src="./IMAGES/SCAD_Lens_Holder_04.jpg" width="300">

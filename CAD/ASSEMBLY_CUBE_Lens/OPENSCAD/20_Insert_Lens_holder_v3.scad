@@ -8,7 +8,9 @@ lens_edge_thickness = 1.5; //[0.5:0.01:8]
 // Which part would you like to print?
 part = "first"; // [first:Both - Holder AND Clamp,second:Holder ONLY,third:Clamp ONLY]
 // Is this insert for a 3D printed cube or for a cube produced by injection molding?
-3D_printed_cube = "3Dprint"; // [3Dprint,IM]
+3D_printed_cube = "IM"; // [IM, 3Dprint]
+// Write the focal length of the lens that you will put in this holder. Input: number in millimetres, no units, add '-' for a negative lens. 
+focal_length = "f"; 
 
 /* [Hiden] */
 $fn = 80;
@@ -53,10 +55,13 @@ module lens_holder () {
                 cylinder(lens_edge_thickness+eps,d=lens_diameter+0.7, center = true); //rim to hold the lens
             }
         }
+            translate([0,-24,((h+h1-0.1)/2-2.45)]){
+                linear_extrude(height = 2) text(focal_length, size=5, font="Arial black:style=Regular",halign = "center", spacing=1);
+            }
     }
     translate([0,0,(h+h1-0.1)/2]){  //rim for the clamp
-        difference(){
-                cylinder(h1+0.1,d1=lens_diameter+2.9, d2=lens_diameter+1.9, center = true);
+        scale([1,1.03,1])difference(){
+                cylinder(h1+0.1,d=lens_diameter+2.9, center = true); //d2=lens_diameter+1.9, 
                 cylinder(h1+0.1+eps,d=lens_diameter+0.7, center = true);
         }
     }
@@ -64,16 +69,16 @@ module lens_holder () {
 
 module lens_clamp() {
     translate([a/2+lens_diameter/2+7,0,-(h-t)/2]){
-        difference(){   //bottom ring
+        scale([1,1.03,1])difference(){   //bottom ring
             cylinder(t, d=lens_diameter+4.9, center = true);
             cylinder(t+eps, d=lens_diameter-1, center = true);
         }
         translate([0,0,+(h1+t)/2]){
-            difference(){   //outer rim
+            scale([1,1.03,1])difference(){   //outer rim
                 cylinder(h1,d=lens_diameter+4.9, center = true);
                 cylinder(h1+eps,d=lens_diameter+2.9, center = true);
             }
-            difference(){   //inner rim
+            scale([1,1.03,1])difference(){   //inner rim
                 cylinder(h1,d=lens_diameter+0.5, center = true);
                 cylinder(h1+eps,d=lens_diameter-1, center = true);
                 }

@@ -1,6 +1,8 @@
 # Z-Stage (Objective) Cube
 This is the repository for the Z-Stage (Objective) Cube.
 
+		This page will be updated soon!
+
 The stl-files can be found in the folder [STL](./STL).
 
 ## Purpose

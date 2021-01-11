@@ -1,7 +1,7 @@
 # Circular Aperture Cube
 This is the repository for a circular aperture incorporated into the basic Cube.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 The aperture diaphragm is typically used in the case of critical or Köhler illumination, where it allows for controlling the intensity and/or diameter of the illuminated area.
@@ -52,37 +52,37 @@ The Cube consists of the following components.
 <img src="./IMAGES/CirAp01.jpg" width="300">
 </p>
 
-1. Start with putting all the leaves on the pins of the wheel. Don't worry if they seem too loose, they will be held in place once the aperture is assembled.
+2. Start with putting all the leaves on the pins of the wheel. Don't worry if they seem too loose, they will be held in place once the aperture is assembled.
 <p align="center">
 <img src="./IMAGES/CirAp02.jpg" width="300">
 <img src="./IMAGES/CirAp03.jpg" width="300">
 </p>
 
-1. Next, smooth into overlapping pattern. Hold the leaf on the pin of the wheel when moving it, so it doesn't fall off.
+3. Next, smooth into overlapping pattern. Hold the leaf on the pin of the wheel when moving it, so it doesn't fall off.
 <p align="center">
 <img src="./IMAGES/CirAp04.jpg" width="300">
 <img src="./IMAGES/CirAp05.jpg" width="300">
 </p>
 
-1. Put the wheel carrying the leaves together with the leave-guide. The pins of each leaf has to fall into the rail on the guide. When done correctly, the wheel and guide end up being parallel. See pictures:
+4. Put the wheel carrying the leaves together with the leave-guide. The pins of each leaf has to fall into the rail on the guide. When done correctly, the wheel and guide end up being parallel. See pictures:
 <p align="center">
 <img src="./IMAGES/CirAp06.jpg" width="300">
 <img src="./IMAGES/CirAp07.jpg" width="300">
 </p>
 
-1. Close the assembly with the aperture-lid. The lid holds the wheel centered.
+5. Close the assembly with the aperture-lid. The lid holds the wheel centered.
 <p align="center">
 <img src="./IMAGES/CirAp08.jpg" width="300">
 <img src="./IMAGES/CirAp09.jpg" width="300">
 </p>
 
-1. Add the assembled aperture to the cube and close the cube with the lid, using four M3×12 screws. Make sure the guide and the lid are close enough, so the leaves can't move anywhere else that following the rails in the guide.
+6. Add the assembled aperture to the cube and close the cube with the lid, using four M3×12 screws. Make sure the guide and the lid are close enough, so the leaves can't move anywhere else that following the rails in the guide.
 <p align="center">
 <img src="./IMAGES/CirAp10.jpg" width="300">
 <img src="./IMAGES/CirAp11.jpg" width="300">
 </p>
 
-1. Assembled Aperture cube allows for opening and closing the aperture from the outside. Fully open aperture has the diameter of 25 mm, fully closed is approximately 2 mm in diameter.
+7. Assembled Aperture cube allows for opening and closing the aperture from the outside. Fully open aperture has the diameter of 25 mm, fully closed is approximately 2 mm in diameter.
 <p align="center">
 <img src="./IMAGES/CirAp12.jpg" height="300">
 <img src="./IMAGES/CirAp13.jpg" height="300">
@@ -93,7 +93,7 @@ The Cube consists of the following components.
 <img src="./IMAGES/CirAp-closing.gif" height="300">
 </p>
 
-1. In the latest version on this module, we added two holes for M2 screws to hold the aperture together and make the movement of it inside the cube more convenient.  
+8. In the latest version on this module, we added two holes for M2 screws to hold the aperture together and make the movement of it inside the cube more convenient.  
 When you assemble the aperture, make sure that the holes in the Lid and Guide part are matching. Then put the M2 screws into the holes and fix the aperture by putting nuts on the screws.
 <p align="center">
 <img src="./IMAGES/CirAp15.jpg" width="300">

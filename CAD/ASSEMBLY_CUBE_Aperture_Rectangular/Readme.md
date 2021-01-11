@@ -1,7 +1,7 @@
 # Rectangular Aperture Cube
 This is the repository for a rectangular aperture incorporated into the basic Cube.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 The aperture can limit the light beam in X and Y independently and asymmetrically from both sides.  
@@ -56,40 +56,40 @@ The Cube consists of the following components.
 <img src="./IMAGES/RectAp_01.jpg" width="300">
 </p>
 
-1. There are in total four doors and the assembly is the same for all of them. Firstly, insert the DOOR-HINGE into the slit in the insert part. You should be able to move the hinge when it's done correctly. The slits might need some filing, especially on the bottom-printed side of the insert (depending on your 3D printer).
+2. There are in total four doors and the assembly is the same for all of them. Firstly, insert the DOOR-HINGE into the slit in the insert part. You should be able to move the hinge when it's done correctly. The slits might need some filing, especially on the bottom-printed side of the insert (depending on your 3D printer).
 <p align="center">
 <img src="./IMAGES/RectAp_02.jpg" width="300">
 <img src="./IMAGES/RectAp_03.jpg" width="300">
 </p>
 
-1. Now comes the sliding part of the door. Insert the pins in the slit that will lead the sliding movement of this part.
+3. Now comes the sliding part of the door. Insert the pins in the slit that will lead the sliding movement of this part.
 <p align="center">
 <img src="./IMAGES/RectAp_04.jpg" width="300">
 <img src="./IMAGES/RectAp_05.jpg" width="300">
 <img src="./IMAGES/RectAp_06.jpg" width="300">
 </p>
 
-1. Connect the two parts of the door. Be careful not to break the little 'wings' that hold the hinge mechanism. Insert fist one side and then press it into the other, as shown in the pictures.
+4. Connect the two parts of the door. Be careful not to break the little 'wings' that hold the hinge mechanism. Insert fist one side and then press it into the other, as shown in the pictures.
 <p align="center">
 <img src="./IMAGES/RectAp_07.jpg" width="300">
 <img src="./IMAGES/RectAp_08.jpg" width="300">
 <img src="./IMAGES/RectAp_09.jpg" width="300">
 </p>
 
-1. Follow the same step for the other door on the same side and for the doors on the other side of the insert.
+5. Follow the same step for the other door on the same side and for the doors on the other side of the insert.
 <p align="center">
 <img src="./IMAGES/RectAp_10.jpg" width="300">
 <img src="./IMAGES/RectAp_11.jpg" width="300">
 </p>
 
-1. Insert the insert into the Cube, add screws - Done!
+6. Insert the insert into the Cube, add screws - Done!
 <p align="center">
 <img src="./IMAGES/RectAp_12.jpg" width="300">
 <img src="./IMAGES/RectAp_13.jpg" width="300">
 <img src="./IMAGES/RectAp_14.jpg" width="300">
 </p>
 
-1. Open/close the doors using a hex key or a thin screwdriver.
+7. Open/close the doors using a hex key or a thin screwdriver.
 <p align="center">
 <img src="./IMAGES/RectAp_14.jpg" width="300">
 </p>

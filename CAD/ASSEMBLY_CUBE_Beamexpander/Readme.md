@@ -1,7 +1,7 @@
 # Integrated Telescope/Beam-Expander Cube
 This is the repository for the Integrated Telescope Cube.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 It adapts a very small beam-expander to the UC2 system.
@@ -92,32 +92,32 @@ Don't insert batteries in the laser yet!!
 <img src="./IMAGES/UC2_Tut_Beamexpandercube5.jpg" width="300">
 </p>
 
-1. Turn on the laser:
+2. Turn on the laser:
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Beamexpandercube6.jpg" width="300">
 </p>
 
-1. Optional: Align the laser (center with the screws)
+3. Optional: Align the laser (center with the screws)
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Beamexpandercube11.jpg" width="300">
 </p>
 
-1. Check the beam on a white piece of paper
+4. Check the beam on a white piece of paper
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Beamexpandercube12.jpg" width="300">
 </p>
 
-1. Mark the position and diameter of the beam on the white piece of paper
+5. Mark the position and diameter of the beam on the white piece of paper
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Beamexpandercube14.jpg" width="300">
 </p>
 
-1. Compare distance and diameter of laser spot at a distance far away
+6. Compare distance and diameter of laser spot at a distance far away
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Beamexpandercube15.jpg" width="300">
 </p>
 
-1. Adjust the position of the cellphone lens in the rail so that both spots have the same position and diameter (iterate - start at step 5 - until you're satisfied)
+7. Adjust the position of the cellphone lens in the rail so that both spots have the same position and diameter (iterate - start at step 5 - until you're satisfied)
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Beamexpandercube13.jpg" width="300">
 </p>
