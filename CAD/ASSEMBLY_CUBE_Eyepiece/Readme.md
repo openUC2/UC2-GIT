@@ -1,7 +1,7 @@
 # Eyepiece Cube with Smartphone Holder
 This is the repository for the Eyepiece Cube and the Smartphone Holder.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 It adapts an eyepiece to the UC2 cube. Further, a plate for holding a smartphone can be added.

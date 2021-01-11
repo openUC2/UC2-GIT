@@ -1,7 +1,7 @@
 # Thorlabs Insert Cube
 This is the repository for the Insert which adapts the UC2 System to the Thorlabs-Cube-System World.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 It adapts to the 1 inch Cage System from Thorlabs.

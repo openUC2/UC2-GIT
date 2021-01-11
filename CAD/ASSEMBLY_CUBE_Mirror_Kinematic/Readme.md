@@ -1,7 +1,7 @@
 # Kinematic Mirror Holder Cube
 This is the repository for the Kinematic Mirror Holder Cube.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 It adapts a mirror to the UC2 system. It allows precise tilting in *x* and *y*.

@@ -1,7 +1,7 @@
 # Circular Aperture Cube
 This is the repository for a circular aperture incorporated into the basic Cube.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 The aperture diaphragm is typically used in the case of critical or Köhler illumination, where it allows for controlling the intensity and/or diameter of the illuminated area.

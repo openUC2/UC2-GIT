@@ -1,7 +1,7 @@
 # Eyeball Cube
 This is the repository for the Eyeball Cube.
 
-To acquire the STL-files use the [UC2-Configurator](). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ### Purpose
 It can serve as an aid for demonstrations and experiments done with the [SimpleBOX](../../TheBOX/SimpleBOX) or [CourseBOX](../../TheBOX/CourseBOX).
