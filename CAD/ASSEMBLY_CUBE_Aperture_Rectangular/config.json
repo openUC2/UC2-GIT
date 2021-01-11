@@ -8,13 +8,49 @@
     "type": "module",
     "partslist": [
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "10_Cube_1x1_IM",
             "description": "",
-            "githublink": "Module#2",
+            "githublink": "",
             "image": "",
             "price": 0.0,
             "is_printable": false,
+            "n_parts": 2.0
+        },
+        {
+            "name": "10_Cube_1x1_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
+            "image": "",
+            "price": 0.4,
+            "is_printable": true,
             "n_parts": 1.0
+        },
+        {
+            "name": "10_Lid_1x1_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 8.0
+        },
+        {
+            "name": "Screws (set) M5\u00d78",
+            "description": "",
+            "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 6.0
         },
         {
             "name": "20_Rect_Aperture_for_printing_v3",
