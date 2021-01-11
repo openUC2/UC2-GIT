@@ -16,7 +16,7 @@ from UC2_classes import *
 # check if files exists
 stlfolder = '/Users/bene/Dropbox/Dokumente/Promotion/PROJECTS/UC2-GIT/CAD/RAW/STL/'
 filesnonexist = []
-NAME_CUBE_EMPTY = 'ASSEMBLY_CUBE_empty'
+NAME_CUBE_EMPTY = 'ASSEMBLY_CUBE_Base'
 github_prefx = 'UC2_'
 # This file converts the UC2 modules/parts database into a JSON-file ready for the 
 # Online UC2 Selector 

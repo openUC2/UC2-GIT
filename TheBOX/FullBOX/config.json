@@ -616,7 +616,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -672,7 +672,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -728,7 +728,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -784,7 +784,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -840,7 +840,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -896,7 +896,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -952,7 +952,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1008,7 +1008,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1064,7 +1064,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1120,7 +1120,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1176,7 +1176,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1232,7 +1232,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1288,7 +1288,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1344,7 +1344,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1400,7 +1400,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1456,7 +1456,7 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty",
+            "name": "ASSEMBLY_CUBE_Base",
             "description": "",
             "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base",
             "image": "",
@@ -1521,49 +1521,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Beamexpander_v3",
@@ -1613,49 +1577,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Beamsplitter_v3",
@@ -1687,49 +1615,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Beamsplittercube_Base_25x35_v3",
@@ -1788,49 +1680,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Holder-okular+flashlight_v3",
@@ -1936,49 +1792,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_insert_LED_holder_v3",
@@ -2064,49 +1884,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Laser_Holder_fixed_v3",
@@ -2174,49 +1958,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Lens_Cylindrical_v3",
@@ -2248,49 +1996,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Objective_Holder_v3",
@@ -2322,49 +2034,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Insert_Lens_holder_v3",
@@ -2396,49 +2072,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Mirror_Holder_wLogo_v3",
@@ -2470,49 +2110,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Mirror_Holder_wLogo_v3",
@@ -2544,49 +2148,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base_part1_v3",
@@ -2672,49 +2240,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_Kinematic_Mirrormount_base_v3",
@@ -2791,49 +2323,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_Insert_RaspiCam_v3",
@@ -2984,49 +2480,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_Cube_insert_Sample_holder_v3",
@@ -3096,49 +2556,13 @@
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "ASSEMBLY_CUBE_empty",
                     "description": "",
-                    "githublink": "",
+                    "githublink": "Module#2",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
                 },
                 {
                     "name": "20_focus_inlet_linearflexure_mechanical_v3",
