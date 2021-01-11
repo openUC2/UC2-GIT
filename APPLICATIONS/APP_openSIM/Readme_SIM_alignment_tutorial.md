@@ -23,7 +23,7 @@ When the camera is infinity-focused, the bottom layer of the system can be place
 <img src="./IMAGES/BottomLayer.png" width="500">
 </p>
 
-***Fig. 2*** *A top view of the system's bottom layer which contains camera module.*
+***Fig. 2*** *A top view of the system's bottom layer which contains camera module. This layer consists of camera and some empty cubes as support.*
 	
 In this layer, it has some empty cubes spread around in order to support the upper layers.
 
@@ -44,7 +44,7 @@ The telescope consists of two 50mm achromatic lenses and a fourier mask, which b
 <img src="./IMAGES/FirstLayer.png" width="500">
 </p>
 
-***Fig. 4*** *The bottom layer of the setup is built with camera module and some empty cubes.*
+***Fig. 4*** *Illumination part of the openSIM setup. The laser beam is expanded and illuminates on the DMD mirror area. The zero-order of the beam is blocked in the first telescope, the two first-order beam will focus and interference at the sample plane with the tube lens and objective.*
 
 A 3D printed Fourier mask is applied in the telescope, the 3D model of the mask case can be found in the ``STL`` repository. One thin copper wire is splitted from electric cable, first make a small knot on the wire which is roughly the size of the desired tin drop. Then solder a small drop of soldering tin onto the knot.
 
