@@ -254,7 +254,7 @@ for i_application in range(10,100):# range(10,100):
             my_application.addmodule(my_module) # make sure to add n-modules   
             my_application_json['modules'].append(json.loads(json.dumps(my_module.__dict__, default=lambda o: '<not serializable>')))
             
-            # add all parts
+            # add all partsshould
             n_parts = len(my_application_json['modules'][-1]['partslist'])
             my_partslist = []
             for i_part in range(n_parts):
@@ -278,12 +278,10 @@ for i_application in range(10,100):# range(10,100):
     my_appprefix = '/'
     my_appnpath = application_name
     
-
-    my_jsonpath = my_root+my_approot+my_appprefix+my_appnpath
-    
-    print('should save to: '+my_jsonpath)
-
-    with open(os.path.join(my_jsonpath, filenameconfig), "w") as j:
+    # write file
+    my_jsonpath = os.path.join(my_root+my_approot+my_appprefix+my_appnpath, filenameconfig)
+    with open(my_jsonpath, "w") as j:
+        print('should save to: '+my_jsonpath)
         json.dump(my_application_json, j, indent=4)
     if (is_debug): print("config written!\n\n")
     
@@ -322,9 +320,12 @@ for i_module in range(len(all_modules)):
     my_jsonpath = my_root+my_cadroot+my_cadprefix+my_cadpath
     print('should save to: '+my_jsonpath)
     
+
     # Write out file to the module folder    
-    if((my_jsonpath.find('ASS') and my_jsonpath.find('APP') and my_jsonpath.find('BOX'))>0):
-        with open(my_jsonpath+'/config.json', "w") as j:
+    my_jsonpath = os.path.join(my_root+my_cadroot+my_cadprefix+my_cadpath, filenameconfig)    
+    if((my_jsonpath.find('ASS') or my_jsonpath.find('APP') or my_jsonpath.find('BOX'))>0):
+        with open(my_jsonpath, "w") as j:
+            print('should save to: '+my_jsonpath)
             json.dump(my_module_json, j, indent=4)
         if (is_debug): print("config written!\n\n")
 

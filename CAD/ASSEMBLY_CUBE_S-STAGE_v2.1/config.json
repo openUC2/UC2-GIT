@@ -1,0 +1,74 @@
+{
+    "name": "ASSEMBLY_CUBE_S-STAGE_v2.1",
+    "description": "",
+    "image": "",
+    "price": 21.75,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "30_LS_Sample_stage_v3",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Coupling_Screw_28BYJ_M3_v3",
+            "description": "",
+            "image": "",
+            "price": 0.5,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 6.0
+        },
+        {
+            "name": "M3x25 screw with nut (non-magnetic)",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "ESP32",
+            "description": "",
+            "image": "",
+            "price": 8.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "28-BYJ stepper motor with driver board",
+            "description": "",
+            "image": "",
+            "price": 5.35,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Female-Female Jumper Wire",
+            "description": "",
+            "image": "",
+            "price": 0.6,
+            "is_printable": false,
+            "n_parts": 6.0
+        },
+        {
+            "name": "USB-microUSB cable",
+            "description": "",
+            "image": "",
+            "price": 2.8,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}
