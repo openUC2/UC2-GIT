@@ -10,7 +10,7 @@
         {
             "name": "ASSEMBLY_CUBE_Beamexpander",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Beamexpander",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Beamexpander",
             "image": "",
             "price": 9.899999999999999,
             "fixedOptions": {},
@@ -102,7 +102,7 @@
         {
             "name": "ASSEMBLY_CUBE_Laser",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Laser",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Laser",
             "image": "",
             "price": 15.8,
             "fixedOptions": {},
@@ -212,7 +212,7 @@
         {
             "name": "ASSEMBLY_CUBE_Lens_CYLINDRICAL",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL",
             "image": "",
             "price": 60.2,
             "fixedOptions": {},
@@ -286,7 +286,7 @@
         {
             "name": "ASSEMBLY_CUBE_Mirror_Kinematic_45",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45",
             "image": "",
             "price": 2.41,
             "fixedOptions": {},
@@ -414,7 +414,7 @@
         {
             "name": "ASSEMBLY_CUBE_RaspiCam",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_RaspiCam",
             "image": "",
             "price": 31.5,
             "fixedOptions": {},
@@ -522,9 +522,9 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_S-STAGE_v2",
+            "name": "ASSEMBLY_CUBE_S-STAGE_v2.1",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_S-STAGE_v2",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_S-STAGE_v2.1",
             "image": "",
             "price": 21.75,
             "fixedOptions": {},
