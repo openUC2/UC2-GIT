@@ -1,8 +1,8 @@
 {
-    "name": "ASSEMBLY_CUBE_Mirror_Kinematic_45",
+    "name": "ASSEMBLY_CUBE_Eyeball",
     "description": "",
     "image": "",
-    "price": 2.41,
+    "price": 0.30000000000000004,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
@@ -47,68 +47,28 @@
             "n_parts": 6.0
         },
         {
-            "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base_part1_v3",
-            "description": "",
-            "image": "",
-            "price": 0.3,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base_part2_v3",
-            "description": "",
-            "image": "",
-            "price": 0.0,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate_v3",
-            "description": "",
-            "image": "",
-            "price": 0.1,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "30x30 mm\u00b2 Mirror",
-            "description": "",
-            "image": "",
-            "price": 0.1,
-            "is_printable": false,
-            "n_parts": 1.0
-        },
-        {
-            "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter_v3",
-            "description": "",
-            "image": "",
-            "price": 0.1,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": " 1 inch Thorlabs mirror",
-            "description": "",
-            "image": "",
-            "price": 48.7,
-            "is_printable": false,
-            "n_parts": 1.0
-        },
-        {
-            "name": "Screws M3x12",
+            "name": "20_Cube_Insert_Eye_v3",
             "description": "",
             "image": "",
             "price": 0.2,
-            "is_printable": false,
-            "n_parts": 3.0
+            "is_printable": true,
+            "n_parts": 1.0
         },
         {
-            "name": "Ballmagnets",
+            "name": "20_Cube_Insert_Eye_Lens_v3",
             "description": "",
             "image": "",
-            "price": 0.47,
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Lens",
+            "description": "",
+            "image": "",
+            "price": 0.0,
             "is_printable": false,
-            "n_parts": 3.0
+            "n_parts": 1.0
         }
     ]
 }

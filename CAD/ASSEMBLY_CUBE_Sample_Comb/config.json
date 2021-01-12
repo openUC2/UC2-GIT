@@ -1,34 +1,34 @@
 {
-    "name": "ASSEMBLY_Baseplate",
+    "name": "ASSEMBLY_CUBE_Sample_Comb",
     "description": "",
     "image": "",
-    "price": "",
+    "price": 1.0,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
         {
-            "name": "10_Base_puzzle_IM",
+            "name": "30_Cube_sampleholder_v3",
             "description": "",
             "image": "",
-            "price": 0.0,
-            "is_printable": false,
-            "n_parts": 1.0
-        },
-        {
-            "name": "10_Base_puzzle_v3",
-            "description": "",
-            "image": "",
-            "price": 0.3,
+            "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "Ballmagnets",
+            "name": "Screws M3x12",
             "description": "",
             "image": "",
-            "price": 0.47,
+            "price": 0.2,
             "is_printable": false,
             "n_parts": 4.0
+        },
+        {
+            "name": "",
+            "description": "",
+            "image": "",
+            "price": "",
+            "is_printable": false,
+            "n_parts": ""
         }
     ]
 }

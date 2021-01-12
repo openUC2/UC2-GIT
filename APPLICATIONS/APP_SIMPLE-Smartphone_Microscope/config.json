@@ -1,7 +1,6 @@
 {
     "name": "APP_SIMPLE-Smartphone_Microscope",
     "description": "The SIMPLE Smartphone microscope allows for imaging the sample using a Smartphone, without the need of further electronics. ",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/mechanical",
     "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/IMAGES/Application_simple_smartphone_microscope.png?raw=true",
     "price": 0,
     "type": "application",
@@ -10,7 +9,6 @@
         {
             "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_Baseplate",
             "image": "",
             "price": "",
             "fixedOptions": {},
@@ -19,7 +17,6 @@
                 {
                     "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -28,7 +25,6 @@
                 {
                     "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -37,7 +33,6 @@
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
@@ -48,7 +43,6 @@
         {
             "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_Baseplate",
             "image": "",
             "price": "",
             "fixedOptions": {},
@@ -57,7 +51,6 @@
                 {
                     "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -66,7 +59,6 @@
                 {
                     "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -75,7 +67,6 @@
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
@@ -86,7 +77,6 @@
         {
             "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_Baseplate",
             "image": "",
             "price": "",
             "fixedOptions": {},
@@ -95,7 +85,6 @@
                 {
                     "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -104,7 +93,6 @@
                 {
                     "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -113,7 +101,6 @@
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
@@ -124,7 +111,6 @@
         {
             "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_Baseplate",
             "image": "",
             "price": "",
             "fixedOptions": {},
@@ -133,7 +119,6 @@
                 {
                     "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -142,7 +127,6 @@
                 {
                     "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -151,7 +135,6 @@
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
@@ -162,7 +145,6 @@
         {
             "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_Baseplate",
             "image": "",
             "price": "",
             "fixedOptions": {},
@@ -171,7 +153,6 @@
                 {
                     "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -180,7 +161,6 @@
                 {
                     "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -189,7 +169,6 @@
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
@@ -200,7 +179,6 @@
         {
             "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_Baseplate",
             "image": "",
             "price": "",
             "fixedOptions": {},
@@ -209,7 +187,6 @@
                 {
                     "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -218,7 +195,6 @@
                 {
                     "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -227,7 +203,6 @@
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
@@ -238,7 +213,6 @@
         {
             "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_Baseplate",
             "image": "",
             "price": "",
             "fixedOptions": {},
@@ -247,7 +221,6 @@
                 {
                     "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -256,7 +229,6 @@
                 {
                     "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -265,7 +237,6 @@
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
@@ -276,7 +247,6 @@
         {
             "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_Baseplate",
             "image": "",
             "price": "",
             "fixedOptions": {},
@@ -285,7 +255,6 @@
                 {
                     "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -294,7 +263,6 @@
                 {
                     "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Base_puzzle_v3.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -303,7 +271,6 @@
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
@@ -314,7 +281,6 @@
         {
             "name": "ASSEMBLY_CUBE_Eyepiece",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Eyepiece",
             "image": "",
             "price": 13.91,
             "fixedOptions": {},
@@ -323,7 +289,6 @@
                 {
                     "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -332,7 +297,6 @@
                 {
                     "name": "10_Cube_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -341,7 +305,6 @@
                 {
                     "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -350,7 +313,6 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
@@ -359,7 +321,6 @@
                 {
                     "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -368,7 +329,6 @@
                 {
                     "name": "20_Cube_Insert_Holder-okular+flashlight_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Holder-okular%2Bflashlight_v3_14.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -377,7 +337,6 @@
                 {
                     "name": "30_Smartphone_Holder_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_Smartphone_Holder_v3_73.stl",
                     "image": "",
                     "price": 0.6,
                     "is_printable": true,
@@ -386,7 +345,6 @@
                 {
                     "name": "Eyepiece 20x",
                     "description": "",
-                    "githublink": "https://de.aliexpress.com/item/32965050204.html?spm=a2g0o.productlist.0.0.7aa657eeefLUfu&algo_pvid=cd60fca0-3fa5-4191-9ce9-303815e2afa7&algo_expid=cd60fca0-3fa5-4191-9ce9-303815e2afa7-1&btsid=76036b58-6717-4d1f-a4a0-c3d4bacd0450&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_52",
                     "image": "",
                     "price": 13.11,
                     "is_printable": false,
@@ -397,7 +355,6 @@
         {
             "name": "ASSEMBLY_CUBE_Mirror_45",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Mirror_45",
             "image": "",
             "price": 0.30000000000000004,
             "fixedOptions": {},
@@ -406,7 +363,6 @@
                 {
                     "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -415,7 +371,6 @@
                 {
                     "name": "10_Cube_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -424,7 +379,6 @@
                 {
                     "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -433,7 +387,6 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
@@ -442,7 +395,6 @@
                 {
                     "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -451,7 +403,6 @@
                 {
                     "name": "20_Cube_Insert_Mirror_Holder_wLogo_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Mirror_Holder_wLogo_v3_31.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -460,7 +411,6 @@
                 {
                     "name": "30x30 mm\u00b2 Mirror",
                     "description": "",
-                    "githublink": "https://www.rayher.com/de/spiegelmosaik-selbstklebend-14548606",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -471,7 +421,6 @@
         {
             "name": "ASSEMBLY_CUBE_Mirror_45",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Mirror_45",
             "image": "",
             "price": 0.30000000000000004,
             "fixedOptions": {},
@@ -480,7 +429,6 @@
                 {
                     "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -489,7 +437,6 @@
                 {
                     "name": "10_Cube_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -498,7 +445,6 @@
                 {
                     "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -507,7 +453,6 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
@@ -516,7 +461,6 @@
                 {
                     "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -525,7 +469,6 @@
                 {
                     "name": "20_Cube_Insert_Mirror_Holder_wLogo_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Mirror_Holder_wLogo_v3_31.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -534,7 +477,6 @@
                 {
                     "name": "30x30 mm\u00b2 Mirror",
                     "description": "",
-                    "githublink": "https://www.rayher.com/de/spiegelmosaik-selbstklebend-14548606",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -545,7 +487,6 @@
         {
             "name": "ASSEMBLY_CUBE_Sample_Holder",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Sample_Holder",
             "image": "",
             "price": 0.3,
             "fixedOptions": {},
@@ -554,7 +495,6 @@
                 {
                     "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -563,7 +503,6 @@
                 {
                     "name": "10_Cube_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -572,7 +511,6 @@
                 {
                     "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -581,7 +519,6 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
@@ -590,7 +527,6 @@
                 {
                     "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -599,7 +535,6 @@
                 {
                     "name": "20_Cube_insert_Sample_holder_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_insert_Sample_holder_v3_37.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -608,7 +543,6 @@
                 {
                     "name": "20_Cube_Insert_Sample_clamp_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Sample_clamp_34.stl",
                     "image": "",
                     "price": 0.0,
                     "is_printable": true,
@@ -619,7 +553,6 @@
         {
             "name": "ASSEMBLY_CUBE_Z-stage_mechanical",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical",
             "image": "",
             "price": 29.5,
             "fixedOptions": {},
@@ -628,7 +561,6 @@
                 {
                     "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
@@ -637,7 +569,6 @@
                 {
                     "name": "10_Cube_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Cube_1x1_v3_78.stl",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
@@ -646,7 +577,6 @@
                 {
                     "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_10_Lid_1x1_v3_80.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -655,7 +585,6 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
@@ -664,7 +593,6 @@
                 {
                     "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -673,7 +601,6 @@
                 {
                     "name": "20_focus_inlet_linearflexure_mechanical_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_focus_inlet_linearflexure_mechanical_v3_43.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
@@ -682,7 +609,6 @@
                 {
                     "name": "20_focus_inlet_objective_mount_v8_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_focus_inlet_objective_mount_v8_45.stl",
                     "image": "",
                     "price": 0.6,
                     "is_printable": true,
@@ -691,7 +617,6 @@
                 {
                     "name": "20_gear_v3",
                     "description": "",
-                    "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_gear_46.stl",
                     "image": "",
                     "price": 0.1,
                     "is_printable": true,
@@ -700,7 +625,6 @@
                 {
                     "name": "Microscope Objective 10x",
                     "description": "",
-                    "githublink": "https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7",
                     "image": "",
                     "price": 15.4,
                     "is_printable": false,
@@ -709,7 +633,6 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.6,
                     "is_printable": false,
@@ -718,7 +641,6 @@
                 {
                     "name": "Screws M3x8",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
@@ -727,7 +649,6 @@
                 {
                     "name": "M3x30 screw with nut (non-magnetic)",
                     "description": "",
-                    "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -736,7 +657,6 @@
                 {
                     "name": "Screws M3x18",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,

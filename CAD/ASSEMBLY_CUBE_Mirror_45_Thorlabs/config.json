@@ -1,8 +1,8 @@
 {
-    "name": "ASSEMBLY_CUBE_Sample_Holder",
+    "name": "ASSEMBLY_CUBE_Mirror_45_Thorlabs",
     "description": "",
     "image": "",
-    "price": 0.3,
+    "price": 48.900000000000006,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
@@ -47,19 +47,19 @@
             "n_parts": 6.0
         },
         {
-            "name": "20_Cube_insert_Sample_holder_v3",
+            "name": "20_Cube_Insert_Mirror_Holder_Thorlabs_v3",
             "description": "",
             "image": "",
-            "price": 0.3,
+            "price": 0.2,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "20_Cube_Insert_Sample_clamp_v3",
+            "name": "1 inch Thorlabs mirror",
             "description": "",
             "image": "",
-            "price": 0.0,
-            "is_printable": true,
+            "price": 48.7,
+            "is_printable": false,
             "n_parts": 1.0
         }
     ]
