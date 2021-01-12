@@ -48,7 +48,7 @@ col_assembly =  alphabet.find('b')
 col_assembly_module_part_name =  alphabet.find('c')
 col_assembly_module_part_isprintable =  alphabet.find('d')
 col_assembly_module_part_n =  alphabet.find('e')
-col_assembly_module_part_name_githublink =  alphabet.find('f')
+#col_assembly_module_part_name_githublink =  alphabet.find('f')
 col_assembly_module_part_name_price =  alphabet.find('g')
 
 
@@ -103,7 +103,7 @@ for row_module in (all_modules_indices):
     module_name = worksheet.cell(row_module, col_assembly_index+1).value
     if(module_name==""):
         print('bla')
-    module_githublink = worksheet.cell(row_module+1, col_assembly_index+1).value
+    #module_githublink = worksheet.cell(row_module+1, col_assembly_index+1).value
     module_price = worksheet.cell(row_module+2, col_assembly_index+1).value
     module_imagelink = ''
     module_description = '' 
@@ -111,7 +111,7 @@ for row_module in (all_modules_indices):
     # create module
     mymodule = uc2_module(module_name,
                module_description, 
-               module_githublink, 
+               #module_githublink, 
                module_imagelink, 
                module_price)
     
@@ -135,7 +135,7 @@ for row_module in (all_modules_indices):
             for i_part in range(my_empty_cube_index_start,my_empty_cube_index_end):
                 part_name = worksheet.cell(i_part, col_assembly_module_part_name).value
                 part_isprintable = bool(worksheet.cell(i_part, col_assembly_module_part_isprintable).value)
-                part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
+                #part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
                 part_price = worksheet.cell(i_part, col_assembly_module_part_name_price).value
                 part_imagelink = '' 
                 part_description = ''
@@ -144,7 +144,7 @@ for row_module in (all_modules_indices):
                 # create part
                 mypart = uc2_part(part_name, 
                                   part_description, 
-                                  part_githublink, 
+                                  #part_githublink, 
                                   part_imagelink, 
                                   part_price, 
                                   part_isprintable, 
@@ -159,7 +159,7 @@ for row_module in (all_modules_indices):
             part_name = worksheet.cell(i_part, col_assembly_module_part_name).value
             if (is_debug): print(part_name)
             part_isprintable = bool(worksheet.cell(i_part, col_assembly_module_part_isprintable).value)
-            part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
+            #part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
             part_price = worksheet.cell(i_part, col_assembly_module_part_name_price).value
             part_imagelink = '' 
             part_description = ''
@@ -168,7 +168,7 @@ for row_module in (all_modules_indices):
             # create part
             mypart = uc2_part(part_name, 
                               part_description, 
-                              part_githublink, 
+                              #part_githublink, 
                               part_imagelink, 
                               part_price, 
                               part_isprintable, 
@@ -221,13 +221,13 @@ for i_application in range(10,100):# range(10,100):
     application_name = worksheet.cell(row_app_name-1, i_application).value
     application_imagelink = worksheet.cell(row_app_imagelink-1, i_application).value
     application_description = worksheet.cell(row_app_briefdescription-1, i_application).value
-    application_githublink = worksheet.cell(row_app_githublink-1, i_application).value
+    #application_githublink = worksheet.cell(row_app_githublink-1, i_application).value
     application_price = 0
     
     #create application
     my_application = uc2_application(application_name, 
                                      application_description, 
-                                     application_githublink, 
+                                     #application_githublink, 
                                      application_imagelink, 
                                      application_price)
 
@@ -315,18 +315,18 @@ for i_module in range(len(all_modules)):
     # add all parts to the module again.
     my_module_json['partslist'] = json.loads(json.dumps(my_partslist))
     
-    
     # 4.) Save this! 
     my_cadroot = '/CAD'
     my_cadprefix = '/'
-    my_cadpath = os.path.split(my_module.githublink)[-1]
+    my_cadpath = os.path.split(my_module.name)[-1]
     my_jsonpath = my_root+my_cadroot+my_cadprefix+my_cadpath
     print('should save to: '+my_jsonpath)
     
     # Write out file to the module folder    
-    with open(my_jsonpath+'/config.json', "w") as j:
-        json.dump(my_module_json, j, indent=4)
-    if (is_debug): print("config written!\n\n")
+    if((my_jsonpath.find('ASS') and my_jsonpath.find('APP') and my_jsonpath.find('BOX'))>0):
+        with open(my_jsonpath+'/config.json', "w") as j:
+            json.dump(my_module_json, j, indent=4)
+        if (is_debug): print("config written!\n\n")
 
 workbook.release_resources()
 del workbook
