@@ -1,9 +1,9 @@
 {
-    "name": "ASSEMBLY_CUBE_Z-stage_mechanical",
+    "name": "ASSEMBLY_CUBE_Z-stage_sample",
     "description": "",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical",
+    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/v3/CAD/ASSEMBLY_CUBE_Z-STAGE_v3",
     "image": "",
-    "price": 29.5,
+    "price": 37.75,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
@@ -53,29 +53,29 @@
             "n_parts": 6.0
         },
         {
-            "name": "20_focus_inlet_linearflexure_mechanical_v3",
+            "name": "20_Cube_Insert_Z-Focus_single_motorized_v3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_focus_inlet_linearflexure_mechanical_v3_43.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Z-Focus_single_motorized_v3_41.stl",
             "image": "",
-            "price": 0.3,
+            "price": 0.8,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "20_focus_inlet_objective_mount_v8_v3",
+            "name": "30_Coupling_Screw_28BYJ_M3_v3",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_focus_inlet_objective_mount_v8_45.stl",
-            "image": "",
-            "price": 0.6,
-            "is_printable": true,
-            "n_parts": 1.0
-        },
-        {
-            "name": "20_gear_v3",
-            "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_gear_46.stl",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_30_Coupling_Screw_28BYJ_M3_53.stl",
             "image": "",
             "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_Insert_Lens_holder_RMS_63x_v3",
+            "description": "",
+            "githublink": "https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/RAW/STL/UC2_v3_20_Cube_Insert_Lens_holder_RMS_63x_29.stl",
+            "image": "",
+            "price": 0.3,
             "is_printable": true,
             "n_parts": 1.0
         },
@@ -95,16 +95,7 @@
             "image": "",
             "price": 0.6,
             "is_printable": false,
-            "n_parts": 20.0
-        },
-        {
-            "name": "Screws M3x8",
-            "description": "",
-            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-            "image": "",
-            "price": 0.2,
-            "is_printable": false,
-            "n_parts": 3.0
+            "n_parts": 2.0
         },
         {
             "name": "M3x30 screw with nut (non-magnetic)",
@@ -116,13 +107,49 @@
             "n_parts": 1.0
         },
         {
-            "name": "Screws M3x18",
+            "name": "M3x30 screw with nut (non-magnetic)",
             "description": "",
-            "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/",
+            "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
             "image": "",
-            "price": 0.2,
+            "price": 0.1,
             "is_printable": false,
-            "n_parts": 2.0
+            "n_parts": 1.0
+        },
+        {
+            "name": "ESP32",
+            "description": "",
+            "githublink": "https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3",
+            "image": "",
+            "price": 8.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "28-BYJ stepper motor with driver board",
+            "description": "",
+            "githublink": "https://www.reichelt.de/entwicklerboards-schrittmotor-inkl-steuerung-uln2003-debo-moto1-p192146.html",
+            "image": "",
+            "price": 5.35,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Female-Female Jumper Wire",
+            "description": "",
+            "githublink": "https://www.amazon.de/-/en/AZDelivery-Jumper-Arduino-Raspberry-Breadboard/dp/B07KYHBVR7/ref=pd_bxgy_3/259-4334118-3709357?_encoding=UTF8&pd_rd_i=B07KFMSW7H&pd_rd_r=81afa8b5-0542-49e3-9cba-8dae3b0a116f&pd_rd_w=nOtLQ&pd_rd_wg=YVuQX&pf_rd_p=334c2d1b-2e55-4bd9-b8d2-dcecf26eb7db&pf_rd_r=K64KK4P3QHQTPFHPYNN6&refRID=K64KK4P3QHQTPFHPYNN6&th=1",
+            "image": "",
+            "price": 0.6,
+            "is_printable": false,
+            "n_parts": 6.0
+        },
+        {
+            "name": "USB-microUSB cable",
+            "description": "",
+            "githublink": "https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2",
+            "image": "",
+            "price": 2.8,
+            "is_printable": false,
+            "n_parts": 1.0
         }
     ]
 }
