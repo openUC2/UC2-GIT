@@ -56,7 +56,7 @@ When you search through the repository, you find that not all the images show th
 #### v3 = 3D-printed AND Injection Moulded (*November 2020*)
 This is the current version. The cube comes in two versions that are fully compatible with each other. You can either print all the baseplates and cubes and assemble and connect them using screws and magnets, or you can use the IM cubes and baseplate puzzles that connect via the lego-like pins.
 
-The IM cube is shown on the left, the 3DP (3D-printed) cube is on the right. Find the details about the base cube in [ASSEMBLY_CUBE_Base](./ASSEMBLY_CUBE_Base).
+The IM cube is shown on the left, the 3DP (3D-printed) cube is on the right. Find the details about the base cube in [ASSEMBLY_CUBE_Base](../CAD/ASSEMBLY_CUBE_Base).
 <p align=center>
 <img src="./IMAGES/Assembly_Cube_empty_IM_withBase_v3_04.png" width=150>
 <img src="./IMAGES/Assembly_Cube_empty_1x1_withBase_v3_04.png" width=150>

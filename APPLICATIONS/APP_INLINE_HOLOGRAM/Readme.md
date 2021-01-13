@@ -35,10 +35,10 @@ The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W
 |  Module: LED + Pinhole  | - | 10€  | [LED + Pinhole](../../CAD/ASSEMBLY_CUBE_LED)  | 1|
 
 ### <img src="./IMAGES/P.png" width="40"> 3D-printing
-To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 
-## <img src="./IMAGES/B.PNG" width="40"> Additional components
+## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 *  16× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * 8× - 16× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
@@ -58,7 +58,7 @@ For assembly instructions of the respective modules refer to the links in Module
 ## <img src="./IMAGES/W.png" width="40"> Software
 🢂 Find the software for this setup in our dedicated [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)
 
-## <img src="./IMAGES/E.PNG" width="40"> Quick-start
+## <img src="./IMAGES/E.png" width="40"> Quick-start
 
 This assumes you have built the Inline-holographical microscope already.
 
@@ -70,7 +70,7 @@ Soon we will provide a browser-plugin for the image reconstruction using found i
 
 This is an example for an acquired inline hologram.
 
-### <img src="./IMAGES/E.PNG" width="40"> Image Acquisition
+### <img src="./IMAGES/E.png" width="40"> Image Acquisition
 
 In order to use this setup one has to take a picture with the Raspberry Pi camera module. This can conveniently be done using the command-line tool ```raspistill``` which can be called from the Terminal in the Raspberry Pi.
 
@@ -87,12 +87,12 @@ raspistill -f my_inline_test.jpg
 
 This will open the camera, capture an image and saves it as ```my_inline_test.pg```in the folder ```inlineholo``` in the Pi-home directory. Using a USB-drive one can copy the file to a computer for further processing.
 
-## <img src="./IMAGES/E.PNG" width="40"> Image Reconstruction
+## <img src="./IMAGES/E.png" width="40"> Image Reconstruction
 
 We have created an ```iPython-Notebook``` for this task which can be found [here](CODE/Listings_1_ReconHoloInline.ipynb).
 
 
-### <img src="./IMAGES/E.PNG" width="40"> Tutorial for installing the Inline-Hologram Reconstruction software
+### <img src="./IMAGES/E.png" width="40"> Tutorial for installing the Inline-Hologram Reconstruction software
 
 Install Anaconda 3.6 (latest version for windows).
 Therefore follow the tutorial in this link: [Anaconda Installation](https://docs.anaconda.com/anaconda/install/) (external).

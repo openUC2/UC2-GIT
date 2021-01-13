@@ -1,7 +1,7 @@
 # Fluorescence Microscope (infinity)
 This is the repository for the laser-based fluorescence microscope with infinity optics. It is capable to acquire Time-Lapse videos from living cells inside an incubator.
 
-The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org). We also emphasize to use the [delta stage](https://openflexure.org/projects/deltastage/) where [UC2 provides an adapter](../CAD/CUBE_INSERT_OpenFlexure_Deltastage/README.md) for our system
+The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org). We also emphasize to use the [delta stage](https://openflexure.org/projects/deltastage/) where [UC2 provides an adapter](../CAD/CUBE_INSERT_OpenFlexure_Deltastage_v2) for our system
 
 The setup looks as follows:
 
@@ -34,16 +34,16 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×5 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Z-Stage | Optionally with Fluomodule  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)  | 1|
-| (Alternative) [Delta stage](https://openflexure.org/projects/deltastage/)  | Openflexure | ?? €  | [Deltastage](../CAD/CUBE_INSERT_OpenFlexure_Deltastage/README.md)  | 1|
-|  Module: Kinematic Mirror 45°  (THORLABS!) | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)  | 4|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 20|
+|  Module: Z-Stage | - | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_sample)  | 1|
+| (Alternative) [Delta stage](https://openflexure.org/projects/deltastage/)  | Openflexure | ?? €  | [Deltastage](../CAD/CUBE_INSERT_OpenFlexure_Deltastage_v2)  | 1|
+|  Module: Kinematic Mirror 45°  (THORLABS!) | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 4|
 |  Module: Alvium CMOS Camera  | Low-Cost Camera | 5€  | [Alvium Camera](../../CAD/ASSEMBLY_CUBE_AlliedVision_Alvium)  | 4|
-|  Module: Beamexpander  | Expands beam by ~3x | ??€  | [Beamexpander](../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)  | 1|
-|  Module: Beamsplitter (dichroic)  | Expands beam by ~3x | ??€  | [Beamexpander](../../CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2)  | 1|
+|  Module: Beamexpander  | Expands beam by ~3x | ??€  | [Beamexpander](../../CAD/ASSEMBLY_CUBE_Beamexpander)  | 1|
+|  Module: Beamsplitter (dichroic)  | - | ??€  | [Dichroic Bam splitter](../../CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter)  | 1|
 
 ### <img src="./IMAGES/P.png" width="40"> 3D-printing
-To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 (**TODO:** need to be updated!)

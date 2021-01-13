@@ -30,13 +30,11 @@ The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W
 |  Module: Laser | - | 18,40 €  | [LASER](../../CAD/ASSEMBLY_CUBE_Laser)  | 1|
 |  Module: Beam Expander | It expands incoming laser beam  | 12,10 €  | [Beam Expander](../../CAD/ASSEMBLY_CUBE_Beamexpander)  | 1|
 |  Module: Beam Splitter | It splits incoming light beam into two beams and reunites reflected two beams. | 29,20 €  | [Beam Splitter](../../CAD/ASSEMBLY_CUBE_Beamsplitter)  | 1|
-|  Module: Kinematic Mirror Holder Cube - Diagonal | For better interference of reflected beams in the Beam-splitter cube. | 4,71 €  | [ Kinematic Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 1|
 |  Module: Kinematic Mirror | - | 9,22 €  | [ Kinematic Mirror](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic)  | 2|
 |  Module: Raspberry Camera  | - | 33,70 €  | [RasPi Camera](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 1|
-|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4,40 €  | [Cube](../../CAD/ASSEMBLY_CUBE_Base)  | 2|
 
 ### <img src="./IMAGES/P.png" width="40"> 3D-printing
-To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!

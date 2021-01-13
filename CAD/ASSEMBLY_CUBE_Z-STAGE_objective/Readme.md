@@ -1,9 +1,10 @@
 # Z-Stage (Objective) Cube
-This is the repository for the Z-Stage (Objective) Cube.
+This is the repository for the Z-Stage (Objective) Cube. It moves the objective with respect to a fixed sample.
+
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 		This page will be updated soon!
 
-The stl-files can be found in the folder [STL](./STL).
 
 ## Purpose
 In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample.
