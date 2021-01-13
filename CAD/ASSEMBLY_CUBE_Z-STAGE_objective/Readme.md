@@ -3,20 +3,17 @@ This is the repository for the Z-Stage (Objective) Cube. It moves the objective 
 
 To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
-		This page will be updated soon!
-
-
 ## Purpose
 In microscopy one often needs the ability to move the objective along the optical axis in order to refocus a given 3D sample.
 In order to automate this, we designed a very simple z-stage itself relying on flexure bearings also known from Bowman's flexurescope.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Z_Focus_Linearbearing_v0_with_fluomodule.png" width="300">
+<img src="./IMAGES/Assembly_Cube_Z-Focus_Linearbearing_motorized_small_1x1_v3.png" width="400">
 </p>
 
 **The mechanism is the following:**
 
-**Course movement:** The objective is mounted on a ring which has a screw on one side and the screw head is inserted in a slot in the focussing insert. The movement range for this is 35 mm - the full length of th slot.
+**Course movement:** The objective is mounted on a ring which has a screw on one side and the screw head is inserted in a slot in the focussing insert. The movement range for this is 35 mm - the full length of the slot.
 <p align="center">
 <img src="./IMAGES/Z-stage_principle_01.jpg" width="300">
 <img src="./IMAGES/Z-stage_principle_02.jpg" width="300">
@@ -37,25 +34,9 @@ In order to automate this, we designed a very simple z-stage itself relying on f
 	* coarse: around 30 mm (shifting the objective lens inside the slot)
 * very low cost by relying on off-the-shelf components
 
-## Z-stage in an incubator
-The Z-stage is used in our [Incubator Microscope](../../APPLICATIONS/APP_Incubator_Microscope), where it needs to be stable and provide a good performance over long time at the temperature of 37°C. However, PLA is not an ideal material for such conditions and our previous stage tended to drift aways as the material heated up.
-
-<p align="center">
-<img src="./IMAGES/Z-stage_incubator_01.jpeg" width="300">
-<img src="./IMAGES/Z-stage_incubator_02.jpeg" width="300">
-<img src="./IMAGES/Z-stage_incubator_03.jpeg" width="300">
-<img src="./IMAGES/Z-stage_incubator_04.jpeg" width="300">
-<img src="./IMAGES/Z-stage_incubator_05.jpeg" width="300">
-</p>
-
-The pictures above show the latest version of the Z-stage that should be able to cope with the temperature in the incubator. What is different:
-* The objective mount has now TWO SCREW, instead of one, to share the force.
-* There are TWO M2 SCREWS in the slider of the Z-stage, so the slit it not 3D-printed only
-* There are FIVE ARMS that attach via linear flexures to the frame, to share the force
-
-This version is currently being tested in an incubator. The STL files for it are not yet available, but for any experiments at room temperature, the available version of the stage works well.
 
 ## Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### <img src="../IMAGES/P.png" height="40"> 3D printing parts
 * No support needed in all designs
@@ -63,22 +44,20 @@ This version is currently being tested in an incubator. The STL files for it are
 
 The Cube consists of the following components.
 
-* **The Lid (2x1)** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_el_2x1_v2.stl))
-* **The Cube (2x1)** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_2x1_v2.stl))
-* **The Z-Stage and Motor Holder** which moves the objective and holds the stepper motor ([INSERT](./STL/20_focus_inlet_linearflexure_v0.stl))
-* **The M3 to Motor Adapter (mech. Coupling)** which connects the Motor directly to an M3 screw which acts as a wormdrive ([SCREW](./STL/30_Coupling_Screw_28BYJ_M3.stl))
-* **The Objective Lens Mount** which holds the objective and allows for coarse movement ([OBJECTIVE MOUNT](./STL/30_focus_inlet_objective_mount_v7.stl))
+#### Default:
+* **IM Cube** which houses the insert and adapts it into a UC2 setup.
+* **The Z-Stage and Motor Holder** which moves the objective and holds the stepper motor ([20_focus_inlet_linearflexure_motorized_small_v3.stl](../RAW/STL))
+* **The M3 to Motor Adapter (mech. Coupling)** which connects the Motor directly to an M3 screw which acts as a wormdrive ([30_Coupling_Screw_28BYJ_M3.stl](../RAW/STL))
+* **The Objective Lens Mount** which holds the objective and allows for coarse movement (RMS thread) ([20_focus_inlet_objective_mount_v8.stl](../RAW/STL))
 
-For Fluomodule:
-* **The Fluomodule** where the LEDs finds their place ([FLUOMODULE](./STL/30_Z_Stage_Fluomodule_12.stl))
-* **The Adapterplate** which goes on top and where the slides are placed ([ADAPTERPLATE](./STL/30_Z_Stage_Adapterplate_11.stl))
-* **The Clamp for microscope slides** which can fix the slide ([CLAMP](./STL/40_XY_Stage_Clamp_Slide_9.stl))
+#### Alternatives:
+* **3DP Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([10_Cube_1x1_v3.stl](../RAW/STL)) and **3DP Lid** which closes the Cube ([10_Lid_1x1_v3.stl](../RAW/STL)) - find the details in [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base)
+
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 10× - 20× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-* 3× DIN912 M3×8 screws (galvanized steel)
-* 2× DIN912 M3×18 screws (galvanized steel)
+* 2× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 4× DIN912 M3×8 screws (galvanized steel)
 * 1× M3 Nut
 * 1× M3 Screw, 30 mm or longer (non-magnetic)
 * 1× 28-BYJ stepper motor with 1x Driving electronic [🢂](https://www.amazon.de/Elegoo-Stepper-Schrittmotor-28BYJ-48-Treiberplatine/dp/B01MEGIHLF/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=stepper+arduino&qid=1565008205&s=gateway&sr=8-1-spons&psc=1)
@@ -86,65 +65,58 @@ For Fluomodule:
 * wires to connect everything; for example: 6× Female-Female Jumper Wire, 0.14 mm² [🢂](https://www.amazon.de/ZOORE-120pcs-Multicolored-Female-Breadboard/dp/B07P85V1G3/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jumper+male&qid=1565690543&s=industrial&sr=1-5)
 * 1× USB Micro Cable [🢂](https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2)
 
-For fluomodule:
-* 2× LED
-* PNP-transistor BD809
-* 4× DIN912 M3×18 screws (non stainless steel)
-* 4× ballmagnets, 5 mm diameter
-* wires to connect everything
-
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 
 ### Tutorial with images (Z-Stage)
-This is the assembly guide for the Z-Stage.
+		This tutorial will be updated soon!
 
 1. All parts for this model. The electronics comes later.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_01.jpg" width="300">
 </p>
 
-1. Insert the motor into the motor-screw-coupling adapter.
+2. Insert the motor into the motor-screw-coupling adapter.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_02.jpg" width="300">
 </p>
 
-1. Insert the head of the M3×20 screw into the motor-screw-coupling adapter. Use pliers to press the screw inside.
+3. Insert the head of the M3×20 screw into the motor-screw-coupling adapter. Use pliers to press the screw inside.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_03.jpg" width="300">
 </p>
 
-1.  Fix the head of the M3 screw inside the adapter using two M3 worm screws (This can also be done later, in case the screw becomes too wobbly.) You may fix the motor-end the same way, if needed.
+4.  Fix the head of the M3 screw inside the adapter using two M3 worm screws (This can also be done later, in case the screw becomes too wobbly.) You may fix the motor-end the same way, if needed.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_04.jpg" width="300">
 </p>
 
-1.  The M3 nut goes into the level of the Z-stage.
+5.  The M3 nut goes into the level of the Z-stage.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_05.jpg" width="300">
 </p>
 
-1. We will fix the nut inside the lever using two M3×8 screw. Firstly, insert one screw but only enough to not fall out for now. Use a hex key through the hole in the side of the Z-stage to tighten this screw.
+6. We will fix the nut inside the lever using two M3×8 screw. Firstly, insert one screw but only enough to not fall out for now. Use a hex key through the hole in the side of the Z-stage to tighten this screw.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_06.jpg" width="300">
 </p>
 
-1. Add the screw to the opposite side. The screws must not hold the nut inside yet! Make sure the screws are tight enough not to fall out and then remove the nut.
+7. Add the screw to the opposite side. The screws must not hold the nut inside yet! Make sure the screws are tight enough not to fall out and then remove the nut.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_07.jpg" width="300">
 </p>
 
-1. Screw the M3 nut on the M3×20 screw, which is attached to the motor. The optimal position for the nut is roughly one third of the length of the screw from the couling adapter.
+8. Screw the M3 nut on the M3×20 screw, which is attached to the motor. The optimal position for the nut is roughly one third of the length of the screw from the couling adapter.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_08.jpg" width="300">
 </p>
 
-1. Insert the nut back to the lever, using the motor with the screwto hold it easily. The wire end of the motor is pointing away from the objective side of the Z-stage. Tighten the two M3×8 screw to fix the nut - the nut must not be able to rotate.
+9. Insert the nut back to the lever, using the motor with the screwto hold it easily. The wire end of the motor is pointing away from the objective side of the Z-stage. Tighten the two M3×8 screw to fix the nut - the nut must not be able to rotate.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_09.jpg" width="300">
 </p>
 
-1. This is how it should look like. The M3×8 screw should be tightened equally. Do not overtighten the screws - you might break the part.
+10. This is how it should look like. The M3×8 screw should be tightened equally. Do not overtighten the screws - you might break the part.
 <p align="center">
 <img src="./IMAGES/Z_stage_assembly_10.jpg" width="300">
 </p>
@@ -239,38 +211,6 @@ This is the assembly guide for the Z-Stage.
 
 1. Where next? [🢂 Software!](https://github.com/bionanoimaging/UC2-Software-GIT) No not plug anything in the power supply, unless you are sure everything is correctly connected.
 
-### Tutorial with images (Fluomodule+Sample Insert)
-This is the assembly guide for the Fluomodule+Sample Insert.
-It's tought to work as a darkfield illumination. This reduces any scattering light (e.g. 0th order of the illumination).
 
-1. All parts for this model
-<p align="center">
-<img src="./IMAGES/Z_STAGE_FLUOMODULE_0.jpg" width="300">
-</p>
-
-2. Solder the LEDs to the Transistor; The base of the transistor goes to the output of the ESP32, the 5V and GND as well; LEDs are connected in parallel; No resistor necessary. BD809 is connected to the LED in series
-<p align="center">
-<img src="./IMAGES/Z_STAGE_FLUOMODULE_1.jpg" width="300">
-</p>
-
-3. Cut the LEDs and add them to the Fluomodule using either Glue or Blutek
-<p align="center">
-<img src="./IMAGES/Z_STAGE_FLUOMODULE_2.jpg" width="300">
-</p>
-
-4. Sandwich the parts using long M3 screws; Add tape to the Transistor to isolate the wires/open contacts
-<p align="center">
-<img src="./IMAGES/Z_STAGE_FLUOMODULE_3.jpg" width="300">
-</p>
-
-5. Put the Fluomodule to the Z-Stage and cleanup the wires.
-<p align="center">
-<img src="./IMAGES/Z_STAGE_FLUOMODULE_4.jpg" width="300">
-</p>
-
-
-## Fluorescent Module
-
-The wiring of the fluoresceent module can be found [here](../CUBE_INSERT_Fluomodule).
 ## Safety
 Be careful!

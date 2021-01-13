@@ -6,7 +6,7 @@
 
 ---
 
-**New**: **The UC2 paper is out in Nature Communications!** :muscle: [A versatile and customizable low-cost 3D-printed open standard for microscopic imaging](https://www.nature.com/articles/s41467-020-19447-9) [![DOI:10.1038/s41467-020-19447-9](http://img.shields.io/badge/DOI-10.1038/s41467_020_19447_9-000000.svg)](https://doi.org/10.1038/s41467-020-19447-9) 
+**New**: **The UC2 paper is out in Nature Communications!** :muscle: [A versatile and customizable low-cost 3D-printed open standard for microscopic imaging](https://www.nature.com/articles/s41467-020-19447-9) [![DOI:10.1038/s41467-020-19447-9](http://img.shields.io/badge/DOI-10.1038/s41467_020_19447_9-000000.svg)](https://doi.org/10.1038/s41467-020-19447-9)
 
 **New**: The [Microscopy, Optical Alignment and Abbe Diffraction experiment](./TheBOX/CourseBOX/ALIGNMENT_InfOptics) were added to the CourseBOX. You can also watch a demonstration of the [Abbe Experiment on YouTube](https://youtu.be/NrkINpx6IMo)
 
@@ -63,10 +63,16 @@ Besides optical components, the **UC2** building blocks can also host electronic
 
 People are also encouraged to share their work. We are curious what the community is doing with our little blocks. All necessary details to modify the design of the blocks are given in the sub-folders of the specific folders. Share your ideas through our [@openUC2-Twitter account](https://twitter.com/openuc2).
 
+With the version UC2_v3 we introduced an **injection moulded (IM) cube**. This makes the assembly easier becuase no screws or magnets are needed for the Base Cube. But there is also a **3D-printed (3DP) cube** that is alternative to the IM one an it is fully compatible - the cubes and baseplates can be arbitrarily combined.   
+Find out more about the two different Cube designs in [ASSEMBLY_CUBE_Base](./CAD/ASSEMBLY_CUBE_Base) and more about the baseplate puzzles in [ASSEMBLY_Baseplate](./CAD/ASSEMBLY_Baseplate)
+
 A full cube + base-plate looks like that:
 <p align="center">
-<img src="./IMAGES/UC2_Explosion_v2.png" height="300">
-<br> Fig. 2: Assembly of the cube + base-plate; A set of ferro-magnetic screws hold the lid and base-cube in place and connect to four 5mm Neodym ballmagnets sitting in the base-plate; Optical components find their place inside the cube.
+<img src="./IMAGES/Assembly_Cube_IM_explosion.png" height="300">
+<img src="./IMAGES/Assembly_Cube_3DP_explosion.png" height="300">
+<br> Fig. 2: Assembly of the cube + base-plate; <br>
+LEFT: IM Cube - Two identical halves of the Cube are pressed together, the Cube connects to the baseplate via lego-like pins; <br>
+RIGHT: 3DP Cube - A set of ferro-magnetic screws hold the lid and base-cube in place and connect to four 5mm Neodym ballmagnets sitting in the baseplate, and extra set of M5 screws further fixes the cube to the baseplate and supports the alignment; Optical components find their place inside the cube.
 </p>
 
 **UC2** can be used with cameras from the Raspberry Pi world, but creates even more beautiful images with your cellphone. Thus making cutting edge-research not only affordable, but also available.
@@ -77,11 +83,11 @@ A more in-detail project description can be found in the [UC2 White-Paper](./TUT
 The idea is to use **UC2** as an open-standard or bridge to external hardware components and devices such as cameras or lenses. An already existing or customized adapter/insert creates the link to the **UC2** eco-system. A variety of ready-to-use adapters can be found in the folder [CAD](./CAD).
 
 <p align="center">
-<img src="./IMAGES/UC2_openstandard.png" width="550">
+<img src="./IMAGES/MDK.jpg" width="550">
 <br> Fig. 3: The structure of any UC2 assembly follows the green lines; A basic cube can hold an insert thus adapting to different components (i.e. lenses, etc.); A number of assembled cube-modules can form a complex optical system here called application
 </p>
 
-A more in-detail description of the **MDK** (**M**odular **D**eveloper **K**it) which explains how ***your idea*** can be adapted to the module system can be found in the [MDK](./MDK)-folder.
+A more in-detail description of the **MDK** (**M**odular **D**eveloper **K**it) which explains how ***your idea*** can be adapted to the module system can be found in the [MDK](./MDK)-folder. There you also found an explanation about the UC2 version history, if you found some confusing information through the repository.
 
 If you have a new part, we are eager to see it. Please feel free to share it on available websites like Twitter, Thingiverse, Github or any other platform of choice!
 

@@ -65,7 +65,6 @@ The Cube consists of the following components.
 ### Tutorial with images (Z-Stage)
 :grey_exclamation: This tutorial shows a UC2_v2 cube but the assembly of the insert is still the same. For assembly of the cube (IM/3DP) check the [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base).
 
-This is the assembly guide for the mechanical Z-Stage.
 
 1. All parts for this model
 <p align="center">

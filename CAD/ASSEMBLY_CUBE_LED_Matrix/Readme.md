@@ -1,4 +1,7 @@
 # Cube LED Matrix
+
+**This is still the UC2_v2 module. A new module will be delepode for v3.**
+
 This parts adapt a LED matrix to the UC2 cubes. Electric control is done by an ESP32.
 
 The stl-files can be found in the folder [STL](./STL).
