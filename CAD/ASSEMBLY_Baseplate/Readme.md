@@ -12,16 +12,18 @@ Baseplates serve as a spine of any setup you build using the cubes. The basic un
 <img src="./IMAGES/10_Base_puzzle_v3.png" width="200">
 </p>
 
-The puzzle pieces can be arbitrarily combined into a baseplate of a desired size and shape. For better stability, the baseplate can be screwed to a Thorlabs breadboard, optical table or a wooden board.
+The puzzle pieces can be arbitrarily combined into a baseplate of a desired size and shape. For better stability, the baseplate can be screwed to a Thorlabs breadboard, optical table or a wooden board. An example of a 'flat' setup is the light sheet microscope.
 
 <p align="center">
 <img src="./IMAGES/10_Base_puzzle_v3_02.png" width="350">
+<img src="../../APPLICATIONS/APP_LIGHTSHEET_Workshop/IMAGES/Application_Light_Sheet_Microscope_v3.png" width="400">
 </p>
 
-The baseplates can be also concatenated in third dimension,  being build in a "sandwich"-like structure.
+The baseplates can be also concatenated in third dimension,  being build in a "sandwich"-like structure. An example of a 'sandwich' setup is the incubator microscope. 
 
 <p align="center">
 <img src="./IMAGES/10_Base_puzzle_v3_03.png" width="200">
+<img src="../../APPLICATIONS/APP_Incubator_Microscope/IMAGES/Application_Incubator_Microscope_v3.png" width="180">
 </p>
 
 ## Parts
