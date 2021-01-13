@@ -15,48 +15,28 @@ The basic mechanism is that Beam-splitter module divides an incoming light beam 
 Moving screws of the Diagonal Kinematic Mirror Holder cube provides flexibility to interfere two reflected beams in the beam-splitter easily.
 In the Results section, interference pattern image of the test setup can be seen.  
 
-
-
 <p align="center">
-<img src=".\IMAGES\Application_Michelson-Interferometer_v2.png"
-width="450">
+<img src=".\IMAGES\Application_Michelson-Interferometer_v3.png" width="600">
 </p>
 
-### 3D-printed components
+## <img src="./IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
+
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×4 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Laser | - | 18,40 €  | [LASER](../../CAD/ASSEMBLY_CUBE_Laser_v2)  | 1|
-|  Module: Beam Expander | It expands incoming laser beam  | 12,10 €  | [Beam Expander](../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)  | 1|
-|  Module: Beam Splitter | It splits incoming light beam into two beams and reunites reflected two beams. | 29,20 €  | [Beam Splitter](../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)  | 1|
-|  Module: Kinematic Mirror Holder Cube - Diagonal | For better interference of reflected beams in the Beam-splitter cube. | 4,71 €  | [ Kinematic Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)  | 1|
-|  Module: Kinematic Mirror | - | 9,22 €  | [ Kinematic Mirror](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_v2)  | 2|
-|  Module: Raspberry Camera  | - | 33,70 €  | [RasPi Camera](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
-|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4,40 €  | [Cube](../../CAD/ASSEMBLY_CUBE_Base_v2)  | 2|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)   | 7|
+|  Module: Laser | - | 18,40 €  | [LASER](../../CAD/ASSEMBLY_CUBE_Laser)  | 1|
+|  Module: Beam Expander | It expands incoming laser beam  | 12,10 €  | [Beam Expander](../../CAD/ASSEMBLY_CUBE_Beamexpander)  | 1|
+|  Module: Beam Splitter | It splits incoming light beam into two beams and reunites reflected two beams. | 29,20 €  | [Beam Splitter](../../CAD/ASSEMBLY_CUBE_Beamsplitter)  | 1|
+|  Module: Kinematic Mirror Holder Cube - Diagonal | For better interference of reflected beams in the Beam-splitter cube. | 4,71 €  | [ Kinematic Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 1|
+|  Module: Kinematic Mirror | - | 9,22 €  | [ Kinematic Mirror](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic)  | 2|
+|  Module: Raspberry Camera  | - | 33,70 €  | [RasPi Camera](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 1|
+|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4,40 €  | [Cube](../../CAD/ASSEMBLY_CUBE_Base)  | 2|
 
-
-### <img src="./IMAGES/P.png" width="40">Parts to print
-
-* 1× [Base-plate 4×4](./STL/Assembly_base_4x4.stl)
-* 8× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
-* 8x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
-* 2x [Laser Holder](./STL/20_Cube_Insert_Laser_Mount.stl)
-* 1x [Laser Holder Clamp](./STL/00_Laser_Clamp_OnOffSwitch.stl)
-* 1× [Lens Adapter for Beam Expander](./STL/30_Lens_Adapter_Beamexpander.stl)
-* 1× [Beam Splitter](./STL/20_Cube_Insert_Beamsplitter.stl)
-* 1× [RasPi Camera](./STL/20_Cube_Insert_RaspiCam.stl)
-* 1× [Cube Insert for Mirror - 45°](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl)
-* 2× [Cube Insert for Kinematic Mirror](./STL/20_Cube_Insert_Kinematic_Mirrormount_base.stl)
-
-At the end it will look like this:
-
-<p align="center">
-<img src=".\IMAGES\Application_Michelson-Interferometer_v2_2.png"
-width="450">
-</p>
-
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
@@ -74,16 +54,7 @@ width="450">
 
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
-
-* 1x [Baseplate ](../../CAD/ASSEMBLY_Baseplate_v2/)
-* 2× [Mirror Cube ](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2/)
-* 2× [Additional empty cube](../../CAD/ASSEMBLY_CUBE_Base_v2)
-* 1x [LASER cube](../../CAD/ASSEMBLY_CUBE_Laser_v2)
-* 1x [Beam-expander cube](../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)
-* 1x [Beam-Splitter cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)
-* 1x [Diagonal Kinematic Mirror Holder Cube](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)
-* 2x [Kinematic Mirror Holder Cube ](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_v2)
-* 1x [RasPi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 
 ## <img src="./IMAGES/E.png" width="40"> Results

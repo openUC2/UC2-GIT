@@ -51,7 +51,7 @@ Link             |  Image of the part
 [Eyepiece + Smartphone](./ASSEMBLY_CUBE_Eyepiece) | [<img src="./ASSEMBLY_CUBE_Eyepiece/IMAGES/Assembly_Cube_Eyepiece_v3_01.png" width=200>](./ASSEMBLY_CUBE_Eyepiece)
 [Eyeball Cube ](./ASSEMBLY_CUBE_Eyeball) | [<img src="./ASSEMBLY_CUBE_Eyeball/IMAGES/Assembly_Cube_Eyeball_v2_01.png" width=200>](./ASSEMBLY_CUBE_Eyeball)
 [Laser](./ASSEMBLY_CUBE_Laser) | [<img src="./ASSEMBLY_CUBE_Laser/IMAGES/Assembly_Cube_Laser_v3.png" width=200>](./ASSEMBLY_CUBE_Laser)
-[LED Matrix](./ASSEMBLY_CUBE_LED_Matrix_v3) | [<img src="./ASSEMBLY_CUBE_LED_Matrix_v3/IMAGES/Assembly_Cube_LED_Matrix_v0.png" width=200>](./ASSEMBLY_CUBE_LED_Matrix_v3)
+[LED Matrix](./ASSEMBLY_CUBE_LED_Matrix) | [<img src="./ASSEMBLY_CUBE_LED_Matrix/IMAGES/Assembly_Cube_LED_Matrix_v0.png" width=200>](./ASSEMBLY_CUBE_LED_Matrix)
 [LED Star](./ASSEMBLY_CUBE_LED) | [<img src="./ASSEMBLY_CUBE_LED/IMAGES/Assembly_Cube_LED_holder_v3.png" width=200>](./ASSEMBLY_CUBE_LED)
 [Lens (cylindrical)](./ASSEMBLY_CUBE_Lens_CYLINDRICAL) | [<img src="./ASSEMBLY_CUBE_Lens_CYLINDRICAL/IMAGES/Assembly_Cube_Lens_Cylindrical_v3.png" width=200>](./ASSEMBLY_CUBE_Lens_CYLINDRICAL)
 [Lens (standard)](./ASSEMBLY_CUBE_Lens) | [<img src="./ASSEMBLY_CUBE_Lens/IMAGES/Assembly_Cube_Objective_Holder_v3.png" width=200><img src="./ASSEMBLY_CUBE_Lens/IMAGES/Assembly_Cube_Lens_holder_100mm_v3.png" width=200>](./ASSEMBLY_CUBE_Lens)

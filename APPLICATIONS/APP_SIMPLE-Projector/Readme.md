@@ -6,27 +6,18 @@ We developed a very easy-to-use setup to demonstrate single lens imaging and mag
 </p>
 
 ## <img src="./IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×1 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Lens Cube | -  | 20 €  | [Lens](../../CAD/ASSEMBLY_CUBE_Lens_v2)  | 1|
-|  Module: Sample Holder Cube | -  | 10 €  | [Lens](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 3|
+|  Module: Lens Cube | -  | 20 €  | [Lens](../../CAD/ASSEMBLY_CUBE_Lens)  | 1|
+|  Module: Sample Holder Cube | -  | 10 €  | [Lens](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1|
 
-### <img src="./IMAGES/P.png" width="40">Parts to print
-
-* 1× [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
-* 3× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
-* 3x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
-* 1× [Lens Holder](./STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl)
-* 1x [Lens Clamp](./STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl)
-* 1× [Sample Holder](./STL/ASSEMBLY_CUBE_LED_20_Cube_insert_Sample_holder.stl)
-* 1x [Sample Holder Clamp](./STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl)
-* 1× [Flashlight Holder](./STL/20_Cube_Insert_Holder-flashlight_v2.stl) - the diameter works for the flashlight linked in the additional components
-
-In the [STL](./STL) folder you find lens holders for a thin lens with diameter of 1 inch. When using a different lens, please follow our [Tutorial: Design your own Lens Holder](../../CAD/ASSEMBLY_CUBE_Lens_v2/OPENSCAD#design-your-own-lens-holder).
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
@@ -37,11 +28,7 @@ In the [STL](./STL) folder you find lens holders for a thin lens with diameter o
 * Diapositiv or any other image on a translucent medium, you can for example draw something on a microscope slide or a foil
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
-
-* [Baseplate](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Lens Cube](../../CAD/ASSEMBLY_CUBE_Lens_v2/)
-* [Lens Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
-* Flashlight cube: Simply insert the holder in a cube and close it as any other
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 ## Single lens as a projector
 <p align="center">

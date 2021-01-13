@@ -3,41 +3,31 @@
 This is the repository for the simple mechanical-only version of the [Smartphone Microscope](../../APP_SMARTPHONE_MICROSCOPE).
 
 <p align="center">
-<img src="../IMAGES/Application_simple_smartphone_microscope_v2.png" width="500">
+<img src="../IMAGES/Application_simple_smartphone_microscope_v3.png" width="400">
 </p>
 
+## <img src="../IMAGES/F.png" width="40">Devices' features:
+* Simple microscope for smartphone imaging
+* Manual alignment helps to understand the principle of a microscope
+* **Estimated price of the setup: 65€**
+
 ## <img src="../IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×2 Baseplate | - | 16€  | [Base-plate](../../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: mechanical Z-Stage | -  | 20 €  | [Z-Stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)  | 1|
-|  Module: Mirror 45°  | - | 3€  | [Mirror 45](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)  | 2|
-|  Module: Eyepiece with Smartphone Holder  | - | 16 €  | [Eyepiece + Smartphone](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)  | 1|
-|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 3€  | [Cube](../../../CAD/ASSEMBLY_CUBE_Base_v2)  | 2|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 8|
+|  Module: mechanical Z-Stage | -  | 20 €  | [Z-Stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical)  | 1|
+|  Module: Mirror 45°  | - | 3€  | [Mirror 45](../../../CAD/ASSEMBLY_CUBE_Mirror_45)  | 2|
+|  Module: Eyepiece with Smartphone Holder  | - | 16 €  | [Eyepiece + Smartphone](../../../CAD/ASSEMBLY_CUBE_Eyepiece)  | 1|
+|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 3€  | [Cube](../../../CAD/ASSEMBLY_CUBE_Base)  | 2|
 
-**Estimated price of the setup: 65€**
+### <img src="../IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
-
-### <img src="../IMAGES/P.png" width="40">Parts to print
-
-* 1× [Base-plate 4×2](../STL/Assembly_base_4x2.stl)
-* 6× [Cube base 1×1](../STL/10_Cube_1x1_v2.stl)
-* 6x [Cube lid 1×1](../STL/10_Lid_1x1_v2.stl)
-* 1× [Cube Insert for Eyepiece](../STL/20_Cube_Insert_Holder-okular_v2.stl)
-* 1× [Smartphone Holder](../STL/30_Smartphone_Holder.stl)
-* 2× [Cube Insert for Mirror - 45°](../STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
-* 1× [Cube Insert for Z-stage](../STL/Assembly_Cube_Z-Focus_Linearbearing_1x1_v4_20_focus_inlet_linearflexure_v4_7.stl)
-* 1× [Z-stage Insert for Objective](../STL/30_focus_inlet_objective_mount_v7.stl)
-* 1× [Z-stage gear](../STL/Assembly_Cube_Z-Focus_Linearbearing_1x1_v4_20_gear_8.stl)
-* 1× [Z-stage Sample plate](../STL/Assembly_Z-Focus_Linearbearing_mechanical_v0_30_Z_Stage_Sampleplate_8.stl)
-* Optional: 1× [Generic Clamp for Slides](../STL/30_Sampleclamp_generic.stl)
-
-**Note**: The design is currently being adapted for the use of cubes produced by injection molding. In the future, the baseplates will come as puzzle pieces and the plan is to use the Sample Holder Cube above the Z-stage. For now, you can add the Sampleplate and a clamp to the stage.
-
-In the end it should look like this:
+In the end it should look like this (UC2_v2 cubes displayed):
 
 <p align="center">
 <img src="../IMAGES/Simple_smartphone_mechancal_01.jpg" width="300">
@@ -56,13 +46,7 @@ In the end it should look like this:
 * 2× Mirrors (e.g. 30×30 mm² Toymirrors) [🢂](https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE)
 
 ## <img src="../IMAGES/A.png" width="40"> Assembly
-
-* [Baseplate ](../../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Z-stage ](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2/)
-* 2× [Mirror Cube ](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2/)
-* [Eyepiece Cube ](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/)
-* [Smartphone holder Cube ](../../../CAD/ASSEMBLY_CUBE_Cellphonemount/)
-* 2× Additional [empty cube](../../../CAD/ASSEMBLY_CUBE_Base_v2)
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 **Where next?**  
 Find out more about the smartphone microscope in the [SimpleBOX manuals](../../../TheBOX/SimpleBOX/DOCUMENTS)     

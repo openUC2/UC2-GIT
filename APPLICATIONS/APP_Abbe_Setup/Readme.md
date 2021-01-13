@@ -11,7 +11,7 @@ This experiment is also a part of the [CourseBOX](../../TheBOX/CourseBOX) and th
 <img src="./IMAGES/scheme06.jpg" width="800">
 </p>
 
-## Devices' features:
+## <img src="./IMAGES/F.png" width="40">Devices' features:
 
 * Capture Fourier Plane
 * Capture Image Plane
@@ -20,39 +20,41 @@ This experiment is also a part of the [CourseBOX](../../TheBOX/CourseBOX) and th
 * Compatible with Educational purposes
 
 
-## <img src="./IMAGES/D.png" width="40">3D printing
+## <img src="./IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-| Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 14|
-|  Module: Raspberry Pi Camera | Having two cameras is optional since one camera can be moved between two planes!  | 20 €  | [Raspi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 2|
-|  Module: Laser  | - | ??€  | [Laser](../../CAD/ASSEMBLY_CUBE_Laser_v2)  | 1|
-|  Module: Lens | all 50mm lenses | 10€  | [Lens Cube](../../CAD/ASSEMBLY_CUBE_Lens_v2)  | 4 |
-|  Module: Beamsplitter | - | 30€  | [Beamsplitter Cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)  | 1 |
-|  Module: Sample holder | - | 30€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |
+| Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 14|
+|  Module: Raspberry Pi Camera | Having two cameras is optional since one camera can be moved between two planes!  | 20 €  | [Raspi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 2|
+|  Module: Laser  | - | ??€  | [Laser](../../CAD/ASSEMBLY_CUBE_Laser)  | 1|
+|  Module: Lens | 2× 50 mm lens and 3× 100 mm lens | 10€  | [Lens Cube](../../CAD/ASSEMBLY_CUBE_Lens)  | 5 |
+|  Module: Beamsplitter | - | 30€  | [Beamsplitter Cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter)  | 1 |
+|  Module: Sample holder | - | ?€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 2 |
+|  Module: Sample Comb | optional but useful | ?€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
+|  Module: Circular Aperture | - | ?€  | [Circular Aperture Cube](../../CAD/ASSEMBLY_CUBE_Aperture_Circular)  | 1 |
+|  Module: Rectangular Aperture | - | ?€  | [Rectangular Aperture Cube](../../CAD/ASSEMBLY_CUBE_Aperture_Rectangular)  | 1 |
 
-### <img src="./IMAGES/P.png" width="40">Parts to printing
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
-|  Name | Properties  |  Price | Link  | # |
-|---|---|---|---|---|
-|  2x4 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  4x4 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Raspberry Pi Camera | -  | 20 €  | [Raspi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 2|
-|  Module: LED + Pinhole  | white light LED, 1mm pinhole | 10€  | [LED + Pinhole Cube](../../CAD/ASSEMBLY_CUBE_LED_v2)  | 1|
-|  Module: Lens | all 50mm lenses | 10€  | [Lens Cube](../../CAD/ASSEMBLY_CUBE_Lens_v2)  | 4 |
-|  Module: Beamsplitter | - | 30€  | [Beamsplitter Cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)  | 1 |
-|  Module: Sample holder | - | 30€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |
 
 ### <img src="./IMAGES/B.png" width="40">Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 1x Raspberry Pi
 * 1x camera splitter for Raspberry Pi
 * 1x wired LED (blue)
-* Aluminum Foil for the apertures/pinhole
+* Aluminium Foil for the apertures/pinhole
 * 1x Power Supply for Raspberry Pi
 * long camera cables
+
+## <img src="./IMAGES/A.png" width="40"> Assembly
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
+
+## Alignment
+A detailed alignment tutorial is found [here](../../TheBOX/CourseBOX/ALIGNMENT_InfOptics).
 
 ## Software
 Please have a look at our **ImJoy** [Github-Repository](https://github.com/bionanoimaging/UC2-ImJoy-GIT) for this Application.

@@ -5,7 +5,7 @@
 We developed a very easy-to-use setup to help you understand how a telescope works. It guides you through different optical designs, all with one goal: magnifying far-away objects.
 
 <p align="center">
-<img src="./IMAGES/Assembly_simple_Telescope.png" width="350">
+<img src="./IMAGES/Application_Telescopes_v3.png" width="400">
 </p>
 
 ### Schemes of the telescopes
@@ -16,24 +16,19 @@ width="600">
 </p>
 
 ## <img src="./IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×1 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 2|
-|  Module: Lens Cube | -  | 20 €  | [Lens](../../CAD/ASSEMBLY_CUBE_Lens_v2)  | 4|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 8|
+|  Module: Lens Cube | -  | 20 €  | [Lens](../../CAD/ASSEMBLY_CUBE_Lens)  | 4|
 
-### <img src="./IMAGES/P.png" width="40">Parts to print
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
-* 2× [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
-* 4× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
-* 4x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
-* 3× [Thin Lens Holder](./STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder.stl)
-* 1× [Thick Lens Holder](./STL/20_Lens_mount_thick_lens.stl)
-* 4x [Lens Clamp](./STL/1inch_Assembly_Insert_Lens_mount_fixed_20_Lens_holder_clamp.stl)
-
-In the [STL](./STL) folder you find lens holders for a thin and thick lens with diameter of 1 inch. When using different lenses, please follow our [Tutorial: Design your own Lens Holder](../../CAD/ASSEMBLY_CUBE_Lens_v2/STL#design-your-own-lens-holder).
+When using a lens of your choice, please follow our [Tutorial: Design your own Lens Holder](../../CAD/ASSEMBLY_CUBE_Lens_v2/STL#design-your-own-lens-holder).
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
@@ -44,9 +39,7 @@ In the [STL](./STL) folder you find lens holders for a thin and thick lens with 
 * 16× - 32× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
-
-* [Baseplate](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Lens Cube](../../CAD/ASSEMBLY_CUBE_Lens_v2/)
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 ## Alignment
 
@@ -104,7 +97,7 @@ The telescopes are also a part of the [SimpleBOX](../../TheBOX/SimpleBOX). Find 
 Or return to the [TUTORIALS](../../../TUTORIALS)
 
 ## <img src="./IMAGES/E.png" width="40"> Results
-None yet. Be the first to share yours! 
+None yet. Be the first to share yours!
 
 ## <img src="./IMAGES/S.png" width="40"> Participate!
 

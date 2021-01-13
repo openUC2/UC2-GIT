@@ -99,16 +99,16 @@ Tool             |  Image|  Comment
 ## <a href="#icon06" name="icon06"><img src="./IMAGES/A.png" height="40"></a>  Assembly
 Part - link             |  Result|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
-[Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)|[<img src="./IMAGES/baseplates.jpg" width="300">](../../../CAD/ASSEMBLY_Baseplate_v2)|5× baseplate (4×1)
-[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_v2)| 8× Lens Cube: 5× Lens Cube with 50 mm lens; 3× Lens Cube with 100 mm lens. You can write the focal lengths on the inserts of print the housing is different colours to distinguish between them, so you can always easily find the right one when building the setups.
-[Sample Cubes](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|2× Sample Holder Cube
-[Flashlight Cube](../../../CAD/ASSEMBLY_Lens_v2)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_Lens_v2)| 1× Flashlight Cube
-[Circular Aperture Cube](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular_v2)|[<img src="./IMAGES/CirAp11.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular_v2)|2× Circular Aperture Cube
-[Rectangular Aperture Cube](../../../CAD/ASSEMBLY_CUBE_Aperture_Rectangular_v2)|[<img src="./IMAGES/RectAp_14.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Aperture_Rectangular_v2)|1× Rectangular Aperture Cube
-[Beamsplitter Cube](../../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)|[<img src="./IMAGES/beamsplitter.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)|1× Beam Expander Cube
-[RasPi Camera Cube](../../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)|[<img src="./IMAGES/CUBE_RASPICAM3.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)|1× Camera Cube with Raspberry Pi camera with the lens removed
-[Laser Cube](../../../CAD/ASSEMBLY_CUBE_Laser_v2)|[<img src="./IMAGES/laser.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Laser_v2)|1× Laser Holder Cube and Laser Clamp with a cap for RasPi lens
-[Eye Cube](../../../CAD/ASSEMBLY_CUBE_Eyeball_v2)|[<img src="./IMAGES/Assembly_Cube_Eyeball_v2_03.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Eyeball_v2)|optional: 1× Eyeball Cube  
+[Baseplates](../../../CAD/ASSEMBLY_Baseplate)|[<img src="./IMAGES/baseplates.jpg" width="300">](../../../CAD/ASSEMBLY_Baseplate)|5× baseplate (4×1)
+[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens)| 8× Lens Cube: 5× Lens Cube with 50 mm lens; 3× Lens Cube with 100 mm lens. You can write the focal lengths on the inserts of print the housing is different colours to distinguish between them, so you can always easily find the right one when building the setups.
+[Sample Cubes](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)|2× Sample Holder Cube
+[Flashlight Cube](../../../CAD/ASSEMBLY_CUBE_Flashlight)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Flashlight)| 1× Flashlight Cube
+[Circular Aperture Cube](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular)|[<img src="./IMAGES/CirAp11.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular)|2× Circular Aperture Cube
+[Rectangular Aperture Cube](../../../CAD/ASSEMBLY_CUBE_Aperture_Rectangular)|[<img src="./IMAGES/RectAp_14.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Aperture_Rectangular)|1× Rectangular Aperture Cube
+[Beamsplitter Cube](../../../CAD/ASSEMBLY_CUBE_Beamsplitter)|[<img src="./IMAGES/beamsplitter.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Beamsplitter)|1× Beam Expander Cube
+[RasPi Camera Cube](../../../CAD/ASSEMBLY_CUBE_RaspiCam)|[<img src="./IMAGES/CUBE_RASPICAM3.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_RaspiCam)|1× Camera Cube with Raspberry Pi camera with the lens removed
+[Laser Cube](../../../CAD/ASSEMBLY_CUBE_Laser)|[<img src="./IMAGES/laser.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Laser)|1× Laser Holder Cube and Laser Clamp with a cap for RasPi lens
+[Eye Cube](../../../CAD/ASSEMBLY_CUBE_Eyeball)|[<img src="./IMAGES/Assembly_Cube_Eyeball_v2_03.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Eyeball)|optional: 1× Eyeball Cube  
 
 ## <a href="#icon06" name="icon06"><img src="./IMAGES/W.png" height="40"></a>  Software
 Prepare the Raspberry Pi following our [tutorial in UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT/tree/master/GUI/RASPBERRY_PI)!
@@ -207,16 +207,16 @@ Tool             |  Image|  Comment
 ## <a href="#icon06" name="icon06"><img src="./IMAGES/A.png" height="40"></a>  Assembly
 Part - link             |  Result|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
-[Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)|[<img src="./IMAGES/baseplates.jpg" width="300">](../../../CAD/ASSEMBLY_Baseplate_v2)|1× "big" baseplate (4×2), 4× "small" baseplate (4×1), 1× "unit" baseplate (1×1), 1× "unit" baseplate connector (1×1)
-[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|[<img src="./IMAGES/z-stage.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|1× mechanical Z-Stage, Sample Clamp not necessary
-[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_v2)| 6× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building the setups.
-[Cylindrical Lens Cube](../../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2)|[<img src="./IMAGES/CUBE_LENS_CYLINDRICAL_1.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2)| 1× Cylindrical Lens Cube
-[Sample Cubes](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|5× Sample Holder Cube
-[Mirror Cube](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|[<img src="./IMAGES/mirror.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)| 1× Mirror Cube
-[Flashlight Cube](../../../CAD/ASSEMBLY_Lens_v2)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_Lens_v2)| 1× Flashlight Cube
-[Circular Aperture Cube](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular_v2)|[<img src="./IMAGES/CirAp11.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular_v2)|2× Circular Aperture Cube
-[Laser Cube](../../../CAD/ASSEMBLY_CUBE_Laser_v2)|[<img src="./IMAGES/laser.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Laser_v2)|1× Laser Holder Cube and Laser Clamp
-[Beam Expander Cube](../../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)|[<img src="./IMAGES/beamexpander.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)|1× Beam Expander Cube
-[Beamsplitter Cube](../../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)|[<img src="./IMAGES/beamsplitter.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)|1× Beam Expander Cube
+[Baseplates](../../../CAD/ASSEMBLY_Baseplate)|[<img src="./IMAGES/baseplates.jpg" width="300">](../../../CAD/ASSEMBLY_Baseplate)|1× "big" baseplate (4×2), 4× "small" baseplate (4×1), 1× "unit" baseplate (1×1), 1× "unit" baseplate connector (1×1)
+[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical)|[<img src="./IMAGES/z-stage.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical)|1× mechanical Z-Stage, Sample Clamp not necessary
+[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens)| 6× Lens Cube; Write the focal lengths of the lenses on the holders, so you can always easily find the right one when building the setups.
+[Cylindrical Lens Cube](../../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL)|[<img src="./IMAGES/CUBE_LENS_CYLINDRICAL_1.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL)| 1× Cylindrical Lens Cube
+[Sample Cubes](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)|5× Sample Holder Cube
+[Mirror Cube](../../../CAD/ASSEMBLY_CUBE_Mirror_45)|[<img src="./IMAGES/mirror.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Mirror_45)| 1× Mirror Cube
+[Flashlight Cube](../../../CAD/ASSEMBLY_CUBE_Flashlight)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Flashlight)| 1× Flashlight Cube
+[Circular Aperture Cube](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular)|[<img src="./IMAGES/CirAp11.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Aperture_Circular)|2× Circular Aperture Cube
+[Laser Cube](../../../CAD/ASSEMBLY_CUBE_Laser)|[<img src="./IMAGES/laser.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Laser)|1× Laser Holder Cube and Laser Clamp
+[Beam Expander Cube](../../../CAD/ASSEMBLY_CUBE_Beamexpander)|[<img src="./IMAGES/beamexpander.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Beamexpander)|1× Beam Expander Cube
+[Beamsplitter Cube](../../../CAD/ASSEMBLY_CUBE_Beamsplitter)|[<img src="./IMAGES/beamsplitter.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Beamsplitter)|1× Beam Expander Cube
 
 ## <a href="#icon07" name="icon07"><img src="./IMAGES/E_S.png" height="40"></a> Done! Great job!

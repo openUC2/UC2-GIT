@@ -67,7 +67,7 @@ Note on the baseplates: As mentioned before, the MiniBOX was developed with the 
 
 ### <a href="#icon05" name="icon05"><img src="./IMAGES/D.png" height="40"></a> Inserts
 Note on the inserts: The STLs of the inserts here fit the 3D printed cubes. Once the injection molded cubes are somehow available, we'll update the inserts as well.  
-Note on the lens holders: If you use some other lens, you can generate a holder for it using our openSCAD design. Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert. Ufortunately, the Thingiverse Customizer is for some time already not working in Google Chrome and Safari. Use a different browser to use the Customizer. 
+Note on the lens holders: If you use some other lens, you can generate a holder for it using our openSCAD design. Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert. Ufortunately, the Thingiverse Customizer is for some time already not working in Google Chrome and Safari. Use a different browser to use the Customizer.
 
 Name of part - Link to STL file            |  Amount |  Comment
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -106,13 +106,13 @@ Tool             |  Image|  Comment
 ## <a href="#icon06" name="icon06"><img src="./IMAGES/A.png" height="40"></a>  Assembly
 Part - link             |  Result|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
-[Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)|[<img src="./IMAGES/baseplates.jpg" width="300">](../../../CAD/ASSEMBLY_Baseplate_v2)|1× "big" baseplate (4×4), 2× "small" baseplate (4×1)
-[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_v2)| 4× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building different setups. 1× extra lens cube for SimpleBOX
-[Mirror Cubes](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|[<img src="./IMAGES/mirror.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)| 2× Mirror Cube
-[Sample Cube](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|1× Sample Holder Cube
-[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|[<img src="./IMAGES/z-stage.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|1× mechanical Z-Stage with Sample Clamp
-[Flashlight Cube](../../../CAD/ASSEMBLY_Lens_v2)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_Lens_v2)| 1× Flashlight Cube fo SimpleBOX
-[Eyepiece and Smartphone Cube](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)|[<img src="./IMAGES/smartphone.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)|1× Eyepiece Cube with Smartphone Holder mounted on it for SimpleBOX
+[Baseplates](../../../CAD/ASSEMBLY_Baseplate)|[<img src="./IMAGES/baseplates.jpg" width="300">](../../../CAD/ASSEMBLY_Baseplate_v2)|1× "big" baseplate (4×4), 2× "small" baseplate (4×1)
+[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_v2)| 4× Lens Cube; Write the focal lengths of the lenses on the holders, so you can always easily find the right one when building different setups. 1× extra lens cube for SimpleBOX
+[Mirror Cubes](../../../CAD/ASSEMBLY_CUBE_Mirror_45)|[<img src="./IMAGES/mirror.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Mirror_45)| 2× Mirror Cube
+[Sample Cube](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)|1× Sample Holder Cube
+[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical)|[<img src="./IMAGES/z-stage.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical)|1× mechanical Z-Stage with Sample Clamp
+[Flashlight Cube](../../../CAD/ASSEMBLY_CUBE_Flashlight)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Flashlight)| 1× Flashlight Cube for SimpleBOX
+[Eyepiece and Smartphone Cube](../../../CAD/ASSEMBLY_CUBE_Eyepiece)|[<img src="./IMAGES/smartphone.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Eyepiece)|1× Eyepiece Cube with Smartphone Holder mounted on it for SimpleBOX
 
 
 ## <a href="#icon07" name="icon07"><img src="./IMAGES/E_S.png" height="40"></a> Done! Great job! Explore the experiments with our [work sheets](../DOCUMENT/UC2_simpleBOX.pdf) now.

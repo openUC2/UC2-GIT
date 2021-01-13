@@ -5,7 +5,7 @@ The current version of the Z-stage is inspired by the flexure-bearing Z-stage fr
 
 
 <p align="center">
-<img src="./IMAGES/Assembly_UKJ_Microscope_v4.png" width="500">
+<img src="./IMAGES/Application_Incubator_Microscope_v3.png" height="500">
 </p>
 
 
@@ -14,7 +14,7 @@ Each functional block has an Arduino acting as a BUS-communicator. Therefore it'
 It is a very early developer version. Please feel free to contribute to the documentation and device development.
 
 <p align="center">
-<img src="./IMAGES/Assembly_UKJ_Microscope_v4_2.png" width="500">
+<img src="./IMAGES/Application_Incubator_Microscope_v3_2.png" height="400">
 </p>
 
 Fluorescence version:
@@ -22,27 +22,7 @@ Fluorescence version:
 <img src="./IMAGES/UC2_Setups_4_fluorescence.png" width="400">
 </p>
 
-## 3D Printing Files
-Please have a look at the folder [STL](./STL). All files need to be printed.
-
-* 1× [Base-Plate 4×2](./STL/Assembly_base_4x2.stl)
-* 4× [1×1 Cube](./STL/10_Cube_1x1_v2.stl)
-* 4× [1×1 Cube Lid](./STL/10_Lid_1x1_v2.stl)
-* 1× [2×1 Cube](./STL/10_Cube_2x1_v2.stl)
-* 1× [2×1 Cube Lid](./STL/10_Lid_el_2x1_v2.stl)
-* 1× [Z-Stage](./STL/20_focus_inlet_linearflexure_v0.stl)
-* 1× [Coupling Screw M3](./STL/30_Coupling_Screw_28BYJ_M3.stl)
-* 1× [Z-Stage Fluomodule](./STL/30_Z_Stage_Fluomodule_12.stl)
-* 1× [Z-Stage Adapterplate](./STL/30_Z_Stage_Adapterplate_11.stl)
-* 1× [Z-Stage Microscope Slide Clamp](./STL/40_XY_Stage_Clamp_Slide_9.stl)
-* 1× [Cube LED Star Holder](./STL/ASSEMBLY_CUBE_LED_20_Cube_insert_LED_holder.stl)
-* 1× [Cube Dichroic Beamsplitter](./STL/20_Cube_Insert_Beamsplittercube_Base.stl)
-* 1× [Cube Dichroic Filter Retain plate](./STL/20_Cube_Insert_Beamsplittercube_Dichroicmirror_Retainplate.stl)
-* 1× [Cube Filter Retain ring](./STL/20_Cube_Insert_Beamsplittercube_Retainring_25mm.stl)
-* 1× [Cube Raspicam Insert](./STL/20_Cube_Insert_RaspiCam.stl)
-* 1× [Thorlabs Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_v2.stl) or [30×30 Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
-
-## Devices features:
+## <img src="./IMAGES/F.png" width="40">Devices features:
 
 * X/Y/Z/t Acquisitions possible
 * Fluorescent imaging
@@ -52,7 +32,25 @@ Please have a look at the folder [STL](./STL). All files need to be printed.
 * based on off-the-shelf components
 * Open-Source
 
+## <img src="./IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
+
+### Modules for this setup
+
+|  Name | Properties  |  Price | Link  | # |
+|---|---|---|---|---|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)   | 5|
+|  Module: Z-Stage | -  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_sample)  | 1|
+|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_45)  | 1|
+|  Module: Raspberry Camera  | - | ??€  | [RaspiCam](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 1|
+|  Module: LED | - | ??€  | [LED](../../CAD/ASSEMBLY_CUBE_LED)  | 1|
+|  Module: Dichroic Beam splitter | - | ??€  | [Dichroic Beam splitter](../../CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter)  | 1|
+
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+
+### <img src="./IMAGES/B.png" width="40">Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 
 ## <img src="./IMAGES/E.png" width="40"> Results
-None yet. Be the first to share yours! 
+None yet. Be the first to share yours!

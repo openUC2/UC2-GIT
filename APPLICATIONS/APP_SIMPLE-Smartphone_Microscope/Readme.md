@@ -5,7 +5,7 @@ This is the repository for the simple version of the [Smartphone Microscope](../
 There is a [mechanical only version](./mechanical) and a [version with electronics](./electronic), but without the need of Raspberry Pi or the android app, as compared to the full version of this microscope.
 
 <p align="center">
-<img src="./IMAGES/Assembly_smartphone_microscope_2.png" width="500">
+<img src="./IMAGES/Application_smartphone_microscope_v3.png" width="500">
 <br> Electronic version
 </p>
 
@@ -18,7 +18,7 @@ The microscope is an optical instrument that makes it possible to see magnified 
 Old or simple microscopes use objectives that are designed for a defined tube length and they form a real intermediate image in a given distance from the objective. The intermediate image is further magnified by the eyepiece. These microscopes are „finite“ optical systems.
 
 <p align="center">
-<img src="./IMAGES/Application_simple_smartphone_microscope_v2.png" width="500">
+<img src="./IMAGES/Application_simple_smartphone_microscope_v3.png" width="400">
 <br> Mechanical version.
 </p>
 
@@ -43,7 +43,7 @@ Note: Not all the pictures on this site show the latest version of the Z-stage. 
 * Compatible with almost any smartphone
 * Different illumination intensity
 
-In the end it should look like this:
+In the end it should look like this (UC2_v2 version displayed):
 
 <p align="center">
 <img src="./IMAGES/UC2_simple_smartphone_microscope.jpg" width="400">

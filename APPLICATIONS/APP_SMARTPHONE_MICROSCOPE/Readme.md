@@ -3,7 +3,7 @@
 This is the repository for the Smartphone Microscope.
 
 <p align="center">
-<img src="./IMAGES/Assembly_smartphone_microscope_2.png" width="500">
+<img src="./IMAGES/Application_smartphone_microscope_v3.png" width="500">
 </p>
 
 It's based on a compound microscope which itself relies on finite corrected objective lenses. The Smartphone reimages the image of the ocular onto the camera sensor. This means that the cellphone's camera lens acts like the eye. Proper imaging is achieved if the exit pupil of the eyepiece is matching well with the entrance pupil of the smartphone camera.
@@ -11,10 +11,10 @@ It's based on a compound microscope which itself relies on finite corrected obje
 Further details can also be found in the *cell-scope* publication by Professor Fletcher at Berkeley. It can also be found on  [their website](https://cellscope.berkeley.edu/).
 
 <p align="center">
-<img src="./IMAGES/Assembly_smartphone_microscope.png" width="500">
+<img src="./IMAGES/Application_smartphone_microscope_v3_2.png" width="500">
 </p>
 
-The optical path is relying on the finite corrected objective (MO) lens which produces an intermediate image in its tube-length. This image is propagated to infinty by the eyepiece (EP). The smartphone (CAM) expects this image to form an image on the cellphone's camera-sensor. The mirrors (M) are basically just folding the beam, the LED-Array (LA) is giving the opportunity to have different imaging modalities like Dark-, Brightfield or (quantitative) Differential Phase Contrast.
+The optical path is relying on the finite corrected objective (MO) lens which produces an intermediate image in its tube-length. This image is propagated to infinity by the eyepiece (EP). The smartphone (CAM) expects this image to form an image on the cellphone's camera-sensor. The mirrors (M) are basically just folding the beam, the LED-Array (LA) is giving the opportunity to have different imaging modalities like Dark-, Brightfield or (quantitative) Differential Phase Contrast.
 
 <p align="center">
 <img src="./IMAGES/UC2_OpticalPath_Smartphonemicroscope.png" width="300">
@@ -37,46 +37,30 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 * Fluorescent Module enables "true" fluorescent imaging
 * The electronics can be operated via WiFi
 
-## <img src="./IMAGES/D.png" width="40">3D printing
+## <img src="./IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×4 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Z-Stage | Optionally with Fluomodule  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)  | 1|
-|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)  | 2|
-|  Module: Eyepiece with Smartphone Holder  | - | ??€  | [Eyepiece + Smartphone](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)  | 1|
-|  Module: LED array  | Optionally LED Ring | ??€  | [LED array](../../CAD/ASSEMBLY_CUBE_LED_Matrix_v2)  | 1|
-|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4€  | [Cube](../../CAD/ASSEMBLY_CUBE_Base_v2)  | 3|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 8|
+|  Module: Z-Stage | -  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_sample)  | 1|
+|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_45)  | 2|
+|  Module: Eyepiece with Smartphone Holder  | - | ??€  | [Eyepiece + Smartphone](../../CAD/ASSEMBLY_CUBE_Eyepiece)  | 1|
+|  Module: LED array  | Optionally LED Ring | ??€  | [LED array](../../CAD/ASSEMBLY_CUBE_LED_Matrix)  | 1|
+|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4€  | [Cube](../../CAD/ASSEMBLY_CUBE_Base)  | 2|
 
 
-### <img src="./IMAGES/P.png" width="40">Parts to print
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
-* 1× [Base-plate 4×4](./STL/Assembly_base_4x4.stl)
-* 6× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
-* 7x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
-* 1× [Cube base 2×1](./STL/10_Cube_2x1_v2.stl)
-* 1× [Cube lid 2×1](./STL/10_Lid_el_2x1_v2.stl)
-* 1× [LED Array Holder](./STL/30_Cube_LED_Array_v0.stl)
-* 1× [Cube Insert for Eyepiece](./STL/20_Cube_Insert_Holder-okular_v2.stl)
-* 1× [Smartphone Holder](./STL/30_Smartphone_Holder.stl)
-* 2× [Cube Insert for Mirror - 45°](./STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
-* 1× [Cube Insert for Z-stage](./STL/20_focus_inlet_linearflexure_v0.stl)
-* 1× [Z-stage Insert for Objective](./STL/30_focus_inlet_objective_mount_v7.stl)
-* 1× [Coupling Screw M3](./STL/30_Coupling_Screw_28BYJ_M3.stl)
-* Optional: 1× [Z-stage Fluomodule](./STL/30_Z_Stage_Fluomodule_12.stl)
-* Optional: 1× [Z-stage Adapterplate](./STL/30_Z_Stage_Adapterplate_11.stl)
-* Optional: 1× [Z-stage Clamp for Slides](./STL/40_XY_Stage_Clamp_Slide_9.stl)- current design is for 4 mm magnets!
-* Optional: 1× [Generic Clamp for Slides](./STL/30_Sampleclamp_generic.stl)- current design is for 5 mm magnets (same as Baseplate)
-
-In the end it should look like this:
+In the end it should look like this (UC2_v0 cubes displayed):
 
 <p align="center">
 <img src="./IMAGES/UC2_Printed_Smartphonemicroscope.jpg" width="300">
 <img src="./IMAGES/IMG_20190913_111607.jpg" width="300">
 <img src="./IMAGES/IMG_20190913_111620.jpg" width="300">
-<br> * Here UC2_v0 parts were used.
 </p>
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
@@ -99,14 +83,7 @@ In the end it should look like this:
 
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
-
-* [Baseplate ](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Z-stage ](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2/)
-* 2× [Mirror Cube ](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2/)
-* [Eyepiece Cube ](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/)
-* [Smartphone holder Cube ](../../CAD/ASSEMBLY_CUBE_Cellphonemount/)
-* [LED array ](../../CAD/ASSEMBLY_CUBE_LED_Matrix_v2/)
-* 2× Additional empty cube
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 ## <img src="./IMAGES/L.png" width="40"> Electronics (for dummies)
 

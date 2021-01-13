@@ -4,7 +4,7 @@ This is the repository for the in-incubator microscope. It is capable to acquire
 The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org).
 
 <p align="center">
-<img src="./IMAGES/Assembly_UKJ_Microscope_v4.png" width="500">
+<img src="./IMAGES/Application_Incubator_Microscope_v3.png" height="500">
 </p>
 
 Each functional block has an Arduino acting as a BUS-communicator. Therefore it's possible to control (i.e. switch on/off) devices from the MASTER-device (i.e. Raspberry pi). We aim to build a low-cost solution for high throughput acquisitions, acting as a new tools for (not only) biologists.
@@ -12,7 +12,7 @@ Each functional block has an Arduino acting as a BUS-communicator. Therefore it'
 It is a very early developer version. Please feel free to contribute to the documentation and device development.
 
 <p align="center">
-<img src="./IMAGES/Assembly_UKJ_Microscope_v4_2.png" width="500">
+<img src="./IMAGES/Application_Incubator_Microscope_v3_2.png" height="400">
 </p>
 
 Note: The pictures on this site do not show the latest version of the Z-stage. Follow the respective assembly guidelines.
@@ -27,33 +27,22 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 * Based on off-the-shelf components
 * Open-Source
 
-## <img src="./IMAGES/D.png" width="40">3D printing
+## <img src="./IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×2 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Z-Stage | Optionally with Fluomodule  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)  | 1|
-|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)  | 1|
-|  Module: Raspberry Camera  | - | ??€  | [RaspiCam](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
-|  Module: LED array  | Optionally LED Ring | ??€  | [LED array](../../CAD/ASSEMBLY_CUBE_LED_Matrix_v2)  | 1|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)   | 5|
+|  Module: Z-Stage | -  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_sample)  | 1|
+|  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_45)  | 1|
+|  Module: Raspberry Camera  | - | ??€  | [RaspiCam](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 1|
+|  Module: LED array  | - | ??€  | [LED array](../../CAD/ASSEMBLY_CUBE_LED_Matrix)  | 1|
 
-### <img src="./IMAGES/P.png" width="40"> Parts to print
-* 1× [Base-Plate 4×2](./STL/Assembly_base_4x2.stl)
-* 2× [1×1 Cube](./STL/10_Cube_1x1_v2.stl)
-* 3× [1×1 Cube Lid](./STL/10_Lid_1x1_v2.stl)
-* 1× [2×1 Cube](./STL/10_Cube_2x1_v2.stl)
-* 1× [2×1 Cube Lid](./STL/10_Lid_el_2x1_v2.stl)
-* 1× [Z-Stage](./STL/20_focus_inlet_linearflexure_v0.stl)
-* 1× [Z-Stage Objective Mount](./STL/30_focus_inlet_objective_mount_v7.stl)
-* 1× [Coupling Screw M3](./STL/30_Coupling_Screw_28BYJ_M3.stl)
-* 1× [Z-Stage Fluomodule](./STL/30_Z_Stage_Fluomodule_12.stl)
-* 1× [Z-Stage Adapterplate](./STL/30_Z_Stage_Adapterplate_11.stl)
-* 1× [Z-Stage Microscope Slide Clamp](./STL/40_XY_Stage_Clamp_Slide_9.stl)
-* 1× [Cube LED Matrix Holder](./STL/30_Cube_LED_Array_v0.stl)
-* 1× [Cube Raspicam Insert](./STL/20_Cube_Insert_RaspiCam.stl)
-* 1× [Thorlabs Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_v2.stl) or [30×30 Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
@@ -74,13 +63,11 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 * Optional (for Fluomodule): 4× Screws DIN912 ISO 4762 M3×18 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/)
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly and alignment
-* [Baseplate ](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Z-stage ](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2/)
-* [Mirror Cube ](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2/)
-* [Raspberry Camera Cube ](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2/)
-* [LED array ](../../CAD/ASSEMBLY_CUBE_LED_Matrix_v2/)
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 A simplified scheme can be found [here](./IMAGES/UC2_fullBOX_incubator_EN.pdf).
+
+A detailed alignment instructions are also found [here](../../WORKSHOP/TiM2020).
 
 ## <img src="./IMAGES/L.png" width="40"> Electronics
 🢂 Find more in the [Electronics section](../../ELECTRONICS)
