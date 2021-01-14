@@ -22,9 +22,8 @@ The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W
 |  Module: Beamexpander  | - | ??€  | [Beamexpander](../../CAD/ASSEMBLY_CUBE_Beamexpander)  | 1|
 |  Module: Cylindrical Lens  | - | ??€  | [Cylindrical Lens](../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL)  | 1|
 |  Module: Kinematic Mirror 45°  | - | ??€  | [Kinematic Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 1|
-|  Module: Objective Lens  | - | ??€  | [Objective Lens](../../CAD/ASSEMBLY_CUBE_Lens)  | 1|
+|  Module: Objective Lens  | - | ??€  | [Objective Lens](../../CAD/ASSEMBLY_CUBE_Lens)  | 2|
 |  Module: Sample-Stage | -  | ?? €  | [S-Stage](../../CAD/ASSEMBLY_CUBE_S-STAGE_v2.1)  | 1|
-|  Module: Z-Stage | -  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_objective)  | 1|
 |  Module: Raspberry Camera  | - | ??€  | [RaspiCam](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 1|
 
 ### <img src="./IMAGES/P.png" width="40"> 3D-printing

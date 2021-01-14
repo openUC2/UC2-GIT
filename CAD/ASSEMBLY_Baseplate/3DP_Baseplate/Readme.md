@@ -1,7 +1,7 @@
 ## 3D-printed Baseplate
-Here you find the guidelines for 3D-printing the baseplate puzzles. For general information about baseplates look [here](../). For Assembly guidelines look [here](../#-assembly-tutorial-with-images).
+Here you find the guidelines for 3D-printing the baseplate puzzles. For general information about baseplates look [here](../). For Assembly guidelines look [here](../ASSEMBLY_Baseplate#-assembly).
 
-([TUT04 of TUTORIALS](../../TUTORIALS))
+([TUT04 of TUTORIALS](../../../TUTORIALS))
 
 The baseplate puzzles are produced using injection moulding (IM) but it is also possible to 3D print (3DP) them. The IM and 3DP puzzles are compatible.  
 However, the size of the 3DP puzzles may vary between different printers and filaments. It is therefore advisable to calibrate the baseplate with your printer.
@@ -18,7 +18,7 @@ The size of the 3DP puzzles may vary between different printers and filaments. H
 <img src="../IMAGES/TUT_Baseplate_05.jpg" width="300">
 </p>
 
-2. Find which pair of puzzle connectors fit best together. 
+2. Find which pair of puzzle connectors fit best together.
 <p align="center">
 <img src="../IMAGES/TUT_Baseplate_06.jpg" width="300">
 </p>
@@ -40,7 +40,7 @@ The size of the 3DP puzzles may vary between different printers and filaments. H
 
 6. Open the Baseplate puzzle on [Thingiverse](https://www.thingiverse.com/thing:4712377) using their Customizer and insert the offsets you found using the calibrator.
 <p align="center">
-<img src="../IMAGES/TUT_Baseplate_Customiser.JPG" width="700">
+<img src="../IMAGES/TUT_Baseplate_Customiser.JPG" width="900">
 </p>
 
 7. Generate an STL-file for the Baseplate that will work best with your printer. To make sure it works, firstly print only two baseplates and check if the puzzles connect firmly. For the holes, there is more tolerance.
@@ -48,7 +48,7 @@ The size of the 3DP puzzles may vary between different printers and filaments. H
 <img src="../IMAGES/TUT_Baseplate_09.jpg" width="300">
 </p>
 
-8. Next: [Assemble the baseplate with magnets](../#-assembly-tutorial-with-images)
+8. Next: [Assemble the baseplate with magnets](../ASSEMBLY_Baseplate#-assembly)
 
 
 ### Adapting the baseplate
