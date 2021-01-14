@@ -1,5 +1,5 @@
 ## 3D-printed Baseplate
-Here you find the guidelines for 3D-printing the baseplate puzzles. For general information about baseplates look [here](../). For Assembly guidelines look [here](../ASSEMBLY_Baseplate#-assembly).
+Here you find the guidelines for 3D-printing the baseplate puzzles. For general information about baseplates look [here](../). For Assembly guidelines look [here](../#-assembly).
 
 ([TUT04 of TUTORIALS](../../../TUTORIALS))
 
@@ -48,7 +48,7 @@ The size of the 3DP puzzles may vary between different printers and filaments. H
 <img src="../IMAGES/TUT_Baseplate_09.jpg" width="300">
 </p>
 
-8. Next: [Assemble the baseplate with magnets](../ASSEMBLY_Baseplate#-assembly)
+8. Next: [Assemble the baseplate with magnets](../#-assembly)
 
 
 ### Adapting the baseplate
