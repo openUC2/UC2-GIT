@@ -17,7 +17,9 @@ The 3D-printed cube is in the next picture. The body and the lid are held togeth
 <img src="./IMAGES/Assembly_Cube_empty_1x1_withBase_v3_04.png" width=200>
 </p>
 
-The 3D-printed baseplate puzzles are fully compatible with both types of cubes and with the IM puzzles. It is important to pay attention to calibration of your printer according to the guide in the [baseplate CAD page](../ASSEMBLY_Baseplate). There you also find general information on building a setup from Cubes and Basepate puzzles.
+The 3D-printed baseplate puzzles are fully compatible with both types of cubes and with the IM puzzles. It is important to pay attention to calibration of your printer according to the guide in the [baseplate CAD page](../ASSEMBLY_Baseplate). There you also find general information on building a setup from Cubes and Baseplate puzzles.
+
+## Parts
 
 The basic building unit always consists of 3 components - two parts of a cube that close around an insert and a baseplate. The actual architecture of the Cube depends on the production method:
 
@@ -53,72 +55,75 @@ The details about the size and other properties of the basic building block is f
 
 ## [<img src="./IMAGES/P.png" width="40">3D Printing](./STL)
 
+## <img src="./IMAGES/A.png" width="40">Assembly
+([TUT02 of TUTORIALS](../TUTORIALS))
+
 ### <img src="./IMAGES/A.png" width="40">Assembly Video Tutorial
     This tutorial needs an update!
 
 [![UC2 YouSeeToo - How to assemble the base-cube?](./IMAGES/UC2_Assembly_BaseCube.png)](https://www.youtube.com/watch?v=zAMedY0mWKA)
 
-## <img src="./IMAGES/A.png" width="40">Assembly Tutorial with images
-    This tutorial needs an update!
-
-([TUT02 of TUTORIALS](../TUTORIALS))
-### OLD VERSION!!! Assembly Tutorial with images (Cube v0)
-      This section needs a update!
+## <img src="./IMAGES/A.png" width="40">Assembly Tutorial with images - IM Cube
 
 1. All parts for this model
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount1.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_IM_01.jpg" width="300">
 </p>
 
-2. Widen the holes to <~5.9mm with a drillin-tool
+2. The two halves of the cube fit together without further screws or other parts. Ideally, take each half in one hand and align the ends of the edges of one part into the holes on the other one. Make sure that none of the is sticking in a wrong direction. Then press them firmly together.
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount2.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_IM_02.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_IM_03.jpg" width="300">
 </p>
 
-3. Insert the lens inside the part (don't touch it!)
+3. Done!
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount3.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_IM_04.jpg" width="300">
 </p>
 
-4. Add the fixation ring
+## <img src="./IMAGES/A.png" width="40">Assembly Tutorial with images - 3DP Cube
+
+1. All parts for this model
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount5.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_01.jpg" width="300">
 </p>
 
-5. Fix the ring so that the lens is not loose - don't touch the lens!
+2. When building a sandwich-like setup, you will need to connect the cube to a baseplate on both sides.
+If you're going to build a flat setup, you may skip to step #5.  
+Insert the M3×8 screws into the Cube-Body.
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount6.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_02.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_03.jpg" width="300">
 </p>
 
-6. Insert rods inside the cube
+3. Insert the M5×8 screws into the Cube-Body. In our experience, three are optimal. Distribute the over the area, don't put them all next to each other. 
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount8.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_04.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_05.jpg" width="300">
 </p>
 
-7. Mount the lens on the rods
+4. Make sure they are not screwed in too much, otherwise they might get in the way of the insert inside the cube. This can be adjusted later.
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount9.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_06.jpg" width="300">
 </p>
 
-8. Fasten the rods
+5. Insert the M5×8 screws into the Cube-Body. In our experience, three are optimal. Distribute the over the area, don't put them all next to each other. Make sure they are not screwed in too much, otherwise they might get in the way of the insert inside the cube. This can be adjusted later.
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount10.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_08.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_09.jpg" width="300">
 </p>
 
-9. Add the lid to the cube and screw it
+6. Close the cube with the lid and attach it using four M3×12 screws. Place an insert inside before this.
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount11.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_10.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_11.jpg" width="300">
 </p>
 
-10. Check if it's tilting - if so: Align screws!
+7. Done - the assembled cube has screws and the M5 pin-screws on both sides.
 <p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount12.jpg" width="300">
+<img src="./IMAGES/UC2_Tut_Base_3DP_12.jpg" width="300">
 </p>
 
-11. Done!
-<p align="center">
-<img src="./IMAGES/UC2_Tut_Lensmount13.jpg" width="300">
-</p>
 
 ## <img src="./IMAGES/L.png" width="40">Electronics
 The Arduino/ESP32 can be introduced with hot-glue or a rubber band, for parts with motors or LEDs. Find out more in the [ELECTRONICS](../../ELECTRONICS) section.

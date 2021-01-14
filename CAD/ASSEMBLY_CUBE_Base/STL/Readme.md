@@ -40,7 +40,7 @@ For general advice on 3D printing, have a look in the [TUTORIALS](../../../TUTOR
 1. Next: [🢂 Assembly](../#assembly-video-tutorial)
 
 ### Video Tutorial
-A quick printing tutorial can be found here:
+A quick printing tutorial can be found here (Note: the Video shows a UC2_v2 cube):
 [![UC2 YouSeeToo - How to print the base-cube?](./IMAGES/CURA_1.png)](https://www.youtube.com/watch?v=SblqYJYXe4k&feature=youtu.be)
 
 ## Confusion about versions

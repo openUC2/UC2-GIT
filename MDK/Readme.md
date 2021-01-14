@@ -12,6 +12,8 @@ The UC2 framework requires the introduction of several new concepts. These terms
 
 The Names can be found in the chart below (Fig 1). The chart also represents the logical structure of building a setup using UC2 elements.
 
+The scheme describes the structure in which the toolbox is designed, therefore its explaining the naming convention of the design files (Inventor, openSCAD). There are a few differences between that and the repository CAD folder - those are noted in the table below.
+
 <p align=center>
 <img src="./IMAGES/MDK.jpg" width=600>
 <br> <em>Fig. 1: Modular Developer Kit chart</em>
@@ -19,11 +21,11 @@ The Names can be found in the chart below (Fig 1). The chart also represents the
 
 Name | Description
 :---:|:---:
-**CUBE (Base)** | The **BASE_puzzle pieces**, the basic units, are joined into the **BASEPLATE** (“skeleton” of the setups). The Baseplate can have any shape any size, depending on how many puzzles you use and how you put them together. It allows you to build setups in three dimensions when you 'sandwich' the layers of cubes and baseplates. This is the frame and backplane of the UC2 project, determining the size and layout of the optical system. 3D-printed UC2 modules attach to the square baseplate positions using ball-magnets and ferro-magnetic screws. The injection moulded cubes attach via their lego-like pins. Find the details of the baseplates on their [CAD page](../CAD/ASSEMBLY_Baseplate).
-**CUBE (IM)** | The injection moulded (IM) is a half of the cube. The **ASSEMBLY CUBE (empty)** cube is composed of these two identical halves and can be easily assembled by their press-fit mechanism. The assembled IM cube has two sides with eight lego-like pins each to attach to the baseplate.
+**CUBE (Baseplate)** | The **BASE puzzle pieces**, the basic units, are joined into the **BASEPLATE** (“skeleton” of the setups). The Baseplate can have any shape any size, depending on how many puzzles you use and how you put them together. It allows you to build setups in three dimensions when you 'sandwich' the layers of cubes and baseplates. This is the frame and backplane of the UC2 project, determining the size and layout of the optical system. 3D-printed UC2 modules attach to the square baseplate positions using ball-magnets and ferro-magnetic screws. The injection moulded cubes attach via their lego-like pins. Find the details of the baseplates on their [CAD page](../CAD/ASSEMBLY_Baseplate). *(Git: ASSEMBLY_Baseplate)*
+**CUBE (IM)** | The injection moulded (IM) is a half of the cube. The **ASSEMBLY CUBE (empty)** cube is composed of these two identical halves and can be easily assembled by their press-fit mechanism. The assembled IM cube has two sides with eight lego-like pins each to attach to the baseplate. *(Git: ASSEMBLY_CUBE_BASE)*
 **CUBE (Body)** | Alternatively, the whole cube can also be 3D-printed. Then the **ASSEMBLY CUBE (empty)** consist of the body- and the lid-part which get screwed together. Screws can be inserted on all sides in order to build setups in three dimensions.
 **CUBE (Lid)** | The lid closes the 3D-printed cube when attached by screw to the body. It can carry electronics like microcontrollers (e.g. Arduino, ESP32). By adding wires to the screws closing the lid electronic components can be supplied with electrical power.
-**ASSEMBLY CUBE (empty)** | The raw cube - the basic building block comes in two versions: 3D-printed and injection moulded. Both of them have the same dimensions and symmetry, so the insert fit them all. The similarities and differences of the two systems are explained under this table in the *UC2 version history section*. Note that the MDK only details the specification of the Cube and Base to the extent that it is necessary for module developers to develop modules. Find the details of the Cube on its [CAD page](../CAD/ASSEMBLY_CUBE_Base).
+**ASSEMBLY CUBE (empty)** | The raw cube - the basic building block comes in two versions: 3D-printed and injection moulded. Both of them have the same dimensions and symmetry, so the insert fit them all. The similarities and differences of the two systems are explained under this table in the *UC2 version history section*. Note that the MDK only details the specification of the Cube and Base to the extent that it is necessary for module developers to develop modules. Find the details of the Cube on its [CAD page](../CAD/ASSEMBLY_CUBE_Base). *(Git: ASSEMBLY_CUBE_BASE)*
 **CUBE INSERTS** | Cube Inserts are physical components that implement various functions into the system by adapting **EXTERNAL PARTS** to the **ASSEMBLY CUBE INSERT**. They fit the inner dimensions of the cube. There are two types of inserts: perpendicular (to the optical axis) and diagonal. They serve as holders for various components like  lenses, mirrors, cameras, filters, and other components demanded by the application. Existing inserts can be adjusted to fit specific parts (i.e. lens diameters).
 **EXTERNAL PARTS** | Everything which is not part of the UC2-system or can not be 3D printed is termed as an EXTERNAL PART. This can be commercially available parts like objectives, lenses, LEDs, etc., but also 3D-printed parts from other projects (e.g. openflexure stage).
 **ASSEMBLY CUBE (insert)** | This is the combination of the ASSEMBLY CUBE (empty) and a CUBE INSERTS. Since the ASSEMBLY CUBEs are the building blocks of a UC2 setup, adding features is accomplished by hardware plugins also called CUBE INSERTS.
@@ -129,6 +131,24 @@ So far it’s designed the way, that ball-magnets are pressed fit into the 3D pr
 *   Additional holes for M6 screws to adapt to e.g. metallic (bread) boards (e.g. Thorlabs grid). Distance is 50-50mm
 *   Module finds its place on a grid
 *   The system can be built in the 3<sup>rd</sup> dimension by sandwiching layers of cubes and baseplates
+
+### Building a UC2_v3 setup
+* The 3DP baseplate puzzles (pink) and IM baseplate puzzles (black) can be combined and one large baseplate can be build using both types.
+<p align="center">
+<img src="./IMAGES/IM_3DP_01.jpg" width="300">
+<img src="./IMAGES/IM_3DP_02.jpg" width="300">
+</p>
+
+* The 3DP baseplate puzzles (black) and IM Cube (right) can be used in parallel in the same setup. The IM Cube connects to the baseplate via eight lego-like pins on top and bottom side. The 3DP Cube
+<p align="center">
+<img src="./IMAGES/IM_3DP_03.jpg" width="300">
+</p>
+
+* The baseplate puzzle can be build into a baseplate of arbitrary shape and size in 2D. Layers of baseplates and cubes can be sandwiched into a three-dimensional setup.
+<p align="center">
+<img src="./IMAGES/IM_3DP_04.jpg" height="300">
+</p>
+
 
 ### Good Practice to transfer an optical system to UC2
 

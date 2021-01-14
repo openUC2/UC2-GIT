@@ -2,9 +2,9 @@
 
 /* [User Parameters] */
 //screw offset
-scr_offset = 0; //[-0.1:0.1:0.3]
+scr_offset = 0; //[-0.1:0.1:0.35]
 //magnet offset
-mag_offset = 0; //[-0.1:0.1:0.3]
+mag_offset = 0; //[-0.1:0.1:0.35]
 //male puzzle offset
 puzzle_m_offset = 0; //[0:0.1:0.4]
 //female puzzle offset

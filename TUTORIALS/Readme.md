@@ -52,8 +52,8 @@ Even if you don't aim for research application of the setups -handle the optical
 Tutorials take you by hand through your beginnings with UC2. It's useful to get familiar with the cubes before starting building a more complex system.  
 Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie_camera: YouTube Video
 
-* TUT01: Print your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base_/STL) [:movie_camera:](https://www.youtube.com/watch?v=SblqYJYXe4k&feature=youtu.be)
-* TUT02: Assemble your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base#-assembly-tutorial-with-images) [:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA&t=1s)
+* TUT01: Print your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base/STL) [:movie_camera:](https://www.youtube.com/watch?v=SblqYJYXe4k&feature=youtu.be)
+* TUT02: Assemble your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base#assembly) [:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA&t=1s)
 * TUT03: Give your first cube a function - lens as a magnifying glass [:feet:](../CAD/ASSEMBLY_CUBE_Lens/TUT03)
 * TUT04: Build your first baseplate [:feet:](../CAD/ASSEMBLY_Baseplate)[:movie_camera:](https://www.youtube.com/watch?v=qxA-4V7BRI0)
 * TUT05: Build your first optical setup - a telescope [:feet:](../APPLICATIONS/APP_SIMPLE-Telescope)
