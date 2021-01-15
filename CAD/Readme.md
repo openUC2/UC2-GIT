@@ -49,7 +49,7 @@ Link             |  Image of the part
 [Beam splitter](./ASSEMBLY_CUBE_Beamsplitter)  |  [<img src="./ASSEMBLY_CUBE_Beamsplitter/IMAGES/Assembly_Cube_Beamsplitter_v3.png" width=200>](./ASSEMBLY_CUBE_Beamsplitter)
 [Dichroic Beam splitter](./ASSEMBLY_CUBE_Dichroic_Beamsplitter) | [<img src="./ASSEMBLY_CUBE_Dichroic_Beamsplitter/IMAGES/Assembly_Cube_Dichroic_Beamsplitter_25x35_v3.png" width=200>](./ASSEMBLY_CUBE_Dichroic_Beamsplitter)
 [Eyepiece + Smartphone](./ASSEMBLY_CUBE_Eyepiece) | [<img src="./ASSEMBLY_CUBE_Eyepiece/IMAGES/Assembly_Cube_Eyepiece_v3_01.png" width=200>](./ASSEMBLY_CUBE_Eyepiece)
-[Eyeball Cube ](./ASSEMBLY_CUBE_Eyeball) | [<img src="./ASSEMBLY_CUBE_Eyeball/IMAGES/Assembly_Cube_Eyeball_v2_01.png" width=200>](./ASSEMBLY_CUBE_Eyeball)
+[Eyeball Cube ](./ASSEMBLY_CUBE_Eyeball) | [<img src="./ASSEMBLY_CUBE_Eyeball/IMAGES/Assembly_Cube_Eyeball_v3.png" width=200>](./ASSEMBLY_CUBE_Eyeball)
 [Laser](./ASSEMBLY_CUBE_Laser) | [<img src="./ASSEMBLY_CUBE_Laser/IMAGES/Assembly_Cube_Laser_v3.png" width=200>](./ASSEMBLY_CUBE_Laser)
 [LED Matrix](./ASSEMBLY_CUBE_LED_Matrix) | [<img src="./ASSEMBLY_CUBE_LED_Matrix/IMAGES/Assembly_Cube_LED_Matrix_v0.png" width=200>](./ASSEMBLY_CUBE_LED_Matrix)
 [LED Star](./ASSEMBLY_CUBE_LED) | [<img src="./ASSEMBLY_CUBE_LED/IMAGES/Assembly_Cube_LED_holder_v3.png" width=200>](./ASSEMBLY_CUBE_LED)

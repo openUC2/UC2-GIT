@@ -7,12 +7,12 @@ To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netl
 It can serve as an aid for demonstrations and experiments done with the [SimpleBOX](../../TheBOX/SimpleBOX) or [CourseBOX](../../TheBOX/CourseBOX).
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Eyeball_v2_01.png" width="300">
+<img src="./IMAGES/Assembly_Cube_Eyeball_v3.png" width="300">
 </p>
 
 The lens holder holds a lens in a fixed distance from the back of the "eye". This distance equals the focal length of this lens. Therefore this simplified "eye" just focusses any image from infinity on the back side. It works best when printed using white material.
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_Eyeball_v2_02.png" width="300">
+<img src="./IMAGES/Assembly_Cube_Eyeball_v3_2.png" width="300">
 </p>
 
 You can nicely see the magnification effect of a telescope when you "look" out of the window using the Eyeball cube alone and then placing in [behind a telescope](../../APPLICATIONS/APP_SIMPLE-Telescope).
@@ -23,7 +23,7 @@ You can nicely see the magnification effect of a telescope when you "look" out o
 
 ## Properties
 * design is derived from the base-cube
-* in principle, any short *f'* can be used, if the distance is adjusted for it
+* in principle, any short *f'* can be used, if the distance is adjusted for it. The design is optimised for the lens listed in Additional parts
 
 ## Parts
 The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
@@ -44,11 +44,36 @@ The Cube consists of the following components.
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 1× Lens, *f' = 25 mm**
+* 1× Lens, *f' = 26,5 mm*, *d = 18 mm*, Artikel 551.OA.51 [🢂](https://astromedia.ch/produkt/achromat-265mm-o-180mm/)
+* 2× M3×8 screws [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 * Add the lens to the Lens Insert
-* Glue the Lens insert to the back of the eye
+* Attach the two parts of the insert together using two M3×8 screws
 * Place the inserts inside the Cube
 * Close the cube accordingly (IM/3DP)
 * Done!
+
+
+### Tutorial with images
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/Tut_EyeCube_01.jpg" width="300">
+</p>
+
+2. Insert the lens into its position in the holder
+<p align="center">
+<img src="./IMAGES/Tut_EyeCube_02.jpg" width="300">
+</p>
+
+3. Attach the two parts of the insert together using two M3×8 screws.
+<p align="center">
+<img src="./IMAGES/Tut_EyeCube_03.jpg" width="300">
+<img src="./IMAGES/Tut_EyeCube_04.jpg" width="300">
+</p>
+
+3. Place the insert inside the cube and close the cube accordingly - done!
+<p align="center">
+<img src="./IMAGES/Tut_EyeCube_05.jpg" width="300">
+<img src="./IMAGES/Tut_EyeCube_06.jpg" width="300">
+</p>
