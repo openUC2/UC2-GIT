@@ -37,12 +37,12 @@ You can generate a holder for any arbitrary lens following the [Thingiverse Cust
 * Close the cube accordingly (IM/3DP)
 * Done!
 
-### Tutorial with images
-:grey_exclamation: This tutorial shows a UC2_v2 cube but the assembly of the insert is still the same. For assembly of the cube (IM/3DP) check the [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base).
+### Tutorial with images: IM Cube
 
 1. All parts for this model
 <p align="center">
 <img src="../IMAGES/SCAD_Lens_Holder_01.jpg" width="300">
+<img src="../IMAGES/SCAD_Lens_Holder_011.jpg" width="300">
 </p>
 
 2. Put the lens inside the holder. When using plano-convex lenses, put the plano-surface in the holder with the convex surface in the direction where the clamp will be. That way, your lens will be completely sunken in the holder and therefore more protected from being scratched.
@@ -50,17 +50,60 @@ You can generate a holder for any arbitrary lens following the [Thingiverse Cust
 <img src="../IMAGES/SCAD_Lens_Holder_02.jpg" width="300">
 </p>
 
-3. Put the clamp on the rim of the holder a press it firmly. The lens shouldn't be able to move when you're done. Be careful not to touch the surface of the lens!
+3. The rim and the clamp are slightly elliptical to lock the lens inside. Put the clamp on the rim of the holder with the beak of the clamp pointing to the one mark (|) on the holder (right side in the picture); now the axes if the ellipses are matching. Then turn the clamp counter clockwise until the beak is pointing towards the two marks (||) on the holder (top side in the picture); now the axes if the ellipses are perpendicular to each other. Press the clamp firmly onto the rim of the holder.  The lens shouldn't be able to move when you're done. Be careful not to touch the surface of the lens!
 <p align="center">
 <img src="../IMAGES/SCAD_Lens_Holder_03.jpg" width="300">
 <img src="../IMAGES/SCAD_Lens_Holder_04.jpg" width="300">
+<img src="../IMAGES/SCAD_Lens_Holder_05.jpg" width="300">
 </p>
 
 4. Insert the insert into the Cube, add screws - Done!
 <p align="center">
-<img src="../IMAGES/SCAD_Lens_Holder_05.jpg" width="300">
 <img src="../IMAGES/SCAD_Lens_Holder_06.jpg" width="300">
 <img src="../IMAGES/SCAD_Lens_Holder_07.jpg" width="300">
+</p>
+
+
+### Tutorial with images: 3DP Cube
+
+1. All parts for this model
+<p align="center">
+<img src="../IMAGES/SCAD_Lens_Holder_011.jpg" width="300">
+</p>
+
+2. Put the lens inside the holder. When using plano-convex lenses, put the plano-surface in the holder with the convex surface in the direction where the clamp will be. That way, your lens will be completely sunken in the holder and therefore more protected from being scratched.
+<p align="center">
+<img src="../IMAGES/SCAD_Lens_Holder_02.jpg" width="300">
+</p>
+
+3. The rim and the clamp are slightly elliptical to lock the lens inside. Put the clamp on the rim of the holder with the beak of the clamp pointing to the one mark (|) on the holder (right side in the picture); now the axes if the ellipses are matching. Then turn the clamp counter clockwise until the beak is pointing towards the two marks (||) on the holder (top side in the picture); now the axes if the ellipses are perpendicular to each other. Press the clamp firmly onto the rim of the holder.  The lens shouldn't be able to move when you're done. Be careful not to touch the surface of the lens!
+<p align="center">
+<img src="../IMAGES/SCAD_Lens_Holder_03.jpg" width="300">
+<img src="../IMAGES/SCAD_Lens_Holder_04.jpg" width="300">
+<img src="../IMAGES/SCAD_Lens_Holder_05.jpg" width="300">
+</p>
+
+4. Insert the M5×8 screws into the Cube-Body. In our experience, three are optimal. Distribute the over the area, don't put them all next to each other.
+<p align="center">
+<img src="../../ASSEMBLY_CUBE_Base/IMAGES/UC2_Tut_Base_3DP_04.jpg" width="300">
+<img src="../../ASSEMBLY_CUBE_Base/IMAGES/UC2_Tut_Base_3DP_05.jpg" width="300">
+</p>
+
+5. Make sure they are not screwed in too much, otherwise they might get in the way of the insert inside the cube. This can be adjusted later.
+<p align="center">
+<img src="../../ASSEMBLY_CUBE_Base/IMAGES/UC2_Tut_Base_3DP_06.jpg" width="300">
+</p>
+
+6. Insert the M5×8 screws into the Cube-Body. In our experience, three are optimal. Distribute the over the area, don't put them all next to each other. Make sure they are not screwed in too much, otherwise they might get in the way of the insert inside the cube. This can be adjusted later.
+<p align="center">
+<img src="../../ASSEMBLY_CUBE_Base/IMAGES/UC2_Tut_Base_3DP_08.jpg" width="300">
+<img src="../../ASSEMBLY_CUBE_Base/IMAGES/UC2_Tut_Base_3DP_09.jpg" width="300">
+</p>
+
+7. Insert the insert into the Cube, close it using four M3×12 screws - Done!
+<p align="center">
+<img src="../IMAGES/SCAD_Lens_Holder_061.jpg" width="300">
+<img src="../IMAGES/SCAD_Lens_Holder_071.jpg" width="300">
 </p>
 
 ## Lens as a magnifying glass

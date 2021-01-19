@@ -52,26 +52,29 @@ The Cube consists of the following components.
 * Done!
 
 ### Tutorial with images
-:grey_exclamation: This tutorial shows a UC2_v2 cube but the assembly of the insert is still similar. For assembly of the cube (IM/3DP) check the [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base).
 
-1. All parts for this model
+1. All parts for this model  
+For most applications you need to remove the lens of the RasPi camera. It is also advisable to use a longer cable (100 cm)
 <p align="center">
-<img src="./IMAGES/CUBE_RASPICAM0.jpg" width="300">
+<img src="./IMAGES/CUBE_RASPICAM01.jpg" width="300">
 </p>
 
-2. Remove the Lens of the raspberry pi camera using the tool which comes with it. Optional: Add a longer camera cable to it.
+2. Screw the two M2 through the insert from the back side. There are four holes but two screws are enough. Best, choose the position of the screws to hold the camera diagonally.
 <p align="center">
-<img src="./IMAGES/CUBE_RASPICAM1.jpg" width="300">
+<img src="./IMAGES/CUBE_RASPICAM02.jpg" width="300">
 </p>
 
-3. Add the camera to the insert using some M2 crews + nuts. Be careful and try not to destroy the camera! It's fragile.
+3. Turn the insert around and place the camera on it, fitting on the screws. Gently, by hand, tigthen the screws with two M2 nuts. Be careful not to destroy the camera! It's fragile.
 <p align="center">
-<img src="./IMAGES/CUBE_RASPICAM2.jpg" width="300">
+<img src="./IMAGES/CUBE_RASPICAM03.jpg" width="300">
+<img src="./IMAGES/CUBE_RASPICAM04.jpg" width="300">
+<img src="./IMAGES/CUBE_RASPICAM05.jpg" width="300">
 </p>
 
-4. Add the screws - Done!
+4. Place the insert into the Cube. Don't break the cable, make sure it leave the Cube through an open face. Close the Cube - Done!
 <p align="center">
-<img src="./IMAGES/CUBE_RASPICAM3.jpg" width="300">
+<img src="./IMAGES/CUBE_RASPICAM06.jpg" width="300">
+<img src="./IMAGES/CUBE_RASPICAM07.jpg" width="300">
 </p>
 
 ## Safety

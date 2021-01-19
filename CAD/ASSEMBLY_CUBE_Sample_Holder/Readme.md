@@ -114,8 +114,9 @@ Follow the instruction according to which sample holder you printed.
 
 
 ### Assembly - Sample Comb
-The assembly of this module is really simple - just connect the comb part to the Cube Lid using four M3×12 screws. You can also insert the screws directly in the comb part, but remember that then your sample holder will hold the sample lower than when using the lid.
+The assembly of this module is really simple - just insert the four M3×12 screws directly in the comb part connect the comb part. You will need to insert magnets into the baseplate in order to use this module.
 
 <p align="center">
 <img src="./IMAGES/Cube_Sampleholder_Comb.jpg" width="300">
+<img src="./IMAGES/Cube_Sampleholder_Comb01.jpg" width="300">
 </p>

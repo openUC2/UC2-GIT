@@ -10,7 +10,7 @@ eps=.002;
 
 a=34.4; //Edge length
 b=7.7; //Edge width
-c=3.775; //Chamfer
+c=3.625; //Chamfer
 
 crv=2; //Curvature
 scoff=4.9; //Screw offset from outside (cube width (49,8)-screw pitch(40))/2

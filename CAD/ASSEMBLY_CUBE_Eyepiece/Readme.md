@@ -47,21 +47,31 @@ The Cube consists of the following components.
 * Done!
 
 ### Tutorial with images
-    This tutorial needs an update!
 
 1. All parts for this model
 <p align="center">
-<img src="./IMAGES/CUBE_EYEPIECE_0.jpg" width="300">
+<img src="./IMAGES/CUBE_EYEPIECE_01.jpg" width="300">
 </p>
 
-2. Add the eyepiece to the spiral holder which auto-centers the optics inside the cube. Put the Insert into the cube and add all screws before fixing them.
+2. Insert the eyepiece into the Insert. It simply fits to its size.
 <p align="center">
-<img src="./IMAGES/CUBE_EYEPIECE_1.jpg" width="300">
+<img src="./IMAGES/CUBE_EYEPIECE_02.jpg" width="300">
 </p>
 
-3. Attach the smartphone holder using four M3×8 screws
+3. Place the insert inside the cube. Mind the correct orientation - the eyepiece has to 'look through' the two sides with pins, as shown in the picture.
 <p align="center">
-<img src="./IMAGES/Cube_Smartphone.jpg" width="300">
+<img src="./IMAGES/CUBE_EYEPIECE_03.jpg" width="300">
+</p>
+
+4. Close the cube accordingly. If you are not planning to use the Smartphone holder for some reason, you're done.
+<p align="center">
+<img src="./IMAGES/CUBE_EYEPIECE_04.jpg" width="300">
+</p>
+
+5. Attach the smartphone holder to the pins of the cube, so that the Smartphone will be then placed above the eye-end of the eyepiece.
+<p align="center">
+<img src="./IMAGES/CUBE_EYEPIECE_05.jpg" width="300">
+<img src="./IMAGES/CUBE_EYEPIECE_06.jpg" width="300">
 </p>
 
 ## Safety

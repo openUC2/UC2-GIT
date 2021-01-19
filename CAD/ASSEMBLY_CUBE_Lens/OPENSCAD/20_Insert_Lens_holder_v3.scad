@@ -7,8 +7,6 @@ lens_diameter = 25.4; //[9:0.01:42]
 lens_edge_thickness = 1.5; //[0.5:0.01:8]
 // Which part would you like to print?
 part = "first"; // [first:Both - Holder AND Clamp,second:Holder ONLY,third:Clamp ONLY]
-// Is this insert for a 3D printed cube or for a cube produced by injection molding?
-3D_printed_cube = "IM"; // [IM, 3Dprint]
 // Write the focal length of the lens that you will put in this holder. Input: number in millimetres, no units, add '-' for a negative lens. 
 focal_length = "f"; 
 
@@ -22,7 +20,7 @@ d = 53.8;
 h = lens_edge_thickness < 4.1 ? 5 : 5+(lens_edge_thickness-3); //holder height
 h1 = 3; //clamp rims height
 t = 1.5; //clamp ring thickness
-IM_offset = 3D_printed_cube == "3Dprint" ? 0 : 0.2;
+IM_offset = 0.2;
 
 print_part();
 
@@ -55,13 +53,16 @@ module lens_holder () {
                 cylinder(lens_edge_thickness+eps,d=lens_diameter+0.7, center = true); //rim to hold the lens
             }
         }
-            translate([0,-24,((h+h1-0.1)/2-2.45)]){
-                linear_extrude(height = 2) text(focal_length, size=5, font="Arial black:style=Regular",halign = "center", spacing=1);
-            }
+        translate([0,-24,((h+h1-0.1)/2-2.45)]){
+            linear_extrude(height = 2) text(focal_length, size=5, font="Arial black:style=Regular",halign = "center", spacing=1);
+            translate([(lens_diameter+2.9)/2+1,a/2-1,0]){cube([3,1,2+eps], center = true);}
+            translate([-1,(a+lens_diameter+2.9)/2+1,0]){cube([1,3,2+eps], center = true);}
+            translate([1,(a+lens_diameter+2.9)/2+1,0]){cube([1,3,2+eps], center = true);}
+        }
     }
     translate([0,0,(h+h1-0.1)/2]){  //rim for the clamp
         scale([1,1.03,1])difference(){
-                cylinder(h1+0.1,d=lens_diameter+2.9, center = true); //d2=lens_diameter+1.9, 
+                cylinder(h1+0.1,d=lens_diameter+2.9, center = true);  
                 cylinder(h1+0.1+eps,d=lens_diameter+0.7, center = true);
         }
     }
@@ -83,7 +84,6 @@ module lens_clamp() {
                 cylinder(h1+eps,d=lens_diameter-1, center = true);
                 }
             }
+        translate([(lens_diameter+4.9)/2,0,-t/2]){cylinder(t+h1,2,2,$fn=3);}
         }
     }
-
-

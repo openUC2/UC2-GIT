@@ -62,21 +62,22 @@ For any lens or round filter from ⌀9 mm to ⌀50 mm - using [OPENSCAD](./OPENS
 * Done!
 
 ### Tutorial with images (Spiral Lens Holder)
-    This tutorial needs an update!
 
 1. All parts for this model
 <p align="center">
-<img src="./IMAGES/CUBE_LENSHOLDER_0.jpg" width="300">
+<img src="./IMAGES/CUBE_LENSHOLDER_01.jpg" width="300">
 </p>
 
-2. Put the lens inside the Spiral lens adapter (it auto centers)
+2. Put the lens inside the triangular hole of the insert (it auto-centres)
 <p align="center">
-<img src="./IMAGES/CUBE_LENSHOLDER_1.jpg" width="300">
+<img src="./IMAGES/CUBE_LENSHOLDER_02.jpg" width="300">
+<img src="./IMAGES/CUBE_LENSHOLDER_03.jpg" width="300">
 </p>
 
-3. Insert the insert into the Cube, add screws - Done!
+3. Insert the insert into the Cube and close the Cube - Done!
 <p align="center">
-<img src="./IMAGES/CUBE_LENSHOLDER_2.jpg" width="300">
+<img src="./IMAGES/CUBE_LENSHOLDER_04.jpg" width="300">
+<img src="./IMAGES/CUBE_LENSHOLDER_05.jpg" width="300">
 </p>
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly of Fixed Lens Holder
@@ -87,7 +88,6 @@ For any lens or round filter from ⌀9 mm to ⌀50 mm - using [OPENSCAD](./OPENS
 * Done!
 
 ### Tutorial with images (Fixed Lens Holder)
-:grey_exclamation: This tutorial shows a UC2_v2 cube but the assembly of the insert is still the same. For assembly of the cube (IM/3DP) check the [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base).
 
 1. All parts for this model
 <p align="center">
@@ -99,21 +99,21 @@ For any lens or round filter from ⌀9 mm to ⌀50 mm - using [OPENSCAD](./OPENS
 <img src="./IMAGES/SCAD_Lens_Holder_02.jpg" width="300">
 </p>
 
-3. Put the clamp on the rim of the holder a press it firmly. The lens shouldn't be able to move when you're done. Be careful not to touch the surface of the lens!
+3. The rim and the clamp are slightly elliptical to lock the lens inside. Put the clamp on the rim of the holder with the beak of the clamp pointing to the one mark (|) on the holder (right side in the picture); now the axes if the ellipses are matching. Then turn the clamp counter clockwise until the beak is pointing towards the two marks (||) on the holder (top side in the picture); now the axes if the ellipses are perpendicular to each other. Press the clamp firmly onto the rim of the holder.  The lens shouldn't be able to move when you're done. Be careful not to touch the surface of the lens!
 <p align="center">
 <img src="./IMAGES/SCAD_Lens_Holder_03.jpg" width="300">
 <img src="./IMAGES/SCAD_Lens_Holder_04.jpg" width="300">
+<img src="./IMAGES/SCAD_Lens_Holder_05.jpg" width="300">
 </p>
-Using the holder for big lenses? It works pretty much the same:
+Using the holder for big lenses? It works even simpler, because it's just round:
 <p align="center">
 <img src="./IMAGES/Large_lens_holder_openscad_02.jpg" width="300">
 <img src="./IMAGES/Large_lens_holder_openscad_03.jpg" width="300">
 <img src="./IMAGES/Large_lens_holder_openscad_04.jpg" width="300">
 </p>
 
-4. Insert the insert into the Cube, add screws - Done!
+4. Insert the insert into the Cube, close the Cube - Done!
 <p align="center">
-<img src="./IMAGES/SCAD_Lens_Holder_05.jpg" width="300">
 <img src="./IMAGES/SCAD_Lens_Holder_06.jpg" width="300">
 <img src="./IMAGES/SCAD_Lens_Holder_07.jpg" width="300">
 </p>

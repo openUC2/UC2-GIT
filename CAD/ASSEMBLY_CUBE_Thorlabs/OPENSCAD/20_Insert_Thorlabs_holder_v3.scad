@@ -13,6 +13,7 @@ b = 33.6;
 c = 6.28;
 d = 53.8;
 h = 6;
+IM_offset = 0.2;
 //specific for this insert
 dh = 35; //center hole diameter
 dr = 5.42; //rod diameter
@@ -36,13 +37,13 @@ module insert_thorlabs(){
 
 module insert() {
     union() {   //basic insert design
-            cube([a,b,h], center=true);
-            cube([b,a,h], center=true);
+            cube([a,b+2*IM_offset,h], center=true);
+            cube([b+2*IM_offset,a,h], center=true);
             rotate(a=[0,0,45]){
-                cube([c,d,h], center=true);
+                cube([c,d+2*IM_offset,h], center=true);
             }
             rotate(a=[0,0,-45]){
-                cube([c,d,h], center=true);
+                cube([c,d+2*IM_offset,h], center=true);
             }
         }
 }

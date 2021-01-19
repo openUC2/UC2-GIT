@@ -7,8 +7,6 @@ lens_diameter = 48.55; //[40:0.01:50]
 lens_edge_thickness = 2.33; //[0.5:0.01:10]
 // Which part would you like to print?
 part = "first"; // [first:Both - Holder AND Clamp,second:Holder ONLY,third:Clamp ONLY]
-// Is this insert for a 3D printed cube or for a cube produced by injection molding?
-3D_printed_cube = "IM"; // [IM, 3Dprint]
 
 /* [Hiden] */
 $fn = 80;
@@ -20,7 +18,7 @@ d = 53.8;
 h = lens_edge_thickness < 4.1 ? 10 : lens_edge_thickness+6; //holder height
 h1 = h - 1.5 - lens_edge_thickness; //clamp rims height
 t = 1.5; //clamp ring thickness
-IM_offset = 3D_printed_cube == "3Dprint" ? 0 : 0.2;
+IM_offset = 0.2;
 
 print_part();
 

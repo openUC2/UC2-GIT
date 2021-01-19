@@ -53,45 +53,49 @@ The Cube consists of the following components.
 
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
-* Insert the 4 screws in the Laser Mount Adapter and screw them thus far so the they are not visible in the inner hole
-* Insert the laser pointer inside the adapter
-* Fix the laser by precisely rotate all 4 screws so that the laser pointer is centered
-* Place the insert/inserts with the laser inside the cube
+* Insert the 4 screws in the insert and screw them thus far so the they are not visible in the inner hole
+* Insert the inserts into the Cube
 * Close the cube accordingly (IM/3DP)
+* Fix the laser centred in the Cube
+* Add the laser switch clamp
 * Done!
 * Only insert the batteries before you use the module!
 
 ### Tutorial with images
-    This tutorial needs an update!
 
-Don't insert batteries in the laser yet!!
+Don't insert batteries in the laser yet!!!
 
 1. All parts for this model
 <p align="center">
-<img src="./IMAGES/CUBE_LASER_0.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_01.jpg" width="300">
 </p>
 
-2. Add the button clamp to the Laser to keep the laser on in CW-mode. Put the laser inside the two Laser-inserts. Adding 2 scews to the insert makes it possible to decenter the laser in X/Y.
+2. Add two of the screws to one insert, opposite of each other. Screw them in enough to stick a little into the central hole but not to block it. Do the same for both inserts.
 <p align="center">
-<img src="./IMAGES/CUBE_LASER_1.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_02.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_03.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_04.jpg" width="300">
 </p>
 
-3. Mount Laser inside the inserts in the cube
+3. Place both inserts inside the Cube. The two pairs of screws has to be perpendicular to each other as shown in the picture. Then close the Cube.
 <p align="center">
-<img src="./IMAGES/CUBE_LASER_2.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_05.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_06.jpg" width="300">
 </p>
 
-4. Align the Laser in X/Y using the two screws
+4. Put the laser into the inserts. The front of the laser should be between the screws that fix it horizontally and the body should be fixed vertically - with respect to the cube. This is then optimal for alignment. Fix the laser roughly in the centre of the Cube.
 <p align="center">
-<img src="./IMAGES/CUBE_LASER_3.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_07.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_08.jpg" width="300">
 </p>
 
-5. Add the lid and the screws - Done!
+5. Add the switch clamp to the laser.
 <p align="center">
-<img src="./IMAGES/CUBE_LASER_4.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_09.jpg" width="300">
+<img src="./IMAGES/CUBE_LASER_10.jpg" width="300">
 </p>
 
-6. Only insert the batteries before you use the module!
+6. The assembly is done! But only insert the batteries before you use the module!
 
 ## Safety
 Never (!) look into the laser pointer! It will damage your eye immediately!
