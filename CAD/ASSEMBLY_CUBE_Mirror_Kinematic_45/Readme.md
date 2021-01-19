@@ -66,57 +66,60 @@ The Cube consists of the following components.
 * Done!
 
 ### Tutorial with images
-    This tutorial needs and update!
-
-**Note:**  
-The previous version of this module used a metal plate instead of the 3D printed plate. However, the metal plates are not generally available (We had them custom cut in a mechanical workshop). Other than that, the assembly is still the same - have a look in step 8.  
-The metal plates limit the play between the magnets and screws, so it might be a more stable solution.
-
 1. All parts for this model
 <p align="center">
-<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_0.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_01.jpg" width="300">
 </p>
 
-2. Add M3 screws to the insert
+2. Assemble the base of the kinematic mirror. Attach the bottom part to the top one using two M3×12 screws.
 <p align="center">
-<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_1.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_02.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_03.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_04.jpg" width="300">
 </p>
 
-3. Add Ballmagnets to the screws
+3. Assemble the kinematic screws. Screw a M3×18 screw all the way into the printed head. In case the printed head is too loose, you may fix it using an M3 nut. Do this for all three screws.
 <p align="center">
-<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_2.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_05.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_06.jpg" width="300">
 </p>
 
-4. Add the magnetic plate to the Ballmagnets
+4. Insert the kinematic screws into the base. They should be about half the way through.
 <p align="center">
-<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_3.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_07.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_08.jpg" width="300">
 </p>
 
-5. Glue the mirror onto the magnetic plate
+5. assemble the mirror plate. Press the magnets into the holes using pliers. Be careful to put magnets into the right holes - they have to match the screws of the base.
 <p align="center">
-<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_4.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_09.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_10.jpg" width="300">
 </p>
 
-6. Put the insert in the cube
+6. Stick the mirror to the plate.
 <p align="center">
-<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_5.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_11.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_12.jpg" width="300">
 </p>
 
-7. Add the M3 Screws - Done.
+7. Attach the mirror plate to the base via their screws and magnets.
 <p align="center">
-<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_6.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_13.jpg" width="300">
 </p>
 
-8. Here you see the 3D printed plates for the toy mirror and for 1" mirror. Simply press the ballmagnets into the holes of the plate using pliers.
+8. Here you see the 3D printed plates for the toy mirror and for 1" mirror. Both of them are found among the STL files.  
+	**Note:**  
+	The previous version of this module used a metal plate instead of the 3D printed plate. However, the metal plates are not generally available (We had them custom cut in a mechanical workshop).   
+	The metal plates limit the play between the magnets and screws, so it might be a more stable solution.
 <p align="center">
 <img src="./IMAGES/Mirrormount_plates_01.jpg" width="300">
 <img src="./IMAGES/Mirrormount_plates_02.jpg" width="300">
 </p>
 
-9. In the end it should look like this:  
+9. Place the insert inside a Cube and close it - done!
 <p align="center">
-<img src="./IMAGES/Kinematic_Mirror_45_w_plate_01.jpg" width="300">
-<img src="./IMAGES/Kinematic_Mirror_45_w_plate_02.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_14.jpg" width="300">
+<img src="./IMAGES/CUBE_KINEMATIC_MIRRORMOUNT_45_15.jpg" width="300">
 </p>
 
 ## Safety

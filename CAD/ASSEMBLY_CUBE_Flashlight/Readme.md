@@ -40,5 +40,10 @@ The Cube consists of the following components.
 * Close the cube accordingly (IM/3DP)
 * Done!
 
+In the end it should look like this:
+<p align="center">
+<img src="./IMAGES/flashlight.jpg" width="300">
+</p>
+
 ## <img src="./IMAGES/Y.png" height="40">Safety
 Don't shine the light in your or anybody's eyes - it's a strong light source!
