@@ -3,7 +3,7 @@
 This is the repository for the Smartphone Microscope.
 
 <p align="center">
-<img src="./IMAGES/Application_smartphone_microscope_v3.png" width="500">
+<img src="./IMAGES/Application_smartphone_microscope_Zobjective_v3.png" width="500">
 </p>
 
 It's based on a compound microscope which itself relies on finite corrected objective lenses. The Smartphone reimages the image of the ocular onto the camera sensor. This means that the cellphone's camera lens acts like the eye. Proper imaging is achieved if the exit pupil of the eyepiece is matching well with the entrance pupil of the smartphone camera.
@@ -11,7 +11,7 @@ It's based on a compound microscope which itself relies on finite corrected obje
 Further details can also be found in the *cell-scope* publication by Professor Fletcher at Berkeley. It can also be found on  [their website](https://cellscope.berkeley.edu/).
 
 <p align="center">
-<img src="./IMAGES/Application_smartphone_microscope_v3_2.png" width="500">
+<img src="./IMAGES/Application_smartphone_microscope_Zobjective_v3_2.png" width="500">
 </p>
 
 The optical path is relying on the finite corrected objective (MO) lens which produces an intermediate image in its tube-length. This image is propagated to infinity by the eyepiece (EP). The smartphone (CAM) expects this image to form an image on the cellphone's camera-sensor. The mirrors (M) are basically just folding the beam, the LED-Array (LA) is giving the opportunity to have different imaging modalities like Dark-, Brightfield or (quantitative) Differential Phase Contrast.
@@ -20,7 +20,11 @@ The optical path is relying on the finite corrected objective (MO) lens which pr
 <img src="./IMAGES/UC2_OpticalPath_Smartphonemicroscope.png" width="300">
 </p>
 
-The files contain a fluorescent module which works in darkfield configuration.
+Alternatively, you could build this microscope using the [Z-stage (sample)](../../CAD/ASSEMBLY_CUBE_Z-STAGE_sample) instead of the [Z-stage (objective)](../../CAD/ASSEMBLY_CUBE_Z-STAGE_objective).
+<p align="center">
+<img src="./IMAGES/Application_smartphone_microscope_Zsample_v3.png" height="300">
+<img src="./IMAGES/Application_smartphone_microscope_Zsample_v3_2.png" height="300">
+</p>
 
 Note: The pictures on this site do not show the latest version of the Z-stage. Follow the respective assembly guidelines.
 
@@ -45,7 +49,7 @@ The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
 |  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 8|
-|  Module: Z-Stage | -  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_sample)  | 1|
+|  Module: Z-Stage | -  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_objective)  | 1|
 |  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_45)  | 2|
 |  Module: Eyepiece with Smartphone Holder  | - | ??€  | [Eyepiece + Smartphone](../../CAD/ASSEMBLY_CUBE_Eyepiece)  | 1|
 |  Module: LED array  | Optionally LED Ring | ??€  | [LED array](../../CAD/ASSEMBLY_CUBE_LED_Matrix)  | 1|
