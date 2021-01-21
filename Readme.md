@@ -6,11 +6,12 @@
 
 ---
 
-**New**: **The UC2 paper is out in Nature Communications!** :muscle: [A versatile and customizable low-cost 3D-printed open standard for microscopic imaging](https://www.nature.com/articles/s41467-020-19447-9) [![DOI:10.1038/s41467-020-19447-9](http://img.shields.io/badge/DOI-10.1038/s41467_020_19447_9-000000.svg)](https://doi.org/10.1038/s41467-020-19447-9) 
+**New**: The Pre-print of "UCsim2: 2D Structured Illumination Microscopy using UC2" is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2021.01.08.425840v1)  [![DOI:10.1101/2021.01.08.425840](http://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.1101/2021.01.08.425840) 
+
+**New**: **The UC2 paper is out in Nature Communications!** :muscle: [A versatile and customizable low-cost 3D-printed open standard for microscopic imaging](https://www.nature.com/articles/s41467-020-19447-9) [![DOI:10.1038/s41467-020-19447-9](http://img.shields.io/badge/DOI-10.1038/s41467_020_19447_9-000000.svg)](https://doi.org/10.1038/s41467-020-19447-9)
 
 **New**: The [Microscopy, Optical Alignment and Abbe Diffraction experiment](./TheBOX/CourseBOX/ALIGNMENT_InfOptics) were added to the CourseBOX. You can also watch a demonstration of the [Abbe Experiment on YouTube](https://youtu.be/NrkINpx6IMo)
 
-**New**: The [Lens Holder](./CAD/ASSEMBLY_CUBE_Lens_v2) works now for lenses with the diameter up to 50 mm!
 
 
 
@@ -88,7 +89,7 @@ If you have a new part, we are eager to see it. Please feel free to share it on 
 ### Read more about the project in our papers:
 The UC2 paper: A versatile and customizable low-cost 3D-printed open standard for microscopic imaging is available on [Nature Communications](https://www.nature.com/articles/s41467-020-19447-9) [![DOI:10.1038/s41467-020-19447-9](http://img.shields.io/badge/DOI-10.1038/s41467_020_19447_9-000000.svg)](https://doi.org/10.1038/s41467-020-19447-9)
 All data from the paper is available in [Zenodo](https://doi.org/10.5281/zenodo.4018965) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4018965.svg)](https://doi.org/10.5281/zenodo.4018965)  
-The Pre-print  is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.03.02.973073v1)  [![DOI:10.1101/2020.03.02.973073](http://img.shields.io/badge/DOI-10.1101/2020.03.02.973073-B31B1B.svg)](https://doi.org/10.1101/2020.03.02.973073)  
+The Pre-print of the SIM+ISM paper is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2021.01.08.425840v1)  [![DOI:10.1101/2021.01.08.425840](http://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.1101/2021.01.08.425840)  
 The COSI conference paper is out on [OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5)  [![DOI:10.1364/ISA.2019.ITh3B.5](http://img.shields.io/badge/DOI-10.1364/ISA.2019.ITh3B.5-36449F.svg)](https://doi.org/10.1364/ISA.2019.ITh3B.5)
 
 Where next? [<img src="./IMAGES/sitemap.png" height=50>](./SITEMAP.md)
