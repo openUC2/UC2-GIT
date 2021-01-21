@@ -31,7 +31,7 @@ The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W
 |  Module: Raspberry Pi Camera | Having two cameras is optional since one camera can be moved between two planes!  | 20 €  | [Raspi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 2|
 |  Module: Laser  | - | ??€  | [Laser](../../CAD/ASSEMBLY_CUBE_Laser)  | 1|
 |  Module: Lens | 2× 50 mm lens and 3× 100 mm lens | 10€  | [Lens Cube](../../CAD/ASSEMBLY_CUBE_Lens)  | 5 |
-|  Module: Beamsplitter | - | 30€  | [Beamsplitter Cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter)  | 1 |
+|  Module: Beam splitter | - | 30€  | [Beamsplitter Cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter)  | 1 |
 |  Module: Sample holder | - | ?€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 2 |
 |  Module: Sample Comb | optional but useful | ?€  | [Sampleholder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
 |  Module: Circular Aperture | - | ?€  | [Circular Aperture Cube](../../CAD/ASSEMBLY_CUBE_Aperture_Circular)  | 1 |
