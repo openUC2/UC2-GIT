@@ -1,8 +1,8 @@
 {
-    "name": "ASSEMBLY_CUBE_Z-stage_mechanical",
+    "name": "ASSEMBLY_CUBE_Z-stage_objective",
     "description": "",
     "image": "",
-    "price": 17.3,
+    "price": 18.5,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
@@ -47,7 +47,7 @@
             "n_parts": 6.0
         },
         {
-            "name": "20_focus_inlet_linearflexure_mechanical_v3",
+            "name": "20_focus_inlet_linearflexure_motorized_small_v3",
             "description": "",
             "image": "",
             "price": 0.3,
@@ -63,7 +63,7 @@
             "n_parts": 1.0
         },
         {
-            "name": "20_gear_v3",
+            "name": "30_Coupling_Screw_28BYJ_M3_v3",
             "description": "",
             "image": "",
             "price": 0.1,
@@ -77,6 +77,14 @@
             "price": 15.4,
             "is_printable": false,
             "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "image": "",
+            "price": 0.6,
+            "is_printable": false,
+            "n_parts": 2.0
         },
         {
             "name": "Screws M3x8",

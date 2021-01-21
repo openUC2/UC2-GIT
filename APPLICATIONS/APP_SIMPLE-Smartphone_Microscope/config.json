@@ -554,7 +554,7 @@
             "name": "ASSEMBLY_CUBE_Z-stage_mechanical",
             "description": "",
             "image": "",
-            "price": 29.5,
+            "price": 17.3,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
@@ -631,20 +631,12 @@
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.6,
-                    "is_printable": false,
-                    "n_parts": 20.0
-                },
-                {
                     "name": "Screws M3x8",
                     "description": "",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
-                    "n_parts": 3.0
+                    "n_parts": 4.0
                 },
                 {
                     "name": "M3x30 screw with nut (non-magnetic)",
@@ -653,14 +645,112 @@
                     "price": 0.1,
                     "is_printable": false,
                     "n_parts": 1.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Z-stage_objective",
+            "description": "",
+            "image": "",
+            "price": 18.5,
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Cube_1x1_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
                 },
                 {
-                    "name": "Screws M3x18",
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
                     "description": "",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
+                    "n_parts": 8.0
+                },
+                {
+                    "name": "Screws (set) M5\u00d78",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 6.0
+                },
+                {
+                    "name": "20_focus_inlet_linearflexure_motorized_small_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_focus_inlet_objective_mount_v8_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.6,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "30_Coupling_Screw_28BYJ_M3_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Microscope Objective 10x",
+                    "description": "",
+                    "image": "",
+                    "price": 15.4,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "image": "",
+                    "price": 0.6,
+                    "is_printable": false,
                     "n_parts": 2.0
+                },
+                {
+                    "name": "Screws M3x8",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                },
+                {
+                    "name": "M3x30 screw with nut (non-magnetic)",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 1.0
                 }
             ]
         }

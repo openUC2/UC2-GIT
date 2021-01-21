@@ -543,10 +543,10 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_Z-stage_sample",
+            "name": "ASSEMBLY_CUBE_Z-stage_objective",
             "description": "",
             "image": "",
-            "price": 37.75,
+            "price": 18.5,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
@@ -591,10 +591,18 @@
                     "n_parts": 6.0
                 },
                 {
-                    "name": "20_Cube_Insert_Z-Focus_single_motorized_v3",
+                    "name": "20_focus_inlet_linearflexure_motorized_small_v3",
                     "description": "",
                     "image": "",
-                    "price": 0.8,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_focus_inlet_objective_mount_v8_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.6,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
@@ -603,14 +611,6 @@
                     "description": "",
                     "image": "",
                     "price": 0.1,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Lens_holder_RMS_63x_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
@@ -631,50 +631,18 @@
                     "n_parts": 2.0
                 },
                 {
-                    "name": "M3x30 screw with nut (non-magnetic)",
+                    "name": "Screws M3x8",
                     "description": "",
                     "image": "",
-                    "price": 0.1,
+                    "price": 0.2,
                     "is_printable": false,
-                    "n_parts": 1.0
+                    "n_parts": 4.0
                 },
                 {
                     "name": "M3x30 screw with nut (non-magnetic)",
                     "description": "",
                     "image": "",
                     "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "ESP32",
-                    "description": "",
-                    "image": "",
-                    "price": 8.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "28-BYJ stepper motor with driver board",
-                    "description": "",
-                    "image": "",
-                    "price": 5.35,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Female-Female Jumper Wire",
-                    "description": "",
-                    "image": "",
-                    "price": 0.6,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "USB-microUSB cable",
-                    "description": "",
-                    "image": "",
-                    "price": 2.8,
                     "is_printable": false,
                     "n_parts": 1.0
                 }
