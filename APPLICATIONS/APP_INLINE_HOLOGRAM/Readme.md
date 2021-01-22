@@ -23,7 +23,7 @@ A more in-detail documentation can be found [here](../../WORKSHOP/INLINE-HOLOGRA
 * Compatible with Educational purposes
 
 
-## <img src="./IMAGES/D.PNG" width="40">Parts
+## <img src="./IMAGES/D.png width="40">Parts
 The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### Modules for this setup

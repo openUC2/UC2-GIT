@@ -26,7 +26,7 @@ The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W
 |  Module: Lens Cube | -  | 20 €  | [Lens](../../CAD/ASSEMBLY_CUBE_Lens)  | 4|
 
 ### <img src="./IMAGES/P.png" width="40"> 3D-printing
-To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes. 
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 When using a lens of your choice, please follow our [Tutorial: Design your own Lens Holder](../../CAD/ASSEMBLY_CUBE_Lens/OPENSCAD).
 
@@ -40,6 +40,14 @@ When using a lens of your choice, please follow our [Tutorial: Design your own L
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
 For assembly instructions of the respective modules refer to the links in Modules for this setup.
+
+In the end they look like this:
+<p align="center">
+<img src="./IMAGES/Telescope_Galileo.jpg" width="300">
+<img src="./IMAGES/Telescope_Kepler.jpg" width="300">
+<br>Left: Galilean telescope, Right: Keplerian telescope. 
+</p>
+
 
 ## Alignment
 
