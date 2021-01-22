@@ -29,9 +29,9 @@ All external links are used with the best intention - to provide more informatio
 [I don't have a 3D printer. Where can I have them printed?](https://www.makerspaces.com/what-is-a-makerspace/)  
 
 #### Injection moulded (IM) or 3D-printed cubes (3DP)?
-[Which cubes are the most up-to-date ones?](../MDK#uc2-version-history)
-[What is the difference between IM and 3DP cubes?](..CAD/ASSEMBLY_CUBE_Base)
-[How do the baseplate puzzles work?](../ASSEMBLY_Baseplate)
+[Which cubes are the most up-to-date ones?](../MDK#uc2-version-history)  
+[What is the difference between IM and 3DP cubes?](..CAD/ASSEMBLY_CUBE_Base)  
+[How do the baseplate puzzles work?](../ASSEMBLY_Baseplate)  
 
 #### Electronics
 [Which software do I need to control the electronic components?](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)    

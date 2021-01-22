@@ -111,6 +111,10 @@ Using the holder for big lenses? It works even simpler, because it's just round:
 <img src="./IMAGES/Large_lens_holder_openscad_03.jpg" width="300">
 <img src="./IMAGES/Large_lens_holder_openscad_04.jpg" width="300">
 </p>
+If you can't rotate the clamp all the way to the two marks (||) it is okay, as long as the lens is fixed. When printing with different printers, the dimensions slightly differ and sometimes is the clamp more tight.
+<p align="center">
+<img src="./IMAGES/SCAD_Lens_Holder_08.jpg" width="300">
+</p>
 
 4. Insert the insert into the Cube, close the Cube - Done!
 <p align="center">

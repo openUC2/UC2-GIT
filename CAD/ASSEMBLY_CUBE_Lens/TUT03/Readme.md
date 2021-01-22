@@ -56,6 +56,10 @@ You can generate a holder for any arbitrary lens following the [Thingiverse Cust
 <img src="../IMAGES/SCAD_Lens_Holder_04.jpg" width="300">
 <img src="../IMAGES/SCAD_Lens_Holder_05.jpg" width="300">
 </p>
+If you can't rotate the clamp all the way to the two marks (||) it is okay, as long as the lens is fixed. When printing with different printers, the dimensions slightly differ and sometimes is the clamp more tight.
+<p align="center">
+<img src="../IMAGES/SCAD_Lens_Holder_08.jpg" width="300">
+</p>
 
 4. Insert the insert into the Cube, add screws - Done!
 <p align="center">
