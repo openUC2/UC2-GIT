@@ -29,9 +29,9 @@ All external links are used with the best intention - to provide more informatio
 [I don't have a 3D printer. Where can I have them printed?](https://www.makerspaces.com/what-is-a-makerspace/)  
 
 #### Injection moulded (IM) or 3D-printed cubes (3DP)?
-[Which cubes are the most up-to-date ones?](../MDK#uc2-version-history)
-[What is the difference between IM and 3DP cubes?](..CAD/ASSEMBLY_CUBE_Base)
-[How do the baseplate puzzles work?](../ASSEMBLY_Baseplate)
+[Which cubes are the most up-to-date ones?](../MDK#uc2-version-history)  
+[What is the difference between IM and 3DP cubes?](..CAD/ASSEMBLY_CUBE_Base)  
+[How do the baseplate puzzles work?](../ASSEMBLY_Baseplate)  
 
 #### Electronics
 [Which software do I need to control the electronic components?](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)    
@@ -50,6 +50,7 @@ Even if you don't aim for research application of the setups -handle the optical
 
 ## <a href="#icon03" name="icon03"><img src="./IMAGES/TUT.png" width="40"></a> Tutorials
 Tutorials take you by hand through your beginnings with UC2. It's useful to get familiar with the cubes before starting building a more complex system.  
+Check the [RESOURCES](./RESOURCES/Resources_step_by_step.md) you will need to accomplish the tutorials.  
 Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie_camera: YouTube Video
 
 * TUT01: Print your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base/STL) [:movie_camera:](https://www.youtube.com/watch?v=SblqYJYXe4k&feature=youtu.be)

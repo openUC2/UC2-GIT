@@ -5,8 +5,8 @@ The document which explains the steps to prepare the setup and how to use it is 
 Please note that the workshop was done using version UC2_v0.
 
 ## Table of content
-- [Brief Setup Description](../../APPLICATIONS/INLINE_HOLOGRAM/Readme.md)
-- [CAD files](../../APPLICATIONS/APP_INLINE_HOLOGRAM/STL)
+- [Brief Setup Description](../../APPLICATIONS/INLINE_HOLOGRAM)
+- [CAD files](../../APPLICATIONS/APP_INLINE_HOLOGRAM)
 - [Tutorial file (GERMAN)](./DOCUMENTS/WORKSHOP.pdf)
 - [Tutorial file (ENGLISH)](./DOCUMENTS/WORKSHOP_english.pdf)
 - [MATLAB-Files for Processing the Holograms](./MATLAB)

@@ -58,24 +58,38 @@ The Cube consists of the following components.
 
 
 ### Tutorial with images (30×30 mm² mirror)
-:grey_exclamation: This tutorial shows a UC2_v2 cube but the assembly of the insert is still the same. For assembly of the cube (IM/3DP) check the [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base).
-
 1. All parts for this model
 <p align="center">
-<img src="./IMAGES/CUBE_MIRRORMOUNT_45_0.jpg" width="300">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_01.jpg" width="300">
 </p>
 
-2. Stick the mirror to the insert.
+2. Peel off the foil and stick the mirror to the insert.
 <p align="center">
-<img src="./IMAGES/CUBE_MIRRORMOUNT_45_1.jpg" width="300">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_02.jpg" width="300">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_03.jpg" width="300">
 </p>
 
-3. Put the insert inside the cube and close the lid using the screws.
+3. You need to decide on the orientation of the insert - this is important because the cube cannot attach to the baseplate of every side. Do you want your mirror to look at each other like in the left picture or in the right one? This depends on which setup are you building - check the instructions there.
 <p align="center">
-<img src="./IMAGES/CUBE_MIRRORMOUNT_45_2.jpg" width="300">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_07a.jpg" width="300">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_07b.jpg" width="300">
 </p>
 
-4. Add screws to the other side of the cube - Done!
+4. Mirrror looking through the side: Place the insert inside the cube and close it - done!
+<p align="center">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_04a.jpg" width="300">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_05a.jpg" width="300">
+</p>
+
+5. Mirror looking up (down): Place the insert inside the cube and hold it on one side. Slowly close the cube, making sure the insert is fitting to the two edges diagonally. Close it - done!
+<p align="center">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_04b.jpg" width="300">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_05b.jpg" width="300">
+<img src="./IMAGES/CUBE_MIRRORMOUNT_45_06b.jpg" width="300">
+</p>
+
+
+
 
 ## Safety
 Don't touch the mirror surface!

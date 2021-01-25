@@ -89,6 +89,12 @@ The cube is the cornerstone of UC2 framework. Its purpose is to create a bridge 
 *   Electronics
     *   The ESP32 can be controlled through WiFi and MQTT protocol
 
+
+**IMPORTANT: Not all screws are magnetic!**  
+It is very important to buy the right screws - the M3 screws need to attach to the magnets and therefore it is crucial that they are magnetic. STAINLESS STEEL IS GENERALLY NOT A MAGNETIC MATERIAL. THE SCREWS HAVE TO BE MADE OF GALVANIZED STEEL. If you want to know more about why not all steel is magnetic you can read about it [here](https://monnigindustry.com/2020/12/23/is-galvanized-steel-magnetic-why-or-why-not/). Unfortunately, the DIN 912 / ISO 4762 screws that we propose can be made of both and you can frequently find both at the same vendor.    
+The take-home message is: **The M3 screws have be made of galvanized steel and never stainless steel!**  
+Check out the [RESOURCES](../TUTORIALS/RESOURCES/Resources_Mechanics.md) for sources of the right screws.
+
 <p align="center">
 <img src="./IMAGES/MDK_CAD_IM_cube.jpg" width="450">
 <br><em>Fig. 2: Basic empty cube - Injection Moulded (IM)</em>

@@ -44,6 +44,12 @@ For the frequently used lenses (the ones that are used in our BOXes etc.) you ca
 * **+100 mm lens** ([Artikel 2004](https://optikbaukasten.de/)) - [LENS +100](../RAW/STL/20_Insert_Lens_holder_v3_100mm.stl))
 * **-50 mm lens** ([LC1259](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)) - [LENS -50](../RAW/STL/20_Insert_Lens_holder_v3_-50mm.stl))
 
+or
+
+* **+50 mm lens** ([LI150-0050](https://www.amazon.com/Ajax-Scientific-Double-Convex-Bi-Convex-Spherical/dp/B00EPQ9EVQ)) - [LENS +40](../RAW/STL/ajax_20_Insert_Lens_holder_v3_50.stl))
+* **+100 mm lens** ([LI150-0100](https://www.amazon.com/Ajax-Scientific-Polished-Spherical-Bi-convex/dp/B00EPQ9GRS)) - [LENS +100](../RAW/STL/ajax_20_Insert_Lens_holder_v3_100.stl))
+* **-50 mm lens** ([LI140-0050](https://www.amazon.de/-/en/Scientific-LI140-0050-Polished-Spherical-Concave-Diameter/dp/B00EPQ8ZH0)) - [LENS -50](../RAW/STL/ajax_20_Insert_Lens_holder_v3_-50.stl))
+
 #### Alternatives:
 * **3DP Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([10_Cube_1x1_v3.stl](../RAW/STL)) and **3DP Lid** which closes the Cube ([10_Lid_1x1_v3.stl](../RAW/STL)) - find the details in [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base)
 
@@ -110,6 +116,10 @@ Using the holder for big lenses? It works even simpler, because it's just round:
 <img src="./IMAGES/Large_lens_holder_openscad_02.jpg" width="300">
 <img src="./IMAGES/Large_lens_holder_openscad_03.jpg" width="300">
 <img src="./IMAGES/Large_lens_holder_openscad_04.jpg" width="300">
+</p>
+If you can't rotate the clamp all the way to the two marks (||) it is okay, as long as the lens is fixed. When printing with different printers, the dimensions slightly differ and sometimes is the clamp more tight.
+<p align="center">
+<img src="./IMAGES/SCAD_Lens_Holder_08.jpg" width="300">
 </p>
 
 4. Insert the insert into the Cube, close the Cube - Done!

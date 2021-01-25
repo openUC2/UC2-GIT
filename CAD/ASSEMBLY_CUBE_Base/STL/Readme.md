@@ -21,6 +21,11 @@ An archive with all the files including the baseplate can be found [here](V3.zip
 * 4× DIN912 M3×8 screws (galvanized steel) - or use 8× M3×12
 * 6× ISO4026 M5×8 screws [🢂](https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D)
 
+**IMPORTANT: Not all screws are magnetic!**  
+It is very important to buy the right screws - the M3 screws need to attach to the magnets and therefore it is crucial that they are magnetic. STAINLESS STEEL IS GENERALLY NOT A MAGNETIC MATERIAL. THE SCREWS HAVE TO BE MADE OF GALVANIZED STEEL. If you want to know more about why not all steel is magnetic you can read about it [here](https://monnigindustry.com/2020/12/23/is-galvanized-steel-magnetic-why-or-why-not/). Unfortunately, the DIN 912 / ISO 4762 screws that we propose can be made of both and you can frequently find both at the same vendor.    
+The take-home message is: **The M3 screws have be made of galvanized steel and never stainless steel!**  
+Check out the [RESOURCES](../../../TUTORIALS/RESOURCES/Resources_Mechanics.md) for sources of the right screws.
+
 ## <img src="./IMAGES/P.png" width=40>3D Printing
 
 For general advice on 3D printing, have a look in the [TUTORIALS](../../../TUTORIALS#3d-printing).
