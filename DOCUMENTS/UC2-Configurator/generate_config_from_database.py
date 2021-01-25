@@ -219,6 +219,7 @@ for i_application in range(10,100):# range(10,100):
     # read application properties
     if i_application >= worksheet.ncols: break
     application_name = worksheet.cell(row_app_name-1, i_application).value
+    print(application_name)
     application_imagelink = worksheet.cell(row_app_imagelink-1, i_application).value
     application_description = worksheet.cell(row_app_briefdescription-1, i_application).value
     #application_githublink = worksheet.cell(row_app_githublink-1, i_application).value
