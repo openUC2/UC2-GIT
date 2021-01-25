@@ -1,7 +1,7 @@
 {
     "name": "APP_SIMPLE-Smartphone_Microscope",
-    "description": "The SIMPLE Smartphone microscope allows for imaging the sample using a Smartphone, without the need of further electronics. ",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/IMAGES/Application_simple_smartphone_microscope.png?raw=true",
+    "description": "",
+    "image": "The SIMPLE Smartphone microscope allows for imaging the sample using a Smartphone, without the need of further electronics. ",
     "price": 0,
     "type": "application",
     "is_box": false,

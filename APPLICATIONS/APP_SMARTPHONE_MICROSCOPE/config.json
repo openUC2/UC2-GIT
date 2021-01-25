@@ -1,7 +1,7 @@
 {
     "name": "APP_SMARTPHONE_MICROSCOPE",
-    "description": "The Smartphone microscope is a classical transmission microscope imised for the use of a smartphone for imaging. ",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SMARTPHONE_MICROSCOPE/IMAGES/Assembly_smartphone_microscope_2.png?raw=true",
+    "description": "",
+    "image": "The Smartphone microscope is a classical transmission microscope imised for the use of a smartphone for imaging. ",
     "price": 0,
     "type": "application",
     "is_box": false,

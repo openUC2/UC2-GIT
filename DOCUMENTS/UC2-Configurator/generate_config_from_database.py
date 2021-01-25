@@ -133,7 +133,7 @@ for row_module in (all_modules_indices):
             # we need to replace the reference link of the empty cube with the 
             # parts of the cube
             for i_part in range(my_empty_cube_index_start,my_empty_cube_index_end):
-                part_name = worksheet.cell(i_part, col_assembly_module_part_name).value
+                part_name = worksheet.cell(i_part, col_assembly_module_part_name).value.replace('\ufeff', '', 1)
                 part_isprintable = bool(worksheet.cell(i_part, col_assembly_module_part_isprintable).value)
                 #part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
                 part_price = worksheet.cell(i_part, col_assembly_module_part_name_price).value
@@ -156,7 +156,7 @@ for row_module in (all_modules_indices):
                 if(is_debug): mymodule.print()
 
         else:
-            part_name = worksheet.cell(i_part, col_assembly_module_part_name).value
+            part_name = worksheet.cell(i_part, col_assembly_module_part_name).value.replace('\ufeff', '', 1)
             if (is_debug): print(part_name)
             part_isprintable = bool(worksheet.cell(i_part, col_assembly_module_part_isprintable).value)
             #part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
@@ -314,16 +314,18 @@ for i_module in range(len(all_modules)):
     my_module_json['partslist'] = json.loads(json.dumps(my_partslist))
     
     # 4.) Save this! 
-    my_cadroot = '/CAD'
     my_cadprefix = '/'
     my_cadpath = os.path.split(my_module.name)[-1]
+    if my_cadpath.find('APP')!=-1 or my_cadpath.find('BOX')!=-1: my_cadroot = '/APPLICATIONS' 
+    elif my_cadpath.find('ASS')!=-1: my_cadroot = '/CAD'
+    
     my_jsonpath = my_root+my_cadroot+my_cadprefix+my_cadpath
     print('should save to: '+my_jsonpath)
     
 
-    # Write out file to the module folder    
+    # Write out file to the module folder   
     my_jsonpath = os.path.join(my_root+my_cadroot+my_cadprefix+my_cadpath, filenameconfig)    
-    if((my_jsonpath.find('ASS') or my_jsonpath.find('APP') or my_jsonpath.find('BOX'))>0):
+    if((my_jsonpath.find('ASS') or my_jsonpath.find('APP') or my_jsonpath.find('BOX'))!=-1):
         with open(my_jsonpath, "w") as j:
             print('should save to: '+my_jsonpath)
             json.dump(my_module_json, j, indent=4)

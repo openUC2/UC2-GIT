@@ -1,7 +1,7 @@
 {
     "name": "APP_INLINE_HOLOGRAM",
-    "description": "Inline Holographic microscope creates a hologramm without using any lenses. ",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_INLINE_HOLOGRAM/IMAGES/Application_Inline_Holographic_Microscopy.png?raw=true",
+    "description": "",
+    "image": "Inline Holographic microscope creates a hologramm without using any lenses. ",
     "price": 0,
     "type": "application",
     "is_box": false,

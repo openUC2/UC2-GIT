@@ -1,7 +1,7 @@
 {
     "name": "APP_LIGHTSHEET_Workshop",
-    "description": "The Light sheet Microscope demonstartes the principle of sellective plane illumination methods.",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_LIGHTSHEET_Workshop/IMAGES/Assembly_simple_Lightsheet_v1.png?raw=true",
+    "description": "",
+    "image": "The Light sheet Microscope demonstartes the principle of sellective plane illumination methods.",
     "price": 0,
     "type": "application",
     "is_box": false,

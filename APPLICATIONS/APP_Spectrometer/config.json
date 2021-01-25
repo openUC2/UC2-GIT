@@ -1,7 +1,7 @@
 {
     "name": "APP_Spectrometer",
-    "description": "The Spectrometer uses a grating to disperse the incoming light and allows for imaging of the transmission spectrum of the sample. ",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Spectrometer/IMAGES/UC2_Setups_10_spectrometer.png?raw=true",
+    "description": "",
+    "image": "The Spectrometer uses a grating to disperse the incoming light and allows for imaging of the transmission spectrum of the sample. ",
     "price": 0,
     "type": "application",
     "is_box": false,

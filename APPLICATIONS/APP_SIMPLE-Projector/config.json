@@ -1,7 +1,7 @@
 {
     "name": "APP_SIMPLE-Projector",
-    "description": "This SIMPLE experiment shown the image formation done by a single lens. ",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SIMPLE-Projector/IMAGES/UC2_Setups_12_Projector.png?raw=true",
+    "description": "",
+    "image": "This SIMPLE experiment shown the image formation done by a single lens. ",
     "price": 0,
     "type": "application",
     "is_box": false,

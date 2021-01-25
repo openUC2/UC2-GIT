@@ -1,7 +1,7 @@
 {
     "name": "APP_SIMPLE-Telescope",
-    "description": "The SIMPLE Telescope demostartes the principles of the most common refractvive telescopes. ",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SIMPLE-Telescope/IMAGES/Assembly_simple_Telescope.png?raw=true",
+    "description": "",
+    "image": "The SIMPLE Telescope demostartes the principles of the most common refractvive telescopes. ",
     "price": 0,
     "type": "application",
     "is_box": false,

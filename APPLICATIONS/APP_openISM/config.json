@@ -1,7 +1,7 @@
 {
-    "name": "APP_Abbe_Setup",
+    "name": "APP_openISM",
     "description": "",
-    "image": "The famous Abbe Diffraction Experiment demonstartes the image formation in ical setup. ",
+    "image": "The microscope is based on a commercial projector as illumination which can create different pattern along with the input images.",
     "price": 0,
     "type": "application",
     "is_box": false,
@@ -483,211 +483,57 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_Aperture_Circular",
+            "name": "ASSEMBLY_Baseplate",
             "description": "",
             "image": "",
-            "price": 0.4,
+            "price": "",
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "10_Base_puzzle_IM",
                     "description": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
+                    "n_parts": 1.0
                 },
                 {
-                    "name": "10_Cube_1x1_v3",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
                     "image": "",
-                    "price": 0.4,
+                    "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1_v3",
+                    "name": "Ballmagnets",
                     "description": "",
                     "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
+                    "price": 0.47,
                     "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Cube_Insert_CirAp_Guide_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_CirAp_Wheel_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_CirAp_Leaf_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 7.0
-                },
-                {
-                    "name": "20_Cube_Insert_CirAp_Lid_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Aperture_Rectangular",
-            "description": "",
-            "image": "",
-            "price": 0.6,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Rect_Aperture_for_printing_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.6,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Rect_Aperture_door_hinge_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 4.0
-                },
-                {
-                    "name": "20_Rect_Aperture_door_slide_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
                     "n_parts": 4.0
                 }
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_Beamsplitter",
+            "name": "ASSEMBLY_Baseplate",
             "description": "",
             "image": "",
-            "price": 27.0,
+            "price": "",
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "10_Base_puzzle_IM",
                     "description": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Cube_Insert_Beamsplitter_v3",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
                     "image": "",
                     "price": 0.3,
@@ -695,163 +541,33 @@
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Beamsplitter Cube (Art. 2137)",
+                    "name": "Ballmagnets",
                     "description": "",
                     "image": "",
-                    "price": 26.7,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Laser",
-            "description": "",
-            "image": "",
-            "price": 15.8,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Cube_Insert_Laser_Holder_fixed_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Laser_Clamp_OnOffSwitch_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Blue laser pointer, 445 nm",
-                    "description": "",
-                    "image": "",
-                    "price": 14.8,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x18",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
+                    "price": 0.47,
                     "is_printable": false,
                     "n_parts": 4.0
-                },
-                {
-                    "name": "RasPi Camera lens",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_raspi_lens_to_laser_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
                 }
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_Lens_small",
+            "name": "ASSEMBLY_Baseplate",
             "description": "",
             "image": "",
-            "price": 0.3,
+            "price": "",
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "10_Base_puzzle_IM",
                     "description": "",
                     "image": "",
                     "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Insert_Lens_holder_v3",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
                     "image": "",
                     "price": 0.3,
@@ -859,604 +575,1456 @@
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Lens: diameter 9-42 mm",
+                    "name": "Ballmagnets",
                     "description": "",
                     "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Lens_small",
-            "description": "",
-            "image": "",
-            "price": 0.3,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Insert_Lens_holder_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Lens: diameter 9-42 mm",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Lens_small",
-            "description": "",
-            "image": "",
-            "price": 0.3,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Insert_Lens_holder_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Lens: diameter 9-42 mm",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Lens_small",
-            "description": "",
-            "image": "",
-            "price": 0.3,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Insert_Lens_holder_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Lens: diameter 9-42 mm",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Lens_small",
-            "description": "",
-            "image": "",
-            "price": 0.3,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Insert_Lens_holder_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Lens: diameter 9-42 mm",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_RaspiCam",
-            "description": "",
-            "image": "",
-            "price": 31.5,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Cube_Insert_RaspiCam_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_insert_Sample_holder_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Sample_clamp_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Raspberry Pi Camera",
-                    "description": "",
-                    "image": "",
-                    "price": 27.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Raspberry Pi Camera long cable",
-                    "description": "",
-                    "image": "",
-                    "price": 4.0,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "M2 screw + nut",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Sample_Holder",
-            "description": "",
-            "image": "",
-            "price": 0.3,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Cube_insert_Sample_holder_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Sample_clamp_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Sample_Holder",
-            "description": "",
-            "image": "",
-            "price": 0.3,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Cube_insert_Sample_holder_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Sample_clamp_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Sample_Comb",
-            "description": "",
-            "image": "",
-            "price": 1.0,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "30_Cube_sampleholder_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
+                    "price": 0.47,
                     "is_printable": false,
                     "n_parts": 4.0
-                },
-                {
-                    "name": "",
-                    "description": "",
-                    "image": "",
-                    "price": "",
-                    "is_printable": false,
-                    "n_parts": ""
                 }
             ]
         },
         {
-            "name": "Raspberry Pi + accesories",
+            "name": "ASSEMBLY_Baseplate",
             "description": "",
             "image": "",
-            "price": 187.8,
+            "price": "",
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "Raspberry Pi 4 B",
+                    "name": "10_Base_puzzle_IM",
                     "description": "",
                     "image": "",
-                    "price": 40.0,
+                    "price": 0.0,
                     "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Raspberry Pi 7\" Display",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
                     "image": "",
-                    "price": 64.5,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
                     "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Raspberry Pi Case",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
                     "image": "",
-                    "price": 22.3,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
                     "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Raspi 4 Power supply",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
                     "image": "",
-                    "price": 9.5,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
                     "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "SanDisk Ultra microSD card",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
                     "image": "",
-                    "price": 11.0,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
                     "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Keyboard",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
                     "image": "",
-                    "price": 27.0,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
                     "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "USB hub",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
                     "image": "",
-                    "price": 13.5,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Base",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Cube_1x1_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 8.0
+                },
+                {
+                    "name": "Screws (set) M5\u00d78",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 6.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Base",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Cube_1x1_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 8.0
+                },
+                {
+                    "name": "Screws (set) M5\u00d78",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 6.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Base",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Cube_1x1_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 8.0
+                },
+                {
+                    "name": "Screws (set) M5\u00d78",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 6.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Base",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Cube_1x1_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 8.0
+                },
+                {
+                    "name": "Screws (set) M5\u00d78",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 6.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_Base",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Cube_1x1_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 8.0
+                },
+                {
+                    "name": "Screws (set) M5\u00d78",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 6.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_CUBE_AlliedVision_Alvium",
+            "description": "",
+            "image": "",
+            "price": 250.1,
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Cube_1x1_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.4,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Lid_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 8.0
+                },
+                {
+                    "name": "Screws (set) M5\u00d78",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 6.0
+                },
+                {
+                    "name": "20_Cube_insert_AlliedVision_Alvium_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_insert_AlliedVision_Alvium_adjustable_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Allied Vision Camera",
+                    "description": "",
+                    "image": "",
+                    "price": 250.0,
                     "is_printable": false,
                     "n_parts": 1.0
                 }

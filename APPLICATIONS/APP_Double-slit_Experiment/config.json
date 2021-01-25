@@ -1,7 +1,7 @@
 {
     "name": "APP_Double-slit_Experiment",
-    "description": "The basic interference experiment demonstartes the wave property of light. ",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Double-slit_Experiment/IMAGES/UC2_Setups_13_Double-slit.png?raw=true",
+    "description": "",
+    "image": "The basic interference experiment demonstartes the wave property of light. ",
     "price": 0,
     "type": "application",
     "is_box": false,

@@ -1,7 +1,7 @@
 {
     "name": "APP_Michelson_Interferometer",
-    "description": "Michelson Interferometer is sensitive to surface variation of the observed sample, compared to a flat mirror. ",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Michelson_Interferometer/IMAGES/Application_Michelson-Interferometer_2.png?raw=true",
+    "description": "",
+    "image": "Michelson Interferometer is sensitive to surface variation of the observed sample, compared to a flat mirror. ",
     "price": 0,
     "type": "application",
     "is_box": false,
