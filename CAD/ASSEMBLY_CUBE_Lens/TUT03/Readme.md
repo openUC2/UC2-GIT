@@ -22,12 +22,16 @@ The Cube consists of the following components.
 * **IM Cube** which houses the insert and adapts it into a UC2 setup.
 
 For the 40 mm lens linked in additional parts:
-* **The 1" Lens Holder with clamp** which holds a lens with 1 inch (25,4 mm) diameter and adapts it to the base cube ([20_Insert_Lens_holder_v3_40mm.stl](../RAW/STL/20_Insert_Lens_holder_v3_40mm.stl))
+* **The 1" Lens Holder with clamp** which holds a lens with 1 inch (25,4 mm) diameter and adapts it to the base cube ([20_Insert_Lens_holder_v3_40mm.stl](../../RAW/STL/20_Insert_Lens_holder_v3_40mm.stl))
+
+OR For the 50 mm lens linked in additional parts:
+* **The Ajax Lens Holder with clamp** which holds a lens with 38 mm diameter and adapts it to the base cube ([20_Insert_Lens_holder_v3_40mm.stl](../../RAW/STL/ajax_20_Insert_Lens_holder_v3_50.stl))
 
 You can generate a holder for any arbitrary lens following the [Thingiverse Customizer](https://www.thingiverse.com/thing:4377691). For the other lenses we frequently use, the STL can be found [here](../STL).
 
 ### <img src="../IMAGES/B.png" height="40"> Additional parts
 * Lens, f' = +40 mm (Artikel 2120) [🢂](https://optikbaukasten.de/)
+* Lens, Ajax scientific, f' = +50 mm (LI150-0050) [🢂](https://www.amazon.com/Ajax-Scientific-Double-Convex-Bi-Convex-Spherical/dp/B00EPQ9EVQ)
 
 ## <img src="../IMAGES/A.png" height="40"> Assembly
 * Mount the lens inside the holder

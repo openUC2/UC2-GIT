@@ -58,8 +58,6 @@ The Cube consists of the following components.
 
 
 ### Tutorial with images (30×30 mm² mirror)
-:grey_exclamation: This tutorial shows a UC2_v2 cube but the assembly of the insert is still the same. For assembly of the cube (IM/3DP) check the [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base).
-
 1. All parts for this model
 <p align="center">
 <img src="./IMAGES/CUBE_MIRRORMOUNT_45_01.jpg" width="300">

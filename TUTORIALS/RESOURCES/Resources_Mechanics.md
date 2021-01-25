@@ -22,9 +22,14 @@ Z-Focus |stepper motor micro electromagnet DIY motor driver board |3€ |[Aliexp
 
 
 ### Screws
+**IMPORTANT: Not all screws are magnetic!**  
+It is very important to buy the right screws - the M3 screws need to attach to the magnets and therefore it is crucial that they are magnetic. STAINLESS STEEL IS GENERALLY NOT A MAGNETIC MATERIAL. THE SCREWS HAVE TO BE MADE OF GALVANIZED STEEL. If you want to know more about why not all steel is magnetic you can read about it [here](https://monnigindustry.com/2020/12/23/is-galvanized-steel-magnetic-why-or-why-not/). Unfortunately, the DIN 912 / ISO 4762 screws that we propose can be made of both and you can frequently find both at the same vendor.    
+The take-home message is: **The M3 screws have be made of galvanized steel and never stainless steel!**
+
 |  Name | Properties  |  Price | Link  | Tested |
 |---|---|---|---|---|
 |  Din 912 Cylindrical | M3×8, magnetic (!), 500 pieces | 15€  | [Amazon](https://www.amazon.de/dp/B018MP15LM/ref=pe_3044161_185740101_TE_item) | Yes
+|  Din 912 Cylindrical | M3×12, magnetic (!), 500 pieces | 15€  | [Amazon](https://www.amazon.de/-/en/500-12-9-ALLEN-Cylinder-Head-Screws-12-Steel/dp/B071JJ5MFW/ref=sr_1_17?dchild=1&keywords=500+st%C3%BCck+inbus+zylinderschrauben+din+912+10.9+verzinkt+m3&qid=1611568060&s=diy&sr=1-17) | Yes
 Din 912 Cylindrical | M3×8, magnetic (!), 500 pieces | 15€  | [Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/) | Yes
 Din 912 Cylindrical | M3×12, magnetic (!), 500 pieces | 15€  | [Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) | Yes
 Din 912 Cylindrical | M3×18, magnetic (!), 500 pieces | 15€  | [Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/) | Yes
@@ -35,6 +40,7 @@ Din 912 Cylindrical | M3×8, magnetic (!), 50 pieces | 14€  | [Amazon](https:/
 Din 912 Cylindrical | M3×12, magnetic (!), 50 pieces | 14€  | [Amazon](https://www.amazon.de/dp/B07NP4MH15/?coliid=I2ZC4GD0H4MJN7&colid=2GSTXQZE5T6TK&ref_=lv_vv_lig_dp_it&th=1) | No
 M3 nut | 100 pieces | 7€ | [Amazon](https://www.amazon.de/dp/B07FCNY726/?coliid=I36E95CHIM96IH&colid=2GSTXQZE5T6TK&psc=1&ref_=lv_vv_lig_dp_it) | No
 M3×30 screw | Stainless Steel - non-magnetic! 10 pieces | 3€ | [Amazon](https://www.amazon.de/Zylinderschrauben-mit-Innensechskant-Vollgewinde-Zylinderkopfschrauben/dp/B01H9HGE4W/ref=pd_bxgy_2/261-1216229-5549766?_encoding=UTF8&pd_rd_i=B01H9HDA08&pd_rd_r=12351375-a08b-4f22-a804-5563250ddd43&pd_rd_w=LfKZk&pd_rd_wg=pTMVD&pf_rd_p=4490d326-3239-499b-8c8a-0dd8d6ad582a&pf_rd_r=TGFT2SCVQZBW7653EM5T&refRID=TGFT2SCVQZBW7653EM5T&th=1) | No
+M5×8 set screw | Galvanized steel, hexagon socket, 500 pieces | 15€ | [Würth](https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D) | Yes
 
 
 ### Tools

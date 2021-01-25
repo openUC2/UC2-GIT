@@ -50,6 +50,7 @@ Even if you don't aim for research application of the setups -handle the optical
 
 ## <a href="#icon03" name="icon03"><img src="./IMAGES/TUT.png" width="40"></a> Tutorials
 Tutorials take you by hand through your beginnings with UC2. It's useful to get familiar with the cubes before starting building a more complex system.  
+Check the [RESOURCES](./RESOURCES/Resources_step_by_step.md) you will need to accomplish the tutorials.  
 Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie_camera: YouTube Video
 
 * TUT01: Print your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base/STL) [:movie_camera:](https://www.youtube.com/watch?v=SblqYJYXe4k&feature=youtu.be)
