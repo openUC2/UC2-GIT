@@ -96,17 +96,17 @@ The take-home message is: **The M3 screws have be made of galvanized steel and n
 Check out the [RESOURCES](../TUTORIALS/RESOURCES/Resources_Mechanics.md) for sources of the right screws.
 
 <p align="center">
-<img src="./IMAGES/MDK_CAD_IM_cube.jpg" width="450">
+<img src="./IMAGES/MDK_CAD_IM_cube.jpg" width="600">
 <br><em>Fig. 2: Basic empty cube - Injection Moulded (IM)</em>
 </p>
 
 <p align="center">
-<img src="./IMAGES/MDK_CAD_3DP_cube.jpg" width="450">
+<img src="./IMAGES/MDK_CAD_3DP_cube.jpg" width="600">
 <br><em>Fig. 3: Basic empty cube 1×1 - 3D-printed (3DP)</em>
 </p>
 
 <p align="center">
-<img src="./IMAGES/MDK_CAD_3DP_cube_2x1.jpg" width="300">
+<img src="./IMAGES/MDK_CAD_3DP_cube_2x1.jpg" width="450">
 <br><em>Fig. 4: Basic empty cube 2×1 (3DP)</em>
 </p>
 
@@ -117,12 +117,12 @@ The baseplate puzzles are the same whether you print them with a 3D printer or w
 For attaching the 3DP cubes, you just add magnets in the designated holes of the puzzle piece. The ball magnets are pressed fit into the 3DP or IM baseplate.
 
 <p align="center">
-<img src="./IMAGES/MDK_CAD_baseplate_01.jpg" width="500">
+<img src="./IMAGES/MDK_CAD_baseplate_01.jpg" width="600">
 <br><em>Fig. 5: Baseplate and setup building - top view</em>
 </p>
 
 <p align="center">
-<img src="./IMAGES/MDK_CAD_baseplate_02.jpg" width="500">
+<img src="./IMAGES/MDK_CAD_baseplate_02.jpg" width="600">
 <br><em>Fig. 6: Baseplate and setup building - perspective view</em>
 </p>
 
@@ -145,7 +145,7 @@ So far it’s designed the way, that ball-magnets are pressed fit into the 3D pr
 <img src="./IMAGES/IM_3DP_02.jpg" width="300">
 </p>
 
-* The 3DP baseplate puzzles (black) and IM Cube (right) can be used in parallel in the same setup. The IM Cube connects to the baseplate via eight lego-like pins on top and bottom side. The 3DP Cube
+* The 3DP baseplate puzzles (black) and IM Cube (right) can be used in parallel in the same setup. The IM Cube connects to the baseplate via eight lego-like pins on top and bottom side. The 3DP Cube connect with its screws in the corners to the magnets of the baseplate. Additionally, it has three M5 screws that work like the pins of the IM Cube, for better precision of alignment. 
 <p align="center">
 <img src="./IMAGES/IM_3DP_03.jpg" width="300">
 </p>

@@ -40,6 +40,8 @@ It is very important to buy the right screws - the M3 screws need to attach to t
 The take-home message is: **The M3 screws have be made of galvanized steel and never stainless steel!**
 Check out the [RESOURCES](../../TUTORIALS/RESOURCES/Resources_Mechanics.md) for sources of the right screws.
 
+*We are working on making the IM Cubes and Puzzles available for sale, but we are not able to offer a 'BUY' button yet. If you are interested in buying some components, contact us via email info@useetoo.org*
+
 The function which fits into the cube is not necessarily bound to optics. It can be anything!
 The function is defined by the insert and all our insert are in the respective module folder in [CAD](../)
 
