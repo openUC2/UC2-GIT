@@ -180,7 +180,7 @@
             "name": "ASSEMBLY_CUBE_LED_Matrix",
             "description": "",
             "image": "",
-            "price": 14.2,
+            "price": 14.7,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
@@ -196,7 +196,7 @@
                     "name": "LED Matrix 4x4",
                     "description": "",
                     "image": "",
-                    "price": 1.5,
+                    "price": 2.0,
                     "is_printable": false,
                     "n_parts": 1.0
                 },

@@ -1,7 +1,7 @@
 {
     "name": "APP_openSIM",
     "description": "",
-    "image": "The microscope uses a DMD to generate the grating pattern which illuminates on the sample.",
+    "image": "The microscope uses a DMD to generate the grating pattern which illuminates on the sample. The given parts are aimed for a openSIM/ISM microscope and the amount of baseplate can be reduced when only build one module.",
     "price": 0,
     "type": "application",
     "is_box": false,
@@ -2031,10 +2031,10 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_Lens_large",
+            "name": "ASSEMBLY_CUBE_Dichroic_Beamsplitter",
             "description": "",
             "image": "",
-            "price": 0.3,
+            "price": 1.0,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
@@ -2079,312 +2079,42 @@
                     "n_parts": 6.0
                 },
                 {
-                    "name": "20_Insert_Large_Lens_holder_v3",
+                    "name": "20_Cube_Insert_Beamsplittercube_Base_25x35_v3",
                     "description": "",
                     "image": "",
-                    "price": 0.3,
+                    "price": 0.6,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Lens: diameter 42-50 mm",
+                    "name": "20_Cube_Insert_Beamsplittercube_Dichroicmirror_Retainplate_25_36_v3",
                     "description": "",
                     "image": "",
                     "price": 0.0,
-                    "is_printable": false,
+                    "is_printable": true,
                     "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Mirror_45_Thorlabs",
-            "description": "",
-            "image": "",
-            "price": 48.900000000000006,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
+                },
                 {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "20_Cube_Insert_Beamsplittercube_Retainring_25mm_v3",
                     "description": "",
                     "image": "",
                     "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
                     "is_printable": false,
                     "n_parts": 2.0
                 },
                 {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Cube_Insert_Mirror_Holder_Thorlabs_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "1 inch Thorlabs mirror",
-                    "description": "",
-                    "image": "",
-                    "price": 48.7,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Mirror_Kinematic_45",
-            "description": "",
-            "image": "",
-            "price": 2.41,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
+                    "name": "Fitting filters of choice",
                     "description": "",
                     "image": "",
                     "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base_part1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base_part2_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30x30 mm\u00b2 Mirror",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": " 1 inch Thorlabs mirror",
-                    "description": "",
-                    "image": "",
-                    "price": 48.7,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 3.0
-                },
-                {
-                    "name": "Ballmagnets",
-                    "description": "",
-                    "image": "",
-                    "price": 0.47,
-                    "is_printable": false,
-                    "n_parts": 3.0
-                }
-            ]
-        },
-        {
-            "name": "ASSEMBLY_CUBE_Mirror_Kinematic_45",
-            "description": "",
-            "image": "",
-            "price": 2.41,
-            "fixedOptions": {},
-            "type": "module",
-            "partslist": [
-                {
-                    "name": "10_Cube_1x1_IM",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": false,
-                    "n_parts": 2.0
-                },
-                {
-                    "name": "10_Cube_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 8.0
-                },
-                {
-                    "name": "Screws (set) M5\u00d78",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base_part1_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_base_part2_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.0,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Plate_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30x30 mm\u00b2 Mirror",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter_v3",
-                    "description": "",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": " 1 inch Thorlabs mirror",
-                    "description": "",
-                    "image": "",
-                    "price": 48.7,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 3.0
-                },
-                {
-                    "name": "Ballmagnets",
-                    "description": "",
-                    "image": "",
-                    "price": 0.47,
                     "is_printable": false,
                     "n_parts": 3.0
                 }

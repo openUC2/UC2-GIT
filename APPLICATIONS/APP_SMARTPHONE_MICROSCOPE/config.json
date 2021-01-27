@@ -353,15 +353,15 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_LED_Matrix",
+            "name": "ASSEMBLY_CUBE_LED_Matrix_simple",
             "description": "",
             "image": "",
-            "price": 14.2,
+            "price": 22.7,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "30_IM_LED_holder_v3",
+                    "name": "30_IM_LED_holder_8x8_v3",
                     "description": "",
                     "image": "",
                     "price": 0.2,
@@ -369,10 +369,10 @@
                     "n_parts": 1.0
                 },
                 {
-                    "name": "LED Matrix 4x4",
+                    "name": "LED Matrix 8x8",
                     "description": "",
                     "image": "",
-                    "price": 1.5,
+                    "price": 10.0,
                     "is_printable": false,
                     "n_parts": 1.0
                 },
