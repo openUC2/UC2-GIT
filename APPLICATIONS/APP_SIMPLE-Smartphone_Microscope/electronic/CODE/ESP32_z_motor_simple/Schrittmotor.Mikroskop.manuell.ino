@@ -1,14 +1,4 @@
-
-// ----------- ----------- ----------- ----------- ----------- -----------
-// ESP32 script for UC2-control
-// by: student of the KLGymansium Erfurt
-// date: 11.09.2019 
-// part: z-stage with up and down button 
-// application: simple smartphone microscope
-//----------- ----------- ----------- ----------- ----------- -----------
-
-// ----------------------------------------------------------------------------------------------------------------
-#define SCHRITTEPROUMDREHUNG  2048 
+#define SCHRITTEPROUMDREHUNG 2048 
 
 #include "Stepper.h"  // Bibliothek
 

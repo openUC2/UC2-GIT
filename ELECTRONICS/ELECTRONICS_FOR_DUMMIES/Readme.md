@@ -30,6 +30,7 @@ Connect everything - mind the right pins!
 <img src="./IMAGES/LED03.jpg" width="300">
 <img src="./IMAGES/LED04.jpg" width="300">
 <img src="./IMAGES/LED05.jpg" width="300">
+<img src="./IMAGES/LED06.jpg" width="300">
 </p>
 
 #### **Z-stage** or **Sample-stage** - 6 wires + motor connection

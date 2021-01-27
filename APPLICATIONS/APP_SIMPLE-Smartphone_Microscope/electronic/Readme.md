@@ -26,7 +26,7 @@ The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W
 |  Module: Sample holder | -  | 5 €  | [Sample holder](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1|
 |  Module: Mirror 45°  | - | 5€  | [Mirror 45](../../../CAD/ASSEMBLY_CUBE_Mirror_45)  | 2|
 |  Module: Eyepiece with Smartphone Holder  | - | ??€  | [Eyepiece + Smartphone](../../../CAD/ASSEMBLY_CUBE_Eyepiece)  | 1|
-|  Module: LED array  | -| ??€  | [LED array](../../../CAD/ASSEMBLY_CUBE_LED_Matrix)  | 1|
+|  Module: LED array (simple)  | -| ??€  | [LED array](../../../CAD/ASSEMBLY_CUBE_LED_Matrix_simple)  | 1|
 |  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 4€  | [Cube](../../../CAD/ASSEMBLY_CUBE_Base)  | 2|
 
 
