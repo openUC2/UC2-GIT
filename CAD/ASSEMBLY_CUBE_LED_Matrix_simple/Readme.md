@@ -1,5 +1,5 @@
 # Cube LED Matrix (64 LEDs) - simple version
-([TUT07 of TUTORIALS](../../../TUTORIALS) )
+([TUT07 of TUTORIALS](../../TUTORIALS) )
 
 This parts adapt a LED matrix to the UC2 cubes. Electric control is done by an ESP32.
 
