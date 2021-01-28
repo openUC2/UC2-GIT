@@ -1,0 +1,13 @@
+backlash: 10
+bayer_explizit: true
+direction: -1
+done: false
+motor: DRVZ
+posEND: -114
+posSTART: -44
+steps: 2
+stepsize: 10
+steptime: 0.2
+steptime_active: 0
+take_image: true
+totaltime: 5

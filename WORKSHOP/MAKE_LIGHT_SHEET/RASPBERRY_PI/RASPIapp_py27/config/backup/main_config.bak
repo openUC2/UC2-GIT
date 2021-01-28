@@ -1,0 +1,8 @@
+autofocus: autofocus_properties.yaml
+cam: camera_properties.yaml
+cam_fluo: camera_properties_fluo.yaml
+experiment: experiment_properties.yaml
+imaging: imaging_properties.yaml
+light: light_properties.yaml
+light_patterns: light_patterns.yaml
+motor: motor_properties.yaml

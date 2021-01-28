@@ -1,0 +1,24 @@
+analog_gain: 0
+awb_gains:
+- 1.5
+- 1.5
+awb_mode: off
+bayer: true
+camProp_defined: false
+camProp_fix_properties: true
+camProp_use_global: 0
+digital_gain: 0
+exposure_compensation: 0
+exposure_mode: off
+framerate: 30
+image_denoise: false
+iso: 100
+meter_mode: average
+resolution:
+- 3280
+- 2464
+sensor_mode: 3
+shutter_speed: 40000
+use_video_port: false
+video_denoise: false
+video_stabilization: false

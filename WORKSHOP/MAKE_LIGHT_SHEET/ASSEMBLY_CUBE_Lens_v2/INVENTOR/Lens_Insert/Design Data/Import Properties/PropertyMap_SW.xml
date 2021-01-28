@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+    =====================================================================================
+
+                        Copyright 2014 Autodesk, Inc.
+
+                            All Rights Reserved.
+
+    =====================================================================================
+    
+    File name: PropertyMap_SW.xml
+
+
+    <> What is it?
+
+        This XML file defines the standard properties mapping from source SolidWorks files
+        to Inventor files during import.
+
+
+    <> Note for changes
+    
+        Each of the "Property" element defines a standard Inventor property mapping, where:
+            - Name attribute: specifies the Inventor standard property name, which shouldn't
+              be changed;
+            - Source child element with its Name attribute : specify the name of a source 
+              file property that should be converted to the Inventor standard property.
+       
+        Each "Property" element can have zero to more "Source" child elements. This allows 
+        multiple language strings for the same property from source files. 
+
+
+    <> Example
+    
+            <Property Name="Part Number">
+                <Source Name="PartNo" />
+                <Source Name="零件号" />
+            </Property>
+    
+        The above settings cause Inventor to convert either "PartNo" or "零件号" (Chinese) in 
+        source files to the standard property "Part Number".
+
+
+    <> Note
+    
+        The behavior of mapping multiple source properties into a single Inventor standard 
+        property is that one nondeterministic property from the set will be picked.
+    
+-->
+
+<PropertiesMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1">
+    <Property Name="Title">
+        <Source Name="Title" />
+    </Property>
+
+    <Property Name="Subject">
+        <Source Name="Subject" />
+    </Property>
+
+    <Property Name="Author">
+        <Source Name="Author" />
+    </Property>
+
+    <Property Name="Keywords">
+        <Source Name="Keywords" />
+    </Property>
+
+    <Property Name="Comments">
+        <Source Name="Comments" />
+    </Property>
+
+    <Property Name="Last Saved By">
+        <Source Name="Last Saved By" />
+    </Property>
+
+    <Property Name="Revision Number">
+	    <Source Name="Revision" />
+    </Property>
+
+    <Property Name="Category">
+    </Property>
+
+    <Property Name="Manager">
+    </Property>
+
+    <Property Name="Company">
+	    <Source Name="CompanyName" />
+    </Property>
+
+    <Property Name="Creation Date">
+        <Source Name="Created" />
+    </Property>
+
+    <Property Name="Part Number">
+	    <Source Name="PartNo" />
+    </Property>
+
+    <Property Name="Project">
+	    <Source Name="Project" />
+    </Property>
+
+    <Property Name="Cost Center">
+    </Property>
+
+    <Property Name="Checked By">
+	    <Source Name="Checkedby" />
+    </Property>
+
+    <Property Name="Checked Date">
+	    <Source Name="CheckedDate" />
+    </Property>
+
+    <Property Name="Eng. Approved By">
+	    <Source Name="EngineeringApproval" />
+    </Property>
+
+    <Property Name="Eng. Approved Date">
+	    <Source Name="EngAppDate" />
+    </Property>
+
+    <Property Name="Status">
+	    <Source Name="Status" />
+    </Property>
+
+    <Property Name="Web Link">
+    </Property>
+
+    <Property Name="Description">
+	    <Source Name="Description" />
+    </Property>
+
+    <Property Name="Vendor">
+	    <Source Name="Vendor" />
+    </Property>
+
+    <Property Name="Mfg. Approved By">
+	    <Source Name="ManufacturingApproval" />
+    </Property>
+
+    <Property Name="Mfg. Approved Date">
+	    <Source Name="MfgAppDate" />
+    </Property>
+
+    <Property Name="Estimated Cost">
+	    <Source Name="Cost" />
+    </Property>
+
+    <Property Name="Design State">
+    </Property>
+
+    <Property Name="Designer">
+	    <Source Name="Drawnby" />
+    </Property>
+
+    <Property Name="Engineer">
+    </Property>
+
+    <Property Name="Authority">
+    </Property>
+
+    <Property Name="Stock Number">
+    </Property>
+
+    <Property Name="Last Updated With">
+    </Property>
+
+    <Property Name="Checked Out By">
+    </Property>
+
+    <Property Name="Checked Out">
+    </Property>
+
+    <Property Name="Checked In By">
+    </Property>
+
+    <Property Name="Checked In">
+    </Property>
+
+    <Property Name="Checkout Workgroup">
+    </Property>
+
+    <Property Name="Checkout Workspace">
+    </Property>
+
+    <Property Name="Next Version">
+    </Property>
+
+    <Property Name="Current Version">
+    </Property>
+
+    <Property Name="Previous Version">
+    </Property>
+
+    <Property Name="Material">
+    </Property>
+
+    <Property Name="Density">
+        <Source Name="Density" />
+    </Property>
+
+    <Property Name="Mass Unit">
+    </Property>
+
+    <Property Name="Mass">
+        <Source Name="Mass" />
+    </Property>
+
+    <Property Name="Volume">
+        <Source Name="Volume" />
+    </Property>
+</PropertiesMap>

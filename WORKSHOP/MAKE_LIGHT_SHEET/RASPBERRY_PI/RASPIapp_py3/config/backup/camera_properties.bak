@@ -1,0 +1,41 @@
+analog_gain: 1.1015625
+awb_gains:
+- 1.515625
+- 1.85546875
+awb_mode: off
+bayer: false
+camProp_defined: false
+camProp_fix_properties: true
+camProp_use_global: false
+digital_gain: 1.0
+exposure_compensation: 0
+exposure_mode: off
+framerate: 30.0
+image_denoise: false
+iso: 100
+meter_mode: average
+resolution:
+- 3280
+- 2464
+sensor_mode: 3
+sensor_mode_size:
+- - 800
+  - 480
+- - 1920
+  - 1080
+- - 3280
+  - 2464
+- - 3280
+  - 2464
+- - 1640
+  - 1232
+- - 1640
+  - 922
+- - 1280
+  - 720
+- - 640
+  - 480
+shutter_speed: 33318
+use_video_port: false
+video_denoise: false
+video_stabilization: false

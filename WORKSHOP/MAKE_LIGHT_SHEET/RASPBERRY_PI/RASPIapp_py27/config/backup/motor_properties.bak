@@ -1,0 +1,14 @@
+active_motor: 2
+calibration_z_lastupdate: 19.12.2018
+calibration_z_max: 5000
+calibration_z_min: -5000
+calibration_z_pos: 0
+change_amount: 16
+conversion_factor_xy: 1
+conversion_factor_z: 1
+standard_move_dist_xy: 80
+standard_move_dist_z: 80
+standard_move_time_xy: 1
+standard_move_time_z: 3
+stepsize_xy: 80
+stepsize_z: 80
