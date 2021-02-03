@@ -62,6 +62,8 @@ They seem to be the same as the IM cubes - but not completely. The dimensions ar
 You can still find a lot of pictures with v2 cubes in the GitHub - many of the applications we tested are simply shown in the version, which we first build them with.   
 Knowing that it’s mechanically overdefined, the 4-point interface with screws and magnets gives the degree of freedom to level out mechanical imprecisions e.g. due to 3D printing etc. by adjusting the positions of the screws.
 
+:grey_exclamation: If you are still working with the v2 version of the cube, you find the documentation in the [UC2_v2 branch](https://github.com/bionanoimaging/UC2-GIT/tree/UC2_v2).
+
 #### v0 = the early cube
 *2017*  
 Why is there no v1? Because all the slow and steady development from the very beginning until the real modular microscopes is covered in this one. The v0 cube had a rail system similar to the cage system used by e.g. Thorlabs or Newport. The baseplate wasn't very different from v2.
@@ -139,13 +141,15 @@ So far it’s designed the way, that ball-magnets are pressed fit into the 3D pr
 *   The system can be built in the 3<sup>rd</sup> dimension by sandwiching layers of cubes and baseplates
 
 ### Building a UC2_v3 setup
+#### Watch the videos in the [UC2_v3 playlist](https://www.youtube.com/playlist?list=PLB7sYInE0vsM_uuHkdbQfF4FY6i0mnbqv) to see how it works!
+
 * The 3DP baseplate puzzles (pink) and IM baseplate puzzles (black) can be combined and one large baseplate can be build using both types.
 <p align="center">
 <img src="./IMAGES/IM_3DP_01.jpg" width="300">
 <img src="./IMAGES/IM_3DP_02.jpg" width="300">
 </p>
 
-* The 3DP baseplate puzzles (black) and IM Cube (right) can be used in parallel in the same setup. The IM Cube connects to the baseplate via eight lego-like pins on top and bottom side. The 3DP Cube connect with its screws in the corners to the magnets of the baseplate. Additionally, it has three M5 screws that work like the pins of the IM Cube, for better precision of alignment. 
+* The 3DP baseplate puzzles (black) and IM Cube (right) can be used in parallel in the same setup. The IM Cube connects to the baseplate via eight lego-like pins on top and bottom side. The 3DP Cube connect with its screws in the corners to the magnets of the baseplate. Additionally, it has three M5 screws that work like the pins of the IM Cube, for better precision of alignment.
 <p align="center">
 <img src="./IMAGES/IM_3DP_03.jpg" width="300">
 </p>
