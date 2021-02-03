@@ -67,9 +67,12 @@ The details about the size and other properties of the basic building block is f
 ([TUT02 of TUTORIALS](../../TUTORIALS))
 
 ### <img src="./IMAGES/A.png" width="40">Assembly Video Tutorial
-    This tutorial needs an update!
+#### IM Cube
+[![UC2 YouSeeToo - How to assemble the base-cube?](./IMAGES/UC2_Assembly_BaseCube_IM.png)](https://www.youtube.com/watch?v=y1q-O_CigGY&ab_channel=openUC2)
 
-[![UC2 YouSeeToo - How to assemble the base-cube?](./IMAGES/UC2_Assembly_BaseCube.png)](https://www.youtube.com/watch?v=zAMedY0mWKA)
+#### 3DP Cube
+[![UC2 YouSeeToo - How to assemble the base-cube?](./IMAGES/UC2_Assembly_BaseCube_3DP.png)](https://www.youtube.com/watch?v=Rjwojkbwct4&t=1s&ab_channel=openUC2)
+
 
 ## <img src="./IMAGES/A.png" width="40">Assembly Tutorial with images - IM Cube
 
@@ -131,6 +134,9 @@ Insert the M3×8 screws into the Cube-Body.
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Base_3DP_12.jpg" width="300">
 </p>
+
+#### Combine IM and 3DP baseplates and Cubes
+[![UC2 YouSeeToo - How to combine IM and 3DP parts?](./IMAGES/UC2_Combine_IM_3DP.png)](https://www.youtube.com/watch?v=J6wY9sDKyKg&ab_channel=openUC2)
 
 
 ## <img src="./IMAGES/L.png" width="40">Electronics
