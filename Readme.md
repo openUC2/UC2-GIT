@@ -6,11 +6,7 @@
 
 ---
 
-**New**: The Pre-print of "UCsim2: 2D Structured Illumination Microscopy using UC2" is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2021.01.08.425840v1)  [![DOI:10.1101/2021.01.08.425840](http://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.1101/2021.01.08.425840) 
-
-**New**: **The UC2 paper is out in Nature Communications!** :muscle: [A versatile and customizable low-cost 3D-printed open standard for microscopic imaging](https://www.nature.com/articles/s41467-020-19447-9) [![DOI:10.1038/s41467-020-19447-9](http://img.shields.io/badge/DOI-10.1038/s41467_020_19447_9-000000.svg)](https://doi.org/10.1038/s41467-020-19447-9)
-
-**New**: The [Microscopy, Optical Alignment and Abbe Diffraction experiment](./TheBOX/CourseBOX/ALIGNMENT_InfOptics) were added to the CourseBOX. You can also watch a demonstration of the [Abbe Experiment on YouTube](https://youtu.be/NrkINpx6IMo)
+## This branch stores the v2 version of the UC2 toolbox - in case you are still using v2, everything is preserved here. However, this branch is no longer updated and we do not guarantee that everything works. The development of the project continues in the [master branch](https://github.com/bionanoimaging/UC2-GIT).
 
 
 
