@@ -214,7 +214,7 @@ We also want to build a json file directly!
 
 
 
-for i_application in range(10,100):# range(10,100):
+for i_application in range(7,100):# range(10,100):
 
     # read application properties
     if i_application >= worksheet.ncols: break
@@ -226,6 +226,7 @@ for i_application in range(10,100):# range(10,100):
     application_price = 0
     
     #create application
+    print(application_name)
     my_application = uc2_application(application_name, 
                                      application_description, 
                                      #application_githublink, 
