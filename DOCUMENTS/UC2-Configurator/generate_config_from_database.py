@@ -101,8 +101,9 @@ i_module = 0
 for row_module in (all_modules_indices):
     #% row_module=6; i_module=0 # debug
     module_name = worksheet.cell(row_module, col_assembly_index+1).value
-    if(module_name==""):
+    if(module_name=="" or module_name=="END"):
         print('bla')
+        break
     #module_githublink = worksheet.cell(row_module+1, col_assembly_index+1).value
     module_price = worksheet.cell(row_module+2, col_assembly_index+1).value
     module_imagelink = ''
