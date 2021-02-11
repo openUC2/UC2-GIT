@@ -1,4 +1,4 @@
-# Linear Polarizer Cube
+# Polarizer Cube
 This is the repository for the Adjustable Linear Polarizer Cube.
 
 The stl-files can be found in the folder [STL](./STL).

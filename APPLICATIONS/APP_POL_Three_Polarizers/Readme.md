@@ -6,8 +6,8 @@
 width="650">
 </p>
 
-We use two linear polarizers in crossed polarizers experiment and block all traveling light and see almost darkness. :open_mouth:  
-But if we add third polarizer between them, we see the light at the end of the tunnel. MAGIC? :crystal_ball:
+We use two linear polarizers in [crossed polarizers experiment](../APPLICATIONS/APP_POL_Crossed_Polarizers) and block all traveling light and see almost darkness. :open_mouth:  
+But if we add third polarizer between them, we see the light at the end of the tunnel. MAGIC? :crystal_ball:  
 No, science. :brain:
 
 In crossed polarizers, two polarizers are oriented perpendicular to each other and light passes through the first polarizer (s-polarizer, 0 degrees) and blocks by the second polarizer (p-polarizer, 90 degrees). The extinction of the light reaches its maximum value.  
@@ -40,25 +40,25 @@ Three linear polarizers are used in the experiment and each of them has differen
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×1 Baseplate | - | 16,44€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 2|
+|  4×1 Baseplate | - | 16.44€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 2|
 |  Module: Polarizer Cube | Linearly Polarizing Filter  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)  | 3|
-|  Module: Sample Holder Cube | To insert the sample  | 2,5 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
-|  Module: Sample Holder Comb | To hold the screen | 1,4 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
+|  Module: Sample Holder Cube | To insert the sample  | 2.5 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
+|  Module: Sample Holder Comb | To hold the screen | 1.4 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
 |  Module: Flashlight Lamp Cube | -  | €  | [Flashlight ](../../CAD/Assembly_Cube_Eyepiece_v2)  | 1|
 
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 2× [Base-plate 4×1](../../CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl)
-* 6× [Cube base 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl)
-* 6x [Cube lid 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl)
-* 3× [Polarizer Guide](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Guide.stl)
-* 3× [Polarizer Wheel](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Wheel.stl)
-* 3× [Polarizer Lid](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Lid.stl)
-* 1× [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl)
-* 1x [Sample Holder Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl)
-* 1× [Flashlight Holder](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl) - the diameter works for the flashlight linked in the eyepiece insert
-* 1x [Sample Holder - comb](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl)
+* 2 × [Base-plate 4×1](../../CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl)
+* 6 × [Cube base 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl)
+* 6 x [Cube lid 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl)
+* 3 × [Polarizer Guide](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Guide.stl)
+* 3 × [Polarizer Wheel](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Wheel.stl)
+* 3 × [Polarizer Lid](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Lid.stl)
+* 1 × [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl)
+* 1 x [Sample Holder Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl)
+* 1 × [Flashlight Holder](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl) - the diameter works for the flashlight linked in the eyepiece insert
+* 1 x [Sample Holder - comb](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl)
 
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components

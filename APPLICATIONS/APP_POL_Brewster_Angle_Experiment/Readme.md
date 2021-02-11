@@ -1,6 +1,4 @@
-# Crossed Polarizer
-Crossed Polarizers is used to analyze the polarization of light.
-Two linear polarizers are located perpendicular to each other.
+# Brewster Angle Experiment
 
 <p align="center">
 <img src="./IMAGES/Crossed Polarizer Diagram.png"

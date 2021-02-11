@@ -1,12 +1,9 @@
-# Crossed Polarizer
+# Polarization Experiment using Optically Active Solution
 
 <p align="center">
 <img src="./IMAGES/Assembly_Crossed_Polarizer.png"
 width="450">
 </p>
-
-Crossed Polarizers is used to analyze the polarization of light.
-Two linear polarizers are located perpendicular to each other. 
 
 ## <img src="./IMAGES/D.png" width="40">Parts
 

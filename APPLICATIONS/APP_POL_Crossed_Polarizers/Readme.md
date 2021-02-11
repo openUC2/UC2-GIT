@@ -7,9 +7,9 @@ width="640">
 </p>
 
 
-*Crossed Polarizers* are used to analyze the polarization of light. We use two linear polarizers and they are located perpendicular to each other.   
+*Crossed Polarizers* are used to analyze the polarization of light. We use two linear polarizers which are located perpendicular to each other.
 
-The polarizing direction of the first polarizer is oriented vertically to the incoming beam and it will allow passing only vertical electric field vectors. After the first polarizer, we have an s-polarized light wave.
+In the experiment, the polarizing direction of the first polarizer is oriented vertically to the incoming beam and it will allow passing only vertical electric field vectors. After the first polarizer, we have an s-polarized light wave.
 
 <p align="center">
 <img src="./IMAGES/crossed polarizer_exp_2.png"
@@ -33,10 +33,10 @@ Time to build a Crossed Polarizers setup!
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×1 Baseplate | - | 16,44€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 2|
-|  Module: Polarizer Cube | Linearly Polarizing Filter  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)  | 2|
-|  Module: Sample Holder Cube | To insert the sample  | 2,5 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
-|  Module: Sample Holder Comb | To hold the screen | 1,4 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
+|  4×1 Baseplate | - | 16.44 €  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 2|
+|  Module: Polarizer Cube | Linearly Polarizing Filter  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Polarizer_Holder)  | 2|
+|  Module: Sample Holder Cube | To insert the sample  | 2.5 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
+|  Module: Sample Holder Comb | To hold the screen | 1.4 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
 |  Module: Flashlight Lamp Cube | -  | €  | [Flashlight ](../../CAD/Assembly_Cube_Eyepiece_v2)  | 1|
 
 
@@ -45,9 +45,9 @@ Time to build a Crossed Polarizers setup!
 * 2× [Base-plate 4×1](../../CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl)
 * 5× [Cube base 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl)
 * 5x [Cube lid 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl)
-* 2× [Polarizer Guide](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Guide.stl)
-* 2× [Polarizer Wheel](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Wheel.stl)
-* 2× [Polarizer Lid](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Lid.stl)
+* 2× [Polarizer Guide](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Guide.stl)
+* 2× [Polarizer Wheel](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Wheel.stl)
+* 2× [Polarizer Lid](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Lid.stl)
 * 1× [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl)
 * 1x [Sample Holder Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl)
 * 1× [Flashlight Holder](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl) - the diameter works for the flashlight linked in the eyepiece insert
@@ -71,16 +71,16 @@ width="350">
 ## <img src="./IMAGES/A.png" width="40"> Assembly
 
 * [Baseplate](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Polarizer Cube](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)
+* [Polarizer Cube](../../CAD/ASSEMBLY_POL_Polarizer_Holder)
 * [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
-* [Sample Holder Cube Comb for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
+* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
 * [Flashlight cube](../../CAD/Assembly_Cube_Eyepiece_v2) : Simply insert the holder in a cube and close it as any other
 
 
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-We printed and assembled the module parts and bought necessary components and inserted them into cubes.  
+We printed and assembled the module parts.After that, we bought necessary components and inserted them into cubes.  
 You will find basic version of Crossed Polarization experiment without specific sample and extra light source below.
 
 <p align="center">

@@ -1,11 +1,15 @@
-# Crossed Polarizer
-Crossed Polarizers is used to analyze the polarization of light.
-Two linear polarizers are located perpendicular to each other.
+# Stress Birefringence Experiment
 
 <p align="center">
-<img src="./IMAGES/Crossed Polarizer Diagram.png"
+<img src="./IMAGES/stress_birefriengce_diagram_2.png"
 width="450">
 </p>
+
+Birefringence is
+
+
+
+
 
 
 ## <img src="./IMAGES/D.png" width="40">Parts
@@ -14,10 +18,9 @@ width="450">
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×1 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 2|
-|  Module: Polarizer Cube | -  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)  | 1|
+|  4×1 Baseplate | - | €  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 1|
+|  Module: Linear Polarizer Cube | -  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)  | 2|
 |  Module: Sample Holder Cube | -  | 20 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
-|  Module: Raspberry Camera Cube | -  | 10 €  | [RasPi Camera Holder](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
 |  Module: Flashlight Lamp Cube | -  | 10 €  | [Flashlight Holder](../../CAD/Assembly_Cube_Eyepiece_v2)  | 1|
 
 
@@ -48,28 +51,39 @@ width="450">
 * Sample
 
 <p align="center">
-<img src="./IMAGES/Assembly_Crossed_Polarizer.png"
+<img src="./IMAGES/Assembly_Stress_Birefringence 2.png"
 width="450">
-</p>  
+</p>
+
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
 
 * [Baseplate](../../CAD/ASSEMBLY_Baseplate_v2/)
 * [Polarizer Cube](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)
 * [Sample Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
-* [Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)
 * [Flashlight cube](../../CAD/Assembly_Cube_Eyepiece_v2) : Simply insert the holder in a cube and close it as any other
 
 
-## Two Linear Polarizers
+## Stress Birefringence
+
 
 <p align="center">
-<img src="./IMAGES/crossed polarizer_exp.png" width="600">
+<img src="./IMAGES/"
+width="600">
 </p>
 
-*add with technical info*
+In the experiment, we can use simple materials to observe stress birefringence such as plastic cutlery, a plastic cup or homemade punched pocket&tape sheet. 
+
+
 
 ## <img src="./IMAGES/E.png" width="40"> Results
+
+
+<p align="center">
+<img src="./IMAGES/sample_plastic_sheet_2.jpg"
+width="600">
+</p>
+
 
 <p align="center">
 <img src="./IMAGES/crossed_polarizer.gif"
