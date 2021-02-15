@@ -1,4 +1,4 @@
-# Setting up Raspberry PI 
+# Setting up Raspberry PI
 
 ## Outline
 * Install and prepare Raspbian
@@ -126,7 +126,6 @@ Setting up the RasPi can be done via SSH remotely as well, but finally our our c
     go to `Interfacing Options` and enable:
     *   [Camera](https://www.raspberrypi.org/documentation/configuration/camera.md)
     *   [SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/)
-    *   (OPTIONAL) the [I2C](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c)-interface.
 
     Finish and reboot by typing  
     ```
@@ -400,7 +399,7 @@ $ cd ~/Desktop/
 $ touch UC2_startGUI.sh
 $ nano UC2_startGUI.sh
 ```
-Then insert the necsesary code and replace "your-uc2name" with your chosen username. Make sure that the path (here: ~/UC2/UC2-GUI) is the same as where you stored your GUI-files.
+Then insert the necessary code and replace "your-uc2name" with your chosen username. Make sure that the path (here: ~/UC2/UC2-GUI) is the same as where you stored your GUI-files.
 ```
 #!/bin/bash
 export PATH="/home/your-uc2name/berryconda3/bin:$PATH"
@@ -408,7 +407,7 @@ source activate UC2env
 cd ~/UC2/UC2-GUI/
 python main.py
 ```
-exit and save. Finally,  make the file executeable:
+exit and save. Finally,  make the file executable:
 ```
 chmod +x ./UC2_startGUI.sh
 ```
@@ -417,8 +416,7 @@ Voila. Now: double klick on the file.
 
 ## Connecting the Microcontrollers
 We reached the final preparation step. Depending on whether you chose to use ESP32 + MQTT or Arduino + I2C - connection your path from here on splits.
-* [The ESP32 + MQTT PATH](../../HARDWARE_CONTROL/ESP32/README.md)
-* [The ARDUINO + I2C PATH](../../HARDWARE_CONTROL/ARDUINO/README.md)
+* [The ESP32 + MQTT PATH](../ESP32/README.md)
 
 Once the devices are setup and powered (running), restart your GUI on the RASPI. To control e.g. the LED-array, on the left click "CUS" and click on the different fields on the right, thereby (de-) activating the different LED elements.
 

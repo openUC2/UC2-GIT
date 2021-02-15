@@ -1,7 +1,7 @@
 # Kinematic Mirror Holder Cube - Diagonal
 This is the repository for the Diagonal Kinematic Mirror Holder Cube.
 
-The stl-files can be found in the folder [STL](./STL).
+The STLs and links for buying parts are only provided in [APP_LIGHTSHEET_Workshop](../APP_LIGHTSHEET_Workshop) to avoid confusion.
 
 ## Purpose
 It adapts a mirror to the UC2 system. It allows precise tilting in *x* and *y*.
@@ -20,22 +20,21 @@ Due to limited space, we sometimes need to fold the beam using a mirror. This is
 
 ## Parts
 
-### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 * No support needed in all designs
 * Carefully remove all support structures (if applicable)
 
 The Cube consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
-* **The Kinematic Mirror Holder Base** which holds the three screws that change the tilt of the mirror ([INSERT](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl))
-* **The Mirror Holder for the Kinematic Mirror Holder** which holds the Mirror on the front side and three magnets on the back. Choose holder for 1" Thorlabs mirror ([1" MIRROR HOLDER](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_Thorlabsadapter.stl)) or 30×30mm² Toy mirror ([SQUARE MIRROR HOLDER](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl))
+* **The Lid** where the Arduino + Electronics finds its place ([LID])
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE])
+* **The Kinematic Mirror Holder Base** which holds the three screws that change the tilt of the mirror ([INSERT])
+* **The Mirror Holder for the Kinematic Mirror Holder** which holds the Mirror on the front side and three magnets on the back. For 30×30mm² Toy mirror ([SQUARE MIRROR HOLDER])
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 11× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-* 3× Ballmagnets, arbitrary diameter [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
-* 1× Mirror (e.g. Amazon 30×30mm² with double-sided sticky tape) [🢂](https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE)
+* 11× DIN912 M3×12 screws (galvanized steel)
+* 3× Ballmagnets, arbitrary diameter
+* 1× Mirror (e.g. Amazon 30×30mm² with double-sided sticky tape)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove any support and clean the part

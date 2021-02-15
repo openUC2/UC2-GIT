@@ -1,7 +1,7 @@
 # LASER Mount Cube
 This is the repository for the Laser Mount Cube.
 
-The stl-files can be found in the folder [STL](./STL).
+The STLs and links for buying parts are only provided in [APP_LIGHTSHEET_Workshop](../APP_LIGHTSHEET_Workshop) to avoid confusion.
 
 ## Purpose
 It adapts a laser-pointer to the to the UC2 system.
@@ -30,23 +30,22 @@ We measured a mean power of ***0.546 mW*** in continuous mode. We used new batte
 
 ## Parts
 
-### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 * No support needed in all designs
 * Carefully remove all support structures (if applicable)
 
 The Cube consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
-* **The Laser inserts** which holds the laser and adapts it to the base cube. For optimal performance use two inserts in one cube ([INSERT](./STL/20_Cube_Insert_Laser_Mount.stl))
-* **The Laser Clamp** allows switching the laser permanently ([SWITCH](./STL/00_Laser_Clamp_OnOffSwitch.stl))
+* **The Lid** where the Arduino + Electronics finds its place ([LID])
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE])
+* **The Laser inserts** which holds the laser and adapts it to the base cube. For optimal performance use two inserts in one cube ([INSERT])
+* **The Laser Clamp** allows switching the laser permanently ([SWITCH])
 
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 8× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 8× DIN912 M3×12 screws (galvanized steel)
 * 4× DIN912 M3×18 screws
-* Laserlands 450 nm laser-pointer [🢂](https://www.laserlands.net/11040037.html)
+* Laserlands 450 nm laser-pointer 
 
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly

@@ -1,7 +1,7 @@
 # Sample-Stage for light sheet microscope
 This is the repository for the Z-Stage (Sample) that is used in the light sheet microscope.
 
-The stl-files can be found in the folder [STL](./STL).
+The STLs and links for buying parts are only provided in [APP_LIGHTSHEET_Workshop](../APP_LIGHTSHEET_Workshop) to avoid confusion.
 
 Note: The wiring and electronics is the same as in the previous version, just the 3D printed stage is different.
 
@@ -29,25 +29,24 @@ A stepper motor (28-BYJ) is attached to a screw that moves directly with the mot
 
 ## Parts
 
-### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 * No support needed in all designs
 * **Carefully remove the in-built support structure as shown in the assembly tutorial - step 2**
 
 The Model consists of the following components.
 
-* **The Sample stage for light sheet microscope** where the motor is mounted and the sample is held ([STAGE](./STL/30_LS_Sample_stage_v2.stl))
-* **The Coupling Screw** which couples the motor to a screw a through that to the movement of the stage ([SCREW](./STL/30_Coupling_Screw_28BYJ_M3.stl))
+* **The Sample stage for light sheet microscope** where the motor is mounted and the sample is held ([STAGE])
+* **The Coupling Screw** which couples the motor to a screw a through that to the movement of the stage ([SCREW])
 
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 6× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 6× DIN912 M3×12 screws (galvanized steel)
 * 1× M3 Nut
 * 1× M3 Screw, 30 mm
-* 1× 28-BYJ stepper motor with 1x Driving electronic [🢂](https://www.amazon.de/Elegoo-Stepper-Schrittmotor-28BYJ-48-Treiberplatine/dp/B01MEGIHLF/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=stepper+arduino&qid=1565008205&s=gateway&sr=8-1-spons&psc=1)
-* 1× ESP32 for controlling the motor [🢂](https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3)
-* wires to connect everything; for example: 6× Female-Female Jumper Wire, 0.14 mm² [🢂](https://www.amazon.de/ZOORE-120pcs-Multicolored-Female-Breadboard/dp/B07P85V1G3/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jumper+male&qid=1565690543&s=industrial&sr=1-5)
-* 1× USB Micro Cable [🢂](https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2)
+* 1× 28-BYJ stepper motor with 1x Driving electronic
+* 1× ESP32 for controlling the motor
+* wires to connect everything; for example: 6× Female-Female Jumper Wire, 0.14 mm²
+* 1× USB Micro Cable 
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove the support material
@@ -113,7 +112,7 @@ The Model consists of the following components.
 <img src="./IMAGES//Assembly_LS_Sample_stage_17.jpg" width="300">
 </p>
 
-1. Connect all the electronics following the instructions in [ELECTRONICS](../../ELECTRONICS/Z-Stage). Upload the respective code from [here](https://github.com/bionanoimaging/UC2-Software-GIT/tree/master/HARDWARE_CONTROL/ESP32/GENERAL/ESP32_motor_fluo). Done!
+1. Connect all the electronics following the instructions in [Z-Stage](../Z-Stage). Upload the respective code from [here](../ESP32). Done!
 <p align="center">
 <img src="./IMAGES//Assembly_LS_Sample_stage_18.jpg" width="300">
 </p>
@@ -123,9 +122,9 @@ The Model consists of the following components.
 In general we could use any of the output pins of the ESP32, but for the Sample-Stage we typically use the following:
 
 ```
-Motor02  = 4, 32, 25, 27
+Motor02  = 25, 26, 27, 14
 ```
-They connect to the `IN1, IN2, IN3, IN4` of the motor controller respectively. Find the details in the [ELECTRONICS](../../ELECTRONICS/Z-Stage) section.
+They connect to the `IN1, IN2, IN3, IN4` of the motor controller respectively. Find the details in the [Z-Stage](../Z-Stage) section.
 
 ## Safety
 Be careful!

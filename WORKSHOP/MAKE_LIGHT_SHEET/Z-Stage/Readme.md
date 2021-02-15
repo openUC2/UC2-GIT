@@ -6,6 +6,26 @@ The electronics part of this project is quite simple. We only need a motor which
 
 In order to let the motor spin in both directions with different speed, we need to generate a signal which has a specific order of high/low pulses for each channel. Therefore we use a microcontroller (ESP32 DEV) which can conveniently be programmed in the Arduino IDE (see software section).
 
+## Electronics (for dummies)
+
+Don't have much experience with electronics? It's actually really simple!
+
+* **Z-stage** or **Sample-stage** - 6 wires + motor connection
+* Sample stage is the very same as the Z-stage - you just mount it on different 3Dprinted parts.
+
+<p align="center">
+<img src="./IMAGES/Electronics_Z-stage.png" width="300">
+</p>
+<p align="center">
+<img src="./IMAGES/IMG_20190925_162651.jpg" width="300">
+<img src="./IMAGES/IMG_20190925_162730.jpg" width="300">
+<img src="./IMAGES/IMG_20190925_162700.jpg" width="300">
+</p>
+
+* Flash them with the right software from our [Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT).
+* Power the ESP32 simply with microUSB cables.
+* And it works just like that ;-)
+
 ## Wiring
 We need to connect each input-channel of the motor-controller board to an output of the ESP microcontroller. Additionally, we need to connect the power of both  controllers (+/- to +5V/GND respectively). In general we could use any of the output pins of the ESP32, but we typically use the following:
 
@@ -23,7 +43,7 @@ They connect to the IN1, IN2, IN3, IN4 of the motor controller respectively, as 
 
 ## Soldering
 
-Have a look in the [TUTORIALS](../TUTORIALS) for some soldering guidelines, if you're not professional in it. Then follow these steps:
+Have a look in the [TUTORIALS](../../../TUTORIALS) for some soldering guidelines, if you're not professional in it. Then follow these steps:
 
 * Take 10 wires and cut them to around 100 mm
 * Remove the isolation of each wire at both sides
@@ -46,9 +66,8 @@ If everything went correct, the entire circuit should look like the lower photog
 
 
 ## <img src="./IMAGES/W.png" width=40>Code
-The code can be found in the [Software GIT](https://github.com/bionanoimaging/UC2-Software-GIT).
+The code can be found in the [ESP32](../ESP32).
 
-The code needs to flashed using the Arduino IDE with the ESP32 library. Further information can be found in [TUTORIALS](../../TUTORIALS)
 
 ## <img src="./IMAGES/Y.png" width=40>Safety
 Make sure to release the motor when not using in, otherwise it can get quiet hot!

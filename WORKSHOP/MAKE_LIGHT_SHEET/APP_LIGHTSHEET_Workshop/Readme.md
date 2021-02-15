@@ -8,7 +8,7 @@ Produce 3D images with better sectioning.
 
 Note: The pictures on this site might not show the latest version of the cubes. Follow the respective assembly guidelines.
 
-## <img src="./IMAGES/D.png" width="40">3D printing
+## <img src="./IMAGES/D.png" width="40">Parts 
 
 ### Modules for this setup
 
@@ -41,30 +41,40 @@ Note: The pictures on this site might not show the latest version of the cubes. 
 * 1× [Laser Switch](./STL/00_Laser_Clamp_OnOffSwitch.stl)
 * 1× [Beamexpander Insert](./STL/20_Cube_Insert_Beamexpander.stl)
 * 1× [Beamexpander Lens Adapter](./STL/30_Lens_Adapter_Beamexpander.stl) - if needed
-* 1× [Cylindrical Lens Insert](./STL/20_Cube_Insert_Lens_Cylindrical.stl)
+* 1× [Cylindrical Lens Insert](./STL/20_Cube_Insert_Lens_Cylindrical_Plexiglas_glassslab_v3.stl)
 * 1× [Kinematic Mirror Insert](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl)
 * 1× [Kinematic Mirror plate](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl)
 * 1× [Objective Lens Insert](./STL/20_Cube_Insert_Objective_Holder.stl)
 
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
-* Check out the [RESOURCES](../../../../TUTORIALS/RESOURCES) for more information!
+* Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 *  40 × - 83× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * 50× - 70× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-* 2× M3×30 mm and 2× M3 nut - non-magnetic
-* 2× M2×12 mm and 2× M2 nut - non-magnetic
+* 2× M3×30 mm and 2× M3 nut - non-magnetic [🢂](https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0)
+* 4× M3×18 mm (or M3×20 or alike) [🢂](https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0)
+* 2× M2×12 mm and 2× M2 nut - non-magnetic [🢂](https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0)
 * 1× Raspberry Pi Camera [🢂](https://www.amazon.de/Raspberry-Pi-v2-1-1080P-Kamera-Modul/dp/B01ER2SMHY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1LUZK9XHFS5CX&keywords=raspberry+pi+camera+v2.1&qid=1565008837&s=gateway&sprefix=raspberry+pi+camera+%2Caps%2C163&sr=8-4)
 * 1× Laser pointer [🢂](https://www.laserlands.net/11040037.html)
 * 1× Smartphone Camera Lens [🢂](https://www.amazon.de/BisLinks%C2%AE-Facing-Kamera-Ersatz-Repair/dp/B01M9K9RVN/ref=sr_1_10?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=lg+g3+camera&qid=1565005739&s=gateway&sr=8-10)
-* 1× Planoconvex Lens, *f'* = 25 mm (Artikel 2002 or 2107) [🢂](https://optikbaukasten.de/)
+* 1× Achromat Lens, *f'* = 26,5 mm [🢂](https://astromedia.ch/produkt/achromat-265mm-o-180mm/)
 * 1× Objective Lens 10×, NA 0.3 [🢂](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)
 * 1× Objective Lens 4× [🢂](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)
-* 1× Cylindrical Lens, *f'* = 63 mm (e.g. 63 YQ 40) [🢂](https://www.comaroptics.com/components/lenses/cylindrical-lenses/quality-planoconvex-cylindrical-lenses-visibleuv)
+* 1× Plexiglass rod - half [🢂](https://www.ebay.de/itm/10-99-m-Acrylglas-Halb-Rundstab-15-mm-Hohe-7-5-mm-Lange-wahlbar/362697878979?hash=item54727a6dc3:g:WmAAAOSwUKxYm1H3)
 * 1× Mirrors (e.g. 30×30 mm² Toymirrors) [🢂](https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE)
 * 2× ESP32 [🢂](https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3)
 * 2× Stepper Motor and 2× Driver Board [🢂](https://www.amazon.de/Elegoo-Stepper-Schrittmotor-28BYJ-48-Treiberplatine/dp/B01MEGIHLF/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=stepper+arduino&qid=1565008205&s=gateway&sr=8-1-spons&psc=1)
 * 12× Female-Female Jumper Wire, 0.14 mm² [🢂](https://www.amazon.de/ZOORE-120pcs-Multicolored-Female-Breadboard/dp/B07P85V1G3/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jumper+male&qid=1565690543&s=industrial&sr=1-5)
-* 2× Power cables for ESP32 - USB-microUSB [🢂](https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2)
+* 2× USB Power cables for ESP32 - USB-microUSB [🢂](https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2)
+
+For Raspberry Pi (you may also just use one that you have, use it with a standard monitor... up to you):
+* [Raspberry Pi (e.g. 4)](https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-2-gb-ram-wlan-bt-rasp-pi-4-b-2gb-p259919.html?PROVID=2788&gclid=Cj0KCQjwv8nqBRDGARIsAHfR9wDfSTnmSNyUOfEQFSt3AH1NsNxiCz0buRYcON7xUyqIMCWoCNkDb1AaAl7kEALw_wcB&&r=1)
+* [An according display](https://www.reichelt.de/raspberry-pi-shield-display-lcd-touch-7-800x480-pixel-raspberry-pi-7td-p159859.html?)
+* [A keyboard](https://www.reichelt.de/funk-tastatur-usb-schwarz-touchpad-logitech-k400-p162726.html?&trstct=pos_0) -  ideally with an integrated mouse pad
+* [SD card](https://www.amazon.de/SanDisk-SDSQUAR-064G-GN6MA-microSDXC-Speicherkarte-Adapter/dp/B073JYVKNX/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sd+card+64+gb&qid=1565691023&s=computers&sr=1-2) with minimum size of 16 GB (more won't hurt)
+* [Power supply for the RaspberryPi](https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html?&trstct=lsbght_sldr::259919) - Make sure to choose a power supply that works with your RasPi! There is a difference between RasPi 3 and 4.
+* [Replacement Cable for Raspi Camera - 100 cm](https://www.amazon.de/gp/product/B075JN61S7/ref=ox_sc_act_title_2?smid=A1X7QLRQH87QA3&psc=1) - Again, more important when you want to use it in a setup but you'll need it anyways.
+* For convenience and safety of your RasPi: [an according case for the RasPi and display](https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-7-touch-display-rpi4-case-lcd7bk-p268976.html?&trstct=pol_57)
 
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly and alignment
@@ -74,7 +84,7 @@ Note: The pictures on this site might not show the latest version of the cubes. 
 * [Cylindrical Lens Cube ](../ASSEMBLY_CUBE_Lens_Cylindrical_v2/)
 * [Kinematic Mirror Cube ](../ASSEMBLY_CUBE_Mirror_45_v2/)
 * [Objective Lens Cube ](../ASSEMBLY_CUBE_Lens_v2/)
-* [Sample-stage ](../ASSEMBLY_CUBE_S-STAGE_v2/)
+* [Sample-stage ](../ASSEMBLY_CUBE_S-STAGE_new_v2/)
 * [Z-stage ](../ASSEMBLY_CUBE_Z-STAGE_v2/)
 * [Raspberry Camera Cube ](../ASSEMBLY_CUBE_RaspiCam_v2/)
 
@@ -93,7 +103,7 @@ Here we give a step-by-step tutorial on how-to align the beam-path.
 
 The illumination path is independent from the detection path - the order how you align it is up to you.
 
-A simplified scheme can be found [here](./IMAGES/UC2_fullBOX_lightsheet_EN.pdf).
+A simplified scheme can be found [here](./DOCUMENTS).
 
 ## <img src="./IMAGES/Y.png" width="40">Safety
 Don't touch the optical surfaces of lenses and objectives!

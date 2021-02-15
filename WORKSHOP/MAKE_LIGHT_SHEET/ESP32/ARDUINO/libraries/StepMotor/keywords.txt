@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For Test
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+StepMotor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Step				KEYWORD2
+Move				KEYWORD2
+SetSpeed			KEYWORD2
+SetNumberOfSteps	KEYWORD2
+IncrementPhase		KEYWORD2
+SetBaudrate			KEYWORD2
+
+######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################

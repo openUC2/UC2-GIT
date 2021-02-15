@@ -1,7 +1,7 @@
 # Camera Cube
 This is the repository for the Camera Cube.
 
-The stl-files can be found in the folder [STL](./STL).
+The STLs and links for buying parts are only provided in [APP_LIGHTSHEET_Workshop](../APP_LIGHTSHEET_Workshop) to avoid confusion.
 
 ## Purpose
 It adapts a standard Raspberry Pi Camera (v1, v2) to the UC2 system.
@@ -18,21 +18,20 @@ The sensor (w/wo lens) is put into an adapter which holds the camera in the cent
 
 ## Parts
 
-### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 * No support needed in all designs
 * Carefully remove all support structures (if applicable)
 
 The Cube consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
-* **The Camera Insert** which holds the camera and makes it adaptable to the base-cube ([INSERTE](./STL/20_Cube_Insert_RaspiCam.stl))
+* **The Lid** where the Arduino + Electronics finds its place ([LID])
+* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE])
+* **The Camera Insert** which holds the camera and makes it adaptable to the base-cube ([INSERTE])
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
-* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 8× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-* 1× Raspi Camera (v1, v2) [🢂](https://www.amazon.de/Raspberry-Pi-v2-1-1080P-Kamera-Modul/dp/B01ER2SMHY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1LUZK9XHFS5CX&keywords=raspberry+pi+camera+v2.1&qid=1565008837&s=gateway&sprefix=raspberry+pi+camera+%2Caps%2C163&sr=8-4)
-* 1× long cable for Raspi Camera [🢂](https://www.az-delivery.de/collections/raspberry-pi-kamera-zubehor/products/100cmflexkabel?ls=de)
+* 8× DIN912 M3×12 screws (galvanized steel)
+* 1× Raspi Camera (v1, v2)
+* 1× long cable for Raspi Camera 
 * 2× M2*10 screws (best: plastic)
 * 2× M2 nuts (best: plastic)
 

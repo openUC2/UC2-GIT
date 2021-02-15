@@ -1,7 +1,8 @@
 # Baseplate
-This is the repository for the design of the baseplates. The .stl files can be found in the folder [STL](./STL).
+This is the repository for the design of the baseplates.
 
-([TUT04 of TUTORIALS](../../TUTORIALS))
+The STLs and links for buying parts are only provided in [APP_LIGHTSHEET_Workshop](../APP_LIGHTSHEET_Workshop) to avoid confusion.
+
 
 ## Purpose
 Baseplates serve as a spine of any setup you build using the cubes. The basic unit has a size of 1×1. The 5 mm ballmagnets are inserted in the baseplate.
@@ -26,19 +27,18 @@ width="500">
 ## Parts
 ### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 In [STL](./STL) you find the following baseplates. Choose the size that will be the best for your setup:
-* [Assembly_base_4x1](./STL/Assembly_base_4x1.stl)
-* [Assembly_base_4x2](./STL/Assembly_base_4x2.stl)
-* [Assembly_base_4x4](./STL/Assembly_base_4x4.stl)
+* [Assembly_base_4x1]
+* [Assembly_base_4x2]
+* [Assembly_base_4x4]
 
 Further, you find there:
-* [10_Base_v2](./STL/10_Base_v2.stl) - a single baseplate unit. Use it to create assemblies and generate baseplates of different size and shape.
-* [00_Connector_Baseplate](./STL/00_Connector_Baseplate.stl) - as mentioned above, the connector allows you to build setups in 3D
-* [Assembly_Base_Connector_4](./STL/Assembly_Base_Connector_4.stl) - lenght of 4 baseplate units
+* [10_Base_v2] - a single baseplate unit. Use it to create assemblies and generate baseplates of different size and shape.
+* [00_Connector_Baseplate] - as mentioned above, the connector allows you to build setups in 3D
+* [Assembly_Base_Connector_4] - lenght of 4 baseplate units
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 
-* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* Ballmagnets (four magnets per baseplate unit) - 5 mm diameter [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+* Ballmagnets (four magnets per baseplate unit) - 5 mm diameter 
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 ### Assembly Video Tutorial
