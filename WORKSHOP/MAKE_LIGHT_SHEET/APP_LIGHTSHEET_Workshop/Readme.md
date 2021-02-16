@@ -143,7 +143,6 @@ Here we try to form the light sheet.
 
 <p align="center">
 <img src="./IMAGES/LS_alignment_01.jpg" width="300">
-<img src="./IMAGES/LS_alignment_02.jpg" width="300">
 <img src="./IMAGES/LS_alignment_03.jpg" width="300">
 <img src="./IMAGES/LS_alignment_04.jpg" width="300">
 </p>
@@ -210,7 +209,6 @@ Here we try to form the light sheet.
 <img src="./IMAGES/LS_alignment_13.jpg" width="300">
 <img src="./IMAGES/LS_alignment_14.jpg" width="300">
 <img src="./IMAGES/LS_alignment_15.jpg" width="300">
-<img src="./IMAGES/LS_alignment_16.jpg" width="300">
 </p>
 
 ### Time to check the electronics
@@ -298,14 +296,18 @@ Here we try to form the simple microscope.
 * Firstly, the light sheet should be aligned in such a height to illuminate the area observed by the detection objective. Adjust the height of the illumination path if necessary (see steps above).
 * Align the light sheet roughly in such a way that the waist (the thinnest part of the light sheet) is in front of the detection objective). Trace your light sheet with a piece of paper to find the waist.
 * The focus of the 4× objective lens (therefore of the light-sheet) can be varied coarsely by shifting the lens back and forth in the spiral mount.
-* Place the sample (the tissue) on the sample stage. Use a flashlight and move the sample-stage in big steps (100 um) in one direction or the other to find a rough focus -> see a focused stripe of the tissue structure. Adjust the focus of the Z-stage to have the focused area in the center of your field of view.
-* Now it is necessary to do the experiment in a dark room.
-* Once you see the structure of the paper, align the light sheet onto the focus plane - tilt the kinematic mirror, adjust the focus of the 4× objective.
-* Kinematic mirror: Take a hex key and turn the screw of the mirror - this mirror varies the angle of the light sheet and the position where it hits the back focal plane of the 4x objective lens respectively.
 
 <p align="center">
 <img src="./IMAGES/LS_alignment_29.jpg" width="300">
 <img src="./IMAGES/LS_alignment_31.jpg" width="300">
+</p>
+
+* Place the sample (the tissue) on the sample stage. Use a flashlight and move the sample-stage in big steps (100 um) in one direction or the other to find a rough focus -> see a focused stripe of the tissue structure. Adjust the focus of the Z-stage to have the focused area in the center of your field of view.
+* Now it is necessary to do the experiment in a dark room (close curtains, switch off the lights).
+* Once you see the structure of the paper, align the light sheet onto the focus plane - tilt the kinematic mirror, adjust the focus of the 4× objective.
+* Kinematic mirror: Take a hex key and turn the screw of the mirror - this mirror varies the angle of the light sheet and the position where it hits the back focal plane of the 4x objective lens respectively.
+
+<p align="center">
 <img src="./IMAGES/LS_alignment_32.jpg" width="300">
 <img src="./IMAGES/LS_alignment_33.jpg" width="300">
 <img src="./IMAGES/LS_alignment_34.jpg" width="300">
@@ -331,6 +333,12 @@ Here we try to form the simple microscope.
 <p align="center">
 <img src="./IMAGES/MAKE_LS.gif" width="400">
 </p>
+
+### What can you see with the simplest possible light sheet setup:
+<p align="center">
+<img src="./IMAGES/MAKE_LS_sample.gif" width="400">
+</p>
+
 
 ### The result could look like this:
 
