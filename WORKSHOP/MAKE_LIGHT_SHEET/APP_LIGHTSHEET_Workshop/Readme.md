@@ -8,7 +8,7 @@ Produce 3D images with better sectioning.
 
 Note: The pictures on this site might not show the latest version of the cubes. Follow the respective assembly guidelines.
 
-## <img src="./IMAGES/D.png" width="40">Parts 
+## <img src="./IMAGES/D.png" width="40">Parts
 
 ### Modules for this setup
 
@@ -40,11 +40,11 @@ Note: The pictures on this site might not show the latest version of the cubes. 
 * 2× [Laser Mount](./STL/20_Cube_Insert_Laser_Mount.stl)
 * 1× [Laser Switch](./STL/00_Laser_Clamp_OnOffSwitch.stl)
 * 1× [Beamexpander Insert](./STL/20_Cube_Insert_Beamexpander.stl)
-* 1× [Beamexpander Lens Adapter](./STL/30_Lens_Adapter_Beamexpander.stl) - if needed
 * 1× [Cylindrical Lens Insert](./STL/20_Cube_Insert_Lens_Cylindrical_Plexiglas_glassslab_v3.stl)
 * 1× [Kinematic Mirror Insert](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl)
 * 1× [Kinematic Mirror plate](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl)
 * 1× [Objective Lens Insert](./STL/20_Cube_Insert_Objective_Holder.stl)
+* Optional but useful: 1× [Sample comb](./STL/20_Cube_Sampleholder)
 
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
@@ -62,9 +62,10 @@ Note: The pictures on this site might not show the latest version of the cubes. 
 * 1× Objective Lens 4× [🢂](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)
 * 1× Plexiglass rod - half [🢂](https://www.ebay.de/itm/10-99-m-Acrylglas-Halb-Rundstab-15-mm-Hohe-7-5-mm-Lange-wahlbar/362697878979?hash=item54727a6dc3:g:WmAAAOSwUKxYm1H3)
 * 1× Mirrors (e.g. 30×30 mm² Toymirrors) [🢂](https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE)
+* 1× yellow filter [🢂](https://www.musicstore.de/en_DE/EUR/Lee-010-Farbfolie-25-x-122cm-medium-yellow/art-LIG0002484-000)
 * 2× ESP32 [🢂](https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3)
 * 2× Stepper Motor and 2× Driver Board [🢂](https://www.amazon.de/Elegoo-Stepper-Schrittmotor-28BYJ-48-Treiberplatine/dp/B01MEGIHLF/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=stepper+arduino&qid=1565008205&s=gateway&sr=8-1-spons&psc=1)
-* 12× Female-Female Jumper Wire, 0.14 mm² [🢂](https://www.amazon.de/ZOORE-120pcs-Multicolored-Female-Breadboard/dp/B07P85V1G3/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=jumper+male&qid=1565690543&s=industrial&sr=1-5)
+* 12× Female-Female Jumper Wire, 0.14 mm² [🢂](https://www.amazon.de/AZDelivery-compatible-Raspberry-breadboard-including/dp/B07KYHBVR7/ref=sr_1_1_sspa?dchild=1&keywords=jumper+female+weiblich&qid=1613381564&quartzVehicle=21-720&replacementKeywords=female+weiblich&sr=8-1-spons&psc=1&smid=A1X7QLRQH87QA3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUjJUNEZPRDU0M1FCJmVuY3J5cHRlZElkPUEwNzcxOTE2MU5EMk82UVBVM1lBTiZlbmNyeXB0ZWRBZElkPUEwNDk3NjMyM1ZKMkxOQzkyQkNFMCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 * 2× USB Power cables for ESP32 - USB-microUSB [🢂](https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2)
 
 For Raspberry Pi (you may also just use one that you have, use it with a standard monitor... up to you):
@@ -81,12 +82,13 @@ For Raspberry Pi (you may also just use one that you have, use it with a standar
 * [Baseplate ](../ASSEMBLY_Baseplate_v2/)
 * [Laser Cube ](../ASSEMBLY_CUBE_Laser_v2/)
 * [Beamexpander Cube ](../ASSEMBLY_CUBE_Beamexpander_v2/)
-* [Cylindrical Lens Cube ](../ASSEMBLY_CUBE_Lens_Cylindrical_v2/)
-* [Kinematic Mirror Cube ](../ASSEMBLY_CUBE_Mirror_45_v2/)
+* [Cylindrical Lens Cube ](../ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2/)
+* [Kinematic Mirror Cube ](../ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/)
 * [Objective Lens Cube ](../ASSEMBLY_CUBE_Lens_v2/)
 * [Sample-stage ](../ASSEMBLY_CUBE_S-STAGE_new_v2/)
 * [Z-stage ](../ASSEMBLY_CUBE_Z-STAGE_v2/)
 * [Raspberry Camera Cube ](../ASSEMBLY_CUBE_RaspiCam_v2/)
+* Sample comb: insert four M2×12 screws (head on the non-comb side)
 
 ## <img src="./IMAGES/L.png" width="40"> Electronics
 * [Z-stage and S-stage](../Z-Stage)
@@ -112,6 +114,8 @@ Attention, don't cut your fingers while removing the lens from the iPhone sensor
 
 Never (!) look into the laser pointer! It will damage your eye immediately!
 
+Use the Sample comb to hold a thicker piece of paper (at best black one) and always place in in the way of the laser beam, so that it cannot leave the baseplate area!
+
 
 * ATTENTION: NEVER LOOK DIRECTLY INTO THE LASER! EYE WILL BE DAMAGED DIRECTLY
 * NEVER SWITCH ON THE LASER WITHOUT INTENDED USE
@@ -122,18 +126,18 @@ Here we try to form the light sheet.
 
 ##### 1. Mount the pre-assembled laser cube
 * Make sure the Laser-Cube is mounted in such a way, that the four screws that are used for centering the laser are pointing each through a different side of the cube. In other words, the laser inserts must be rotated by 180° with respect to each other.
-* Insert the laser in the cube the way that the end with the light source is not sticking out of the cube. The centering screw from the top should be pressing on the light source end.
+* Insert the laser in the cube the way that the end with the light source is not sticking out of the cube. The centering screw from the top should be pressing on the light source front end.
 * The end with the switch is sticking out of the cube. Make sure you can switch it on with the clamp.
 * Switch on the laser with the clamp.
 * The laser has a line profile. Rotate it inside the holder until the line is horizontal.
 * Center the laser roughly with the four centering screws.
-* Place he Laser-Cube on the baseplate as indicated by the Animation below.
+* Place he Laser-Cube on the baseplate.
 * ATTENTION: !Don't hit your or anybody's eyes!
 * If you make a break or do something else than aligning at the moment, always switch off the laser to make sure you don't endanger anybody's eyesight!
 
 ##### 2. Align the telescope
 * Place the pre-assembled telescope on the baseplate right after the laser.
-* After the laser, first comes the iPhone lens and that the convex lens, in order to collimate the beam.
+* After the laser, first comes the iPhone lens and then the convex lens, in order to collimate the beam.
 * Shift the iPhone lens inside the rail back and forth until a parallel (i.e. collimated) beam is created.
 * This can be measured by simply comparing the beam at a distance of 2cm and 20 cm right after the telescope: The diameter should not change.
 * The telescope should be in the same height as the laser, hence centered.
@@ -144,7 +148,7 @@ Here we try to form the light sheet.
 * Place the pre-assembled lens-mount on the baseplate right after the telescope.
 * The axis of the cylindrical lens must be horizontal.
 * The flat side of the lens must face away from the telescope - in the direction of the mirror-Cube.
-* Currently, 63 mm cylindrical lenses are used. Slide the lens inside the cube as far as possible from the telescope.
+* Slide the lens inside the cube as far as possible from the telescope.
 * Observe the line-focus of the collimated beam. The focus line must be vertical.
 * ATTENTION: !Don't hit your or anybody's eyes!
 
@@ -155,7 +159,7 @@ Here we try to form the light sheet.
 
 ##### 5. Add the pre-mounted objective lens
 * If not done already, remove the covers of the 4× objective - they're in the way of your working distance.
-* Place the pre-assembled 4x objective lens on the baseplate perpendicular to the kinematic mirror
+* Place the pre-assembled 4x objective lens cube on the baseplate perpendicular to the kinematic mirror
 * Slide the objective holder inside the cube as far as possible from the mirror.
 * Tune the kinematic mirror to get as much light as possible through the objective.
 * If the height is too far off, adjust the position of the telescope and centering of the laser.
@@ -163,17 +167,18 @@ Here we try to form the light sheet.
 * Tuning the objective lens can be done by shifting it back and forth in the spring-loaded spiral bearing.  
 
 ##### 6. Add the sample-stage
+* Add the 4×1 baseplate next to the bigger one. You could also screw them or glue them together beforehand, for more stability.
 * Place the pre-assembled sample-stage on the baseplate right after the 4x objective lens
-* The motor must be pointing over the side of the baseplate
-* The light sheet should be aligned in the center of the sample-stage plate and in mid-height.
+* The sample must be in the light path, just after the objective lens cube
+* The light sheet should be aligned in the center of the sample area and in mid-height.
 * Switch the laser off for now.
 
-### Time to chceck the electronics
+### Time to check the electronics
 
 ##### 1. Rasperry Pi
 * Plug the camera in the RasPi, if not done already.
 * Plug the Raspi into an electrical socket. It will switch on automatically.
-* When loaded, open the UC2 GUI by double-clicking the icon on the screen and choosing "Execute in command window". Wait until it loads.
+* When loaded, open the UC2 GUI. Wait until it loads.
 
 ##### 2. Motors
 * Plug the USB hub in the RasPi.
@@ -188,35 +193,37 @@ Here we try to form the light sheet.
 Here we try to form the simple microscope.
 
 ##### 1. Mount the pre-assembled z-stage
-* Make sure the objective is mounted in the Z-stage in such a way that it is "looking out of the cube and to the other side than the motor is mounted".
-* Place the Z-stage perpendicular to the illumination light sheet. The objective is now looking roughly on the center of the sample-stage.
+* Make sure the objective is mounted in the Z-stage in such a way that it is "looking out of the cube and to the other side than the motor is mounted" (see pictures).
+* Place the Z-stage perpendicular to the illumination light sheet. The objective is now looking roughly on the center of the sample area.
 * Be careful, do not break any electronics.
 
 ##### 2. Place the camera cube
 * Place the camera cube behind the Z-stage, with leaving one free position in between them.
-* Attach the filter in front of the camera using sticky tape.
 
 ##### 3. Find the focus of the detection path
-* From now on, the stray light might be a problem. Cover your setup or at least the detection path.
+* From now on, the stray light might be a problem. Cover your setup or at least the detection path from the daylight and also the lights of the driver boards. Find a dark room to perform the experiments (window shades are very useful).
 * Take a flashlight and shine through the detection objective on the camera.
 * Take a piece of paper and hold it in front of the detection objective. Move it back and forth and observe the image of the RasPi camera. Find the focus of your detection path.
-* Move the objective in the Z-stage by hand in order to bring the focus plane of your detection path to the center of the sample-stage.
+* Move the objective in the Z-stage by hand in order to bring the focus plane of your detection path to the center of the sample area.
 * The detection objective has to "hang" out of the Z-stage quite a lot in order to allow you to image the center of the sample-stage.  
 
 ##### 4. Align the detection path
-* Place a sample (ideally a sheet of paper tilted 45° w.r.t. the illumination/detection path).
+* Remove the sample-stage.
 * Use a lens tissue painted with an yellow highlighter - then you directly use the fluorescence property!
-* The paper can be mounted using the magnetic sample mount and fixed with some sticky tape.
-* Take a flashlight and shine through the detection objective on the camera.
+* The tissue can be attached to a microscope slide.
+* Hold this sample in from your the detection objective (I hope you have a steady hand) or use the sample comb.
+* Take a flashlight and shine through the sample and the detection objective on the camera.
 * Move your sample by hand the see a focused part of the paper on the screen. Tilt your sample with respect to your detection so you'll also see the defocused parts that are closer or further.
-* Remove the sample for now.
+* The detection objective should be focusing the sample on the camera when it's roughly in the center of the grid position right in front of it (see pictures).
+* Remove the sample (and the comb) for now.
 
 ##### 5. Align the illumination path
-* Switch on the laser. Be careful! Do not hit somebody's eyes!
-* Firstly, the light sheet should be aligned in height to illuminate the area observed by the detection objective. Adjust the height of the illumination path if necessary (see steps above).
+* Switch on the laser. Be careful! Do not hit somebody's eyes! Use covers to block the light.
+* Attach the filter in front of the camera using sticky tape or just put a bigger piece in the cube. You can also use the sample comb to hold the filter but do not forget to prevent the laser light from leaving the setup.
+* Firstly, the light sheet should be aligned in such a height to illuminate the area observed by the detection objective. Adjust the height of the illumination path if necessary (see steps above).
 * Align the light sheet roughly in such a way that the waist (the thinnest part of the light sheet) is in front of the detection objective). Trace your light sheet with a piece of paper to find the waist.
 * The focus of the 4× objective lens (therefore of the light-sheet) can be varied coarsely by shifting the lens back and forth in the spiral mount.
-* Place the sample(the lens tissue) on the sample stage. Bring it to the focus as described in the previous section, using flashlight and focusing in by hand.
+* Place the sample (the tissue) on the sample stage. Use a flashlight and move the sample-stage in big steps (100 um) in one direction or the other to find a rough focus -> see a focused stripe of the tissue structure. Adjust the focus of the Z-stage to have the focused area in the center of your field of view.
 * Once you see the structure of the paper, align the light sheet onto the focus plane - tilt the kinematic mirror, adjust the focus of the 4× objective.
 * Kinematic mirror: Take a hex key and turn the screw of the mirror - this mirror varies the angle of the light sheet and the position where it hits the back focal plane of the 4x objective lens respectively.
 

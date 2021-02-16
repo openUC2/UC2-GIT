@@ -20,6 +20,7 @@ Spiral holder: It adapts any circular symmetric lens with varying diameter to th
 ### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 The Part consists of the following components.
 
+
 * No support needed in all designs
 * Carefully remove all support structures (if applicable)
 
@@ -32,7 +33,7 @@ The Part consists of the following components.
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 8× DIN912 M3×12 screws (galvanized steel)
 * alternatively: 4× M3×12 and 4× M3×8
-* Microscope Objective lens (spiral holder) 
+* Microscope Objective lens (spiral holder)
 
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly of the Spiral Lens Holder
