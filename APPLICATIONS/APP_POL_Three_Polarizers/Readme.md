@@ -6,7 +6,7 @@
 width="650">
 </p>
 
-We use two linear polarizers in [crossed polarizers experiment](../APPLICATIONS/APP_POL_Crossed_Polarizers) and block all traveling light and see almost darkness. :open_mouth:  
+We use two linear polarizers in [crossed polarizers experiment](../../APPLICATIONS/APP_POL_Crossed_Polarizers) and block all traveling light and see almost darkness. :open_mouth:  
 But if we add third polarizer between them, we see the light at the end of the tunnel. MAGIC? :crystal_ball:  
 No, science. :brain:
 
@@ -82,13 +82,6 @@ width="450">
 * [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
 * [Sample Holder Cube Comb for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
 * [Flashlight cube](../../CAD/Assembly_Cube_Eyepiece_v2) : Simply insert the holder in a cube and close it as any other
-
-
-
-
-<p align="center">
-<img src="./IMAGES/Assembly_Three_Polarizers_3.png" width="450">
-</p>
 
 
 

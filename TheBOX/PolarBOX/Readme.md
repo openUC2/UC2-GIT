@@ -2,9 +2,10 @@
 
 The PolarBOX is an UC2 ready-to-use toolbox that can be built 7 different polarization experiments using 3D printed blocks. You just need some basic and cheap components for preparing your own PolarBOX.  
 
-I can hear the questions inside your head (Yes, I read your mind).  
+I can hear the questions inside your head (Yes, I read your mind).     
+
 *What is the polarization of the light?*   
-Polarization is a basic property of light and is related to the internal geometry of the source radiation.
+Polarization is a one of the fundamental properties of  the light and is related to the internal geometry of the source radiation.
 
 Our life is surrounded by unpolarized light in daily life, sunlight. Light is an electromagnetic wave. Electric field vectors of sunlight/unpolarized light vibrate in all planes randomly along the direction of propagation. When the electric field vectors are limited using a filtration mechanism to a single plane, linearly or plane polarized light is obtained with respect to the direction of propagation. In the plane-parallel or plane-polarized light, all waves vibrate in a single plane along the propagation direction.
 
@@ -107,8 +108,10 @@ width="640"></a>
 </p>
 
 
+
 ## <img src="./IMAGES/S.png" height="40"> Participate
 Dear Participant,
+
 you tasted our cake recipe. I'm sure that you have new ideas to try. Don't be afraid!
 Buy the ingredients, use basic cooking techniques and add your imagination and creativity for your new cake recipe!
 
