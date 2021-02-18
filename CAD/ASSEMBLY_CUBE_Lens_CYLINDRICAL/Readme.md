@@ -91,11 +91,16 @@ The Cube consists of the following components.
 <img src="./IMAGES/Cube_glass_slab_03.jpg" width="300">
 </p>
 
-4. Insert the lens into the insert. You can fix it using some tape to keep it safe. 
+4. Insert the lens into the insert. You can fix it using some tape to keep it safe.
 <p align="center">
 <img src="./IMAGES/Cube_glass_slab_04.jpg" width="300">
 <img src="./IMAGES/Cube_glass_slab_05.jpg" width="300">
 <img src="./IMAGES/Cube_glass_slab_06.jpg" width="300">
+</p>
+
+Note: How to get a pice with the right length? Be creative ;-) But also careful!
+<p align="center">
+<img src="./IMAGES/Cube_glass_slab_07.jpg" width="300">
 </p>
 
 
