@@ -4,7 +4,10 @@ This is the manual for the Light sheet Microscope.
 ### Purpose
 Produce 3D images with better sectioning.
 
-![](./IMAGES/Application_Light-Sheet_Microscope_v20.png)
+<p align="center">
+<img src="./IMAGES/Application_Light-Sheet_Microscope_v20.png" width="700">
+</p>
+
 
 Note: The pictures on this site might not show the latest version of the cubes. Follow the respective assembly guidelines.
 
