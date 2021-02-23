@@ -5,10 +5,16 @@
 width="650">
 </p>
 
+<p align="center">
+<img src="./IMAGES/three_polarizers_diagram.png"
+width="650">
+</p>
+
 
 We use two linear polarizers in [crossed polarizers experiment](../../APPLICATIONS/APP_POL_Crossed_Polarizers) and block all traveling light and see almost darkness. :open_mouth:  
 But if we add a third polarizer between them, we see the light at the end of the tunnel. MAGIC? :crystal_ball:  
 No, science. :brain:
+
 
 In crossed polarizers, two polarizers are oriented perpendicular to each other and light passes through the first polarizer (s-polarizer, 0 degrees) and blocks by the second polarizer (p-polarizer, 90 degrees). The extinction of the light reaches its maximum value.  
 If we add a third polarizer between these two crossed polarizers, some light will pass through three polarizers.  
