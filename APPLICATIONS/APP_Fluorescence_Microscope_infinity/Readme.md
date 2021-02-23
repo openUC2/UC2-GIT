@@ -144,6 +144,79 @@ This is acquired with the Allied Vision Alvium 1500-158 and the new UC2 Nvidia J
 </p>
 
 
+### Showcase
+<p align="center">
+<img src="./IMAGES/Setup_IM0.jpeg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Setup_IM1.jpeg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Setup_IM2.jpeg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Setup_IM3.jpeg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Setup_IM4.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM5.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM6.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM7.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM8.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM9.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM10.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM11.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM12.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM13.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM14.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM19.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM20.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM20.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM20.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM21.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM22.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM23.jpeg" width="500">
+</p>
+
+
 ## <img src="./IMAGES/S.png" width="40"> Participate!
 
 Do you want to show your own results? Do you have ideas for improvements? Let us know!

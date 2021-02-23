@@ -96,5 +96,69 @@ The Cube consists of the following components.
 </p>
 
 
+## Showcase 
+
+<p align="center">
+<img src="./IMAGES/ZStage_0.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_1.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_2.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_3.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_4.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_5.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_6.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_7.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_8.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_10.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_11.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_12.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_13.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_14.jpeg" width="300">
+</p>
+
+<p align="center">
+<img src="./IMAGES/ZStage_15.jpeg" width="300">
+</p>
+
+
+
 ## Safety
 Be careful!
