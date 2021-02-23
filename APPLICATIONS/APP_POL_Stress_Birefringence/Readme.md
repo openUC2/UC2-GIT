@@ -6,7 +6,7 @@ width="450">
 </p>
 
 Some physical processes can be used to produce the polarized light such as absorption, refraction, reflection, diffraction and birefringence.   
-__Birefringence__ is the optical property of a material which has a dependent refractive index to polarization and propagation direction of light. These optically anisotropic materials are said to be birefringent.
+__Birefringence__ is the optical property of a material that has a dependent refractive index to polarization and propagation direction of light. These optically anisotropic materials are said to be birefringent.
 
 In general, birefringence is the double refraction of light. Each incoming light through the birefringent material such as calcite crystal is split by polarization into two rays; an ordinary and an extraordinary ray. These rays have different paths and polarizations.
 
@@ -22,10 +22,10 @@ Birefringence is used in many optical and medical devices. In medical applicatio
 
 ###### Well then, what is the connection with polarization?
 
-Let's think. You ordered a new T-shirt from Amazon. You tried it and liked it. How beautiful! But wait wait. You can use plastic cargo package for a polarization experiment and demonstrate stress birefringence of plastic sheet easily. Yesss, you can make science using 'garbage' too.   
+Let's think. You ordered a new T-shirt from Amazon. You tried it and liked it. How beautiful! But wait. You can use a plastic cargo package for a polarization experiment and demonstrate the stress birefringence of a plastic sheet easily. Yesss, you can make science using 'garbage' too.   
 Let's look at that more closely!
 
-Polarizers are frequently used to detect stress in plastics; birefringence. In this experiment, we use basic materials from our daily life as samples and see birefringence with our naked eyes. Let's collect simple objects such as plastic boxes, plastic cutlery (Image 1) or plastic packages. Even we can prepare own birefringent object (Image 2) using plastic punched pocket and sticky tape.
+Polarizers are frequently used to detect stress in plastics; birefringence. In this experiment, we use basic materials from our daily life as samples and see birefringence with our naked eyes. Let's collect simple objects such as plastic boxes, plastic cutlery (Image 1) or plastic packages. Even we can prepare our own birefringent object (Image 2) using a plastic punched pocket and sticky tape.
 
 Image 1 :
 <p align="center">
@@ -41,9 +41,9 @@ width="450">
 
 ##### Stress Birefringence
 
-Stress birefringence results with stressed or deformation of  isotropic materials and applying stressed causes a loss of physical isotropy and generates birefringence.  
+Stress birefringence results with stressed or deformation of isotropic materials and applying stressed causes a loss of physical isotropy and generates birefringence.  
 
-How can the stress be applied?  Externally or as another method can be used. A birefringent plastic object is manufactured using injection molding and is cooled.
+How can stress be applied?  Externally or as another method can be used. A birefringent plastic object is manufactured using injection molding and is cooled.
 
 ## <img src="./IMAGES/D.png" width="40">Parts
 
@@ -98,8 +98,8 @@ width="450">
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-You will find basic version of Stress Birefringence experiment without an extra light source below.  
-A sample is placed in the setup, and color patterns can be observed clearly. Polarization of a light ray is rotated after passing through a birefringent material and the amount of rotation is dependent on wavelength.
+You will find the basic version of the Stress Birefringence experiment without an extra light source below.  
+A sample is placed in the setup, and color patterns can be observed clearly. The polarization of a light ray is rotated after passing through a birefringent material and the amount of rotation is dependent on wavelength.
 
 The printed cube parts were assembled and the result images of experiences were taken for 3 different birefringent materials.  
 
@@ -115,7 +115,7 @@ width="450">
 width="450">
 </p>
 
-*In the 2nd Experiment,* we used a plastic box/piece as sample for the setup.
+*In the 2nd Experiment,* we used a plastic box/piece as a sample for the setup.
 
 <p align="center">
 <img src="./IMAGES/sample_plastic_sheet_2.jpg"
@@ -133,7 +133,7 @@ width="450">
 </p>
 
 
-*In the 3rd Experiment,* a plastic cutlery is used.
+*In the 3rd Experiment,* plastic cutlery is used.
 
 <p align="center">
 <img src="./IMAGES/sample_Cutlery_1.png"

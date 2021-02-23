@@ -5,12 +5,12 @@
 width="400">
 </p>
 
-There are several different ways to produce a polarized light. Optical processes reflection or refraction can be easily used to achieve that.  
+There are several ways to produce polarized light. Optical processes reflection or refraction can be easily used to achieve that.  
 When unpolarized light rays travel through a dielectric or insulating material, reflected and refracted light rays from the flat surface are mostly partially polarized.  
 The amount of reflected light is specified by the optical properties of the reflecting surface such as plastic sheets, glass, or highways.         
-Incident angle of incoming electromagnetic light wave and refractive indices of media which light travels through them have an important role for polarization degree of the reflected and refracted polarized light beams.
+The incident angle of the incoming electromagnetic light wave and refractive indices of media in which light travels through them have an important role in the polarization degree of the reflected and refracted polarized light beams.
 
-You can see representation of reflection and transmission of unpolarized light with most of incident angle (𝜃) values below.
+You can see the representation of reflection and transmission of unpolarized light with most of the incident angle (𝜃) values below.
 
 <p align="center">
 <img src="./IMAGES/polarization by reflection.png"
@@ -19,7 +19,7 @@ width="400">
 
 ###### What is the Brewster angle?
 
-When the incident ray travels from less dense medium (n1) to higher dense medium (n2) with a critical angle (𝜃B), the reflected ray is perfectly s-polarized which the orientation of the electric field vectors are perpendicular to the plane of incidence. Otherwise the refracted beam has 90-degree polarization angle and it is partially p-polarized. This critical angle is called as Brewster angle or polarization angle and is represented by 𝜃B in the scheme below.
+When the incident ray travels from a less dense medium (n1) to a higher dense medium (n2) with a critical angle (𝜃_B), the reflected ray is perfectly s-polarized in which the orientation of the electric field vectors are perpendicular to the plane of incidence. Otherwise, the refracted beam has a 90-degree polarization angle, and it is partially p-polarized. This critical angle is called a Brewster angle or polarization angle and is represented by 𝜃_B in the scheme below.
 
 
 <p align="center">
@@ -28,7 +28,7 @@ width="400">
 </p>
 
 
-Brewster angle can be easily calculated using refractive indices of traveling media of light. In our experiment, we used air (n1 = 1) as first medium which light comes first and reflects in this part and microscope slide glass (n2 = 1.5 ) as second medium which light transmits through. When we calculate Brewster angle for our experiment, it equals to approximately 57 degrees and the equation can be found below.  
+Brewster angle can be easily calculated using refractive indices of travelling media of light. In our experiment, we used air (n1 = 1) as the first medium in which light comes first and reflects in this part and microscope slide glass (n2 = 1.5) as the second medium which light transmits through. When we calculate the Brewster angle for our experiment, it equals approximately 57 degrees and the equation can be found below.  
 
 <p align="right">
 <img src="./IMAGES/brewster angle equation7.png"
@@ -61,9 +61,9 @@ width="110">
 * 1 × [Polarizer Lid](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Lid.stl)
 * 1× [Laser Mount](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Laser_Mount.stl)
 * 1x [Laser Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/00_Laser_Clamp_OnOffSwitch.stl)
-* 1× [Microscope Slide Holder Brewster Angle Base](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/20_POL_brewster _angle_Kinematic_Mirrormount_base.stl)
-* 1× [Microscope Slide Holder Brewster Angle Plate](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/20_POL_brewster _angle_Kinematic_Mirrormount_plate.stl)
-* 1× [Microscope Slide Holder Brewster Angle Clamp ](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/20_POL_brewster _angle_Kinematic_Mirrormount_clamp.stl)
+* 1× [Microscope Slide Holder Brewster Angle Base](./STL/20_POL_brewster _angle_Kinematic_Mirrormount_base.stl)
+* 1× [Microscope Slide Holder Brewster Angle Plate](./STL/20_POL_brewster _angle_Kinematic_Mirrormount_plate.stl)
+* 1× [Microscope Slide Holder Brewster Angle Clamp ](./STL/20_POL_brewster _angle_Kinematic_Mirrormount_clamp.stl)
 * 1x [Sample Holder - comb](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl)
 
 
@@ -89,7 +89,7 @@ width="450">
 * [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
 * [LASER Source cube](../../CAD/ASSEMBLY_CUBE_Laser_v2)
 
-All necessary parts to assemble Microscope Slide Glass Holder Module be gathered in the image below:
+All necessary parts to assemble a Microscope Slide Glass Holder Module be gathered in the image below:
 
 <p align="center">
 <img src="./IMAGES/brewster_exp_2.JPG"
@@ -98,7 +98,7 @@ width="450">
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-Brewster's angle Experiment setup can be prepared easily. After printing and assembling the module parts, we try to find critical angle or Brewster's angle as much as we can.
+Brewster's angle experiment setup can be prepared easily. After printing and assembling the module parts, we try to find a critical angle or Brewster's angle as much as we can.
 
 <p align="center">
 <img src="./IMAGES/brewster_exp.JPG"
@@ -106,24 +106,24 @@ width="450">
 </p>
 
 
-In this setup we use LASER as light source because it is easier to observe the polarization degree changes by reflection. As a first step, LASER light beams reflect from microscope slide glass and pass through linear polarizer. Then a piece of paper is inserted on the sample holder comb. Finally, we can observe the totally polarized reflected light.
+In this setup, we use LASER as a light source because it is easier to observe the polarization degree changes by reflection. As a first step, LASER light beams reflect from microscope slide glass and pass through a linear polarizer. Then a piece of paper is inserted on the sample holder comb. Finally, we can observe the totally polarized reflected light.
 
 <p align="center">
 <img src="./IMAGES/brewster_exp_3.JPG"
 width="450">
 </p>
 
-We should make an good alignment to find the Brewster angle as incidence angle of the incoming light. In practice, it is hard because of using screws, we could not find exact incidence angle of microscope slide. Nevertheless, I could take results which are almost perfectly polarized light after reflection in almost critical angle.   
-You can see reflected laser light beam without alignment in random incident angle above.
+We should make a good alignment to find the Brewster angle as the incidence angle of the incoming light. In practice, it is hard because of using screws, we could not find the exact incidence angle of a microscope slide. Nevertheless, I could take results that are almost perfectly polarized light after reflection in almost critical angle.   
+You can see the reflected laser light beam without alignment at a random incident angle above.
 
-In the imege below, incoming beam is reflected with almost Brewster angle, 57 degrees for microscope slide glass:
+In the image below, the incoming beam is reflected with almost Brewster angle, 57 degrees for microscope slide glass:
 
 <p align="center">
 <img src="./IMAGES/brewster_exp_4.JPG"
 width="450">
 </p>
 
-Let's look the our almost perfectly polarized light by reflection experiment video records. The orientation direction of linear polarizer only changes in 1st and 2nd videos and we see that reflected light is totally polarized almost.  The light is blocked and we can see almost no light after polarizer, when the orientation of linear polarizer is perpendicular the polarization orientation of reflected beam.
+Let's look at our almost perfectly polarized light by reflection experiment video records. The orientation direction of the linear polarizer only changes in 1st and 2nd videos, and we see that reflected light is totally polarized almost.  The light is blocked, and we can see almost no light after the polarizer when the orientation of the linear polarizer is perpendicular to the polarization orientation of the reflected beam.
 
 <p align="center">
 <img src="./IMAGES/video1_brewster.gif"
@@ -136,4 +136,4 @@ width="450">
 </p>
 
 ## New Ideas
-We are open to new ideas. Please contribute the project freely, this place is a free country which is built by codes and machines :robot:
+We are open to new ideas. Please contribute to the project freely, this place is a free country which is built by codes and machines :robot:

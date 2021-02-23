@@ -9,7 +9,7 @@ width="640">
 
 *Crossed Polarizers* are used to analyze the polarization of light. We use two linear polarizers which are located perpendicular to each other.
 
-In the experiment, the polarizing direction of the first polarizer is oriented vertically to the incoming beam and it will allow passing only vertical electric field vectors. After the first polarizer, we have an s-polarized light wave.
+In the experiment, the polarizing direction of the first polarizer is oriented vertically to the incoming beam, and it will allow passing only vertical electric field vectors. After the first polarizer, we have an s-polarized light wave.
 
 <p align="center">
 <img src="./IMAGES/crossed polarizer_exp_2.png"
@@ -80,8 +80,8 @@ width="350">
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-We printed and assembled the module parts.After that, we bought necessary components and inserted them into cubes.  
-You will find basic version of Crossed Polarization experiment without specific sample and extra light source below.
+We printed and assembled the module parts. After that, we bought the necessary components and inserted them into cubes.  
+You will find the basic version of Crossed Polarization experiment without a specific sample and extra light source below.
 
 <p align="center">
 <img src="./IMAGES/Crossed_Polarization_exp.jpg"
@@ -93,7 +93,7 @@ width="450">
 width="450">
 </p>
 
-We can observe the direct effect of the angle between two linear polarizers in the video below. The intensity of passing light through two polarizers on the eye of observer changes when the wheel insert of polarization filter takes one 360 degrees turn.
+We can observe the direct effect of the angle between two linear polarizers in the video below. The intensity of passing light through two polarizers on the eye of the observer changes when the wheel insert of the polarization filter takes 360 degrees turn.
 
 <p align="center">
 <img src="./IMAGES/crossed_polarizer.gif"
@@ -102,4 +102,4 @@ width="400">
 
 
 ## New Ideas
-We are open to new ideas. Please contribute the project freely, this place is a free country which is built by codes and machines :robot:
+We are open to new ideas. Please contribute to the project freely, this place is a free country which is built by codes and machines :robot:

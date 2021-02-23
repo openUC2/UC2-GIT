@@ -5,22 +5,22 @@
 width="500">
 </p>
 
-In nature, circular polarization state is uncommon but not impossible. Some organisms can produce circular polarized light by reflection. Many kinds of beetles, shrimps and several other organisms reflect a strongly circularly polarized light or the larvae of few fireflies emit circularly polarized light.
-If we look an ordinary day of a human being, we use circular polarized light to have a fun with 3D cinema goggles!
+In nature, a circular polarization state is uncommon but not impossible. Some organisms can produce circularly polarized light by reflection. Many kinds of beetles, shrimps and several other organisms reflect a strongly circularly polarized light or the larvae of few fireflies emit circularly polarized light.
+If we look at an ordinary day of a human being, we use circularly polarized light to have fun with 3D cinema goggles!
 
-The polarized glasses is used in cinemas that it changes patterns between every frame of a movie. The left eye part of the glasses have left-hand circular polarizer and right eye side has right-hand circular polarizer.  
+The polarized glasses are used in cinemas in that it changes patterns between every frame of a movie. The left eye part of the glasses have a left-hand circular polarizer and the right eye side has a right-hand circular polarizer.  
 
 <p align="center">
 <img src="./IMAGES/3D cinema goggle.JPG"
 width="400">
 </p>
 
-A 3D cinema glasses can produce two different type polarization together. One side has a linear polarized filter and other side has circular polarized filter. When we watch a movie, our glasses turn the incoming light to circularly polarized light. But if turn the glasses and look the movie, we use linearly polarized light to watch our 3D movie. Naturally we can't watch watch the movie.
+3D cinema glasses can produce two different types of polarization together. One side has a linear polarizing filter and another side has a circular polarizing filter. When we watch a movie, our glasses turn the incoming light to circularly polarized light. But if turn the glasses and look at the movie, we use linearly polarized light to watch our 3D movie. Naturally, we can't watch the movie.
 
 
-##### What is the difference between the Linear and the Circular Polarization?
+##### What is the difference between Linear and Circular Polarization?
 
-The polarized light can be classified into three types depending the orientation of the electric field: Linear polarized, circular polarized and elliptical polarized light.
+The polarized light can be classified into three types depending on the orientation of the electric field: Linear polarized, circular polarized and elliptical polarized light.
 
 If the electric field of light is limited to a single plane along the propagation direction, the light is *linearly polarized*.
 If the electric field of light has two perpendicular linear components to each other with equal amplitudes and  π/2 phase differences, the light is *circularly polarized*.
@@ -28,7 +28,7 @@ Depending on the rotation direction, light can be left-hand circularly polarized
 If the electric field of light describes an ellipse shape with the combination of two linear components with unequal amplitudes and/or phase difference (not π/2), the light is *elliptically polarized*. Circular and linear polarized light can be described as special cases of elliptically polarized light.
 
 
-clockwise (right-circularly polarized light)
+Clockwise (right-circularly polarized light)
 <p align="center">
 <img src="./IMAGES/right_circular_polarizers_diagram.png  "
 width="600">
@@ -99,18 +99,18 @@ width="400">
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-The circular polarizer experiment without specific sample and extra light source below is demonstrated.
-The incoming light passes through linear polarizer (gray UC2 cube). In the next step, new demonstrated linearly polarized light travels to circular polarizer module (black UC2 cube). When an observer looks from circular polarizer side, she/he can see the circularly polarized light.
+The circular polarizer experiment without a specific sample and extra light source below is demonstrated.
+The incoming light passes through a linear polarizer (grey UC2 cube). In the next step, new demonstrated linearly polarized light travels to the circular polarizer module (black UC2 cube). When an observer looks from the circular polarizer side, she/he can see the circularly polarized light.
 
 <p align="center">
 <img src="./IMAGES/circular pol exp.JPG"
 width="350">
 </p>
 
-The circular polarizer filter was taken out of a 3D cinema glasses and it was inserted to a sample holder insert. This new circular polarizer filter insert was assembled with a UC2 unit block. Ta-da! Circular polarizer cube is ready for flight.
+The circular polarizer filter was taken out of 3D cinema glasses, and it was inserted into a sample holder insert. This new circular polarizer filter insert was assembled with a UC2 unit block. Ta-da! The circular polarizer cube is ready for flight.
 
 
-The effect of the propagation direction of linear polarizer can be seen in the video below. The polarization direction of light before circular polarizer changes with the turning the wheel of the linear polarizer and changing its orientation.
+The effect of the propagation direction of the linear polarizer can be seen in the video below. The polarization direction of light before the circular polarizer changes with turning the wheel of the linear polarizer and changing its orientation.
 
 <p align="center">
 <img src="./IMAGES/circular_polarizer_video.gif"

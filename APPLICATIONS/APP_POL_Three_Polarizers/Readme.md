@@ -7,25 +7,25 @@ width="650">
 </p>
 
 We use two linear polarizers in [crossed polarizers experiment](../../APPLICATIONS/APP_POL_Crossed_Polarizers) and block all traveling light and see almost darkness. :open_mouth:  
-But if we add third polarizer between them, we see the light at the end of the tunnel. MAGIC? :crystal_ball:  
+But if we add a third polarizer between them, we see the light at the end of the tunnel. MAGIC? :crystal_ball:  
 No, science. :brain:
 
 In crossed polarizers, two polarizers are oriented perpendicular to each other and light passes through the first polarizer (s-polarizer, 0 degrees) and blocks by the second polarizer (p-polarizer, 90 degrees). The extinction of the light reaches its maximum value.  
-If we add third polarizer between these two crossed polarizers, some light will pass through three polarizers.  
+If we add a third polarizer between these two crossed polarizers, some light will pass through three polarizers.  
 
-In the __*Three Linear Polarizers setup,*__ the amount of light passing through the polarizers can be calculated by Law of Malus, cosine-squared law.
+In the __*Three Linear Polarizers setup,*__ the amount of light passing through the polarizers can be calculated by the Law of Malus, cosine-squared law.
 
 <p align="center">
 <img src="./IMAGES/Law of Malus.PNG"
 width="200">
 </p>
 
-*I*    : the intensity of passing light through polarizers (total amount of passed light into three polarizers setup)  
+*I*    : the intensity of passing light through polarizers (total amount of passing light into three polarizers setup)  
 *I(0)* : the intensity of incoming light  
 *θ*    : the angle between the transmission axes of two polarizers
 
 
-The polarization direction of the first polarizer is oriented vertically to the incoming beam with 0 degrees. Incoming unpolarized light passes through the first polarizer (linear s-polarized). After first polarizer, the vertically polarized light travels to the second linear polarizer which is rotated by 45 degrees with respect to the first polarizer. Then the traveling light passes through the third polarizer (linear p-polarized) which is oriented as 90 degrees tilted with respect to the first polarizer.Due to the orientation angle of each linear polarizer, transmitted light intensity changes based on Law of Malus.
+The polarization direction of the first polarizer is oriented vertically to the incoming beam at 0 degrees. Incoming unpolarized light passes through the first polarizer (linear s-polarized). After the first polarizer, the vertically polarized light travels to the second linear polarizer which is rotated by 45 degrees with respect to the first polarizer. Then the traveling light passes through the third polarizer (linear p-polarized) which is oriented at 90 degrees tilted with respect to the first polarizer. Due to the orientation angle of each linear polarizer, transmitted light intensity changes based on the Law of Malus.
 
 <p align="center">
 <img src="./IMAGES/three_polarizers_theory.png"
@@ -87,7 +87,7 @@ width="450">
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-The basic version of Three Polarizers experiment without specific sample and extra light source below is demonstrated. You can see the experiment images below.
+The basic version of the Three Polarizers experiment without a specific sample and extra light source below is demonstrated. You can see the experiment images below.
 
 <p align="center">
 <img src="./IMAGES/three_polarizers_exp.jpg"
@@ -99,7 +99,7 @@ width="450">
 width="450">
 </p>
 
-The effect of the angle between two linear polarizers can be seen in the video below. The intensity of passing light on the eye of observer through the polarizers changes when the wheel insert of polarization filter wheeled 45 angle.
+The effect of the angle between two linear polarizers can be seen in the video below. The intensity of passing light on the eye of the observer through the polarizers changes when the wheel insert of polarization filter wheeled 45 angles.
 
 <p align="center">
 <img src="./IMAGES/three_polarizers.gif"
@@ -108,4 +108,4 @@ width="350">
 
 
 ## New Ideas
-We are open to new idea source (dad joke about open-source project :neutral_face: ). Just open a new issue and spread your idea!
+We are open to new idea source (dad joke about the open-source project :neutral_face: ). Just open a new issue and spread your idea!
