@@ -32,7 +32,7 @@ Brewster angle can be easily calculated using refractive indices of travelling m
 
 <p align="right">
 <img src="./IMAGES/brewster angle equation7.png"
-<p align="left">
+<p align="center">
 <img src="./IMAGES/refractive index rule.png"
 width="110">
 </p>
@@ -59,11 +59,11 @@ width="110">
 * 1 × [Polarizer Guide](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Guide.stl)
 * 1 × [Polarizer Wheel](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Wheel.stl)
 * 1 × [Polarizer Lid](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Lid.stl)
-* 1× [Laser Mount](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Laser_Mount.stl)
-* 1x [Laser Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/00_Laser_Clamp_OnOffSwitch.stl)
-* 1× [Microscope Slide Holder Brewster Angle Base](./STL/20_POL_brewster _angle_Kinematic_Mirrormount_base.stl)
-* 1× [Microscope Slide Holder Brewster Angle Plate](./STL/20_POL_brewster _angle_Kinematic_Mirrormount_plate.stl)
-* 1× [Microscope Slide Holder Brewster Angle Clamp ](./STL/20_POL_brewster _angle_Kinematic_Mirrormount_clamp.stl)
+* 1 × [Laser Mount](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Laser_Mount.stl)
+* 1 x [Laser Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/00_Laser_Clamp_OnOffSwitch.stl)
+* 1 x [Microscope Slide Holder Brewster Angle Base](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/20_POL_brewster _angle_Kinematic_Mirrormount_base.stl)
+* 1 × [Microscope Slide Holder Brewster Angle Plate](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/20_POL_brewster _angle_Kinematic_Mirrormount_plate.stl)
+* 1× [Microscope Slide Holder Brewster Angle Clamp ](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/20_POL_brewster _angle_Kinematic_Mirrormount_clamp.stl)
 * 1x [Sample Holder - comb](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl)
 
 
