@@ -10,6 +10,12 @@ It adapts the cylindrical lenses from COMAR optics to the UC2 system.
 <img src="./IMAGES/Assembly_Cube_Lens_Cylindrical_v3.png" width="300">
 </p>
 
+There is also a cheap alternative - using a half of a plexiglass rod. The focal length is shorter and the general performance is of course not as good as with a glass lens, but it is a truly home made cylindrical lens and it just works.
+
+<p align="center">
+<img src="./IMAGES/Assembly_Cube_Lens_Cylindrical__cheap_v3.png" width="300">
+</p>
+
 ### Cylindrical lens (in the light sheet)
 Like any other lens, a cylindrical lens focuses the incoming light. In case of a positive focal length, the focal spot can be found right after the lens inside the back focal plane (BFP), usually measured as the focal length of the lens. In case of a cylindrical lens, the focus spot is not a single point as in a rotationally symmetric lens, but rather a line like focus. This is because an incoming parallel beam gets focussed only in one direction. In the eye this sometimes happens and hinders clear eyesight by introducing astigmatism (greek: point-less)
 
@@ -38,10 +44,12 @@ The Cube consists of the following components.
 
 #### Alternatives:
 * **3DP Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([10_Cube_1x1_v3.stl](../RAW/STL)) and **3DP Lid** which closes the Cube ([10_Lid_1x1_v3.stl](../RAW/STL)) - find the details in [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base)
+* **The Lens Holder** which holds a plexiglass rod (half) ([UC2_20_Cube_Insert_Lens_Cylindrical_Plexiglas_glassslab_v3.stl](../RAW/STL))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * Comar cylindrical lens, f' = 63 mm (63 YQ 40) [🢂](https://www.comaroptics.com/components/lenses/cylindrical-lenses/quality-planoconvex-cylindrical-lenses-visibleuv#row-63_yq_40)
+* Plexiglass rod - half [🢂](https://www.ebay.de/itm/10-99-m-Acrylglas-Halb-Rundstab-15-mm-Hohe-7-5-mm-Lange-wahlbar/362697878979?hash=item54727a6dc3:g:WmAAAOSwUKxYm1H3)
 
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
@@ -51,7 +59,7 @@ The Cube consists of the following components.
 * Done!
 
 
-### Tutorial with images (LENSHOLDER)
+### Tutorial with images (Cylindrical lens)
 :grey_exclamation: This tutorial shows a UC2_v2 cube but the assembly of the insert is still the same. For assembly of the cube (IM/3DP) check the [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base).
 
 1. All parts for this model
@@ -62,6 +70,37 @@ The Cube consists of the following components.
 2. Put all parts together
 <p align="center">
 <img src="./IMAGES/CUBE_LENS_CYLINDRICAL_1.jpg" width="300">
+</p>
+
+### Tutorial with images (Plexiglass rod)
+:grey_exclamation: This tutorial shows a UC2_v2 cube but the assembly of the insert is still the same. For assembly of the cube (IM/3DP) check the [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base).
+
+1. All parts for this model
+<p align="center">
+<img src="./IMAGES/Cube_glass_slab_00.jpg" width="300">
+</p>
+
+2. Put the insert inside the cube
+<p align="center">
+<img src="./IMAGES/Cube_glass_slab_01.jpg" width="300">
+</p>
+
+3. Close the cube
+<p align="center">
+<img src="./IMAGES/Cube_glass_slab_02.jpg" width="300">
+<img src="./IMAGES/Cube_glass_slab_03.jpg" width="300">
+</p>
+
+4. Insert the lens into the insert. You can fix it using some tape to keep it safe.
+<p align="center">
+<img src="./IMAGES/Cube_glass_slab_04.jpg" width="300">
+<img src="./IMAGES/Cube_glass_slab_05.jpg" width="300">
+<img src="./IMAGES/Cube_glass_slab_06.jpg" width="300">
+</p>
+
+Note: How to get a pice with the right length? Be creative ;-) But also careful!
+<p align="center">
+<img src="./IMAGES/Cube_glass_slab_07.jpg" width="300">
 </p>
 
 
