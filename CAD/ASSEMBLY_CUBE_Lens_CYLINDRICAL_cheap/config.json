@@ -1,5 +1,5 @@
 {
-    "name": "ASSEMBLY_CUBE_Lens_CYLINDRICAL",
+    "name": "ASSEMBLY_CUBE_Lens_CYLINDRICAL_cheap",
     "description": "",
     "image": "",
     "price": "",
@@ -47,36 +47,36 @@
             "n_parts": 6.0
         },
         {
-            "name": "",
+            "name": "20_Cube_Insert_Lens_Cylindrical_Plexiglas_glassslab_v3",
             "description": "",
             "image": "",
-            "price": "",
-            "is_printable": false,
-            "n_parts": ""
-        },
-        {
-            "name": "",
-            "description": "",
-            "image": "",
-            "price": "",
-            "is_printable": false,
-            "n_parts": ""
-        },
-        {
-            "name": "20_Cube_Insert_Lens_Cylindrical_v3",
-            "description": "",
-            "image": "",
-            "price": 0.2,
+            "price": 1.0,
             "is_printable": true,
             "n_parts": 1.0
         },
         {
-            "name": "Cylindrical lens, f' = 63 mm (63 YQ 40)",
+            "name": "Glass slab Plexiglas 15mm ",
             "description": "",
             "image": "",
-            "price": 60.0,
+            "price": 3.0,
             "is_printable": false,
             "n_parts": 1.0
+        },
+        {
+            "name": "",
+            "description": "",
+            "image": "",
+            "price": "",
+            "is_printable": false,
+            "n_parts": ""
+        },
+        {
+            "name": "",
+            "description": "",
+            "image": "",
+            "price": "",
+            "is_printable": false,
+            "n_parts": ""
         }
     ]
 }
