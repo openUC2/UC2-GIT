@@ -30,7 +30,7 @@ width="400">
 
 Brewster angle can be easily calculated using refractive indices of travelling media of light. In our experiment, we used air (n1 = 1) as the first medium in which light comes first and reflects in this part and microscope slide glass (n2 = 1.5) as the second medium which light transmits through. When we calculate the Brewster angle for our experiment, it equals approximately 57 degrees and the equation can be found below.  
 
-<p align="right">
+<p align="center">
 <img src="./IMAGES/brewster angle equation7.png"
 <p align="center">
 <img src="./IMAGES/refractive index rule.png"

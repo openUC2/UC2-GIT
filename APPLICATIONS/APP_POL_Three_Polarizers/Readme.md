@@ -1,10 +1,10 @@
 # Three Polarizers (0, 45, 90 degrees)    
 
-
 <p align="center">
-<img src="./IMAGES/three_polarizers_diagram.png"
+<img src="./IMAGES/three_polarizers_diagram_2.png"
 width="650">
 </p>
+
 
 We use two linear polarizers in [crossed polarizers experiment](../../APPLICATIONS/APP_POL_Crossed_Polarizers) and block all traveling light and see almost darkness. :open_mouth:  
 But if we add a third polarizer between them, we see the light at the end of the tunnel. MAGIC? :crystal_ball:  
