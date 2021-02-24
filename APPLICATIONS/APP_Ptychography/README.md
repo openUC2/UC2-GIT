@@ -21,6 +21,11 @@ Images are getting saved in the folder PTYCHOGRAPHY -> subfolder according to th
 STop the current programm: 
 CTRl+c
 
+# Install and run QV4L2
+
+```
+ sudo apt-get install -y qv4l2
+ ```
 
 open the live-stream camera by typing 
 ```qv4l2```
