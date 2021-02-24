@@ -24,11 +24,11 @@ Link - name of part             |  Amount |  Comment | Price
   [Lens 40 mm](https://optikbaukasten.de/)  |  2 pieces |Artikel 2120|12 €
   [Lens -50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)  |  1 piece |LC1259|19 €
   [Mirror](https://www.rayher.com/de/spiegelmosaik-selbstklebend-14548606)  |  2 pieces | 45 pieces package, only 2 pieces needed.|0,50 €
-  [Magnets](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)  |  48 pieces | Ball magnets, diameter 5 mm.|total 12 €
-  [Screws](https://eshop.wuerth.de) |   ~40 pieces | (Art.-Nr. 00843  12) M3×12, galvanized steel - ~32  pieces; (Art.-Nr. 00843  8) M3×8, galvanized steel - ~3 pieces (32 pieces extra for putting screws to all sides of all cubes); (Art.-Nr. 00943  30) M3×30, not magnetic - 1 piece; (Art.-Nr. 03223) M3 nut | total ~3 €
+  [Magnets](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)  |  32 pieces | When using 3DP Cubes and baseplates. Ball magnets, diameter 5 mm.|total 10 €
+  [Screws](https://eshop.wuerth.de) |   7 pieces | (Art.-Nr. 00843  12) M3×12, galvanized steel - 2  pieces; (Art.-Nr. 00843  8) M3×8, galvanized steel - 4 pieces ; (Art.-Nr. 00943  30) M3×30, not magnetic - 1 piece; (Art.-Nr. 03223) M3 nut | total ~2 €
+  [Screws](https://eshop.wuerth.de) |   112 pieces | For 3DP Cubes extra: (Art.-Nr. 00843  12) M3×12, galvanized steel - 32  pieces; (Art.-Nr. 00843  8) M3×8, galvanized steel - 32 pieces (or 64 pieces of M3×12) ; (Art.-Nr. 025505 8) M5×8, galvanized steel - 48  pieces | total ~3 €
   [Chocolate](https://prod-cd-origin.milka.de/produkte/milka-weisse-schokolade)|1 bar| Use it as a reward when you're done.
 
-Notes on screws: In order to have the screws on both sides of the cubes, you will need extra 32 pieces M3×8 screws (or M3×12).
 
 ### Extra parts for SimpleBOX
 Link - name of part             |  Amount |  Comment | Price
@@ -37,11 +37,16 @@ Link - name of part             |  Amount |  Comment | Price
   [Eyepiece 10×](https://de.aliexpress.com/item/32897739739.html?spm=a2g0s.9042311.0.0.466f4c4dehniSH)  |  1 piece | The holder is designed for an eyepiece of this diameter. Sold in pairs.|11 €
   [Lens 100 mm](https://optikbaukasten.de/)  |  1 piece |Artikel 2004|6 €
   [Flashlight](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)  |  1 piece | Light source for the projector and microscope.|7 €
-  [Screws](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) |   ~20 pieces | M3×12, galvanized steel - ~16  pieces; (M3×8, galvanized steel - 16 pieces extra for putting screws to all sides of all cubes); | total ~2 €
+  [Screws](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) |   ~20 pieces | For 3DP Cubes extra: M3×12, galvanized steel - 12  pieces; M3×8, galvanized steel - 12 pieces extra for putting screws to all sides of all cubes (or 24 pieces of M3×12); M5×8, galvanized steel - 18  pieces | total ~2 €
   [Chocolate](https://prod-cd-origin.milka.de/produkte/milka-weisse-schokolade)|1 bar| One more won't kill you if you already ate the previous one ;-)
 
 
 ## <a href="#icon02" name="icon02"><img src="./IMAGES/P.png" height="40"></a> 3D Printing:
+
+### <a href="#icon05" name="icon05"><img src="./IMAGES/D.png" height="40"></a> Parts
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The BOXes can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+
+Note on the lens holders: If you use some other lens, you can generate a holder for it using our openSCAD design. Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert.
 
 Completely new to 3D printing? Have a look into this [beginner's guide](https://www.makeuseof.com/tag/beginners-guide-3d-printing/)!
 
@@ -55,47 +60,6 @@ We have a good experience with this printer and settings:
   * Profile Optimal 0,15 mm, infill 20%, no support, 215/60°C
 
 
-### <a href="#icon03" name="icon03"><img src="./IMAGES/D.png" height="40"></a>  Housing
-Name of part - Link to STL file             |  Amount
-:-------------------------:|:----------------------------:
-[(01) Basic Cube 1×1](./STL/01_10_Cube_1x1_v2.stl)  |  8 pieces
-[(02) Basic Lid 1×1](./STL/02_10_Lid_1x1_v2.stl)  |  8 pieces
-[(03) Baseplate 4×1](./STL/03_Assembly_base_4x1.stl)  |  2 pieces
-[(04) Baseplate 4×4](./STL/04_Assembly_base_4x2.stl)  |  1 piece
-
-Note on the baseplates: As mentioned before, the MiniBOX was developed with the idea of injection molding produced cubes in mind. To perform the experiment conveniently with 3D printed baseplates, we suggest as optimal one Baseplate 4×4 and two Baseplates 4×1.
-
-### <a href="#icon05" name="icon05"><img src="./IMAGES/D.png" height="40"></a> Inserts
-Note on the inserts: The STLs of the inserts here fit the 3D printed cubes. Once the injection molded cubes are somehow available, we'll update the inserts as well.  
-Note on the lens holders: If you use some other lens, you can generate a holder for it using our openSCAD design. Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert. Ufortunately, the Thingiverse Customizer is for some time already not working in Google Chrome and Safari. Use a different browser to use the Customizer. 
-
-Name of part - Link to STL file            |  Amount |  Comment
-:-------------------------:|:-------------------------:|:-------------------------:
-[(05) Z-Stage Focusing Insert and Objective Mount](./STL/05_20_focus_inlet_linearflexure_stage_objectivemount.stl)  |  1 piece  | The insert and the objective mount for RMS thread print together.
-[(06) Z-Stage Gear](./STL/06_20_gear.stl) |  1 piece   | With hexagonal hole for the nut.
-[(08) Mirror Holder 45° 30×30mm²](./STL/08_20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)  |  2 pieces | Size fits for the listed mirrors.
-[(09) Generic Sample Holder](./STL/09_20_Cube_insert_Sample_holder.stl)  |  1 piece | In the SimpleBOX, it is used to hold the object in the projector setup.
-[(10) Generic Sample Holder Clamp](./STL/10_20_Cube_Insert_Sample_clamp.stl)  |  1 piece | To fix the sample.
-[(12) Lens Holder](./STL/12_UC2_Lens_insert_v2_40mm.stl)  |  1 piece | For the 40 mm lens from the shopping list.
-[(13) Lens Holder](./STL/13_UC2_Lens_insert_v2_-50mm.stl)  |  1 piece | For the 100 mm lens from the shopping list.
-[(14) Lens Holder](./STL/14_UC2_Lens_insert_v2_100mm.stl)  |  1 piece | For the -50 mm lens from the shopping list.
-
-
-### Extra parts for SimpleBOX
-### <a href="#icon03" name="icon03"><img src="./IMAGES/D.png" height="40"></a>  Housing
-Name of part - Link to STL file             |  Amount
-:-------------------------:|:----------------------------:
-[(01) Basic Cube 1×1](./STL/01_10_Cube_1x1_v2.stl)  |  3 pieces
-[(02) Basic Lid 1×1](./STL/02_10_Lid_1x1_v2.stl)  |  3 pieces
-
-### <a href="#icon04" name="icon04"><img src="./IMAGES/D.png" height="40"></a> Inserts
-
-Name of part - Link to STL file            |  Amount |  Comment
-:-------------------------:|:-------------------------:|:-------------------------:
-[(07) Eyepiece/flashlight mount](./STL/07_20_Cube_Insert_Holder_flashlight_eyepiece_v2.stl)  |  2 pieces | Diameter fits for the listed eyepiece and flashlight.
-[(11) Smartphone Holder](./STL/11_30_Smartphone_Holder.stl)  |  1 piece | Which belongs together with the eyepiece cube.
-[(13) Lens Holder](./STL/13_UC2_Lens_insert_v2_-50mm.stl)  |  1 piece | For the 100 mm lens from the shopping list.
-
 ## <a href="#icon05" name="icon05"><img src="./IMAGES/A.png" height="40"></a> Which tools to use
 Tool             |  Image|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
@@ -106,13 +70,13 @@ Tool             |  Image|  Comment
 ## <a href="#icon06" name="icon06"><img src="./IMAGES/A.png" height="40"></a>  Assembly
 Part - link             |  Result|  Comment
 :-------------------------:|:----------------------------:|:-------------------------:
-[Baseplates](../../../CAD/ASSEMBLY_Baseplate_v2)|[<img src="./IMAGES/baseplates.jpg" width="300">](../../../CAD/ASSEMBLY_Baseplate_v2)|1× "big" baseplate (4×4), 2× "small" baseplate (4×1)
-[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens_v2)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_v2)| 4× Lens Cube; Write the focal lenghts of the lenses on the holders, so you can always easily find the right one when building different setups. 1× extra lens cube for SimpleBOX
-[Mirror Cubes](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)|[<img src="./IMAGES/mirror.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)| 2× Mirror Cube
-[Sample Cube](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)|1× Sample Holder Cube
-[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|[<img src="./IMAGES/z-stage.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2)|1× mechanical Z-Stage with Sample Clamp
-[Flashlight Cube](../../../CAD/ASSEMBLY_Lens_v2)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_Lens_v2)| 1× Flashlight Cube fo SimpleBOX
-[Eyepiece and Smartphone Cube](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)|[<img src="./IMAGES/smartphone.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)|1× Eyepiece Cube with Smartphone Holder mounted on it for SimpleBOX
+[Baseplates](../../../CAD/ASSEMBLY_Baseplate)|[<img src="./IMAGES/baseplates.jpg" width="300">](../../../CAD/ASSEMBLY_Baseplate_v2)|1× baseplate puzzle
+[Lens Cubes](../../../CAD/ASSEMBLY_CUBE_Lens)|[<img src="./IMAGES/lens.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Lens_v2)| 4× Lens Cube;  1× extra lens cube for SimpleBOX
+[Mirror Cubes](../../../CAD/ASSEMBLY_CUBE_Mirror_45)|[<img src="./IMAGES/mirror.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Mirror_45)| 2× Mirror Cube
+[Sample Cube](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)|[<img src="./IMAGES/sample.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)|1× Sample Holder Cube
+[Z-Stage Cube](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical)|[<img src="./IMAGES/z-stage.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical)|1× mechanical Z-Stage
+[Flashlight Cube](../../../CAD/ASSEMBLY_CUBE_Flashlight)|[<img src="./IMAGES/flashlight.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Flashlight)| 1× Flashlight Cube for SimpleBOX
+[Eyepiece and Smartphone Cube](../../../CAD/ASSEMBLY_CUBE_Eyepiece)|[<img src="./IMAGES/smartphone.jpg" width="300">](../../../CAD/ASSEMBLY_CUBE_Eyepiece)|1× Eyepiece Cube with Smartphone Holder for SimpleBOX; Smartphone holder is also useful for MiniBOX
 
 
 ## <a href="#icon07" name="icon07"><img src="./IMAGES/E_S.png" height="40"></a> Done! Great job! Explore the experiments with our [work sheets](../DOCUMENT/UC2_simpleBOX.pdf) now.

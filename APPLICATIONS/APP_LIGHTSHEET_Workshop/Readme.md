@@ -4,48 +4,30 @@ This is the manual for the Lightsheet Microscope used for the International Day 
 ### Purpose
 Produce 3D images with better sectioning.
 
-![](./IMAGES/Assembly_simple_Lightsheet_v1.png)
+<p align="center">
+<img src="./IMAGES/Application_Light_Sheet_Microscope_v3.png" width="800">
+</p>
 
-Note: The pictures on this site do not show the latest version of the cubes. Follow the respective assembly guidelines.
+Note: Some of the pictures on this site do not show the latest version of the cubes. Follow the respective assembly guidelines.
 
-## <img src="./IMAGES/D.png" width="40">3D printing
+## <img src="./IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×4 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Laser  | - | ??€  | [Laser](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)  | 1|
-|  Module: Beamexpander  | - | ??€  | [Beamexpander](../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)  | 1|
-|  Module: Cylindrical Lens  | - | ??€  | [Cylindrical Lens](../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2)  | 1|
-|  Module: Kinematic Mirror 45°  | - | ??€  | [Kinematic Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)  | 1|
-|  Module: Objective Lens  | - | ??€  | [Objective Lens](../../CAD/ASSEMBLY_CUBE_Lens_v2)  | 1|
-|  Module: Sample-Stage | -  | ?? €  | [S-Stage](../../CAD/ASSEMBLY_CUBE_S-STAGE_v2)  | 1|
-|  Module: Z-Stage | Without Fluomodule!  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)  | 1|
-|  Module: Raspberry Camera  | - | ??€  | [RaspiCam](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)   | 15|
+|  Module: Laser  | - | ??€  | [Laser](../../CAD/ASSEMBLY_CUBE_Laser)  | 1|
+|  Module: Beamexpander  | - | ??€  | [Beamexpander](../../CAD/ASSEMBLY_CUBE_Beamexpander)  | 1|
+|  Module: Cylindrical Lens  | - | ??€  | [Cylindrical Lens](../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL)  | 1|
+|  Module: Kinematic Mirror 45°  | - | ??€  | [Kinematic Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 1|
+|  Module: Objective Lens  | - | ??€  | [Objective Lens](../../CAD/ASSEMBLY_CUBE_Lens)  | 2|
+|  Module: Sample-Stage | -  | ?? €  | [S-Stage](../../CAD/ASSEMBLY_CUBE_S-STAGE_v2.1)  | 1|
+|  Module: Raspberry Camera  | - | ??€  | [RaspiCam](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 1|
 
-### <img src="./IMAGES/P.png" width="40"> Parts to print
-* 1× [Base-Plate 4×4](./STL/Assembly_base_4x4.stl)
-* 6× [1×1 Cube](./STL/10_Cube_1x1_v2.stl)
-* 6× [1×1 Cube Lid](./STL/10_Lid_1x1_v2.stl)
-* 1× [1×1 Thin Lid](./STL/10_Lid_1x1_v2_thin.stl)
-* 1× [2×1 Cube](./STL/10_Cube_2x1_v2.stl)
-* 1× [2×1 Cube Lid](./STL/10_Lid_el_2x1_v2.stl)
-* 1× [Z-Stage](./STL/20_focus_inlet_linearflexure_v0.stl)
-* 1× [Z-Stage Objective Mount](./STL/30_focus_inlet_objective_mount_v7.stl)
-* 2× [Coupling Screw M3](./STL/30_Coupling_Screw_28BYJ_M3.stl)
-* 1× [Cube Raspicam Insert](./STL/20_Cube_Insert_RaspiCam.stl)
-* 1× [Sample-Stage](./STL/30_Z_Translator_Lightsheet_v4.stl)
-* 2× [Laser Mount](./STL/20_Cube_Insert_Laser_Mount.stl)
-* 1× [Laser Switch](./STL/00_Laser_Clamp_OnOffSwitch.stl)
-* 1× [Beamexpander Insert](./STL/20_Cube_Insert_Beamexpander.stl)
-* 1× [Beamexpander Lens Adapter](./STL/30_Lens_Adapter_Beamexpander.stl) - if needed
-* 1× [Cylindrical Lens Insert](./STL/20_Cube_Insert_Lens_Cylindrical.stl)
-* 1× [Kinematic Mirror Insert](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl)
-* 1× [Objective Lens Insert](./STL/20_Cube_Insert_Objective_Holder.stl)
-* 1× [Syringe Holder](./STL/30_Syringe_holder_v2.stl) - useful for alignment
-* Optional: 1× [Syringe Holder - top part](./STL/00_Syringe_holder_lid_v2.stl)
-* Optional: 1× [Sample Chamber](./STL/30_Samplechamber.stl)
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
@@ -70,15 +52,7 @@ Note: The pictures on this site do not show the latest version of the cubes. Fol
 
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly and alignment
-* [Baseplate ](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Laser Cube ](../../CAD/ASSEMBLY_CUBE_Laser_v2/)
-* [Beamexpander Cube ](../../CAD/ASSEMBLY_CUBE_Beamexpander_v2/)
-* [Cylindrical Lens Cube ](../../CAD/ASSEMBLY_CUBE_Lens_Cylindrical_v2/)
-* [Kinematic Mirror Cube ](../../CAD/ASSEMBLY_CUBE_Mirror_45_v2/)
-* [Objective Lens Cube ](../../CAD/ASSEMBLY_CUBE_Lens_v2/)
-* [Sample-stage ](../../CAD/ASSEMBLY_CUBE_S-STAGE_v2/)
-* [Z-stage ](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2/)
-* [Raspberry Camera Cube ](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2/)
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 ## <img src="./IMAGES/L.png" width="40"> Electronics
 🢂 Find more in the [Electronics section](../../ELECTRONICS)
@@ -86,7 +60,7 @@ Note: The pictures on this site do not show the latest version of the cubes. Fol
 ## <img src="./IMAGES/W.png" width="40"> Software
 🢂 Find the software for this setup in our dedicated [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)
 
-### Alignment of the optical path
+## Alignment of the optical path
 <p align="center">
 <img src="./IMAGES/UC2Lightsheet.gif" width="400">
 </p>
@@ -95,6 +69,8 @@ Here we give a step-by-step tutorial on how-to align the beam-path.
 The illumination path is independent from the detection path - the order how you align it is up to you.
 
 A simplified scheme can be found [here](./IMAGES/UC2_fullBOX_lightsheet_EN.pdf).
+
+A detailed alignment instructions are also found [here](../../WORKSHOP/TiM2020).
 
 ## <img src="./IMAGES/Y.png" width="40">Safety
 Don't touch the optical surfaces of lenses and objectives!

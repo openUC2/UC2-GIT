@@ -1,0 +1,138 @@
+{
+    "name": "ASSEMBLY_openSIM",
+    "description": "",
+    "image": "",
+    "price": 457.04,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "30_CUBE_openSIM_Cagelid_v3",
+            "description": "",
+            "image": "",
+            "price": 0.62,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_CUBE_openSIM_base_v4_v3",
+            "description": "",
+            "image": "",
+            "price": 1.53,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_CUBE_openSIM_Laser_Telescope_Mount_v3",
+            "description": "",
+            "image": "",
+            "price": 0.32,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_CUBE_openSIM_DMD_Fixation_base_v3",
+            "description": "",
+            "image": "",
+            "price": 0.25,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_CUBE_openSIM_DMD_Holder_v3",
+            "description": "",
+            "image": "",
+            "price": 0.13,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_CUBE_openSIM_Rodholder_v3",
+            "description": "",
+            "image": "",
+            "price": 0.24,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_CUBE_openSIM_Fouriermask_v3",
+            "description": "",
+            "image": "",
+            "price": 0.04,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "6 inch Thorlabs rod",
+            "description": "",
+            "image": "",
+            "price": 8.1,
+            "is_printable": false,
+            "n_parts": 2.0
+        },
+        {
+            "name": "50 mm Thorlabs Achromatic lens",
+            "description": "",
+            "image": "",
+            "price": 96.4,
+            "is_printable": false,
+            "n_parts": 2.0
+        },
+        {
+            "name": "30 mm Thorlabs Cage plate",
+            "description": "",
+            "image": "",
+            "price": 15.35,
+            "is_printable": false,
+            "n_parts": 3.0
+        },
+        {
+            "name": "Screws M3x8",
+            "description": "",
+            "image": "",
+            "price": 0.6,
+            "is_printable": false,
+            "n_parts": 20.0
+        },
+        {
+            "name": "TI DMD 2000EVM",
+            "description": "",
+            "image": "",
+            "price": 96.86,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "635 nm diode laser",
+            "description": "",
+            "image": "",
+            "price": 40.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "iPhone Lens",
+            "description": "",
+            "image": "",
+            "price": 5.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "25mm lens",
+            "description": "",
+            "image": "",
+            "price": 5.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Raspberry Pi 4 B",
+            "description": "",
+            "image": "",
+            "price": 40.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

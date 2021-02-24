@@ -18,6 +18,8 @@ We cannot guarantee the availability of the components. If you know other compon
 |  Comar | Various | n.a. €  | [Comar optics](https://www.comaroptics.com/components/lenses/mounted-lenses/microscope-objectives)  | No |
 Kern Optics OBB-A1280 | Microscope Objective 4×/0,1 | 54€ | [conrad.de](https://www.conrad.de/de/p/kern-optics-obb-a1280-mikroskop-objektiv-4-x-passend-fuer-marke-mikroskope-kern-1320594.html) | Yes
 Kern Optics OBB-A1108 | Microscope Objective 10×/0,3 | 40€ | [conrad.de](https://www.conrad.de/de/p/kern-optics-obb-a1108-mikroskop-objektiv-10-x-passend-fuer-marke-mikroskope-kern-1320473.html) | Yes
+Cellphone Lenses | Can be used for microscpic objective lenses  | 4€ | [Megapixellenses](https://www.megapixellenses.com/) | Yes
+
 
 
 Most Objectives come with an RMS thread.
@@ -32,7 +34,7 @@ Unknown | Microscope Eyepiece 20×, sold in pairs | 26€ | [Aliexpress](https:/
 
 
 ### Lenses
-Lenses are in general a troubled topic, even for us and we're constantly looking for sources of good but cheap lenses that fit our requirements. In German university environment, we mostly order from Optikbaukasten, Astromedia and of course Thorlabs. Recently we found a Canadian company Ajax Scientific, which has a very good offer but the shipping is a bit of a problem there. You can of course use any whatsoever lens that you have at hand or find at Ebay or Amazon, you can print a holder from the Lens holder on [Thingiverse](https://www.thingiverse.com/thing:4377691) - you open the part in Customiser, enter the diameter, edge thickness and focal length value and generate an STL for your lens. Make sure to use the right focal length for your experiment. 
+Lenses are in general a troubled topic, even for us and we're constantly looking for sources of good but cheap lenses that fit our requirements. In German university environment, we mostly order from Optikbaukasten, Astromedia and of course Thorlabs. Recently we found a Canadian company Ajax Scientific, which has a very good offer but the shipping is a bit of a problem there. You can of course use any whatsoever lens that you have at hand or find at Ebay or Amazon, you can print a holder from the Lens holder on [Thingiverse](https://www.thingiverse.com/thing:4377691) - you open the part in Customiser, enter the diameter, edge thickness and focal length value and generate an STL for your lens. Make sure to use the right focal length for your experiment.
 
 |  Name | Properties  |  Price | Link  |
 |---|---|---|---|
@@ -58,6 +60,9 @@ LC1259 | planoconcave, f'=-50mm, 25 mm, used in SimpleBOX, telescopes | 19€ | 
 smartphone camera Lens |iPhone 5 | 5€ | [Ebay](https://www.ebay.com/itm/For-iPhone-5-Back-Camera-Replacement-Rear-Facing-Camera-With-Flash-LED/271905852188?hash=item3f4eda0b1c:g:NzYAAOSwa39UuBni)
 | Generic | Bi-convex | 1-9€ | [Ajax Scientific](https://ajaxscientific.com/product/bi-convex-lens/?attribute_pa_diameter=38mm&attribute_pa_focal-length=05cm) |
 | Generic | Bi-concave | 1-3€ | [Ajax Scientific](https://ajaxscientific.com/product/bi-concave-lens/?attribute_pa_diameter=38mm&attribute_pa_focal-length=05cm) |
+| Bi-concave, f = -50 mm | Ajax lenses from Amazon | 10€ | [Amazon](https://www.amazon.de/-/en/Scientific-LI140-0050-Polished-Spherical-Concave-Diameter/dp/B00EPQ8ZH0) |
+| Bi-convex, f = 50 mm | Ajax lenses from Amazon | 10€ | [Amazon](https://www.amazon.com/Ajax-Scientific-Double-Convex-Bi-Convex-Spherical/dp/B00EPQ9EVQ) |
+| Bi-convex, f = 100 mm | Ajax lenses from Amazon | 10€ | [Amazon](https://www.amazon.com/Ajax-Scientific-Polished-Spherical-Bi-convex/dp/B00EPQ9GRS) |
 
 
 ### Mirrors and Others

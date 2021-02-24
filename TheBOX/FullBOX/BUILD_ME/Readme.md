@@ -30,86 +30,86 @@ Click on the arrow (🢂) to find the STLs and assembly tutorials of the respect
 <img src=".\IMAGES\IMG_20190905_175948.jpg" height="400">
 </p>
 
-  * Baseplate  4×4 [🢂](../../../CAD/ASSEMBLY_Baseplate_v2)
+  * Baseplate  4×4 [🢂](../../../CAD/ASSEMBLY_Baseplate)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180802.jpg" height="400">
   </p>
 
-  * Baseplate 4×2 [🢂](../../../CAD/ASSEMBLY_Baseplate_v2)
-  * Baseplate 4×1 - 2× [🢂](../../../CAD/ASSEMBLY_Baseplate_v2)
+  * Baseplate 4×2 [🢂](../../../CAD/ASSEMBLY_Baseplate)
+  * Baseplate 4×1 - 2× [🢂](../../../CAD/ASSEMBLY_Baseplate)
   * Raspberry Pi
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_175916.jpg" height="400">
   </p>
 
-  * Cube 2×1: Z-stage with 10× objective and sample holder [🢂](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)
+  * Cube 2×1: Z-stage with 10× objective and sample holder [🢂](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_objective)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180724.jpg" height="400">
   </p>
 
-  * Fluomodule Cube [🢂](../../../CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2)
+  * Fluomodule Cube [🢂](../../../CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180650.jpg" height="400">
   </p>
 
-  * LED Cube [🢂](../../../CAD/ASSEMBLY_CUBE_LED_v2)
+  * LED Cube [🢂](../../../CAD/ASSEMBLY_CUBE_LED)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180526.jpg" height="400">
   </p>
 
-  * Eyepiece Cube (20×) with Smartphone holder [🢂](../../../CAD/ASSEMBLY_CUBE_Cellphonemount) & [🢂](../../../CAD/ASSEMBLY_CUBE_Eyepiece_v2)
+  * Eyepiece Cube (20×) with Smartphone holder [🢂](../../../CAD/ASSEMBLY_CUBE_Eyepiece)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180334.jpg" height="400">
   </p>
 
-  * Laser Cube [🢂](../../../CAD/ASSEMBLY_CUBE_Laser_v2)
+  * Laser Cube [🢂](../../../CAD/ASSEMBLY_CUBE_Laser)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180454.jpg" height="400">
   </p>
 
-  * 45° mirror Cube - 2× [🢂](../../../CAD/ASSEMBLY_CUBE_Mirror_45_v2)
+  * 45° mirror Cube - 2× [🢂](../../../CAD/ASSEMBLY_CUBE_Mirror_45)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180638.jpg" height="400">
   </p>
 
-  * Kinematic mirror mount Cube – perpendicular to optical path [🢂](../../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_v2)
+  * Kinematic mirror mount Cube – perpendicular to optical path [🢂](../../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180410.jpg" height="400">
   </p>
 
-  * Kinematic mirror mount Cube – 45° to optical path [🢂](../../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)
+  * Kinematic mirror mount Cube – 45° to optical path [🢂](../../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180433.jpg" height="400">
   </p>
 
-  * RaspiCam Cube [🢂](../../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)
+  * RaspiCam Cube [🢂](../../../CAD/ASSEMBLY_CUBE_RaspiCam)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180158.jpg" height="400">
   </p>
 
-  * Beamsplitter Cube [🢂](../../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)
+  * Beamsplitter Cube [🢂](../../../CAD/ASSEMBLY_CUBE_Beamsplitter)
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180252.jpg" height="400">
   </p>
 
-  * Beamexpander Cube with an iPhone lens and +26 mm lens [🢂](../../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)
+  * Beamexpander Cube with an iPhone lens and +26 mm lens [🢂](../../../CAD/ASSEMBLY_CUBE_Beamexpander)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180309.jpg" height="400">
   </p>
 
-  * Lens Cube - 2× [🢂](../../../CAD/ASSEMBLY_CUBE_Lens_v2) & [🢂](../../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2)
+  * Lens Cube - 2× [🢂](../../../CAD/ASSEMBLY_CUBE_Lens) & [🢂](../../../CAD/ASSEMBLY_CUBE_Lens_CYLINDRICAL)
 
     *  +100 mm – blue label holder, in cube
 
@@ -127,15 +127,15 @@ Click on the arrow (🢂) to find the STLs and assembly tutorials of the respect
     <img src=".\IMAGES\IMG_20190905_175426.jpg" height="400">
     </p>
 
-  * Generic sample holder Cube and Sample chamber [🢂](../../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)
+  * Generic sample holder Cube and Sample chamber [🢂](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_180608.jpg" height="400">
   </p>
 
   * Generic sample holder – comb structure
-  * LED array [🢂](../../../CAD/ASSEMBLY_CUBE_LED_Matrix_v2)
-  * Sample stage [🢂](../../../CAD/ASSEMBLY_CUBE_S-STAGE_v2)
+  * LED array [🢂](../../../CAD/ASSEMBLY_CUBE_LED_Matrix)
+  * Sample stage [🢂](../../../CAD/ASSEMBLY_CUBE_S-STAGE_v2.1)
   * Flashlight
   * Blue laser pointer with switch
 

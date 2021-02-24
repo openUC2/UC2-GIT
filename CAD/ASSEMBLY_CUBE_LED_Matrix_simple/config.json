@@ -1,0 +1,58 @@
+{
+    "name": "ASSEMBLY_CUBE_LED_Matrix_simple",
+    "description": "",
+    "image": "",
+    "price": 22.7,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "30_IM_LED_holder_8x8_v3",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "LED Matrix 8x8",
+            "description": "",
+            "image": "",
+            "price": 10.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "M2 screw + nut",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 2.0
+        },
+        {
+            "name": "ESP32",
+            "description": "",
+            "image": "",
+            "price": 8.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Female-Female Jumper Wire",
+            "description": "",
+            "image": "",
+            "price": 0.5,
+            "is_printable": false,
+            "n_parts": 3.0
+        },
+        {
+            "name": "USB-microUSB cable",
+            "description": "",
+            "image": "",
+            "price": 2.8,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 # Fluorescence Microscope (infinity)
 This is the repository for the laser-based fluorescence microscope with infinity optics. It is capable to acquire Time-Lapse videos from living cells inside an incubator.
 
-The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org). We also emphasize to use the [delta stage](https://openflexure.org/projects/deltastage/) where [UC2 provides an adapter](../CAD/CUBE_INSERT_OpenFlexure_Deltastage/README.md) for our system
+The current version of the Z-stage is inspired by the flexure-bearing Z-stage from Richard Bowman's openflexure microscope design. Their open-source project can be found [here](https://openflexure.org). We also emphasize to use the [delta stage](https://openflexure.org/projects/deltastage/) where [UC2 provides an adapter](../CAD/CUBE_INSERT_OpenFlexure_Deltastage_v2) for our system
 
 The setup looks as follows:
 
@@ -27,38 +27,23 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 * infinity corrected optics
 * use of low-cost CMOS sensors possible
 
-## <img src="./IMAGES/D.png" width="40">3D printing
+## <img src="./IMAGES/D.png" width="40">Parts
+## Alignment
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×5 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Z-Stage | Optionally with Fluomodule  | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2)  | 1|
-| (Alternative) [Delta stage](https://openflexure.org/projects/deltastage/)  | Openflexure | ?? €  | [Deltastage](../CAD/CUBE_INSERT_OpenFlexure_Deltastage/README.md)  | 1|
-|  Module: Kinematic Mirror 45°  (THORLABS!) | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)  | 4|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 20|
+|  Module: Z-Stage | - | ?? €  | [Z-Stage](../../CAD/ASSEMBLY_CUBE_Z-STAGE_sample)  | 1|
+| (Alternative) [Delta stage](https://openflexure.org/projects/deltastage/)  | Openflexure | ?? €  | [Deltastage](../CAD/CUBE_INSERT_OpenFlexure_Deltastage_v2)  | 1|
+|  Module: Kinematic Mirror 45°  (THORLABS!) | - | 5€  | [Mirror 45](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 4|
 |  Module: Alvium CMOS Camera  | Low-Cost Camera | 5€  | [Alvium Camera](../../CAD/ASSEMBLY_CUBE_AlliedVision_Alvium)  | 4|
-|  Module: Beamexpander  | Expands beam by ~3x | ??€  | [Beamexpander](../../CAD/ASSEMBLY_CUBE_Beamexpander_v2)  | 1|
-|  Module: Beamsplitter (dichroic)  | Expands beam by ~3x | ??€  | [Beamexpander](../../CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2)  | 1|
+|  Module: Beamexpander  | Expands beam by ~3x | ??€  | [Beamexpander](../../CAD/ASSEMBLY_CUBE_Beamexpander)  | 1|
+|  Module: Beamsplitter (dichroic)  | - | ??€  | [Dichroic Bam splitter](../../CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter)  | 1|
 
-### <img src="./IMAGES/P.png" width="40"> Parts to print
-(**TODO:** need to be updated!)
-
-* 1× [Base-Plate 4×2](./STL/Assembly_base_4x2.stl)
-* 2× [1×1 Cube](./STL/10_Cube_1x1_v2.stl)
-* 3× [1×1 Cube Lid](./STL/10_Lid_1x1_v2.stl)
-* 1× [2×1 Cube](./STL/10_Cube_2x1_v2.stl)
-* 1× [2×1 Cube Lid](./STL/10_Lid_el_2x1_v2.stl)
-* 1× [Z-Stage](./STL/20_focus_inlet_linearflexure_v0.stl)
-* 1× [Z-Stage Objective Mount](./STL/30_focus_inlet_objective_mount_v7.stl)
-* 1× [Coupling Screw M3](./STL/30_Coupling_Screw_28BYJ_M3.stl)
-* 1× [Z-Stage Fluomodule](./STL/30_Z_Stage_Fluomodule_12.stl)
-* 1× [Z-Stage Adapterplate](./STL/30_Z_Stage_Adapterplate_11.stl)
-* 1× [Z-Stage Microscope Slide Clamp](./STL/40_XY_Stage_Clamp_Slide_9.stl)
-* 1× [Cube LED Matrix Holder](./STL/30_Cube_LED_Array_v0.stl)
-* 1× [Cube Raspicam Insert](./STL/20_Cube_Insert_RaspiCam.stl)
-* 1× [Thorlabs Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_v2.stl) or [30×30 Mirror Insert](./STL/20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl)
-
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 (**TODO:** need to be updated!)
@@ -95,11 +80,11 @@ To make it more stable you can "sandwich" it with a second baseplate | <img src=
 
 **Assembled Setups with a Jetson-driven mono camera:**
 
-For more infos about the camera look [here](../../CAD/ASSEMBLY_CUBE_AlliedVision_Alvium) 
+For more infos about the camera look [here](../../CAD/ASSEMBLY_CUBE_AlliedVision_Alvium)
 
-<img src="./IMAGES/photo_setup_1.jpg" width=500> 
+<img src="./IMAGES/photo_setup_1.jpg" width=500>
 
-<img src="./IMAGES/photo_setup_2.jpg" width=500> 
+<img src="./IMAGES/photo_setup_2.jpg" width=500>
 
 
 ## Parts
@@ -123,12 +108,7 @@ in List form:
 
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly and alignment
-* [Baseplate ](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Z-stage ](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2/)
-* [Detla-stage ](../../CAD/ASSEMBLY_CUBE_Z-STAGE_v2/)
-* [Dichroic Filter Cube ](../../CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2/)
-* [Camera Cube ](../../CAD/ASSEMBLY_CUBE_AlliedVision_Alvium/)
-* [LED array ](../../CAD/ASSEMBLY_CUBE_LED_Matrix_v2/)
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 A simplified scheme can be found [here](./IMAGES/UC2_fullBOX_incubator_EN.pdf).
 
@@ -161,6 +141,79 @@ This is acquired with the Allied Vision Alvium 1500-158 and the new UC2 Nvidia J
 ***Overlay***
 <p align="center">
 <img src="./IMAGES/HeLa_AF647_BF_Overlay.png" width="500">
+</p>
+
+
+### Showcase
+<p align="center">
+<img src="./IMAGES/Setup_IM0.jpeg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Setup_IM1.jpeg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Setup_IM2.jpeg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Setup_IM3.jpeg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Setup_IM4.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM5.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM6.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM7.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM8.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM9.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM10.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM11.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM12.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM13.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM14.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM19.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM20.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM20.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM20.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM21.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM22.jpeg" width="500">
+</p>
+<p align="center">
+<img src="./IMAGES/Setup_IM23.jpeg" width="500">
 </p>
 
 

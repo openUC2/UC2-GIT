@@ -1,7 +1,7 @@
 ## Light sheet WORKSHOPs
 We have a ready-to-use documentation as a PDF which will be updated over time. Please find it [here](UC2_WORKSHOP_Lightsheet_Microscope_v0_english.pdf). An assembly tutorial with photos for each module can be found in the folder [Light sheet folder](../../APPLICATIONS/APP_LIGHTSHEET_Workshop).
 
-Please note that the workshop was done using version UC2 v0.
+Please note that the workshop was done using version UC2_v0.
 
 <p align="center">
 <img src="./IMAGES/PDFico.png" width="40">

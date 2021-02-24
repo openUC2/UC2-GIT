@@ -1,0 +1,34 @@
+{
+    "name": "ASSEMBLY_Baseplate",
+    "description": "",
+    "image": "",
+    "price": "",
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Base_puzzle_IM",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Base_puzzle_v3",
+            "description": "",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Ballmagnets",
+            "description": "",
+            "image": "",
+            "price": 0.47,
+            "is_printable": false,
+            "n_parts": 4.0
+        }
+    ]
+}

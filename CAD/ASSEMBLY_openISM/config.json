@@ -1,0 +1,58 @@
+{
+    "name": "ASSEMBLY_openISM",
+    "description": "",
+    "image": "",
+    "price": 379.02,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "20_Cube_insert_openISM_AnyBeamMount_v3",
+            "description": "",
+            "image": "",
+            "price": 0.27,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_insert_openISM_base_v3",
+            "description": "",
+            "image": "",
+            "price": 0.52,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Nebra Anybeam HAT",
+            "description": "",
+            "image": "",
+            "price": 225.11,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Ballmagnets",
+            "description": "",
+            "image": "",
+            "price": 0.47,
+            "is_printable": false,
+            "n_parts": 8.0
+        },
+        {
+            "name": "30 mm Thorlabs Cage plate",
+            "description": "",
+            "image": "",
+            "price": 46.08,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30 mm Thorlabs Achromatic lens",
+            "description": "",
+            "image": "",
+            "price": 103.28,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}
