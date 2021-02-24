@@ -73,6 +73,9 @@ The details about the size and other properties of the basic building block is f
 #### 3DP Cube
 [![UC2 YouSeeToo - How to assemble the base-cube?](./IMAGES/UC2_Assembly_BaseCube_3DP.png)](https://www.youtube.com/watch?v=Rjwojkbwct4&t=1s&ab_channel=openUC2)
 
+#### Watch how much time the IM cubes can save!
+[![UC2 YouSeeToo - IM and 3DP cube comparison](./IMAGES/IM_3DP_comparison.png)](https://www.youtube.com/watch?v=M_oqieogAOo&feature=youtu.be&ab_channel=openUC2)
+
 
 ## <img src="./IMAGES/A.png" width="40">Assembly Tutorial with images - IM Cube
 

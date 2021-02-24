@@ -159,6 +159,9 @@ So far it’s designed the way, that ball-magnets are pressed fit into the 3D pr
 <img src="./IMAGES/IM_3DP_04.jpg" height="300">
 </p>
 
+#### Watch how much time the IM cubes can save!
+[![UC2 YouSeeToo - IM and 3DP cube comparison](./IMAGES/IM_3DP_comparison.png)](https://www.youtube.com/watch?v=M_oqieogAOo&feature=youtu.be&ab_channel=openUC2)
+
 
 ### Good Practice to transfer an optical system to UC2
 
