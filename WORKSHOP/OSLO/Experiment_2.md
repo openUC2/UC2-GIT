@@ -3,7 +3,7 @@ Build a device to see the effect of Fourier-filtering (e.g. "ABBE-Experiment")
 
 The idea is to see the effect of Fourier filtering during image formation by placing an aperture inside the back focal plane (BFP) of the imaging lens.
 
-All information about the setup can be found [here](https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/APP_Abbe_Setup)
+All information about the setup can be found [here](../../APPLICATIONS/APP_Abbe_Setup)
 
 
 ## Steps
@@ -29,4 +29,4 @@ First think about what could happened; Does this go hand-in-hand of what happens
 - Vary illumination source shape by taking aluminum foil and stitch different patterns in it to vary the degree of coherence
 	- What happens on the Fourier-cam?
 - Take a piece of paper and place it in the BFP of the imaging lens, try different shapes.
-	- What happens to the image on the raspberry pi camera? 
+	- What happens to the image on the raspberry pi camera?

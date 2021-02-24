@@ -10,27 +10,24 @@ width="450">
 
 In the experiment, a wave is split into two separate waves and later they are combined into a single wave. The path lengths of both waves are different and have a phase shift which creates an interference pattern. The [Mach–Zehnder interferometer,](../APP_Mach-Zehnder_Interferometer) is an another version which splits the beam with a mirror.
 
+## <img src="./IMAGES/F.png" width="40">Devices' features:
+* Demonstrate interference
 
-### 3D-printed components
+### <img src="./IMAGES/D.png" width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
+
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×1 Baseplate | - | 8,22€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: LED Holder + Single-Slit   | - | 7,25€  | [LED Holder](../../CAD/ASSEMBLY_CUBE_LED_v2)  | 1|
-|  Module: Sample Holder  | To insert Double-Slits Slide. | 2,5€  | [Double-slits](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 2|
-|  Module: Raspberry Camera  | - | 33,70 €  | [RasPi Camera](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
-|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 2,20 €  | [Cube](../../CAD/ASSEMBLY_CUBE_Base_v2)  | 1|
+| Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 4|
+|  Module: LED Holder + Single-Slit   | - | 7,25€  | [LED Holder](../../CAD/ASSEMBLY_CUBE_LED)  | 1|
+|  Module: Sample Holder  | To insert Double-Slits Slide. | 2,5€  | [Double-slits](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 2|
+|  Module: Raspberry Camera  | - | 33,70 €  | [RasPi Camera](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 1|
+|  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 2,20 €  | [Cube](../../CAD/ASSEMBLY_CUBE_Base)  | 1|
 
-### <img src="./IMAGES/P.png" width="40">Parts to print
-
-* 1× [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
-* 4× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
-* 4x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
-* 2× [Sample Holder for Double-Slits slide](./STL/ASSEMBLY_CUBE_LED_20_Cube_insert_Sample_holder.stl)
-* 1× [Sample Holder Clamp for Double-Slits slide](./STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl)
-* 1x [LED Holder ](./STL/ASSEMBLY_CUBE_LED_20_Cube_insert_LED_holder.stl)
-* 1× [RasPi Camera](./STL/20_Cube_Insert_RaspiCam.stl)
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 #### Preparing Single-slit and Double-slit
@@ -82,19 +79,10 @@ width="450">
 width="450">
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
-
-* 1x [Baseplate ](../../CAD/ASSEMBLY_Baseplate_v2/)
-* 2× [Additional empty cube](../../CAD/ASSEMBLY_CUBE_Base_v2)
-* 1x [LED Holder cube](../../CAD/ASSEMBLY_CUBE_LED_v2)
-* 2x [Sample Holder cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)
-* 1x [Beam-Splitter cube](../../CAD/ASSEMBLY_CUBE_Beamsplitter_v2)
-* 1x [Diagonal Kinematic Mirror Holder Cube](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)
-* 1x [RasPi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 
 ## <img src="./IMAGES/E.png" width="40"> Results  
-
-
 *Will be updated soon!*
 
 ## Suggestions

@@ -12,25 +12,48 @@ Don't have much experience with electronics? It's actually really simple!
 ## <a href="#icon02" name="icon02"><img src="./IMAGES/A.png" width="40"></a> Connecting the electronics
 
 * When using [jumper wires](http://blog.sparkfuneducation.com/what-is-jumper-wire) you can avoid most of the soldering.
-* **LED array** - 3 wires
+
+#### **LED array** - 3 wires
 
 <p align="center">
 <img src="./IMAGES/Electronics_LED.png" width="300">
 </p>
+
+Connect everything - mind the right pins!
+
+* The wires connect to the little trident which goes into the LED array
+* Their other ends connect to the ESP32 according to the scheme above
+
 <p align="center">
-<img src="./IMAGES/IMG_20190925_163200.jpg" width="300">
+<img src="./IMAGES/LED01.jpg" width="300">
+<img src="./IMAGES/LED02.jpg" width="300">
+<img src="./IMAGES/LED03.jpg" width="300">
+<img src="./IMAGES/LED04.jpg" width="300">
+<img src="./IMAGES/LED05.jpg" width="300">
+<img src="./IMAGES/LED06.jpg" width="300">
 </p>
 
-* **Z-stage** or **Sample-stage** - 6 wires + motor connection
+#### **Z-stage** or **Sample-stage** - 6 wires + motor connection
 * Sample stage is the very same as the Z-stage - you just mount it on different 3Dprinted parts.
 
 <p align="center">
 <img src="./IMAGES/Electronics_Z-stage.png" width="300">
 </p>
+
+Connect everything - mind the right pins!
+
+* Connect the motor to the driver board
+* Two of the wires are for the (+) and (-)
+* Four of the wires are for the IN1 - IN4 (inputs)
+* Their other ends connect to the ESP32 according to the scheme above
+
 <p align="center">
-<img src="./IMAGES/IMG_20190925_162651.jpg" width="300">
-<img src="./IMAGES/IMG_20190925_162730.jpg" width="300">
-<img src="./IMAGES/IMG_20190925_162700.jpg" width="300">
+<img src="./IMAGES/Stage01.jpg" width="300">
+<img src="./IMAGES/Stage02.jpg" width="300">
+<img src="./IMAGES/Stage03.jpg" width="300">
+<img src="./IMAGES/Stage04.jpg" width="300">
+<img src="./IMAGES/Stage05.jpg" width="300">
+<img src="./IMAGES/Stage06.jpg" width="300">
 </p>
 
 * Flash them with the right software from our [Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT).
@@ -52,6 +75,15 @@ No control via WiFi - just buttons. The Simple Smartphone Microscope is found [h
 <p align="center">
 <img src="./IMAGES/Electronics_Z-stage_simple.png" width="300">
 </p>
+
+* The buttons are simply an add-on to the Electronics - connect to wires to each button and to the correct pins of the ESP32
+<p align="center">
+<img src="./IMAGES/Stage07.jpg" width="300">
+<img src="./IMAGES/Stage08.jpg" width="300">
+<img src="./IMAGES/Stage09.jpg" width="300">
+<img src="./IMAGES/Stage10.jpg" width="300">
+</p>
+
 
 * Power the ESP32 simply with microUSB cables.
 * And it works just like that ;-)

@@ -1,0 +1,82 @@
+{
+    "name": "ASSEMBLY_CUBE_Beamexpander",
+    "description": "",
+    "image": "",
+    "price": 9.899999999999999,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Cube_1x1_IM",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 2.0
+        },
+        {
+            "name": "10_Cube_1x1_v3",
+            "description": "",
+            "image": "",
+            "price": 0.4,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Lid_1x1_v3",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 8.0
+        },
+        {
+            "name": "Screws (set) M5\u00d78",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 6.0
+        },
+        {
+            "name": "20_Cube_Insert_Beamexpander_v3",
+            "description": "",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Beamexpander_Lens_Adapter_v3",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "iPhone Lens",
+            "description": "",
+            "image": "",
+            "price": 4.6,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Planoconvex Lens f'=26,5mm, 18 mm (551.OAL)",
+            "description": "",
+            "image": "",
+            "price": 5.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

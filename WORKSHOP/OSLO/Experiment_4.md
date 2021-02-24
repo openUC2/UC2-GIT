@@ -1,7 +1,7 @@
 ## Experiment – 4 Light sheet Microscope
 This time we want to build the light sheet microscope.
 
-The basic description about the device and how to align it can be found [here](https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/APP_LIGHTSHEET_Workshop).
+The basic description about the device and how to align it can be found [here](../../APPLICATIONS/APP_LIGHTSHEET_Workshop).
 
 ## Tasks
 

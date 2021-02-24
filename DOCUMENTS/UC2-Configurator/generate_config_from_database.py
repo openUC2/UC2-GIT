@@ -11,94 +11,36 @@ import os
 
 import xlrd
 
+from UC2_classes import *
 
-class uc2_application:
-    def __init__(self, name, description, githublink, image, price):
-        self.name = name
-        self.description = description
-        self.githublink = githublink
-        self.image = image
-        self.price = price
-        self.type = 'application'
-        
-        self.modules = []
-        
-
-    def addmodule(self, module):
-        self.modules.append(module)
-
-    def print(self):
-        print("App Name: " + self.name)
-        print("App description: " + self.description)
-        print("App githublink: " + self.githublink)
-        print("App image: " + self.image)
-        print("App Parts: ".join(str(x) for x in ([i.name for i in self.modules]))) 
-
-class uc2_module: # also called assembly
-    def __init__(self, name, description, githublink, image, price):
-        self.name = name
-        self.description = description
-        self.githublink = githublink
-        self.image = image
-        self.price = price
-        self.fixedOptions = {}
-        self.type = "module"
-        
-        self.partslist = []
-        
-    def addpart(self, part):
-        self.partslist.append(part)
-
-    def print(self):
-        print("Module Name: " + self.name)
-        print("Module description: " + self.description)
-        print("Module githublink: " + self.githublink)
-        print("Module image: " + self.image)
-        print("Module Parts: ".join(str(x) for x in ([i.name for i in self.partslist]))) 
-
-
-class uc2_part:
-    def __init__(self, name, description, githublink, image, price, is_printable, n_parts):
-        self.name = name
-        self.description = description
-        self.githublink = githublink
-        self.image = image
-        self.price = price
-        self.is_printable = is_printable
-        self.n_parts = n_parts
-        
-    def print(self):
-        print("App Name: " + self.name)
-        print("App description: " + self.description)
-        print("App githublink: " + self.githublink)
-        print("App image: " + self.image)
-        print("App Modules: " + self.Modules.value)        
-
-
-
-
+# check if files exists
+stlfolder = '/Users/bene/Dropbox/Dokumente/Promotion/PROJECTS/UC2-GIT/CAD/RAW/STL/'
+filesnonexist = []
+NAME_CUBE_EMPTY = 'ASSEMBLY_CUBE_Base'
+github_prefx = 'UC2_'
 # This file converts the UC2 modules/parts database into a JSON-file ready for the 
 # Online UC2 Selector 
 
-sheetname = 'Complete overview' # change it to your sheet name
+sheetname = 'v3' #'Complete overview' # change it to your sheet name
 ucs_database_filename = 'UC2_ReadyToUse_Boxes_Modules_Parts.xlsx' # change it to the name of your excel file
 
 #%% Define entries in Database
 alphabet=string.ascii_lowercase
 
 my_root = '/Users/bene/Dropbox/Dokumente/Promotion/PROJECTS/UC2-GIT' # save json.config files inside..
-    
+filenameconfig='config.json'
 is_debug = False
 # need to be lower case! 
 col_first_app = 'k' # chr(ord('K'))
 col_last_app = 'v'
 col_all_app = range(alphabet.find(col_first_app), alphabet.find(col_last_app))
 
+# Hardcoding the entires for now; #TODO: Use Pandas?
 row_app_name = 2
 row_app_imagelink = 4
 row_app_githublink = 3
 row_app_briefdescription = 5
-row_app_price = 6
+row_app_price = 7
 
 
 col_assembly_index = alphabet.find('a')
@@ -106,13 +48,29 @@ col_assembly =  alphabet.find('b')
 col_assembly_module_part_name =  alphabet.find('c')
 col_assembly_module_part_isprintable =  alphabet.find('d')
 col_assembly_module_part_n =  alphabet.find('e')
-col_assembly_module_part_name_githublink =  alphabet.find('f')
+#col_assembly_module_part_name_githublink =  alphabet.find('f')
 col_assembly_module_part_name_price =  alphabet.find('g')
+
+
+#%% 
+# First we want to remove all config.json files 
+import os                                                                                                             
+                                                                                                                      
+def del_files(dir, file_to_dele):                                                                                                  
+    r = []                                                                                                            
+    subdirs = [x[0] for x in os.walk(dir)]                                                                            
+    for subdir in subdirs:                                                                                            
+        files = os.walk(subdir).__next__()[2]                                                                             
+        if (len(files) > 0):                                                                                          
+            for file in files:                                                              
+                if(file==file_to_dele):
+                    print("REmoving file:"+os.path.join(subdir, file))
+                    os.remove(os.path.join(subdir, file))
+                  
+del_files(my_root,filenameconfig)
 
 #%%
 # open XLXS file
-stl_prefix = 'Assembly_ALL_PARTS_FOR_EXPORT_'
-
 workbook = xlrd.open_workbook(ucs_database_filename)
 worksheet = workbook.sheet_by_name(sheetname)
 
@@ -131,12 +89,11 @@ for row_module in (all_modules_indices):
         break
         
     # the empty module is not well defined..
-    if module_name == 'ASSEMBLY_CUBE_empty_1x1':
+    if module_name == NAME_CUBE_EMPTY:
         my_empty_cube_index_start = row_module+1
-        print("is empty cube: " + str(module_name == 'ASSEMBLY_CUBE_empty_1x1') + " Name: "+module_name)
+        if (is_debug): print("is empty cube: " + str(module_name == NAME_CUBE_EMPTY) + " Name: "+module_name)
         
 
-        
 
         
 # 1.) find all Assemblies 
@@ -144,9 +101,10 @@ i_module = 0
 for row_module in (all_modules_indices):
     #% row_module=6; i_module=0 # debug
     module_name = worksheet.cell(row_module, col_assembly_index+1).value
-    if(module_name==""):
+    if(module_name=="" or module_name=="END"):
         print('bla')
-    module_githublink = worksheet.cell(row_module+1, col_assembly_index+1).value
+        break
+    #module_githublink = worksheet.cell(row_module+1, col_assembly_index+1).value
     module_price = worksheet.cell(row_module+2, col_assembly_index+1).value
     module_imagelink = ''
     module_description = '' 
@@ -154,7 +112,7 @@ for row_module in (all_modules_indices):
     # create module
     mymodule = uc2_module(module_name,
                module_description, 
-               module_githublink, 
+               #module_githublink, 
                module_imagelink, 
                module_price)
     
@@ -170,15 +128,15 @@ for row_module in (all_modules_indices):
     # 2.) find all parts per Assembly
     for i_part in (all_part_indices):
         part_name = worksheet.cell(i_part, col_assembly_module_part_name).value
-        is_add_empty_cube = part_name=='ASSEMBLY_CUBE_empty_1x1'
+        is_add_empty_cube = part_name==NAME_CUBE_EMPTY
         
         if is_add_empty_cube:
             # we need to replace the reference link of the empty cube with the 
             # parts of the cube
             for i_part in range(my_empty_cube_index_start,my_empty_cube_index_end):
-                part_name = worksheet.cell(i_part, col_assembly_module_part_name).value
+                part_name = worksheet.cell(i_part, col_assembly_module_part_name).value.replace('\ufeff', '', 1)
                 part_isprintable = bool(worksheet.cell(i_part, col_assembly_module_part_isprintable).value)
-                part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
+                #part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
                 part_price = worksheet.cell(i_part, col_assembly_module_part_name_price).value
                 part_imagelink = '' 
                 part_description = ''
@@ -187,7 +145,7 @@ for row_module in (all_modules_indices):
                 # create part
                 mypart = uc2_part(part_name, 
                                   part_description, 
-                                  part_githublink, 
+                                  #part_githublink, 
                                   part_imagelink, 
                                   part_price, 
                                   part_isprintable, 
@@ -195,13 +153,14 @@ for row_module in (all_modules_indices):
                 
                 # addpart to module
                 mymodule.addpart(mypart)
+
                 if(is_debug): mymodule.print()
 
         else:
-            part_name = worksheet.cell(i_part, col_assembly_module_part_name).value
-            print(part_name)
+            part_name = worksheet.cell(i_part, col_assembly_module_part_name).value.replace('\ufeff', '', 1)
+            if (is_debug): print(part_name)
             part_isprintable = bool(worksheet.cell(i_part, col_assembly_module_part_isprintable).value)
-            part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
+            #part_githublink = worksheet.cell(i_part, col_assembly_module_part_name_githublink).value
             part_price = worksheet.cell(i_part, col_assembly_module_part_name_price).value
             part_imagelink = '' 
             part_description = ''
@@ -210,7 +169,7 @@ for row_module in (all_modules_indices):
             # create part
             mypart = uc2_part(part_name, 
                               part_description, 
-                              part_githublink, 
+                              #part_githublink, 
                               part_imagelink, 
                               part_price, 
                               part_isprintable, 
@@ -221,7 +180,9 @@ for row_module in (all_modules_indices):
             mymodule.addpart(mypart)
             if(is_debug): mymodule.print()
         
-        
+        if part_isprintable and not os.path.isfile(stlfolder+github_prefx+part_name+".stl"):
+            filesnonexist.append(part_name)
+
         
     # add all modules to the list
     all_modules.append(mymodule)
@@ -254,20 +215,22 @@ We also want to build a json file directly!
 
 
 
-for i_application in range(10,100):# range(10,100):
+for i_application in range(7,100):# range(10,100):
 
     # read application properties
     if i_application >= worksheet.ncols: break
     application_name = worksheet.cell(row_app_name-1, i_application).value
+    print(application_name)
     application_imagelink = worksheet.cell(row_app_imagelink-1, i_application).value
     application_description = worksheet.cell(row_app_briefdescription-1, i_application).value
-    application_githublink = worksheet.cell(row_app_githublink-1, i_application).value
+    #application_githublink = worksheet.cell(row_app_githublink-1, i_application).value
     application_price = 0
     
     #create application
+    print(application_name)
     my_application = uc2_application(application_name, 
                                      application_description, 
-                                     application_githublink, 
+                                     #application_githublink, 
                                      application_imagelink, 
                                      application_price)
 
@@ -294,7 +257,7 @@ for i_application in range(10,100):# range(10,100):
             my_application.addmodule(my_module) # make sure to add n-modules   
             my_application_json['modules'].append(json.loads(json.dumps(my_module.__dict__, default=lambda o: '<not serializable>')))
             
-            # add all parts
+            # add all partsshould
             n_parts = len(my_application_json['modules'][-1]['partslist'])
             my_partslist = []
             for i_part in range(n_parts):
@@ -306,18 +269,24 @@ for i_application in range(10,100):# range(10,100):
         module_iterator += 1            
         
     # 3.) Test if this works 
-    my_application.print()
+    if (is_debug): my_application.print()
    
     # 4.) Save this! 
-    my_approot = '/APPLICATIONS'
+    if my_application.is_box: 
+        # boxes have a different location
+        my_approot = '/TheBOX'
+    else:
+        my_approot = '/APPLICATIONS'
+        
     my_appprefix = '/'
     my_appnpath = application_name
-    my_jsonpath = my_root+my_approot+my_appprefix+my_appnpath
-    if(is_debug): print('should save to: '+my_jsonpath)
-
-    with open(my_jsonpath+'/config.json', "w") as j:
+    
+    # write file
+    my_jsonpath = os.path.join(my_root+my_approot+my_appprefix+my_appnpath, filenameconfig)
+    with open(my_jsonpath, "w") as j:
+        print('should save to: '+my_jsonpath)
         json.dump(my_application_json, j, indent=4)
-    print("config written!\n\n")
+    if (is_debug): print("config written!\n\n")
     
 #%%
 # export Modules to JSON in /root/CAD
@@ -346,16 +315,29 @@ for i_module in range(len(all_modules)):
 
     # add all parts to the module again.
     my_module_json['partslist'] = json.loads(json.dumps(my_partslist))
-    aödslfkj
     
     # 4.) Save this! 
-    my_cadroot = '/CAD'
     my_cadprefix = '/'
-    my_cadpath = os.path.split(my_module.githublink)[-1]
+    my_cadpath = os.path.split(my_module.name)[-1]
+    if my_cadpath.find('APP')!=-1 or my_cadpath.find('BOX')!=-1: my_cadroot = '/APPLICATIONS' 
+    elif my_cadpath.find('ASS')!=-1: my_cadroot = '/CAD'
+    
     my_jsonpath = my_root+my_cadroot+my_cadprefix+my_cadpath
     print('should save to: '+my_jsonpath)
     
-    # Write out file to the module folder    
-    with open(my_jsonpath+'/config.json', "w") as j:
-        json.dump(my_module_json, j, indent=4)
-    print("config written!\n\n")
+
+    # Write out file to the module folder   
+    my_jsonpath = os.path.join(my_root+my_cadroot+my_cadprefix+my_cadpath, filenameconfig)    
+    if((my_jsonpath.find('ASS') or my_jsonpath.find('APP') or my_jsonpath.find('BOX'))!=-1):
+        with open(my_jsonpath, "w") as j:
+            print('should save to: '+my_jsonpath)
+            json.dump(my_module_json, j, indent=4)
+        if (is_debug): print("config written!\n\n")
+
+workbook.release_resources()
+del workbook
+
+
+# PRINT MISSING FILES
+for i in filesnonexist:
+    print(i+" is missing")

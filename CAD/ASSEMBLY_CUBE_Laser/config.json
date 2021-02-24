@@ -1,0 +1,98 @@
+{
+    "name": "ASSEMBLY_CUBE_Laser",
+    "description": "",
+    "image": "",
+    "price": 15.8,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Cube_1x1_IM",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 2.0
+        },
+        {
+            "name": "10_Cube_1x1_v3",
+            "description": "",
+            "image": "",
+            "price": 0.4,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Lid_1x1_v3",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 8.0
+        },
+        {
+            "name": "Screws (set) M5\u00d78",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 6.0
+        },
+        {
+            "name": "20_Cube_Insert_Laser_Holder_fixed_v3",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Laser_Clamp_OnOffSwitch_v3",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Blue laser pointer, 445 nm",
+            "description": "",
+            "image": "",
+            "price": 14.8,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x18",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "RasPi Camera lens",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_raspi_lens_to_laser_v3",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": true,
+            "n_parts": 1.0
+        }
+    ]
+}

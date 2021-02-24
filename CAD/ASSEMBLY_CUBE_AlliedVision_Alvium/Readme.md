@@ -1,13 +1,13 @@
 # Camera Cube (Allied Vision Alvium)
 This is the repository for the Camera Cube which hosts an embedded vision camera from Allied Vision (Alvium).
 
-The stl-files can be found in the folder [STL](./STL).
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## Purpose
 It adapts an Allied Vision Camera to the UC2 system.
 
 <p align="center">
-<img src="./IMAGES/Assembly_Cube_AlliedVision_Alvium_v2.png" width="300">
+<img src="./IMAGES/Assembly_Cube_AlliedVision_Alvium_v3.png" width="300">
 </p>
 
 The sensor is put into an adapter which holds the camera in the center of the cube. The height can be varied by sliding the adapter along the slides.
@@ -17,6 +17,7 @@ The sensor is put into an adapter which holds the camera in the center of the cu
 * camera adapter can be adjusted to individual needs
 
 ## Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### <img src="../IMAGES/P.png" height="40"> 3D printing parts
 * No support needed in all designs
@@ -24,15 +25,30 @@ The sensor is put into an adapter which holds the camera in the center of the cu
 
 The Cube consists of the following components.
 
-* **The Lid** where the Arduino + Electronics finds its place ([LID](./STL/10_Lid_1x1_v2.stl))
-* **The Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([BASE](./STL/10_Cube_1x1_v2.stl))
-* **The Camera Insert** which holds the camera and makes it adaptable to the base-cube ([INSERT](./STL/20_Cube_insert_AlliedVision_Alvium.stl))
-* *OR* **The Adjustable Camera Insert** which holds the camera and makes it adaptable to the base-cube and makes it possible to slide it throught the cube and fix its position with screws ([INSERT](./STL/20_Cube_insert_AlliedVision_Alvium_adjustable.stl))
+#### Default:
+* **IM Cube** which houses the insert and adapts it into a UC2 setup.
+* **The Camera Insert** which holds the camera and makes it adaptable to the base-cube ([20_Cube_insert_AlliedVision_Alvium_v3.stl](../RAW/STL))
+
+#### Alternatives:
+* **3DP Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([10_Cube_1x1_v3.stl](../RAW/STL)) and **3DP Lid** which closes the Cube ([10_Lid_1x1_v3.stl](../RAW/STL)) - find the details in [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base)
+* **The Adjustable Camera Insert** which holds the camera and makes it adaptable to the base-cube and makes it possible to slide it through the cube and fix its position with screws ([20_Cube_insert_AlliedVision_Alvium_adjustable.stl](../RAW/STL))
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 7× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 3× DIN912 M3×12 screws (galvanized steel) [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * Allied Vision Camera: CSI ALVIUM 1800 C-158
+
+## <img src="./IMAGES/A.png" height="40"> Assembly
+* Mount the camera to the insert using three M3 screws
+* Take the mounted camera adapter inlet and slide it into the base-cube
+* Close the cube accordingly (IM/3DP)
+* Done!
+
+Once it's done it looks like this:
+
+<p align="center">
+<img src="./IMAGES/IMG_20200220_193843.jpg" width="600">
+</p>
 
 ### Making it work
 
@@ -46,12 +62,6 @@ We use the following configuration:
 - USB Micro cable for the Adapter-Board supply voltage (!)
 - SD Card, 64 GB (15€)
 
-## Assembly
-Put all the components together as this here
-
-<p align="center">
-<img src="./IMAGES/IMG_20200220_193838.jpg" width="600">
-</p>
 
 #### Jetson Nano Preparation
 
@@ -118,12 +128,12 @@ and make it the default python version on the Jetson:
 update-alternatives  --install /usr/bin/python python /usr/bin/python3.7 1
 ```
 
-### 2 Install Allied Vision SDK
+### 2. Install Allied Vision SDK
 
 Go to their website and download the SDK for ARM64 and follow the installation instructions
 https://www.alliedvision.com/en/products/software.html#c6444
 
-### 3 Install OpenCV on Python 3.7 (takes a while)
+### 3. Install OpenCV on Python 3.7 (takes a while)
 
 #### Swap-file
 
@@ -243,7 +253,7 @@ sudo pip uninstall Pillow -y
 sudo pip install Pillow
 ```
 
-## Install Vimba Python API
+## 4. Install Vimba Python API
 
 ```
 cd ~/Downloads
@@ -263,29 +273,7 @@ python asynchronous_grab_opencv.py
 
 **Done!**
 
-
-
-
-​
-
-
-
 ### Things to do
 - Control camera acquisition parameters through python/opencv (i.e. gain, exposure time) for still-image acquisition
 	- V4L2 allows Register Access, so we should be able to do that?
 - We would like to use the ```cv2.CaptureVideo``` method to load frames from the camera insid the MAT container. How could we do that?
-
-### 3D Printing:
-* No support required in all designs
-
-## <img src="./IMAGES/A.png" height="40"> Assembly
-* Mount the camera to the insert using 3x M3 screws
-* Take the mounted camera adapter inlet and slide it into the base-cube
-* Take the cube lid and mount it using the 4 hex screws
-* Done!
-
-Once it's done it looks like this:
-
-<p align="center">
-<img src="./IMAGES/IMG_20200220_193843.jpg" width="600">
-</p>

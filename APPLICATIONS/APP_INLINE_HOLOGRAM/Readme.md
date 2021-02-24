@@ -6,7 +6,7 @@ This is be part of the workshop which can be found in WORKSHOP. Note that the de
 It acquires the interference of the spherical wave coming from a pinhole, illuminated by an LED, and the scattered wave from a transparent (phase) sample.
 
 <p align="center">
-<img src="./IMAGES/Application_Inline_Holographic_Microscopy_v2.png" width="900">
+<img src="./IMAGES/Application_Inline_Holographic_Microscopy_v3.png" width="700">
 </p>
 
 
@@ -23,32 +23,22 @@ A more in-detail documentation can be found [here](../../WORKSHOP/INLINE-HOLOGRA
 * Compatible with Educational purposes
 
 
-## <img src="./IMAGES/D.PNG" width="40"> 3D printing
-
-<p align="center">
-<img src="./IMAGES/Print_CURA_Prusai3MK3S.PNG" width="500">
-</p>
+## <img src="./IMAGES/D.png width="40">Parts
+The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  1x4 Baseplate | - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2/)  | 1|
-|  Module: Raspberry Pi Camera | -  | 20 €  | [Raspi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2)  | 1|
-|  Module: LED + Pinhole  | - | 10€  | [LED + Pinhole](../../CAD/ASSEMBLY_CUBE_LED_v2)  | 1|
+|  Baseplate puzzle| - | 5€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate/)  | 4|
+|  Module: Raspberry Pi Camera | -  | 20 €  | [Raspi Camera Cube](../../CAD/ASSEMBLY_CUBE_RaspiCam)  | 1|
+|  Module: LED + Pinhole  | - | 10€  | [LED + Pinhole](../../CAD/ASSEMBLY_CUBE_LED)  | 1|
 
-### <img src="./IMAGES/P.PNG" width="40">Parts to print
-
-* 1× [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
-* 2× [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
-* 2x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
-* 1× [Cube Insert for Raspberry Pi Camera](./STL/20_Cube_Insert_RaspiCam.stl)
-* 1× [Cube Insert for LED star](./STL/ASSEMBLY_CUBE_LED_20_Cube_insert_LED_holder.stl)
-* 1× [Cube Insert for Pinhole](./STL/ASSEMBLY_CUBE_LED_20_Cube_insert_Sample_holder.stl)
-* 1× [Clamp for the Insert for Pinhole](./STL/ASSEMBLY_CUBE_LED_20_Cube_Insert_Sample_clamp.stl)
+### <img src="./IMAGES/P.png" width="40"> 3D-printing
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 
-## <img src="./IMAGES/B.PNG" width="40"> Additional components
+## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 *  16× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * 8× - 16× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
@@ -60,9 +50,7 @@ A more in-detail documentation can be found [here](../../WORKSHOP/INLINE-HOLOGRA
 * 1x Power Supply for Raspberry Pi
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly and alignment
-* [Baseplate ](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Raspberry Camera Cube ](../../CAD/ASSEMBLY_CUBE_RaspiCam_v2/)
-* [LED Cube](../../CAD/ASSEMBLY_CUBE_LED_v2/)
+For assembly instructions of the respective modules refer to the links in Modules for this setup.
 
 ## <img src="./IMAGES/L.png" width="40"> Electronics
 🢂 Find more in the [Electronics section](../../ELECTRONICS)
@@ -70,7 +58,7 @@ A more in-detail documentation can be found [here](../../WORKSHOP/INLINE-HOLOGRA
 ## <img src="./IMAGES/W.png" width="40"> Software
 🢂 Find the software for this setup in our dedicated [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)
 
-## <img src="./IMAGES/E.PNG" width="40"> Quick-start
+## <img src="./IMAGES/E.png" width="40"> Quick-start
 
 This assumes you have built the Inline-holographical microscope already.
 
@@ -82,7 +70,7 @@ Soon we will provide a browser-plugin for the image reconstruction using found i
 
 This is an example for an acquired inline hologram.
 
-### <img src="./IMAGES/E.PNG" width="40"> Image Acquisition
+### <img src="./IMAGES/E.png" width="40"> Image Acquisition
 
 In order to use this setup one has to take a picture with the Raspberry Pi camera module. This can conveniently be done using the command-line tool ```raspistill``` which can be called from the Terminal in the Raspberry Pi.
 
@@ -99,12 +87,12 @@ raspistill -f my_inline_test.jpg
 
 This will open the camera, capture an image and saves it as ```my_inline_test.pg```in the folder ```inlineholo``` in the Pi-home directory. Using a USB-drive one can copy the file to a computer for further processing.
 
-## <img src="./IMAGES/E.PNG" width="40"> Image Reconstruction
+## <img src="./IMAGES/E.png" width="40"> Image Reconstruction
 
 We have created an ```iPython-Notebook``` for this task which can be found [here](CODE/Listings_1_ReconHoloInline.ipynb).
 
 
-### <img src="./IMAGES/E.PNG" width="40"> Tutorial for installing the Inline-Hologram Reconstruction software
+### <img src="./IMAGES/E.png" width="40"> Tutorial for installing the Inline-Hologram Reconstruction software
 
 Install Anaconda 3.6 (latest version for windows).
 Therefore follow the tutorial in this link: [Anaconda Installation](https://docs.anaconda.com/anaconda/install/) (external).
@@ -156,7 +144,7 @@ FocusSlider = widgets.FloatSlider(
 ```min```, ```max``` and step which describe the minimal/maximal focal distance between the sensor and the sample as well as the stepsize where the algorithm calculates the refocussed hologram.
 
 ## <img src="./IMAGES/E.png" width="40"> Results
-None yet. Be the first to share yours! 
+None yet. Be the first to share yours!
 
 ## <img src="./IMAGES/S.PNG" width="40"> Contribution
 If you find this piece usefull or you want to improve it, please feel free to file an issue or write us a message!

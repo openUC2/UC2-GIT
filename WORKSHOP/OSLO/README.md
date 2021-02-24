@@ -3,6 +3,8 @@
 
 This workshop is a collaborative work between the University of Norway and the UC2.
 
+Please note that the workshop was done using version UC2_v2.
+
 Please report any errors you find so that we can improve the system and documentation by filing an issue or letting us know directly :-).
 
 ### DAY 1

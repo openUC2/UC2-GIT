@@ -1,98 +1,216 @@
 {
     "name": "APP_Incubator_Microscope",
-    "description": "Incubator Microscope is using the simplest possible finite-corrected microscope scheme to image living samples in natural conditions. ",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_Incubator_Microscope",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_Incubator_Microscope/IMAGES/Assembly_UKJ_Microscope_v4_2.png?raw=true",
+    "description": "",
+    "image": "Incubator Microscope is using the simplest possible finite-corrected microscope scheme to image living samples in natural conditions. ",
     "price": 0,
     "type": "application",
+    "is_box": false,
     "modules": [
         {
-            "name": "ASSEMBLY_Baseplate 4x2",
+            "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
-            "price": 16.34,
+            "price": "",
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "Baseplate 4x2",
+                    "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "Assembly_base_4x2.stl",
                     "image": "",
-                    "price": 1.3,
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
-                    "n_parts": 32.0
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
                 }
             ]
         },
         {
             "name": "ASSEMBLY_CUBE_LED_Matrix",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_LED_Matrix_v2",
             "image": "",
-            "price": 23.69,
+            "price": 14.7,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "30_IM_LED_holder_v3",
                     "description": "",
-                    "githublink": "10_Lid_1x1_el_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Cube_LED_Array",
+                    "name": "LED Matrix 4x4",
                     "description": "",
-                    "githublink": "30_Cube_LED_Array_v0.stl",
                     "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
+                    "price": 2.0,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 1.0
                 },
                 {
                     "name": "M2 screw + nut",
                     "description": "",
-                    "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
                     "n_parts": 2.0
                 },
                 {
-                    "name": "LED Matrix 8x8",
-                    "description": "",
-                    "githublink": "https://www.amazon.de/AZDelivery-Matrix-CJMCU-8-Arduino-Raspberry/dp/B078HYP681/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=neopixel+matrix&qid=1565008576&s=gateway&sr=8-2",
-                    "image": "",
-                    "price": 9.99,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
                     "name": "ESP32",
                     "description": "",
-                    "githublink": "https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3",
                     "image": "",
                     "price": 8.0,
                     "is_printable": false,
@@ -101,7 +219,6 @@
                 {
                     "name": "Female-Female Jumper Wire",
                     "description": "",
-                    "githublink": "https://www.amazon.de/-/en/AZDelivery-Jumper-Arduino-Raspberry-Breadboard/dp/B07KYHBVR7/ref=pd_bxgy_3/259-4334118-3709357?_encoding=UTF8&pd_rd_i=B07KFMSW7H&pd_rd_r=81afa8b5-0542-49e3-9cba-8dae3b0a116f&pd_rd_w=nOtLQ&pd_rd_wg=YVuQX&pf_rd_p=334c2d1b-2e55-4bd9-b8d2-dcecf26eb7db&pf_rd_r=K64KK4P3QHQTPFHPYNN6&refRID=K64KK4P3QHQTPFHPYNN6&th=1",
                     "image": "",
                     "price": 0.5,
                     "is_printable": false,
@@ -110,7 +227,6 @@
                 {
                     "name": "USB-microUSB cable",
                     "description": "",
-                    "githublink": "https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2",
                     "image": "",
                     "price": 2.8,
                     "is_printable": false,
@@ -121,25 +237,30 @@
         {
             "name": "ASSEMBLY_CUBE_Mirror_45",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_45_v2",
             "image": "",
-            "price": 2.5000000000000004,
+            "price": 0.30000000000000004,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "10_Cube_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -148,25 +269,22 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 8.0
                 },
                 {
-                    "name": "Screws M3x8 (optional)",
+                    "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
                     "image": "",
-                    "price": 0.2,
+                    "price": 0.1,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 6.0
                 },
                 {
-                    "name": "20_Cube_Insert_Mirror_Holder_30x30Mirror",
+                    "name": "20_Cube_Insert_Mirror_Holder_wLogo_v3",
                     "description": "",
-                    "githublink": "20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -175,7 +293,6 @@
                 {
                     "name": "30x30 mm\u00b2 Mirror",
                     "description": "",
-                    "githublink": "https://www.rayher.com/de/spiegelmosaik-selbstklebend-14548606",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -186,25 +303,30 @@
         {
             "name": "ASSEMBLY_CUBE_RaspiCam",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_RaspiCam_v2",
             "image": "",
-            "price": 33.7,
+            "price": 31.5,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "10_Cube_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -213,34 +335,46 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 8.0
                 },
                 {
-                    "name": "Screws M3x8 (optional)",
+                    "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
                     "image": "",
-                    "price": 0.2,
+                    "price": 0.1,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 6.0
                 },
                 {
-                    "name": "20_Cube_Insert_RaspiCam",
+                    "name": "20_Cube_Insert_RaspiCam_v3",
                     "description": "",
-                    "githublink": "20_Cube_Insert_RaspiCam.stl",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
+                    "name": "20_Cube_insert_Sample_holder_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "20_Cube_Insert_Sample_clamp_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
                     "name": "Raspberry Pi Camera",
                     "description": "",
-                    "githublink": "https://www.amazon.de/Raspberry-Pi-v2-1-1080P-Kamera-Modul/dp/B01ER2SMHY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1LUZK9XHFS5CX&keywords=raspberry+pi+camera+v2.1&qid=1565008837&s=gateway&sprefix=raspberry+pi+camera+%2Caps%2C163&sr=8-4",
                     "image": "",
                     "price": 27.0,
                     "is_printable": false,
@@ -249,7 +383,6 @@
                 {
                     "name": "Raspberry Pi Camera long cable",
                     "description": "",
-                    "githublink": "https://www.amazon.de/gp/product/B075JN61S7/ref=ox_sc_act_title_2?smid=A1X7QLRQH87QA3&psc=1",
                     "image": "",
                     "price": 4.0,
                     "is_printable": false,
@@ -258,7 +391,6 @@
                 {
                     "name": "M2 screw + nut",
                     "description": "",
-                    "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -267,99 +399,80 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_Z-stage",
+            "name": "ASSEMBLY_CUBE_Z-stage_sample",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2",
             "image": "",
-            "price": 50.55,
+            "price": 37.75,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_2x1",
+                    "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "10_Cube_2x1_v2.stl",
                     "image": "",
-                    "price": 0.5,
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.4,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_el_2x1",
+                    "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "10_Lid_el_2x1_v2.stl",
-                    "image": "",
-                    "price": 0.3,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "20_focus_inlet_linearflexure",
-                    "description": "",
-                    "githublink": "20_focus_inlet_linearflexure_v4.stl",
-                    "image": "",
-                    "price": 0.6,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Coupling_Screw_28BYJ_M3.stl",
-                    "description": "",
-                    "githublink": "30_Coupling_Screw_28BYJ_M3.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Coupling_Screw_28BYJ_M3_v2.stl",
+                    "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "30_Coupling_Screw_28BYJ_M3_v2.stl",
                     "image": "",
                     "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 8.0
+                },
+                {
+                    "name": "Screws (set) M5\u00d78",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 6.0
+                },
+                {
+                    "name": "20_Cube_Insert_Z-Focus_single_motorized_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.8,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Coupling_Screw_28BYJ_M4.stl",
+                    "name": "30_Coupling_Screw_28BYJ_M3_v3",
                     "description": "",
-                    "githublink": "30_Coupling_Screw_28BYJ_M4.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Coupling_Screw_28BYJ_M4_v2.stl",
-                    "description": "",
-                    "githublink": "30_Coupling_Screw_28BYJ_M4_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Z_Stage_Fluomodule",
-                    "description": "",
-                    "githublink": "30_Z_Stage_Fluomodule.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "40_XY_Stage_Clamp_Slide",
-                    "description": "",
-                    "githublink": "40_XY_Stage_Clamp_Slide.stl",
                     "image": "",
                     "price": 0.1,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
+                    "name": "20_Cube_Insert_Lens_holder_RMS_63x_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
                     "name": "Microscope Objective 10x",
                     "description": "",
-                    "githublink": "https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7",
                     "image": "",
                     "price": 15.4,
                     "is_printable": false,
@@ -368,43 +481,30 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.6,
                     "is_printable": false,
-                    "n_parts": 20.0
-                },
-                {
-                    "name": "Screws M3x8",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 3.0
+                    "n_parts": 2.0
                 },
                 {
                     "name": "M3x30 screw with nut (non-magnetic)",
                     "description": "",
-                    "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "Screws M3x18",
+                    "name": "M3x30 screw with nut (non-magnetic)",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/",
                     "image": "",
-                    "price": 0.2,
+                    "price": 0.1,
                     "is_printable": false,
-                    "n_parts": 2.0
+                    "n_parts": 1.0
                 },
                 {
                     "name": "ESP32",
                     "description": "",
-                    "githublink": "https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3",
                     "image": "",
                     "price": 8.0,
                     "is_printable": false,
@@ -413,7 +513,6 @@
                 {
                     "name": "28-BYJ stepper motor with driver board",
                     "description": "",
-                    "githublink": "https://www.reichelt.de/entwicklerboards-schrittmotor-inkl-steuerung-uln2003-debo-moto1-p192146.html",
                     "image": "",
                     "price": 5.35,
                     "is_printable": false,
@@ -422,7 +521,6 @@
                 {
                     "name": "Female-Female Jumper Wire",
                     "description": "",
-                    "githublink": "https://www.amazon.de/-/en/AZDelivery-Jumper-Arduino-Raspberry-Breadboard/dp/B07KYHBVR7/ref=pd_bxgy_3/259-4334118-3709357?_encoding=UTF8&pd_rd_i=B07KFMSW7H&pd_rd_r=81afa8b5-0542-49e3-9cba-8dae3b0a116f&pd_rd_w=nOtLQ&pd_rd_wg=YVuQX&pf_rd_p=334c2d1b-2e55-4bd9-b8d2-dcecf26eb7db&pf_rd_r=K64KK4P3QHQTPFHPYNN6&refRID=K64KK4P3QHQTPFHPYNN6&th=1",
                     "image": "",
                     "price": 0.6,
                     "is_printable": false,
@@ -431,7 +529,6 @@
                 {
                     "name": "USB-microUSB cable",
                     "description": "",
-                    "githublink": "https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2",
                     "image": "",
                     "price": 2.8,
                     "is_printable": false,
@@ -442,7 +539,6 @@
         {
             "name": "Raspberry Pi + accesories",
             "description": "",
-            "githublink": "",
             "image": "",
             "price": 187.8,
             "fixedOptions": {},
@@ -451,7 +547,6 @@
                 {
                     "name": "Raspberry Pi 4 B",
                     "description": "",
-                    "githublink": "https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-2-gb-ram-wlan-bt-rasp-pi-4-b-2gb-p259919.html?PROVID=2788&gclid=Cj0KCQjwv8nqBRDGARIsAHfR9wDfSTnmSNyUOfEQFSt3AH1NsNxiCz0buRYcON7xUyqIMCWoCNkDb1AaAl7kEALw_wcB&&r=1",
                     "image": "",
                     "price": 40.0,
                     "is_printable": false,
@@ -460,7 +555,6 @@
                 {
                     "name": "Raspberry Pi 7\" Display",
                     "description": "",
-                    "githublink": "https://www.reichelt.de/raspberry-pi-shield-display-lcd-touch-7-800x480-pixel-raspberry-pi-7td-p159859.html?",
                     "image": "",
                     "price": 64.5,
                     "is_printable": false,
@@ -469,7 +563,6 @@
                 {
                     "name": "Raspberry Pi Case",
                     "description": "",
-                    "githublink": "https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-7-touch-display-rpi4-case-lcd7bk-p268976.html?&trstct=pol_57",
                     "image": "",
                     "price": 22.3,
                     "is_printable": false,
@@ -478,7 +571,6 @@
                 {
                     "name": "Raspi 4 Power supply",
                     "description": "",
-                    "githublink": "https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html?&trstct=lsbght_sldr::259919",
                     "image": "",
                     "price": 9.5,
                     "is_printable": false,
@@ -487,7 +579,6 @@
                 {
                     "name": "SanDisk Ultra microSD card",
                     "description": "",
-                    "githublink": "https://www.amazon.de/SanDisk-SDSQUAR-064G-GN6MA-microSDXC-Speicherkarte-Adapter/dp/B073JYVKNX/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sd+card+64+gb&qid=1565691023&s=computers&sr=1-2",
                     "image": "",
                     "price": 11.0,
                     "is_printable": false,
@@ -496,7 +587,6 @@
                 {
                     "name": "Keyboard",
                     "description": "",
-                    "githublink": "https://www.reichelt.de/funk-tastatur-usb-schwarz-touchpad-logitech-k400-p162726.html?&trstct=pos_0",
                     "image": "",
                     "price": 27.0,
                     "is_printable": false,
@@ -505,7 +595,6 @@
                 {
                     "name": "USB hub",
                     "description": "",
-                    "githublink": "https://www.amazon.de/Sabrent-USB-HUB-einzelnen-Schalter/dp/B00JX1ZS5O/ref=sr_1_15?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=usb+hub+power&qid=1573648723&sr=8-15",
                     "image": "",
                     "price": 13.5,
                     "is_printable": false,

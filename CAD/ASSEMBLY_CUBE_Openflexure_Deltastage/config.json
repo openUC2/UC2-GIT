@@ -1,0 +1,26 @@
+{
+    "name": "ASSEMBLY_CUBE_Openflexure_Deltastage",
+    "description": "",
+    "image": "",
+    "price": 5.5,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "20_Cube_Insert_Openflexure_Deltastage_Adapter_v3",
+            "description": "",
+            "image": "",
+            "price": 0.5,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "delta_stage_v3",
+            "description": "",
+            "image": "",
+            "price": 5.0,
+            "is_printable": true,
+            "n_parts": 1.0
+        }
+    ]
+}

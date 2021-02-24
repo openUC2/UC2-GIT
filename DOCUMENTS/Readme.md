@@ -1,0 +1,1 @@
+# This folder contains the documents necessary for the [UC2 configurator](https://uc2configurator.netlify.app/). To find out more about the configurator itself visit a [dedicated GitHub](https://github.com/bionanoimaging/uc2-configurator).

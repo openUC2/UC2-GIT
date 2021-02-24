@@ -20,19 +20,28 @@ The parts add on - for the later step you mostly need all the components from th
 3D printing material (PLA, ABS)|Choose the material that works with your printer, but rather don't go for the cheapest, it does make a difference||30-60€ / kg||
 
 #### TUT02: Assemble your first cube
-You will need lots and lots of screws!
+The IM Cube doesn't need any additional components.  
+For the 3DP Cube, you will need lots and lots of screws!
 
 Name | Properties  | Amount|  Price | Link  | Tested
 ---|---|---|---|---|---
 Screws M3×12|DIN912, cylindrical, galvanized steel - magnetic!|8 per Cube Base|13€ / 500 pieces|[Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR)|Yes
 Screws M3×8|DIN912, cylindrical, galvanized steel - magnetic!|We use 4×12 mm screws to attach the lid and 4×8 mm screws on the other side, but you can use just M3×12. |13€ / 500 pieces|[Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/)|Yes
+Set screws M5×8 | Galvanized steel, hexagon socket |6 per Cube Base | 15€ / 500 pieces | [Würth](https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D) | Yes
+
+
+**IMPORTANT: Not all screws are magnetic!**  
+It is very important to buy the right screws - the M3 screws need to attach to the magnets and therefore it is crucial that they are magnetic. STAINLESS STEEL IS GENERALLY NOT A MAGNETIC MATERIAL. THE SCREWS HAVE TO BE MADE OF GALVANIZED STEEL. If you want to know more about why not all steel is magnetic you can read about it [here](https://monnigindustry.com/2020/12/23/is-galvanized-steel-magnetic-why-or-why-not/). Unfortunately, the DIN 912 / ISO 4762 screws that we propose can be made of both and you can frequently find both at the same vendor.    
+The take-home message is: **The M3 screws have be made of galvanized steel and never stainless steel!**
 
 #### TUT03: Give your first cube a function - lens as a magnifying glass
-Use the cube you already have and place the lens inside.
+Use the cube you already have and place the lens inside.  
+Make sure to print the right holder for the chosen lens!
 
 Name | Properties  | Amount|  Price | Link  | Tested
 ---|---|---|---|---|---
-Planoconvex Lens, *f* = +40 mm, diameter 25,4 mm|Artikel 2120, alternatively you can choose another source and lens with *f* between 30 - 50 mm|1|6 €| [Optikbaukasten](https://optikbaukasten.de/)|Yes
+Planoconvex Lens, *f* = +40 mm, diameter 25,4 mm | Artikel 2120, alternatively you can choose another source and lens with *f* between 30 - 50 mm|1|6 €| [Optikbaukasten](https://optikbaukasten.de/)|Yes
+ALTERNATIVE: Bi-convex, *f* = +50 mm, diameter 38 mm | LI150-0050, available from Amazon or directly from [ajaxscientific.com](https://ajaxscientific.com/) | 1 | 10€ | [Amazon](https://www.amazon.com/Ajax-Scientific-Double-Convex-Bi-Convex-Spherical/dp/B00EPQ9EVQ) | Yes
 
 #### TUT04: Build your first baseplate
 
@@ -49,6 +58,19 @@ Planoconvex Lens, *f* = +40 mm, diameter 25,4 mm|Artikel 2120, alternatively you
 Planoconvex Lens, *f* = +100 mm, diameter 25,4 mm|Artikel 2004|1|6 €| [Optikbaukasten](https://optikbaukasten.de/)|Yes
 Planoconvex Lens, *f* = -50 mm, diameter 25,4 mm|LC1259|1|19 €| [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)|Yes
 
+
+Make sure to print the right holder for the chosen lenses!   
+
+ALTERNATIVE:
+
+
+Name | Properties  | Amount|  Price | Link  | Tested
+---|---|---|---|---|---
+Bi-convex, *f* = +50 mm, diameter 38 mm | LI150-0050, available from Amazon or directly from [ajaxscientific.com](https://ajaxscientific.com/) | 1 | 10€ | [Amazon](https://www.amazon.com/Ajax-Scientific-Double-Convex-Bi-Convex-Spherical/dp/B00EPQ9EVQ) | Yes
+Bi-convex, *f* = +100 mm, diameter 38 mm | LI150-0100, available from Amazon or directly from [ajaxscientific.com](https://ajaxscientific.com/) | 1 | 10€ | [Amazon](https://www.amazon.com/Ajax-Scientific-Polished-Spherical-Bi-convex/dp/B00EPQ9GRS) | Yes
+Bi-concave, *f* = -50 mm, diameter 38 mm | LI140-0050, available from Amazon or directly from [ajaxscientific.com](https://ajaxscientific.com/) | 1 | 10€ | [Amazon](https://www.amazon.de/-/en/Scientific-LI140-0050-Polished-Spherical-Concave-Diameter/dp/B00EPQ8ZH0) | Yes
+
+
 #### TUT06: Build your first microscope
 
 Name | Properties  | Amount|  Price | Link  | Tested
@@ -56,8 +78,8 @@ Name | Properties  | Amount|  Price | Link  | Tested
 Microscope Objective | 4×, RMS thread|1|10 €| [Aliexpress](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)|Yes
 Eyepiece | 20x, The holder is designed for an eyepiece of this diameter, but in general any eyepiece works. |1; Sold in pairs.|13 €| [Aliexpress](https://de.aliexpress.com/item/32965050204.html?spm=a2g0o.productlist.0.0.7aa657eeefLUfu&algo_pvid=cd60fca0-3fa5-4191-9ce9-303815e2afa7&algo_expid=cd60fca0-3fa5-4191-9ce9-303815e2afa7-1&btsid=76036b58-6717-4d1f-a4a0-c3d4bacd0450&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_52)|Yes
 Mirror |30×30 mm², sticker-like|  2; Sold in 45 pieces package |0,50 € / piece| [Amazon](https://www.amazon.de/Rayher-14548606-Spiegelmosaik-selbstklebend-SB-Btl/dp/B008KJ8438/ref=pd_bxgy_201_img_3/258-8761405-4543762?_encoding=UTF8&pd_rd_i=B008KJ8438&pd_rd_r=80fd534c-997b-4a19-b91a-9bf38dbf4ade&pd_rd_w=4DEXV&pd_rd_wg=7SLRE&pf_rd_p=98c98f04-e797-4e4b-a352-48f7266a41af&pf_rd_r=N95R9S45MNSYNQX2BAJE&psc=1&refRID=N95R9S45MNSYNQX2BAJE)| Yes
-Screws M3×18|DIN912, cylindrical, galvanized steel - magnetic!|2||Würth|Yes
 M3 Screw, 30 mm or longer with M3 Nut|Non-magnetic, for Z-stage|1+1|||
+Screws M3×8|For the Z-stage. DIN912, cylindrical, galvanized steel - magnetic!|8 |13€ / 500 pieces|[Würth](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/)|Yes
 
 #### TUT07: Get your first electronic part - simple LED matrix
 

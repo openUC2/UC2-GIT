@@ -1,6 +1,8 @@
 ## UC2 workshop at TiM2020
 The workshop took place at the Trends in Microscopy Spring School of German BioImaging, on 09.-13.03.2020. The workshop was held by Aurélie Jost and Rainer Heintzmann.
 
+Please note that the workshop was done using version UC2_v2.
+
 #### Experiments
 
 * Incubator microscope

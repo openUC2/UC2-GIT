@@ -44,16 +44,23 @@ This is a growing list of available optical setups coming along with tutorials a
 * [Fluorescent Microscope with infinity optics and a Laser ](./APP_Fluorescence_Microscope_infinity)
 
 
-## General Naming Convetion and Structure of UC2
-![](./IMAGES/UC2_Structure.png)
+## General Naming Convention and Structure of UC2
 
-## Confusion about version v0 vs. version v2
+<p align=center>
+<img src="./IMAGES/MDK.jpg" width=500>
+</p>
 
-We made a change in the CAD design of the cube in order to be more generic (e.g. point symmetry around the center). We're trying hard to update the APPlications so that everything is based on the new design, but it's a lot of files and there are probably still some forgotten v0 parts.
+## UC2 version history
+When you search through the repository, you find that not all the images show the same cubes and baseplates. This is due to the evolution of the basic building blocks. In order to help you not to get lost, in the [Modular Developer Kit](../MDK#uc2-version-history) is a short explanation of how the cubes evolved.
 
-If you're unsure, check out the [Modular Developer Kit](../MDK) - there you find a general definition of the shape and size of the inserts which is up to date!
+#### v3 = 3D-printed AND Injection Moulded (*November 2020*)
+This is the current version. The cube comes in two versions that are fully compatible with each other. You can either print all the baseplates and cubes and assemble and connect them using screws and magnets, or you can use the IM cubes and baseplate puzzles that connect via the lego-like pins.
 
-The outer cube dimensions stayed the same, but the inserts changed completely!
+The IM cube is shown on the left, the 3DP (3D-printed) cube is on the right. Find the details about the base cube in [ASSEMBLY_CUBE_Base](../CAD/ASSEMBLY_CUBE_Base).
+<p align=center>
+<img src="./IMAGES/Assembly_Cube_empty_IM_withBase_v3_04.png" width=150>
+<img src="./IMAGES/Assembly_Cube_empty_1x1_withBase_v3_04.png" width=150>
+</p>
 
 ## <a href="#icon03" name="icon0š"><img src="./IMAGES/D.png" width="40"></a> List of available Modules (CUBEs):
 A list of available Cubes that are the building blocks of all our setups can be found in [CAD](../CAD).

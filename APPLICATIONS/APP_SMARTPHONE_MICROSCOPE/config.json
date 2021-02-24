@@ -1,176 +1,278 @@
 {
     "name": "APP_SMARTPHONE_MICROSCOPE",
-    "description": "The Smartphone microscope is a classical transmission microscope optimised for the use of a smartphone for imaging. ",
-    "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_SMARTPHONE_MICROSCOPE",
-    "image": "https://github.com/bionanoimaging/UC2-GIT/blob/master/APPLICATIONS/APP_SMARTPHONE_MICROSCOPE/IMAGES/Assembly_smartphone_microscope_2.png?raw=true",
+    "description": "",
+    "image": "The Smartphone microscope is a classical transmission microscope imised for the use of a smartphone for imaging. ",
     "price": 0,
     "type": "application",
+    "is_box": false,
     "modules": [
         {
-            "name": "ASSEMBLY_Baseplate 4x4",
+            "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_Baseplate_v2",
             "image": "",
-            "price": 32.68,
+            "price": "",
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "Baseplate 4x4",
+                    "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "Assembly_base_4x4.stl",
                     "image": "",
-                    "price": 2.6,
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
                     "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html",
                     "image": "",
                     "price": 0.47,
                     "is_printable": false,
-                    "n_parts": 64.0
+                    "n_parts": 4.0
                 }
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty_1x1",
+            "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base_v2",
             "image": "",
-            "price": 2.2,
+            "price": "",
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1",
-                    "description": "",
-                    "githublink": "10_Lid_1x1_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
+                    "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 1.0
                 },
                 {
-                    "name": "Screws M3x8 (optional)",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
                     "image": "",
-                    "price": 0.2,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
                     "is_printable": false,
                     "n_parts": 4.0
                 }
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty_1x1",
+            "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base_v2",
             "image": "",
-            "price": 2.2,
+            "price": "",
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
-                    "price": 0.4,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "10_Lid_1x1",
-                    "description": "",
-                    "githublink": "10_Lid_1x1_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
+                    "price": 0.0,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 1.0
                 },
                 {
-                    "name": "Screws M3x8 (optional)",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
                     "image": "",
-                    "price": 0.2,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
                     "is_printable": false,
                     "n_parts": 4.0
                 }
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_empty_1x1",
+            "name": "ASSEMBLY_Baseplate",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Base_v2",
             "image": "",
-            "price": 2.2,
+            "price": "",
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "10_Base_puzzle_IM",
                     "description": "",
-                    "githublink": "10_Cube_1x1_v2.stl",
                     "image": "",
-                    "price": 0.4,
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "Ballmagnets",
                     "description": "",
-                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
+                    "price": 0.47,
                     "is_printable": false,
                     "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
                 },
                 {
-                    "name": "Screws M3x8 (optional)",
+                    "name": "10_Base_puzzle_v3",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
                     "image": "",
-                    "price": 0.2,
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
+                    "is_printable": false,
+                    "n_parts": 4.0
+                }
+            ]
+        },
+        {
+            "name": "ASSEMBLY_Baseplate",
+            "description": "",
+            "image": "",
+            "price": "",
+            "fixedOptions": {},
+            "type": "module",
+            "partslist": [
+                {
+                    "name": "10_Base_puzzle_IM",
+                    "description": "",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "10_Base_puzzle_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.3,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Ballmagnets",
+                    "description": "",
+                    "image": "",
+                    "price": 0.47,
                     "is_printable": false,
                     "n_parts": 4.0
                 }
@@ -179,25 +281,30 @@
         {
             "name": "ASSEMBLY_CUBE_Eyepiece",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Eyepiece_v2",
             "image": "",
-            "price": 16.11,
+            "price": 13.91,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "10_Cube_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -206,34 +313,30 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 8.0
                 },
                 {
-                    "name": "Screws M3x8 (optional)",
+                    "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
                     "image": "",
-                    "price": 0.2,
+                    "price": 0.1,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 6.0
                 },
                 {
-                    "name": "20_Cube_Insert_Holder-okular",
+                    "name": "20_Cube_Insert_Holder-okular+flashlight_v3",
                     "description": "",
-                    "githublink": "20_Cube_Insert_Holder-okular+flashlight_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Smartphone_Holder",
+                    "name": "30_Smartphone_Holder_v3",
                     "description": "",
-                    "githublink": "30_Smartphone_Holder.stl",
                     "image": "",
                     "price": 0.6,
                     "is_printable": true,
@@ -242,7 +345,6 @@
                 {
                     "name": "Eyepiece 20x",
                     "description": "",
-                    "githublink": "https://de.aliexpress.com/item/32965050204.html?spm=a2g0o.productlist.0.0.7aa657eeefLUfu&algo_pvid=cd60fca0-3fa5-4191-9ce9-303815e2afa7&algo_expid=cd60fca0-3fa5-4191-9ce9-303815e2afa7-1&btsid=76036b58-6717-4d1f-a4a0-c3d4bacd0450&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_52",
                     "image": "",
                     "price": 13.11,
                     "is_printable": false,
@@ -251,63 +353,40 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_LED_Matrix",
+            "name": "ASSEMBLY_CUBE_LED_Matrix_simple",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_LED_Matrix_v2",
             "image": "",
-            "price": 23.69,
+            "price": 22.7,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "30_IM_LED_holder_8x8_v3",
                     "description": "",
-                    "githublink": "10_Lid_1x1_el_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Cube_LED_Array",
+                    "name": "LED Matrix 8x8",
                     "description": "",
-                    "githublink": "30_Cube_LED_Array_v0.stl",
                     "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x12",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
+                    "price": 10.0,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 1.0
                 },
                 {
                     "name": "M2 screw + nut",
                     "description": "",
-                    "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
                     "n_parts": 2.0
                 },
                 {
-                    "name": "LED Matrix 8x8",
-                    "description": "",
-                    "githublink": "https://www.amazon.de/AZDelivery-Matrix-CJMCU-8-Arduino-Raspberry/dp/B078HYP681/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=neopixel+matrix&qid=1565008576&s=gateway&sr=8-2",
-                    "image": "",
-                    "price": 9.99,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
                     "name": "ESP32",
                     "description": "",
-                    "githublink": "https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3",
                     "image": "",
                     "price": 8.0,
                     "is_printable": false,
@@ -316,7 +395,6 @@
                 {
                     "name": "Female-Female Jumper Wire",
                     "description": "",
-                    "githublink": "https://www.amazon.de/-/en/AZDelivery-Jumper-Arduino-Raspberry-Breadboard/dp/B07KYHBVR7/ref=pd_bxgy_3/259-4334118-3709357?_encoding=UTF8&pd_rd_i=B07KFMSW7H&pd_rd_r=81afa8b5-0542-49e3-9cba-8dae3b0a116f&pd_rd_w=nOtLQ&pd_rd_wg=YVuQX&pf_rd_p=334c2d1b-2e55-4bd9-b8d2-dcecf26eb7db&pf_rd_r=K64KK4P3QHQTPFHPYNN6&refRID=K64KK4P3QHQTPFHPYNN6&th=1",
                     "image": "",
                     "price": 0.5,
                     "is_printable": false,
@@ -325,7 +403,6 @@
                 {
                     "name": "USB-microUSB cable",
                     "description": "",
-                    "githublink": "https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2",
                     "image": "",
                     "price": 2.8,
                     "is_printable": false,
@@ -336,25 +413,30 @@
         {
             "name": "ASSEMBLY_CUBE_Mirror_45",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_45_v2",
             "image": "",
-            "price": 2.5000000000000004,
+            "price": 0.30000000000000004,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "10_Cube_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -363,25 +445,22 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 8.0
                 },
                 {
-                    "name": "Screws M3x8 (optional)",
+                    "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
                     "image": "",
-                    "price": 0.2,
+                    "price": 0.1,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 6.0
                 },
                 {
-                    "name": "20_Cube_Insert_Mirror_Holder_30x30Mirror",
+                    "name": "20_Cube_Insert_Mirror_Holder_wLogo_v3",
                     "description": "",
-                    "githublink": "20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -390,7 +469,6 @@
                 {
                     "name": "30x30 mm\u00b2 Mirror",
                     "description": "",
-                    "githublink": "https://www.rayher.com/de/spiegelmosaik-selbstklebend-14548606",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -401,25 +479,30 @@
         {
             "name": "ASSEMBLY_CUBE_Mirror_45",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Mirror_45_v2",
             "image": "",
-            "price": 2.5000000000000004,
+            "price": 0.30000000000000004,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_1x1",
+                    "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "10_Cube_1x1_v2.stl",
+                    "image": "",
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
                     "image": "",
                     "price": 0.4,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_1x1",
+                    "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "10_Lid_1x1_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -428,25 +511,22 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.2,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 8.0
                 },
                 {
-                    "name": "Screws M3x8 (optional)",
+                    "name": "Screws (set) M5\u00d78",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
                     "image": "",
-                    "price": 0.2,
+                    "price": 0.1,
                     "is_printable": false,
-                    "n_parts": 4.0
+                    "n_parts": 6.0
                 },
                 {
-                    "name": "20_Cube_Insert_Mirror_Holder_30x30Mirror",
+                    "name": "20_Cube_Insert_Mirror_Holder_wLogo_v3",
                     "description": "",
-                    "githublink": "20_Cube_Insert_Mirror_Holder_30x30Mirror_v2.stl",
                     "image": "",
                     "price": 0.2,
                     "is_printable": true,
@@ -455,7 +535,6 @@
                 {
                     "name": "30x30 mm\u00b2 Mirror",
                     "description": "",
-                    "githublink": "https://www.rayher.com/de/spiegelmosaik-selbstklebend-14548606",
                     "image": "",
                     "price": 0.1,
                     "is_printable": false,
@@ -464,90 +543,72 @@
             ]
         },
         {
-            "name": "ASSEMBLY_CUBE_Z-stage",
+            "name": "ASSEMBLY_CUBE_Z-stage_objective",
             "description": "",
-            "githublink": "https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/ASSEMBLY_CUBE_Z-STAGE_v2",
             "image": "",
-            "price": 50.55,
+            "price": 18.5,
             "fixedOptions": {},
             "type": "module",
             "partslist": [
                 {
-                    "name": "10_Cube_2x1",
+                    "name": "10_Cube_1x1_IM",
                     "description": "",
-                    "githublink": "10_Cube_2x1_v2.stl",
                     "image": "",
-                    "price": 0.5,
+                    "price": 0.0,
+                    "is_printable": false,
+                    "n_parts": 2.0
+                },
+                {
+                    "name": "10_Cube_1x1_v3",
+                    "description": "",
+                    "image": "",
+                    "price": 0.4,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "10_Lid_el_2x1",
+                    "name": "10_Lid_1x1_v3",
                     "description": "",
-                    "githublink": "10_Lid_el_2x1_v2.stl",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": true,
+                    "n_parts": 1.0
+                },
+                {
+                    "name": "Screws M3x12",
+                    "description": "",
+                    "image": "",
+                    "price": 0.2,
+                    "is_printable": false,
+                    "n_parts": 8.0
+                },
+                {
+                    "name": "Screws (set) M5\u00d78",
+                    "description": "",
+                    "image": "",
+                    "price": 0.1,
+                    "is_printable": false,
+                    "n_parts": 6.0
+                },
+                {
+                    "name": "20_focus_inlet_linearflexure_motorized_small_v3",
+                    "description": "",
                     "image": "",
                     "price": 0.3,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "20_focus_inlet_linearflexure",
+                    "name": "20_focus_inlet_objective_mount_v8_v3",
                     "description": "",
-                    "githublink": "20_focus_inlet_linearflexure_v4.stl",
                     "image": "",
                     "price": 0.6,
                     "is_printable": true,
                     "n_parts": 1.0
                 },
                 {
-                    "name": "30_Coupling_Screw_28BYJ_M3.stl",
+                    "name": "30_Coupling_Screw_28BYJ_M3_v3",
                     "description": "",
-                    "githublink": "30_Coupling_Screw_28BYJ_M3.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Coupling_Screw_28BYJ_M3_v2.stl",
-                    "description": "",
-                    "githublink": "30_Coupling_Screw_28BYJ_M3_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Coupling_Screw_28BYJ_M4.stl",
-                    "description": "",
-                    "githublink": "30_Coupling_Screw_28BYJ_M4.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Coupling_Screw_28BYJ_M4_v2.stl",
-                    "description": "",
-                    "githublink": "30_Coupling_Screw_28BYJ_M4_v2.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "30_Z_Stage_Fluomodule",
-                    "description": "",
-                    "githublink": "30_Z_Stage_Fluomodule.stl",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": true,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "40_XY_Stage_Clamp_Slide",
-                    "description": "",
-                    "githublink": "40_XY_Stage_Clamp_Slide.stl",
                     "image": "",
                     "price": 0.1,
                     "is_printable": true,
@@ -556,7 +617,6 @@
                 {
                     "name": "Microscope Objective 10x",
                     "description": "",
-                    "githublink": "https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7",
                     "image": "",
                     "price": 15.4,
                     "is_printable": false,
@@ -565,72 +625,24 @@
                 {
                     "name": "Screws M3x12",
                     "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/",
                     "image": "",
                     "price": 0.6,
-                    "is_printable": false,
-                    "n_parts": 20.0
-                },
-                {
-                    "name": "Screws M3x8",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X8/00843%20%208.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
-                    "is_printable": false,
-                    "n_parts": 3.0
-                },
-                {
-                    "name": "M3x30 screw with nut (non-magnetic)",
-                    "description": "",
-                    "githublink": "https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0",
-                    "image": "",
-                    "price": 0.1,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Screws M3x18",
-                    "description": "",
-                    "githublink": "https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X18/00843%20%2018.sku/de/DE/EUR/",
-                    "image": "",
-                    "price": 0.2,
                     "is_printable": false,
                     "n_parts": 2.0
                 },
                 {
-                    "name": "ESP32",
+                    "name": "Screws M3x8",
                     "description": "",
-                    "githublink": "https://www.amazon.de/AZDelivery-NodeMCU-Development-Nachfolgermodell-ESP8266/dp/B074RGW2VQ/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=esp32&qid=1565008313&s=gateway&sr=8-3",
                     "image": "",
-                    "price": 8.0,
+                    "price": 0.2,
                     "is_printable": false,
-                    "n_parts": 1.0
+                    "n_parts": 4.0
                 },
                 {
-                    "name": "28-BYJ stepper motor with driver board",
+                    "name": "M3x30 screw with nut (non-magnetic)",
                     "description": "",
-                    "githublink": "https://www.reichelt.de/entwicklerboards-schrittmotor-inkl-steuerung-uln2003-debo-moto1-p192146.html",
                     "image": "",
-                    "price": 5.35,
-                    "is_printable": false,
-                    "n_parts": 1.0
-                },
-                {
-                    "name": "Female-Female Jumper Wire",
-                    "description": "",
-                    "githublink": "https://www.amazon.de/-/en/AZDelivery-Jumper-Arduino-Raspberry-Breadboard/dp/B07KYHBVR7/ref=pd_bxgy_3/259-4334118-3709357?_encoding=UTF8&pd_rd_i=B07KFMSW7H&pd_rd_r=81afa8b5-0542-49e3-9cba-8dae3b0a116f&pd_rd_w=nOtLQ&pd_rd_wg=YVuQX&pf_rd_p=334c2d1b-2e55-4bd9-b8d2-dcecf26eb7db&pf_rd_r=K64KK4P3QHQTPFHPYNN6&refRID=K64KK4P3QHQTPFHPYNN6&th=1",
-                    "image": "",
-                    "price": 0.6,
-                    "is_printable": false,
-                    "n_parts": 6.0
-                },
-                {
-                    "name": "USB-microUSB cable",
-                    "description": "",
-                    "githublink": "https://www.amazon.de/dp/B0778FV6K4/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1586361990&refinements=p_89%3AGritin&rnid=669059031&s=computers&sr=1-2",
-                    "image": "",
-                    "price": 2.8,
+                    "price": 0.1,
                     "is_printable": false,
                     "n_parts": 1.0
                 }
