@@ -34,18 +34,21 @@ The Cube consists of the following components.
 
 #### Default:
 * **IM Cube** which houses the insert and adapts it into a UC2 setup.
-* **The Telescope** which holds the two lenses  adapts it to the base cube ([20_Cube_Insert_Beamexpander_v3.stl](../RAW/STL))
-* **The Lens Adapter** which is suitable for a lens with 12,7 mm diameter listed in the additional parts ([20_Beamexpander_Lens_Adapter.stl](../RAW/STL))
+* **The Telescope** which holds the two lenses adapts it to the base cube. For the 26,5 mm lens. ([20_Cube_Insert_Beamexpander_astromedia_v3.stl](../RAW/STL))
+
 
 #### Alternatives:
 * **3DP Cube** which will be screwed to the Lid. Here all the functions (i.e. Mirrors, LED's etc.) find their place ([10_Cube_1x1_v3.stl](../RAW/STL)) and **3DP Lid** which closes the Cube ([10_Lid_1x1_v3.stl](../RAW/STL)) - find the details in [ASSEMBLY_CUBE_Base](../ASSEMBLY_CUBE_Base)
+* **The Telescope** which holds the two lenses  adapts it to the base cube. For the 20 mm lens. ([20_Cube_Insert_Beamexpander_optikbaukasten_v3.stl](../RAW/STL))
+* **The Lens Adapter** which is suitable for a lens with 12,7 mm diameter listed in the additional parts ([20_Beamexpander_Lens_Adapter.stl](../RAW/STL))
 * **Custom Lens Adapter**  You might need a custom one or none at all, depending on the lens you use.
 
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * iPhone 5 lens (separated from an iPhone camera spare part), f'=3mm [🢂](https://www.amazon.de/BisLinks%C2%AE-Facing-Kamera-Ersatz-Repair/dp/B01M9K9RVN/ref=sr_1_10?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=lg+g3+camera&qid=1565005739&s=gateway&sr=8-10)
-* biconvex/plan-convex lens, f'=20mm, diameter=12,7mm, thickness=4mm (Artikel 2107) [🢂](https://optikbaukasten.de/)
+* 1× Achromat Lens, *f'* = 26,5 mm [🢂](https://astromedia.ch/produkt/achromat-265mm-o-180mm/)
+* *Alternative*: biconvex/plan-convex lens, f'=20mm, diameter=12,7mm, thickness=4mm (Artikel 2107) [🢂](https://optikbaukasten.de/)
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 * Remove the iPhone lens from the camera (a dedicated tutorial can be found in the [UC2 Tutorial-Section](../../TUTORIALS/DOCUMENTS/v0/TUTORIALS_SETUP/TUT_Assembly_Cellphonelens.pdf) (page 6).
