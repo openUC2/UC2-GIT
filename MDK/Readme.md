@@ -6,6 +6,8 @@ If you want to adapt your ideas to the ***UC2*** framework this document provide
 
 The CAD templates can be found in the [CAD](./CAD)-folder.
 
+All the original design files as well as all the STL files can be found is [CAD/RAW](../CAD/RAW). 
+
 ### Definitions
 
 The UC2 framework requires the introduction of several new concepts. These terms are defined in the table below and illustrated in a series of figures.

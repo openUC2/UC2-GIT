@@ -24,6 +24,8 @@ Alternatively the cube can also be used in the free (educational purposes) CAD s
 
 and then opening the `.iam`-file.
 
+All the original design files as well as all the STL files can be found is [CAD/RAW](../../RAW). 
+
 
 ## Tutorial on how to design an insert in Inventor
 **Note: The video and image tutorial both show a UC2_v2 Cube. Check the dimensions in the [Modular Developer kit](../../../MDK) to make sure your part is compatible with the v3 Cube. However, the designing process is the same, no matter the version.**
