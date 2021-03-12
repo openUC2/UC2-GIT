@@ -1,5 +1,5 @@
 ## CAD Files
-<img src="../IMAGES/signpost.png" width=30> Here you can find the necessary .stl parts for the different modules (cubes) and setups ([APPs](../APPLICATIONS)).
+<a href="#icon01" name="icon01"><img src="../IMAGES/signpost.png" width=30></a> Here you can find the necessary .stl parts for the different modules (cubes) and setups ([APPs](../APPLICATIONS)).
 
 * For complete setups go to [APPLICATIONS](../APPLICATIONS)
 * For setups compilations go to [TheBOX](../TheBOX)
@@ -14,18 +14,23 @@ This is a growing list of available modules coming along with tutorials and asse
 ## General Naming Convention and Structure of UC2
 
 <p align=center>
-<img src="./IMAGES/UC2_Structure.png" width=500>
+<img src="./IMAGES/MDK.jpg" width=500>
 </p>
 
-## Confusion about version v0 vs. version v2
+## UC2 version history
+When you search through the repository, you find that not all the images show the same cubes and baseplates. This is due to the evolution of the basic building blocks. In order to help you not to get lost, in the [Modular Developer Kit](../MDK#uc2-version-history) is a short explanation of how the cubes evolved.
 
-We made a change in the CAD design of the cube in order to be more generic (e.g. point symmetry around the center). We're trying hard to update the APPlications so that everything is based on the new design, but it's a lot of files and there are probably still some forgotten v0 parts.
+#### v3 = 3D-printed AND Injection Moulded (*November 2020*)
+This is the current version. The cube comes in two versions that are fully compatible with each other. You can either print all the baseplates and cubes and assemble and connect them using screws and magnets, or you can use the IM cubes and baseplate puzzles that connect via the lego-like pins.
 
-If you're unsure, check out the [Modular Developer Kit](../MDK) - there you find a general definition of the shape and size of the inserts which is up to date!
+The IM cube is shown on the left, the 3DP (3D-printed) cube is on the right. Find the details about the base cube in [ASSEMBLY_CUBE_Base](./ASSEMBLY_CUBE_Base).
+<p align=center>
+<img src="./IMAGES/Assembly_Cube_empty_IM_withBase_v3_04.png" width=150>
+<img src="./IMAGES/Assembly_Cube_empty_1x1_withBase_v3_04.png" width=150>
+</p>
 
-The outer cube dimensions stayed the same, but the inserts changed completely!
 
-## <img src="./IMAGES/D.png" width="40"><img src="./IMAGES/P.png" width="40"> Printing
+## <a href="#icon02" name="icon02"><img src="./IMAGES/D.png" width="40"><img src="./IMAGES/P.png" width="40"></a> Printing
 The .stl files of the respective modules can be downloaded and printed. Have a look at our [TUTORIALS](../TUTORIALS) section for some introductory information regarding 3D printing, shopping for components and more.
 
 ## List of available Modules (CUBEs):
@@ -34,34 +39,35 @@ Each folder contains a step-by-step tutorial which describes how the module has 
 
 Link             |  Image of the part
 :-------------------------:|:-------------------------:
-[Base Plate (1x4,2x4,4x4)](./ASSEMBLY_Baseplate_v2)  |  <img src="./ASSEMBLY_Baseplate_v2/IMAGES/Assembly_base_4x4.png" width=250>
-[CUBE Base](./ASSEMBLY_CUBE_Base_v2)  |  <img src="./ASSEMBLY_CUBE_Base_v2/IMAGES/Assembly_Cube_Base_v2.png" width=500>
-[Allied Vision Cam](./ASSEMBLY_CUBE_AlliedVision_Alvium) | <img src="./ASSEMBLY_CUBE_AlliedVision_Alvium/IMAGES/Assembly_Cube_AlliedVision_Alvium_v2.png" width=200>
-[Circular Aperture](./ASSEMBLY_CUBE_Aperture_Circular_v2)  |  <img src="./ASSEMBLY_CUBE_Aperture_Circular_v2/IMAGES/Assembly_Cube_CircularAperture.png" width=200>
-[Rectangular Aperture](./ASSEMBLY_CUBE_Aperture_Rectangular_v2)  |  <img src="./ASSEMBLY_CUBE_Aperture_Rectangular_v2/IMAGES/Assembly_Cube_Rect_Aperture_v2.png" width=200>
-[Basler Cam](./ASSEMBLY_CUBE_BaslerCam) | <img src="./ASSEMBLY_CUBE_BaslerCam/IMAGES/Assembly_Cube_BaslerCam_acA1920_25gm_v2.png" width=300>
-[Beam Expander](./ASSEMBLY_CUBE_Beamexpander_v2)  |  <img src="./ASSEMBLY_CUBE_Beamexpander_v2/IMAGES/Assembly_Cube_Beamexpander_v2.png" width=400>
-[Beamsplitter](./ASSEMBLY_CUBE_Beamsplitter_v2)  |  <img src="./ASSEMBLY_CUBE_Beamsplitter_v2/IMAGES/Assembly_Cube_Beamsplitter_v2.png" width=200>
-[Dichroic Beamsplitter](./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2) | <img src="./ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2/IMAGES/Assembly_Cube_Dichroic_Beamsplitter.png" width=400>
-[Eyepiece + Smartphone](./ASSEMBLY_CUBE_Eyepiece_v2) | <img src="./ASSEMBLY_CUBE_Eyepiece_v2/IMAGES/Assembly_Cube_Eyepiece_Smartphone_v2.png" width=200>
-[Eyeball Cube ](./ASSEMBLY_CUBE_Eyeball_v2) | <img src="./ASSEMBLY_CUBE_Eyeball_v2/IMAGES/Assembly_Cube_Eyeball_v2_01.png" width=200>
-[Laser](./ASSEMBLY_CUBE_Laser_v2) | <img src="./ASSEMBLY_CUBE_Laser_v2/IMAGES/Assembly_Cube_Lasermount.png" width=300>
-[LED Matrix](./ASSEMBLY_CUBE_LED_Matrix_v2) | <img src="./ASSEMBLY_CUBE_LED_Matrix_v2/IMAGES/Assembly_Cube_LED_Matrix_v0.png" width=250>
-[LED Ring](./ASSEMBLY_CUBE_LED_Ring_v2)  |  <img src="./ASSEMBLY_CUBE_LED_Ring_v2/IMAGES/Assembly_Cube_LED_Ring_v0.png" width=400>
-[LED Star](./ASSEMBLY_CUBE_LED_v2) | <img src="./ASSEMBLY_CUBE_LED_v2/IMAGES/Assembly_Cube_LED_holder_v2.png" width=200>
-[Lens (cylindrical)](./ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2) | <img src="./ASSEMBLY_CUBE_Lens_CYLINDRICAL_v2/IMAGES/Assembly_Cube_Objectiveholder.png" width=200>
-[Lens (standard)](./ASSEMBLY_CUBE_Lens_v2) | <img src="./ASSEMBLY_CUBE_Lens_v2/IMAGES/Assembly_Cube_Objectiveholder.png" width=200><img src="./ASSEMBLY_CUBE_Lens_v2/IMAGES/Assembly_Cube_Lens_Mount.png" width=300>
-[Mirror (45°)](./ASSEMBLY_CUBE_Mirror_45_v2) | <img src="./ASSEMBLY_CUBE_Mirror_45_v2/IMAGES/Assembly_Cube_Mirror_Tilt.png" width=200>
-[Mirror, kinematic (45°)](./ASSEMBLY_CUBE_Mirror_Kinematic_45_v2) | <img src="./ASSEMBLY_CUBE_Mirror_Kinematic_45_v2/IMAGES/Assembly_Cube_Kinematic_Mirrormount_45_v2.png" width=200>
-[Mirror, kinematic (0°)](./ASSEMBLY_CUBE_Mirror_Kinematic_v2) | <img src="./ASSEMBLY_CUBE_Mirror_Kinematic_v2/IMAGES/Assembly_Cube_Kinematic_Mirrormount_v2.png" width=200>
-[Raspi Cam](./ASSEMBLY_CUBE_RaspiCam_v2) | <img src="./ASSEMBLY_CUBE_RaspiCam_v2/IMAGES/Assembly_Cube_cameracube.png" width=200>
-[S-Stage v2](./ASSEMBLY_CUBE_S-STAGE_v2) | <img src="./ASSEMBLY_CUBE_S-STAGE_v2/IMAGES/Assembly_XY_Translator_Lightsheet_v2.png" width=250>
-[S-Stage v3](./ASSEMBLY_CUBE_S-STAGE_new_v2) | <img src="./ASSEMBLY_CUBE_S-STAGE_new_v2/IMAGES/Assembly_LS_Sample_stage_v2.png" width=250>
-[Sample Holder Cube](./ASSEMBLY_CUBE_Sample_Holder_v2) | <img src="./ASSEMBLY_CUBE_Sample_Holder_v2/IMAGES/Assembly_Cube_Sample_holder_v2.png" width=200>
-[Magnetic Sample Holder Comb](./ASSEMBLY_CUBE_Sample_Holder_v2) | <img src="./ASSEMBLY_CUBE_Sample_Holder_v2/IMAGES/Assembly_Cube_Sample_holder_magnetic_v2.png" width=400>
-[Thorlabs Adapter](./ASSEMBLY_CUBE_Thorlabs_v2) | <img src="./ASSEMBLY_CUBE_Thorlabs_v2/IMAGES/Assembly_Cube_Thorlabs_v2.png" width=200>
-[Z-Stage + Fluomodule](./ASSEMBLY_CUBE_Z-STAGE_v2) | <img src="./ASSEMBLY_CUBE_Z-STAGE_v2/IMAGES/Assembly_Z_Focus_Linearbearing_v0_with_fluomodule.png" width=250>
-[XYZ-Stage v0](./ASSEMBLY_XYZ-STAGE) | <img src="./ASSEMBLY_XYZ-STAGE/IMAGES/Assembly_cube_double_Zfocus.png" width=300>
+[Base Plate puzzle](./ASSEMBLY_Baseplate)  |  [<img src="./ASSEMBLY_Baseplate/IMAGES/10_Base_puzzle_v3_01.png" width=200>](./ASSEMBLY_Baseplate)
+[CUBE Base](./ASSEMBLY_CUBE_Base)  |  [<img src="./ASSEMBLY_CUBE_Base/IMAGES/Assembly_Cube_empty_IM_v3.png" width=200>](./ASSEMBLY_CUBE_Base)
+[Allied Vision Cam](./ASSEMBLY_CUBE_AlliedVision_Alvium) | [<img src="./ASSEMBLY_CUBE_AlliedVision_Alvium/IMAGES/Assembly_Cube_AlliedVision_Alvium_v3.png" width=200>](./ASSEMBLY_CUBE_AlliedVision_Alvium)
+[Circular Aperture](./ASSEMBLY_CUBE_Aperture_Circular)  |  [<img src="./ASSEMBLY_CUBE_Aperture_Circular/IMAGES/Assembly_Cube_CircularAperture_v3.png" width=200>](./ASSEMBLY_CUBE_Aperture_Circular)
+[Rectangular Aperture](./ASSEMBLY_CUBE_Aperture_Rectangular)  |  [<img src="./ASSEMBLY_CUBE_Aperture_Rectangular/IMAGES/Assembly_Cube_Rect_Aperture_v3.png" width=200>](./ASSEMBLY_CUBE_Aperture_Rectangular)
+[Basler Cam](./ASSEMBLY_CUBE_BaslerCam) | [<img src="./ASSEMBLY_CUBE_BaslerCam/IMAGES/Assembly_Cube_BaslerCam_acA1920_25gm_v3.png" width=200>](./ASSEMBLY_CUBE_BaslerCam)
+[Beam Expander](./ASSEMBLY_CUBE_Beamexpander)  |  [<img src="./ASSEMBLY_CUBE_Beamexpander/IMAGES/Assembly_Cube_Beamexpander_v3.png" width=200>](./ASSEMBLY_CUBE_Beamexpander)
+[Beam splitter](./ASSEMBLY_CUBE_Beamsplitter)  |  [<img src="./ASSEMBLY_CUBE_Beamsplitter/IMAGES/Assembly_Cube_Beamsplitter_v3.png" width=200>](./ASSEMBLY_CUBE_Beamsplitter)
+[Dichroic Beam splitter](./ASSEMBLY_CUBE_Dichroic_Beamsplitter) | [<img src="./ASSEMBLY_CUBE_Dichroic_Beamsplitter/IMAGES/Assembly_Cube_Dichroic_Beamsplitter_25x35_v3.png" width=200>](./ASSEMBLY_CUBE_Dichroic_Beamsplitter)
+[Eyepiece + Smartphone](./ASSEMBLY_CUBE_Eyepiece) | [<img src="./ASSEMBLY_CUBE_Eyepiece/IMAGES/Assembly_Cube_Eyepiece_v3_01.png" width=200>](./ASSEMBLY_CUBE_Eyepiece)
+[Eyeball Cube ](./ASSEMBLY_CUBE_Eyeball) | [<img src="./ASSEMBLY_CUBE_Eyeball/IMAGES/Assembly_Cube_Eyeball_v3.png" width=200>](./ASSEMBLY_CUBE_Eyeball)
+[Laser](./ASSEMBLY_CUBE_Laser) | [<img src="./ASSEMBLY_CUBE_Laser/IMAGES/Assembly_Cube_Laser_v3.png" width=200>](./ASSEMBLY_CUBE_Laser)
+[LED Matrix](./ASSEMBLY_CUBE_LED_Matrix) | [<img src="./ASSEMBLY_CUBE_LED_Matrix/IMAGES/Assembly_Cube_LED_Matrix_v3.png" width=200>](./ASSEMBLY_CUBE_LED_Matrix)
+[LED Matrix (simple)](./ASSEMBLY_CUBE_LED_Matrix_simple) | [<img src="./ASSEMBLY_CUBE_LED_Matrix_simple/IMAGES/Assembly_Cube_LED_Matrix_8x8_v3.png" width=200>](./ASSEMBLY_CUBE_LED_Matrix_simple)
+[LED Star](./ASSEMBLY_CUBE_LED) | [<img src="./ASSEMBLY_CUBE_LED/IMAGES/Assembly_Cube_LED_holder_v3.png" width=200>](./ASSEMBLY_CUBE_LED)
+[Lens (cylindrical)](./ASSEMBLY_CUBE_Lens_CYLINDRICAL) | [<img src="./ASSEMBLY_CUBE_Lens_CYLINDRICAL/IMAGES/Assembly_Cube_Lens_Cylindrical_v3.png" width=200><img src="./ASSEMBLY_CUBE_Lens_CYLINDRICAL/IMAGES/Assembly_Cube_Lens_Cylindrical__cheap_v3.png" width=200>](./ASSEMBLY_CUBE_Lens_CYLINDRICAL)
+[Lens (standard)](./ASSEMBLY_CUBE_Lens) | [<img src="./ASSEMBLY_CUBE_Lens/IMAGES/Assembly_Cube_Objective_Holder_v3.png" width=200><img src="./ASSEMBLY_CUBE_Lens/IMAGES/Assembly_Cube_Lens_holder_100mm_v3.png" width=200>](./ASSEMBLY_CUBE_Lens)
+[Mirror (45°)](./ASSEMBLY_CUBE_Mirror_45) | [<img src="./ASSEMBLY_CUBE_Mirror_45/IMAGES/Assembly_Cube_Mirror_30x30_v3.png" width=200>](./ASSEMBLY_CUBE_Mirror_45) [<img src="./ASSEMBLY_CUBE_Mirror_45/IMAGES/Assembly_Cube_Mirror_Thorlabs_v3.png" width=200>](./ASSEMBLY_CUBE_Mirror_45)
+[Mirror, kinematic (45°)](./ASSEMBLY_CUBE_Mirror_Kinematic_45) | [<img src="./ASSEMBLY_CUBE_Mirror_Kinematic_45/IMAGES/Assembly_Cube_Kinematic_Mirrormount_30x30_45_v3.png" width=200>](./ASSEMBLY_CUBE_Mirror_Kinematic_45)
+[Mirror, kinematic (0°)](./ASSEMBLY_CUBE_Mirror_Kinematic) | [<img src="./ASSEMBLY_CUBE_Mirror_Kinematic/IMAGES/Assembly_Cube_Kinematic_Mirrormount_v3.png" width=200>](./ASSEMBLY_CUBE_Mirror_Kinematic)
+[Raspi Cam](./ASSEMBLY_CUBE_RaspiCam) | [<img src="./ASSEMBLY_CUBE_RaspiCam/IMAGES/Assembly_Cube_RaspiCam_v3.png" width=200>](./ASSEMBLY_CUBE_RaspiCam)
+[S-Stage v2.1](./ASSEMBLY_CUBE_S-STAGE_v2.1) | [<img src="./ASSEMBLY_CUBE_S-STAGE_v2.1/IMAGES/Assembly_LS_Sample_stage_v2.png" width=200>](./ASSEMBLY_CUBE_S-STAGE_v2.1)
+[Sample Holder Cube](./ASSEMBLY_CUBE_Sample_Holder) | [<img src="./ASSEMBLY_CUBE_Sample_Holder/IMAGES/Assembly_Cube_Sample_holder_v3.png" width=200>](./ASSEMBLY_CUBE_Sample_Holder)
+[Magnetic Sample Holder](./ASSEMBLY_CUBE_Sample_Holder) | [<img src="./ASSEMBLY_CUBE_Sample_Holder/IMAGES/Assembly_Cube_Sample_holder_magnetic_v3.png" width=200>](./ASSEMBLY_CUBE_Sample_Holder)
+[Sample Holder Comb](./ASSEMBLY_CUBE_Sample_Holder) | [<img src="./ASSEMBLY_CUBE_Sample_Holder/IMAGES/Assembly_Cube_Sampleholder.png" width=200>](./ASSEMBLY_CUBE_Sample_Holder)
+[Thorlabs Adapter](./ASSEMBLY_CUBE_Thorlabs) | [<img src="./ASSEMBLY_CUBE_Thorlabs/IMAGES/Assembly_Cube_Thorlabs_Cage_v3.png" width=200>](./ASSEMBLY_CUBE_Thorlabs)
+[Z-Stage (Objective) mechanical](./ASSEMBLY_CUBE_Z-STAGE_mechanical) | [<img src="./ASSEMBLY_CUBE_Z-STAGE_mechanical/IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v4.png" width=200>](./ASSEMBLY_CUBE_Z-STAGE_mechanical)
+[Z-Stage (Sample) v3](./ASSEMBLY_CUBE_Z-STAGE_sample) | [<img src="./ASSEMBLY_CUBE_Z-STAGE_sample/IMAGES/Assembly2.png" width=200>](./ASSEMBLY_CUBE_Z-STAGE_sample)
+[XYZ-Stage v0](./ASSEMBLY_XYZ-STAGE_v0) | [<img src="./ASSEMBLY_XYZ-STAGE_v0/IMAGES/Assembly_cube_double_Zfocus.png" width=200>](./ASSEMBLY_XYZ-STAGE_v0)
 
 
 ## List of available Supplements:
@@ -70,12 +76,12 @@ Link             |  Image of the part
 * [Alignment tool](./EXT_Alignment_Tool)
 * [Adapter to openflexure stage](./CUBE_INSERT_OpenFlexure_Deltastage)
 
-## <img src="./IMAGES/E.png" width="40"> List of available [Applications (APPs)](../APPLICATIONS)
+## <a href="#icon03" name="icon03"><img src="./IMAGES/E.png" width="40"></a> List of available [Applications (APPs)](../APPLICATIONS)
 
 ### Complete overview of setups, modules, parts to buy and parts to print
 Find a complete shopping'n'printing list including estimated prices for all modules and setups in this [GoogleDrive Spreadsheet](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)!
 
-## <img src="./IMAGES/S.png" width="40"> Participate
+## <a href="#icon04" name="icon04"><img src="./IMAGES/S.png" width="40"></a> Participate
 If you have a cool idea, please don't hesitate to contact us, we are happy to incorporate it in our design to make it even better.  
 More setups are coming soon!
 Inspire us with your ideas - we try to make it work! :-)

@@ -1,5 +1,5 @@
-# <img src="./IMAGES/L.png" width=40>Electronics
-<img src="../IMAGES/signpost.png" width=30> Here you'll find the schematics for the wiring of the UC2 parts.
+# <a href="#icon01" name="icon01"><img src="./IMAGES/L.png" width=40></a> Electronics
+<a href="#icon02" name="icon02"><img src="../IMAGES/signpost.png" width=30></a> Here you'll find the schematics for the wiring of the UC2 parts.
 
 * For printing and assembly of all the cubes and modules go to [CAD](../CAD)
 * For complete setups go to [APPLICATIONS](../APPLICATIONS)
@@ -10,7 +10,7 @@
 * For anything else, have a look at the [SITEMAP](../SITEMAP.md)
 
 ---
-# If all the wiring scares you, click here [<img src="./IMAGES/lightbulb.svg" width="60">](./ELECTRONICS_FOR_DUMMIES)
+# If all the wiring scares you, [click here <img src="./IMAGES/lightbulb.svg" width="60">](./ELECTRONICS_FOR_DUMMIES)
 ---
 
 Most connections can be established with pin-connection (male/female), as you see in the [simplified tutorial](./ELECTRONICS_FOR_DUMMIES). For durable connection, please solder everything! You're not expected to have perfect soldering skills though. Have a look in the [TUTORIALS](../TUTORIALS) for some soldering guidelines. Be careful not to mix up +/-, otherwise you might cause shortcuts which would very likely fry the Pi or the Arduinos/ESP32s.

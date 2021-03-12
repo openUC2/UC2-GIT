@@ -1,0 +1,114 @@
+{
+    "name": "ASSEMBLY_CUBE_LED",
+    "description": "",
+    "image": "",
+    "price": 5.05,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Cube_1x1_IM",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 2.0
+        },
+        {
+            "name": "10_Cube_1x1_v3",
+            "description": "",
+            "image": "",
+            "price": 0.4,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Lid_1x1_v3",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 8.0
+        },
+        {
+            "name": "Screws (set) M5\u00d78",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 6.0
+        },
+        {
+            "name": "20_Cube_insert_LED_holder_v3",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_insert_Sample_holder_v3",
+            "description": "",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "20_Cube_Insert_Sample_clamp_v3",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Hi-Power LED 1W/3W UV STAR Blue",
+            "description": "",
+            "image": "",
+            "price": 1.85,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "wire",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Resistor",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "USB-microUSB cable",
+            "description": "",
+            "image": "",
+            "price": 2.8,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Wago binder",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}

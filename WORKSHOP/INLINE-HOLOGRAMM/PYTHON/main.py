@@ -41,14 +41,14 @@ class IndexTracker(object):
 
 
 # define some experimental parameters
-my_holo_file = 'test_microplastic.jpg'
+my_holo_file = 'testholo.jpg' #'test_microplastic.jpg'
 my_background_file = 'test2bg.jpg'
 mychannel = 2 # select the color channel 0,1,2
-mysize = 1024 # region of interest around the center coordinate 
+mysize = None #1024 # region of interest around the center coordinate 
 
 # define acquisition parameters
 pixelsize = 1.4e-6; #0.6e-6#.2e-6#3.000e-6;
-lambda0 = 440e-9; # in nanometer #530e-9;
+lambda0 = 450e-9; # in nanometer #530e-9;
 
 # start and stop z-focus measure
 stepsize = 0.001;
@@ -67,8 +67,15 @@ if(0):
 
 # crop out the ROI around the center to speed up computation (RADIX 2 please!)
 holosize = myholo.shape
-myholo =  myholo[int(holosize[0]/2-mysize/2):int(holosize[0]/2+mysize/2), int(holosize[0]/2-mysize/2):int(holosize[0]/2+mysize/2)]
-
+if mysize is not None:
+    myholo =  myholo[int(holosize[0]/2-mysize/2):int(holosize[0]/2+mysize/2), int(holosize[0]/2-mysize/2):int(holosize[0]/2+mysize/2)]
+else:
+    # make square
+    mysize = np.min(holosize)
+    myholo =  myholo[int(holosize[0]/2-mysize/2):int(holosize[0]/2+mysize/2), int(holosize[0]/2-mysize/2):int(holosize[0]/2+mysize/2)]
+    
+    
+    
 # display intermediate result 
 plt.imshow(myholo)
 plt.colorbar()
@@ -96,8 +103,10 @@ for i in range(0,20):
     
 # convert list to numpy array  
 myholo_rec = np.array(myholo_rec)
-myholo_rec = np.transpose(myholo_rec, [1,2,0]) # make sure Z-axis is the last one
+#myholo_rec = np.transpose(myholo_rec, [1,2,0]) # make sure Z-axis is the last one
 
+import NanoImagingPack as nip
+nip.image(myholo_rec)
 # now create a 3D image-stack viewer
 fig, ax = plt.subplots(1, 1)
 tracker = IndexTracker(ax, myholo_rec)

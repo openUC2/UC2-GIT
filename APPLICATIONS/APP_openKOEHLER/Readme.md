@@ -1,54 +1,42 @@
-## openSIM
+## openKOEHLER
 
-This is the repository for the openSIM project which integrates structured illumination microscopy into the UC2-system.
+This is the repository for the openKOEHLER project which integrates an adaptive diaphragm (e.g. variable effective light-source plane) in [Koehler configuration](https://en.wikipedia.org/wiki/K%C3%B6hler_illumination) into the UC2-system.
 
 <p align="center">
-<img src="./IMAGES/UC2_openSIM_setup_CAD.png" width="500">
+<img src="./IMAGES/Assembly_HDMI_Projector_setup.png" width="500">
 </p>
 
 ***Fig 1:*** *This is the ready-to-print module which clicks into the UC2-system*
 
 
+This module is based on the work "*Using machine-learning to optimize phase contrast in a low-cost cellphone microscope*" which can be found in [PLoS One](https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0192937). The idea is to generate phase-contrast images by varying the effective light-source shape in the pupil plane of the condenser. Therefore we place an LCD in Koehler configuration which is conjugate to the back focal plane (BFP) of the microscope objective lens. We rely on a low-cost LED HDMI projector which can be optained from Ebay.
 
-This module is based on the work by the Huser-Lab and can be found as a preprint on Bioarxiv [1]. It uses a low-cost single-mode diode laser (532 nm) and a Raspberry Pi driven DMD module to generate a structured illumination for microscopy. Since we use coherent illumination, we can create pattern suitable for SIM in order to increase the lateral resolution. So far we're not aiming for any super-resolutio, but rather give a proof of principle.  
+
+The module holds all optical components in place:
 
 <p align="center">
-<img src="./IMAGES/Assembly_openSIM_module_v2_1.png" width="500">
+<img src="./IMAGES/Assembly_HDMI_Projector.png" width="500">
 </p>
 
-***Fig 2:*** *A beam-expander magnifies the collimated beam which hits the DMD displaying a set of gratings*
+***Fig 2:*** *The PCB drives the high-power LED and the LCD. A HDMI connection to an external computer controls the pixels of the adaptive light source.*
+
+
+<p align="center">
+<img src="./IMAGES/Assembly_HDMI_Projector_1.png" width="500">
+</p>
+
+***Fig 3:*** *Backside of the module which hosts all components in place.*
+
 
 The angle between the collimated and expanded Laser-beam and the DMD is 25° in order to get the maximum in the diffracted orders.
 
 
-
-[1] *DMD-based super-resolution structured illumination microscopy visualizes live cell dynamics at high speed and low cost
-Alice Sandmeyer, Mario Lachetta, Hauke Sandmeyer, Wolfgang Hübner, Thomas Huser, Marcel Müller
-bioRxiv 797670; doi: [https://doi.org/10.1101/797670](https://doi.org/10.1101/797670)*
-
 ## Device's features:
 
-- "True" two-beam SIM
-- Very low cost:  ~300€
+- Variable light-source in Koehler configuration (conjugate to BFP)
+- Very low cost:  ~100€
 - Easy to align
 - Open-Source
--
-
-## Optical System
-
-<p align="center">
-<img src="./IMAGES/UC2_openSIM_setup.png" width="400">
-</p>
-
-***Fig 3:*** *The full system based on the modular cubes*
-
-The system of a classical two-beam interference SIM is straight forward and based on common 4f (i.e. fourier imaging) system, where focal lengtheses of adjacent lenses are following each other. The core idea is to place two delta-peaks inside the BFP of the objective lens. The lens fourier-transforms the peaks and therefore form a grating in the sample plane.
-
-In order to keep the whole system small, the telescope imaging the DMD is  based on two lenses with ***f'=50mm*** (e.g. Thorlabs achromates). A tube-lens of ***f'=180mm*** fourier-transforms the image folded by the mirror and places the different diffraction order inside the BFP of the objective lens. To produce 2D-Sim a fourier mask in the fourier-plane after the DMD, blocks the zeroth order.
-
-The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave from a coherent laser source. The pattern which are displayed are then actually coherently reimaged inside the sample plane by the whole system.
-
-
 
 ## Parts
 
@@ -56,18 +44,8 @@ The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave fr
 
 |  Type | Details  |  Price | Link  |
 |---|---|---|---|
-| Laser |  12V 532nm 200mw Green Laser Dot Module Fan Cooling TTL 0-30KHZ-Long time working |  90 € | [Lilly Electronics](http://www.lillyelectronics.com/12v-532nm-200mw-green-laser-dot-module-fan-cooling-ttl-0-30khz-long-time-working)  |
-| DMD |  Evaluierungsmodul (EVM) DLP® LightCrafter™ Display 2000 |  90 € | [Digikey](https://www.digikey.de/product-detail/de/texas-instruments/DLPDLCR2000EVM/296-47119-ND/7598640)  |
-| Raspberry Pi | Raspi+SD-Card+Case+Powersupply(for DMD+Raspi, 5V, >=3A!) |  70 € | [Reichelt](https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-1-gb-ram-wlan-bt-rasp-pi-4-b-1gb-p259874.html?PROVID=2788&gclid=Cj0KCQiAz53vBRCpARIsAPPsz8X9hCOt9yVVB_WqLCmKSs2e-KuThVnrMEtl2TRbAUTqtVoNZU3zM3YaAg2ZEALw_wcB&&r=1)  |
-| Tube-lens | Lens, f=180mm |  10 € | [PGI-Versand](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=564.OA.64)  |
-| Telescope-lens | 2x Achromatic 1inch Lens, f=50mmmm |  82 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-050-A)  |
-| Dichroics  |  Various |  200 € | [Thorlabs]()  |
-| Mirror | 1inch Silver Mirror, Protected |  50 € | [Thorlabs]()  |
-| iPhone Lens | iPhone 5 lens for the telescope  (optional) |  5 € | [Amazon]()  |
-| Lens | 25mm lens for the telescope (optional) |  5 € | [Amazon]()  |
-| Dichroics  |  Various |  200 € | [Thorlabs]()  |
-| PCB for Raspi-DMD connection  |  Various |  8 € | [See below]()  |
-
+| Aspherical Lenses |  Thorlabs ACL3026U, f'=60mm |  32 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=ACL3026U-A)  |
+| HDMI LED Projector |  A30 MINI LED Laser Projektor Beamer Cinema Heimkino HD 1080p USB SD AV HDMI VGA |  55 € | [Ebay](https://www.ebay.de/itm/A30-MINI-LED-Laser-Projektor-Beamer-Cinema-Heimkino-HD-1080p-USB-SD-AV-HDMI-VGA/283179326469?epid=21010262499&hash=item41eecd9c05:g:S6IAAOSw-BJfmrYj)  |
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 
 
@@ -75,174 +53,22 @@ The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave fr
 
 Parts to print:
 
-* 1× [SIM-Module 2×4](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_base_v2_1.stl)
-* 1× [Telescope for Beam Expansion](./STL/Assembly_openSIM_module_v2_30_CUBE_OpenSIM_Beamexpander_v2_9.stl)
-* 1x [DMD Adapter](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_DLP2000_Holder_mirrored_3.stl)
-
-### Additional parts for the whole setup
-- 1x Kinematic Mirror Mount (for 1inch Silver mirror!) [here](../ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)
-- 1x Mirror Mount (for 1inch Silver mirror!) [here](../ASSEMBLY_CUBE_Mirror_45_v2)
-- 1x OpenFlexure Delta-Stage (by Richard Bowman et al.) + Adapter + Objective lens (you can choose!)  [here](../ [here](../CUBE_INSERT_OpenFlexure_Deltastage))
-- Dichroic Mirror Cube [here](../ASSEMBLY_CUBE_Dichroic_Beamsplitter_v2)
-- Basler-Camera + Adapter [here](../ASSEMBLY_CUBE_BaslerCam)
+* 1× [Koehler-Module](./STL/Assembly_HDMI_Projector_30_Cube_Projector_frame_10)
 
 
-## Electronics
+## Assembly
 
-### Wiring of the Raspberry Pi + DMD Module
-
-In order to control the ***DMD DLP2000EVM*** with the Raspberry Pi we followed the nicely written Blog post here: [http://frederickvandenbosch.be/?p=2948](http://frederickvandenbosch.be/?p=2948).
-We decided to have a stable wired version using a customized PCB. The wiring follows this chart:
-
-<p align="center">
-<img src="./IMAGES/UC2_wiring_DMD.png" width="500">
-</p>
-
-We created a PCB design which can directly be used with a Raspberry Pi and the DMD2000EVM module. All EAGLE-files can be found in the folder [ELECTRONICS](.\ELECTRONICS\Piprojector).
-
-
-The resulting two-sided PCB appears to look like that:
-
-<p align="center">
-<img src="./IMAGES/PiProjector_brd_all.png" width="500">
-</p>
-
-It can conveniently be ordered through online resources. Ours came from [aisler](https://aisler.net/) and cost 9€:
-
-<p align="center">
-<img src="./IMAGES/UC2_pcb_aisler.png" width="500">
-</p>
-
-
-
-
-### Assemble the DMD Module
-
-The SIM-setup uses the bare DMD to display images into the sample-plane. This means, that we need to get rid of the LED illumination. Unfortunately the module stops working once the LED is put away from the electronics. Therefore we need to cover it with dark tape.
-
-***1.) Take the DMD Module***
-<p align="center">
-<img src="./IMAGES/UC2_DMD_1.jpg" width="300">
-</p>
-
-***2.) Remove all screws you can find***
-<p align="center">
-<img src="./IMAGES/UC2_DMD_2.jpg" width="300">
-</p>
-
-***3.) Remove the connection flat-band cable***
-<p align="center">
-<img src="./IMAGES/UC2_DMD_3.jpg" width="300">
-</p>
-
-***4.) Disassemble the DMD module***
-<p align="center">
-<img src="./IMAGES/UC2_DMD_4.jpg" width="300">
-</p>
-
-***5.) Mount the DMD module on the 3D printed module and add the cables***
-<p align="center">
-<img src="./IMAGES/UC2_DMD_5.jpg" width="300">
-</p>
-
-
-
+Please have a look [here](./DOCS/Beamerscope_Instructions) (borrowed from the beamerscope). 
 
 ## Software  
 
-Using the PCB, setting up the module is again straight forward. After setting up the Raspberry Pi operating system, the *I2C* registers have to be set in order to display a fullscreen image on the DMD at a true resolution of *640x460* pixels.
-
-This can be done from remote through SSH (e.g. ```ssh pi@192.168.178.39```) or using a secondary screen.
-Opening a terminal connection one need to enter the following commands:
-
-```
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install mplayer
-
-```
-
-To edit the *I2C* settings the following is requiered:
-
-```
-sudo i2cset -y 3 0x1b 0x0b 0x00 0x00 0x00 0x00 i
-export DISPLAY=:0
-```
-
-In order to keep this after a reboot this can be added to the boot-config.txt.
-
-
-Another thing before it starts working is to set the timings of the video-display.
-Therefore type the following:
-
-```nano /boot/config.txt```
-
-and enter the following text:
-
-```
-# and your display can output without overscan
-disable_overscan=1
-
-# Enable audio (loads snd_bcm2835)
-dtparam=audio=on
-
-# Add support for software i2c on gpio pins
-dtoverlay=i2c-gpio,i2c_gpio_sda=23,i2c_gpio_scl=24,i2c_gpio_delay_us=2
-
-# DPI Video Setup
-dtoverlay=dpi18
-overscan_left=0
-overscan_right=0
-overscan_top=0
-overscan_bottom=0
-framebuffer_width=640
-framebuffer_height=360
-enable_dpi_lcd=1
-display_default_lcd=1
-dpi_group=2
-dpi_mode=87
-
-dpi_output_format=458773
-hdmi_timings=640 0 14 4 12 360 0 2 3 9 0 0 0 60 0 32000000 3
-
-```
-
-
-Once you have created a proper video-file which contains the RAW-frames (e.g. ```ABC.avi```) you can start the video on the screen remotely by typing the following:
-
-```mplayer -fs -loop 0 ./Desktop/ABS.avi```
-
-###Video generation
-
-For generating the frames we suggest to use the freely available pattern-generation software which is part of the ***fairSIM*** project by Marcel Müller et al. This can generate patterns using the following GUI:
-
-
-<p align="center">
-<img src="./IMAGES/fairSIM_configuration.png" width="200">
-</p>
-
-The created stack (i.e. TIF) need to be imported and saved as an uncompressed 8-Bit monochromatic AVI-file in order to get displayed using mplayer on the Raspberry Pi.
-
-
-
-## Further reading
-
-- [DATASHEET DMD](https://www.digikey.at/de/product-highlight/t/texas-instruments/dlp-lightcrafter-display-2000-eval-module)
-- [DMD for Photo-Lithography](https://hackaday.io/project/25260/gallery#f8c0a842e59a10156db102aedcd8b790)
-- [Hands-on and review of DMD module](https://www.element14.com/community/roadTestReviews/2662/l/dlp-pico-display-projector-evm-beaglebone-black-review)
-- [Alternative fiber-coupled laser](https://de.aliexpress.com/item/32880918252.html)
-- [Deeper Reading into the I2C settings](https://mikrokontroler.pl/2019/01/02/projektor-dlp-z-wykorzystaniem-raspberry-pi-3-oraz-modulu-ti-lightcrafter-display-2000/2/)
-- [Datasheet DLP2000](http://www.ti.com/lit/ds/symlink/dlp2000.pdf)
-- [Display Timinigs on Raspi](https://www.raspberrypi.org/documentation/hardware/raspberrypi/dpi/)
-- [Flickering Problem on DLP](https://e2e.ti.com/support/dlp/f/94/t/700072?DLPDLCR2000EVM-Screen-Jitter-Glitch-on-Output-of-DLP-Lightcrafter-2000)
-
-
+Displaying patterns can conviently be done with a power-point presentation. More python-based software will follow soon. 
 
 ## Result
 
-This is just some stack where we measured the fluorescent signal on a Fluochart:
+This is just some stack where we measured intensity while variyng the illumination source shape:
 <p align="center">
-<img src="./IMAGES/SIM_Basler_UC2-1.gif" width="400">
+<img src="./DOCS/Comparison_Illopt.gif" width="400">
 </p>
 
 

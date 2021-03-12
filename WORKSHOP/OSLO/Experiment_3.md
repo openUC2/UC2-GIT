@@ -4,7 +4,7 @@ Assemble and setup the incubator microscope
 This experiment sets up a compound microscope in order to get familiar with the GUI running on the Raspberry Pi.
 The experiment involves multiple MQTT-able components such as the ```LED-Array``` and the ```Z-stage```.
 
-The microscope is based on the design found [here](https://github.com/bionanoimaging/UC2-GIT/tree/master/CAD/APP_Incubator_Microscope_fluorescence)
+The microscope is based on the design found [here](../../APPLICATIONS/APP_Incubator_Microscope)
 
 
 ## Steps

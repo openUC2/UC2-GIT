@@ -1,4 +1,4 @@
-# <img src="./IMAGES/BtP.png" width="120"> From a Beginner to a Professional
+# <a href="#icon01" name="icon01"><img src="./IMAGES/BtP.png" width="120"></a> From a Beginner to a Professional
 
 ... in clear and simple steps! Here you find guidelines that will lead you through the UC2 toolbox.
 
@@ -8,7 +8,7 @@ Feel free to skip to the steps that you're most interested in - and feel free to
 
 All external links are used with the best intention - to provide more information and background on topics that are not in our main focus.
 
-## <img src="./IMAGES/FS.png" width="40"> First steps
+## <a href="#icon02" name="icon02"><img src="./IMAGES/FS.png" width="40"></a> First steps
 
 #### GitHub
 [What is GitHub? How to join?](https://guides.github.com/activities/hello-world/)  
@@ -28,6 +28,11 @@ All external links are used with the best intention - to provide more informatio
 [I don't have a 3D printer. Can I have the parts printed somewhere in Jena?](https://lichtwerkstatt-jena.de/)  
 [I don't have a 3D printer. Where can I have them printed?](https://www.makerspaces.com/what-is-a-makerspace/)  
 
+#### Injection moulded (IM) or 3D-printed cubes (3DP)?
+[Which cubes are the most up-to-date ones?](../MDK#uc2-version-history)  
+[What is the difference between IM and 3DP cubes?](..CAD/ASSEMBLY_CUBE_Base)  
+[How do the baseplate puzzles work?](../ASSEMBLY_Baseplate)  
+
 #### Electronics
 [Which software do I need to control the electronic components?](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)    
 [How to solder electronics?](https://www.makerspaces.com/how-to-solder/)  
@@ -40,25 +45,26 @@ Even if you don't aim for research application of the setups -handle the optical
 
 #### Software
 [Where do I find all the UC2-Software documentation in one place?](https://github.com/bionanoimaging/UC2-Software-GIT)  
-[How to prepare the hardware of the Raspberry Pi?](https://www.instructables.com/id/Raspberry-Pi-Touchscreen-Setup/)  
+[How to prepare the hardware of the Raspberry Pi?](https://www.techcoil.com/blog/how-to-setup-the-raspberry-pi-official-7-inch-touch-screen-with-your-raspberry-pi-4-model-b/)  
 [How to start with Raspberry Pi?](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)  
 
 
+## <a href="#icon03" name="icon03"><img src="./IMAGES/TUT.png" width="40"></a> Tutorials
 
-## <img src="./IMAGES/TUT.png" width="40"> Tutorials
 Tutorials take you by hand through your beginnings with UC2. It's useful to get familiar with the cubes before starting building a more complex system.  
+Check the [RESOURCES](./RESOURCES/Resources_step_by_step.md) you will need to accomplish the tutorials.  
 Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie_camera: YouTube Video
 
-* TUT01: Print your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base_v2/STL) [:movie_camera:](https://www.youtube.com/watch?v=SblqYJYXe4k&feature=youtu.be)
-* TUT02: Assemble your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base_v2#-assembly-tutorial-with-images) [:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA&t=1s)
-* TUT03: Give your first cube a function - lens as a magnifying glass [:feet:](../CAD/ASSEMBLY_CUBE_Lens_v2/TUT03)
-* TUT04: Build your first baseplate [:feet:](../CAD/ASSEMBLY_Baseplate_v2)[:movie_camera:](https://www.youtube.com/watch?v=qxA-4V7BRI0)
+* TUT01: Print your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base/STL) [:movie_camera:](https://www.youtube.com/watch?v=SblqYJYXe4k&feature=youtu.be)
+* TUT02: Assemble your first cube [:feet:](../CAD/ASSEMBLY_CUBE_Base#assembly) [:movie_camera:](https://www.youtube.com/watch?v=zAMedY0mWKA&t=1s)
+* TUT03: Give your first cube a function - lens as a magnifying glass [:feet:](../CAD/ASSEMBLY_CUBE_Lens/TUT03)
+* TUT04: Build your first baseplate [:feet:](../CAD/ASSEMBLY_Baseplate)[:movie_camera:](https://www.youtube.com/watch?v=qxA-4V7BRI0)
 * TUT05: Build your first optical setup - a telescope [:feet:](../APPLICATIONS/APP_SIMPLE-Telescope)
 * TUT06: Build your first microscope [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/mechanical)
-* TUT07: Get your first electronic part - simple LED matrix [:feet:](../CAD/ASSEMBLY_CUBE_LED_Matrix_v2/TUT07)
+* TUT07: Get your first electronic part - simple LED matrix [:feet:](../CAD/ASSEMBLY_CUBE_LED_Matrix/TUT07)
 * TUT08: Build your first microscope with electronics [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/electronic)
 
-## <img src="./IMAGES/HT.png" width="120"> How-to guides
+## <a href="#icon04" name="icon04"><img src="./IMAGES/HT.png" width="120"></a> How-to guides
 How-to guides show you how to assemble cubes for various functions and how to build many different optical setups, once you are familiar with the basic idea. It also takes you from the mechanical-only to motorized systems.
 
 * [HOW-TO find all the cubes and components](../CAD)
@@ -71,13 +77,13 @@ How-to guides show you how to assemble cubes for various functions and how to bu
 * HOW-TO use UC2 toolbox for education?
 * HOW-TO use UC2 toolbox for research?
 
-## <img src="./IMAGES/CG.png" width="40"> Contributor guidelines
+## <a href="#icon05" name="icon05"><img src="./IMAGES/CG.png" width="40"></a> Contributor guidelines
 
 We appreciate that you want to get involved! Your help is valuable for us, even if you are not a skilled researcher, maker or programmer. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 Find the detailed guidelines in [CONTRIBUTING](../CONTRIBUTING.md)
 
-## <img src="./IMAGES/RG.png" width="40"> Reference guides
+## <a href="#icon06" name="icon06"><img src="./IMAGES/RG.png" width="40"></a> Reference guides
 Reference guides give you more information on specific topics and provide technical details.  
 Find out more about...
 
