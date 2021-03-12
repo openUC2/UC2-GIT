@@ -7,16 +7,16 @@ width="640">
 </p>
 
 
-*Crossed Polarizers* are used to analyze the polarization of light. We use two linear polarizers which are located perpendicular to each other.
+*Crossed Polarizers* are used to analyze the polarization of light. We use two linear polarizers which are located perpendicular to each other. [1]
 
-In the experiment, the polarizing direction of the first polarizer is oriented vertically to the incoming beam, and it will allow passing only vertical electric field vectors. After the first polarizer, we have an s-polarized light wave.
+In the experiment, the polarizing direction of the first polarizer is oriented vertically to the incoming beam, and it will allow passing only vertical electric field vectors. After the first polarizer, we have an s-polarized light wave. [2]
 
 <p align="center">
 <img src="./IMAGES/crossed polarizer_exp_2.png"
 width="450">
 </p>
 
-The second polarizer is located horizontally with respect to the electric field vector. These two polarizers should be oriented at right angles with each other. It blocks the wave which passes through the first polarizer.
+The second polarizer is located horizontally with respect to the electric field vector. It blocks the wave which passes through the first polarizer. These two polarizers should be oriented at the right angle with respect to each other.
 
 
 <p align="center">
@@ -50,7 +50,7 @@ Time to build a Crossed Polarizers setup!
 * 2× [Polarizer Lid](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Lid.stl)
 * 1× [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl)
 * 1x [Sample Holder Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl)
-* 1× [Flashlight Holder](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl) - the diameter works for the flashlight linked in the eyepiece insert
+* 1× [Flashlight Holder](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl)
 * 1x [Sample Holder - comb](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl)
 
 
@@ -80,7 +80,7 @@ width="350">
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-We printed and assembled the module parts. After that, we bought the necessary components and inserted them into cubes.  
+We printed and assembled the module parts. Then, we bought the necessary components and inserted them into cubes.  
 You will find the basic version of Crossed Polarization experiment without a specific sample and extra light source below.
 
 <p align="center">
@@ -93,7 +93,7 @@ width="450">
 width="450">
 </p>
 
-We can observe the direct effect of the angle between two linear polarizers in the video below. The intensity of passing light through two polarizers on the eye of the observer changes when the wheel insert of the polarization filter takes 360 degrees turn.
+We can observe the direct effect of the angle between two linear polarizers in the video below. The intensity of passing light through two polarizers on the eye of the observer changes when the wheel insert of the polarization filter takes a 360 degrees turn.
 
 <p align="center">
 <img src="./IMAGES/crossed_polarizer.gif"
@@ -103,3 +103,8 @@ width="400">
 
 ## New Ideas
 We are open to new ideas. Please contribute to the project freely, this place is a free country which is built by codes and machines :robot:
+
+## References
+[1] Introduction to Polarized Light. (n.d.). Nikon’s MicroscopyU. Retrieved February 15, 2021, from https://www.microscopyu.com/techniques/polarized-light/introduction-to-polarized-light
+
+[2] Logiurato, F. (2018). Teaching Light Polarization by Putting Art and Physics Together. The Physics Teachers, 1–5. https://arxiv.org/ftp/arxiv/papers/1803/1803.09645.pdf
