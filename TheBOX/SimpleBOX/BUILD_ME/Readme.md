@@ -1,6 +1,6 @@
 # Building The MiniBOX and SimpleBOX
 
-This is a guide for building the [SimpleBOX and MiniBOX](../SimpleBOX). If you were looking for another BOX version, [click here](../../).
+This is a guide for building the [SimpleBOX and MiniBOX](../). If you were looking for another BOX version, [click here](../../).
 
 * Total price: under 150 € for SimpleBOX, around 80 € for MiniBOX
 * Printing time including preparation: under 4 days for SimpleBOX, under 2 days for MiniBOX
@@ -44,7 +44,7 @@ Link - name of part             |  Amount |  Comment | Price
 ## <a href="#icon02" name="icon02"><img src="./IMAGES/P.png" height="40"></a> 3D Printing:
 
 ### <a href="#icon05" name="icon05"><img src="./IMAGES/D.png" height="40"></a> Parts
-To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The BOXes can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../../CAD/RAW/STL) folder. The BOXes can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 Note on the lens holders: If you use some other lens, you can generate a holder for it using our openSCAD design. Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert.
 

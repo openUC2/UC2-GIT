@@ -1,6 +1,6 @@
 # Building The CourseBOX
 
-This is a guide for building the [CourseBOX](./CourseBOX). If you were looking for another BOX version, [click here](../../).
+This is a guide for building the [CourseBOX](../). If you were looking for another BOX version, [click here](../../).
 
 This guide currently describes how to build both the [finite-corrected version](#finite-corrected-optics) and the [infinity version](#inifinity-optics) of the CourseBOX.
 
@@ -48,7 +48,7 @@ We propose the use of this [Laser Pointer](https://www.conrad.de/de/p/ansmann-la
 
 ## <a href="#icon02" name="icon02"><img src="./IMAGES/P.png" height="40"></a> 3D Printing:
 ### <a href="#icon03" name="icon03"><img src="./IMAGES/D.png" height="40"></a>Parts
-To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The BOXes can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../../CAD/RAW/STL) folder. The BOXes can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 Note on the lens holders: If you use some other lens, you can generate a holder for it using our openSCAD design. Go to the [Thingiverse page of this lens holder](https://www.thingiverse.com/thing:4377691) and use their in-built customizer to change the parameters of the insert.
 

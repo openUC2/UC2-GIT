@@ -1,6 +1,6 @@
 # Building The FullBOX
 
-This is a guide for building the [FullBOX](../FullBOX). If you were looking for another BOX version, [click here](../../).
+This is a guide for building the [FullBOX](../). If you were looking for another BOX version, [click here](../../).
 
 ### Content
 1. [Necessary Parts](#-necessary-parts)
@@ -38,7 +38,7 @@ Click on the arrow (🢂) to find the STLs and assembly tutorials of the respect
 
   * Baseplate 4×2 [🢂](../../../CAD/ASSEMBLY_Baseplate)
   * Baseplate 4×1 - 2× [🢂](../../../CAD/ASSEMBLY_Baseplate)
-  * Raspberry Pi
+  * Raspberry Pi [🢂](https://github.com/bionanoimaging/UC2-Software-GIT/tree/master/GUI/RASPBERRY_PI)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_175916.jpg" height="400">
@@ -133,11 +133,11 @@ Click on the arrow (🢂) to find the STLs and assembly tutorials of the respect
   <img src=".\IMAGES\IMG_20190905_180608.jpg" height="400">
   </p>
 
-  * Generic sample holder – comb structure
+  * Generic sample holder – comb structure [🢂](../../../CAD/ASSEMBLY_CUBE_Sample_Holder)
   * LED array [🢂](../../../CAD/ASSEMBLY_CUBE_LED_Matrix)
   * Sample stage [🢂](../../../CAD/ASSEMBLY_CUBE_S-STAGE_v2.1)
-  * Flashlight
-  * Blue laser pointer with switch
+  * Flashlight [🢂](../../../CAD/ASSEMBLY_CUBE_Flashlight)
+  * Blue laser pointer with switch [🢂](../../../CAD/ASSEMBLY_CUBE_Laser)
 
   <p align="center">
   <img src=".\IMAGES\IMG_20190905_175722.jpg" height="400">
