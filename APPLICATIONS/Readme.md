@@ -19,6 +19,7 @@ This is a growing list of available optical setups coming along with tutorials a
 * [SimpleBOX: Optical setups from elementary to high-school level ](../TheBOX/SimpleBOX)
 * [FullBOX: Optical setups from high-school to university level (contains electronics)](../TheBOX/FullBOX)
 * [CourseBOX: Optical setups for Optics and Microscopy courses](../TheBOX/CourseBOX)
+* [PolarBOX : Optical setups for the polarization of light ](../TheBOX/PolarBOX)
 
 ### SIMPLE Setups
 * [SIMPLE - Projector](./APP_SIMPLE-Projector)
@@ -34,6 +35,14 @@ This is a growing list of available optical setups coming along with tutorials a
 * [Mach-Zehnder Interferometer (Interference effect of light)](./APP_Mach-Zehnder_Interferometer)
 * [Double Slit Experiment (Interference effect of light)](./APP_Double-slit_Experiment)
 * [Spectrometer](APP_Spectrometer)
+* [Crossed Polarizers](APP_POL_Crossed_Polarizers)
+* [Three Polarizers](APP_POL_Three_Polarizers)
+* [Circular Polarizer](APP_POL_Circular_Polarizer)
+* [Optically Active Solution Experiment](APP_POL_Polarization_using_optically_active_solution)
+* [Brewster's Angle Experiment](APP_POL_Brewster_Angle_Experiment)
+* [Stress Birefringence](APP_POL_Stress_Birefringence)
+* [Many Microscope Slides Experiment](APP_POL_Many_Microscope_Slides_Experiment)
+* [Newton's Rings Experiment](APP_POL_Newtons_Rings_Experiment)
 
 ### COMPLEX Modules and Setups
 * [openSIM - Structured Illumination Microscopy (2-Beam Interference Super-Resolution)](./APP_openSIM)
