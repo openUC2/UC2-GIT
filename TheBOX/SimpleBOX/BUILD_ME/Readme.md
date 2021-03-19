@@ -2,7 +2,7 @@
 
 This is a guide for building the [SimpleBOX and MiniBOX](../). If you were looking for another BOX version, [click here](../../).
 
-* Total price: under 150 € for SimpleBOX, around 80 € for MiniBOX
+* Total price: under 130 € for SimpleBOX, under 80 € for MiniBOX (assuming only material costs and printing everything yourself)
 * Printing time including preparation: under 4 days for SimpleBOX, under 2 days for MiniBOX
 * Assembly time: under 1 day
 
@@ -34,7 +34,7 @@ Link - name of part             |  Amount |  Comment | Price
 Link - name of part             |  Amount |  Comment | Price
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
   3D printing material|some more| |2-5 €
-  [Eyepiece 10×](https://de.aliexpress.com/item/32897739739.html?spm=a2g0s.9042311.0.0.466f4c4dehniSH)  |  1 piece | The holder is designed for an eyepiece of this diameter. Sold in pairs.|11 €
+  [Eyepiece 10×](https://de.aliexpress.com/item/32897739739.html?spm=a2g0s.9042311.0.0.466f4c4dehniSH)  |  1 piece | The holder is designed for an eyepiece of this diameter. Sold in pairs.|13 €
   [Lens 100 mm](https://optikbaukasten.de/)  |  1 piece |Artikel 2004|6 €
   [Flashlight](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)  |  1 piece | Light source for the projector and microscope.|7 €
   [Screws](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/) |   ~20 pieces | For 3DP Cubes extra: M3×12, galvanized steel - 12  pieces; M3×8, galvanized steel - 12 pieces extra for putting screws to all sides of all cubes (or 24 pieces of M3×12); M5×8, galvanized steel - 18  pieces | total ~2 €

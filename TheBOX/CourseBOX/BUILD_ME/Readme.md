@@ -12,7 +12,7 @@ This guide currently describes how to build both the [finite-corrected version](
 
 # Infinity Optics
 
-* Total price: 230 € without a Raspberry Pi (190 €)
+* Total price: 300 € without a Raspberry Pi (190 €) (assuming only material costs and printing everything yourself)
 * Printing time including preparation: 4 days
 * Assembly time: 1 day
 
@@ -25,7 +25,7 @@ Link - name of part             |  Amount |  Comment | Price
   3D printing material|~580 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in 3D printing section|15 €
   [Lens 50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1131)  |  5 pieces ||á 21 €
   [Lens 100 mm](https://optikbaukasten.de/)  |  3 pieces |Artikel 2004|á 6 €
-  [Lens for Eye Cube](https://optikbaukasten.de/)  |  1 piece |Artikel 2002|á 5 €
+  [Lens for Eye Cube](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=551.OAL)  |  1 piece |551.OAL|á 5 €
   [Beamsplitter](https://optikbaukasten.de/)  |  1 piece |Artikel 2137|á 27 €
   [Flashlight](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)  |  1 piece | Light source for microscope.|á 7 €
   [Laser Pointer](https://www.conrad.de/de/p/ansmann-laserpointer-2in1-reichweite-max-im-freifeld-50-m-2162622.html)  |  1 piece | Light source for the Abbe experiment. With this very one you don't even need the flashlight. More information below.|á 5 €
@@ -94,7 +94,6 @@ Prepare the Raspberry Pi following our [tutorial in UC2-Software-GIT](https://gi
 
 # Finite-corrected Optics
 
-* Total price: 300 €
 * Printing time including preparation: 5 days
 * Assembly time: 1 day
 

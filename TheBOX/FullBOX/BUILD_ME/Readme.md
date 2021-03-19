@@ -13,7 +13,7 @@ The complete overview of setups, modules, parts to buy and parts to print can be
 
 * Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 
-The overall price-tag is around 620€ including the Raspberry Pi, Camera, Optics, 3D printed parts and all additional components.
+The overall price-tag is around 650€ including the Raspberry Pi, Camera, Optics, 3D printed parts and all additional components.
 
 <p align=center>
 <img src="./IMAGES/UC2_Setups_theBOX.png" width=400>
