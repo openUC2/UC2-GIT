@@ -48,7 +48,9 @@ Even if you don't aim for research application of the setups -handle the optical
 [How to prepare the hardware of the Raspberry Pi?](https://www.techcoil.com/blog/how-to-setup-the-raspberry-pi-official-7-inch-touch-screen-with-your-raspberry-pi-4-model-b/)  
 [How to start with Raspberry Pi?](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)  
 
+
 ## <a href="#icon03" name="icon03"><img src="./IMAGES/TUT.png" width="40"></a> Tutorials
+
 Tutorials take you by hand through your beginnings with UC2. It's useful to get familiar with the cubes before starting building a more complex system.  
 Check the [RESOURCES](./RESOURCES/Resources_step_by_step.md) you will need to accomplish the tutorials.  
 Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie_camera: YouTube Video
@@ -97,3 +99,6 @@ Find out more about...
 * [REF: 3D printing material: ABS](https://www.creativemechanisms.com/blog/everything-you-need-to-know-about-abs-plastic)
 * [REF: Datasheets](./DATASHEETS)
 * More links in [Resources: Knowledge](./RESOURCES/Resources_Knowledge.md)
+* _Alternative Unit Block Designs_ : The UC2 cubes and baseplate system from some instability coming from the  4-point attachment design, as this is an over-determined connection. We tried other designs that should in theory be better. But what they were?  
+[REF: Simple Microscope with cube block design with 3-holes](./RESOURCES/UC2%20with%203-holes-cubes)   
+[REF: Simple Microscope with hexagonal blocks instead of cube shape blocks](./RESOURCES/UC2%20with%20Hexagonal%20Block)
