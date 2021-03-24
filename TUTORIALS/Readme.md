@@ -100,5 +100,3 @@ Find out more about...
 * [REF: Datasheets](./DATASHEETS)
 * More links in [Resources: Knowledge](./RESOURCES/Resources_Knowledge.md)
 * _Alternative Unit Block Designs_ : The UC2 cubes and baseplate system from some instability coming from the  4-point attachment design, as this is an over-determined connection. We tried other designs that should in theory be better. But what they were?  
-[REF: Simple Microscope with cube block design with 3-holes](./RESOURCES/UC2%20with%203-holes-cubes)   
-[REF: Simple Microscope with hexagonal blocks instead of cube shape blocks](./RESOURCES/UC2%20with%20Hexagonal%20Block)

@@ -6,7 +6,7 @@ If you want to adapt your ideas to the ***UC2*** framework this document provide
 
 The CAD templates can be found in the [CAD](./CAD)-folder.
 
-All the original design files as well as all the STL files can be found is [CAD/RAW](../CAD/RAW). 
+All the original design files as well as all the STL files can be found is [CAD/RAW](../CAD/RAW).
 
 ### Definitions
 
@@ -73,6 +73,14 @@ Why is there no v1? Because all the slow and steady development from the very be
 <img src="./IMAGES/BASE_CUBE_v0_2.png" width=200>
 </p>
 The old cube is not compatible with the current design and currently isn't shown anywhere in the repository.
+
+#### Other versions
+Have we tried other designs? Sure, we have. The cubes are nice to play with and nice for planning a setup but the design is mechanically over-determined. We tried to put the cube on [3-point connection](./CAD/ALTERNATIVE_DESIGN/UC2_with_3-holes-cubes) and use the [hexagonal building blocks](./CAD/ALTERNATIVE_DESIGN/UC2_with_Hexagonal_Block). Have a look at the attempts and issues to see why we stick with the cubes as they are.
+
+<p align=center>
+<img src="./CAD/ALTERNATIVE_DESIGN/UC2_with_3-holes-cubes/IMAGES/3-holes-cube.png" height=200>
+<img src="./CAD/ALTERNATIVE_DESIGN/UC2_with_Hexagonal_Block/IMAGES/Hexagon blocks 1 and 2.png" height=200>
+</p>
 
 ### Concept of the cube
 
