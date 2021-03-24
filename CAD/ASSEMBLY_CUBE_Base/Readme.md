@@ -138,6 +138,8 @@ Insert the M3×8 screws into the Cube-Body.
 <img src="./IMAGES/UC2_Tut_Base_3DP_12.jpg" width="300">
 </p>
 
+### This was TUT02 of [TUTORIALS](../../../TUTORIALS). Continue to [TUT03](../ASSEMBLY_CUBE_Lens/TUT03)!
+
 #### Combine IM and 3DP baseplates and Cubes
 [![UC2 YouSeeToo - How to combine IM and 3DP parts?](./IMAGES/UC2_Combine_IM_3DP.png)](https://www.youtube.com/watch?v=J6wY9sDKyKg&ab_channel=openUC2)
 

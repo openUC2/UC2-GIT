@@ -3,6 +3,8 @@ This is the repository for the design of the baseplates. It is possible to use b
 
 To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder.
 
+([TUT04 of TUTORIALS](../../../TUTORIALS))
+
 ## Purpose
 Baseplates serve as a spine of any setup you build using the cubes. The basic unit is a puzzle piece.
 
@@ -72,5 +74,4 @@ Find out more about combining the IM and 3DP cubes in the [Modular Developer Kit
 #### Combine IM and 3DP baseplates and Cubes
 [![UC2 YouSeeToo - How to combine IM and 3DP parts?](./IMAGES/UC2_Combine_IM_3DP.png)](https://www.youtube.com/watch?v=J6wY9sDKyKg&ab_channel=openUC2)
 
-Where next?      
-Return to the [TUTORIALS](../../TUTORIALS) if that's where you started
+### This was TUT04 of [TUTORIALS](../../../TUTORIALS). Continue to [TUT05](../../APPLICATIONS/APP_SIMPLE-Telescope)!

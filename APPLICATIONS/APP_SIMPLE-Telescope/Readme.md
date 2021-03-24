@@ -45,7 +45,7 @@ In the end they look like this:
 <p align="center">
 <img src="./IMAGES/Telescope_Galileo.jpg" width="300">
 <img src="./IMAGES/Telescope_Kepler.jpg" width="300">
-<br>Left: Galilean telescope, Right: Keplerian telescope. 
+<br>Left: Galilean telescope, Right: Keplerian telescope.
 </p>
 
 
@@ -102,7 +102,8 @@ Source of information for the above text:  [1](https://en.wikipedia.org/wiki/Ref
 
 Where next?  
 The telescopes are also a part of the [SimpleBOX](../../TheBOX/SimpleBOX). Find out more about in the [SimpleBOX manuals](../../../TheBOX/SimpleBOX/DOCUMENTS)    
-Or return to the [TUTORIALS](../../../TUTORIALS)
+
+### This was TUT05 of [TUTORIALS](../../../TUTORIALS). Continue to [TUT06](../APP_SIMPLE-Smartphone_Microscope/mechanical)!
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 None yet. Be the first to share yours!

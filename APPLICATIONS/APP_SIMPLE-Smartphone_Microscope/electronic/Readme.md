@@ -101,7 +101,8 @@ Right: Smartphone microscope during the classroom experiments; left: Red onion c
 Find out more about the smartphone microscope in the [SimpleBOX manuals](../../../TheBOX/SimpleBOX/DOCUMENTS)  
 Find out more about the electronics in the [Electronics section](../../../ELECTRONICS)  
 Find out more about the software for this setup in our dedicated [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)   
-Or return to the [TUTORIALS](../../../TUTORIALS)
+
+### It seems that you went successfully through all the [TUTORIALS](../../../TUTORIALS). Now you're a skilled UC2 builder! 
 
 ## <img src="../IMAGES/S.png" width="40"> Participate!
 

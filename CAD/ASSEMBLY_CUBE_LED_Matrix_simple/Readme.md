@@ -115,7 +115,8 @@ Prerequisities:
 **Where next?**  
 Find out more about the electronics in the [Electronics section](../../ELECTRONICS)  
 Find out more about the code for this part in our dedicated [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)   
-Or return to the [TUTORIALS](../../TUTORIALS)
+
+### This was TUT07 of [TUTORIALS](../../../TUTORIALS). Continue to [TUT08](../../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/electronic)!
 
 ## <img src="./IMAGES/S.png" width="40"> Participate!
 

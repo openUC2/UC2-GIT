@@ -61,7 +61,7 @@ Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie
 * TUT04: Build your first baseplate [:feet:](../CAD/ASSEMBLY_Baseplate)[:movie_camera:](https://www.youtube.com/watch?v=qxA-4V7BRI0)
 * TUT05: Build your first optical setup - a telescope [:feet:](../APPLICATIONS/APP_SIMPLE-Telescope)
 * TUT06: Build your first microscope [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/mechanical)
-* TUT07: Get your first electronic part - simple LED matrix [:feet:](../CAD/ASSEMBLY_CUBE_LED_Matrix/TUT07)
+* TUT07: Get your first electronic part - simple LED matrix [:feet:](../CAD/ASSEMBLY_CUBE_LED_Matrix_simple)
 * TUT08: Build your first microscope with electronics [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/electronic)
 
 ## <a href="#icon04" name="icon04"><img src="./IMAGES/HT.png" width="120"></a> How-to guides

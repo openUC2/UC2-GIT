@@ -51,7 +51,8 @@ For assembly instructions of the respective modules refer to the links in Module
 
 **Where next?**  
 Find out more about the smartphone microscope in the [SimpleBOX manuals](../../../TheBOX/SimpleBOX/DOCUMENTS)     
-Or return to the [TUTORIALS](../../../TUTORIALS)
+
+### This was TUT06 of [TUTORIALS](../../../TUTORIALS). Continue to [TUT07](../../../CAD/ASSEMBLY_CUBE_LED_Matrix_simple)!
 
 ## <img src="../IMAGES/S.png" width="40"> Participate!
 

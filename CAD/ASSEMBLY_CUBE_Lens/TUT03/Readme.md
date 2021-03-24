@@ -132,7 +132,8 @@ Now you can use it as a "reading stone" - the cube will keep the correct distanc
 
 Where next?  
 Find out more about lenses in the [SimpleBOX manuals](../../../TheBOX/SimpleBOX/DOCUMENTS)     
-Or return to the [TUTORIALS](../../../TUTORIALS)
+
+### This was TUT03 of [TUTORIALS](../../../TUTORIALS). Continue to [TUT04](../../ASSEMBLY_Baseplate)!
 
 ## <img src="../IMAGES/Y.png" height="40">Safety
 Don't touch the optical surfaces - fingerprints and scratches are bad for lenses!

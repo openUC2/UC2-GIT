@@ -56,9 +56,14 @@ Our quick printing tutorial can be found here:
 We have a good experience with this printer and settings:
 * Prusa i3/MK3S
   * For MiniBOX: Prusament PLA 1,75 mm, for one Box: 0,26 g = 88 m = 38 hours = 8 €
+  * For MiniBOX - Inserts only (using IM cubes): Prusament PLA 1,75 mm, for one Box: 0,12 g = 38 m = 12 hours = 3 €
   * For SimpleBOX in total: Prusament PLA 1,75 mm, for one Box: 0,455 kg = 152,53 m = 69 hours = 13 €
   * Profile Optimal 0,15 mm, infill 20%, no support, 215/60°C
 
+Printing hint:
+<p align="center">
+<img src="./IMAGES/MiniBOX_print_insert.PNG" width=300>
+</p>
 
 ## <a href="#icon05" name="icon05"><img src="./IMAGES/A.png" height="40"></a> Which tools to use
 Tool             |  Image|  Comment
