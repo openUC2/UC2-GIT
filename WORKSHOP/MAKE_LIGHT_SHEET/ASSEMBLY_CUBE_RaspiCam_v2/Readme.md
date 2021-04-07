@@ -31,7 +31,7 @@ The Cube consists of the following components.
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 * 8× DIN912 M3×12 screws (galvanized steel)
 * 1× Raspi Camera (v1, v2)
-* 1× long cable for Raspi Camera 
+* 1× long cable for Raspi Camera
 * 2× M2*10 screws (best: plastic)
 * 2× M2 nuts (best: plastic)
 
@@ -43,6 +43,19 @@ The Cube consists of the following components.
 * Take the mounted camera adapter inlet and slide it into the base-cube
 * Take the cube lid and mount it using the 4 hex screws
 * Done!
+
+## Remove the lens from the camera
+The Raspberry Pi camera has a tiny lens and you will need to remove it for the experiments. Do this before you mount the camera to the insert. Be careful not to damage the camera chip.
+
+The picture and the instruction are taken from the nice tutorial of the [openflexure microscope](https://build.openflexure.org/openflexure-microscope/v6.1.5/docs/#/2a_basic_optics_module?id=step-5). 
+
+Unscrew the lens from the camera module. Use the plastic tool to grip the lens module. This is a small circular part with four prongs that fits over the lens of the camera board (version 2 only) as shown. To remove the lens, push the removal tool onto the lens (just the top part, with the little plastic flanges) and turn anticlockwise to remove it.
+
+Once you've removed the lens, be sure to place the camera face down on the desk, or put a piece of tape over the square black lens holder; this will help stop dust settling on the sensor, which is extremely hard to clean.
+
+<p align="center">
+<img src="./IMAGES/picam2_lens_removal.jpg" width="250">
+</p>
 
 ### Tutorial with images
 
