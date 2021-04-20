@@ -127,7 +127,6 @@ We have a good experience with this printer and settings:
 * Prusa i3/MK3S
   * PLA 1,75 mm, for one Box: 0,6 kg = 235 m = 85 hours = 20 €
   * Profile Optimal 0,15 mm, infill 20%, no support, 215/60°C
-  * [Hint](./IMAGES/prusa_printing_courseBOX.pdf)
 
 ### Note: The design of the mechanical Z-stage has recently been changed. The files here are not yet up-to-date. Please check the [Mechanical Z-stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2) for the latest version. Same applies to the Lens Holder available [here](../../../CAD/ASSEMBLY_CUBE_Lens_v2)
 
