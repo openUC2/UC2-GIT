@@ -71,6 +71,7 @@ The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave fr
 | Lens | 25mm lens for the telescope (optional) |  5 € | [Amazon]()  |
 | Dichroics  |  Various |  200 € | [Thorlabs]()  |
 | PCB for Raspi-DMD connection  |  Various |  8 € | [See below]()  |
+| Micrometre for z-stage  |  Various |  30 € | [RS PRO](https://uk.rs-online.com/web/p/micrometers/7857878/)  |
 
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 
