@@ -1,8 +1,6 @@
 ## 3D-printed Baseplate
 Here you find the guidelines for 3D-printing the baseplate puzzles. For general information about baseplates look [here](../). For Assembly guidelines look [here](../#-assembly).
 
-([TUT04 of TUTORIALS](../../../TUTORIALS))
-
 The baseplate puzzles are produced using injection moulding (IM) but it is also possible to 3D print (3DP) them. The IM and 3DP puzzles are compatible.  
 However, the size of the 3DP puzzles may vary between different printers and filaments. It is therefore advisable to calibrate the baseplate with your printer.
 

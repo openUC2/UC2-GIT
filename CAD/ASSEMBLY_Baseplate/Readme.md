@@ -3,7 +3,7 @@ This is the repository for the design of the baseplates. It is possible to use b
 
 To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder.
 
-([TUT04 of TUTORIALS](../../../TUTORIALS))
+([TUT04 of TUTORIALS](../../TUTORIALS))
 
 ## Purpose
 Baseplates serve as a spine of any setup you build using the cubes. The basic unit is a puzzle piece.
