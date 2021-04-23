@@ -71,6 +71,7 @@ The DMD, driven by a Raspberry Pi, gets illuminated by a more-less plane wave fr
 | Lens | 25mm lens for the telescope (optional) |  5 € | [Amazon]()  |
 | Dichroics  |  Various |  200 € | [Thorlabs]()  |
 | PCB for Raspi-DMD connection  |  Various |  8 € | [See below]()  |
+| Micrometre for z-stage  | Range 0 mm →25 mm |  30 € | [RS PRO](https://uk.rs-online.com/web/p/micrometers/7857878/)  |
 
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 
@@ -82,6 +83,7 @@ Parts to print:
 * 1x [SIM-Module 2×4](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_base_v2_1.stl)
 * 1x [Telescope for Beam Expansion](./STL/Assembly_openSIM_module_v2_30_CUBE_OpenSIM_Beamexpander_v2_9.stl)
 * 1x [DMD Adapter](./STL/Assembly_openSIM_module_v2_30_CUBE_openSIM_DLP2000_Holder_mirrored_3.stl)
+* 1x [Z-stage](https://github.com/bionanoimaging/UC2-GIT/blob/v3/CAD/ASSEMBLY_CUBE_Z-STAGE_sample/STL/20_Cube_Insert_Z-Focus_single_v3.stl)
 
 
 ## Electronics
