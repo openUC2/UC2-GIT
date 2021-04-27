@@ -6,7 +6,7 @@
 
 ---
 
-**New**: We got the official open hardware certification of OSHWA, under [`[OSHW] DE00110 | Certified open source hardware | oshwa.org/cert`](https://certification.oshwa.org/de000110.html)! 
+**New**: We got the official open hardware certification of OSHWA, under [`[OSHW] DE00110 | Certified open source hardware | oshwa.org/cert`](https://certification.oshwa.org/de000110.html)!
 
 **New**: :boom: **UC2_v3 is now released!** :boom: [Watch how much time the IM cubes can save!](https://www.youtube.com/watch?v=M_oqieogAOo&feature=youtu.be&ab_channel=openUC2)   
 *We are working on making the IM Cubes and Puzzles available for sale, but we are not able to offer a 'BUY' button yet. If you are interested in buying some components, contact us via email info@useetoo.org*
@@ -22,8 +22,10 @@
 
 Cite this repository: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4041339.svg)](https://doi.org/10.5281/zenodo.4041339)
 
+
 [<img src="./IMAGES/OSHW_mark_DE000110.png" height=50 align="right">](https://certification.oshwa.org/de000110.html)
 This project provides certified open hardware.
+
 
 ---
 
