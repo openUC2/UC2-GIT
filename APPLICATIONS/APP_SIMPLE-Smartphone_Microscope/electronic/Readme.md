@@ -31,7 +31,7 @@ The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W
 
 
 ### <img src="../IMAGES/P.png" width="40"> 3D-printing
-To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes. Choose the APP_Smartphone microscope for this one.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../../CAD/RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes. Choose the APP_Smartphone microscope for this one.
 
 In the end it should look like this (UC2_v2 cubes displayed):
 
@@ -102,7 +102,7 @@ Find out more about the smartphone microscope in the [SimpleBOX manuals](../../.
 Find out more about the electronics in the [Electronics section](../../../ELECTRONICS)  
 Find out more about the software for this setup in our dedicated [UC2-Software-GIT](https://github.com/bionanoimaging/UC2-Software-GIT)   
 
-### It seems that you went successfully through all the [TUTORIALS](../../../TUTORIALS). Now you're a skilled UC2 builder! 
+### It seems that you went successfully through all the [TUTORIALS](../../../TUTORIALS). Now you're a skilled UC2 builder!
 
 ## <img src="../IMAGES/S.png" width="40"> Participate!
 

@@ -26,7 +26,7 @@ The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W
 |  Module: Empty Cube  | For stability of the setup, it is better to fill the empty positions under other cubes. | 3€  | [Cube](../../../CAD/ASSEMBLY_CUBE_Base)  | 2|
 
 ### <img src="../IMAGES/P.png" width="40"> 3D-printing
-To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes. Choose the APP_Simple Smartphone microscope for this one.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../../CAD/RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes. Choose the APP_Simple Smartphone microscope for this one.
 
 In the end it should look like this:
 

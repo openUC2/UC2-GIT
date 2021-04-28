@@ -43,7 +43,7 @@ Note: The pictures on this site do not show the latest version of the Z-stage. F
 |  Module: Beamsplitter (dichroic)  | - | ??€  | [Dichroic Bam splitter](../../CAD/ASSEMBLY_CUBE_Dichroic_Beamsplitter)  | 1|
 
 ### <img src="./IMAGES/P.png" width="40"> 3D-printing
-To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
+To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../../CAD/RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 (**TODO:** need to be updated!)

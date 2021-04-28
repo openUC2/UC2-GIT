@@ -1,6 +1,8 @@
 ## WORKSHOPs
 Here you find a collection of ready-to-use workshops based on the modular optics system UC2.
 
+Please note that several of the workshops were done using the previous versions of the modules (check out [MDK](../MDK) for version history). Therefore it might be difficult for find the right parts for the old versions of the setups. However, all our devices are constantly updated and you find the latest versions in the [APPLICATION](../APPLICATION) folder. 
+
 ## List of available workshops
 * [Inline Holographic Microscope](./INLINE-HOLOGRAMM) - as performed in October 2018 at Lichtwerkstatt Jena
 * [Light sheet Microscope](./LIGHTSHEET) - as performed on the International Day of Light, 16.5.2019 at Lichtwerkstatt Jena
