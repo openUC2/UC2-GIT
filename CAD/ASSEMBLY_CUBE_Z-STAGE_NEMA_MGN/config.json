@@ -1,8 +1,8 @@
 {
-    "name": "ASSEMBLY_CUBE_Z-stage_objective",
+    "name": "ASSEMBLY_CUBE_Z-STAGE_NEMA_MGN",
     "description": "",
     "image": "",
-    "price": 18.5,
+    "price": 14.3,
     "fixedOptions": {},
     "type": "module",
     "partslist": [
@@ -47,7 +47,7 @@
             "n_parts": 6.0
         },
         {
-            "name": "20_focus_inlet_linearflexure_motorized_small_v3",
+            "name": "30_Cube_Z_Focus_MGN_NEMA_base_v3",
             "description": "",
             "image": "",
             "price": 0.3,
@@ -55,7 +55,7 @@
             "n_parts": 1.0
         },
         {
-            "name": "20_focus_inlet_objective_mount_v8_v3",
+            "name": "30_Cube_Z_Focus_MGN_NEMA_Zeiss_26.8m_adapter_v3",
             "description": "",
             "image": "",
             "price": 0.6,
@@ -63,7 +63,7 @@
             "n_parts": 1.0
         },
         {
-            "name": "30_Coupling_Screw_28BYJ_M3_v3",
+            "name": "00_Motorcoupling_5mm_M3_v3",
             "description": "",
             "image": "",
             "price": 0.1,
@@ -71,23 +71,39 @@
             "n_parts": 1.0
         },
         {
-            "name": "Microscope Objective 10x",
+            "name": "30_Cube_Z_Focus_MGN_NEMA_adapter_v3",
             "description": "",
             "image": "",
-            "price": 15.4,
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Cube_Z_Focus_MGN_NEMA_slide_v3",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "MGN12H Linear Rail Block",
+            "description": "",
+            "image": "",
+            "price": 10.0,
             "is_printable": false,
             "n_parts": 1.0
         },
         {
-            "name": "Screws M3x12",
+            "name": "Screws M3x12; M3x18; M3x30",
             "description": "",
             "image": "",
             "price": 0.6,
             "is_printable": false,
-            "n_parts": 2.0
+            "n_parts": 4.0
         },
         {
-            "name": "Screws M3x8",
+            "name": "Nut M3x8",
             "description": "",
             "image": "",
             "price": 0.2,
@@ -99,6 +115,22 @@
             "description": "",
             "image": "",
             "price": 0.1,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "NEMA11 Stepper motor",
+            "description": "",
+            "image": "",
+            "price": 15.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Linear Rail MGN12, 50mm",
+            "description": "",
+            "image": "",
+            "price": 5.0,
             "is_printable": false,
             "n_parts": 1.0
         }
