@@ -1,0 +1,138 @@
+{
+    "name": "ASSEMBLY_CUBE_Z-STAGE_NEMA_MGN",
+    "description": "",
+    "image": "",
+    "price": 14.3,
+    "fixedOptions": {},
+    "type": "module",
+    "partslist": [
+        {
+            "name": "10_Cube_1x1_IM",
+            "description": "",
+            "image": "",
+            "price": 0.0,
+            "is_printable": false,
+            "n_parts": 2.0
+        },
+        {
+            "name": "10_Cube_1x1_v3",
+            "description": "",
+            "image": "",
+            "price": 0.4,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "10_Lid_1x1_v3",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 8.0
+        },
+        {
+            "name": "Screws (set) M5\u00d78",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 6.0
+        },
+        {
+            "name": "30_Cube_Z_Focus_MGN_NEMA_base_v3",
+            "description": "",
+            "image": "",
+            "price": 0.3,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Cube_Z_Focus_MGN_NEMA_Zeiss_26.8m_adapter_v3",
+            "description": "",
+            "image": "",
+            "price": 0.6,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "00_Motorcoupling_5mm_M3_v3",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Cube_Z_Focus_MGN_NEMA_adapter_v3",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "30_Cube_Z_Focus_MGN_NEMA_slide_v3",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": true,
+            "n_parts": 1.0
+        },
+        {
+            "name": "MGN12H Linear Rail Block",
+            "description": "",
+            "image": "",
+            "price": 10.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Screws M3x12; M3x18; M3x30",
+            "description": "",
+            "image": "",
+            "price": 0.6,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "Nut M3x8",
+            "description": "",
+            "image": "",
+            "price": 0.2,
+            "is_printable": false,
+            "n_parts": 4.0
+        },
+        {
+            "name": "M3x30 screw with nut (non-magnetic)",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "NEMA11 Stepper motor",
+            "description": "",
+            "image": "",
+            "price": 15.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "Linear Rail MGN12, 50mm",
+            "description": "",
+            "image": "",
+            "price": 5.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        }
+    ]
+}
