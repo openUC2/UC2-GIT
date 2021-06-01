@@ -8,6 +8,11 @@ However, the size of the 3DP puzzles may vary between different printers and fil
 * Ballmagnets (one for testing) - 5 mm diameter [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * M5×8 screw (one for testing) [🢂](https://eshop.wuerth.de/Produktkategorien/ISO-4026-Stahl-45H-verzinkt/14013511052004.cyid/1401.cgid/de/DE/EUR/?CatalogCategoryRef=14013511052004%40WuerthGroup-Wuerth-1401&SelectedFilterAttribut=%255B%257B%2522name%2522%253A%2522AT_ThreadTypeXNominalDiameter%2522%252C%2522value%2522%253A%255B%2522M5%2522%255D%252C%2522title%2522%253A%2522Gewindeart%2520x%2520Nenndurchmesser%2522%257D%252C%257B%2522name%2522%253A%2522AT_Length%2522%252C%2522value%2522%253A%255B%25228%2520mm%2522%255D%252C%2522title%2522%253A%2522L%25C3%25A4nge%2522%257D%255D)
 
+### :elephant:: Printing tips and tricks!
+Have you heard about the "elephant foot issue" when it comes to 3D-printing? It might be the reason why your printed puzzle pieces can't fit nicely together.
+
+When printing the first layer is squished against the heated print bed and as a result, it’s usually a bit wider than it should be. This creates a big trouble for the puzzle. But luckily, it can be fixed. If you are using Prusaslicer, they have an easy solution to compensate for this as described [here](https://help.prusa3d.com/en/article/elephant-foot-compensation_114487). If you don't use this slicer, there are also options to [compensate for this](https://all3dp.com/2/elephant-s-foot-3d-printing-problem-easy-fixes/).
+
 ## Calibrate the size of the baseplate puzzle
 The size of the 3DP puzzles may vary between different printers and filaments. How to take this aspect into account?
 
