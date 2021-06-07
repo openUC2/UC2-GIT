@@ -65,3 +65,11 @@ Keyboard | Logitech K400 Plus 2.4 GHz Deutsch (wireless) | 27€ | [reichelt.de]
 Transistor npn | BD809 80V 10A 90W TO220 | 1€ | [Ebay](https://www.ebay.de/itm/BD809-Transistor-npn-80V-10A-90W-TO220/360661360188?hash=item53f9179e3c:g:ssEAAOSw-fNaqt1l) | Yes
 Transistor npn | BD809 80V 10A 90W TO220 | 0,50€ | [reichelt.de](https://www.reichelt.de/index.html?ACTION=446&LA=446&q=bd809%20transistor%20npn%2080v%2010a%2090w%20to220) | Yes
 SanDisk Ultra microSD card | 64GB | 12€ | [Amazon](https://www.amazon.de/SanDisk-SDSQUAR-064G-GN6MA-microSDXC-Speicherkarte-Adapter/dp/B073JYVKNX/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=sd+card+64+gb&qid=1565691023&s=computers&sr=1-2) | Yes
+
+
+### Maker Equipment 
+|  Name | Properties  |  Price | Link  | Tested |
+|---|---|---|---|---|
+All things you need for robots, motors, manipulation | Motion control | 1-100€ | [robotdigg](https://www.robotdigg.com/category/32/Extrusion-n-Injection) | No
+
+

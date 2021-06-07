@@ -6,12 +6,13 @@
 
 ---
 
+**New**: **Do you want to have TheBOX or a handy microscope? :microscope: How many openUC2 cubes does the world need? :earth_africa: Help us to find out by filling out our [Demand Survey](https://forms.gle/y6oAH8tsxNgedppDA) so we can make the cubes available :soon: Plase share with any researchers, teachers, educators, students, hackers, tinkerers, engineers and science enthusiasts that you know!** :green_heart:
+
 **New**: We got the official open hardware certification of OSHWA, under [`[OSHW] DE00110 | Certified open source hardware | oshwa.org/cert`](https://certification.oshwa.org/de000110.html)!
 
 **New**: :boom: **UC2_v3 is now released!** :boom: [Watch how much time the IM cubes can save!](https://www.youtube.com/watch?v=M_oqieogAOo&feature=youtu.be&ab_channel=openUC2)   
 *We are working on making the IM Cubes and Puzzles available for sale, but we are not able to offer a 'BUY' button yet. If you are interested in buying some components, contact us via email info@useetoo.org*
 
-**New**: The Pre-print of "UCsim2: 2D Structured Illumination Microscopy using UC2" is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2021.01.08.425840v1)  [![DOI:10.1101/2021.01.08.425840](http://img.shields.io/badge/DOI-10.1101/2021.01.08.425840-B31B1B.svg)](https://doi.org/10.1101/2021.01.08.425840)
 
 
 
