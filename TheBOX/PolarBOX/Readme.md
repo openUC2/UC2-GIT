@@ -28,11 +28,16 @@ width="450">
 
 Polarized light can be produced from the common physical processes such as absorption, reflection, diffraction (or scattering), and birefringence.
 
-*add box photo here*
 <p align="center">
-<img src="./IMAGES/" width="640">
+<img src="./IMAGES/PolarBOX.JPG"
+width="350">
 </p>
 
+Box opening for a PolarBOX user:
+<p align="center">
+<img src="./IMAGES/polarbox-box-opening.gif"
+width="350">
+</p>
 
 ## <img src="./IMAGES/D_B_P_A.png" height="40"> Build the BOX
 A list of 3D-printed parts and necessary components is found in [BUILD_ME](./BUILD_ME), together with assembly guidelines and some printing tips and tricks.
@@ -45,6 +50,7 @@ Which experiments can we build with this box? Let's see!
 [LINK](../../APPLICATIONS/APP_POL_Crossed_Polarizers)
 
 <p align="center">
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Crossed_Polarizers">
 <img src="./IMAGES/crossed_polarizers_diagram_2.png"
 width="640">
 </p>
@@ -54,17 +60,28 @@ width="640">
 [LINK](../../APPLICATIONS/APP_POL_Three_Polarizers)
 
 <p align="center">
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Three_Polarizers">
 <img src="./IMAGES/three_polarizers_diagram.png"
 width="840">
 </p>
 
+### 3. Polarization Experiment using Optically Active Solution
+[LINK](../../APPLICATIONS/APP_POL_Polarization_using_optically_active_solution)
 
-### 3. Circular Polarizer
+<p align="center">
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Polarization_using_optically_active_solution">
+<img src="./IMAGES/Active_Solution_Experiment.png"
+width="840">
+</p>
+
+
+### 4. Circular Polarizer
 [LINK](../../APPLICATIONS/APP_POL_Circular_Polarizer)
 
 clockwise circular Polarizer:
 
 <p align="center">
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Circular_Polarizer">
 <img src="./IMAGES/right_circular_polarizers_diagram.png"
 width="640">
 </p>
@@ -72,41 +89,47 @@ width="640">
 Counter-clockwise circular Polarizer:
 
 <p align="center">
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Circular_Polarizer">
 <img src="./IMAGES/left_circular_polarizers_diagram.png"
 width="840">
 </p>
 
-### 4. Polarization of light using optically active solution
-[LINK](../../APPLICATIONS/APP_POL_Polarization_using_optically_active_solution)
-
-<p align="center">
-<img src="./IMAGES/active_solution_diagram.png"
-width="640">
-</p>
-
-### 5. Brewster Angle Experiment
+### 5. Brewster Angle Experiment (Polarization by Reflection)
 [LINK](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment)
 
 <p align="center">
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Brewster_Angle_Experiment">
 <img src="./IMAGES/brewster_angle_diagram_5.png"
 width="400">
 </p>
 
-### 6. Newton’s Rings Experiment
-[LINK](../../APPLICATIONS/APP_POL_Newtons_Rings_Experiment)
+### 6. Many Microscope Slides Experiment (Polarization by Transmission)
+[LINK](../../APPLICATIONS/APP_POL_Many_Microscope_Slides_Experiment)
 
 <p align="center">
-<a href="#"><img src="./IMAGES/newtons_rings_diagram.png"
-width="640"></a>
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Many_Microscope_Slides_Experiment">
+<img src="./IMAGES/Many_Microscope_Slides_Experiment.png"
+width="400">
 </p>
 
-### 7. Stress Birefringence
+### 7. Stress Birefringence Experiment
 [LINK](../../APPLICATIONS/APP_POL_Stress_Birefringence)
 
 <p align="center">
-<img src="./IMAGES/stress_birefriengce_diagram_2.png" width="540">
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Stress_Birefringence">
+<img src="./IMAGES/Stress_Birefringence.png"
+width="540">
 </p>
 
+
+### 8. Newton’s Rings Experiment
+[LINK](../../APPLICATIONS/APP_POL_Newtons_Rings_Experiment)
+
+<p align="center">
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Newtons_Rings_Experiment">
+<a href="#"><img src="./IMAGES/Newtons_Rings_3.png"
+width="640"></a>
+</p>
 
 
 ## <img src="./IMAGES/S.png" height="40"> Participate
