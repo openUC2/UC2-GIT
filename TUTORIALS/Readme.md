@@ -14,7 +14,7 @@ All external links are used with the best intention - to provide more informatio
 [What is GitHub? How to join?](https://guides.github.com/activities/hello-world/)  
 [How to access all the files easily?](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)  
 [How to make your First Contribution?](https://firstcontributions.github.io/)  
-[How to make your First Contribution if the previous guide still seems to complicated?](https://github.com/firstcontributions/first-contributions/blob/master/github-desktop-tutorial.md)  
+[How to make your First Contribution if the previous guide still seems to complicated?](https://github.com/firstcontributions/first-contributions/)  
 [How to edit GitHub documentation (Readme files)?](https://atom.io/)  
 [How to use GitHub flavored Markdown?](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 

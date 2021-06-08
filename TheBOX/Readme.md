@@ -9,7 +9,11 @@ TheBOX is a number of optical experiments compiled into a ready-to-use box. We c
 </p>
 
 ## Choose [PolarBOX](./PolarBOX) for schools and demonstration of basic optical principles
-
+<p align="center">
+<a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/TheBOX/PolarBOX">
+<img src="./IMAGES/BOX_polar.JPG"
+width="400"></a>
+</p>
 
 ## Choose [CourseBOX](./CourseBOX) for Basic Microscopy and Optical Alignment courses:
 <p align="center">
