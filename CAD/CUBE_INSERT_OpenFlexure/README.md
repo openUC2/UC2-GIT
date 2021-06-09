@@ -3,7 +3,7 @@ This part adapts the OpenFlexure stage from Richard Bowman's group at the Bath U
 
 It's a work in progress!
 
-A discussion dedicated to this topic can be found [here](https://gitlab.com/openflexure/openflexure-microscope/merge_requests/127) and [here](https://gitlab.com/openflexure/openflexure-microscope/-/merge_requests/127#note_369356216). 
+A discussion dedicated to this topic can be found [here](https://gitlab.com/openflexure/openflexure-microscope/merge_requests/127) and [here](https://gitlab.com/openflexure/openflexure-microscope/-/merge_requests/127#note_369356216).
 
 
 
@@ -31,7 +31,7 @@ The Ball-Magnets visualized from below.
 ## Parts
 
 ### 3D printing parts
-..can be found in the [STL](./STL)-folder.
+The files are in the [RAW](../RAW/STL) folder.
 
 1. **The Adapter** which connects three UC2 cubes to the Flexure-Stage
 
@@ -41,7 +41,7 @@ From the openflexure [Gitlab Forum](https://gitlab.com/openflexure/openflexure-m
 [JBv2_OpenFlexure_adapter.stl](https://gitlab.com/openflexure/openflexure-microscope/uploads/41b4ef5c7680377cab1c7c783b688931/JBv2_OpenFlexure_adapter.stl)
 
 (C) [John](https://gitlab.com/MisterBurnley)
-The Ball-Magnets visualized from below.
+
 <p align="center">
 <img src="https://gitlab.com/openflexure/openflexure-microscope/uploads/4d4b26a77c3994b49148f9b802ed94df/2020-06-27-192207.jpg" width="400">
 </p>
