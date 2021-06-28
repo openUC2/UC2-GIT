@@ -128,14 +128,14 @@ The video was prepared for a course at the university here but a lot of the advi
 What can you build with the MiniBOX or SimpleBOX? This is just to give you a taste of it - there's more than that ;-)
 
 ### Projector
-[LINK](../../APPLICATIONS/APP_SIMPLE-Projector)
+[LINK](../../../APPLICATIONS/APP_SIMPLE-Projector)
  Simple one lens projector. Direct illumination. 4× magnification for *f(L)* = +40 mm, object to lens 50 mm and lens to screen 200 mm.
 <p align="center">
 <a href="#scheme01" name="scheme01"><img src="../IMAGES/miniBOX_projector.png" width="400"></a>
 </p>
 
 ### Telescopes
-[LINK](../../APPLICATIONS/APP_SIMPLE-Telescope)
+[LINK](../../../APPLICATIONS/APP_SIMPLE-Telescope)
 Three classical telescope principles. 2× magnification for *f(L1)* = +100 mm, *f(L2)* = +40 mm, *f(L3)* = -50 mm.
 <p align="center">
 <a href="#scheme02" name="scheme02"><img src="../IMAGES/miniBOX_telescopes.png" width="680"></a>
@@ -147,7 +147,7 @@ Three classical telescope principles. 2× magnification for *f(L1)* = +100 mm, *
 </p>
 
 ### Smartphone Microscope
-[LINK](../../APPLICATIONS/APP_SMARTPHONE_MICROSCOPE)
+[LINK](../../../APPLICATIONS/APP_SMARTPHONE_MICROSCOPE)
 Trasmission microscope (finite corrected), uses smartphone for image acquisition. LED array serves as light source - different illumination modes possible.
 <p align="center">
 <a href="#scheme04" name="scheme04"><img src="../IMAGES/miniBOX_smartphone_microscope.png" width="370"></a>
