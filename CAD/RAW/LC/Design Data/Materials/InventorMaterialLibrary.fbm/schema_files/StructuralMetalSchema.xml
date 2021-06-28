@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE AssetSchema SYSTEM "../../ADSKAssetSchema.dtd">
+
+<AssetSchema>
+
+  <Base val="StructuralAdvancedSchema"
+        file="../Advanced/StructuralAdvancedSchema.xml" />
+
+  <UID  val="StructuralMetalSchema"/>
+
+  <Integer id="SchemaVersion"
+           val="6"
+           public="false"
+           readonly="true" />
+
+  <type val="Structural" />
+
+  <localtype val="Physical" />
+  <localname val="Metal" />
+
+
+  <Boolean id="structural_Thermally_treated"
+           val="false"
+           label="Thermally Treated" />
+
+
+  <!-- Constant values for CommonSchema properties -->
+  <ui id="UIDefinition"
+      val="Structural/Metal/MetalStructuralUI.xml"/>
+
+</AssetSchema>
+
+

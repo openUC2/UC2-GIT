@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE adsui SYSTEM "../../ui.dtd">
+<adsui version="2.0">
+  <PageInfo>
+    <Title>
+      Basic
+    </Title>
+  </PageInfo>
+  <Fields>
+    <StackPanel id="asset_information" 
+                label="Information" 
+                orientation="Vertical" 
+                expanded="false">
+      <AssetName id="asset_name"
+                 label="Name"/>
+      <AssetDescription id="asset_description"
+                        label="Description"/>
+      <AssetKeywords id="asset_keywords"
+                     label="Keywords"/>
+      <AssetType id="asset_type"
+                 label="Type"/>
+
+      <String id="structural_subclass"
+              label="Subclass" />
+    </StackPanel>
+
+    <StackPanel id="basic_props1" 
+                label="Basic Thermal" 
+                orientation="Vertical" 
+                expanded="true">
+      
+      <Float id="structural_Thermal_conductivity"
+             forcenumeric="spinbox"
+             label="Thermal Conductivity"  
+             min="0.001"
+             max="5000" />
+      
+      <Float id="structural_Specific_heat"
+             forcenumeric="spinbox"
+             label="Specific Heat"  
+             min="0.1"
+             max="15" />
+
+    </StackPanel>
+
+    <StackPanel id="generic_props2" 
+                label="Mechanical" 
+                orientation="Vertical" 
+                expanded="false">
+      <Float id="structural_Density"
+             forcenumeric="spinbox"
+             label="Density" />
+    </StackPanel>
+    
+  </Fields>
+</adsui>

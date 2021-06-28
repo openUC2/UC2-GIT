@@ -63,6 +63,8 @@ Choose whether you prefer a :feet: Step-by-Step tutorial with images or a :movie
 * TUT06: Build your first microscope [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/mechanical)
 * TUT07: Get your first electronic part - simple LED matrix [:feet:](../CAD/ASSEMBLY_CUBE_LED_Matrix_simple)
 * TUT08: Build your first microscope with electronics [:feet:](../APPLICATIONS/APP_SIMPLE-Smartphone_Microscope/electronic)
+* TUT09: Build your first BOX [:feet:](../TheBOX/SimpleBOX/BUILD_ME)
+* TUT10: Explore optics with your first BOX [:feet:](../TheBOX/SimpleBOX/USE_ME)[:movie_camera:](https://www.youtube.com/watch?v=glL_bdoeETM&t=2s&ab_channel=openUC2)
 
 ## <a href="#icon04" name="icon04"><img src="./IMAGES/HT.png" width="120"></a> How-to guides
 How-to guides show you how to assemble cubes for various functions and how to build many different optical setups, once you are familiar with the basic idea. It also takes you from the mechanical-only to motorized systems.
@@ -74,6 +76,7 @@ How-to guides show you how to assemble cubes for various functions and how to bu
 * [HOW-TO print the UC2 parts with a *Prusa i3 MK3S* Printer](./PRINTER)
 * [HOW-TO import your ideas into the UC2 framework](../MDK)
 * [HOW-TO easily sketch your UC2 setups](../MDK/DRAW.IO)
+* [HOW-TO work with the MiniBOX](../TheBOX/SimpleBOX/USE_ME)
 * HOW-TO use UC2 toolbox for education?
 * HOW-TO use UC2 toolbox for research?
 

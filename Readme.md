@@ -6,7 +6,7 @@
 
 ---
 
-**New**: **Do you want to have TheBOX or a handy microscope? :microscope: How many openUC2 cubes does the world need? :earth_africa: Help us to find out by filling out our [Demand Survey](https://forms.gle/y6oAH8tsxNgedppDA) so we can make the cubes available :soon: Plase share with any researchers, teachers, educators, students, hackers, tinkerers, engineers and science enthusiasts that you know!** :green_heart:
+**New**: :mag_right: The MiniBOX insert can be produced with a laser cutter now! Also, we improved the page and added some tips and trick for working with the [MiniBOX](./TheBOX/SimpleBOX)! Build it, use it, share your thoughts! :mag:
 
 **New**: We got the official open hardware certification of OSHWA, under [`[OSHW] DE00110 | Certified open source hardware | oshwa.org/cert`](https://certification.oshwa.org/de000110.html)!
 
