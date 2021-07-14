@@ -112,7 +112,9 @@ The COSI conference paper is out on [OSA](https://www.osapublishing.org/abstract
 Where next? [<img src="./IMAGES/sitemap.png" height=50>](./SITEMAP.md)
 
 ### Complete overview of setups, modules, parts to buy and parts to print
-Find a complete shopping'n'printing list including estimated prices for all modules and setups in this [BILL OF MATERIALS](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)!
+I'm afraid we outgrew the situation where we could provide a real complete overview. If you're looking for something specific, check the [SITEMAP](./SITEMAP.md) of the core repository and the [overview of the openUC2 repositories](./REPO_OVERVIEW.md).
+
+For the basic modules and setups, find a complete shopping'n'printing list including estimated prices for all modules and setups in this [BILL OF MATERIALS](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)!
 
 ### List of available Setups
 
@@ -127,9 +129,10 @@ Our goal is to make as many setups as possible available, so that people can pla
 
 Currently, **UC2** consists of the following repositories:
 
- - [UC2 Hardware Repo (core)](https://github.com/bionanoimaging/UC2-GIT/) (this repository) - [SITEMAP](./SITEMAP.md)
- - [UC2 Software Control Repo](https://github.com/bionanoimaging/UC2-Software-GIT)
- - [UC2+ImJoy Image Processing Repo](https://github.com/bionanoimaging/UC2-ImJoy-Plugins)
+* [UC2 Hardware Repo (core)](https://github.com/openUC2/UC2-GIT) (this repository) - [SITEMAP](./SITEMAP.md)
+* [UC2 Software Control Repo](https://github.com/openUC2/UC2-Software-GIT)
+* A whole bunch of other repositories! In order to keep the main repository small and maintain a good structure, each sub-project has its own repository - find the [overview here](./REPO_OVERVIEW.md)
+
 
 ### Software
 
