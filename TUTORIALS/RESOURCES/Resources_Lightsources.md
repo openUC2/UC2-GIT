@@ -16,6 +16,9 @@ Unknown | Heavy duty lasers (can be ordered from University!) | 25-100€ | [roi
 Ansmann Laser pointer | 2in1 red laser pointer and white LED | 5 € |[Conrad electronics](https://www.conrad.de/de/p/ansmann-laserpointer-2in1-reichweite-max-im-freifeld-50-m-2162622.html)|Yes
 |  Micost Optotech | All kind of laser sources (also fiber coupled)  | >20€  | [Micost Optotech](http://www.micost-optotech.com/products.asp?did=94&xid=96)  | Yes |
 |  Roithner Laser | All kind of laser sources (also fiber coupled)  | >200€  | [Roithner Laser](http://www.roithner-laser.com/ld_fiber.html)  | Yes |
+|  Lasertack GmbH | High quality lasers at low prices made in Germany | >200€  | [Lasertack (Kassel, GER)](https://www.lasertack.com/en/55mw-488nm-laser-diode)  | No |
+
+
 
 Nice. There is also: Reutner (Österreich)und und Marco Lauschmann mit MQuadrat Laser
 
