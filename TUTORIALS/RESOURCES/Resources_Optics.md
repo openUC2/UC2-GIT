@@ -19,6 +19,7 @@ We cannot guarantee the availability of the components. If you know other compon
 Kern Optics OBB-A1280 | Microscope Objective 4×/0,1 | 54€ | [conrad.de](https://www.conrad.de/de/p/kern-optics-obb-a1280-mikroskop-objektiv-4-x-passend-fuer-marke-mikroskope-kern-1320594.html) | Yes
 Kern Optics OBB-A1108 | Microscope Objective 10×/0,3 | 40€ | [conrad.de](https://www.conrad.de/de/p/kern-optics-obb-a1108-mikroskop-objektiv-10-x-passend-fuer-marke-mikroskope-kern-1320473.html) | Yes
 Cellphone Lenses | Can be used for microscpic objective lenses  | 4€ | [Megapixellenses](https://www.megapixellenses.com/) | Yes
+View Solutions Microscopy parts | Microscope Objective a kinds of low-cost obejctives (long working distances!) | 40-1000€ | [View Solutions](https://viewsolutionsinc.com/microscope-parts-accessories/objective/) | Yes
 
 
 

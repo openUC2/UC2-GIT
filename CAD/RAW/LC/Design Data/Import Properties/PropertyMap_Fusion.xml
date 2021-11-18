@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+    =====================================================================================
+
+                        Copyright 2014 Autodesk, Inc.
+
+                            All Rights Reserved.
+
+    =====================================================================================
+    
+    File name: PropertyMap_Fusion.xml
+
+
+    <> What is it?
+
+        This XML file defines the standard properties mapping from source Fusion files
+        to Inventor files during import.
+
+
+    <> Note for changes
+    
+        Each of the "Property" element defines a standard Inventor property mapping, where:
+            - Name attribute: specifies the Inventor standard property name, which shouldn't
+              be changed;
+            - Source child element with its Name attribute : specify the name of a source 
+              file property that should be converted to the Inventor standard property.
+       
+        Each "Property" element can have zero to more "Source" child elements. This allows 
+        multiple language strings for the same property from source files. 
+
+
+    <> Example
+    
+            <Property Name="Part Number">
+                <Source Name="PartNo" />
+                <Source Name="零件号" />
+            </Property>
+    
+        The above settings cause Inventor to convert either "PartNo" or "零件号" (Chinese) in 
+        source files to the standard property "Part Number".
+
+
+    <> Note
+    
+        The behavior of mapping multiple source properties into a single Inventor standard 
+        property is that one nondeterministic property from the set will be picked.
+    
+-->
+<PropertiesMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1">
+  <!-- Mapped properties -->
+  <Property Name="Part Number">
+    <Source Name="Part Number" />
+  </Property>
+  <Property Name="Title">
+    <Source Name="Title" />
+  </Property>
+  <Property Name="Description">
+    <Source Name="Description" />
+  </Property>
+  <!-- Need aquire via service -->
+  <Property Name="Author"/>
+  <Property Name="Creation Date"/>
+  <Property Name="Revision Number" />
+  <!-- Physical material properties -->
+  <Property Name="Material" />
+  <Property Name="Density"/>
+  <!-- not available properties -->
+  <Property Name="Subject"/>
+  <Property Name="Keywords"/>
+  <Property Name="Comments"/>
+  <Property Name="Last Saved By"/>
+  <Property Name="Category"/>
+  <Property Name="Manager"/>
+  <Property Name="Company"/>
+  <Property Name="Project"/>
+  <Property Name="Cost Center" />
+  <Property Name="Checked By" />
+  <Property Name="Checked Date" />
+  <Property Name="Eng. Approved By" />
+  <Property Name="Eng. Approved Date" />
+  <Property Name="Status" />
+  <Property Name="Web Link" />
+  <Property Name="Vendor" />
+  <Property Name="Mfg. Approved By" />
+  <Property Name="Mfg. Approved Date" />
+  <Property Name="Estimated Cost" />
+  <Property Name="Design State" />
+  <Property Name="Designer" />
+  <Property Name="Engineer" />
+  <Property Name="Authority" />
+  <Property Name="Stock Number" />
+  <Property Name="Last Updated With" />
+  <Property Name="Checked Out By" />
+  <Property Name="Checked Out" />
+  <Property Name="Checked In By" />
+  <Property Name="Checked In" />
+  <Property Name="Checkout Workgroup" />
+  <Property Name="Checkout Worksspace" />
+  <Property Name="Next Version" />
+  <Property Name="Current Version" />
+  <Property Name="Previous Version" />
+  <Property Name="Mass Unit" />
+  <Property Name="Mass" />
+  <Property Name="Volume" />
+</PropertiesMap>

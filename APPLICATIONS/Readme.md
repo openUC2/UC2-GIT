@@ -35,6 +35,9 @@ This is a growing list of available optical setups coming along with tutorials a
 * [Mach-Zehnder Interferometer (Interference effect of light)](./APP_Mach-Zehnder_Interferometer)
 * [Double Slit Experiment (Interference effect of light)](./APP_Double-slit_Experiment)
 * [Spectrometer](APP_Spectrometer)
+
+
+### POLARIZATION Setups
 * [Crossed Polarizers](APP_POL_Crossed_Polarizers)
 * [Three Polarizers](APP_POL_Three_Polarizers)
 * [Circular Polarizer](APP_POL_Circular_Polarizer)
@@ -44,13 +47,8 @@ This is a growing list of available optical setups coming along with tutorials a
 * [Many Microscope Slides Experiment](APP_POL_Many_Microscope_Slides_Experiment)
 * [Newton's Rings Experiment](APP_POL_Newtons_Rings_Experiment)
 
-### COMPLEX Modules and Setups
-* [openSIM - Structured Illumination Microscopy (2-Beam Interference Super-Resolution)](./APP_openSIM)
-* [openISM - Image Scanning Microscopy (Confocal or Super-confocal imaging)](./APP_openISM)
-* [openKOEHLER - Phase Contrast enhancement using an adaptive Koehler illumination](./APP_openKOEHLER)
-* [openXYtable - Module](./APP_openXYTable)
-* [Ptychography](./APP_Ptychography)
-* [Fluorescent Microscope with infinity optics and a Laser ](./APP_Fluorescence_Microscope_infinity)
+### COMPLEX Setups and sub-projects
+All the more complicated systems have their own repository - see the overview [here](../REPO_OVERVIEW.md).
 
 
 ## General Naming Convention and Structure of UC2
