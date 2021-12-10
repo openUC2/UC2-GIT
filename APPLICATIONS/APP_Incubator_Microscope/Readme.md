@@ -69,6 +69,46 @@ A simplified scheme can be found [here](./IMAGES/UC2_fullBOX_incubator_EN.pdf).
 
 A detailed alignment instructions are also found [here](../../WORKSHOP/TiM2020).
 
+
+### Assembling the injection moulded cube-based microscope
+<p align="center">
+<img src="./IMAGES/image001.jpg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/image002.jpg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/image003.jpg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/image004.jpg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/image005.jpg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/image006.jpg" width="500">
+
+</p><p align="center">
+<img src="./IMAGES/image007.jpg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/image008.jpg" width="500">
+</p>
+
+<p align="center">
+<img src="./IMAGES/image009.jpg" width="500">
+</p>
+
+
+
+
 ## <img src="./IMAGES/L.png" width="40"> Electronics
 🢂 Find more in the [Electronics section](../../ELECTRONICS)
 
