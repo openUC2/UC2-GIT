@@ -43,6 +43,10 @@ Raspberry Pi 4 B | 4x 1,5 GHz, 2 GB RAM, WLAN, BT | 40€ | [reichelt.de](https:
 |  Allied Vision | Monochrome Camera, CSI-2 Port or USB3 | ca. 270€  | [Allied Vision](https://www.alliedvision.com/en/products/embedded-vision-cameras/detail/Alvium/1800%20U-158.html)  | No |
 Raspberry Pi Camera | NoIR V2.1 8MP 1080P | 27€ | [Amazon](https://www.amazon.de/Raspberry-Pi-v2-1-1080P-Kamera-Modul/dp/B01ER2SMHY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1LUZK9XHFS5CX&keywords=raspberry+pi+camera+v2.1&qid=1565008837&s=gateway&sprefix=raspberry+pi+camera+%2Caps%2C163&sr=8-4) | Yes
 Raspberry Pi Camera | 8MP, IR, v2, IMX219PQ | 30€ | [reichelt.de](https://www.reichelt.de/raspberry-pi-kamera-8mp-ir-v2-imx219pq-rasp-can-2-p170857.html?&trstct=pos_2) | Yes
+Daheng Imaging | IMX174 | 500€ | [https://www.get-cameras.com/](https://www.get-cameras.com/) | Yes
+Astronomy camera (cooled + python interface) | IMX182| 790€ | [http://www.touptek.com/](http://www.touptek.com/) | No
+
+
 
 
 ### Cables and co
