@@ -1,7 +1,7 @@
 # The BOX
 Our BOXes are still a work-in-progress - we test them, optimize them and continually improve them. The renderings on this page show the BOXes in v3 version, but you still find the documentation of their assembly and alignment relying on images of v2 cubes.
 
-TheBOX is a number of optical experiments compiled into a ready-to-use box. We created three variants for different levels of knowledge and skills. SimpleBOX covers the basic experiments of ray optics for secondary and high schools. CourseBOX  teaches the core principles of microscopy from a simple lens to laser scanning confocal microscopy. FullBOX is meant to be used by university students and researchers for the everyday labwork or advanced courses. The PolarBOX includes eight experiments to show the polarization of light with simple setups.
+TheBOX is a number of optical experiments compiled into a ready-to-use box. We created three variants for different levels of knowledge and skills. SimpleBOX covers the basic experiments of ray optics for secondary and high schools. CourseBOX  teaches the core principles of microscopy from a simple lens to laser scanning confocal microscopy. FullBOX is meant to be used by university students and researchers for the everyday labwork or advanced courses. The PolarBOX includes eight experiments to explain the light polarization via basic and easy setups.
 
 ## Choose [MiniBOX / SimpleBOX](./SimpleBOX) for schools and demonstration of basic optical principles:
 <p align="center">

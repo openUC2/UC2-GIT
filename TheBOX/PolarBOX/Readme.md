@@ -1,39 +1,42 @@
 # PolarBOX
 
-The PolarBOX is an UC2 ready-to-use toolbox that can be built 7 different polarization experiments using 3D printed blocks. You just need some basic and cheap components for preparing your own PolarBOX.  
+The PolarBOX is a UC2 ready-to-use toolbox built with 8 different polarization experiments using 3D printed unit blocks. You just need some essential and cheap components for preparing your own PolarBOX.  
 
-I can hear the questions inside your head (Yes, I read your mind).     
+I can hear the questions inside your head. Let's clarify your questions!
 
-*What is the polarization of the light?*   
-Polarization is a one of the fundamental properties of  the light and is related to the internal geometry of the source radiation.
+*What is the polarization of the light?*           
 
-Our life is surrounded by unpolarized light in daily life, sunlight. Light is an electromagnetic wave. Electric field vectors of sunlight/unpolarized light vibrate in all planes randomly along the direction of propagation. When the electric field vectors are limited using a filtration mechanism to a single plane, linearly or plane polarized light is obtained with respect to the direction of propagation. In the plane-parallel or plane-polarized light, all waves vibrate in a single plane along the propagation direction.
+Polarization is one of the fundamental properties of light and is related to the internal geometry of the source radiation.
 
-Most common filtration mechanism is using the polarizing filter. Polarizers can be used to filter, modify, or analyze the polarization states of light in an optical system. The electric field of light can be polarized as parallel to the plane of incidence, p-polarized, or perpendicular to this plane, s-polarized using a linear polarizer.  
+Our life is surrounded by unpolarized light in daily life, sunlight. Light is an electromagnetic wave. Electric field vectors of sunlight/unpolarized light vibrate in all planes randomly along the direction of propagation. When the electric field vectors are limited with a filtration mechanism to a single plane, linearly, or plane-polarized light is produced to the direction of propagation. In the plane-parallel or plane-polarized light, all waves vibrate in a single plane along the propagation direction.
 
-Let's see s-polarized light in the scheme:
+The most common filtration mechanism is using the polarizing filter. Polarizers can be used to filter, modify, or analyze the polarization states of light in an optical system. The electric field of light can be polarized as parallel to the plane of incidence, p-polarized, or perpendicular to this plane, s-polarized using a linear polarizer.  
 
-<p align="center">
-<img src="./IMAGES/linear_polarizer_s_vertical.png"
-width="450">
-</p>
-
-And the rings bell for p-polarized light:
+The electric field of light can be polarized as parallel to the plane of incidence as p-polarized light:  
 
 <p align="center">
 <img src="./IMAGES/linear_polarizer_p_horizontal.png"
 width="450">
 </p>
 
+... or perpendicular to propagation direction as s-polarized light using a linear polarizer:   
 
-Polarized light can be produced from the common physical processes such as absorption, reflection, diffraction (or scattering), and birefringence.
+<p align="center">
+<img src="./IMAGES/linear_polarizer_s_vertical.png"
+width="450">
+</p>
+
+
+We can produce polarized light from the standard physical processes such as absorption, reflection, diffraction (or scattering), and birefringence.
+
+The complete look of PolarBOX with its all parts:
 
 <p align="center">
 <img src="./IMAGES/PolarBOX.JPG"
 width="350">
 </p>
 
-Box opening for a PolarBOX user:
+Box opening of the PolarBOX:
 <p align="center">
 <img src="./IMAGES/polarbox-box-opening.gif"
 width="350">
@@ -52,7 +55,7 @@ Which experiments can we build with this box? Let's see!
 <p align="center">
 <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Crossed_Polarizers">
 <img src="./IMAGES/crossed_polarizers_diagram_2.png"
-width="640">
+width="740">
 </p>
 
 
@@ -78,20 +81,20 @@ width="840">
 ### 4. Circular Polarizer
 [LINK](../../APPLICATIONS/APP_POL_Circular_Polarizer)
 
-clockwise circular Polarizer:
+Clockwise Circular Polarizer:
 
 <p align="center">
 <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Circular_Polarizer">
 <img src="./IMAGES/right_circular_polarizers_diagram.png"
-width="640">
+width="740">
 </p>
 
-Counter-clockwise circular Polarizer:
+Counter-Clockwise circular Polarizer:
 
 <p align="center">
 <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Circular_Polarizer">
 <img src="./IMAGES/left_circular_polarizers_diagram.png"
-width="840">
+width="740">
 </p>
 
 ### 5. Brewster Angle Experiment (Polarization by Reflection)
@@ -109,7 +112,7 @@ width="400">
 <p align="center">
 <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Many_Microscope_Slides_Experiment">
 <img src="./IMAGES/Many_Microscope_Slides_Experiment.png"
-width="400">
+width="640">
 </p>
 
 ### 7. Stress Birefringence Experiment
@@ -118,7 +121,7 @@ width="400">
 <p align="center">
 <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Stress_Birefringence">
 <img src="./IMAGES/Stress_Birefringence.png"
-width="540">
+width="740">
 </p>
 
 
@@ -128,7 +131,7 @@ width="540">
 <p align="center">
 <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Newtons_Rings_Experiment">
 <a href="#"><img src="./IMAGES/Newtons_Rings_3.png"
-width="640"></a>
+width="540"></a>
 </p>
 
 
