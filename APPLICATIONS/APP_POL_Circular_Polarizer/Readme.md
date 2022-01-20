@@ -1,43 +1,36 @@
 # Circular Polarizer   
 
-<p align="center">
-<img src="./IMAGES/Assembly_Circular_Polarizer 2.png"
-width="500">
-</p>
+In nature, a circular polarization state is uncommon but not impossible. Some organisms can produce circularly polarized light by reflection. Many beetles, shrimps, and other species reflect strongly circularly polarized light, while a few fireflies emit circularly polarized light. If we look at an ordinary day of a human being, we use circularly polarized light to have fun with 3D cinema goggles!
 
-In nature, a circular polarization state is uncommon but not impossible. Some organisms can produce circularly polarized light by reflection. Many kinds of beetles, shrimps and several other organisms reflect a strongly circularly polarized light or the larvae of few fireflies emit circularly polarized light.
-If we look at an ordinary day of a human being, we use circularly polarized light to have fun with 3D cinema goggles!
-
-The polarized glasses are used in cinemas in that it changes patterns between every frame of a movie. The left eye part of the glasses have a left-hand circular polarizer and the right eye side has a right-hand circular polarizer.  
+The polarized glasses are used in cinemas in that it changes patterns between every frame of a movie. The left eye part of the glasses has a left-hand circular polarizer, and the right eye side has a right-hand circular polarizer.   
 
 <p align="center">
 <img src="./IMAGES/3D cinema goggle.JPG"
 width="400">
 </p>
 
-3D cinema glasses can produce two different types of polarization together. One side has a linear polarizing filter and another side has a circular polarizing filter. When we watch a movie, our glasses turn the incoming light to circularly polarized light. But if turn the glasses and look at the movie, we use linearly polarized light to watch our 3D movie. Naturally, we can't watch the movie.
+3D cinema glasses can produce two different types of polarization together. One side has a linear polarizing filter, and another has a circular polarizing filter. Our glasses turn the incoming light to circularly polarized light when we watch a movie. But if we turn the glasses and look at the film, we use linearly polarized light to watch our 3D movie. Naturally, we can't watch the movie.
 
 
 ##### What is the difference between Linear and Circular Polarization?
 
-The polarized light can be classified into three types depending on the orientation of the electric field: Linear polarized, circular polarized and elliptical polarized light.
+The polarized light can be classified into three types depending on the orientation of the electric field: Linear polarized, circularly polarized, and elliptically polarized light.
 
 If the electric field of light is limited to a single plane along the propagation direction, the light is *linearly polarized*.
-If the electric field of light has two perpendicular linear components to each other with equal amplitudes and  π/2 phase differences, the light is *circularly polarized*.
-Depending on the rotation direction, light can be left-hand circularly polarized or right-hand circularly polarized.
-If the electric field of light describes an ellipse shape with the combination of two linear components with unequal amplitudes and/or phase difference (not π/2), the light is *elliptically polarized*. Circular and linear polarized light can be described as special cases of elliptically polarized light.
+If the electric field of light has two perpendicular linear components with equal amplitudes and  π/2 phase differences, the light is *circularly polarized*. Light can be left-hand circularly polarized or right-hand circularly polarized depending on the rotation direction.
+If the electric field of light describes an ellipse shape with the combination of two linear components with unequal amplitudes or phase differences (not π/2), the light is *elliptically polarized*. Circular and linear polarized light can be described as exceptional cases of elliptically polarized light.
 
 
-Clockwise (right-circularly polarized light)
+Clockwise or right-hand circularly polarized light experimental diagram:
 <p align="center">
 <img src="./IMAGES/right_circular_polarizers_diagram.png  "
 width="600">
 </p>
 
-counterclockwise (left-circularly polarized light)
+Counterclockwise or left-hand circularly polarized light experiment sketch:
 <p align="center">
 <img src="./IMAGES/left_circular_polarizers_diagram.png"
-width="600">
+width="650">
 </p>
 
 
@@ -48,54 +41,64 @@ width="600">
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×1 Baseplate | - | 8.22€  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 1|
-|  Module: Polarizer Cube | Linearly Polarizing Filter  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)  | 1|
-|  Module: Circular Polarizer Cube | To insert the circular polarizer filter film | €  | [Circular Polarizer](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
-|  Module: Sample Holder Cube | To insert the sample  | 2.5 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
-|  Module: Sample Holder Comb | To hold the screen | 1.4 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
-|  Module: Flashlight Lamp Cube | Light source  | €  | [Flashlight ](../../CAD/Assembly_Cube_Eyepiece_v2)  | 1|
+|  4 × 1 Baseplate | Skeleton of the System | 5.47 €  | [Base-plate](../../CAD/ASSEMBLY_Baseplate)  | 1 |
+|  MODULE:  *Polarizer Cube* | It holds the linearly polarizing filter  |  4.31 €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  | 1 |
+|  MODULE: Circular Polarizer Cube | It inserts the circular polarizer filter film into the setup | 2.96 €  | [Circular Polarizer](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |
+| EXTRA MODULE: Sample Holder Cube | It holds the Sample (Not Used in Practice) | 1.3 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
+|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
+|  EXTRA MODULE: Flashlight Lamp Cube | Light Source  | 7.2 €  | [Flashlight](../../CAD/ASSEMBLY_CUBE_Flashlight)  | 1 |
 
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 1 × [Base-plate 4×1](../../CAD/ASSEMBLY_Baseplate_v2/STL/Assembly_base_4x1.stl)
-* 4 × [Cube base 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl)
-* 5 x [Cube lid 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl)
-* 1 × [Polarizer Guide](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Guide.stl)
-* 1 × [Polarizer Wheel](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Wheel.stl)
-* 1 × [Polarizer Lid](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer/STL/20_Cube_Insert_Polarizer_Lid.stl)
-* 1 × [Circular Polarizing Filter Holder](../../APPLICATIONS/APP_POL_Circular_Polarizer/STL/20_Cube_POL_Circular_Polarizer_holder.stl)
-* 1 x [Circular Polarizing Filter Holder Clamp](../../APPLICATIONS/APP_POL_Circular_Polarizer/STL/20_Cube_POL_Circular_Polarizer_holder_clamp.stl)
-* 1 × [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl)
-* 1 x [Sample Holder Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl)
-* 1 × [Flashlight Holder](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl) - the diameter works for the flashlight linked in the eyepiece insert
-* 1 x [Sample Holder - comb](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl)
+* 1 × [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
+* 2 × [Cube base 1×1](.STL/10_Cube_1x1_v2.stl)
+* 2 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
+* 1 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
+* 1 × [Polarizer Wheel](./STL/20_POL_Cube_Insert_Linear_Polarizer_Wheel.stl)
+* 1 × [Polarizer Lid](./STL/20_POL_Cube_Insert_Linear_Polarizer_Lid.stl)
+* 1 × [Circular Polarizing Filter Holder](./STL/20_Cube_POL_Circular_Polarizer_holder.stl)
+* 1 x [Circular Polarizing Filter Holder Clamp](./STL/20_Cube_POL_Circular_Polarizer_clamp.stl)   
+__*Extra Holder Parts but NOT USED in our experiment:*__
+* 1 × [Sample Holder](./STL/20_Cube_insert_Sample_holder.stl)
+* 1 x [Sample Holder Clamp](./STL/20_Cube_Insert_Sample_clamp.stl)
+* 1 x [Sample Holder - comb](./STL/20_Cube_Sampleholder.stl)
+* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular_v2.stl)
+
+<p align="center">
+<img src="./IMAGES/Assembly_POL_Circular_Polarizer_Experiment.png"
+width="500">
+</p>
 
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 1× Linear Polarizer Film [🢂](https://amazon.de/-/en/Polarizing-A4-Sheet-Polarizer-Educational-Polarized/dp/B06XWXRB75/ref=pd_sbs_421_3/262-2115536-7173904?_encoding=UTF8&pd_rd_i=B06XWXRB75&pd_rd_r=b88e7340-b061-4e0b-8daa-8ec533fd7c71&pd_rd_w=qlkAY&pd_rd_wg=At9EZ&pf_rd_p=a03ac387-6e4d-4f6b-96b6-1853da0bb37b&pf_rd_r=49HX2Z4Q5KRZSQ2FWRQR&psc=1&refRID=49HX2Z4Q5KRZSQ2FWRQR)
-* 1 x 3D cinema googles [🢂](https://www.amazon.de/ZYCX123-Passive-Circular-Polarized-Projector/dp/B07JHRYPF5/ref=sr_1_26?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=polarize+3d+cinema+glasses&qid=1599483648&sr=8-26)    
-* 32 × 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
-* 16 × (or 24× for both surfaces) Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-* 1 × flashlight [🢂](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)
-* Sample
-* White paper or cardboard as a screen
+* 1 × Linear Polarizing Sheet [🢂](https://amazon.de/-/en/Polarizing-A4-Sheet-Polarizer-Educational-Polarized/dp/B06XWXRB75/ref=pd_sbs_421_3/262-2115536-7173904?_encoding=UTF8&pd_rd_i=B06XWXRB75&pd_rd_r=b88e7340-b061-4e0b-8daa-8ec533fd7c71&pd_rd_w=qlkAY&pd_rd_wg=At9EZ&pf_rd_p=a03ac387-6e4d-4f6b-96b6-1853da0bb37b&pf_rd_r=49HX2Z4Q5KRZSQ2FWRQR&psc=1&refRID=49HX2Z4Q5KRZSQ2FWRQR)
+* 16 × 5 mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+* 16 x Screws DIN912 ISO 4762 - M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 3 x Screws DIN912 ISO 4762 M2×16 mm [🢂](https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0)
+* 1 x 3D cinema googles [🢂](https://www.amazon.de/-/en/dp/B09K7DGJ47/ref=sr_1_7?keywords=polarize+3d+kino+brille&qid=1636044007&sr=8-7)  
+* _NOT USED_ 1 × flashlight [🢂](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)
 
-<p align="center">
-<img src="./IMAGES/Assembly_Circular_Polarizer.png"
-width="400">
-</p>
+
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
 
-* [Baseplate](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Linear Polarizer Cube](../../CAD/ASSEMBLY_CUBE_Linear_Polarizer)
+* [Baseplate](../../CAD/ASSEMBLY_Baseplate)
+* [Linear Polarizer Cube](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  
 * [Circular Polarizer Cube](../../CAD/ASSEMBLY_POL_Circular_Polarizer)
-* [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
-* [Sample Holder Cube Comb for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
-* [Flashlight cube](../../CAD/Assembly_Cube_Eyepiece_v2) : Simply insert the holder in a cube and close it as any other
+__*EXTRA MODULES:*__
+* [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
+* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)
+* [Flashlight cube](../../CAD/ASSEMBLY_CUBE_Flashlight)
 
+
+If all written modules are used in the experiment, the setup will look like:
+
+<p align="center">
+<img src="./IMAGES/Assembly_Circular_Polarizer 2.png"
+width="500">
+</p>
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 

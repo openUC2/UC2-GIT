@@ -7,10 +7,10 @@ width="400">
 
 There are several ways to produce polarized light. Optical processes reflection or refraction can be easily used to achieve that.  
 When unpolarized light rays travel through a dielectric or insulating material, reflected and refracted light rays from the flat surface are mostly partially polarized.  
-The amount of reflected light is specified by the optical properties of the reflecting surface such as plastic sheets, glass, or highways.         
-The incident angle of the incoming electromagnetic light wave and refractive indices of media in which light travels through them have an important role in the polarization degree of the reflected and refracted polarized light beams.
+The amount of reflected light is specified by the optical properties of the reflecting surface, such as plastic sheets, glass, or highways.         
+The incident angle of the incoming electromagnetic lightwave and refractive indices of media in which light travels through them have an essential role in the polarization degree of the reflected and refracted polarized light beams.
 
-You can see the representation of reflection and transmission of unpolarized light with most of the incident angle (𝜃) values below.
+You can see the reflection and transmission of unpolarized light with most of the incident angle (𝜃) values below.
 
 <p align="center">
 <img src="./IMAGES/polarization by reflection.png"
@@ -19,7 +19,7 @@ width="400">
 
 ###### What is the Brewster angle?
 
-When the incident ray travels from a less dense medium (n1) to a higher dense medium (n2) with a critical angle (𝜃_B), the reflected ray is perfectly s-polarized in which the orientation of the electric field vectors are perpendicular to the plane of incidence. Otherwise, the refracted beam has a 90-degree polarization angle, and it is partially p-polarized. This critical angle is called a Brewster angle or polarization angle and is represented by 𝜃_B in the scheme below.
+When the incident ray travels from a less dense medium (n1) to a higher dense medium (n2) with a critical angle (𝜃_B), the reflected ray is perfectly s-polarized in which the orientation of the electric field vectors are perpendicular to the plane of incidence. Otherwise, the refracted beam has a 90-degree polarization angle, partially p-polarized. This critical angle is called a Brewster angle or polarization angle and is represented by 𝜃_B in the scheme below.
 
 
 <p align="center">
@@ -28,7 +28,7 @@ width="400">
 </p>
 
 
-Brewster angle can be easily calculated using refractive indices of travelling media of light. In our experiment, we used air (n1 = 1) as the first medium in which light comes first and reflects in this part and microscope slide glass (n2 = 1.5) as the second medium which light transmits through. When we calculate the Brewster angle for our experiment, it equals approximately 57 degrees and the equation can be found below.  
+Brewster angle can be easily calculated using refractive indices of traveling media of light. In our experiment, we used air (n1 = 1) as the first medium in which light comes first and reflects in this part and microscope slide glass (n2 = 1.5) as the second medium, and the light transmits through. When we calculate the Brewster angle for our experiment, it equals approximately 57 degrees, and we can find the equation below.  
 
 <p align="center">
 <img src="./IMAGES/brewster angle equation7.png"
@@ -37,57 +37,63 @@ Brewster angle can be easily calculated using refractive indices of travelling m
 width="110">
 </p>
 
-
 ## <img src="./IMAGES/D.png" width="40">Parts
 
 ### Modules for this setup
 
 |  Name | Properties  |  Price | Link  | # |
 |---|---|---|---|---|
-|  4×4 Baseplate | - |  32.68 €  | [Base-plate](../../CAD/ASSEMBLY_Baseplate_v2)  | 1|
-|  Module: Polarizer Cube | Linearly Polarizing Filter  |  €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Polarizer_Holder)  | 1|
-|  Module: Mirror Holder Cube | To insert the microscope slide in Brewster angle (53 degrees)  |  €  | [Microscope Slide Holder](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2)  | 1|
-|  Module: Laser Cube | LASER source holder  | 18.4 €  | [Light Source ](../../CAD/ASSEMBLY_CUBE_Laser_v2)  | 1|
-|  Module: Sample Holder Comb | To hold the screen | 1.4 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1|
+|  4×4 Baseplate | Skeleton of the System |  21.79 €  | [Base-plate](../../CAD/ASSEMBLY_Baseplate)  | 1 |
+|  MODULE:  *Polarizer Cube* | It holds the linearly polarizing filter  |  4.31 €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  | 1 |
+|  MODULE: *Kinematic Microscope Slide Holder* | It is used to insert the microscope slide with Brewster angle (53 degrees)  |  3.7 €  | [Microscope Slide Holder](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 1 |
+|  MODULE: *Laser Cube* | LASER source holder  | 17.68 €  | [Light Source ](../../CAD/ASSEMBLY_CUBE_Laser)  | 1 |
+|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
 
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 1 × [Base-plate 4×4](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/Assembly_base_4x4.stl)
-* 3 × [Cube base 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl)
-* 4 x [Cube lid 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl)
-* 1 × [Polarizer Guide](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Guide.stl)
-* 1 × [Polarizer Wheel](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Wheel.stl)
-* 1 × [Polarizer Lid](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Lid.stl)
-* 1 × [Laser Mount](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Laser_Mount.stl)
-* 1 x [Laser Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/00_Laser_Clamp_OnOffSwitch.stl)
-* 1 x [Microscope Slide Holder Brewster Angle Base](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/20_POL_brewster _angle_Kinematic_Mirrormount_base.stl)
-* 1 × [Microscope Slide Holder Brewster Angle Plate](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/20_POL_brewster _angle_Kinematic_Mirrormount_plate.stl)
-* 1× [Microscope Slide Holder Brewster Angle Clamp ](../../APPLICATIONS/APP_POL_Brewster_Angle_Experiment/STL/20_POL_brewster _angle_Kinematic_Mirrormount_clamp.stl)
-* 1x [Sample Holder - comb](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl)
+* 1 × [Base-plate 4×4](./STL/Assembly_base_4x4.stl)
+* 3 × [Cube base 1×1](.STL/10_Cube_1x1_v2.stl)
+* 3 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
+* 1 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
+* 1 × [Polarizer Wheel](./STL/20_POL_Cube_Insert_Linear_Polarizer_Wheel.stl)
+* 1 × [Polarizer Lid](./STL/20_POL_Cube_Insert_Linear_Polarizer_Lid.stl)  
+* 1 × [Kinematic Slide Holder - Base](./STL/20_POL_Cube_Insert_Brewster_Angle_Kinematic_Mount_Base_57_degrees.stl)
+* 1 × [Kinematic Slide Holder - Plate](./STL/20_POL_Cube_Insert_Brewster_Angle_Kinematic_Mount_Plate_57_degrees.stl)
+* 1 × [Kinematic Slide Holder - Clamp](./STL/20_POL_Cube_Insert_Brewster_Angle_Kinematic_Mount_Clamp_57_degrees.stl)
+* 2 × [Laser Mount](./STL/20_Cube_Insert_Laser_Mount.stl)
+* 1 x [Laser Clamp](./STL/00_Laser_Clamp_OnOffSwitch.stl)   
 
-
-## <img src="./IMAGES/B.png" width="40"> Additional components
-* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
-* 1 × Linear Polarizer Film [🢂](https://amazon.de/-/en/Polarizing-A4-Sheet-Polarizer-Educational-Polarized/dp/B06XWXRB75/ref=pd_sbs_421_3/262-2115536-7173904?_encoding=UTF8&pd_rd_i=B06XWXRB75&pd_rd_r=b88e7340-b061-4e0b-8daa-8ec533fd7c71&pd_rd_w=qlkAY&pd_rd_wg=At9EZ&pf_rd_p=a03ac387-6e4d-4f6b-96b6-1853da0bb37b&pf_rd_r=49HX2Z4Q5KRZSQ2FWRQR&psc=1&refRID=49HX2Z4Q5KRZSQ2FWRQR)
-* 16 × 5 mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
-* 16 × (or 32 ×) Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
-* 1 × LASER [🢂](https://www.laserlands.net/11040037.html)
-* Sample
-* White paper or cardboard as a screen
 
 <p align="center">
 <img src="./IMAGES/Assembly_polarization_Brewster_Angle_Experiment 3.png"
 width="450">
 </p>  
 
+
+## <img src="./IMAGES/B.png" width="40"> Additional components
+* Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
+* 1 × Linear Polarizing Sheet [🢂](https://amazon.de/-/en/Polarizing-A4-Sheet-Polarizer-Educational-Polarized/dp/B06XWXRB75/ref=pd_sbs_421_3/262-2115536-7173904?_encoding=UTF8&pd_rd_i=B06XWXRB75&pd_rd_r=b88e7340-b061-4e0b-8daa-8ec533fd7c71&pd_rd_w=qlkAY&pd_rd_wg=At9EZ&pf_rd_p=a03ac387-6e4d-4f6b-96b6-1853da0bb37b&pf_rd_r=49HX2Z4Q5KRZSQ2FWRQR&psc=1&refRID=49HX2Z4Q5KRZSQ2FWRQR)
+* 67 × 5 mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+* 28 x Screws DIN912 ISO 4762 - M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
+* 3 x Screws DIN912 ISO 4762 M2×16 mm [🢂](https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0)
+* Microscope Rectangular Coverslips [🢂](https://www.ebay.de/itm/223260964391?hash=item33fb63f627:g:pukAAOSwsGpb%7E14N)
+* 1 × 5 mW Blue UV Laser Pointer [🢂](https://www.laserlands.net/5mw-450nm-blue-laser-pointer-pen.html)
+
+<p align="center">
+<img src="./IMAGES/Assembly_polarization_Brewster_Angle_Experiment_with_Screen_3.png"
+width="450">
+</p>
+
 ## <img src="./IMAGES/A.png" width="40"> Assembly
 
-* [Baseplate](../../CAD/ASSEMBLY_Baseplate_v2/)
-* [Polarizer Cube](../../CAD/ASSEMBLY_POL_Polarizer_Holder)
-* [Microscope Slide Holder Cube](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45_v2) : It has same assembling procedure with Mirror Holder Diagonal 45 degrees.
-* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/)
-* [LASER Source cube](../../CAD/ASSEMBLY_CUBE_Laser_v2)
+* [Baseplate](../../CAD/ASSEMBLY_Baseplate)
+* [Linear Polarizer Cube](../../CAD/ASSEMBLY_POL_Linear_Polarizer)
+* [Microscope Slide Holder Cube](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45) : Brewster Angle Cube has same assembling procedure with Kinematic Mirror Holder 45 degrees.
+* [LASER Holder Cube](../../CAD/ASSEMBLY_CUBE_Laser)   
+__*EXTRA MODULES:*__
+* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)
+
 
 All necessary parts to assemble a Microscope Slide Glass Holder Module be gathered in the image below:
 

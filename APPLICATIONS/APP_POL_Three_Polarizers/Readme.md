@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="./IMAGES/three_polarizers_diagram_2.png"
+<img src="./IMAGES/three_polarizers_diagram.png"
 width="750">
 </p>
 
@@ -84,7 +84,7 @@ width="450">
 ## <img src="./IMAGES/A.png" width="40"> Assembly
 
 * [Baseplate](../../CAD/ASSEMBLY_Baseplate)
-* [Polarizer Cube](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  
+* [Linear Polarizer Cube](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  
 __*EXTRA MODULES:*__
 * [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
 * [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)
