@@ -14,7 +14,7 @@ In the experiment, a medium is constructed with 7 adjacent microscope slides by 
 
 <p align="center">
 <img src="./IMAGES/Polarization by Refraction.png"
-width="450">
+width="550">
 </p>
 
 *Polarization by Refraction:* Unpolarized or partially polarized incoming light travels, reflects as partially s polarized and transmits as partially p polarized between medium 1and medium 2.
@@ -32,19 +32,6 @@ width="450">
 |  MODULE: *Laser Cube* | LASER source holder  | 17.68 €  | [Light Source ](../../CAD/ASSEMBLY_CUBE_Laser)  | 1 |
 |  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
 
-
-### <img src="./IMAGES/P.png" width="40">Parts to print
-
-
-* 5× [Cube base 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Cube_1x1_v2.stl)
-* 5x [Cube lid 1×1](../../CAD/ASSEMBLY_CUBE_Base_v2/STL/10_Lid_1x1_v2.stl)
-* 2× [Polarizer Guide](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Guide.stl)
-* 2× [Polarizer Wheel](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Wheel.stl)
-* 2× [Polarizer Lid](../../CAD/ASSEMBLY_POL_Polarizer_Holder/STL/20_Cube_Insert_Polarizer_Lid.stl)
-* 1× [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_insert_Sample_holder.stl)
-* 1x [Sample Holder Clamp](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Insert_Sample_clamp.stl)
-* 1× [Flashlight Holder](../../CAD/ASSEMBLY_CUBE_Eyepiece_v2/STL/20_Cube_Insert_Holder-okular_v2.stl) - the diameter works for the flashlight linked in the eyepiece insert
-* 1x [Sample Holder - comb](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2/STL/20_Cube_Sampleholder.stl)
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 

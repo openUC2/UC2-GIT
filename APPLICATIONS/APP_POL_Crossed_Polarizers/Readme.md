@@ -42,8 +42,8 @@ Time to build a Crossed Polarizers setup!
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 1 × [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
-* 2 × [Cube base 1×1](.STL/10_Cube_1x1_v2.stl)
+* 1 × [Base-plate 4×1](./STL/Assembly_Cube_Baseplate_4x1_v2.stl)
+* 2 × [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
 * 2 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
 * 2 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
 * 2 × [Polarizer Wheel](./STL/20_POL_Cube_Insert_Linear_Polarizer_Wheel.stl)
@@ -52,7 +52,7 @@ __*Extra Holder Parts but NOT USED in our experiment:*__
 * 1 × [Sample Holder](./STL/20_Cube_insert_Sample_holder.stl)
 * 1 x [Sample Holder Clamp](./STL/20_Cube_Insert_Sample_clamp.stl)
 * 1 x [Sample Holder - comb](./STL/20_Cube_Sampleholder.stl)
-* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular_v2.stl)
+* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
 
 <p align="center">
 <img src="./IMAGES/Assembly_Crossed_Polarizer.png"

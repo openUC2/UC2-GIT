@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="./IMAGES/Active_Solution_Experiment.png"
-width="650">
+width="750">
 </p>
 
 The optical activity was discovered by Arago in the quartz in 1811. In 1847, molecular chirality was observed by scientist Louis Pasteur. He found that natural tartaric acid is optically active, and its external crystals have isomerism and chiral morphology *[1]*.
@@ -17,7 +17,7 @@ Two simple sugar-water solutions were prepared and used in the experiment. The f
 
 <p align="center">
 <img src="./IMAGES/Experiment_sugar_solutions.JPG"
-width="650">
+width="550">
 </p>
 
 In the image, Table sugar-water solution is shown in left-side, Grape sugar-water solution is in the right glass.
@@ -44,7 +44,7 @@ In the image, Table sugar-water solution is shown in left-side, Grape sugar-wate
 * 2 × [Polarizer Lid](./STL/20_POL_Cube_Insert_Linear_Polarizer_Lid.stl)  
 * 1 × [Cube Lid 2x1](./STL/10_Lid_el_2x1_v2.stl)
 * 1 x [Active Solution Chamber - Alternative 1 with Two Sections](./STL/10_POL_Active_Solution_Chamber_90long_40High_Double_TOP.stl)
-* 1 x [Active Solution Chamber - Alternative 2 with One Sections](./STL/10_POL_Active_Solution_Chamber_90long_40High_TOP.stl)
+* 1 x [Active Solution Chamber - Alternative 2 with One Sections](./STL/10_POL_Active_Solution_Chamber_90long_40High_TOP.stl)    
 __*Extra Holder Parts but NOT USED in our experiment:*__
 * 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular_v2.stl)
 
@@ -75,7 +75,7 @@ __*EXTRA MODULE:*__
 
 <p align="center">
 <img src="./IMAGES/Assembly_POL_Active_Solution_Exp_Double.png"
-width="450">
+width="550">
 </p>  
 
 
@@ -86,12 +86,12 @@ You can see the datils of the Active Solution Chamber designs.
 
 <p align="center">
 <img src="./IMAGES/Active_Solution_Chamber.JPG"
-width="450">
+width="350">
 </p>
 
 <p align="center">
 <img src="./IMAGES/Active_Solution_Chamber_2.JPG"
-width="450">
+width="350">
 </p>
 
 Two different chamber design is shown in the image below. Left-side chamber has a container only for 1 active solution. In the other one, two different mixtures can be observed in the same time.  
@@ -112,12 +112,12 @@ width="450">
 The chamber module was inserted between two linear polarizers, the Crossed Polarizers. We can observe the direct effect of the angle between two linear polarizers in the video below. The intensity of passing light through crossed polarizers changes when the direction angle of the polarization filter changes 360 degrees.
 
 Experimental result of two optically active solutions is shown in the video:      
-   Left Is Grape Sugar-water Solution (Glucose) Table,          
-   Right Is Sugar-water Solution (Sucrose
+   *  Left Is Grape Sugar-water Solution (Glucose) Table,          
+   * Right Is Sugar-water Solution (Sucrose
 
 <p align="center">
 <img src="./IMAGES/Active_Solution_Experiment.gif"
-width="400">
+width="500">
 </p>
 
 

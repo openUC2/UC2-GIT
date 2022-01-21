@@ -43,7 +43,7 @@ width="650">
 |---|---|---|---|---|
 |  4 × 1 Baseplate | Skeleton of the System | 5.47 €  | [Base-plate](../../CAD/ASSEMBLY_Baseplate)  | 1 |
 |  MODULE:  *Polarizer Cube* | It holds the linearly polarizing filter  |  4.31 €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  | 1 |
-|  MODULE: Circular Polarizer Cube | It inserts the circular polarizer filter film into the setup | 2.96 €  | [Circular Polarizer](../../CAD/ASSEMBLY_CUBE_Sample_Holder_v2)  | 1 |
+|  MODULE: Circular Polarizer Cube | It inserts the circular polarizer filter film into the setup | 2.96 €  | [Circular Polarizer](../../CAD/ASSEMBLY_POL_Circular_Polarizer)  | 1 |
 | EXTRA MODULE: Sample Holder Cube | It holds the Sample (Not Used in Practice) | 1.3 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
 |  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
 |  EXTRA MODULE: Flashlight Lamp Cube | Light Source  | 7.2 €  | [Flashlight](../../CAD/ASSEMBLY_CUBE_Flashlight)  | 1 |
@@ -51,19 +51,19 @@ width="650">
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 1 × [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
-* 2 × [Cube base 1×1](.STL/10_Cube_1x1_v2.stl)
+* 1 × [Base-plate 4×1](./STL/Assembly_Cube_Baseplate_4x1_v2.stl)
+* 2 × [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
 * 2 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
 * 1 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
 * 1 × [Polarizer Wheel](./STL/20_POL_Cube_Insert_Linear_Polarizer_Wheel.stl)
 * 1 × [Polarizer Lid](./STL/20_POL_Cube_Insert_Linear_Polarizer_Lid.stl)
-* 1 × [Circular Polarizing Filter Holder](./STL/20_Cube_POL_Circular_Polarizer_holder.stl)
-* 1 x [Circular Polarizing Filter Holder Clamp](./STL/20_Cube_POL_Circular_Polarizer_clamp.stl)   
+* 1 × [Circular Polarizing Filter Holder](./STL/20_POL_Cube_Circular_Polarizer_holder.stl)
+* 1 x [Circular Polarizing Filter Holder Clamp](./STL/20_POL_Cube_Circular_Polarizer_clamp.stl)   
 __*Extra Holder Parts but NOT USED in our experiment:*__
 * 1 × [Sample Holder](./STL/20_Cube_insert_Sample_holder.stl)
 * 1 x [Sample Holder Clamp](./STL/20_Cube_Insert_Sample_clamp.stl)
 * 1 x [Sample Holder - comb](./STL/20_Cube_Sampleholder.stl)
-* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular_v2.stl)
+* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
 
 <p align="center">
 <img src="./IMAGES/Assembly_POL_Circular_Polarizer_Experiment.png"

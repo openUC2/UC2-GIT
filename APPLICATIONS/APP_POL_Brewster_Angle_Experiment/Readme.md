@@ -53,7 +53,7 @@ width="110">
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
 * 1 × [Base-plate 4×4](./STL/Assembly_base_4x4.stl)
-* 3 × [Cube base 1×1](.STL/10_Cube_1x1_v2.stl)
+* 3 × [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
 * 3 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
 * 1 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
 * 1 × [Polarizer Wheel](./STL/20_POL_Cube_Insert_Linear_Polarizer_Wheel.stl)
@@ -61,8 +61,10 @@ width="110">
 * 1 × [Kinematic Slide Holder - Base](./STL/20_POL_Cube_Insert_Brewster_Angle_Kinematic_Mount_Base_57_degrees.stl)
 * 1 × [Kinematic Slide Holder - Plate](./STL/20_POL_Cube_Insert_Brewster_Angle_Kinematic_Mount_Plate_57_degrees.stl)
 * 1 × [Kinematic Slide Holder - Clamp](./STL/20_POL_Cube_Insert_Brewster_Angle_Kinematic_Mount_Clamp_57_degrees.stl)
-* 2 × [Laser Mount](./STL/20_Cube_Insert_Laser_Mount.stl)
-* 1 x [Laser Clamp](./STL/00_Laser_Clamp_OnOffSwitch.stl)   
+* 2 × [Laser Holder](./STL/20_Cube_Insert_Laser_Holder_v2.stl)
+* 1 x [Laser Clamp](./STL/00_Laser_Clamp_OnOffSwitch.stl)         
+__*Extra Holder Parts but NOT USED in our experiment:*__
+* 1 x [Sample Holder - comb](./STL/20_Cube_Sampleholder.stl)
 
 
 <p align="center">

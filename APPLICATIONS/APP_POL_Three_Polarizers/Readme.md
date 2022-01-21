@@ -51,17 +51,17 @@ Three linear polarizers are used in the experiment, and each of them has differe
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 1 × [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
+* 1 × [Base-plate 4×1](./STL/Assembly_Cube_Baseplate_4x1_v2.stl)
 * 3 × [Cube base 1×1](.STL/10_Cube_1x1_v2.stl)
 * 3 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
 * 3 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
 * 3 × [Polarizer Wheel](./STL/20_POL_Cube_Insert_Linear_Polarizer_Wheel.stl)
-* 3 × [Polarizer Lid](./STL/20_POL_Cube_Insert_Linear_Polarizer_Lid.stl)  
+* 3 × [Polarizer Lid](./STL/20_POL_Cube_Insert_Linear_Polarizer_Lid.stl)     
 __*Extra Holder Parts but NOT USED in our experiment:*__
 * 1 × [Sample Holder](./STL/20_Cube_insert_Sample_holder.stl)
 * 1 x [Sample Holder Clamp](./STL/20_Cube_Insert_Sample_clamp.stl)
 * 1 x [Sample Holder - comb](./STL/20_Cube_Sampleholder.stl)
-* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular_v2.stl)
+* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
 
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
