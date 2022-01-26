@@ -96,22 +96,21 @@ width="450">
 You will find the basic version of the experiment without a Screen adn Linear Polarizer module below.
 
 <p align="center">
-<img src="./IMAGES/Many_Microscope_Slides_Exp_2.jpg"
-width="450">
+<img src="./IMAGES/Many_Microscope_Slides_Exp_2.JPG"
+width="400">
 </p>
 
 Images of the resulting experimental setup;     
 side view (top) , top view (bottom)
 
 <p align="center">
-<img src="./IMAGES/Many_Microscope_Slides_Exp_3
-.jpg"
-width="450">
+<img src="./IMAGES/Many_Microscope_Slides_Exp_3.jpg"
+width="400">
 </p>
 
 <p align="center">
-<img src="./IMAGES/Many_Microscope_Slides_Exp_4.jpg"
-width="450">
+<img src="./IMAGES/Many_Microscope_Slides_Exp_4.JPG"
+width="300">
 </p>
 
 We can observe the direct effect of the rotational angle of the linear polarizer in the video below. Laser light travels to microscope slides and air gap media several times and gets close to fully polarized light.  We can see this effect eith adding Linear Polarizer cube.       
