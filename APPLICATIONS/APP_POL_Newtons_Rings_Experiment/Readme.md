@@ -10,9 +10,6 @@ Newton's Rings are
 
 
 
-_TRY EXPERIMENT WITH BOTH LASER SOURCE AND FLASHLIGHT AND_
-
-
 ## <img src="./IMAGES/D.png" width="40">Parts
 
 ### Modules for this setup

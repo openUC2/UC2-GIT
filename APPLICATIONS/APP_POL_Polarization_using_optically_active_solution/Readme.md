@@ -36,8 +36,8 @@ In the image, Table sugar-water solution is shown in left-side, Grape sugar-wate
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 1 × [Base-plate 4×1](./STL/Assembly_base_4x1.stl)
-* 2 × [Cube base 1×1](.STL/10_Cube_1x1_v2.stl)
+* 1 × [Base-plate 4×1](./STL/Assembly_Cube_Baseplate_4x1_v2.stl)
+* 2 × [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
 * 2 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
 * 2 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
 * 2 × [Polarizer Wheel](./STL/20_POL_Cube_Insert_Linear_Polarizer_Wheel.stl)
@@ -46,7 +46,7 @@ In the image, Table sugar-water solution is shown in left-side, Grape sugar-wate
 * 1 x [Active Solution Chamber - Alternative 1 with Two Sections](./STL/10_POL_Active_Solution_Chamber_90long_40High_Double_TOP.stl)
 * 1 x [Active Solution Chamber - Alternative 2 with One Sections](./STL/10_POL_Active_Solution_Chamber_90long_40High_TOP.stl)    
 __*Extra Holder Parts but NOT USED in our experiment:*__
-* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular_v2.stl)
+* 1 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
 
 
 <p align="center">
@@ -91,7 +91,7 @@ width="350">
 
 <p align="center">
 <img src="./IMAGES/Active_Solution_Chamber_2.JPG"
-width="350">
+width="250">
 </p>
 
 Two different chamber design is shown in the image below. Left-side chamber has a container only for 1 active solution. In the other one, two different mixtures can be observed in the same time.  

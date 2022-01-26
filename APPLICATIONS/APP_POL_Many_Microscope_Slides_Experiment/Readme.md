@@ -28,27 +28,27 @@ width="550">
 |---|---|---|---|---|
 |  4×1 Baseplate | Skeleton of the System | 5.47 €  | [Base-plate](../../CAD/ASSEMBLY_Baseplate)  | 1 |
 |  MODULE:  *Polarizer Cube* | It holds the linearly polarizing filter  |  4.31 €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  | 1 |
-|  MODULE: *Many Microscope Slides Holder* | It hold 7 or more microscope slides back to back  | 2.11 €  | [Slides Holder](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
+|  MODULE: *Many Microscope Slides Holder* | It hold 7 or more microscope slides back to back  | 2.11 €  | [Slides Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
 |  MODULE: *Laser Cube* | LASER source holder  | 17.68 €  | [Light Source ](../../CAD/ASSEMBLY_CUBE_Laser)  | 1 |
-|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
+|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
 
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 1 × [Base-plate 4×4](./STL/Assembly_base_4x4.stl)
-* 2 × [Cube base 1×1](.STL/10_Cube_1x1_v2.stl)
+* 1 × [Base-plate 4×4](./STL/Assembly_Cube_Baseplate_4x1_v2.stl)
+* 2 × [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
 * 3 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
 * 1 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
 * 1 × [Polarizer Wheel](./STL/20_POL_Cube_Insert_Linear_Polarizer_Wheel.stl)
 * 1 × [Polarizer Lid](./STL/20_POL_Cube_Insert_Linear_Polarizer_Lid.stl)
 * 1 x [Many Microscope Slides Holder](./STL/20_Cube_Sampleholder.stl)
-* 2 × [Laser Mount](./STL/20_Cube_Insert_Laser_Mount.stl)
+* 2 × [Laser Mount](./STL/20_Cube_Insert_Laser_Holder_v2.stl)
 * 1 x [Laser Clamp](./STL/00_Laser_Clamp_OnOffSwitch.stl)   
 
 
 <p align="center">
 <img src="./IMAGES/Assembly_POL_Many_Microscope_Slides_Experiment.png"
-width="350">
+width="550">
 </p>  
 
 
@@ -64,46 +64,71 @@ width="350">
 
 <p align="center">
 <img src="./IMAGES/Assembly_POL_Many_Microscope_Slides_Experiment_2.png"
-width="350">
+width="550">
 </p>  
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
 
 * [Baseplate](../../CAD/ASSEMBLY_Baseplate)
 * [Linear Polarizer Cube](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  
-* [Microscope Slides Holders](../../CAD/ASSEMBLY_CUBE_Sample_Comb)   
+* [Microscope Slides Holders](../../CAD/ASSEMBLY_CUBE_Sample_Holder)   
 * [LASER Holder Cube](../../CAD/ASSEMBLY_CUBE_Laser)    
 __*EXTRA MODULES:*__
-* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)
+* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
 
 <p align="center">
 <img src="./IMAGES/Assembly_POL_Many_Microscope_Slides_Holder.png"
-width="350">
+width="550">
 </p>  
 
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-We printed and assembled the module parts. After that, we bought the necessary components and inserted them into cubes.  
-You will find the basic version of ........... experiment without a specific sample and extra light source below.
+
+We printed and assembled Many Microscope Slides Experiment modules parts. Then, we bought the necessary components and inserted them into the cubes.         
+The printed and assembled Sample Holder Comb module with nine microscope glasses:
 
 <p align="center">
-<img src="./IMAGES/"
+<img src="./IMAGES/Many_Microscope_Slides_Exp_1.jpg"
+width="450">
+</p>
+
+You will find the basic version of the experiment without a Screen adn Linear Polarizer module below.
+
+<p align="center">
+<img src="./IMAGES/Many_Microscope_Slides_Exp_2.jpg"
+width="450">
+</p>
+
+Images of the resulting experimental setup;     
+side view (top) , top view (bottom)
+
+<p align="center">
+<img src="./IMAGES/Many_Microscope_Slides_Exp_3
+.jpg"
 width="450">
 </p>
 
 <p align="center">
-<img src="./IMAGES/"
+<img src="./IMAGES/Many_Microscope_Slides_Exp_4.jpg"
 width="450">
 </p>
 
-We can observe the
+We can observe the direct effect of the rotational angle of the linear polarizer in the video below. Laser light travels to microscope slides and air gap media several times and gets close to fully polarized light.  We can see this effect eith adding Linear Polarizer cube.       
+The intensity of passing light through linear polarizer  changes when the direction angle of the polarization filter changes 360 degrees.     
+
+We can see the change with two videos below. They demonstrates the experiment from two different views.
 
 <p align="center">
-<img src="./IMAGES/"
-width="400">
+<img src="./IMAGES/many_microscope_slides_exp_video_2.gif"
+width="450">
 </p>
 
+
+<p align="center">
+<img src="./IMAGES/many_microscope_slides_exp_video.gif"
+width="300">
+</p>
 
 ## New Ideas
 

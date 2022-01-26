@@ -36,7 +36,7 @@ Time to build a Crossed Polarizers setup!
 |  4×1 Baseplate | Skeleton of the System | 5.47 €  | [Base-plate](../../CAD/ASSEMBLY_Baseplate)  | 1 |
 |  MODULE:  *Polarizer Cube* | It holds the linearly polarizing filter  |  8.62 €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  | 2 |
 | EXTRA MODULE: Sample Holder Cube | It holds the Sample (Not Used in Practice) | 1.3 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
-|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
+|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
 |  EXTRA MODULE: Flashlight Lamp Cube | Light Source  | 7.2 €  | [Flashlight](../../CAD/ASSEMBLY_CUBE_Flashlight)  | 1 |
 
 
@@ -52,7 +52,7 @@ __*Extra Holder Parts but NOT USED in our experiment:*__
 * 1 × [Sample Holder](./STL/20_Cube_insert_Sample_holder.stl)
 * 1 x [Sample Holder Clamp](./STL/20_Cube_Insert_Sample_clamp.stl)
 * 1 x [Sample Holder - comb](./STL/20_Cube_Sampleholder.stl)
-* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
+* 1 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
 
 <p align="center">
 <img src="./IMAGES/Assembly_Crossed_Polarizer.png"
@@ -75,7 +75,7 @@ width="450">
 * [Linear Polarizer Cube](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  
 __*EXTRA MODULES:*__
 * [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
-* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)
+* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
 * [Flashlight cube](../../CAD/ASSEMBLY_CUBE_Flashlight)
 
 If all written modules are used in the experiment, the setup will look like:

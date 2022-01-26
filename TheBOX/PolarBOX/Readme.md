@@ -1,4 +1,10 @@
-# PolarBOX
+
+
+<p align="center">
+<img src="./IMAGES/PolarBOX_logo.png"
+width="450">
+</p>
+
 
 The PolarBOX is a UC2 ready-to-use toolbox built with 8 different polarization experiments using 3D printed unit blocks. You just need some essential and cheap components for preparing your own PolarBOX.  
 
@@ -79,9 +85,11 @@ width="840">
 
 
 ### 4. Circular Polarizer
-[LINK](../../APPLICATIONS/APP_POL_Circular_Polarizer)
 
-Clockwise Circular Polarizer:
+
+[Clockwise Circular Polarizer:](../../APPLICATIONS/APP_POL_Circular_Polarizer)
+
+
 
 <p align="center">
 <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Circular_Polarizer">
@@ -89,7 +97,7 @@ Clockwise Circular Polarizer:
 width="740">
 </p>
 
-Counter-Clockwise circular Polarizer:
+Counter-Clockwise Circular Polarizer:
 
 <p align="center">
 <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/APPLICATIONS/APP_POL_Circular_Polarizer">

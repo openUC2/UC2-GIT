@@ -44,7 +44,7 @@ Three linear polarizers are used in the experiment, and each of them has differe
 |  4×1 Baseplate | Skeleton of the System | 5.47 €  | [Base-plate](../../CAD/ASSEMBLY_Baseplate)  | 1 |
 |  MODULE:  *Polarizer Cube* | It holds the linearly polarizing filter  |  13.43 €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  | 3 |
 | EXTRA MODULE: Sample Holder Cube | It holds the Sample (Not Used in Practice) | 1.3 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
-|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
+|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
 |  EXTRA MODULE: Flashlight Lamp Cube | Light Source  | 7.2 €  | [Flashlight](../../CAD/ASSEMBLY_CUBE_Flashlight)  | 1 |
 
 
@@ -52,7 +52,7 @@ Three linear polarizers are used in the experiment, and each of them has differe
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
 * 1 × [Base-plate 4×1](./STL/Assembly_Cube_Baseplate_4x1_v2.stl)
-* 3 × [Cube base 1×1](.STL/10_Cube_1x1_v2.stl)
+* 3 × [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)  
 * 3 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
 * 3 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
 * 3 × [Polarizer Wheel](./STL/20_POL_Cube_Insert_Linear_Polarizer_Wheel.stl)
@@ -61,7 +61,7 @@ __*Extra Holder Parts but NOT USED in our experiment:*__
 * 1 × [Sample Holder](./STL/20_Cube_insert_Sample_holder.stl)
 * 1 x [Sample Holder Clamp](./STL/20_Cube_Insert_Sample_clamp.stl)
 * 1 x [Sample Holder - comb](./STL/20_Cube_Sampleholder.stl)
-* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
+* 1 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
 
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
@@ -87,7 +87,7 @@ width="450">
 * [Linear Polarizer Cube](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  
 __*EXTRA MODULES:*__
 * [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
-* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)
+* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
 * [Flashlight cube](../../CAD/ASSEMBLY_CUBE_Flashlight)
 
 

@@ -14,7 +14,7 @@ You can see the reflection and transmission of unpolarized light with most of th
 
 <p align="center">
 <img src="./IMAGES/polarization by reflection.png"
-width="400">
+width="450">
 </p>
 
 ###### What is the Brewster angle?
@@ -24,7 +24,7 @@ When the incident ray travels from a less dense medium (n1) to a higher dense me
 
 <p align="center">
 <img src="./IMAGES/polarization Brewster Angle_2.png"
-width="400">
+width="450">
 </p>
 
 
@@ -32,6 +32,7 @@ Brewster angle can be easily calculated using refractive indices of traveling me
 
 <p align="center">
 <img src="./IMAGES/brewster angle equation7.png"
+
 <p align="center">
 <img src="./IMAGES/refractive index rule.png"
 width="110">
@@ -47,12 +48,12 @@ width="110">
 |  MODULE:  *Polarizer Cube* | It holds the linearly polarizing filter  |  4.31 €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  | 1 |
 |  MODULE: *Kinematic Microscope Slide Holder* | It is used to insert the microscope slide with Brewster angle (53 degrees)  |  3.7 €  | [Microscope Slide Holder](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45)  | 1 |
 |  MODULE: *Laser Cube* | LASER source holder  | 17.68 €  | [Light Source ](../../CAD/ASSEMBLY_CUBE_Laser)  | 1 |
-|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
+|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
 
 
 ### <img src="./IMAGES/P.png" width="40">Parts to print
 
-* 1 × [Base-plate 4×4](./STL/Assembly_base_4x4.stl)
+* 1 × [Base-plate 4×4](./STL/Assembly_Cube_Baseplate_4x4_v2.stl)
 * 3 × [Cube base 1×1](./STL/10_Cube_1x1_v2.stl)
 * 3 x [Cube lid 1×1](./STL/10_Lid_1x1_v2.stl)
 * 1 × [Polarizer Guide](./STL/20_POL_Cube_Insert_Linear_Polarizer_Guide.stl)
@@ -94,7 +95,7 @@ width="450">
 * [Microscope Slide Holder Cube](../../CAD/ASSEMBLY_CUBE_Mirror_Kinematic_45) : Brewster Angle Cube has same assembling procedure with Kinematic Mirror Holder 45 degrees.
 * [LASER Holder Cube](../../CAD/ASSEMBLY_CUBE_Laser)   
 __*EXTRA MODULES:*__
-* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)
+* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
 
 
 All necessary parts to assemble a Microscope Slide Glass Holder Module be gathered in the image below:
@@ -135,7 +136,7 @@ Let's look at our almost perfectly polarized light by reflection experiment vide
 
 <p align="center">
 <img src="./IMAGES/video1_brewster.gif"
-width="450">
+width="350">
 </p>
 
 <p align="center">

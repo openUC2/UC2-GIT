@@ -24,13 +24,13 @@ If the electric field of light describes an ellipse shape with the combination o
 Clockwise or right-hand circularly polarized light experimental diagram:
 <p align="center">
 <img src="./IMAGES/right_circular_polarizers_diagram.png  "
-width="600">
+width="750">
 </p>
 
 Counterclockwise or left-hand circularly polarized light experiment sketch:
 <p align="center">
 <img src="./IMAGES/left_circular_polarizers_diagram.png"
-width="650">
+width="750">
 </p>
 
 
@@ -45,7 +45,7 @@ width="650">
 |  MODULE:  *Polarizer Cube* | It holds the linearly polarizing filter  |  4.31 €  | [Linear Polarizer](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  | 1 |
 |  MODULE: Circular Polarizer Cube | It inserts the circular polarizer filter film into the setup | 2.96 €  | [Circular Polarizer](../../CAD/ASSEMBLY_POL_Circular_Polarizer)  | 1 |
 | EXTRA MODULE: Sample Holder Cube | It holds the Sample (Not Used in Practice) | 1.3 €  | [Sample Holder](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
-|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)  | 1 |
+|  EXTRA MODULE: Screen Holder Cube | It holds the Display Screen (Not Used in Practice) | 1 €  | [Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)  | 1 |
 |  EXTRA MODULE: Flashlight Lamp Cube | Light Source  | 7.2 €  | [Flashlight](../../CAD/ASSEMBLY_CUBE_Flashlight)  | 1 |
 
 
@@ -63,7 +63,7 @@ __*Extra Holder Parts but NOT USED in our experiment:*__
 * 1 × [Sample Holder](./STL/20_Cube_insert_Sample_holder.stl)
 * 1 x [Sample Holder Clamp](./STL/20_Cube_Insert_Sample_clamp.stl)
 * 1 x [Sample Holder - comb](./STL/20_Cube_Sampleholder.stl)
-* 2 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
+* 1 × [Flashlight Holder](./STL/20_Cube_Insert_Holder-okular+flashlight_v2.stl)
 
 <p align="center">
 <img src="./IMAGES/Assembly_POL_Circular_Polarizer_Experiment.png"
@@ -86,11 +86,10 @@ width="500">
 
 * [Baseplate](../../CAD/ASSEMBLY_Baseplate)
 * [Linear Polarizer Cube](../../CAD/ASSEMBLY_POL_Linear_Polarizer)  
-* [Circular Polarizer Cube](../../CAD/ASSEMBLY_POL_Circular_Polarizer)
-__*EXTRA MODULES:*__
-* [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
-* [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Comb)
-* [Flashlight cube](../../CAD/ASSEMBLY_CUBE_Flashlight)
+* [Circular Polarizer Cube](../../CAD/ASSEMBLY_POL_Circular_Polarizer)                            
+* __*EXTRA MODULE:*__  [Sample Holder Cube](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
+* __*EXTRA MODULE:*__  [Sample Holder for Screen](../../CAD/ASSEMBLY_CUBE_Sample_Holder)
+* __*EXTRA MODULE:*__  [Flashlight cube](../../CAD/ASSEMBLY_CUBE_Flashlight)
 
 
 If all written modules are used in the experiment, the setup will look like:
@@ -107,7 +106,7 @@ The incoming light passes through a linear polarizer (grey UC2 cube). In the nex
 
 <p align="center">
 <img src="./IMAGES/circular pol exp.JPG"
-width="350">
+width="550">
 </p>
 
 The circular polarizer filter was taken out of 3D cinema glasses, and it was inserted into a sample holder insert. This new circular polarizer filter insert was assembled with a UC2 unit block. Ta-da! The circular polarizer cube is ready for flight.
