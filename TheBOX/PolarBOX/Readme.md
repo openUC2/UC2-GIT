@@ -43,6 +43,7 @@ width="350">
 </p>
 
 Box opening of the PolarBOX:
+
 <p align="center">
 <img src="./IMAGES/polarbox-box-opening.gif"
 width="350">

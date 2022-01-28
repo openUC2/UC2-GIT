@@ -11,7 +11,7 @@ TheBOX is a number of optical experiments compiled into a ready-to-use box. We c
 ## Choose [PolarBOX](./PolarBOX) for demonstration of the polarization effects of light:
 <p align="center">
 <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/TheBOX/PolarBOX">
-<img src="./IMAGES/BOX_polar.JPG"
+<img src="./IMAGES/BOX_polar.png"
 width="400"></a>
 </p>
 

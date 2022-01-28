@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./IMAGES/SimpleBOX_MiniBOX_logo.png"  width="700">
+<img src="./IMAGES/SimpleBOX_MiniBOX_logo.png"  width="800">
 </p>
 
 

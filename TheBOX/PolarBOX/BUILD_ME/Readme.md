@@ -6,6 +6,11 @@ This is a guide for building the [PolarBOX](../PolarBOX). If you were looking fo
 * Printing time including preparation: ...... days
 * Assembly time: 1 day
 
+<p align="center">
+<img src="./IMAGES/BOX_polar.JPG"
+width="450">
+</p>
+
 ### Content
 1. [Shopping](#-shopping)
 1. [3D printing](#-3d-printing)
