@@ -1,4 +1,7 @@
-# Full BOX
+<p align="center">
+<a href="#scheme02" name="scheme02"><img src="./IMAGES/FullBOX_logo.png" 
+width="600"></a>
+</p>
 
 The FullBOX is the home off all possible experiments that can be built using the UC2 toolbox. Therefore, the actual content changes from time to time to stay up to date.
 

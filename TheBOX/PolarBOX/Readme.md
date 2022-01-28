@@ -2,7 +2,7 @@
 
 <p align="center">
 <img src="./IMAGES/PolarBOX_logo.png"
-width="450">
+width="600">
 </p>
 
 

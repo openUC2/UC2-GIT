@@ -1,4 +1,7 @@
-# Course BOX
+<p align="center">
+<a href="#scheme02" name="scheme02"><img src="./IMAGES/CourseBOX_logo.png"
+width="600"></a>
+</p>
 
 The first version of this BOX was designed for the ["Principles of Light Microscopy" Course](https://www.biodip.de/resources/courses/light-microscopy/) of the Light Microscopy Facility of MPI-CBG in Dresden. The alignment procedure was developed and optimised by Sebastian Bundschuh. It follows the lectures of Peter Evennett that can be found [here](https://www.biodip.de/resources/teaching-material/basic-optical-concepts/).
 

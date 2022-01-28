@@ -1,4 +1,8 @@
-# Simple BOX and MiniBOX
+<p align="center">
+<img src="./IMAGES/SimpleBOX_MiniBOX_logo.png"  width="700">
+</p>
+
+
 SimpleBOX, equipped with passive components only, covers the basic experiments of ray optics. It is compact and cheap and therefore can be handed to children of all age. It completely covers the classical optics experiments of 7th-8th grade with an overhang to the high school experiments.
 
 Over time, we optimised the SimpleBOX to be even cheaper and even simpler and this is what we call the MiniBOX. MiniBOX has only 8 cubes but shows the same experiments as the SimpleBOX. When you print the parts at home, the overall price is around 80 €.
