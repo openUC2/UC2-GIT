@@ -3,11 +3,27 @@
 
 <p align="center">
 <img src="./IMAGES/newtons_rings_diagram.png"
-width="650">
+width="550">
 </p>
 
+Soap bubbles, oil slicks, or oxidized metal surfaces can create interference patterns under the white light illumination. In Newton's fringes, light reflects as a constructively or destructively interfered when the light waves travel through two surfaces. These combinations can be created using glass-air or air-glass contacts. These two interferences generate a concentric ring pattern of rainbow colours in white light illumination. In the same way, monochromatic light creates dark-light rings.    
 
-*WILL BE UPDATED*
+The simplest example can be made using two well-cleaned microscope slides as interfaces. Air film is enclosed between two slides inconsistently, and irregular-coloured fringes are generated under the daily light. When the pressure on the microscope slides changes, fringes move and change.
+
+In the Newton's Rings Experiment, we used a convex lens whose surface is placed on an optical plane glass, a microscope glass, from its long focal length side. These two pieces are held together with non-uniform thin air film. After light illumination through these surfaces,the air gap and random pressures on the microscope slide and plano-convex lens cause the generation of irregular coloured or single-colour fringes; Newton's Rings.
+
+#### The details of Experiment Modules
+
+Linear Polarizer is used in this experiment to visualize the polarization change of reflected lights from two media on the interference pattern.
+
+Additional module design was made for combining the microscope glass slide and plano-convex lens inside one cube insert. You can see rendered image of the Newton's Rings Lens-Slide Holder Module from Inventor.  
+
+<p align="center">
+<img src="./IMAGES/Assembly_cube_Lens+slide_holder_cube.png"
+width="450">
+</p>
+
+We used laser as a light souce in the setup. During the experiment, we extended beam size of the pen laser from 2 mm to 6 mm using a regular [Beam Expander Module](../../CAD/ASSEMBLY_CUBE_Beamexpander).
 
 
 ## <img src="./IMAGES/D.png" width="40">Parts
@@ -81,7 +97,71 @@ __*EXTRA MODULES:*__
 
 ## <img src="./IMAGES/E.png" width="40"> Results
 
-*WILL BE UPDATED*
+We started with building of UC2 Modules: design, print, assemble and be ready for testing. You can see our Beam Expander Cube on the 4x1 Baseplate below.
+
+<p align="center">
+<img src="./IMAGES/Beam_Expander_Cube.JPG"
+width="450">
+</p>
+
+Lens - Slide Holder Module is the key element for the generation of Newton's Rings. Necessary Module parts are shown in the image below.
+
+<p align="center">
+<img src="./IMAGES/Slide_Lens_Holder-Cube_Parts.JPG"
+width="450">
+</p>
+
+Assembled and Ready-To-Use module should look like ...
+
+<p align="center">
+<img src="./IMAGES/Slide_Lens_Holder_Cube.JPG"
+width="450">
+</p>
+
+
+***The experimental procedure*** begins with
+* installation the Laser and Beam Expander Modules on the 4x4 Baseplate.
+
+<p align="center">
+<img src="./IMAGES/Newtons_Rings_Exp_1.JPG"
+width="450">
+</p>
+
+* After checking the expansion of the laser beam width, Beam Splitter Cube is added to the setup.
+
+<p align="center">
+<img src="./IMAGES/Newtons_Rings_Exp_2.JPG"
+width="450">
+</p>
+
+* One of the divided incoming beams is directed to the Newton's Rings Lens & Microscope Holder cube, and light reflects from the convex lens-plate glass combination through the beam splitter cube, then on observation screen.
+
+<p align="center">
+<img src="./IMAGES/Newtons_Rings_Exp.JPG"
+width="450">
+</p>
+
+<p align="center">
+<img src="./IMAGES/Newtons_Rings_Exp_3.jpg"
+width="350">
+</p>
+
+Demonstrating the experiment is much easier with a laser light source and results in visible fringes. The Newton's Fringes will vary in colour from inner to outer circles if a white light source is replaced with a laser source.
+
+Let's zoom in Newton's Fringes with more experiment images!
+
+<p align="center">
+<img src="./IMAGES/Newtons_Rings_Exp_4.jpg"
+width="350">
+</p>
+
+The effect of the polarization angle change of the Linear Polarizer Filter can be seen in the video.
+
+<p align="center">
+<img src="./IMAGES/Newtons_Rings_Experiment_Polarizer.gif"
+width="350">
+</p>
+
 
 ## New Ideas
 We are open to new ideas. Please contribute to the project freely, this place is a free country which is built by codes and machines :robot:
