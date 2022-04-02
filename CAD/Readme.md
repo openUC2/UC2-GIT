@@ -72,13 +72,13 @@ Link             |  Image of the part
 ## More external modules 
 Link             |  Image of the part
 :-------------------------:|:-------------------------:
-[Optics rotator (e.g. Diffuser, Polarizer)](https://github.com/openUC2/UC2-Motorized-Rotator) | [<img src="https://github.com/openUC2/UC2-Motorized-Rotator/raw/master/IMAGES/Assembly_Cube_Template_rotational_filtermount_v3.png" width=200>](https://github.com/openUC2/UC2-Motorized-Rotator)
-[Microsyringepump](https://github.com/openUC2/UC2-MicroSyringePump) | [<img src="https://github.com/openUC2/UC2-MicroSyringePump/raw/main/IMAGES/IMG_20220111_085021.jpg" width=200>](https://github.com/openUC2/UC2-MicroSyringePump)
+[Optics rotator (e.g. Diffuser, Polarizer)](https://github.com/openUC2/UC2-Motorized-Rotator) | [<img src="https://github.com/openUC2/UC2-Motorized-Rotator/raw/master/IMAGES/Assembly_Cube_Template_rotational_filtermount_v3.png" width=400>](https://github.com/openUC2/UC2-Motorized-Rotator)
+[Microsyringepump](https://github.com/openUC2/UC2-MicroSyringePump) | [<img src="https://github.com/openUC2/UC2-MicroSyringePump/raw/main/IMAGES/IMG_20220111_085021.jpg" width=400>](https://github.com/openUC2/UC2-MicroSyringePump)
 [Multicolour Module](https://github.com/openUC2/UC2-MultiColour) | [<img src="https://github.com/openUC2/UC2-MicroSyringePump/raw/main/IMAGES/IMG_20220111_085021.jpg" width=200>](https://github.com/openUC2/UC2-MultiColour)
-[Waveguide Coupling Module](https://github.com/openUC2/UC2-waveguiding) | [<img src="https://github.com/openUC2/UC2-waveguiding/blob/master/imgs/holes.gif?raw=true" width=200>](https://github.com/openUC2/UC2-waveguiding)
-[Motorized XY table](https://github.com/openUC2/UC2-Motorized-XY-Table) | [<img src="https://github.com/openUC2/UC2-Motorized-XY-Table/raw/main/IMAGES/stage.gif" width=200>](https://github.com/openUC2/UC2-Motorized-XY-Table)
-[Micromanipulator Module](https://github.com/openUC2/openCM2_hardware) | [<img src="https://github.com/openUC2/openCM2_hardware/raw/main/imgs/overview.jpeg" width=200>](https://github.com/openUC2/openCM2_hardware)
-[Motorized XY micrometer stage](https://github.com/openUC2/UC2-MicronStage) | [<img src="https://github.com/openUC2/UC2-MicronStage/raw/master/IMAGES/Assembly_XY_stage_with_motors_v3.png" width=200>](https://github.com/openUC2/UC2-MicronStage)
+[Waveguide Coupling Module](https://github.com/openUC2/UC2-waveguiding) | [<img src="https://github.com/openUC2/UC2-waveguiding/blob/master/imgs/holes.gif?raw=true" width=400>](https://github.com/openUC2/UC2-waveguiding)
+[Motorized XY table](https://github.com/openUC2/UC2-Motorized-XY-Table) | [<img src="https://github.com/openUC2/UC2-Motorized-XY-Table/raw/main/IMAGES/stage.gif" width=400>](https://github.com/openUC2/UC2-Motorized-XY-Table)
+[Micromanipulator Module](https://github.com/openUC2/openCM2_hardware) | [<img src="https://github.com/openUC2/openCM2_hardware/raw/main/imgs/overview.jpeg" width=400>](https://github.com/openUC2/openCM2_hardware)
+[Motorized XY micrometer stage](https://github.com/openUC2/UC2-MicronStage) | [<img src="https://github.com/openUC2/UC2-MicronStage/raw/master/IMAGES/Assembly_XY_stage_with_motors_v3.png" width=400>](https://github.com/openUC2/UC2-MicronStage)
 
 
 
