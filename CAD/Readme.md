@@ -69,6 +69,17 @@ Link             |  Image of the part
 [Z-Stage (Sample) v3](./ASSEMBLY_CUBE_Z-STAGE_sample) | [<img src="./ASSEMBLY_CUBE_Z-STAGE_sample/IMAGES/Assembly2.png" width=200>](./ASSEMBLY_CUBE_Z-STAGE_sample)
 [XYZ-Stage v0](./ASSEMBLY_XYZ-STAGE_v0) | [<img src="./ASSEMBLY_XYZ-STAGE_v0/IMAGES/Assembly_cube_double_Zfocus.png" width=200>](./ASSEMBLY_XYZ-STAGE_v0)
 
+## More external modules 
+Link             |  Image of the part
+:-------------------------:|:-------------------------:
+[Optics rotator (e.g. Diffuser, Polarizer)](https://github.com/openUC2/UC2-Motorized-Rotator) | [<img src="https://github.com/openUC2/UC2-Motorized-Rotator/raw/master/IMAGES/Assembly_Cube_Template_rotational_filtermount_v3.png" width=200>](https://github.com/openUC2/UC2-Motorized-Rotator)
+[Microsyringepump](https://github.com/openUC2/UC2-MicroSyringePump) | [<img src="https://github.com/openUC2/UC2-MicroSyringePump/raw/main/IMAGES/IMG_20220111_085021.jpg" width=200>](https://github.com/openUC2/UC2-MicroSyringePump)
+[Multicolour Module](https://github.com/openUC2/UC2-MultiColour) | [<img src="https://github.com/openUC2/UC2-MicroSyringePump/raw/main/IMAGES/IMG_20220111_085021.jpg" width=200>](https://github.com/openUC2/UC2-MultiColour)
+[Waveguide Coupling Module](https://github.com/openUC2/UC2-waveguiding) | [<img src="https://github.com/openUC2/UC2-waveguiding/blob/master/imgs/holes.gif?raw=true" width=200>](https://github.com/openUC2/UC2-waveguiding)
+
+
+
+
 
 ## List of available Supplements:
 * [ELECTRONICS-RaspiTFT-Case](./EXT_ELECTRONICS-RaspiTFT-Case)
