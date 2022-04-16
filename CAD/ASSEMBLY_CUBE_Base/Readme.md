@@ -110,7 +110,7 @@ Insert the M3×8 screws into the Cube-Body.
 <img src="./IMAGES/UC2_Tut_Base_3DP_03.jpg" width="300">
 </p>
 
-3. Insert the M5×8 screws into the Cube-Body. In our experience, three are optimal. Distribute the over the area, don't put them all next to each other.
+3. Insert the M5×8 screws into the Cube-Body. In our experience, three are optimal. Distribute the over the area, don't put them all next to each other. These screws should later fit into the holes of the puzzle baseplate. 
 <p align="center">
 <img src="./IMAGES/UC2_Tut_Base_3DP_04.jpg" width="300">
 <img src="./IMAGES/UC2_Tut_Base_3DP_05.jpg" width="300">
