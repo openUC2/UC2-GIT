@@ -6,6 +6,8 @@
 
 ---
 
+**New**: :mag_right: A [youtube seminar](https://www.youtube.com/watch?v=Jp5TOqvf7Nc&ab_channel=mitirtmfm) that describes UC2:  :mag:
+
 **New**: :mag_right: The MiniBOX insert can be produced with a laser cutter now! Also, we improved the page and added some tips and trick for working with the [MiniBOX](./TheBOX/SimpleBOX)! Build it, use it, share your thoughts! :mag:
 
 **New**: We got the official open hardware certification of OSHWA, under [`[OSHW] DE00110 | Certified open source hardware | oshwa.org/cert`](https://certification.oshwa.org/de000110.html)!
