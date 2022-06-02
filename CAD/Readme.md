@@ -68,6 +68,9 @@ Link             |  Image of the part
 [Z-Stage (Objective) mechanical](./ASSEMBLY_CUBE_Z-STAGE_mechanical) | [<img src="./ASSEMBLY_CUBE_Z-STAGE_mechanical/IMAGES/Assembly_Cube_Z-Focus_Linearbearing_1x1_v4.png" width=200>](./ASSEMBLY_CUBE_Z-STAGE_mechanical)
 [Z-Stage (Sample) v3](./ASSEMBLY_CUBE_Z-STAGE_sample) | [<img src="./ASSEMBLY_CUBE_Z-STAGE_sample/IMAGES/Assembly2.png" width=200>](./ASSEMBLY_CUBE_Z-STAGE_sample)
 [XYZ-Stage v0](./ASSEMBLY_XYZ-STAGE_v0) | [<img src="./ASSEMBLY_XYZ-STAGE_v0/IMAGES/Assembly_cube_double_Zfocus.png" width=200>](./ASSEMBLY_XYZ-STAGE_v0)
+[ASSEMBLY_CUBE_ArduCamUSB](./ASSEMBLY_CUBE_ArduCamUSB) | [<img src="./ASSEMBLY_CUBE_ArduCamUSB/IMAGES/Assembly_ArducamUSB.PNG" width=200>](./ASSEMBLY_CUBE_ArduCamUSB)
+
+
 
 ## More external modules 
 Link             |  Image of the part
