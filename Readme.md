@@ -53,7 +53,16 @@ TheBOX | General toolbox  | Specific setup |Workshops
 
 ## Making **open-science** great again!
 
+**WARNING THIS SIDE IS UNDER REVISION! MANY CHANGES AHEAD!**
+
+
 **UC2** is a general-purpose modular framework for making interactive (electro)-optical projects. Most optical systems such as microscopes follow a simple **4f** or Fourier-optical principle, where lenses are aligned such that focal-planes of adjacent components overlap to limit the amount of aberrations as much as possible and to be able to predict the system-behavior easily using Fourier-transforms.
+
+<p align="center">
+<img src="./IMAGES/YoutubeSeminar.png" height="300">
+<br> A recent seminar explaining the core concept of UC2 and their recent advances <br>
+<p>
+
 
 Following this idea, a microscope as shown in **Fig 1** creates an angular magnification depending on the focal lenghts of the objective f<sub>obj</sub> and tube lens f<sub>tube</sub>:
 
@@ -64,13 +73,13 @@ Following this idea, a microscope as shown in **Fig 1** creates an angular magni
 <br> Fig. 1: Fourier-Optical Setup; Koehler Illumination where the illumination plane is conjugate to the objective pupil plane (BFP)
 </p>
 
-Besides optical components, the **UC2** building blocks can also host electronics such as **Arduinos** or **ESP32s** to create ''smart'' functions like LED array illumination, Z-stages, et cetera. Communication can be granted through the wired **I²** BUS or the wireless **MQTT** protocol.
+Besides optical components, the **UC2** building blocks can also host electronics such as **Arduinos** or **ESP32s** to create ''smart'' functions like LED array illumination, Z-stages, et cetera. Communication can be granted through the wired **USB Serial** BUS or the wireless **REST-API**. For this the dedicated [**UC2-REST**](https://github.com/openUC2/UC2-REST/blob/master/README.md) will help you setting everything up.
 
 **UC2** is in active development. It is meant to be used not only by beginners, but also for professionals dealing with optical setups on a daily basis. Its magnetic click-and-go concept simplifies the process of aligning and adjusting the parts giving new tools acting as rapid-prototyping devices. It also comes with a series of open-source workshops (in the future) explaining the theory behind optics.
 
 People are also encouraged to share their work. We are curious what the community is doing with our little blocks. All necessary details to modify the design of the blocks are given in the sub-folders of the specific folders. Share your ideas through our [@openUC2-Twitter account](https://twitter.com/openuc2).
 
-With the version UC2_v3 we introduced an **injection moulded (IM) cube**. This makes the assembly easier becuase no screws or magnets are needed for the Base Cube. But there is also a **3D-printed (3DP) cube** that is alternative to the IM one an it is fully compatible - the cubes and baseplates can be arbitrarily combined.   
+With the version *UC2_v3* we introduced an **injection moulded (IM) cube**. This makes the assembly easier becuase no screws or magnets are needed for the Base Cube. But there is also a **3D-printed (3DP) cube** that is alternative to the IM one an it is fully compatible - the cubes and baseplates can be arbitrarily combined.   
 Find out more about the two different Cube designs in [ASSEMBLY_CUBE_Base](./CAD/ASSEMBLY_CUBE_Base) and more about the baseplate puzzles in [ASSEMBLY_Baseplate](./CAD/ASSEMBLY_Baseplate).
 
 *We are working on making the IM Cubes and Puzzles available for sale, but we are not able to offer a 'BUY' button yet. If you are interested in buying some components, contact us via email info@useetoo.org*
@@ -130,14 +139,16 @@ Our goal is to make as many setups as possible available, so that people can pla
 Currently, **UC2** consists of the following repositories:
 
 * [UC2 Hardware Repo (core)](https://github.com/openUC2/UC2-GIT) (this repository) - [SITEMAP](./SITEMAP.md)
-* [UC2 Software Control Repo](https://github.com/openUC2/UC2-Software-GIT)
+* [UC2-REST Repo](https://github.com/openUC2/UC2-REST) - firmware for microcontrollers
+* [UC2 ImSwitch](https://github.com/beniroquai/ImSwitch) - control software for microscopes
 * A whole bunch of other repositories! In order to keep the main repository small and maintain a good structure, each sub-project has its own repository - find the [overview here](./REPO_OVERVIEW.md)
 
 
 ### Software
 
-There is a GitHub repository dedicated for the UC2 software. It can be found [here](https://github.com/bionanoimaging/UC2-Software-GIT).
-It supports you with controller APPS for the Raspberry Pi and Android Cellphones.
+There is a GitHub repository dedicated for the UC2 software. It can be found in the [UC2-REST Repo](https://github.com/openUC2/UC2-REST). 
+
+The old and deprecated Raspi version can be found [here](https://github.com/bionanoimaging/UC2-Software-GIT). This supports you with controller APPS for the Raspberry Pi and Android Cellphones.
 
 ### Workshops
 
@@ -175,4 +186,5 @@ This is the mess you can end up during Fourier-optics session using UC2 componen
 ## Credits
 If you find this project useful, please like this repository, follow us on Twitter and cite the webpage! :-)
 
-*B. Diederich, R. Lachmann, B. Marsikova, E. Bingöl, S. Carlstedt, X. Uwurukundo, H. Wang, R. Heintzmann, Lichtwerkstatt, IPHT Jena, HHMI Janelia Farm, UiO Oslo, NorMic  and many more*
+
+

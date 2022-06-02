@@ -1,6 +1,10 @@
 # Z-Stage based on a linear slide (Objective/Sample)
 
+<<<<<<< Updated upstream
 This is the repository for the newest Z-Stage (Sample/Objective) all finding space in a single Cube. It moves the sample/objective using a MGN12 linear rail (usually used in CNC machines/3D printers) using a NEMA motor.
+=======
+This is the repository for the newest Z-Stage (Sample/Objective) all finding space in a single Cube. It moves the sample/objective using a MGN12 linear rail (usually used in CNC machines/3D printers) using a NEMA motor. 
+>>>>>>> Stashed changes
 
 To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netlify.app/). The files themselves are in the [RAW](../RAW/STL) folder. The module can be built using injection-moulded (IM) or 3D-printed (3DP) cubes.
 
@@ -20,6 +24,7 @@ In order to automate this, we designed a very simple z-stage all fitting inside 
 * very low cost by relying on off-the-shelf components
 * motorized with a NEMA11 stepper motor
 
+<<<<<<< Updated upstream
 
 ## Hack
 
@@ -43,11 +48,17 @@ In order to automate this, we designed a very simple z-stage all fitting inside 
 <a href="#logo" name="logo"><img src="./IMAGES/Zstage_4.gif" width="300"></a>
 </p>
 
+=======
+>>>>>>> Stashed changes
 ## Parts
 The [Bill of Materials](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing) is always the most up-to-date version!
 
 ### <img src="../IMAGES/P.png" height="40"> 3D printing parts
+<<<<<<< Updated upstream
 * No support needed in all designs except in the
+=======
+* No support needed in all designs except in the 
+>>>>>>> Stashed changes
 * Carefully remove all support structures (if applicable)
 
 The Cube consists of the following components.
@@ -158,7 +169,11 @@ UC2_30_Cube_Z_Focus_MGN_NEMA_base_v3_v3.stl
 <img src="./IMAGES/Zstage_6.jpg" width="300">
 </p>
 
+<<<<<<< Updated upstream
 8. Mount the Wormdrive with the MGN Block using M3 screws
+=======
+8. Mount the Wormdrive with the MGN Block using M3 screws 
+>>>>>>> Stashed changes
 <p align="center">
 <img src="./IMAGES/Zstage_7.jpg" width="300">
 </p>

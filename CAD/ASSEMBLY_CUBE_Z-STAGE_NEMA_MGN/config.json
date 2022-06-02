@@ -1,8 +1,15 @@
 {
+<<<<<<< Updated upstream
     "name": "ASSEMBLY_CUBE_Z-STAGE_NEMA_MGN",
     "description": "",
     "image": "",
     "price": 14.3,
+=======
+    "name": "ASSEMBLY_CUBE_Z-stage_sample",
+    "description": "",
+    "image": "",
+    "price": 37.75,
+>>>>>>> Stashed changes
     "fixedOptions": {},
     "type": "module",
     "partslist": [
@@ -47,30 +54,52 @@
             "n_parts": 6.0
         },
         {
+<<<<<<< Updated upstream
             "name": "30_Cube_Z_Focus_MGN_NEMA_base_v3",
             "description": "",
             "image": "",
             "price": 0.3,
+=======
+            "name": "20_Cube_Insert_Z-Focus_single_motorized_v3",
+            "description": "",
+            "image": "",
+            "price": 0.8,
+>>>>>>> Stashed changes
             "is_printable": true,
             "n_parts": 1.0
         },
         {
+<<<<<<< Updated upstream
             "name": "30_Cube_Z_Focus_MGN_NEMA_Zeiss_26.8m_adapter_v3",
             "description": "",
             "image": "",
             "price": 0.6,
+=======
+            "name": "30_Coupling_Screw_28BYJ_M3_v3",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+>>>>>>> Stashed changes
             "is_printable": true,
             "n_parts": 1.0
         },
         {
+<<<<<<< Updated upstream
             "name": "00_Motorcoupling_5mm_M3_v3",
             "description": "",
             "image": "",
             "price": 0.1,
+=======
+            "name": "20_Cube_Insert_Lens_holder_RMS_63x_v3",
+            "description": "",
+            "image": "",
+            "price": 0.3,
+>>>>>>> Stashed changes
             "is_printable": true,
             "n_parts": 1.0
         },
         {
+<<<<<<< Updated upstream
             "name": "30_Cube_Z_Focus_MGN_NEMA_adapter_v3",
             "description": "",
             "image": "",
@@ -91,10 +120,33 @@
             "description": "",
             "image": "",
             "price": 10.0,
+=======
+            "name": "Microscope Objective 10x",
+            "description": "",
+            "image": "",
+            "price": 15.4,
             "is_printable": false,
             "n_parts": 1.0
         },
         {
+            "name": "Screws M3x12",
+            "description": "",
+            "image": "",
+            "price": 0.6,
+            "is_printable": false,
+            "n_parts": 2.0
+        },
+        {
+            "name": "M3x30 screw with nut (non-magnetic)",
+            "description": "",
+            "image": "",
+            "price": 0.1,
+>>>>>>> Stashed changes
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+<<<<<<< Updated upstream
             "name": "Screws M3x12; M3x18; M3x30",
             "description": "",
             "image": "",
@@ -115,10 +167,33 @@
             "description": "",
             "image": "",
             "price": 0.1,
+=======
+            "name": "M3x30 screw with nut (non-magnetic)",
+            "description": "",
+            "image": "",
+            "price": 0.1,
             "is_printable": false,
             "n_parts": 1.0
         },
         {
+            "name": "ESP32",
+            "description": "",
+            "image": "",
+            "price": 8.0,
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+            "name": "28-BYJ stepper motor with driver board",
+            "description": "",
+            "image": "",
+            "price": 5.35,
+>>>>>>> Stashed changes
+            "is_printable": false,
+            "n_parts": 1.0
+        },
+        {
+<<<<<<< Updated upstream
             "name": "NEMA11 Stepper motor",
             "description": "",
             "image": "",
@@ -131,6 +206,20 @@
             "description": "",
             "image": "",
             "price": 5.0,
+=======
+            "name": "Female-Female Jumper Wire",
+            "description": "",
+            "image": "",
+            "price": 0.6,
+            "is_printable": false,
+            "n_parts": 6.0
+        },
+        {
+            "name": "USB-microUSB cable",
+            "description": "",
+            "image": "",
+            "price": 2.8,
+>>>>>>> Stashed changes
             "is_printable": false,
             "n_parts": 1.0
         }
