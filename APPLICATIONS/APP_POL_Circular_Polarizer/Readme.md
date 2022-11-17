@@ -77,9 +77,8 @@ width="500">
 * 16 × 5 mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
 * 16 x Screws DIN912 ISO 4762 - M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 3 x Screws DIN912 ISO 4762 M2×16 mm [🢂](https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0)
-* 1 x 3D cinema googles [🢂](https://www.amazon.de/-/en/dp/B09K7DGJ47/ref=sr_1_7?keywords=polarize+3d+kino+brille&qid=1636044007&sr=8-7)  
+* 1 x 3D cinema googles [🢂](https://www.amazon.de/-/en/Circular-Polarized-Passive-Glasses-Special/dp/B08SHWPVCM/ref=sr_1_3?keywords=polarisierte+3d+kino+brille&qid=1668693530&sr=8-3)  
 * _NOT USED_ 1 × flashlight [🢂](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)
-
 
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
@@ -109,7 +108,7 @@ The incoming light passes through a linear polarizer (grey UC2 cube). In the nex
 width="550">
 </p>
 
-The circular polarizer filter was taken out of 3D cinema glasses, and it was inserted into a sample holder insert. This new circular polarizer filter insert was assembled with a UC2 unit block. Ta-da! The circular polarizer cube is ready for flight.
+[The quarter wave plate](http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/quarwv.html) was used for the demonstration of the circular polarizing light.  It was taken out of 3D cinema glasses, and it was inserted into a sample holder insert. This new circular polarizer filter insert was assembled with a UC2 unit block. Ta-da! The circular polarizer cube is ready for flight.
 
 
 The effect of the propagation direction of the linear polarizer can be seen in the video below. The polarization direction of light before the circular polarizer changes with turning the wheel of the linear polarizer and changing its orientation.

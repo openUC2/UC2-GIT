@@ -25,7 +25,7 @@ Note: Getting the right lenses is always a bit of an issue. The important thing 
 Link - name of part             |  Amount |  Comment | Price
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
   3D printing material|~260 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in [3D printing section](#-3d-printing)|8 €
-  [Microscope objective 4×](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)  |  1 piece | It is possible to use 10× objective as well, but we recommend 4× for this setup.| 11 €
+  [Microscope objective 4×](https://de.aliexpress.com/item/4000427537503.html?spm=a2g0o.productlist.0.0.67751923tf28yw&algo_pvid=d7e0bea4-603e-411b-bfe1-e91922089544&algo_exp_id=d7e0bea4-603e-411b-bfe1-e91922089544-0&pdp_ext_f=%7B%22sku_id%22%3A%2210000001769780340%22%7D&pdp_npi=2%40dis%21EUR%2114.77%2110.93%21%21%21%21%21%400b0a187916687190391142217efb81%2110000001769780340%21sea&curPageLogUid=rjBSQLfsavAW)  |  1 piece | It is possible to use 10× objective as well, but we recommend 4× for this setup.| 11 €
   [Lens 100 mm](https://optikbaukasten.de/)  |  1 piece |Artikel 2004|6 €
   [Lens 40 mm](https://optikbaukasten.de/)  |  2 pieces |Artikel 2120|12 €
   [Lens -50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)  |  1 piece |LC1259|19 €
@@ -175,4 +175,4 @@ This is a prototype of the MiniBOX for mass production. Using the laser cutter d
 
 <div>Laser cutter Icon source: Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-## <a href="#icon08" name="icon08"><img src="./IMAGES/E_S.png" height="40"></a> Done! Great job! Explore the experiments with our [work sheets](../DOCUMENT/UC2_simpleBOX.pdf) now.
+## <a href="#icon08" name="icon08"><img src="./IMAGES/E_S.png" height="40"></a> Done! Great job! Explore the experiments with our [work sheets](../DOCUMENTS/SimpleBOX/UC2_simpleBOX_EN.pdf) now.

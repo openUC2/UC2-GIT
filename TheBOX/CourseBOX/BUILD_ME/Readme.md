@@ -23,12 +23,12 @@ This guide currently describes how to build both the [finite-corrected version](
 Link - name of part             |  Amount |  Comment | Price
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
   3D printing material|~580 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in 3D printing section|15 €
-  [Lens 50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1131)  |  5 pieces ||á 21 €
-  [Lens 100 mm](https://optikbaukasten.de/)  |  3 pieces |Artikel 2004|á 6 €
-  [Lens for Eye Cube](https://www.pgi-versand.de/?id=47&mode=artdet&artnr=551.OAL)  |  1 piece |551.OAL|á 5 €
-  [Beamsplitter](https://optikbaukasten.de/)  |  1 piece |Artikel 2137|á 27 €
-  [Flashlight](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)  |  1 piece | Light source for microscope.|á 7 €
-  [Laser Pointer](https://www.conrad.de/de/p/ansmann-laserpointer-2in1-reichweite-max-im-freifeld-50-m-2162622.html)  |  1 piece | Light source for the Abbe experiment. With this very one you don't even need the flashlight. More information below.|á 5 €
+  [Lens 50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1131)  |  5 pieces || 21 €
+  [Lens 100 mm](https://optikbaukasten.de/)  |  3 pieces |Artikel 2004| 6 €
+  [Lens for Eye Cube](https://pgi-shop.de/achromat-2-linser-f-26-5-mm-oe-15-mm/)  |  1 piece |551.OAL| 6.50 €
+  [Beamsplitter](https://optikbaukasten.de/)  |  1 piece |Artikel 2137| 27 €
+  [Flashlight](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)  |  1 piece | Light source for microscope.| 7 €
+  [Laser Pointer](https://www.conrad.de/de/p/ansmann-laserpointer-2in1-reichweite-max-im-freifeld-50-m-2162622.html)  |  1 piece | Light source for the Abbe experiment. With this very one you don't even need the flashlight. More information below.| 7 €
   [Magnets](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)  |  64 pieces | When using 3DP Cubes and baseplates. Ball magnets, diameter 5 mm.|total 20 €
   [Screws](https://eshop.wuerth.de) |   7 pieces | M2×16 - 6 pieces; M2 nut - 6 pieces; M3×18 - 4 pieces | total ~2 €
   [Screws](https://eshop.wuerth.de) |   112 pieces | For 3DP Cubes extra: (Art.-Nr. 00843  12) M3×12, galvanized steel - 64  pieces; (Art.-Nr. 00843  8) M3×8, galvanized steel - 64 pieces (or 128 pieces of M3×12) - BUT for this setup it isn't necessary to have screws on both sides ; (Art.-Nr. 025505 8) M5×8, galvanized steel - 96  pieces (half if one-sided) | total ~4 €
@@ -104,7 +104,7 @@ Prepare the Raspberry Pi following our [tutorial in UC2-Software-GIT](https://gi
 Link - name of part             |  Amount |  Comment | Price per amount used
   :-------------------------:|:----------------------------:|:-------------------------:|:-------------------------:
   3D printing material|~620 g| Choose material that works with your 3D printer. If unsure, have a look at the guide in 3D printing section|20 €
-  [Microscope objective 4×](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)  |  1 piece | | 10 €
+  [Microscope objective 4×](https://de.aliexpress.com/item/4000427537503.html?spm=a2g0o.productlist.0.0.67751923tf28yw&algo_pvid=d7e0bea4-603e-411b-bfe1-e91922089544&algo_exp_id=d7e0bea4-603e-411b-bfe1-e91922089544-0&pdp_ext_f=%7B%22sku_id%22%3A%2210000001769780340%22%7D&pdp_npi=2%40dis%21EUR%2114.77%2110.93%21%21%21%21%21%400b0a187916687190391142217efb81%2110000001769780340%21sea&curPageLogUid=rjBSQLfsavAW)  |  1 piece | | 11 €
   [Lens 35 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1027)  |  1 piece |We did the alignment with lenses of these focal lengths, but other combination are also possible. The alignment principle stays the same, but the positions of the element will be different. |22 €
   [Lens 40 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1422)  |  2 pieces ||44 €
   [Lens 50 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=LA1131)  |  1 piece ||21 €
@@ -128,7 +128,7 @@ We have a good experience with this printer and settings:
   * PLA 1,75 mm, for one Box: 0,6 kg = 235 m = 85 hours = 20 €
   * Profile Optimal 0,15 mm, infill 20%, no support, 215/60°C
 
-### Note: The design of the mechanical Z-stage has recently been changed. The files here are not yet up-to-date. Please check the [Mechanical Z-stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2) for the latest version. Same applies to the Lens Holder available [here](../../../CAD/ASSEMBLY_CUBE_Lens_v2)
+### Note: The design of the mechanical Z-stage has recently been changed. The files here are not yet up-to-date. Please check the [Mechanical Z-stage](../../../CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical) for the latest version. Same applies to the Lens Holder available [here](../../../CAD/ASSEMBLY_CUBE_Lens)
 
 ### <a href="#icon03" name="icon03"><img src="./IMAGES/D.png" height="40"></a>  Housing
 Name of part - Link to STL file             |  Amount

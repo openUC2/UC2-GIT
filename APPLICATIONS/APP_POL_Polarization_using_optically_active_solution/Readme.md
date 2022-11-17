@@ -10,7 +10,6 @@ The optical activity was discovered by Arago in the quartz in 1811. In 1847, mol
 
 Two molecules with the same chemical formula, the mirror image of the other, describe molecular chirality. These come in two varieties: dextrorotatory (rotate plane-polarized light clockwise) and levorotatory (counterclockwise).
 
-
 Sucrose is a disaccharide made of glucose and fructose and dextrorotatory, which rotates the plane-polarized light to the right. A well-known example of sucrose is table sugar produced naturally in plants. Fructose is a simple ketonic sugar and levorotatory which rotates the plane-polarized light to the left. Glucose is a simple sugar that belongs to the carbohydrate family and is dextrorotatory. The molecules of fructose and glucose are mirror images of each other. Corn syrup is one of the most commonly used sugar solutions *[2]*.
 
 Two simple sugar-water solutions were prepared and used in the experiment. The first solution was produced with one cup of table sugar and one cup of water. Table sugar is sucrose and dextrorotatory, turning clockwise to the right plane-polarized light. Grape sugar is dextrorotatory and glucose, and the second solution mixes grape sugar (Traubenzucker) and water components in the same amount. It rotates the incoming light polarization state to the right, clockwise direction. However, two solutions have different polarization states at the same time because of their molecular structure and demonstrate different colors inside the crossed polarizers.
