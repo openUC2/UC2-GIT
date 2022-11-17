@@ -38,7 +38,7 @@ In the end it should look like this:
 ## <img src="../IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 * 1× Smartphone
-*  32× - 36× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+*  32× - 36× 5mm Ball magnets [🢂](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)
 * 32× - 56× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 7× DIN912 M3×8 screws (galvanized steel)
 * 1× M3×30 mm and M3 nut - non-magnetic

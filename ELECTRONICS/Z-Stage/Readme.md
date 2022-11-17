@@ -23,7 +23,7 @@ They connect to the IN1, IN2, IN3, IN4 of the motor controller respectively, as 
 
 ## Soldering
 
-Have a look in the [TUTORIALS](../TUTORIALS) for some soldering guidelines, if you're not professional in it. Then follow these steps:
+Have a look in the [TUTORIALS](../../TUTORIALS) for some soldering guidelines, if you're not professional in it. Then follow these steps:
 
 * Take 10 wires and cut them to around 100 mm
 * Remove the isolation of each wire at both sides

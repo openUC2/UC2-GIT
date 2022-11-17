@@ -120,7 +120,7 @@ If you encounter problems with your prior-to-install working internet connection
 and replace obvious nonsense entries by something appropriate (e.g. [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)).
 Changes will take effect after a reboot. If your problem persists please open an issue. Your final terminal screen should look like this:
 
-![Network once finished](./IMAGES/finish_network.png)
+![Network once finished](./images/finish_network.png)
 
 ### Backups
 

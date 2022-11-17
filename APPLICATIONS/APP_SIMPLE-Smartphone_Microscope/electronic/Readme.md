@@ -43,7 +43,7 @@ In the end it should look like this (UC2_v2 cubes displayed):
 * Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
 * 1× Smartphone
 * 1× LED-Array, Neopixel, 8x8 [🢂](https://www.amazon.de/AZDelivery-Matrix-CJMCU-8-Arduino-Raspberry/dp/B078HYP681/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=neopixel+matrix&qid=1565008576&s=gateway&sr=8-2)
-*  36× - 68× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+*  36× - 68× 5mm Ball magnets [🢂](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)
 * 36× - 72× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 1× M3×30 mm and M3 nut - non-magnetic
 * 1× Objective Lens (e.g. 10×, NA 0.25) [🢂](https://de.aliexpress.com/item/4000427537503.html?algo_pvid=92c2046d-1afb-4c61-ad4d-c8a3535074dc&algo_exp_id=92c2046d-1afb-4c61-ad4d-c8a3535074dc-0&pdp_ext_f=%7B%22sku_id%22%3A%2210000001769780334%22%7D&pdp_npi=2%40dis%21EUR%2114.77%2110.93%21%21%21%21%21%402100bddb16687215483344070eb889%2110000001769780334%21sea&curPageLogUid=1lQjdJdA4gbN)

@@ -47,12 +47,12 @@ Note: The pictures on this site might not show the latest version of the cubes. 
 * 1× [Kinematic Mirror Insert](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_base.stl)
 * 1× [Kinematic Mirror plate](./STL/20_Cube_Insert_Kinematic_Mirrormount_45_Plate.stl)
 * 1× [Objective Lens Insert](./STL/20_Cube_Insert_Objective_Holder.stl)
-* Optional but useful: 1× [Sample comb](./STL/20_Cube_Sampleholder)
+* Optional but useful: 1× [Sample comb](./STL/20_Cube_Sampleholder.stl)
 
 
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../../TUTORIALS/RESOURCES) for more information!
-*  40 × - 83× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+*  40 × - 83× 5mm Ball magnets [🢂](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)
 * 50× - 70× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 * 2× M3×30 mm and 2× M3 nut - non-magnetic [🢂](https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0)
 * 4× M3×18 mm (or M3×20 or alike) [🢂](https://www.amazon.de/Edelstahl-Sechskopf-Knopf-Schrauben-Unterlegscheiben-Sortiment-Aufbewahrung/dp/B073SS7D8J/ref=sr_1_fkmr0_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=zylinderkopfschrauben+set+galvanisiert&qid=1565007371&s=diy&sr=1-1-fkmr0)
@@ -60,7 +60,7 @@ Note: The pictures on this site might not show the latest version of the cubes. 
 * 1× Raspberry Pi Camera [🢂](https://www.amazon.de/Raspberry-Pi-v2-1-1080P-Kamera-Modul/dp/B01ER2SMHY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1LUZK9XHFS5CX&keywords=raspberry+pi+camera+v2.1&qid=1565008837&s=gateway&sprefix=raspberry+pi+camera+%2Caps%2C163&sr=8-4)
 * 1× Laser pointer [🢂](https://www.laserlands.net/11040037.html)
 * 1× Smartphone Camera Lens [🢂](https://www.amazon.de/BisLinks%C2%AE-Facing-Kamera-Ersatz-Repair/dp/B01M9K9RVN/ref=sr_1_10?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=lg+g3+camera&qid=1565005739&s=gateway&sr=8-10)
-* 1× Achromat Lens, *f'* = 26,5 mm [🢂](https://astromedia.ch/produkt/achromat-265mm-o-180mm/)
+* 1× Achromat Lens, *f'* = 26,5 mm [🢂](https://pgi-shop.de/achromat-2-linser-f-26-5-mm-oe-15-mm/)
 * 1× Objective Lens 10×, NA 0.3 [🢂](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)
 * 1× Objective Lens 4× [🢂](https://de.aliexpress.com/item/32947647522.html?spm=a2g0x.search0104.3.54.6cf57a4c3DwsTO&transAbTest=ae803_3&ws_ab_test=searchweb0_0%2Csearchweb201602_6_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_10084_453_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103%2Csearchweb201603_6%2CppcSwitch_0&algo_pvid=06d972be-b176-4446-8665-56d9e61a8d2c&algo_expid=06d972be-b176-4446-8665-56d9e61a8d2c-7)
 * 1× Plexiglass rod - half [🢂](https://www.ebay.de/itm/10-99-m-Acrylglas-Halb-Rundstab-15-mm-Hohe-7-5-mm-Lange-wahlbar/362697878979?hash=item54727a6dc3:g:WmAAAOSwUKxYm1H3)

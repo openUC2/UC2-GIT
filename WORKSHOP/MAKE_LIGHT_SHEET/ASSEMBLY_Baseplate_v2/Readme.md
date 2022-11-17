@@ -28,7 +28,6 @@ width="500">
 ### <img src="./IMAGES/P.png" height="40"> 3D printing parts
 In [STL](./STL) you find the following baseplates. Choose the size that will be the best for your setup:
 * [Assembly_base_4x1]
-* [Assembly_base_4x2]
 * [Assembly_base_4x4]
 
 Further, you find there:
@@ -38,7 +37,7 @@ Further, you find there:
 
 ### <img src="./IMAGES/B.png" height="40"> Additional parts
 
-* Ballmagnets (four magnets per baseplate unit) - 5 mm diameter 
+* Ballmagnets (four magnets per baseplate unit) - 5 mm diameter
 
 ## <img src="./IMAGES/A.png" height="40"> Assembly
 ### Assembly Video Tutorial

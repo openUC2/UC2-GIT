@@ -1,14 +1,14 @@
 # How to Connect the ESP32 with the GUI
-Learn about this in the subfolders.
-*   [LED-array](./ESP32_ledarr/README.md)
-*   [minimal LED-array ](./ESP32_ledarr_minimal_with_Button/README.md) (minimal working example together with a button)
-*   [MOTOR and Fluorescence (all-in-one) module](./ESP32_motor_fluo/README.md)
+Find more files about this in the subfolders.
+*   [LED-array](./ESP32_ledarr)
+*   [minimal LED-array ](./ESP32_ledarr_minimal_with_Button) (minimal working example together with a button)
+*   [MOTOR and Fluorescence (all-in-one) module](./ESP32_motor_fluo)
 
 # Setting up the LED-array with MQTT
 ## Prepare the Script
-Download the whole folder if you are using VSCode + PlatformIO. If you are using ARDUINO-IDE and prepared it as [explained here](../README.md), then you only need to: 
+Download the whole folder if you are using VSCode + PlatformIO. If you are using ARDUINO-IDE and prepared it as [explained here](../README.md), then you only need to:
 *   Create a new folder in your Arduino-folder called ̀`ESP32_ledarr`
-*   Download the [Main.cpp](./src/main.cpp), rename it to: `ESP32_ledarr.ino` and copy it into the just created folder.
+*   Download the [Main.cpp](./ESP32_ledarr/src/main.cpp), rename it to: `ESP32_ledarr.ino` and copy it into the just created folder.
 *   double click and wait for your IDE to open. It should look like this (after you scrolled slightly down):
 <p align="center">
 <img src="./IMAGES/ESP32_ledarrINO.png" width="800" alt="">

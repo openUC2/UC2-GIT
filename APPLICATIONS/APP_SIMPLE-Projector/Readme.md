@@ -22,7 +22,7 @@ To acquire the STL-files use the [UC2-Configurator](https://uc2configurator.netl
 ## <img src="./IMAGES/B.png" width="40"> Additional components
 * Check out the [RESOURCES](../../TUTORIALS/RESOURCES) for more information!
 * 2× planoconvex lens, *f'* = +40 mm, diameter 25,4 mm, (Artikel 2120) [🢂](https://optikbaukasten.de/)
-* 16× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+* 16× 5mm Ball magnets [🢂](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)
 * 12× - 24× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 1× flashlight [🢂](https://www.pollin.de/p/led-taschenlampe-alu-5-w-cree-led-3xmicro-schwarz-b-ware-535448)
 * Diapositiv or any other image on a translucent medium, you can for example draw something on a microscope slide or a foil

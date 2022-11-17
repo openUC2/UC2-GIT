@@ -35,7 +35,7 @@ When using a lens of your choice, please follow our [Tutorial: Design your own L
 * 1× planoconvex lens, *f'* = +100 mm, diameter 25,4 mm (Artikel 2004) [🢂](https://optikbaukasten.de/)
 * 2× planoconvex lens, *f'* = +40 mm, diameter 25,4 mm, (Artikel 2120) [🢂](https://optikbaukasten.de/)
 * 1× planoconcave lens, *f'* = -50 mm, diameter 25,4 mm [🢂](https://www.thorlabs.com/thorproduct.cfm?partnumber=LC1259)
-* 32× 5mm Ball magnets [🢂](https://www.magnetmax.de/Neodym-Kugelmagnete/Magnetkugel-Kugelmagnet-O-5-0-mm-Neodym-vernickelt-N40-haelt-400-g::158.html)
+* 32× 5mm Ball magnets [🢂](https://www.magnetladen.de/kugelmagnet-5-mm-n42-nickel/)
 * 16× - 32× Screws DIN912 ISO 4762 M3×12 mm [🢂](https://eshop.wuerth.de/Zylinderschraube-mit-Innensechskant-SHR-ZYL-ISO4762-88-IS25-A2K-M3X12/00843%20%2012.sku/de/DE/EUR/)
 
 ## <img src="./IMAGES/A.png" width="40"> Assembly
