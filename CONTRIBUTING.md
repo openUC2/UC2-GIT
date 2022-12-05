@@ -31,7 +31,7 @@ Things in need of attention are currently described in issues so have a look the
 
 ### Hardware :hammer:
 * We support you with the basic CAD design files, so that you can develop specific hardware-function which can fit in our cubes.
-* We provide a brief tutorial on how to design an insert which adapts any part to the UC2 system. Please find it [here](./CAD/ASSEMBLY_CUBE_Base_v2/#tutorial-on-how-to-design-an-insert-in-inventor) on how to design an insert in Inventor.
+* We provide a brief tutorial on how to design an insert which adapts any part to the UC2 system. Please find it [here](./CAD/ASSEMBLY_CUBE_Base/#tutorial-on-how-to-design-an-insert-in-inventor) on how to design an insert in Inventor.
 * Improve the design of parts. STL files or descriptions of changes are helpful, even if you don't use OpenSCAD or Inventor.
 
 ### Software :computer:
