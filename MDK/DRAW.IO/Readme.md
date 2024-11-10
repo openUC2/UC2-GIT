@@ -10,6 +10,9 @@ You can load the libraries directly in draw.io using these links:
 
 [UC2_simple](https://app.diagrams.net/?splash=0&clibs=Uhttps://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fbionanoimaging%2FUC2-GIT%2Fmaster%2FMDK%2FDRAW.IO%2FUC2_simple.xml)
 
+[UC2_pro](https://app.diagrams.net/?splash=0&clibs=Uhttps://app.diagrams.net/?splash=0&clibs=Uhttps://raw.githubusercontent.com/openUC2/UC2-GIT/refs/heads/master/MDK/DRAW.IO/UC2_Pro.xml)
+
+
 [Both libraries](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fbionanoimaging%2FUC2-GIT%2Fmaster%2FMDK%2FDRAW.IO%2FUC2_simple.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fbionanoimaging%2FUC2-GIT%2Fmaster%2FMDK%2FDRAW.IO%2FUC2_schemes.xml)
 
 ## [UC2_schemes](./UC2_schemes.xml)
