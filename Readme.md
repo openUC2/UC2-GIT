@@ -1,9 +1,3 @@
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/UC2_logo_text.png" width="400"></a>
-</p>
-
-# **UC2 - Open and Modular Optical Toolbox**
-
 
 **⚠️ IMPORTANT NOTICE:**
 This repository is no longer actively maintained. But don’t worry—**openUC2 is more alive than ever!**
@@ -15,6 +9,17 @@ For the latest updates, documentation, and community discussions, please check o
 * 🌐 **Website**: [openuc2.com](https://openuc2.com)
 
 **Open-source forever** – so we can become the *Raspberry Pi for optics!*
+
+
+
+
+
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/UC2_logo_text.png" width="400"></a>
+</p>
+
+# **UC2 - Open and Modular Optical Toolbox**
 
 
 ---
